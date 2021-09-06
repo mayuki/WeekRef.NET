@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>WeekRef.NET - 2021-09-03</title>
+
+  <link rel="canonical" href="/2021/09/03/updates">
+
+      <link type="application/rss+xml" rel="alternate" href="/feed.rss" />
+      <link type="application/atom+xml" rel="alternate" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="WeekRef.NET - 2021-09-03" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2021/09/03/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2021-09-03
+          </h1>
+              <div class="meta">Published on Friday, 03 September 2021</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">主なトピックス</h2>
+<p>今週は大きなリリースはなく、主に .NET 6 に向けた改善や API の紹介記事などが出てきています。</p>
+<ul>
+<li><a href="https://devblogs.microsoft.com/dotnet/file-io-improvements-in-dotnet-6/">File IO improvements in .NET 6 | .NET Blog</a></li>
+<li><a href="https://devblogs.microsoft.com/dotnet/new-dotnet-6-apis-driven-by-the-developer-community/">New .NET 6 APIs driven by the developer community | .NET Blog</a></li>
+</ul>
+<p>.NETのクラスライブラリ設計の改訂新版が来月上旬に発売となります。</p>
+<ul>
+<li><a href="https://twitter.com/yfakariya/status/1433398719815114756">https://twitter.com/yfakariya/status/1433398719815114756</a></li>
+</ul>
+<p>現在入手可能なものは原著の 2nd Edition をベースとしたものですでに12年が経過しており、今回の改訂新版は去年出版された 3rd Edition となり、async から <code>Span&lt;T&gt;</code> などもカバーされているようです。</p>
+<h2 id="section-1">ヘッドライン</h2>
+<h3 id="file-io-improvements-in.net-6.net-blog">File IO improvements in .NET 6 | .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/file-io-improvements-in-dotnet-6/">https://devblogs.microsoft.com/dotnet/file-io-improvements-in-dotnet-6/</a></p>
+<p>.NET 6 で FileStream を改善してパフォーマンスを改善した話。</p>
+<p>スレッドセーフなオフセットベースでのアクセスを可能とする <code>RandomAccess</code> クラスの追加。<code>PreallocationSize</code> による事前に必要なサイズを渡すオプションの追加により、あらかじめ必要なサイズを OS に通知できるように。複数のバッファを読み書きする Scatter-Gather IO (ベクタ IO) をサポートする API の追加で scatter/gather パターンでのシステムコールを減らしパフォーマンスを向上できるように。</p>
+<ul>
+<li><a href="https://docs.microsoft.com/ja-jp/dotnet/api/system.io.randomaccess?view=net-6.0">RandomAccess Class (System.IO) | Microsoft Docs</a></li>
+</ul>
+<p>挙動に破壊的変更が若干あるため、.NET 5 と同様の挙動にするオプションの設定方法についても説明 (.NET 7 で削除予定)。</p>
+<h3 id="new.net-6-apis-driven-by-the-developer-community.net-blog">New .NET 6 APIs driven by the developer community | .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/new-dotnet-6-apis-driven-by-the-developer-community/">https://devblogs.microsoft.com/dotnet/new-dotnet-6-apis-driven-by-the-developer-community/</a></p>
+<p>.NET 6 で追加や使いやすくなった API の紹介。</p>
+<ul>
+<li>ファイルのランダムアクセスの API</li>
+<li>Environment.ProcessId/ProcessPath</li>
+<li>CSPNG から手軽にランダムバイト列の取得</li>
+<li>Parallel.ForEachAsync の追加</li>
+<li>LINQ の Chunk, MinBy/MaxBy の追加</li>
+<li>ConfigurationHelper での必須項目の取得方法の追加</li>
+<li>2の乗数かどうかをチェックする BitOperations.IsPow2 と一番近い値にする BitOperations.RoundUpToPowerOf2 の追加</li>
+<li>Task の待機にタイムアウトを指定できる WaitAsync(TimeSpan) の追加</li>
+<li>ArgumentNullException を簡単にスローする ArgumentNullException.ThrowIfNull の追加</li>
+<li>ネイティブメモリーを扱う NativeMemory クラスの追加</li>
+<li>POSIX シグナルハンドリング</li>
+<li>OpenTelemetry API の形をベースとした Metrics API の追加</li>
+<li>await を使用する形のモダンなタイマーの追加</li>
+</ul>
+<h3 id="introducing-the.net-maui-community-toolkit-preview.net-blog">Introducing the .NET MAUI Community Toolkit (Preview) | .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/introducing-the-net-maui-community-toolkit-preview/">https://devblogs.microsoft.com/dotnet/introducing-the-net-maui-community-toolkit-preview/</a></p>
+<p>.NET MAUI Community Toolkit のプレビューリリースとスケジュールについて。また、同時に Xamarin Community Toolkit の互換インターフェースを提供するライブラリも公開。</p>
+<ul>
+<li><a href="https://devblogs.microsoft.com/xamarin/introducing-net-maui-compatibility-for-the-xamarin-community-toolkit/">Introducing .NET MAUI Compatibility for the Xamarin Community Toolkit</a></li>
+</ul>
+<h3 id="windows-terminal-preview-1.11-release-windows-command-line">Windows Terminal Preview 1.11 Release | Windows Command Line</h3>
+<p><a href="https://devblogs.microsoft.com/commandline/windows-terminal-preview-1-11-release/">https://devblogs.microsoft.com/commandline/windows-terminal-preview-1-11-release/</a></p>
+<p>Windows Terminal Preview 1.11 がリリース。</p>
+<p>タイトルバーのアクリルスタイル、システムトレイへの最小化、強調テキストのスタイル、+ボタンへのドラッグアンドドロップ、ペイン関連の強化など。</p>
+<ul>
+<li><a href="https://github.com/microsoft/terminal/releases/tag/v1.10.2383.0">Release Windows Terminal Preview v1.10.2383.0 · microsoft/terminal</a></li>
+</ul>
+<h3 id="resharper-2021.2.1-and-rider-2021.2.1-bug-fixes-are-out">ReSharper 2021.2.1 and Rider 2021.2.1 Bug Fixes Are Out!</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2021/08/27/resharper-rider-2021-2-1/">https://blog.jetbrains.com/dotnet/2021/08/27/resharper-rider-2021-2-1/</a></p>
+<p>Rider 2021.2.1 と ReSharper 2021.2.1 のリリース。主にバグフィックス。</p>
+<h3 id="g2-grpc-over-http3-by-jamesnk-pull-request-256-grpcproposal">G2: gRPC over HTTP/3 by JamesNK · Pull Request #256 · grpc/proposal</h3>
+<p><a href="https://github.com/grpc/proposal/pull/256">https://github.com/grpc/proposal/pull/256</a></p>
+<p>gRPC over HTTP/3 の提案。エラーコードのマッピングや HTTP/2 とは異なる部分の対応。</p>
+<h3 id="net-core-2.02.1-has-reached-end-of-life">.NET Core 2.0/2.1 has reached end of life</h3>
+<p>.NET Core 2.0 と 2.1 のサポートが8月21日に終了した旨のアナウンス。</p>
+<ul>
+<li><a href="https://github.com/dotnet/announcements/issues/199">.NET Core 2.1 has reached end of life · Issue #199 · dotnet/announcements</a></li>
+<li><a href="https://github.com/dotnet/announcements/issues/86">.NET Core 2.0 has reached end of life · Issue #86 · dotnet/announcements</a></li>
+</ul>
+<h3 id="visual-studio-2022-for-mac-version-17.0-private-preview-1.3">Visual Studio 2022 for Mac version 17.0 Private Preview 1.3</h3>
+<p><a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/mac-release-notes-preview#17.0.0-priv-pre.1.3">https://docs.microsoft.com/en-us/visualstudio/releases/2022/mac-release-notes-preview#17.0.0-priv-pre.1.3</a></p>
+<p>Visual Studio 2022 for Mac version 17.0 Private Preview 1.3 がリリース。</p>
+<p>主にバグフィックスを含むリリース。現在プライベートプレビュー中のためフォームでの申し込みが必要。</p>
+<h2 id="section-2">アーティクル、スライドなど</h2>
+<h3 id="intellisense-for-hosted-c-script">IntelliSense for Hosted C# Script</h3>
+<p><a href="http://haacked.com/archive/2021/09/01/hosted-csharp-intellisense/">http://haacked.com/archive/2021/09/01/hosted-csharp-intellisense/</a></p>
+<p>C# スクリプトの IntelliSense を実現するための MirrorSharp や OmniSharp の紹介。</p>
+<h3 id="investigation-of-an-openssl-cve-found-in-aspnet5.0-image">Investigation of an OpenSSL CVE found in aspnet:5.0 image</h3>
+<p><a href="https://medium.com/&#64;olivier.gaumond/investigation-of-an-openssl-cve-found-in-aspnet-5-0-image-2d66b03c9d53">https://medium.com/&#64;olivier.gaumond/investigation-of-an-openssl-cve-found-in-aspnet-5-0-image-2d66b03c9d53</a></p>
+<p>OpenSSL CVE が発行され、.NET 5 の ASP.NET Core のコンテナーイメージを脆弱性スキャンで検出される話。</p>
+<p>これは Debian のベースイメージは更新されたがその後に .NET のイメージが再ビルドされていないため検出される。バージョンの固定による把握や脆弱性スキャンの重要性。</p>
+<h3 id="the.net-teams-favorite-razor-features">The .NET Team's Favorite Razor Features</h3>
+<p><a href="https://dev.to/dotnet/the-net-team-s-favorite-razor-features-5b72">https://dev.to/dotnet/the-net-team-s-favorite-razor-features-5b72</a></p>
+<p>.NET チームがおすすめする Razor の機能 (主に ASP.NET Core のビューとしての Razor)。タグヘルパー, <code>&#64;await</code>, <code>&#64;inject</code>, <code>&#64;:</code>, 各種ライブラリーなど。</p>
+<h3 id="a-neat-trick-to-debug-exceptions-in-c">A neat Trick to Debug Exceptions in C#</h3>
+<p><a href="https://www.rismosch.com/article?id=a-neat-trick-to-debug-exceptions-in-c-sharp">https://www.rismosch.com/article?id=a-neat-trick-to-debug-exceptions-in-c-sharp</a></p>
+<p>例外デバッグのちょっとしたテクニックの紹介。catch 句ではすでにスタックトレースが巻き戻った状態になるが、when 句の中ではまだスタックの状態が維持されているため、そこで止めることで呼び出し元の状態を確認できるというテクニック。</p>
+<p><img src="https://user-images.githubusercontent.com/9012/132095029-3dec69ba-71c9-4f00-929a-1e23ad91250a.png" alt="image" />
+<img src="https://user-images.githubusercontent.com/9012/132095027-57fe587d-f3c0-4ba0-964e-594234c74881.png" alt="image" /></p>
+<h3 id="optimization-of.net-applications-a-big-result-of-small-edits">Optimization of .NET applications: a big result of small edits</h3>
+<p><a href="https://pvs-studio.com/en/blog/posts/csharp/0852/">https://pvs-studio.com/en/blog/posts/csharp/0852/</a></p>
+<p>.NET Framework アプリケーションに関する最適化のポイントについて (.NET/.NET Core ではなく .NET Framework の話であることに注意)。</p>
+<h3 id="blazor-webassemblyaot">Blazor WebAssemblyのAOTコンパイルでクライアントサイドの画像処理を高速化</h3>
+<p><a href="https://zenn.dev/kaorumori/articles/1aa45e5ec256c1">https://zenn.dev/kaorumori/articles/1aa45e5ec256c1</a></p>
+<p>.NET 6 Preview 4 で導入された Blazor WebAssemly の AOT コンパイルを使用することで処理を高速化することについて。</p>
+<p>コンパイルには時間がかかるがImageSharp のような処理内容次第では大きな効果が見込める実例など。</p>
+<ul>
+<li><a href="https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-preview-4/#blazor-webassembly-ahead-of-time-aot-compilation">Blazor WebAssembly ahead-of-time (AOT) compilation</a></li>
+</ul>
+<h3 id="authenticating-your-nextjs-app-to-a.net-api-with-auth0">Authenticating your NextJs App to a .net API with Auth0</h3>
+<p><a href="https://medium.com/&#64;projectsbydan/authenticating-your-nextjs-app-to-a-net-api-with-auth0-d092747a6201">https://medium.com/&#64;projectsbydan/authenticating-your-nextjs-app-to-a-net-api-with-auth0-d092747a6201</a></p>
+<p>ASP.NET Core で実装された API 呼び出す Next.js アプリを Auth0 で認証する方法について。</p>
+<h3 id="firebase-authentication.net-5">Firebase Authentication .NET 5</h3>
+<p><a href="https://dev.to/ivan_pesenti/firebase-authentication-net-5-29oi">https://dev.to/ivan_pesenti/firebase-authentication-net-5-29oi</a></p>
+<p>ASP.NET Core アプリケーションで Firebase Authentication を使用する手順について。</p>
+<h3 id="add-a-readme-to-your-nuget-package-the-nuget-blog">Add a README to Your NuGet Package | The NuGet Blog</h3>
+<p><a href="https://devblogs.microsoft.com/nuget/add-a-readme-to-your-nuget-package/">https://devblogs.microsoft.com/nuget/add-a-readme-to-your-nuget-package/</a></p>
+<p>NuGet パッケージに README ファイルを含めてパブリッシュすることで NuGet.org のパッケージページ上に表示する方法について。ただし、現状 .NET 6 Preview の SDK では snupkg を生成するようにするとエラーとなる問題がある点に注意。</p>
+<ul>
+<li><a href="https://github.com/NuGet/Home/issues/10791">Cannot use embeded PackageReadmeFile when using snupkg for symbols · Issue #10791 · NuGet/Home</a></li>
+</ul>
+<h3 id="unconventional-way-to-name-this-variable-in-extension-methods">(Un)Conventional way to name <code>this</code> variable in extension methods</h3>
+<p><a href="https://medium.com/&#64;simonas.baltulionis/un-conventional-way-to-name-this-variable-in-extension-methods-68091f9f8b8b">https://medium.com/&#64;simonas.baltulionis/un-conventional-way-to-name-this-variable-in-extension-methods-68091f9f8b8b</a></p>
+<p>拡張メソッドのターゲットとなる引数 (例: <code>this string value</code>) の名前に <code>this</code> という名前を使えてしまうという話と、それを引名前付き引数で呼び出すときに Unicode エスケープできるという話。</p>
+<h3 id="net-annotated-monthly-september-2021-the.net-tools-blog">.NET Annotated Monthly | September 2021 | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2021/09/02/net-annotated-monthly-september-2021/">https://blog.jetbrains.com/dotnet/2021/09/02/net-annotated-monthly-september-2021/</a></p>
+<p>JetBrains による .NET 関連のまとめ9月号</p>
+<h2 id="section-3">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="cysharpobservablecollections-high-performance-observable-collections-and-synchronized-views-for-wpf-blazor-unity">Cysharp/ObservableCollections: High performance observable collections and synchronized views, for WPF, Blazor, Unity.</h3>
+<p><a href="https://github.com/Cysharp/ObservableCollections">https://github.com/Cysharp/ObservableCollections</a></p>
+<p>WPF, Blazor, Unity 向けの変更通知を受けられるコレクションを提供するライブラリ。</p>
+<p><code>ObservableCollection&lt;T&gt;</code> とは異なりあらかじめソートされた結果のビューなどを定義しておくことで表示に反映していくということができる。</p>
+<h3 id="wiremock-netwiremock.net-wiremock.net-is-a-flexible-library-for-stubbing-and-mocking-web-http-responses-using-request-matching-and-response-templating.based-on-the-functionality-from-wiremock.org-but-extended-with-more-functionality">WireMock-Net/WireMock.Net: WireMock.Net is a flexible library for stubbing and mocking web HTTP responses using request matching and response templating. Based on the functionality from WireMock.org, but extended with more functionality.</h3>
+<p><a href="https://github.com/WireMock-Net/WireMock.Net">https://github.com/WireMock-Net/WireMock.Net</a></p>
+<p>モック API サーバーを実装する <a href="http://wiremock.org/">WireMock</a> の .NET 実装。</p>
+<p>設定で単純な返しを行うモックサーバーからプロキシや、コードベースでふるまいを定義できる。</p>
+<h3 id="dirs-devdirectories-net-directories.net">dirs-dev/directories-net: Directories.Net</h3>
+<p><a href="https://github.com/dirs-dev/directories-net">https://github.com/dirs-dev/directories-net</a></p>
+<p>プラットフォームを抽象化してドキュメントフォルダーのようなものを取得するライブラリの .NET 実装。</p>
+<p>Windows は Known Folder API、macOS は Standard Directories 定義、Linux では xdg-user-dirs を使用する。</p>
+<ul>
+<li><a href="https://dirs.dev/">Extended Directories Guide for Software Developers</a></li>
+</ul>
+<h3 id="github-dotnetruntimelab-at-featureregexsrm">GitHub - dotnet/runtimelab at feature/regexsrm</h3>
+<p><a href="https://github.com/dotnet/runtimelab/tree/feature/regexsrm">https://github.com/dotnet/runtimelab/tree/feature/regexsrm</a></p>
+<p>runtimelab の Symbolic Regex Matcher の実装ブランチ。</p>
+<ul>
+<li><a href="https://github.com/AutomataDotNet/srm">AutomataDotNet/srm: High-performance .NET regex engine with predictable performance</a></li>
+</ul>
+<h2 id="section-4">サイト、ドキュメントなど</h2>
+<h3 id="quiz-evaluate-you.net-memory-management-skills">Quiz - Evaluate you .NET memory management skills</h3>
+<p><a href="https://quiz.dotnetmemoryexpert.com/">https://quiz.dotnetmemoryexpert.com/</a></p>
+<p>.NET の GC やメモリの扱いに関するクイズ。</p>
+<h3 id="abbot-make-chat-your-command-center">Abbot: Make Chat Your Command Center</h3>
+<p><a href="https://ab.bot/">https://ab.bot/</a></p>
+<p>C#, Python, JavaScript で Hubot のような Slack, Discord, Teams 向けのチャットコマンドアプリを作れるサービス。</p>
+<p>提供元の A Serious Business, Inc. は Phill Haack さんが創設者で CTO の会社。</p>
+<h3 id="ryzngard-twitch">ryzngard - Twitch</h3>
+<p><a href="https://www.twitch.tv/ryzngard">https://www.twitch.tv/ryzngard</a></p>
+<p>Roslyn にコミットしているエンジニアの Andrew さんのコーディング配信。</p>
+<ul>
+<li><a href="https://github.com/ryzngard">ryzngard (Andrew Hall)</a></li>
+</ul>
+<h3 id="section-5">ツイート</h3>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">『.NETのクラスライブラリ設計 改訂新版』、来月上旬発売予定です。<br>非互換の考え方などの付録も完全収録、コンテンツの追加等諸々で前の版の1.5倍超のボリューム、豪華監訳陣を加え訳文の質も上がってます！<br><br>C# 書かない人もライブラリ設計の参考になるかも。<br>電子版もリフロー形式で発売予定です。 <a href="https://t.co/hCTGTNFoc5">pic.twitter.com/hCTGTNFoc5</a></p>&mdash; FUJIWARA, Yusuke (&#64;yfakariya) <a href="https://twitter.com/yfakariya/status/1433398719815114756?ref_src=twsrc%5Etfw">September 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p><a href="https://www.pearson.com/us/higher-education/program/Cwalina-Framework-Design-Guidelines-Conventions-Idioms-and-Patterns-for-Reusable-NET-Libraries-3rd-Edition/PGM2686089.html">Framework Design Guidelines: Conventions, Idioms, and Patterns for Reusable .NET Libraries, 3rd Edition</a> の日本語訳版が10月上旬に発売予定。</p>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Unity 2021.1.19f1 で C# 8.0 の await using 使うとコンパイルエラー（CS0518）が起きる件について、「ランボー 怒りの Bug Reports」をキメたので、再現プロジェクト置いておきますね。<a href="https://t.co/LKUvz0cwGV">https://t.co/LKUvz0cwGV</a></p>&mdash; もんりぃ先生 (&#64;monry) <a href="https://twitter.com/monry/status/1433255396492283913?ref_src=twsrc%5Etfw">September 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Unity 2021.1 では C# 8 が使えるようになっているが、C# 8 の公式サポートは .NET Standard 2.1 または .NET Core 3.x 以降となっているギャップにより <code>await using</code> を使ったコードで問題が出るという話。<code>IAsyncDisposable</code> がないためでダミーの型を追加するか .NET Standard 2.1 をサポートする Unity 2021.2.0b6 以降を使う。</p>
+<ul>
+<li><a href="https://twitter.com/neuecc/status/1433264122209046529">IAsyncDisposableまとめ — neuecc (&#64;neuecc)</a></li>
+</ul>
+<h2 id="deep-dive">Deep Dive</h2>
+<h3 id="consider-returning-a-generic-dictionary-from-environment.getenvironmentvariables.issue-58438-dotnetruntime">Consider returning a generic <code>Dictionary</code> from <code>Environment.GetEnvironmentVariables</code>. · Issue #58438 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/issues/58438">https://github.com/dotnet/runtime/issues/58438</a></p>
+<p>Environment.GetEnvironmentVariables がジェネリックな Dictionary を返してほしいという話。</p>
+<p>Hashtable そのものや yield する際に DictionaryEntry が返ってくることを期待している既存コードが多く、過去に断念している話など。</p>
+<h3 id="api-proposal-make-stringbuilder.appendspanformattable-issue-58459-dotnetruntime-github">[API Proposal]: Make StringBuilder.AppendSpanFormattable · Issue #58459 · dotnet/runtime · GitHub</h3>
+<p><a href="https://github.com/dotnet/runtime/issues/58459">https://github.com/dotnet/runtime/issues/58459</a></p>
+<p>StringBuilder に ISpanFormattable を受ける API が欲しいという提案。</p>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/issues/58458">[API Proposal]: Add System.Guid support to StringBuilder · Issue #58458 · dotnet/runtime</a></li>
+</ul>
+<h3 id="use-indexof-to-find-value-for-smaller-enums-by-stephentoub-pull-request-57973-dotnetruntime">Use IndexOf to find value for smaller enums by stephentoub · Pull Request #57973 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/57973">https://github.com/dotnet/runtime/pull/57973</a></p>
+<p>Enum の文字列キャッシュなどを今まではバイナリサーチしていたが、数が少ない場合はリニアに探すほうが速いという PR。</p>
+<h3 id="add-symbolic-link-apis-by-carlossanlop-pull-request-54253-dotnetruntime">Add symbolic link APIs by carlossanlop · Pull Request #54253 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/54253">https://github.com/dotnet/runtime/pull/54253</a></p>
+<p>.NET 6 Preview 4 でシンボリックリンクやジャンクションなどを取り扱えるようになる API が追加。</p>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/api/system.io.filesysteminfo.resolvelinktarget?view=net-6.0">FileSystemInfo.ResolveLinkTarget(Boolean) Method (System.IO) | Microsoft Docs</a></li>
+<li><a href="https://github.com/dotnet/runtime/issues/24271">Proposed API for symbolic links · Issue #24271 · dotnet/runtime</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/57996">Add internal junction support to link APIs by carlossanlop · Pull Request #57996 · dotnet/runtime</a></li>
+</ul>
+<h3 id="higher-level-syntaxprovider-apis-for-incremental-generators-issue-54725-dotnetroslyn">Higher Level SyntaxProvider APIs for incremental generators · Issue #54725 · dotnet/roslyn</h3>
+<p><a href="https://github.com/dotnet/roslyn/issues/54725">https://github.com/dotnet/roslyn/issues/54725</a></p>
+<ul>
+<li><a href="https://github.com/dotnet/roslyn/pull/55984">Source generators high level syntax api by chsienki · Pull Request #55984 · dotnet/roslyn · GitHub</a></li>
+</ul>
+<h3 id="remove-usage-of-aggressiveoptimization-by-steveharter-pull-request-58209-dotnetruntime">Remove usage of [AggressiveOptimization] by steveharter · Pull Request #58209 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/58209">https://github.com/dotnet/runtime/pull/58209</a></p>
+<p>System.Text.Json から4か所の AggressiveOptimization を外した PR。</p>
+<p>2か所はループを持つため AO の効果がなく、残りの2つは非 R2R (Ready-to-Run) 環境の Release ビルドでのみ効果があり R2R では元々 AO 相当の効果がある、また AO を外すことで Dynamic PGO モード をサポートできるといった利点がある。</p>
+<p>ローカルの Release ビルドで…と書かれているので、通常配布されている .NET ランタイムの In-box ライブラリは各プラットフォーム向けで R2R 済みと思われる。</p>
+<p>Dynamic PGO は .NET 6 で導入された実行時にプロファイリングして最適化をかけるオプトイン機能(なので &quot;best perf but slow start&quot; / 開始は遅いが最高のパフォーマンス)。</p>
+<h3 id="add-win11-rids-by-vitek-karas-pull-request-58588-dotnetruntime-github">Add Win11 RIDs by vitek-karas · Pull Request #58588 · dotnet/runtime · GitHub</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/58588">https://github.com/dotnet/runtime/pull/58588</a></p>
+<p>Windows 11 向けの Runtime Identifier (RID) の追加。</p>
+<h3 id="use-lambda-expression-and-method-group-signature-in-type-inference-by-cston-pull-request-55786-dotnetroslyn">Use lambda expression and method group signature in type inference by cston · Pull Request #55786 · dotnet/roslyn</h3>
+<p><a href="https://github.com/dotnet/roslyn/pull/55786">https://github.com/dotnet/roslyn/pull/55786</a></p>
+<p>ラムダ式の型推論の強化に関する PR がマージされた。</p>
+<h3 id="support-generic-array-parameters-in-components-by-campersau-pull-request-34734-dotnetaspnetcore-github">Support generic array parameters in components by campersau · Pull Request #34734 · dotnet/aspnetcore · GitHub</h3>
+<p><a href="https://github.com/dotnet/aspnetcore/pull/34734">https://github.com/dotnet/aspnetcore/pull/34734</a></p>
+<p>型パラメーターを受けるような Blazor のコンポーネントで配列を使えなかった問題の修正 PR。</p>
+<h3 id="adds-tizen-backend-by-rookiejava-pull-request-2360-dotnetmaui">Adds Tizen backend by rookiejava · Pull Request #2360 · dotnet/maui</h3>
+<p><a href="https://github.com/dotnet/maui/pull/2360">https://github.com/dotnet/maui/pull/2360</a></p>
+<p>MAUI への Tizen のバックエンド追加の PR。</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
