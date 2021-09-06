@@ -19,10 +19,6 @@
   <link rel="canonical" href="@(Document.GetString("Canonical") ?? Document.GetLink(true))">
 
   @{
-    @foreach (IDocument rssFeed in Outputs["**/*.rss"])
-    {
-      <link type="application/rss+xml" rel="alternate" title="@rssFeed.GetString(WebKeys.Title)" href="@rssFeed.GetLink()" />
-    }
     @foreach (IDocument atomFeed in Outputs["**/*.atom"])
     {
       <link type="application/atom+xml" rel="alternate" title="@atomFeed.GetString(WebKeys.Title)" href="@atomFeed.GetLink()" />
