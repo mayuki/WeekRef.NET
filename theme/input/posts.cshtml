@@ -1,0 +1,24 @@
+ArchiveSources: => GetString("PostSources")
+ArchiveFilter: => GetBool("IsPost")
+ArchiveOrderKey: Published
+ArchiveOrderDescending: true
+ShowInNavbar: false
+---
+@foreach(IGrouping<int, IDocument> group in Document
+    .GetChildren()
+    .GroupBy(x => x.GetDateTime(WebKeys.Published).Year)
+    .OrderByDescending(x => x.Key))
+{
+    <h1 class="bg-dark text-light p-2">@group.Key</h1>
+    foreach (IDocument post in group)
+    {
+        <div class="post-preview">
+            <h3 class="post-title">@Html.DocumentLink(post)</h3>
+            @if(post.ContainsKey("Lead"))
+            {
+                <div class="post-subtitle">@post.GetString("Lead")</div>
+            }
+            <p class="post-meta">Published on @post.GetDateTime(WebKeys.Published).ToLongDateString()</p>
+        </div>
+    }
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  @if(Document.ContainsKey(WebKeys.Description))
+  {
+    <meta name="description" content="@Document.GetString(WebKeys.Description)">
+  }
+  @if(Document.ContainsKey(WebKeys.Author))
+  {
+    <meta name="author" content="@Document.GetString(WebKeys.Author)">
+  }
+
+  <title>@Document.GetString("PageTitle")</title>
+
+  <link rel="canonical" href="@(Document.GetString("Canonical") ?? Document.GetLink(true))">
+
+  @{
+    @foreach (IDocument rssFeed in Outputs["**/*.rss"])
+    {
+      <link type="application/rss+xml" rel="alternate" title="@rssFeed.GetString(WebKeys.Title)" href="@rssFeed.GetLink()" />
+    }
+    @foreach (IDocument atomFeed in Outputs["**/*.atom"])
+    {
+      <link type="application/atom+xml" rel="alternate" title="@atomFeed.GetString(WebKeys.Title)" href="@atomFeed.GetLink()" />
+    }
+  }
+  
+  <meta name="application-name" content="@Document.GetString("SiteTitle")" />
+  <meta name="msapplication-tooltip" content="@Document.GetString("SiteTitle")" />
+  <meta name="msapplication-starturl" content="@Context.GetLink("/")" />
+
+  @* TODO: More social graph meta tags *@
+  <meta property="og:title" content="@Document.GetString("PageTitle")" />
+  @if (Document.ContainsKey(WebKeys.Image))
+  {
+    <meta property="og:image" content="@Context.GetLink(Document.GetString(WebKeys.Image))" />
+  }
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="@Document.GetLink(true)" />
+  
+  <link rel="shortcut icon" href="@Context.GetLink("/favicon.ico")" type="image/x-icon">
+  <link rel="icon" href="@Context.GetLink("/favicon.ico")" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="@Context.GetLink("/vendor/bootstrap/scss/bootstrap.css")" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="@Context.GetLink("/vendor/fontawesome-free/css/all.min.css")" rel="stylesheet" type="text/css">
+  <link href="@Context.GetLink("/vendor/fontawesome-free/css/brands.min.css")" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="@Context.GetLink("/scss/clean-blog.css")" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  @if (Context.GetBool(WebKeys.GenerateSearchIndex))
+  {
+    <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pako@2.0.3/dist/pako_inflate.min.js"></script>
+    <script src="@(Context.GetLink(Context.GetPath(WebKeys.SearchScriptPath, "search.js")))"></script>
+  }
+  
+  @Html.Partial("_head")
+
+  @RenderSection("Head", false)
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  @RenderSectionOrPartial("Navigation", "_navigation")
+
+  <!-- Page Header -->
+  @RenderSectionOrPartial("Header", "_header")
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        @RenderBody()
+        @if (Document.GetBool("IsPost"))
+        {
+          @Html.Partial("_post-footer")
+        }
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  @RenderSectionOrPartial("Footer", "_footer")
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="@Context.GetLink("/vendor/jquery/jquery.min.js")"></script>
+  <script src="@Context.GetLink("/vendor/bootstrap/js/bootstrap.bundle.min.js")"></script>
+
+  @Html.Partial("_scripts")
+
+  @RenderSection("Scripts", false)
+
+  <!-- Custom scripts for this template -->
+  <script src="@Context.GetLink("/js/clean-blog.js")"></script>
+
+</body>
+
+</html>

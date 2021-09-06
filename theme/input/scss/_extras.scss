@@ -1,0 +1,177 @@
+header {
+    &.masthead {
+        background-color: darken($primary, 25%);
+        background-repeat: no-repeat;
+        background-origin: padding-box;
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: center center;
+    }
+    &.masthead .subheading {
+        line-height: 1.6 !important;
+    }
+    &.masthead *, &.masthead .post-heading * {
+        text-shadow: 0 0 80px rgba(0,0,0,0.8);
+    }
+}
+footer {
+    padding: 20px 0;
+    line-height: 1em;
+}
+hr.background--light { border-color: #000 !important; }
+.btn.background--light { color: initial !important }
+.btn {
+    margin-bottom: 6px;
+}
+.btn-sm {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.btn-xs {
+    font-size: 12px;
+    padding: 1px 5px;
+}
+.right-border {
+    border-right: 1px solid #eeeeee;
+}
+p {
+    margin: 0 0 1rem 0;
+}
+.sidebar li {
+    margin-bottom: 8px;
+}
+.post-title {
+    margin-bottom: 0;
+    word-break: break-word;
+}
+.post-subtitle {
+    font-family: $font-family-sans-serif;
+    font-size: $h4-font-size;
+}
+.post-list > a {
+    color: #333333;
+}
+.post-list > a:hover,
+.post-list > a:focus {
+    text-decoration: none;
+    color: #337ab7;
+}
+.post-list > a > .post-title {
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+.post-list > a > .post-subtitle {
+    margin: 0;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+.post-list > .post-meta {
+    color: #777777;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 0;
+}
+.post-list > .post-meta > a {
+    text-decoration: none;
+    color: #333333;
+}
+.post-list > .post-meta > a:hover,
+.post-list > .post-meta > a:focus {
+    color: #337ab7;
+    text-decoration: underline;
+}
+.post-heading {
+    word-break: break-word;
+}
+.post-heading .subheading {
+    margin-bottom: 0;
+}
+.post-heading .meta {
+    margin-top: 30px;
+}
+.post-heading .tags {
+    margin-top: 30px;
+}
+.post-heading .tags .btn {
+    border-color: #222222;
+}
+.panel .table pre {
+    margin: 0px;
+    border: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.badge {    
+  font-family: $font-family-sans-serif;
+}
+/* Awsome same-height Bootstrap columns from http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height */
+
+/* vertical alignment styles */
+
+.col-top {
+    vertical-align: top;
+}
+.col-middle {
+    vertical-align: middle;
+}
+.col-bottom {
+    vertical-align: bottom;
+}
+
+/* columns of same height styles */
+
+.container-xs-height {
+    display: table;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.row-xs-height {
+    display: table-row;
+}
+.col-xs-height {
+    display: table-cell;
+    float: none;
+}
+
+@media (min-width: 768px) {
+    .container-sm-height {
+        display: table;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .row-sm-height {
+        display: table-row;
+    }
+    .col-sm-height {
+        display: table-cell;
+        float: none;
+    }
+}
+@media (min-width: 992px) {
+    .container-md-height {
+        display: table;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .row-md-height {
+        display: table-row;
+    }
+    .col-md-height {
+        display: table-cell;
+        float: none;
+    }
+}
+@media (min-width: 1200px) {
+    .container-lg-height {
+        display: table;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .row-lg-height {
+        display: table-row;
+    }
+    .col-lg-height {
+        display: table-cell;
+        float: none;
+    }
+}

@@ -1,0 +1,56 @@
+HideFromSearchIndex: true
+Excluded: => !Context.GetBool(WebKeys.GenerateSearchIndex)
+ShowInNavbar: false
+---
+<form>
+    <div class="form-group">
+        <label for="search">Search Query</label>
+        <input class="form-control" type="search" aria-label="Search" id="search">
+    </div>
+</form>
+
+<div id="search-results"></div>
+
+@section Scripts
+{
+    <script>
+        function runSearch(query) {
+            $("#search-results").empty();
+            if (query.length < 2)
+            {
+                return;
+            }
+            search.search(query, function(results)
+            {
+                var listHtml = "<ul>";
+                if (results.length == 0)
+                {
+                    listHtml += "<li>No results found</li>";
+                }
+                else
+                {
+                    for (var i = 0; i < results.length; ++i)
+                    {
+                        var res = results[i];
+                        listHtml += "<li><a href='" + res.link + "'>" + res.title + "</a></li>";
+                    }
+                }
+                listHtml += "</ul>";
+                $("#search-results").append(listHtml);
+            });            
+        }
+
+        $(document).ready(function() {
+            $("#search").on('input propertychange paste', function() {
+                runSearch($("#search").val());
+            });
+
+            const urlParams = new URLSearchParams(window.location.search);
+            const queryParam = urlParams.get('query');
+            if (queryParam) {
+                $("#search").val(queryParam);
+                runSearch($("#search").val());
+            }
+        });
+    </script>
+}

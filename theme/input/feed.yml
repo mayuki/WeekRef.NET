@@ -1,0 +1,7 @@
+FeedSources: => GetString("PostSources")
+FeedFilter: => GetBool("IsPost")
+FeedOrderKey: Published
+FeedOrderDescending: true
+FeedSize: 10
+FeedRss: true
+FeedAtom: true

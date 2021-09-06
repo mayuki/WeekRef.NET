@@ -1,0 +1,15 @@
+<ul class="navbar-nav ml-auto">
+    @foreach(IDocument doc in OutputPages.GetChildrenOf("index.html").Where(x => x.GetBool("ShowInNavbar", true)).OrderBy(x => x.GetInt(Keys.Order)))
+    {
+        // Don't add the home page to the nav bar
+        if (doc.Destination != "index.html")
+        {
+            <li class="nav-item">
+                @Html.DocumentLink(doc, new Dictionary<object, object> { { "class", "nav-link" } })
+            </li>
+        }
+    }
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>

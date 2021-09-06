@@ -1,0 +1,48 @@
+@{
+    string backgroundImage = null;
+    if (Document.ContainsKey(WebKeys.Image))
+    {
+        backgroundImage = $"background-image: url(\"{Context.GetLink(Document.GetString(WebKeys.Image))}\")";
+    }
+    string description = Document.WithoutSettings().GetString("Lead") ?? Document.WithoutSettings().GetString(WebKeys.Description);
+    string title = Document.GetString("Title") ?? Document.GetString("SiteTitle");
+    bool isPost = Document.GetBool("IsPost") && title != "Tags" && title != "Archive";
+}
+<header class="masthead" style="@backgroundImage">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="@(isPost ? "post-heading" : "site-heading")">
+          <h1>
+            @title
+            @if (Document.GetInt(Keys.Index) > 1)
+            {
+              <small>(Page @Document.GetString(Keys.Index))</small>
+            }
+          </h1>
+          @if (!string.IsNullOrEmpty(description))
+          {
+            <h2 class="subheading">@description</h2>
+          }
+          @if (isPost)
+          {
+              // This is a blog post so show extra data
+              <div class="meta">Published on @Document.GetDateTime(WebKeys.Published).ToLongDateString()</div>
+              @if (Document.ContainsKey("Tags"))
+              {
+                <div class="mt-3">
+                  @foreach (IDocument tag in Document.GetList<string>("Tags")
+                    .Select(x => Outputs["tags.html"].First().GetChildren().FirstOrDefault(y => y.GetTitle().Equals(x, StringComparison.OrdinalIgnoreCase)))
+                    .Where(x => x != null))
+                  {
+                      <a href="@Context.GetLink(tag)" class="badge badge-light"> @tag.GetTitle()</a>
+                  }
+                </div>
+              }
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
