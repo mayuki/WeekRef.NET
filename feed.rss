@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 	<channel>
-		<title />
+		<title>WeekRef.NET</title>
 		<link>/</link>
 		<description />
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
-		<pubDate>Mon, 06 Sep 2021 15:25:02 GMT</pubDate>
-		<lastBuildDate>Mon, 06 Sep 2021 15:25:02 GMT</lastBuildDate>
+		<pubDate>Mon, 06 Sep 2021 17:15:48 GMT</pubDate>
+		<lastBuildDate>Mon, 06 Sep 2021 17:15:48 GMT</lastBuildDate>
 		<item>
 			<title>2021-09-03</title>
 			<link>/2021/09/03/updates</link>
