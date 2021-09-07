@@ -6,7 +6,7 @@
     }
     string description = Document.WithoutSettings().GetString("Lead") ?? Document.WithoutSettings().GetString(WebKeys.Description);
     string title = Document.GetString("Title") ?? Document.GetString("SiteTitle");
-    bool isPost = Document.GetBool("IsPost") && title != "Tags" && title != "Archive";
+    bool isPost = Document.GetBool("IsPost") && title != "Tags" && title != "Archive" && title != Document.GetString("SiteTitle");
 }
 <header class="masthead" style="@backgroundImage">
   <div class="overlay"></div>

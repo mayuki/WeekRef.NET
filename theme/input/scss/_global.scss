@@ -20,40 +20,6 @@ h6 {
   @include sans-serif-font;
 }
 
-h2, .h2 {
-  font-size: 2rem;
-  margin-top: 2rem;
-  border-bottom: 1px solid #ccc;
-  padding: 1rem 0;
-  margin-bottom: 1.25rem;
-
-  &:first-child {
-    margin-top: 0;
-  }
-}
-
-h3, .h3 {
-  font-size: 1.25rem;
-
-  margin-top: 1.25rem;
-  padding-top: 1.25rem;
-
-  + p {
-      > a {
-          display: inline-block;
-          margin-top: -0.25rem;
-          font-size: 1rem;
-      }
-  }
-}
-h2, .h2 {
-  + h3,
-  + .h3 {
-    border-top: none;
-    padding-top: 0;
-  }
-}
-
 li {
   margin-top: 0.25rem;
 }

@@ -1,11 +1,10 @@
 MinimumStatiqWebVersion-CleanBlog: "1.0.0-beta.33"
-SiteTitle: WeekRef.NET
 PageTitle: |
   =>
   {
     string siteTitle = Context.GetString("SiteTitle");
     string title = GetString("Title");
-    return string.IsNullOrWhiteSpace(siteTitle) ? title : (string.IsNullOrWhiteSpace(title) ? siteTitle : $"{siteTitle} - {title}");
+    return siteTitle == title ? siteTitle : string.IsNullOrWhiteSpace(siteTitle) ? title : (string.IsNullOrWhiteSpace(title) ? siteTitle : $"{title} - {siteTitle}");
   }
 Copyright: => $"Copyright © {DateTime.Now.Year}"
 PostSources: '**/*'
