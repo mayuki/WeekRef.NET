@@ -6,13 +6,14 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Tue, 07 Sep 2021 10:50:31 GMT</pubDate>
-		<lastBuildDate>Tue, 07 Sep 2021 10:50:31 GMT</lastBuildDate>
+		<pubDate>Tue, 07 Sep 2021 15:05:26 GMT</pubDate>
+		<lastBuildDate>Tue, 07 Sep 2021 15:05:26 GMT</lastBuildDate>
 		<item>
 			<title>2021-09-03</title>
 			<link>/2021/09/03/updates</link>
 			<description>.NET 関連の情報をほぼ週刊配信</description>
 			<author>Mayuki Sawatari</author>
+			<enclosure url="/img/logo.png" length="0" type="image" />
 			<guid isPermaLink="false">/2021/09/03/updates</guid>
 			<pubDate>Fri, 03 Sep 2021 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!--
@@ -233,6 +234,7 @@
 			<link>/2021/08/27/updates</link>
 			<description>.NET 関連の情報をほぼ週刊配信</description>
 			<author>Mayuki Sawatari</author>
+			<enclosure url="/img/logo.png" length="0" type="image" />
 			<guid isPermaLink="false">/2021/08/27/updates</guid>
 			<pubDate>Fri, 27 Aug 2021 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!--
@@ -379,6 +381,7 @@
 			<link>/2021/08/20/updates</link>
 			<description>.NET 関連の情報をほぼ週刊配信</description>
 			<author>Mayuki Sawatari</author>
+			<enclosure url="/img/logo.png" length="0" type="image" />
 			<guid isPermaLink="false">/2021/08/20/updates</guid>
 			<pubDate>Fri, 20 Aug 2021 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!--
@@ -543,6 +546,7 @@
 			<link>/2021/08/13/updates</link>
 			<description>.NET 関連の情報をほぼ週刊配信</description>
 			<author>Mayuki Sawatari</author>
+			<enclosure url="/img/logo.png" length="0" type="image" />
 			<guid isPermaLink="false">/2021/08/13/updates</guid>
 			<pubDate>Fri, 13 Aug 2021 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!--

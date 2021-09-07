@@ -7,7 +7,8 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2021-09-07T10:50:31Z</updated>
+	<updated>2021-09-07T15:05:26Z</updated>
+	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
 		<id>/2021/09/03/updates</id>
@@ -16,6 +17,7 @@
 			<name>Mayuki Sawatari</name>
 		</author>
 		<link href="/2021/09/03/updates" />
+		<link rel="enclosure" type="image" href="/img/logo.png" />
 		<updated>2021-09-03T00:00:00Z</updated>
 		<content>&lt;!--
 # yyyy-MM-dd
@@ -237,6 +239,7 @@
 			<name>Mayuki Sawatari</name>
 		</author>
 		<link href="/2021/08/27/updates" />
+		<link rel="enclosure" type="image" href="/img/logo.png" />
 		<updated>2021-08-27T00:00:00Z</updated>
 		<content>&lt;!--
 # yyyy-MM-dd
@@ -384,6 +387,7 @@
 			<name>Mayuki Sawatari</name>
 		</author>
 		<link href="/2021/08/20/updates" />
+		<link rel="enclosure" type="image" href="/img/logo.png" />
 		<updated>2021-08-20T00:00:00Z</updated>
 		<content>&lt;!--
 # yyyy-MM-dd
@@ -549,6 +553,7 @@
 			<name>Mayuki Sawatari</name>
 		</author>
 		<link href="/2021/08/13/updates" />
+		<link rel="enclosure" type="image" href="/img/logo.png" />
 		<updated>2021-08-13T00:00:00Z</updated>
 		<content>&lt;!--
 # yyyy-MM-dd
