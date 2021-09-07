@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Tue, 07 Sep 2021 01:51:27 GMT</pubDate>
-		<lastBuildDate>Tue, 07 Sep 2021 01:51:27 GMT</lastBuildDate>
+		<pubDate>Tue, 07 Sep 2021 05:17:18 GMT</pubDate>
+		<lastBuildDate>Tue, 07 Sep 2021 05:17:18 GMT</lastBuildDate>
 		<item>
 			<title>2021-09-03</title>
 			<link>/2021/09/03/updates</link>
@@ -132,7 +132,7 @@
 &lt;/ul&gt;
 &lt;h3 id="unconventional-way-to-name-this-variable-in-extension-methods"&gt;(Un)Conventional way to name &lt;code&gt;this&lt;/code&gt; variable in extension methods&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://medium.com/&amp;#64;simonas.baltulionis/un-conventional-way-to-name-this-variable-in-extension-methods-68091f9f8b8b"&gt;https://medium.com/&amp;#64;simonas.baltulionis/un-conventional-way-to-name-this-variable-in-extension-methods-68091f9f8b8b&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;拡張メソッドのターゲットとなる引数 (例: &lt;code&gt;this string value&lt;/code&gt;) の名前に &lt;code&gt;this&lt;/code&gt; という名前を使えてしまうという話と、それを引名前付き引数で呼び出すときに Unicode エスケープできるという話。&lt;/p&gt;
+&lt;p&gt;拡張メソッドのターゲットとなる引数 (例: &lt;code&gt;this string value&lt;/code&gt;) の名前に &lt;code&gt;this&lt;/code&gt; という名前を使えてしまうという話と、それを名前付き引数で呼び出すときに Unicode エスケープできるという話。&lt;/p&gt;
 &lt;h3 id="net-annotated-monthly-september-2021-the.net-tools-blog"&gt;.NET Annotated Monthly | September 2021 | The .NET Tools Blog&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2021/09/02/net-annotated-monthly-september-2021/"&gt;https://blog.jetbrains.com/dotnet/2021/09/02/net-annotated-monthly-september-2021/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;JetBrains による .NET 関連のまとめ9月号&lt;/p&gt;
