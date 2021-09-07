@@ -4,16 +4,6 @@ p { line-height: 1.5; margin: 30px 0; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 600; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-h2, .h2 { font-size: 2rem; margin-top: 2rem; border-bottom: 1px solid #ccc; padding: 1rem 0; margin-bottom: 1.25rem; }
-
-h2:first-child, .h2:first-child { margin-top: 0; }
-
-h3, .h3 { font-size: 1.25rem; margin-top: 1.25rem; padding-top: 1.25rem; }
-
-h3 + p > a, .h3 + p > a { display: inline-block; margin-top: -0.25rem; font-size: 1rem; }
-
-h2 + h3, h2 + .h3, .h2 + h3, .h2 + .h3 { border-top: none; padding-top: 0; }
-
 li { margin-top: 0.25rem; }
 
 a { color: #2664c1; word-wrap: break-word; word-break: break-all; }
@@ -100,6 +90,16 @@ header.masthead .post-heading .meta a { color: #fff; }
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover { text-decoration: underline; color: #007bff; }
 
 @media only screen and (min-width: 768px) { .post-preview > a > .post-title { font-size: 36px; } }
+
+#content h2, #content .h2 { font-size: 2rem; margin-top: 2rem; border-bottom: 1px solid #ccc; padding: 1rem 0; margin-bottom: 1.25rem; }
+
+#content h2:first-child, #content .h2:first-child { margin-top: 0; }
+
+#content h3, #content .h3 { font-size: 1.25rem; margin-top: 1.25rem; padding-top: 1.25rem; }
+
+#content h3 + p > a, #content .h3 + p > a { display: inline-block; margin-top: -0.25rem; font-size: 1rem; }
+
+#content h2 + h3, #content h2 + .h3, #content .h2 + h3, #content .h2 + .h3 { border-top: none; padding-top: 0; }
 
 .floating-label-form-group { font-size: 14px; position: relative; margin-bottom: 0; padding-bottom: 0.5em; border-bottom: 1px solid #dee2e6; }
 

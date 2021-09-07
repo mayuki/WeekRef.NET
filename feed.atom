@@ -2,12 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>WeekRef.NET</title>
+	<author>
+		<name>Mayuki Sawatari</name>
+	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2021-09-06T17:15:48Z</updated>
+	<updated>2021-09-07T01:35:27Z</updated>
+	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
 		<id>/2021/09/03/updates</id>
 		<title>2021-09-03</title>
+		<author>
+			<name>Mayuki Sawatari</name>
+		</author>
 		<link href="/2021/09/03/updates" />
 		<updated>2021-09-03T00:00:00Z</updated>
 		<content>&lt;!--
@@ -221,11 +228,14 @@
 &lt;p&gt;&lt;a href="https://github.com/dotnet/maui/pull/2360"&gt;https://github.com/dotnet/maui/pull/2360&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;MAUI への Tizen のバックエンド追加の PR。&lt;/p&gt;
 </content>
-		<summary>&lt;p&gt;今週は大きなリリースはなく、主に .NET 6 に向けた改善や API の紹介記事などが出てきています。&lt;/p&gt;</summary>
+		<summary>.NET 関連の情報をほぼ週刊配信</summary>
 	</entry>
 	<entry>
 		<id>/2021/08/27/updates</id>
 		<title>2021-08-27</title>
+		<author>
+			<name>Mayuki Sawatari</name>
+		</author>
 		<link href="/2021/08/27/updates" />
 		<updated>2021-08-27T00:00:00Z</updated>
 		<content>&lt;!--
@@ -365,11 +375,14 @@
 &lt;p&gt;&lt;a href="https://github.com/spectreconsole/spectre.console/pull/516"&gt;https://github.com/spectreconsole/spectre.console/pull/516&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;パッケージに .props を入れておくことで global usings を有効にする方法を使った例&lt;/p&gt;
 </content>
-		<summary>&lt;p&gt;&lt;a href="https://blog.getpaint.net/2021/08/11/paint-net-4-3-alpha-build-7894/"&gt;paint.net 4.3 alpha&lt;/a&gt; がリリースされ、α版ですが比較的有名なデスクトップアプリケーションの .NET 5 への移行が実現しています。&lt;/p&gt;</summary>
+		<summary>.NET 関連の情報をほぼ週刊配信</summary>
 	</entry>
 	<entry>
 		<id>/2021/08/20/updates</id>
 		<title>2021-08-20</title>
+		<author>
+			<name>Mayuki Sawatari</name>
+		</author>
 		<link href="/2021/08/20/updates" />
 		<updated>2021-08-20T00:00:00Z</updated>
 		<content>&lt;!--
@@ -527,11 +540,14 @@
 &lt;p&gt;&lt;a href="https://github.com/dotnet/aspnetcore/pull/35011"&gt;https://github.com/dotnet/aspnetcore/pull/35011&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Kestrel のボディの読み取りメソッドに &lt;code&gt;PoolingAsyncValueTaskMethodBuilder&lt;/code&gt; を使用することでアロケーションを抑える PR。&lt;/p&gt;
 </content>
-		<summary>&lt;p&gt;今週は .NET 6 Preview 7 と Visual Studio 2022 のフォローアップがメインです。&lt;/p&gt;</summary>
+		<summary>.NET 関連の情報をほぼ週刊配信</summary>
 	</entry>
 	<entry>
 		<id>/2021/08/13/updates</id>
 		<title>2021-08-13</title>
+		<author>
+			<name>Mayuki Sawatari</name>
+		</author>
 		<link href="/2021/08/13/updates" />
 		<updated>2021-08-13T00:00:00Z</updated>
 		<content>&lt;!--
@@ -804,6 +820,6 @@
 &lt;li&gt;&lt;a href="https://github.com/dotnet/runtime/issues/46594"&gt;Add Thread.UnsafeStart to avoid capturing the ExecutionContext  · Issue #46594 · dotnet/runtime&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-		<summary>&lt;p&gt;.NET 6 Preview 7 と Visual Studio 2022 Preview 3 のリリースされました。&lt;/p&gt;</summary>
+		<summary>.NET 関連の情報をほぼ週刊配信</summary>
 	</entry>
 </feed>
