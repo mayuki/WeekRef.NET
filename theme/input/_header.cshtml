@@ -1,9 +1,9 @@
 @{
     string backgroundImage = null;
-    if (Document.ContainsKey(WebKeys.Image))
-    {
-        backgroundImage = $"background-image: url(\"{Context.GetLink(Document.GetString(WebKeys.Image))}\")";
-    }
+    //if (Document.ContainsKey(WebKeys.Image))
+    //{
+    //    backgroundImage = $"background-image: url(\"{Context.GetLink(Document.GetString(WebKeys.Image))}\")";
+    //}
     string description = Document.WithoutSettings().GetString("Lead") ?? Document.WithoutSettings().GetString(WebKeys.Description);
     string title = Document.GetString("Title") ?? Document.GetString("SiteTitle");
     bool isPost = Document.GetBool("IsPost") && title != "Tags" && title != "Archive" && title != Document.GetString("SiteTitle");
