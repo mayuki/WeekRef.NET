@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2021-09-10T14:25:02Z</updated>
+	<updated>2021-09-10T14:50:38Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -61,7 +61,7 @@
 &lt;p&gt;&lt;a href="https://github.com/grpc/grpc-dotnet/releases/tag/v2.39.0"&gt;https://github.com/grpc/grpc-dotnet/releases/tag/v2.39.0&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;gRPC の .NET 実装 (grpc-dotnet) の 2.39.0 がリリース。&lt;/p&gt;
 &lt;p&gt;主に小さなバグフィックスのリリース。リトライポリシーでカルチャーによっては例外が発生する問題の修正や HedgingDelay が null の場合の処理の修正。&lt;/p&gt;
-&lt;p&gt;gRPC の本体も 1.40.0 がリリース。C-コアやC++, Python に関する変更を含むのみで C# 部分での変更はないため、&lt;code&gt;Grpc.Core&lt;/code&gt; パッケージを使用している場合は C-core の更新の影響がある(C-core 版のパッケージバージョンは 2.40.0 であることに注意)。&lt;/p&gt;
+&lt;p&gt;gRPC の本体も 1.40.0 がリリース。C-コアやC++, Python に関する変更を含むのみでピュアな C# 部分での変更はないため、&lt;code&gt;Grpc.Core&lt;/code&gt; パッケージを使用している場合にのみ C-core の更新の影響がある(C-core 版のパッケージバージョンは 2.40.0 であることに注意)。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/grpc/grpc/releases/tag/v1.40.0"&gt;Release Release v1.40.0 · grpc/grpc&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
