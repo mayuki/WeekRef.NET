@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Fri, 17 Sep 2021 09:43:45 GMT</pubDate>
-		<lastBuildDate>Fri, 17 Sep 2021 09:43:45 GMT</lastBuildDate>
+		<pubDate>Fri, 17 Sep 2021 09:57:26 GMT</pubDate>
+		<lastBuildDate>Fri, 17 Sep 2021 09:57:26 GMT</lastBuildDate>
 		<item>
 			<title>2021-09-17: .NET 6 RC1, Visual Studio 2022 Preview 4, WinUI 2.7, Uno Platform 3.10</title>
 			<link>/2021/09/17/updates</link>
@@ -49,6 +49,10 @@
 &lt;h2 id="section-1"&gt;ヘッドライン&lt;/h2&gt;
 &lt;h3 id="announcing.net-6-release-candidate-1.net-blog"&gt;Announcing .NET 6 Release Candidate 1 - .NET Blog&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-release-candidate-1/"&gt;https://devblogs.microsoft.com/dotnet/announcing-net-6-release-candidate-1/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 6 Release Candidate 1 がリリース。RC1 以降では機能の追加などから GA に向けて品質の向上にフォーカスする形。
+また、このバージョンから &amp;quot;go live&amp;quot; ライセンスとなり実運用環境での使用がサポートされる。
+Visual Studio 2022 Preview 4と共に使用することが前提で Visual Studio 2022 for Mac Preview 1 は追って対応。&lt;/p&gt;
+&lt;p&gt;記事ではソースからビルドすること(.NET 6 で tarball からビルドできるようになったなど)、Profile-guided optimization、Crossgen2、セキュリティー関連についてなどが触れられている。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-rc-1/"&gt;ASP.NET Core updates in .NET 6 Release Candidate 1 - ASP.NET Blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/update-on-dotnet-maui/"&gt;Update on .NET Multi-platform App UI (.NET MAUI) - .NET Blog&lt;/a&gt;&lt;/li&gt;
