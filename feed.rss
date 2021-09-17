@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Fri, 17 Sep 2021 09:57:26 GMT</pubDate>
-		<lastBuildDate>Fri, 17 Sep 2021 09:57:26 GMT</lastBuildDate>
+		<pubDate>Fri, 17 Sep 2021 10:39:04 GMT</pubDate>
+		<lastBuildDate>Fri, 17 Sep 2021 10:39:04 GMT</lastBuildDate>
 		<item>
 			<title>2021-09-17: .NET 6 RC1, Visual Studio 2022 Preview 4, WinUI 2.7, Uno Platform 3.10</title>
 			<link>/2021/09/17/updates</link>
@@ -243,7 +243,7 @@ Visual Studio 2022 Preview 4と共に使用することが前提で Visual Studi
 &lt;p&gt;Scott Hanselman の TikTok。&lt;/p&gt;
 &lt;h3 id="net-krzysztof-cwalinajeremy-bartonbrad-abrams-amazon"&gt;.NETのクラスライブラリ設計 改訂新版 (マイクロソフト関連書) | Krzysztof Cwalina、Jeremy Barton、Brad Abrams, 猪股 健太郎、河合 宜文 (監訳), 藤原 雄介 |本 | 通販 | Amazon&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.amazon.co.jp/dp/4296080040"&gt;https://www.amazon.co.jp/dp/4296080040&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NETのクラスライブラリ設計 改訂新版の発売日が10月4日となり、Amazon での予約が開始。&lt;/p&gt;
+&lt;p&gt;.NETのクラスライブラリ設計 改訂新版の発売日が10月7日となり、Amazon での予約が開始。&lt;/p&gt;
 &lt;h3 id="section-6"&gt;ツイート&lt;/h3&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;New create option in &lt;a href="https://twitter.com/AzureFunctions?ref_src=twsrc%5Etfw"&gt;&amp;#64;AzureFunctions&lt;/a&gt; to create apps with .NET 6 🎉 &lt;br&gt;&lt;br&gt;Go give it a try! &lt;a href="https://t.co/El855SLeGM"&gt;pic.twitter.com/El855SLeGM&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jeff Hollan (&amp;#64;jeffhollan) &lt;a href="https://twitter.com/jeffhollan/status/1436422895350153217?ref_src=twsrc%5Etfw"&gt;September 10, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 &lt;p&gt;Azure Functions で .NET 6 が Preview という形で使用できるように(これまでは Early Preview 扱い)。&lt;/p&gt;
