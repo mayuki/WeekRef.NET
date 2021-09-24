@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2021-09-24T07:21:50Z</updated>
+	<updated>2021-09-24T07:31:34Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -88,7 +88,7 @@
     }
 #endif
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;このコードはランタイムが Unix をターゲットにしていない場合には &lt;code&gt;Open(string path)&lt;/code&gt; を使用できるが、もし使用者はランタイム固有の処理として書かなかった場合 &lt;code&gt;Open(string path)&lt;/code&gt; を呼び出すコードを書くことになり、Unix 環境下ではメソッドが存在しないエラーとなる。このようなケースは Unix 環境下において &lt;code&gt;Open(string path)&lt;/code&gt; を呼び出した場合に例外を投げるような形となるほうが望ましく、そういったケースを検出できる。&lt;/p&gt;
+&lt;p&gt;このコードはランタイムが Unix をターゲットにしている場合には &lt;code&gt;Open(string path, bool securityDescriptor)&lt;/code&gt; を使用できるが、コード使用者はランタイムを限定しない場合 &lt;code&gt;Open(string path)&lt;/code&gt; を呼び出すコードを記述する。そのコードを Unix 環境下で実行した場合メソッドが存在しないエラーとなってしまう。このようなケースでは Unix 環境下において &lt;code&gt;Open(string path)&lt;/code&gt; を呼び出した場合に例外を投げるような形となるほうが望ましく、そういったケースを検出できる。&lt;/p&gt;
 &lt;h3 id="sourcegear-bridge-preview-swift-with.net-in-xcode"&gt;SourceGear Bridge preview: Swift with .NET in Xcode&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://ericsink.com/entries/sourcegear_bridge.html"&gt;https://ericsink.com/entries/sourcegear_bridge.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;.NET 以外の言語と .NET をブリッジして Xcode からコード編集できるようにする SourceGear Bridge がプレビュー。現時点では Swift がターゲット。&lt;/p&gt;
