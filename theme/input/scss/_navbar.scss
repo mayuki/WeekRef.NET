@@ -1,19 +1,18 @@
 // Styling for the navbar
 #mainNav {
   position: absolute;
-  border-bottom: 1px solid $gray-200;
-  background-color: white;
+  background-color: rgb(16, 49, 84);
   @include sans-serif-font;
   .navbar-brand {
     font-weight: 800;
-    color: $gray-800;
+    color: $white;
   }
   .navbar-toggler {
     font-size: 12px;
     font-weight: 800;
     padding: 13px;
     text-transform: uppercase;
-    color: $gray-800;
+    color: $white;
   }
   .navbar-nav {
     > li.nav-item {
@@ -22,6 +21,7 @@
         font-weight: 800;
         letter-spacing: 1px;
         text-transform: uppercase;
+        color: $white;
       }
     }
   }
@@ -67,10 +67,10 @@
       -webkit-transition: -webkit-transform 0.2s;
       -moz-transition: -moz-transform 0.2s;
       transition: transform 0.2s;
-      border-bottom: 1px solid darken($white, .05);
-      background-color: fade-out($white, .1);
+      background-color: rgba(16, 49, 84, 0.95);
+      backdrop-filter: blur(8px);
       .navbar-brand {
-        color: $gray-900;
+        color: $white;
         &:focus,
         &:hover {
           color: $primary;
@@ -79,7 +79,7 @@
       .navbar-nav {
         > li.nav-item {
           > a {
-            color: $gray-900;
+            color: $white;
             &:focus,
             &:hover {
               color: $primary;
