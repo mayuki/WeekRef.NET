@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Fri, 01 Oct 2021 09:11:32 GMT</pubDate>
-		<lastBuildDate>Fri, 01 Oct 2021 09:11:32 GMT</lastBuildDate>
+		<pubDate>Fri, 01 Oct 2021 09:19:57 GMT</pubDate>
+		<lastBuildDate>Fri, 01 Oct 2021 09:19:57 GMT</lastBuildDate>
 		<item>
 			<title>2021-10-01: NuGet.org, Windows Community Toolkit v7.1, Npgsql 6.0.0 RC1, ReSharper 2021.3 &amp; Rider 2021.3 EAP</title>
 			<link>/2021/10/01/updates</link>
@@ -200,6 +200,7 @@ if (elapsedInterval &amp;gt;= requiredInterval)
 &lt;/ul&gt;
 &lt;h3 id="datageneratormxproject.devs.datagenerator-at-main-mxprojectdatagenerator"&gt;DataGenerator/mxProject.Devs.DataGenerator at main · mxProject/DataGenerator&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/mxProject/DataGenerator/tree/main/mxProject.Devs.DataGenerator"&gt;https://github.com/mxProject/DataGenerator/tree/main/mxProject.Devs.DataGenerator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ランダムなテストデータを含むレコードを返すライブラリー。&lt;code&gt;IDataReader&lt;/code&gt; を介したデータアクセスが可能。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://qiita.com/mxProject/items/194b2ae4c11656ae5a09"&gt;C# データレコード形式のテストデータを生成するライブラリを公開しました。 - Qiita&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -224,8 +225,6 @@ if (elapsedInterval &amp;gt;= requiredInterval)
 &lt;h3 id="programming-idioms"&gt;Programming Idioms&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.programming-idioms.org/"&gt;https://www.programming-idioms.org/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;様々なプログラミング言語によるパターン別の実装例を載せているサイト。(例: &lt;a href="https://www.programming-idioms.org/idiom/41/reverse-a-string#impl5098"&gt;C# で文字列を逆順にするコード&lt;/a&gt;)&lt;/p&gt;
-&lt;h3 id="performance-characterization-of.net-benchmarks-microsoft-research"&gt;Performance Characterization of .NET Benchmarks - Microsoft Research&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/research/publication/performance-characterization-of-net-benchmarks/"&gt;https://www.microsoft.com/en-us/research/publication/performance-characterization-of-net-benchmarks/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="apply-rounded-corners-in-desktop-apps-windows-apps-microsoft-docs"&gt;Apply rounded corners in desktop apps - Windows apps | Microsoft Docs&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://docs.microsoft.com/en-us/windows/apps/desktop/modernize/apply-rounded-corners"&gt;https://docs.microsoft.com/en-us/windows/apps/desktop/modernize/apply-rounded-corners&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Windows 11 の角丸ウィンドウに対するアプリケーションで行う対応についてのドキュメント。&lt;/p&gt;
