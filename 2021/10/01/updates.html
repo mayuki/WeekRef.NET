@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2021-10-01: NuGet.org, Windows Community Toolkit v7.1, Npgsql 6.0.0 RC1, ReSharper 2021.3 &amp; Rider 2021.3 EAP - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2021/10/01/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2021-10-01: NuGet.org, Windows Community Toolkit v7.1, Npgsql 6.0.0 RC1, ReSharper 2021.3 &amp; Rider 2021.3 EAP - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2021/10/01/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2021-10-01: NuGet.org, Windows Community Toolkit v7.1, Npgsql 6.0.0 RC1, ReSharper 2021.3 &amp; Rider 2021.3 EAP
+          </h1>
+              <div class="meta">Published on Friday, 01 October 2021</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<p><a href="https://devblogs.microsoft.com/nuget/introducing-the-new-nuget-org-package-details-page/">NuGet.org のパッケージ詳細ページのデザインが新しくなりました</a>。</p>
+<p>いろいろな情報がすべて表示されていましたが、ターゲットフレームワークのバッジなど今後も追加したい要素があるということでタブベースのデザインに変更したそうです。README を表示する機能は少し前から実装されていましたが、より目立つ形になっているのでこれからリリースするパッケージには含めるのがよさそうです。</p>
+<p><a href="https://blogs.windows.com/windowsdeveloper/2021/09/23/announcing-windows-community-toolkit-v7-1/">Windows Community Toolkit v7.1</a> がリリースされました。</p>
+<p>Microsoft ID 認証に関する刷新やドロップシャドウを実現するためのスタイルの追加などが行われています。ドロップシャドウに関しては Microsoft Store アプリで使用されているそうです。</p>
+<p><a href="https://github.com/npgsql/npgsql/releases/tag/v6.0.0-rc.1">Npgsql v6.0.0 RC1</a>がリリースされました。</p>
+<p>複数ホストへの接続や Raw SQL、バッチ実行といったものがサポートされ、.NET 6 に向けた対応も含まれています。</p>
+<p><a href="https://blog.jetbrains.com/dotnet/2021/09/28/resharper-2021-3-eap/">ReSharper 2021.3 EAP</a> と <a href="https://blog.jetbrains.com/dotnet/2021/09/28/rider-2021-3-eap/">Rider 2021.3 EAP</a> がリリースされました (EAP == プレビュー的なリリース)。</p>
+<p>それぞれ C# 10 への対応や ReSharper は Visual Studio 2022 の対応、Rider は .NET 6 SDK への対応をはじめ、プロジェクトプロパティーや Debug の UI の変更などが含まれています。また Apple Silicon 向けのビルドも別途リリースされています。</p>
+<h2 id="section">トピックス</h2>
+<h3 id="introducing-the-new-nuget.org-package-details-page-the-nuget-blog">Introducing the New NuGet.org Package Details Page - The NuGet Blog</h3>
+<p><a href="https://devblogs.microsoft.com/nuget/introducing-the-new-nuget-org-package-details-page/">https://devblogs.microsoft.com/nuget/introducing-the-new-nuget-org-package-details-page/</a></p>
+<p>NuGet.org のパッケージ詳細ページが4年ぶりに新デザインに刷新された。</p>
+<p>デザイン変更した理由として、2021年の5月からパッケージに含まれる README を表示する機能が追加され、今後<a href="https://github.com/NuGet/Home/pull/10900">ターゲットフレームワークに関する情報を表示する予定もある</a>が、要素を追加するためのスペースが不足してきたためタブデザインで逃がすことにした。</p>
+<p>記事では実際にリリースされるまでのフィードバックについても触れている。</p>
+<h3 id="announcing-windows-community-toolkit-v7.1-windows-developer-blog">Announcing Windows Community Toolkit v7.1 - Windows Developer Blog</h3>
+<p><a href="https://blogs.windows.com/windowsdeveloper/2021/09/23/announcing-windows-community-toolkit-v7-1/">https://blogs.windows.com/windowsdeveloper/2021/09/23/announcing-windows-community-toolkit-v7-1/</a></p>
+<p>Windows Community Toolkit v7.1 がリリース。</p>
+<p>Microsoft ID 認証のヘルパーとプロバイダーの刷新と Microsoft Graph API と OneDrive をサポートするヘルパー API とコントロールの提供。</p>
+<p>コントロールにドロップシャドウをつけるためのスタイルを追加。既存の DropShadowPanel コントロールに代わるものでコントロールをラップせずスタイルとして適用する。実装には Win2D ベースの　<code>AttachedCardShadow</code> と UWP の Composition ベースの <code>AttachedDropShadow</code> がある。<code>AttachedCardShadow</code> は Win2D への依存があり矩形のみのサポートとなるがパフォーマンスもよい、<code>AttachedDropShadow</code> は Composition を使用するため UWP アプリでのみ使用できるがマスク画像やテキストなどもサポートするといった違いがある。</p>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/windows/communitytoolkit/helpers/attachedshadows">Attached Shadows - Windows Community Toolkit | Microsoft Docs</a></li>
+</ul>
+<p>RichSuggestBox コントロールの追加。<code>&#64;</code> によるユーザー名のサジェストのようなものを提供できる RichEditBox。</p>
+<p>MVVM Source Generator がプレビューで追加され、<code>ObservableProperty</code>, <code>ICommand</code>, <code>INotifyPropertyChanged</code> 属性などでマークすることでボイラープレートコードの生成が行えるようになった。</p>
+<p>そのほか Toolkit Labs という形で実験的なパッケージが提供されるようになった。今後 Lab リポジトリなどが用意される予定。すでに物体認識のような Intelligent APIs や視線入力の Gaze Controls といったものがある。</p>
+<h3 id="release-v6.0.0-rc.1-npgsqlnpgsql">Release v6.0.0-rc.1 · npgsql/npgsql</h3>
+<p><a href="https://github.com/npgsql/npgsql/releases/tag/v6.0.0-rc.1">https://github.com/npgsql/npgsql/releases/tag/v6.0.0-rc.1</a></p>
+<p>Npgsql v6.0.0 RC1 がリリース。</p>
+<p>6.0 ではロードバランシングなどを含むマルチホスト接続、タイムスタンプの改善、Raw SQL の発行や .NET 6 で導入されたバッチ API を使用したバッチ実行、.NET 6 の DateOnly/TimeOnly のサポートの追加など。</p>
+<p>Raw SQL の発行は Npgsql がクエリーを書き換えずパラメータを送信するようにする仕組みで、以前の名前付きパラメータに代わるもの。名前付きパラメータはクエリーをパースし、書き換えてから PostgreSQL に送信していたが Raw SQL ではクエリーはそのまま PostgreSQL へ送信するため安全性が高まり、クエリーも効果的になるとのこと。</p>
+<ul>
+<li><a href="https://www.npgsql.org/doc/release-notes/6.0.html">Npgsql 6.0 Release Notes | Npgsql Documentation</a></li>
+<li><a href="https://www.roji.org/parameters-batching-and-sql-rewriting">Query parameters, batching and SQL rewriting - Shay Rojansky’s Blog</a></li>
+<li><a href="https://github.com/dotnet/runtime/issues/28633">New System.Data.Common batching API · Issue #28633 · dotnet/runtime</a></li>
+</ul>
+<h3 id="release-v1.41.0-grpcgrpc">Release v1.41.0 · grpc/grpc</h3>
+<p><a href="https://github.com/grpc/grpc/releases/tag/v1.41.0">https://github.com/grpc/grpc/releases/tag/v1.41.0</a></p>
+<p>gRPC v1.41.0 がリリース。</p>
+<p>C# (C-core) に関連する変更としては非常に稀なケースでレスポンスのメタデータが破損してしまう問題の修正、non-ASCII な環境でネイティブライブラリーへのパスに non-ASCII な文字が含まれる場合に読み込み失敗してしまうことがある問題の修正など。</p>
+<h3 id="rider-2021.3-early-access-program-has-launched-the.net-tools-blog">Rider 2021.3 Early Access Program Has Launched! | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2021/09/28/rider-2021-3-eap/">https://blog.jetbrains.com/dotnet/2021/09/28/rider-2021-3-eap/</a></p>
+<p>Rider 2021.3 EAP (早期アクセス) がリリース。</p>
+<p>ソリューションにまつわる問題点を一覧できる Problems View が追加。コードに関連する問題以外も NuGet や .NET SDK といったツールや環境に関する問題を列挙してその場で対応できる。</p>
+<p>.NET 6 SDK に対応、Debug タブの UI 変更、デバッガーの改善により UWP のサポートと Windows 上での Windows Docker コンテナー内でのデバッグが可能となった。</p>
+<p>file-scoped namespace のような C# 10 に関連した言語の対応やコード解析、SQL 言語 Injection のサポート改善、Unity 向けのコードで XML ドキュメントを <code>Tooltip</code> 属性に変換する機能、Apple Silicon 向けビルドの提供、プロジェクトとソリューションのプロパティーウィンドウの改修など。</p>
+<h3 id="resharper-2021.3-starts-early-access-program-the.net-tools-blog">ReSharper 2021.3 Starts Early Access Program! | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2021/09/28/resharper-2021-3-eap/">https://blog.jetbrains.com/dotnet/2021/09/28/resharper-2021-3-eap/</a></p>
+<p>ReSharper 2021.3 EAP (早期アクセス) がリリース。</p>
+<p>Visual Studio 2022 Preview がサポートされ、file-scoped namespace のような C# 10 に関連した言語の対応やコード解析の改善が行われた。</p>
+<p><code>Namespace.Type.Member</code> といった FQN 形式でコピーする Copy FQN が Copy Code Reference に変わり、GitHub へのリンクやカスタム URL パターンを定義してコピーできるようになった。</p>
+<p>.NET 5 SDK から対応した AnalyzerConfig ファイルに ReSherper も対応した。パラメータやフィールドを <code>LanguageInjection</code> 属性でマークすることで Language Injection を有効化できるようになった。</p>
+<p>dotMemory は Windows では ETW イベントを使用してアロケーションをサンプリングできるように。正確さは以前の手法には劣るがパフォーマンスペナルティがない、集めるために有効にする必要がない、すでに動作中のアプリケーションでも集められるといった利点がある。</p>
+<h3 id="avoiding-memory-leaks-in-visual-studio-editor-extensions-visual-studio-blog">Avoiding Memory Leaks in Visual Studio Editor Extensions - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/avoiding-memory-leaks-in-visual-studio-editor-extensions/">https://devblogs.microsoft.com/visualstudio/avoiding-memory-leaks-in-visual-studio-editor-extensions/</a></p>
+<p>Visual Studio のインプロセス拡張でのメモリーリークを防ぐための VS IDE チームが持つベストプラクティスの紹介。</p>
+<p>MEF パーツによるメモリーリークでは <code>ITextView</code> のような重いオブジェクトの参照を一つ持つだけでも関連するソリューションまで参照が広がり、多くのリークが発生する例が挙げられている。対策として MEF パーツには強参照/ステートを持たない、持つ場合にはスコープのライフタイムに限定できるようにする、どうしても参照を持つ場合には WeakReference を使う。</p>
+<p>C# のイベントリスナーのリークの例も同様に、イベントを購読する際に重いオブジェクトへの参照が間接的に発生してしまう。対策として <code>ITextView.Close</code> のような不要になるタイミングでの購読解除や IDisposable を IDE が呼び出すものであれば Dispose を実装する。</p>
+<p>他にも静的なステートや WPF のデータバインディングの例が挙げられている。また、それらメモリーリークを解析するためのツールについても触れている。</p>
+<h3 id="announcing-azure-credits-for-open-source-projects-microsoft-open-source-blog">Announcing: Azure credits for open source projects - Microsoft Open Source Blog</h3>
+<p><a href="https://cloudblogs.microsoft.com/opensource/2021/09/28/announcing-azure-credits-for-open-source-projects/">https://cloudblogs.microsoft.com/opensource/2021/09/28/announcing-azure-credits-for-open-source-projects/</a></p>
+<p>Open Source Initiative (OSI) に承認されたライセンスで提供しているオープンソースプロジェクトに対して Azure のクレジットを提供するプログラムを開始。現時点で FreeBSD や Haskell といったプロジェクトが参加している。</p>
+<ul>
+<li><a href="https://opensource.microsoft.com/azure-credits">Azure Credits for Open Source Projects | Microsoft Open Source</a></li>
+</ul>
+<h3 id="vs-code-in-the-browser-for-everyone">VS Code in the browser for everyone</h3>
+<p><a href="https://www.gitpod.io/blog/openvscode-server-launch">https://www.gitpod.io/blog/openvscode-server-launch</a></p>
+<p>Gitpod が Gitpod や GitHub Codespaces のように Visual Studio Code をリモートサーバーで稼働させる OpenVSCode Server を公開。</p>
+<p>Visual Studio Code 本体には GitHub Workspaces のような形で実行するためのパーツが欠けているため、フォークして最小の変更で埋めることでサーバーで動作できるようにしている。Docker をはじめ AWS や GCP といったクラウド環境での起動方法も用意されている。</p>
+<p>Gitpod との直接の違いは環境も含めすべてマネージドであって欲しいか、あるいはリモートで Visual Studio Code が動作しそこにアクセスしたいかにあるとしている。</p>
+<ul>
+<li><a href="https://github.com/gitpod-io/openvscode-server/">gitpod-io/openvscode-server: Run upstream VS Code on a remote machine with access through a modern web browser from any device, anywhere.</a></li>
+</ul>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="how-to-deploy-a-dockerized-web-app-to-heroku-using-the-github-actions">How to Deploy a Dockerized Web App to Heroku using the GitHub Actions</h3>
+<p><a href="https://enlear.academy/how-to-deploy-a-dockerized-web-app-to-heroku-using-the-github-actions-f16c00b19621">https://enlear.academy/how-to-deploy-a-dockerized-web-app-to-heroku-using-the-github-actions-f16c00b19621</a></p>
+<p>Docker イメージにした .NET の Web アプリケーションを GitHub Actions から Heroku にデプロイして動かす方法についての記事。</p>
+<h3 id="implicit-usings-in.net-6">Implicit Usings in .NET 6</h3>
+<p><a href="https://www.hanselman.com/blog/implicit-usings-in-net-6">https://www.hanselman.com/blog/implicit-usings-in-net-6</a></p>
+<p>Implicit using について簡単に紹介する記事。</p>
+<h3 id="c-10.0">C# 10.0 の補間文字列の改善</h3>
+<p><a href="https://ufcpp.net/study/csharp/start/improvedinterpolatedstring/">https://ufcpp.net/study/csharp/start/improvedinterpolatedstring/</a></p>
+<p>C# 10 での補完文字列 (String interpolation) の改善についての記事。</p>
+<p><code>InterpolatedStringHandler</code> 属性を持つハンドラー型を使用した文字列フォーマットの展開例や実装例、オーバーロード解決や .NET 6 で String クラスなどに追加された API についても触れている。</p>
+<h3 id="wpfdicicd1-qiita">自作のWPFアプリを後から自動テスト・DI・CI/CD対応にしてみる。その1 - Qiita</h3>
+<p><a href="https://qiita.com/soi/items/273e60b2a48d57ae762f">https://qiita.com/soi/items/273e60b2a48d57ae762f</a></p>
+<p>WPF アプリケーションの自動テストと DI の導入、CI 対応についての記事。</p>
+<p>テストは xUnit を、DI は Microsoft.Extensions.DependencyInjection を採用。CI は GitHub Actions でカバレッジの取得や Release の作成まで行う。</p>
+<ul>
+<li><a href="https://qiita.com/soi/items/a19304220c71bdfbc171">自作のWPFアプリを後から自動テスト・DI・CI/CD対応にしてみる。その2 - Qiita</a></li>
+<li><a href="https://qiita.com/soi/items/e5f01c66c0a303a74c30">自作のWPFアプリを後から自動テスト・DI・CI/CD対応にしてみる。その3 - Qiita</a></li>
+</ul>
+<h3 id="net-6-blazor">.NET 6 の Blazor のコンポーネントでクエリ パラメーターを使うのが簡単になりました</h3>
+<p><a href="https://zenn.dev/okazuki/articles/blazor-wasm-rc1-queryparam">https://zenn.dev/okazuki/articles/blazor-wasm-rc1-queryparam</a></p>
+<p>.NET 6 Preview 7 以降の Blazor に追加されたクエリーストリングをパラメーターとして受け取る <code>SupplyParameterFromQuery</code> についての記事。</p>
+<p><code>NavigationManager</code> クラスに追加されたアプリケーション側から URL やそのパラメーターを変更するためのメソッドについても触れている。</p>
+<h3 id="c-web-url-blazor-webassembly.net-5-jsakamoto">C# での Web アプリ開発で、要求 URL 中のクエリ文字列をいい感じに読み取る - 特に Blazor WebAssembly (とりわけ .NET 5 以前) での注意点 : &#64;jsakamoto</h3>
+<p><a href="https://devadjust.exblog.jp/28884450/">https://devadjust.exblog.jp/28884450/</a></p>
+<p>Web アプリケーションでのクエリーストリングのパースについての記事。</p>
+<p><code>HttpUtility.ParseQueryString</code> と <code>UriExtensions.ParseQueryString</code> の違いについてや Blazor (.NET 5) での注意など。</p>
+<h3 id="net-6-blazor-head">.NET 6 の Blazor で追加された &lt;head&gt; タグの中を変更する機能の紹介</h3>
+<p><a href="https://zenn.dev/okazuki/articles/blazor-dotnet6-headoutlet">https://zenn.dev/okazuki/articles/blazor-dotnet6-headoutlet</a></p>
+<p>.NET 6 の Blazor で導入された <code>head</code> 要素に関するコンポーネントについての紹介記事。</p>
+<p><code>head</code> 要素にページごとに要素を追加できる <code>HeadContent</code> コンポーネントと、ページのタイトルを設定できる <code>PageTitle</code> コンポーネントが追加された。</p>
+<h3 id="entity-framework-biweekly-status-updates-2021-issue-23884-dotnetefcore">Entity Framework Biweekly Status Updates (2021) · Issue #23884 · dotnet/efcore</h3>
+<p><a href="https://github.com/dotnet/efcore/issues/23884#issuecomment-926052851">https://github.com/dotnet/efcore/issues/23884#issuecomment-926052851</a></p>
+<p>2週ごとの Entity Framework のステータス更新レポートの9月23日分。EF Core 6.0 のステータスが Feature complete となったことなど。</p>
+<h3 id="how-to-retry-failing-dotnet-tests-in-github-actions">How to retry failing dotnet tests in GitHub Actions</h3>
+<p><a href="https://www.cazzulino.com/dotnet-test-retry.html">https://www.cazzulino.com/dotnet-test-retry.html</a></p>
+<p>ネットワークが絡むテストなどで失敗しやすい (flaky) テストを GitHub Actions で実行する際にリトライする方法についての記事。</p>
+<p>bash シェルスクリプトで失敗をカウントしつつ、失敗したテスト名を抽出して部分的にリトライする (<code>--filter</code>) といった手法。</p>
+<h3 id="exploring-the-code-behind-webapplicationbuilder-exploring.net-core-6-part-3">Exploring the code behind WebApplicationBuilder: Exploring .NET Core 6 - Part 3</h3>
+<p><a href="https://andrewlock.net/exploring-dotnet-6-part-3-exploring-the-code-behind-webapplicationbuilder/">https://andrewlock.net/exploring-dotnet-6-part-3-exploring-the-code-behind-webapplicationbuilder/</a></p>
+<p>.NET 6 の WebApplicationBuilder についての詳細に解説している記事。</p>
+<p>WebApplicationBuilder は内部に何を抱えていて、どうアプリケーションが構築されるのかといった点に触れている。</p>
+<h3 id="creating-roslyn-api-based-static-analyzer-for-c">Creating Roslyn API-based static analyzer for C#</h3>
+<p><a href="https://medium.com/pvs-studio/creating-roslyn-api-based-static-analyzer-for-c-c0d7c27489f9">https://medium.com/pvs-studio/creating-roslyn-api-based-static-analyzer-for-c-c0d7c27489f9</a></p>
+<p>Roslyn ベースでの静的コードアナライザーの作成についての記事。</p>
+<p>スタンドアローンで実行可能なコードアナライザーの作成方法から、シンタックスツリーの歩き方についてや Semantic Model とシンボルといったものの扱い方などにも触れている。</p>
+<h3 id="efcore-qiita">EFCore でレコードに対するトリガーを実行する - Qiita</h3>
+<p><a href="https://qiita.com/karuakun/items/2db2e7ff8411e3a455cd">https://qiita.com/karuakun/items/2db2e7ff8411e3a455cd</a></p>
+<p>Entity Framework を使用してレコードに対する操作を行う際に C# のコードレベルで追加の処理を行う方法 (更新日のようなカラムを更新するとか) についての記事。</p>
+<p>DataContext の拡張、インターセプターによるフック、EntityFrameworkCore.Triggered を使用した方法が紹介されている。</p>
+<h3 id="azure-active-directorys-gateway-is-on.net-core-3.1.net-blog">Azure Active Directory's gateway is on .NET Core 3.1! - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/azure-active-directorys-gateway-service-is-on-net-core-3-1/">https://devblogs.microsoft.com/dotnet/azure-active-directorys-gateway-service-is-on-net-core-3-1/</a></p>
+<p>Azure Active Directory のゲートウェイサーバーを .NET Framework から .NET Core 3.1 に移行したという2021年1月の記事。</p>
+<p>.NET Core に移行を完遂するにあたって Web サーバーの検討、アプリケーションの移行、段階的なロールアウトを行ったことについて書かれている。
+また .NET Framework の ASP.NET との挙動の違いといった移行の中であった学びにも触れている。</p>
+<h3 id="custom-deployment-layout-for-blazor-webassembly-apps-asp.net-blog">Custom deployment layout for Blazor WebAssembly apps - ASP.NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/aspnet/custom-deployment-layout-for-blazor-webassembly-apps/">https://devblogs.microsoft.com/aspnet/custom-deployment-layout-for-blazor-webassembly-apps/</a></p>
+<p>.NET 6 の Blazor WebAssembly ではカスタムしたアプリケーション配布パッケージを作成する仕組みを NuGet パッケージとして提供できるようになったことについての記事。</p>
+<p>カスタム配置は例として DLL のダウンロードがブロックされている場合にひとまとめにした形でダウンロードするといった利用方法が考えられ、マルチパートなファイルにまとめるというサンプルコード/パッケージが公開されている。</p>
+<p>JavaScript の Blazor の初期化プロセスに介入する部分と MSBuild タスクによってファイルをパブリッシュする部分の拡張ポイントが増えたことで実現可能となったとのこと。</p>
+<h3 id="wpf-window-direct3d12">WPF の Window 上に Direct3D12 でレンダリングする</h3>
+<p><a href="https://zenn.dev/tan_y/articles/25cc05576ef11a">https://zenn.dev/tan_y/articles/25cc05576ef11a</a></p>
+<p>.NET 5 の WPF アプリケーションのウィンドウ上に Direct3D12 でレンダリングした結果を表示する方法についての記事。</p>
+<p>WindowsFormsHost を使用したウィンドウにレンダリングする方法、D3DImage を使用した WPF を介してレンダリングする方法がそれぞれの長所/短所と共に紹介されている。</p>
+<h3 id="the-code-worked-differently-when-the-moon-was-full">The code worked differently when the moon was full</h3>
+<p><a href="https://www.hanselman.com/blog/the-code-worked-differently-when-the-moon-was-full">https://www.hanselman.com/blog/the-code-worked-differently-when-the-moon-was-full</a></p>
+<p>3-4週間おきにスレッドプールのスレッド数がコア数またはコア数+20を行ったり来たりする謎のバグについての記事。</p>
+<p>これは Windows 95 で有名な 49.7 日問題と似て <code>PortableThreadPool</code> の <code>ShouldAdjustMaxWorkersActive</code> メソッドの中で <code>Environment.TickCount</code> による値を使用していたため。PortableThreadPool ではヒルクライム アルゴリズムを用いてスレッド数を調整する仕組みとなっているがこれが適切に呼び出されない周期が発生していた。</p>
+<pre><code class="language-csharp">int priorTime = Volatile.Read(ref _separated.priorCompletedWorkRequestsTime);
+int requiredInterval = _separated.nextCompletedWorkRequestsTime - priorTime;
+// currentTimeMs が Environment.TickCount の値。Environment.TickCount は 24.9 日で負に変わる。
+// priorCompletedWorkRequestsTime と nextCompletedWorkRequestsTime は起動時には 0 となっている
+// この時 Environment.TickCount が負を返すと elapsedInterval は負になる
+int elapsedInterval = currentTimeMs - priorTime;
+if (elapsedInterval &gt;= requiredInterval)
+{
+    // ヒルクライムが実行される == スレッドの数が調整される
+    // priorCompletedWorkRequestsTime と nextCompletedWorkRequestsTime も更新する
+</code></pre>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/issues/51935">Hysteresis effect on threadpool hill-climbing · Issue #51935 · dotnet/runtime</a></li>
+</ul>
+<h3 id="using-the-model-builder-and-automl-for-creating-lead-decision-and-lead-scoring-model-in-microsoft-ml.net">Using the Model Builder and AutoML for Creating Lead Decision and Lead Scoring Model in Microsoft ML.NET</h3>
+<p><a href="https://medium.com/&#64;cekikjmiodrag/utilizing-the-model-builder-and-automl-for-creating-lead-decision-and-lead-scoring-model-in-19888f12d529">https://medium.com/&#64;cekikjmiodrag/utilizing-the-model-builder-and-automl-for-creating-lead-decision-and-lead-scoring-model-in-19888f12d529</a></p>
+<p>Model Builder と AutoML を使用してリードスコアリングモデルを ML.NET で使用するステップバイステップの記事。</p>
+<h3 id="a.net-object-from-allocation-to-collection">A .NET Object from allocation to collection</h3>
+<p><a href="https://github.com/Maoni0/mem-doc/blob/master/presentation/ObjectJourney.pptx">https://github.com/Maoni0/mem-doc/blob/master/presentation/ObjectJourney.pptx</a> (<a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FMaoni0%2Fmem-doc%2Fmaster%2Fpresentation%2FObjectJourney.pptx&amp;wdOrigin=BROWSELINK">PowerPoint Online で開く</a>)</p>
+<p>オブジェクトのインスタンスを生成した際のアロケーションで OS やハードウェア上でのメモリーから始まり GC されるまでを解説したスライド。</p>
+<!-- https://twitter.com/maoni0/status/1443344910476726274?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;ve been so busy that I barely look at twitter these days. just published the slides from an internal talk I gave yesterday - very different from my normal GC talks as it touches a bit of all layers - the hardware (MMU), the OS (virtual memory) and the GC <a href="https://t.co/fuZBgq6LGQ">https://t.co/fuZBgq6LGQ</a></p>&mdash; Maoni Stephens (&#64;maoni0) <a href="https://twitter.com/maoni0/status/1443344910476726274?ref_src=twsrc%5Etfw">September 29, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="chillicreamhotchocolate-welcome-to-the-home-of-the-hot-chocolate-graphql-server-for.net-the-strawberry-shake-graphql-client-for.net-and-banana-cake-pop-the-awesome-monaco-based-graphql-ide">ChilliCream/hotchocolate: Welcome to the home of the Hot Chocolate GraphQL server for .NET, the Strawberry Shake GraphQL client for .NET and Banana Cake Pop the awesome Monaco based GraphQL IDE.</h3>
+<p><a href="https://github.com/ChilliCream/hotchocolate">https://github.com/ChilliCream/hotchocolate</a></p>
+<p>GraphQL 2021 draft spec に対応した GraphQL サーバーとクライアントのライブラリー。Monaco ベースの GraphQL エディターも提供されている。</p>
+<p>GraphQL for .NET (graphql-dotnet) との違いはパフォーマンス、より良いパーサー、フィルターやミドルウェア、フレキシブルな code-first アプローチなどがあるとのこと。</p>
+<ul>
+<li><a href="https://medium.com/&#64;teodor.siustis/creating-a-graphql-api-with-net5-and-hotchocolate-6dfe94626d10">Creating a GraphQL API with .NET5 and HotChocolate</a></li>
+<li><a href="https://github.com/ChilliCream/hotchocolate/issues/392">Justification for HotChocolate as opposed to GraphQl.Net · Issue #392 · ChilliCream/hotchocolate</a></li>
+</ul>
+<h3 id="datageneratormxproject.devs.datagenerator-at-main-mxprojectdatagenerator">DataGenerator/mxProject.Devs.DataGenerator at main · mxProject/DataGenerator</h3>
+<p><a href="https://github.com/mxProject/DataGenerator/tree/main/mxProject.Devs.DataGenerator">https://github.com/mxProject/DataGenerator/tree/main/mxProject.Devs.DataGenerator</a></p>
+<ul>
+<li><a href="https://qiita.com/mxProject/items/194b2ae4c11656ae5a09">C# データレコード形式のテストデータを生成するライブラリを公開しました。 - Qiita</a></li>
+</ul>
+<h3 id="ltrzesniewskipcre-net-pcre.net-perl-compatible-regular-expressions-for.net">ltrzesniewski/pcre-net: PCRE.NET - Perl Compatible Regular Expressions for .NET</h3>
+<p><a href="https://github.com/ltrzesniewski/pcre-net">https://github.com/ltrzesniewski/pcre-net</a></p>
+<p>PCRE (Perl 互換正規表現) ライブラリーの .NET 向けのラッパーとなるライブラリー。</p>
+<p><code>System.Text.RegularExpressions.Regex</code> と似たインターフェースを提供している。</p>
+<h3 id="nsubstitutensubstitute-a-friendly-substitute-for.net-mocking-libraries">nsubstitute/NSubstitute: A friendly substitute for .NET mocking libraries.</h3>
+<p><a href="https://github.com/nsubstitute/NSubstitute">https://github.com/nsubstitute/NSubstitute</a></p>
+<p>使いやすさを重視したモックインスタンス生成用ライブラリー。</p>
+<ul>
+<li><a href="https://qiita.com/arahori/items/8bcb0f770a0bfb5f7e54">NSubstitute を使った処理の置き換え - Qiita</a></li>
+</ul>
+<h3 id="roubachofsharpnado.materialframe-a-modern-xamarin.forms-frame-component-supporting-blur-acrylic-dark-mode.implemented-with-realtimeblurview-on-android-custom-blurview-and-uivisualeffectview-on-ios">roubachof/Sharpnado.MaterialFrame: A modern Xamarin.Forms Frame component supporting blur, acrylic, dark mode. Implemented with RealtimeBlurView on Android (custom blurview) and UIVisualEffectView on iOS.</h3>
+<p><a href="https://github.com/roubachof/Sharpnado.MaterialFrame">https://github.com/roubachof/Sharpnado.MaterialFrame</a></p>
+<p>Xamarin.Forms 向けのクロスプラットフォームなブラー/アクリルエフェクトを実現するコンポーネントのライブラリー。</p>
+<h3 id="jamesmhcoravel-near-zero-config.net-core-micro-framework-that-makes-advanced-application-features-like-task-scheduling-caching-queuing-event-broadcasting-and-more-a-breeze">jamesmh/coravel: Near-zero config .NET Core micro-framework that makes advanced application features like Task Scheduling, Caching, Queuing, Event Broadcasting, and more a breeze!</h3>
+<p><a href="https://github.com/jamesmh/coravel">https://github.com/jamesmh/coravel</a></p>
+<p>設定がほとんど不要なタスクスケジューラーサービスを提供するライブラリー。</p>
+<p>キャッシュやキューイング、メール送信といった機能も持っている。ダッシュボードなどを提供する有償版もある。</p>
+<h2 id="section-3">サイト、ドキュメントなど</h2>
+<h3 id="programming-idioms">Programming Idioms</h3>
+<p><a href="https://www.programming-idioms.org/">https://www.programming-idioms.org/</a></p>
+<p>様々なプログラミング言語によるパターン別の実装例を載せているサイト。(例: <a href="https://www.programming-idioms.org/idiom/41/reverse-a-string#impl5098">C# で文字列を逆順にするコード</a>)</p>
+<h3 id="performance-characterization-of.net-benchmarks-microsoft-research">Performance Characterization of .NET Benchmarks - Microsoft Research</h3>
+<p><a href="https://www.microsoft.com/en-us/research/publication/performance-characterization-of-net-benchmarks/">https://www.microsoft.com/en-us/research/publication/performance-characterization-of-net-benchmarks/</a></p>
+<h3 id="apply-rounded-corners-in-desktop-apps-windows-apps-microsoft-docs">Apply rounded corners in desktop apps - Windows apps | Microsoft Docs</h3>
+<p><a href="https://docs.microsoft.com/en-us/windows/apps/desktop/modernize/apply-rounded-corners">https://docs.microsoft.com/en-us/windows/apps/desktop/modernize/apply-rounded-corners</a></p>
+<p>Windows 11 の角丸ウィンドウに対するアプリケーションで行う対応についてのドキュメント。</p>
+<p>デフォルトでは角丸となるが角丸とならないケース、意図的に角丸を抑制したいケースでの C#/WPF と C++ による対応方法についてなど。</p>
+<h3 id="unoconf-2021">2021 - UnoConf 2021</h3>
+<p><a href="https://unoconf.com/">https://unoconf.com/</a></p>
+<p>Uno Platform のカンファレンスが2021年11月30日の正午 (日本時間 2021年12月1日午前2時) にオンラインで開催。</p>
+<h3 id="aspnetcorediagnosticscenariosasyncguidance.md-at-master-davidfowlaspnetcorediagnosticscenarios-github">AspNetCoreDiagnosticScenarios/AsyncGuidance.md at master · davidfowl/AspNetCoreDiagnosticScenarios · GitHub</h3>
+<p><a href="https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md">https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md</a></p>
+<p>Devid Fowler 氏による非同期プログラミングのベストプラクティスガイド。</p>
+<h3 id="hello-world-c-microsoft-docs">Hello World - C# の概要に関する対話型チュートリアル | Microsoft Docs</h3>
+<p><a href="https://docs.microsoft.com/ja-jp/dotnet/csharp/tour-of-csharp/tutorials/hello-world">https://docs.microsoft.com/ja-jp/dotnet/csharp/tour-of-csharp/tutorials/hello-world</a></p>
+<p>Web ブラウザー上で Hello World を出力するような C# コードを記述、実行できるインタラクティブなチュートリアル。</p>
+<h3 id="section-4">ツイート</h3>
+<!-- https://twitter.com/okyrylchuk/status/1442194858425274369?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">All my tweets about C# 10 features in one thread. 🧵<br><br>Retweets are appreciated 😊<a href="https://twitter.com/hashtag/dotnet?src=hash&amp;ref_src=twsrc%5Etfw">#dotnet</a> <a href="https://twitter.com/hashtag/csharp?src=hash&amp;ref_src=twsrc%5Etfw">#csharp</a> <a href="https://twitter.com/hashtag/coding?src=hash&amp;ref_src=twsrc%5Etfw">#coding</a> <a href="https://twitter.com/hashtag/devcommunity?src=hash&amp;ref_src=twsrc%5Etfw">#devcommunity</a></p>&mdash; Oleg Kyrylchuk (&#64;okyrylchuk) <a href="https://twitter.com/okyrylchuk/status/1442194858425274369?ref_src=twsrc%5Etfw">September 26, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>続くスレッドで C# 10 の数々の新機能を1枚画像で簡単に紹介。Constant string interpolation, Extended property patterns, File scoped namespaces, Global using などなど。</p>
+<!-- https://twitter.com/timheuer/status/1440818713582702598?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">File-scoped namespaces by default...via <a href="https://twitter.com/hashtag/editorconfig?src=hash&amp;ref_src=twsrc%5Etfw">#editorconfig</a> <br><br>csharp_style_namespace_declarations = file_scoped<a href="https://twitter.com/hashtag/dotnet?src=hash&amp;ref_src=twsrc%5Etfw">#dotnet</a> <a href="https://twitter.com/VisualStudio?ref_src=twsrc%5Etfw">&#64;VisualStudio</a> <a href="https://t.co/GifWb0M9WM">pic.twitter.com/GifWb0M9WM</a></p>&mdash; Tim Heuer (&#64;timheuer) <a href="https://twitter.com/timheuer/status/1440818713582702598?ref_src=twsrc%5Etfw">September 22, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>EditorConfig ファイルに <code>csharp_style_namespace_declarations = file_scoped</code> と設定しておくことで新しいクラスファイルを作成する際などで File-scoped namespace を使用したものを生成できるというテクニック。</p>
+<!-- https://twitter.com/vs_debugger/status/1441092957277351951?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The project menu in the solution explorer under the Debug now has the “Start Without Debugging” option. This would be helpful when you are working with a multi-project solution.  <a href="https://twitter.com/hashtag/vstip?src=hash&amp;ref_src=twsrc%5Etfw">#vstip</a> <a href="https://twitter.com/hashtag/vsdebuggertip?src=hash&amp;ref_src=twsrc%5Etfw">#vsdebuggertip</a> <a href="https://t.co/SPUXbQmqgN">pic.twitter.com/SPUXbQmqgN</a></p>&mdash; Visual Studio Debugger (&#64;VS_Debugger) <a href="https://twitter.com/VS_Debugger/status/1441092957277351951?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>ソリューションエクスプローラーのプロジェクトのコンテキストメニューに &quot;Start Without Debugging&quot; (デバッグなしで実行) が追加された。</p>
+<!-- https://twitter.com/davidfowl/status/1441576163734818817?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The biggest problem with async await is the “colored functions” problem brilliantly explained by this article <a href="https://t.co/hz5753G8DM">https://t.co/hz5753G8DM</a>. It’s a never ending problem because everything can’t be async and          it’s viral. It’s not a new problem though, it’s always been this way.</p>&mdash; David Fowler 🇧🇧🇺🇸💉💉 (&#64;davidfowl) <a href="https://twitter.com/davidfowl/status/1441576163734818817?ref_src=twsrc%5Etfw">September 25, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p><code>async</code> メソッドは <code>async</code> メソッドからしか呼べない話。</p>
+<p>Go や Java の Project Loom では viral (感染的) ではないアプローチを取っているが、.NET では難しい理由がある。例えば一つは相互運用のためのパフォーマンスにかかわる問題で .NET には高機能な FFI (P/Invoke) があるがグリーンスレッドからのコンテキストスイッチで問題となる。</p>
+<p>他に .NET にはメモリーをピンするという仕組みがあることもあげている。これはユーザーモードスレッドを実装したとするとスタックを動的に広げる必要がある際にコピーが必要となるが、メモリーのアドレスが変わってしまうためできない。代わりに linked list で持つなどが考えられるがパフォーマンスに問題が出る、また async state machine は .NET におけるある種の linked list としてもみえるといった話など。</p>
+<!-- https://twitter.com/stevensanderson/status/1443288841964638220?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Using the new Native Dependencies feature for Blazor WebAssembly on .NET 6, I just managed to call Rust from C#, both running in the browser! It&#39;s a direct p/invoke call - no JS interop. Now, what can we do with this new power? <a href="https://t.co/VkyBekDWFR">pic.twitter.com/VkyBekDWFR</a></p>&mdash; Steve Sanderson (&#64;stevensanderson) <a href="https://twitter.com/stevensanderson/status/1443288841964638220?ref_src=twsrc%5Etfw">September 29, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>.NET 6 の Blazor WebAssemlby では Native Dependencies という機能により、C# から外部の WASM を JavaScript 相互運用なしで P/Invoke できるので Rust などを直接呼び出せるという話。</p>
+<h2 id="deep-dive">Deep Dive</h2>
+<h3 id="obsolete-thumbtacked-assemblyname-properties-by-i3arnon-pull-request-59522-dotnetruntime">Obsolete thumbtacked AssemblyName properties by i3arnon · Pull Request #59522 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/59522">https://github.com/dotnet/runtime/pull/59522</a></p>
+<p><code>AssemblyName</code> の <code>ProcessorArchitecture</code>, <code>HashAlgorithm</code>, <code>VersionCompatibility</code> は.NET Core では意味をなさないため非推奨としてマークするという PR。</p>
+<h3 id="querystringenumerable-api-by-stevesandersonms-pull-request-33910-dotnetaspnetcore-github">QueryStringEnumerable API by SteveSandersonMS · Pull Request #33910 · dotnet/aspnetcore · GitHub</h3>
+<p><a href="https://github.com/dotnet/aspnetcore/pull/33910">https://github.com/dotnet/aspnetcore/pull/33910</a></p>
+<p>クエリーストリングを Span ベースで取り扱って列挙する内部 API の実装 PR。<code>QueryStringEnumerable</code> 自体は公開されていない。</p>
+<h3 id="port-dllimportgenerator-to-dotnetruntime-by-jkoritzinsky-pull-request-59363-dotnetruntime">Port DllImportGenerator to dotnet/runtime by jkoritzinsky · Pull Request #59363 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/59363">https://github.com/dotnet/runtime/pull/59363</a></p>
+<p>P/Invoke のコードを Source Generator でコード生成をする DllImportGenerator を別リポジトリから dotnet/runtime に引っ越してきた PR。</p>
+<p>コードを生成することでマーシャリングの調査やカスタマイズが行いやすくなることが目的のよう。</p>
+<h3 id="c-string-formatting-with-negative-numbers-are-not-working-as-expected-in-net5.0-issue-59570-dotnetruntime">C# string formatting with negative numbers are not working as expected in net5.0 · Issue #59570 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/issues/59570">https://github.com/dotnet/runtime/issues/59570</a></p>
+<p><code>double</code> の <code>-0.0</code> を <code>ToString(&quot;f1&quot;)</code> すると .NET Framework と .NET 5 で結果が違うという Issue。</p>
+<p>これは .NET Core 3.0 で小数点のパースとフォーマットに手が入った影響で正しく符号がつくようになったことによるもの。もし以前と同様の結果を得たい場合は <code>ToString(&quot;0.0;-0.0;0.0&quot;)</code> という3セクションフォーマットで指定する。</p>
+<ul>
+<li><a href="https://devblogs.microsoft.com/dotnet/floating-point-parsing-and-formatting-improvements-in-net-core-3-0/">Floating-Point Parsing and Formatting improvements in .NET Core 3.0 - .NET Blog</a></li>
+</ul>
+<h3 id="augment-regex-extensibility-point-for-better-perf-and-span-based-matching-issue-59629-dotnetruntime">Augment Regex extensibility point for better perf and span-based matching · Issue #59629 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/issues/59629">https://github.com/dotnet/runtime/issues/59629</a></p>
+<p>Regex にパフォーマンスのためと、<code>Span</code> ベースマッチングのために拡張ポイントを用意したいという話。</p>
+<h3 id="stacktrace-explorer-implementation-by-ryzngard-pull-request-56315-dotnetroslyn">StackTrace Explorer Implementation by ryzngard · Pull Request #56315 · dotnet/roslyn</h3>
+<p><a href="https://github.com/dotnet/roslyn/pull/56315">https://github.com/dotnet/roslyn/pull/56315</a></p>
+<p>テキストとしてクリップボードにコピーしたスタックトレースからジャンプしたりできる Stack Trace Explorer の実装 PR。</p>
+<ul>
+<li><a href="https://www.jetbrains.com/help/resharper/Reference__Windows__Stack_Trace_Explorer.html">Stack Trace Explorer window | ReSharper</a></li>
+</ul>
+<h3 id="api-proposal-bool-hashset.updatet-value-out-t-actual-issue-59468-dotnetruntime">[API Proposal]: bool HashSet.Update(T value, out T actual) · Issue #59468 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/issues/59468#issuecomment-925609693">https://github.com/dotnet/runtime/issues/59468#issuecomment-925609693</a></p>
+<p>元は <code>HashSet&lt;T&gt;</code> に Update が欲しいという話で、やりたいこと的には <code>Dictionary&lt;TKey, TValue&gt;</code> だが <code>Dictionary</code> には <code>Update</code> がないという話になったところ、<code>GetOrSet</code> に相当するメソッドであれば .NET 6 RC1 で <code>CollectionsMarshal.GetValueRefOrAddDefault</code> というものが増えたのでそれで実装できるというテクニック。</p>
+<ul>
+<li><a href="https://docs.microsoft.com/ja-jp/dotnet/api/system.runtime.interopservices.collectionsmarshal.getvaluereforadddefault?view=net-6.0">CollectionsMarshal.GetValueRefOrAddDefault&lt;TKey,TValue&gt;(Dictionary&lt;TKey,TValue&gt;, TKey, Boolean) メソッド (System.Runtime.InteropServices) | Microsoft Docs</a></li>
+</ul>
+<h3 id="api-proposal-file.writeallbytes-overload-for-span-and-readonlyspan-issue-59770-dotnetruntime">[API Proposal]: File.WriteAllBytes overload for Span and ReadOnlySpan · Issue #59770 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/issues/59770">https://github.com/dotnet/runtime/issues/59770</a></p>
+<p><code>File.WriteAllBytes</code> に <code>Span</code>/<code>ReadOnlySpan</code> を受けるオーバーロードが欲しいという提案。</p>
+<p>既に過去に似た提案があり、<code>File.Write*</code>/<code>File.Append*</code> は特に高レベルな API なのに対して <code>Span</code> のような低レベルな API を組み合わせるのが不自然、これらのメソッドはパフォーマンスよりも利便性に特化していること、初心者向けのコア API を汚染することといった点でデザイン上なしという形で close されている。</p>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/issues/35054">API proposal: Add File class method overloads for ReadOnlyMemory and ReadOnlySpan · Issue #35054 · dotnet/runtime · GitHub</a></li>
+</ul>
+<h3 id="monowasm-add-beginnings-of-support-for-wasi.by-vargaz-pull-request-59752-dotnetruntime-github">[mono][wasm] Add beginnings of support for WASI. by vargaz · Pull Request #59752 · dotnet/runtime · GitHub</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/59752">https://github.com/dotnet/runtime/pull/59752</a></p>
+<p>Mono WASM で WASI (WebAssemlby System Interface) のサポートを始めるという PR。</p>
+<h3 id="add-initial-codespaces-support-for-dotnetruntime-by-eerhardt-pull-request-59723-dotnetruntime">Add initial codespaces support for dotnet/runtime by eerhardt · Pull Request #59723 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/59723">https://github.com/dotnet/runtime/pull/59723</a></p>
+<p>dotnet/runtime リポジトリを GitHub Codespaces 上でも編集/ビルドできるようにするための初期サポートの PR。</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>

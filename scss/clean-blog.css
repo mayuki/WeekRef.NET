@@ -24,13 +24,13 @@ img::selection { color: #fff; background: transparent; }
 
 img::-moz-selection { color: #fff; background: transparent; }
 
-#mainNav { position: absolute; border-bottom: 1px solid #e9ecef; background-color: white; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+#mainNav { position: absolute; background-color: #103154; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-#mainNav .navbar-brand { font-weight: 800; color: #343a40; }
+#mainNav .navbar-brand { font-weight: 800; color: #fff; }
 
-#mainNav .navbar-toggler { font-size: 12px; font-weight: 800; padding: 13px; text-transform: uppercase; color: #343a40; }
+#mainNav .navbar-toggler { font-size: 12px; font-weight: 800; padding: 13px; text-transform: uppercase; color: #fff; }
 
-#mainNav .navbar-nav > li.nav-item > a { font-size: 12px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; }
+#mainNav .navbar-nav > li.nav-item > a { font-size: 12px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; color: #fff; }
 
 @media only screen and (min-width: 992px) { #mainNav { border-bottom: 1px solid transparent; background: transparent; }
   #mainNav .navbar-brand { padding: 10px 0; color: #fff; }
@@ -39,10 +39,10 @@ img::-moz-selection { color: #fff; background: transparent; }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover { color: rgba(255, 255, 255, 0.8); } }
 
 @media only screen and (min-width: 992px) { #mainNav { -webkit-transition: background-color 0.2s; -moz-transition: background-color 0.2s; transition: background-color 0.2s; /* Force Hardware Acceleration in WebKit */ -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -webkit-backface-visibility: hidden; }
-  #mainNav.is-fixed { /* when the user scrolls down, we hide the header right above the viewport */ position: fixed; top: -67px; -webkit-transition: -webkit-transform 0.2s; -moz-transition: -moz-transform 0.2s; transition: transform 0.2s; border-bottom: 1px solid white; background-color: rgba(255, 255, 255, 0.9); }
-  #mainNav.is-fixed .navbar-brand { color: #212529; }
+  #mainNav.is-fixed { /* when the user scrolls down, we hide the header right above the viewport */ position: fixed; top: -67px; -webkit-transition: -webkit-transform 0.2s; -moz-transition: -moz-transform 0.2s; transition: transform 0.2s; background-color: rgba(16, 49, 84, 0.95); backdrop-filter: blur(8px); }
+  #mainNav.is-fixed .navbar-brand { color: #fff; }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover { color: #007bff; }
-  #mainNav.is-fixed .navbar-nav > li.nav-item > a { color: #212529; }
+  #mainNav.is-fixed .navbar-nav > li.nav-item > a { color: #fff; }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover { color: #007bff; }
   #mainNav.is-visible { /* if the user changes the scrolling direction, we show the header */ -webkit-transform: translate3d(0, 100%, 0); -moz-transform: translate3d(0, 100%, 0); -ms-transform: translate3d(0, 100%, 0); -o-transform: translate3d(0, 100%, 0); transform: translate3d(0, 100%, 0); } }
 
