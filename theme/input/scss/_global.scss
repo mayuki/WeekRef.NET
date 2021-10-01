@@ -18,6 +18,10 @@ h5,
 h6 {
   font-weight: 600;
   @include sans-serif-font;
+
+  @media only screen and (max-width: 991px) {
+    word-break: break-all;
+  }
 }
 
 li {
