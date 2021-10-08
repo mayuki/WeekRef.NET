@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2021-10-08: .NET&#x306E;&#x30AF;&#x30E9;&#x30B9;&#x30E9;&#x30A4;&#x30D6;&#x30E9;&#x30EA;&#x8A2D;&#x8A08; &#x6539;&#x8A02;&#x65B0;&#x7248;, Umbraco 9, Visual Studio 2022 for Mac Preview 1 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2021/10/08/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2021-10-08: .NET&#x306E;&#x30AF;&#x30E9;&#x30B9;&#x30E9;&#x30A4;&#x30D6;&#x30E9;&#x30EA;&#x8A2D;&#x8A08; &#x6539;&#x8A02;&#x65B0;&#x7248;, Umbraco 9, Visual Studio 2022 for Mac Preview 1 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2021/10/08/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2021-10-08: .NET&#x306E;&#x30AF;&#x30E9;&#x30B9;&#x30E9;&#x30A4;&#x30D6;&#x30E9;&#x30EA;&#x8A2D;&#x8A08; &#x6539;&#x8A02;&#x65B0;&#x7248;, Umbraco 9, Visual Studio 2022 for Mac Preview 1
+          </h1>
+              <div class="meta">Published on Friday, 08 October 2021</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<p><a href="https://www.nikkeibp.co.jp/atclpubmkt/book/21/S80040/">.NETのクラスライブラリ設計 改訂新版</a> (<a href="https://www.amazon.co.jp/gp/product/4296080040">Amazon</a>) が10/7に発売されました。</p>
+<p>この本は .NET Framework を開発した中で出てきたクラスライブラリーを作る上でのノウハウをまとめたベストプラクティス集のようなものです。</p>
+<p>クラスライブラリーを設計するうえでどういった部分に気を付ければよいのか、何をすべきで何をすべきではないのかといったものが書かれているのですが、この本の特徴的な部分は .NET 開発チームの声が注釈としてたくさん入っていることです。そこには .NET でなぜその選択をしたのかといった理由をはじめ、時には後悔なども書かれており、それを読むだけでも楽しめます。</p>
+<p>前の翻訳版は .NET 開発者の中では知る人ぞ知るといった本だったのですが既に12年が経過し内容も古くなっていたこともあり、待望の改訂となりました。この改訂では .NET Framework から .NET Core 世代に変化したような時代に合わせた内容となっています。例えば C# 5 以降に関する記述や Task ベースの非同期、<code>Span&lt;T&gt;</code> などを含むバッファパターンについてなど多くの項目が増えています。</p>
+<p>また付録もボリュームがあり、コーディング規約や破壊的変更について、さらには日本語翻訳版独自の翻訳者と監訳者による座談会風の雑感なども収録されて読み応えが増しています。</p>
+<p>今では NuGet や GitHub といったものが一般的になりライブラリーを作る人が増えたためそういった方々にお勧めできるのはもちろん、クラスライブラリーに限らずアプリケーションのコードにおいても一貫性や使いやすさといった面で多くの .NET 開発の上で参考になる一冊だと思います。</p>
+<hr>
+<p><a href="https://umbraco.com/blog/umbraco-9-release/">Umbraco 9</a> がリリースされました。</p>
+<p>Umbraco は .NET 界の中では比較的歴史のあるオープンソースの CMS です。その Umbraco が 9 で .NET Framework から .NET 5 への移行を完了しています。これによりパフォーマンスの向上や開発体験の向上、マルチプラットフォームでの動作が可能となるといった恩恵を受けられるようになったそうです。</p>
+<p>Umbraco も実際に .NET Core 世代に移行を検討してから年単位で時間がかかったようなので、先日の Paint.NET のように歴史のあるプロジェクトが .NET 5 以降に移行するものがそろそろ増え始めるのかもしれません。</p>
+<hr>
+<p><a href="https://devblogs.microsoft.com/visualstudio/visual-studio-2022-for-mac-preview-1-is-now-available/">Visual Studio 2022 for Mac Preview 1</a> がリリースされました。先日まで Private Preview だったのですが Public Preview として一般公開されました。</p>
+<p>Visual Studio 2022 for Mac は目玉として UI の macOS ネイティブ化が進められています。これにより UI のフィーリング(見た目や挙動)が macOS のものと近くなりパフォーマンスと安定性も向上するとしています。またアクセシビリティ面でも VoiceOver の対応といった利点があります。</p>
+<p>Preview 1 では主に C# 10 と .NET 6 SDK 対応が含まれており、MAUI の対応は後ほどとなるようです。全体的な UI の再構築を行っていることもあり、現時点では設定画面や一部機能がまだ不完全なところが多くある(未実装や項目が減っている)のでその点は注意が必要です。</p>
+<h2 id="section">トピックス</h2>
+<h3 id="umbraco-9-release-umbraco-powered-by.net-5-asp.net-core">Umbraco 9 release | Umbraco powered by .NET 5 &amp; ASP.NET Core</h3>
+<p><a href="https://umbraco.com/blog/umbraco-9-release/">https://umbraco.com/blog/umbraco-9-release/</a></p>
+<p>オープンソースの CMS の Umbraco 9 がリリースされた。</p>
+<p>2年前からスタートした .NET Framework から .NET 5 および ASP.NET Core へ移行が完了。</p>
+<p>.NET 5 へ移行したことによりパフォーマンス向上や Microsoft.Extensions.DependencyInjection や Configuration を元にしたアーキテクチャへの変更による開発しやすさの向上、Windows 以外のプラットフォームのサポートが可能となった。</p>
+<h3 id="visual-studio-2022-for-mac-preview-1-is-now-available-visual-studio-blog">Visual Studio 2022 for Mac Preview 1 is now available! - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/visual-studio-2022-for-mac-preview-1-is-now-available/">https://devblogs.microsoft.com/visualstudio/visual-studio-2022-for-mac-preview-1-is-now-available/</a></p>
+<p>Visual Studio 2022 for Mac の Preview 1 がリリースされた。Private Preview から Public Preview となったことで登録不要でインストール可能となった。</p>
+<p>Visual Studio 2022 for Mac は UI の macOS ネイティブへの刷新がフォーカスされている。これによりパフォーマンスと安定性の向上、操作や表示のフィーリングの改善、アクセシビリティの対応 (VoiceOver) といった恩恵を受けられる。</p>
+<p>その他 .NET 6 と C# 10 への対応や Git ツーリングの改善などが含まれている。</p>
+<p>Preview 1 では多くの機能が不完全であり(例えば設定画面等)、MAUI への対応ものちの Preview にて提供予定。</p>
+<ul>
+<li><a href="https://qiita.com/uikou/items/ae0a54d18b0557f8477e">Visual Studio 2022 for Mac Preview 1 がリリースされました - Qiita</a></li>
+</ul>
+<h3 id="ml.net-updates-announcing-notebooks-in-visual-studio.net-blog">ML.NET Updates &amp; Announcing Notebooks in Visual Studio - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/ml-net-and-model-builder-october-updates/">https://devblogs.microsoft.com/dotnet/ml-net-and-model-builder-october-updates/</a></p>
+<p>Visual Studio 2022 に .NET のインタラクティブなノートブックを統合する拡張がリリースされた。</p>
+<p>以前より .NET Interactive Notebooks や Visual Studio Code 拡張といったものが提供されていたがその Visual Studio 向けの拡張。.NET のインタラクティブなノートブックは ML.NET の Model Builder や .ipynb ファイルを直接作成することで使用可能。</p>
+<p>その他 ML.NET のアップデートや、以前フィードバックされていた ML.NET に関する懸念点に関する進捗についてにも触れている。</p>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=MLNET.notebook">Notebook Editor - Visual Studio Marketplace</a></li>
+</ul>
+<h3 id="release-1.4.0-beta.4-mysql-netmysqlconnector">Release 1.4.0-beta.4 · mysql-net/MySqlConnector</h3>
+<p><a href="https://github.com/mysql-net/MySqlConnector/releases/tag/1.4.0-beta.4">https://github.com/mysql-net/MySqlConnector/releases/tag/1.4.0-beta.4</a></p>
+<p>Async MySQL Connector の 1.4.0-beta.4 がリリース。</p>
+<p>不具合の修正のほか <code>ConnectionIdlePingTime</code> オプションの削除など。</p>
+<h3 id="net-6-rc2-update-for-macos-and-windows-arm64-issue-21686-dotnetsdk">.NET 6 RC2 Update for macOS and Windows Arm64 · Issue #21686 · dotnet/sdk</h3>
+<p><a href="https://github.com/dotnet/sdk/issues/21686">https://github.com/dotnet/sdk/issues/21686</a></p>
+<p>.NET 6 RC2 で macOS と Windows の ARM64 対応がほぼ完了したとのこと。</p>
+<p>それにより .NET 6 RC2 以降での macOS と Windows の ARM64 対応は次のような状況となる。</p>
+<ul>
+<li>x64 版と ARM64 版のインストールの共存可能になる</li>
+<li>.NET 6 RC2 以降では一度すべての .NET をアンインストールする必要がある</li>
+<li>コマンドラインから ARM64 のコマンドを使用して x64 の開発が行える (逆も)</li>
+<li>パフォーマンス上の理由からも ARM64 SDK を使用してほしい</li>
+<li>SDK は .NET 6+ の ARM64 のみをサポートする</li>
+<li>ランタイムはすべてのバージョンの ARM64, x64 共にサポートする</li>
+<li>.NET 6 RC2 で x64 エミュレーションも含む ARM64 の .NET 6 体験を提供</li>
+<li>.NET Core 3.1, .NET 5 のランタイムも .NET 6 に合わせて更新予定 (ただし時期は未定)</li>
+<li>RC2 ナイトリービルドは現在壊れているため数週間後にリリースされる RC2 を待ってほしい</li>
+<li>.NET 5 SDK for Windows ARM64 は .NET 6 RTM 後に早期終了予定</li>
+</ul>
+<p>他にもインストールした際にネイティブアーキテクチャーの dotnet コマンドにのみ PATH が通ることやアーキテクチャーを指定する <code>-a</code> 引数が追加されたこと、Windows 11 においては特別な対応がないことなどにも触れている。</p>
+<h3 id="release-release-v2.40.0-grpcgrpc-dotnet">Release Release v2.40.0 · grpc/grpc-dotnet</h3>
+<p><a href="https://github.com/grpc/grpc-dotnet/releases/tag/v2.40.0">https://github.com/grpc/grpc-dotnet/releases/tag/v2.40.0</a></p>
+<p>Grpc.Net の v2.40.0 がリリースされた。</p>
+<p>幾つかの不具合対応、ターゲットフレームワークとして .NET 6 が追加、ProtoBuf のバージョンアップなど。</p>
+<h3 id="release-diagnostics-release-v5.0.248003-dotnetdiagnostics">Release Diagnostics Release - v5.0.248003 · dotnet/diagnostics</h3>
+<p><a href="https://github.com/dotnet/diagnostics/releases/tag/v5.0.248003">https://github.com/dotnet/diagnostics/releases/tag/v5.0.248003</a></p>
+<p>Diagnostics ツールの v5.0.248003 がリリースされた。</p>
+<p>各種バグの修正や Microsoft.Diagnostics.NetCore.Client (Diagnostics API) の非同期対応など。</p>
+<p>その他 .NET 6 で PDB を配置していなかった場合にメタデータトークンのオフセットがスタックトレースに出力できるようになったが、それから元のコードの位置を割り出す <code>symbolicate</code> コマンドが <code>dotnet-stack</code> に実装された。なおメタデータトークンのオフセットを出力する機能はデフォルトで無効化されているため、<code>Switch.System.Diagnostics.StackTrace.ShowILOffsets</code> AppContext スイッチを有効にする必要がある。</p>
+<ul>
+<li><a href="https://github.com/dotnet/diagnostics/pull/2436">Add new 'symbolicate' commands to dotnet-stack by JongHeonChoi · Pull Request #2436 · dotnet/diagnostics</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/44013">Add IL Offset and Method Token to stacktrace by wscho77 · Pull Request #44013 · dotnet/runtime</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/56780">disable token info in traces. by mangod9 · Pull Request #56780 · dotnet/runtime</a></li>
+</ul>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="net-core-api-in-azure-container-instances-secured-with-https-using-caddy2">.NET Core API in Azure Container Instances, secured with HTTPS using Caddy2</h3>
+<p><a href="https://dev.to/kedzior_io/net-core-api-in-azure-container-instances-secured-with-https-using-caddy2-32jm">https://dev.to/kedzior_io/net-core-api-in-azure-container-instances-secured-with-https-using-caddy2-32jm</a></p>
+<p>ASP.NET Core API アプリケーションを Azure Container Instances 上で動かすときに Caddy2 をセットで使用することで簡単に HTTPS 対応をするという記事。</p>
+<h3 id="asp.net-mvc5.net-frameworkmicrosoft.extensions.dependencyinjection-qiita">ASP.NET MVC5(.NET Framework)にMicrosoft.Extensions.DependencyInjectionを導入する - Qiita</h3>
+<p><a href="https://qiita.com/jun1s/items/cedf917a9de98830e97c">https://qiita.com/jun1s/items/cedf917a9de98830e97c</a></p>
+<p>.NET Framework の ASP.NET MVC 5 に Microsoft.Extensions.DependencyInjection を導入する方法についての記事。</p>
+<p>DependencyResolver に登録するためのアダプターとなるライブラリーを使用することで、ASP.NET MVC のコントローラーでもコンストラクターインジェクションやメソッドパラメーターインジェクションを行えるようにする。</p>
+<h3 id="differences-between-hashtable-vs-dictonary-vs-concurrentdictionary-vs-immutabledictionary">Differences between Hashtable vs Dictonary vs ConcurrentDictionary vs ImmutableDictionary</h3>
+<p><a href="https://www.hanselman.com/blog/differences-between-hashtable-vs-dictonary-vs-concurrentdictionary-vs-immutabledictionary">https://www.hanselman.com/blog/differences-between-hashtable-vs-dictonary-vs-concurrentdictionary-vs-immutabledictionary</a></p>
+<p>.NET はマップ/辞書を実現するクラスが <code>Hashtable</code> と <code>Dictonary</code> と <code>ConcurrentDictionary</code> と <code>ImmutableDictionary</code> 4種類あるがどう違うのかの記事。David Fowler 氏のツイートから。</p>
+<p><code>Hashtable</code> は .NET 1.x 世代の弱い型付けであり、box 化も発生するため .NET 2.0 以降では <code>Dictionary&lt;TKey, TValue&gt;</code> に変わられた。</p>
+<p>スレッドセーフティーを考慮する必要があるのであれば <code>System.Collections.Concurrent</code> か<code>System.Collections.Immutable</code> を使用することになる。それを踏まえてそれぞれ次のような違いがある。</p>
+<ul>
+<li><code>ConcurrentDictionary</code>: 並列実行時の読み取りは良好、作成は重い、更新速度は遅い</li>
+<li>ロックあり <code>Dictionary</code>: 読み取りは遅く、作成は軽量、更新速度はまあまあ</li>
+<li>イミュータブルな <code>Dictionary</code>: 読み取りは最速、作成は軽量、 更新速度はとても遅い
+<ul>
+<li>イミュータブルな Dictionary とは <code>var newDict = new Dictionary&lt;T,K&gt;(oldDict); newDict.Add(key, value);</code> のようにコピーする方式</li>
+</ul>
+</li>
+<li><code>Hashtable</code>: 読み取りは良好、作成は Dictionary と同様に軽量、更新は重く、ジェネリクスもない</li>
+<li><code>ImmutableDictionary</code>: 読み取りは遅め、ロックは不要ただし更新時にアロケーションが多い</li>
+</ul>
+<!-- https://twitter.com/davidfowl/status/1444467842418548737?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">.NET has 4 built-in dictionary/map types:<br>- Hashtable<br>- Dictionary<br>- ConcurrentDictionary<br>- ImmutableDictionary<br><br>There’s no guidance on when to use what, mostly individual documentation on each implementation.<a href="https://twitter.com/hashtag/dotnet?src=hash&amp;ref_src=twsrc%5Etfw">#dotnet</a></p>&mdash; David Fowler 🇧🇧🇺🇸💉💉 (&#64;davidfowl) <a href="https://twitter.com/davidfowl/status/1444467842418548737?ref_src=twsrc%5Etfw">October 3, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<ul>
+<li><a href="https://docs.microsoft.com/ja-jp/archive/msdn-magazine/2017/march/net-framework-immutable-collections">.NET Framework - 不変コレクション | Microsoft Docs</a></li>
+<li><a href="https://docs.microsoft.com/ja-jp/dotnet/standard/collections/thread-safe/when-to-use-a-thread-safe-collection">スレッドセーフなコレクションを使用する状況 | Microsoft Docs</a></li>
+<li><a href="https://devblogs.microsoft.com/premier-developer/read-only-frozen-and-immutable-collections/">Read only, frozen, and immutable collections - Developer Support</a></li>
+</ul>
+<h3 id="spaphp-conference-japan-2021">SPAセキュリティ入門～PHP Conference Japan 2021</h3>
+<p><a href="https://www.slideshare.net/ockeghem/phpconf2021spasecurity">https://www.slideshare.net/ockeghem/phpconf2021spasecurity</a></p>
+<p>Single Page Application におけるフロントエンドを中心としたサーバーとのセキュリティーについてのスライド。</p>
+<p>JWT をセッションに使うことについてや、Cookie/localStorage について、CORS などについて落とし穴と共に解説している。</p>
+<h3 id="net-annotated-monthly-october-2021-the.net-tools-blog">.NET Annotated Monthly | October 2021 | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2021/10/05/net-annotated-monthly-october-2021/">https://blog.jetbrains.com/dotnet/2021/10/05/net-annotated-monthly-october-2021/</a></p>
+<p>JetBrains による9月から10月にあった .NET 関連の記事やトピックスのまとめの記事。</p>
+<h3 id="c">(C#) 構造体で列挙型ライクな定義を作る - ネコのために鐘は鳴る</h3>
+<p><a href="https://ikorin2.hatenablog.jp/entry/2021/10/04/043527">https://ikorin2.hatenablog.jp/entry/2021/10/04/043527</a></p>
+<p>Enum (列挙型) の代わりとなるような値/タイプセーフな定義型を作る方法について。</p>
+<p>struct として定義することのメリットとして定義外の値を防ぐことやメソッドの定義ができること、内部値の変更が可能といった点があり、デメリットとして定数とできない、デフォルト引数値として扱えない、switch での分岐ができない、Enum の機能を使えないといった点をあげている。</p>
+<h3 id="a-look-at-the-upcoming-improvements-to-linq-in.net-6">A look at the upcoming improvements to LINQ in .NET 6</h3>
+<p><a href="https://raygun.com/blog/linq-net-6-improvements/">https://raygun.com/blog/linq-net-6-improvements/</a></p>
+<p>.NET 6 で強化される LINQ に関する紹介の記事。</p>
+<p><code>Chunk</code> の追加, <code>ElementAt</code> の Index 対応、<code>Take</code> の Range 対応、<code>Zip</code> の3パラメータ版 の追加、<code>FirstOrDefault</code> などでのデフォルト値、<code>TryGetNonEnumeratedCount</code> ヘルパーメソッド、<code>MaxBy</code>/<code>MinBy</code> の追加について。</p>
+<h3 id="hacktoberfest-for.net-developers-c-edition">Hacktoberfest for .NET Developers (C# Edition)</h3>
+<p><a href="https://dev.to/arafattehsin/hacktoberfest-for-net-developers-c-edition-3bha">https://dev.to/arafattehsin/hacktoberfest-for-net-developers-c-edition-3bha</a></p>
+<p>Hacktoberfest に参加しコントリビュートを受け付けている .NET (C# 向け) のプロジェクトの紹介記事。</p>
+<ul>
+<li><a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest 2021</a></li>
+</ul>
+<h3 id="odata-with.net-6">OData with .NET 6</h3>
+<p><a href="https://dev.to/berviantoleo/odata-with-net-6-5e1p">https://dev.to/berviantoleo/odata-with-net-6-5e1p</a></p>
+<p>.NET 6 と PostgreSQL で OData 対応の API アプリケーションを用意するステップバイステップ。</p>
+<h3 id="aws-dotnet-lambda-functions-powered-by-aws-graviton2-processors-c-cdk">AWS DotNet Lambda Functions powered by AWS Graviton2 Processors (C#, CDK)</h3>
+<p><a href="https://collin-smith.medium.com/aws-dotnet-lambda-functions-powered-by-aws-graviton2-processors-c-cdk-c7efc160324d">https://collin-smith.medium.com/aws-dotnet-lambda-functions-powered-by-aws-graviton2-processors-c-cdk-c7efc160324d</a></p>
+<p>.NET による AWS Lambda Functions を AWS Graviton 2 (ARM) インスタンスの上で動かす記事。</p>
+<p>CDK を使用して Lambda Functions のプロジェクトを作成し、デプロイする方法について触れている。</p>
+<h3 id="building-a-middleware-pipeline-with-webapplication-exploring.net-core-6-part-4">Building a middleware pipeline with WebApplication: Exploring .NET Core 6 - Part 4</h3>
+<p><a href="https://andrewlock.net/exploring-dotnet-6-part-4-building-a-middleware-pipeline-with-webapplication/">https://andrewlock.net/exploring-dotnet-6-part-4-building-a-middleware-pipeline-with-webapplication/</a></p>
+<p>.NET 6 の ASP.NET Core の WebApplication が開始、終了するまでの流れと HTTP ミドルウェアパイプラインの構築についての解説記事。</p>
+<p>WebApplication を介してミドルウェアを登録した場合にどのようにしてパイプラインを構築されるかに触れている。</p>
+<h3 id="switchbotwindowscble-qiita">SwitchBot温湿度計の値を、WindowsでC#でBLEで直接受信する - Qiita</h3>
+<p><a href="https://qiita.com/ShTair/items/3fef7dad7668bd4e8fa5">https://qiita.com/ShTair/items/3fef7dad7668bd4e8fa5</a></p>
+<p>SwitchBot の温湿度計を .NET 5 と Windows 10 の Bluetooth LE の API を使用して読み取ることについての記事。</p>
+<h3 id="graphql-mutation-errors-union-erros-with-interface-aka-6a-with-hotchocolate-graphql-server">GraphQL mutation errors (union erros with interface aka 6a) with Hotchocolate GraphQL Server</h3>
+<p><a href="https://dev.to/damikun/graphql-mutation-union-erros-6a-with-hotchocolate-graphql-server-1b70">https://dev.to/damikun/graphql-mutation-union-erros-6a-with-hotchocolate-graphql-server-1b70</a></p>
+<p>Hotchocolate GraphQL サーバーでミューテーションのエラーを Union と Interface の組み合わせ (Stage 6a) で返す方法についての記事。</p>
+<ul>
+<li><a href="https://productionreadygraphql.com/2020-08-01-guide-to-graphql-errors">A Guide to GraphQL Errors | Production Ready GraphQL | Blog</a></li>
+</ul>
+<h3 id="blazor-webassembly-svg-drag-and-drop">Blazor Webassembly SVG Drag And Drop</h3>
+<p><a href="https://medium.com/codex/blazor-webassembly-svg-drag-and-drop-e680769ac682">https://medium.com/codex/blazor-webassembly-svg-drag-and-drop-e680769ac682</a></p>
+<p>Blazor WebAssembly で SVG の要素をドラッグアンドドロップできるようにする実装についての記事。</p>
+<h3 id="exploring-c-10-save-space-with-file-scoped-namespaces">Exploring C# 10: Save Space with File-Scoped Namespaces</h3>
+<p><a href="https://dev.to/daveabrock/exploring-c-10-save-space-with-file-scoped-namespaces-1jfi">https://dev.to/daveabrock/exploring-c-10-save-space-with-file-scoped-namespaces-1jfi</a></p>
+<p>C# 10 で使用できるファイルスコープの <code>namespace</code> についての記事。</p>
+<p>従来の指定方法と混ぜることができない点や、複数回指定できないなどの注意点にも触れている。</p>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="adamralphminver-minimalistic-versioning-using-git-tags">adamralph/minver: 🏷 Minimalistic versioning using Git tags.</h3>
+<p><a href="https://github.com/adamralph/minver">https://github.com/adamralph/minver</a></p>
+<p>Git のタグをベースにアプリケーション/ライブラリーのバージョニングを簡単に行うためのライブラリー/コマンドラインツール。</p>
+<ul>
+<li><a href="https://qiita.com/karuakun/items/26a2496fb5874980637b">MinVerでお手軽にライブラリのバージョン番号の管理を行う - Qiita</a></li>
+</ul>
+<h3 id="marusykgrok.net.net-implementation-of-the-grok">Marusyk/grok.net: .net implementation of the grok 📝</h3>
+<p><a href="https://github.com/Marusyk/grok.net">https://github.com/Marusyk/grok.net</a></p>
+<p>ログ解析などで使用される Grok パターンを解析する .NET 向けライブラリー。</p>
+<h3 id="devloopedwebsocketchannel-high-performance-system.threading.channels-api-adapter-for-system.net.websockets">devlooped/WebSocketChannel: High-performance System.Threading.Channels API adapter for System.Net.WebSockets</h3>
+<p><a href="https://github.com/devlooped/WebSocketChannel">https://github.com/devlooped/WebSocketChannel</a></p>
+<p>WebSockets をバックにした <code>System.Threading.Channels.Channel&lt;T&gt;</code> の実装。</p>
+<p>サーバー/クライアントで Channel インターフェースを通して <code>ReadOnlyMemory&lt;byte&gt;</code> を WebSocket の上で送受信できる。</p>
+<!-- https://twitter.com/kzu/status/1445083345520562181?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Continuing my exploration of <a href="https://twitter.com/Azure?ref_src=twsrc%5Etfw">&#64;Azure</a> Web PubSub, I think the <a href="https://twitter.com/dotnet?ref_src=twsrc%5Etfw">&#64;dotnet</a> System.Threading.Channels API is actually even nicer than raw WebSockets and pipelines. So I created another small thingy you might find useful too 🤟 <a href="https://t.co/r4xn3cc7Kx">https://t.co/r4xn3cc7Kx</a></p>&mdash; Daniel Cazzulino (&#64;kzu) <a href="https://twitter.com/kzu/status/1445083345520562181?ref_src=twsrc%5Etfw">October 4, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="sonarlint-code-quality-and-code-security-starts-in-your-ide">SonarLint | Code Quality and Code Security starts in your IDE</h3>
+<p><a href="https://www.sonarlint.org/">https://www.sonarlint.org/</a></p>
+<p>ソースコードに問題がある点などを検出する Visual Studio に対応した IDE 拡張。</p>
+<h3 id="damikuntrouble-training-fullstack-app-workshop-with-distributed-tracing-and-monitoring.this-shows-the-configuration-from-react-frontend-to.netcore-backend">damikun/trouble-training: FullStack app workshop with distributed tracing and monitoring. This shows the configuration from React frontend to .NetCore backend.</h3>
+<p><a href="https://github.com/damikun/trouble-training">https://github.com/damikun/trouble-training</a></p>
+<p>.NET を使用したフルスタックなアプリケーションのワークショップ。</p>
+<p>サーバーアプリケーションのみではなく、フロントエンドやロギング基盤や分散トレーシングなども含む比較的複雑な構成を持つのが特徴。</p>
+<h2 id="section-3">サイト、ドキュメントなど</h2>
+<h3 id="wcf-asp.net-core-grpc-wcf-grpc">WCF 開発者向け ASP.NET Core gRPC - WCF 開発者向け gRPC</h3>
+<p><a href="https://docs.microsoft.com/ja-jp/dotnet/architecture/grpc-for-wcf-developers/">https://docs.microsoft.com/ja-jp/dotnet/architecture/grpc-for-wcf-developers/</a></p>
+<p>WCF 開発者に向けた ASP.NET Core の gRPC のガイドとなるのドキュメント。</p>
+<p>WCF 開発者以外でも参考となるような gRPC の特性、ProtoBuf について、gRPC のセキュリティーや運用環境での考慮点についても書かれている。</p>
+<h3 id="section-4">ツイート</h3>
+<!-- https://twitter.com/tannergooding/status/1443758012980555794?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://t.co/cLdGgzD0bx">https://t.co/cLdGgzD0bx</a> gives an example of a Sum method before/after these APIs.<br><br>There are likely a few APIs we can expose to help simplify/remove the Unsafe logic (while also avoiding pinning) &amp; to handle trailing elements as well, but its something I’m still looking into.</p>&mdash; Tanner Gooding (&#64;tannergooding) <a href="https://twitter.com/tannergooding/status/1443758012980555794?ref_src=twsrc%5Etfw">October 1, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>クロスプラットフォームなハードウェア Intrinstic なコードを書けるようにするサポートに取り掛かり始めたという話。</p>
+<!-- https://twitter.com/akarpov89/status/1443957219834400773?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;ve just found really cool and unexpected application of C# 10 interpolated string handlers: scanf-like parsing!<a href="https://twitter.com/hashtag/dotnet?src=hash&amp;ref_src=twsrc%5Etfw">#dotnet</a> <a href="https://twitter.com/hashtag/csharp?src=hash&amp;ref_src=twsrc%5Etfw">#csharp</a> <a href="https://t.co/3VYDEunYuB">pic.twitter.com/3VYDEunYuB</a></p>&mdash; Andrew Karpov (&#64;akarpov89) <a href="https://twitter.com/akarpov89/status/1443957219834400773?ref_src=twsrc%5Etfw">October 1, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>C# 10 の String interpolation のハンドラーを使用することで、<code>scanf</code> のようなフォーマットを元に入力をパースして変数にセットするという黒魔術的なテクニック。(実際のコードも危険な雰囲気が漂っている)</p>
+<!-- https://twitter.com/okyrylchuk/status/1445465823938682881?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A thread about LINQ improvements in .NET 6 🧵<br><br>As always, retweets are appreciated 😌<a href="https://twitter.com/hashtag/dotnet6?src=hash&amp;ref_src=twsrc%5Etfw">#dotnet6</a> <a href="https://twitter.com/hashtag/linq?src=hash&amp;ref_src=twsrc%5Etfw">#linq</a> <a href="https://twitter.com/hashtag/coding?src=hash&amp;ref_src=twsrc%5Etfw">#coding</a> <a href="https://twitter.com/hashtag/devcommunity?src=hash&amp;ref_src=twsrc%5Etfw">#devcommunity</a></p>&mdash; Oleg Kyrylchuk (&#64;okyrylchuk) <a href="https://twitter.com/okyrylchuk/status/1445465823938682881?ref_src=twsrc%5Etfw">October 5, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>.NET 6 の LINQ に関する強化点についてのスレッド。新規追加されたメソッドなどを .NET 5 と比較しながら紹介。</p>
+<h2 id="deep-dive">Deep Dive</h2>
+<h3 id="add-pattern-variables.md-by-alrz-pull-request-4592-dotnetcsharplang">Add pattern-variables.md by alrz · Pull Request #4592 · dotnet/csharplang</h3>
+<p><a href="https://github.com/dotnet/csharplang/pull/4592">https://github.com/dotnet/csharplang/pull/4592</a></p>
+<pre><code class="language-csharp">if (e is (int i, 0))
+  Use(i);
+else if (e is (0, int j))
+  Use(j);
+</code></pre>
+<p>の代わりに</p>
+<pre><code class="language-csharp">if (e is (int i, 0) or (0, int i))
+  Use(i);
+</code></pre>
+<p>のような is パターンマッチ中で同じ型であれば共用できるようにするという提案。</p>
+<h3 id="optimize-datetime.equals-by-egorbo-pull-request-59857-dotnetruntime">Optimize DateTime.Equals by EgorBo · Pull Request #59857 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/59857">https://github.com/dotnet/runtime/pull/59857</a></p>
+<p><code>DateTime.Equals</code> は Ticks を比較していたが、Ticks は内部表現 (ulong) の上位2ビットをマスクしたものを返すプロパティなので、直接内部表現同士で XOR を取って上位2bitを無視するようにすることでより速くなるというPR。</p>
+<h3 id="guarded-devirt-multiple-type-checks-by-egorbo-pull-request-59604-dotnetruntime">Guarded Devirt: multiple type checks by EgorBo · Pull Request #59604 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/59604">https://github.com/dotnet/runtime/pull/59604</a></p>
+<p>Gurded Devirtualization が「最もよく使われるもの」と「それ以外」だったのを「よく使われるいくつか」と「それ以外」といった形にするというPR。</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
