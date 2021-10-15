@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2021-10-15T10:36:53Z</updated>
+	<updated>2021-10-15T10:45:15Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -32,7 +32,7 @@
 &lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-release-candidate-2/"&gt;.NET 6 Release Candidate 2 (RC2) がリリース&lt;/a&gt;されました。&lt;/p&gt;
 &lt;p&gt;それに合わせて ASP.NET Core, MAUI, EF Core もアップデートされ、Visual Studio 2022 も RC と Preview 5 がリリースされています。RC ということもあり新機能はあまりなく、バグ修正がメインのリリースとなっています。&lt;/p&gt;
 &lt;p&gt;Visual Studio 2022 は今回から RC (リリース) と Preview でチャンネルが分かれました。RC は General Availability (GA) つまり製品版がリリースされたのち製品版へとアップデートされ、Preview チャンネルはそのまま Visual Studio 2022 の次期 Preview 版 (17.1 Preview) へと更新されるという違いがあります。&lt;/p&gt;
-&lt;p&gt;以前より11月9日の &lt;a href="https://www.dotnetconf.net/"&gt;.NET Conf&lt;/a&gt; で .NET 6 がローンチされるということがアナウンスされていましたが、&lt;a href="https://visualstudio.microsoft.com/ja/launch/"&gt;Visual Studio 2022 のオンラインローンチイベントも11月8日(日本時間では11月9日)に行われる&lt;/a&gt;こともアナウンスされました。(Visual Studio 2022 に .NET 6 がついてくることを考えると、.NET 6 の実質的なリリース日はそちらになるのでしょうか…) また、Visual Studio for Mac の .NET 6 RC2 対応はまだで今後対応予定のようです。&lt;/p&gt;
+&lt;p&gt;以前より11月9日の &lt;a href="https://www.dotnetconf.net/"&gt;.NET Conf&lt;/a&gt; で .NET 6 がローンチされるということがアナウンスされていましたが、&lt;a href="https://visualstudio.microsoft.com/ja/launch/"&gt;Visual Studio 2022 のオンラインローンチイベントも11月8日(日本時間では11月9日)に行われる&lt;/a&gt;こともアナウンスされました。(Visual Studio 2022 に .NET 6 がついてくることを考えると、.NET 6 の実質的なリリース日はそちらになるのでしょうか…)。&lt;/p&gt;
 &lt;p&gt;ASP.NET Core の Blazor WebAssembly にはネイティブ依存関係のサポートが入りました。これは Emscripten でコンパイルされたネイティブコードを C# から呼び出せるようになる仕組みです。WASM でコンパイルできる C/C++ などのライブラリーを C# から呼び出すといったことができるようになるので、できることが増えそうです。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/october-2021-updates/"&gt;.NET 5.0.11 と 3.1.20 がリリース&lt;/a&gt;されました。&lt;/p&gt;
@@ -54,7 +54,7 @@
 &lt;li&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/join-us-november-8th-for-the-launch-of-visual-studio-2022/"&gt;Join us November 8 for the Launch of Visual Studio 2022&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;11月9日の &lt;a href="https://www.dotnetconf.net/"&gt;.NET Conf&lt;/a&gt; で .NET 6 がローンチされ、前日の11月8日(日本時間では11月9日)に&lt;a href="https://visualstudio.microsoft.com/ja/launch/"&gt;Visual Studio 2022 のオンラインローンチイベントが行われる&lt;/a&gt;こともアナウンスされた。&lt;/p&gt;
-&lt;p&gt;.NET 6 は Visual Studio 2022 をサポートし、Visual Studio 2019 をサポートしないことにも触れている。また、Visual Studio 2022 for Mac は現時点では .NET 6 RC2 をサポートしていない。なお Visual Studio は RC (リリース) と Preview でチャンネルが分かれ、RC は General Availability (GA) 時には製品版へとアップデートされ、Preview チャンネルは次期 Preview 版 (17.1 Preview) へと更新される。&lt;/p&gt;
+&lt;p&gt;.NET 6 は Visual Studio 2022 をサポートし、Visual Studio 2019 をサポートしないことにも触れている。なお Visual Studio は RC (リリース) と Preview でチャンネルが分かれ、RC は General Availability (GA) 時には製品版へとアップデートされ、Preview チャンネルは次期 Preview 版 (17.1 Preview) へと更新される。&lt;/p&gt;
 &lt;p&gt;前回 (RC1) の記事では .NET の基礎機能について触れていたが、今回の記事では C# 10 とテンプレートについてと ARM64 対応について触れている。&lt;/p&gt;
 &lt;p&gt;C# 10 については &lt;code&gt;record struct&lt;/code&gt;、&lt;code&gt;global using&lt;/code&gt;、ファイルスコープ 名前空間、&lt;code&gt;const&lt;/code&gt; と文字列補完の強化、拡張プロパティーパターンについてなど。&lt;/p&gt;
 &lt;p&gt;プロジェクトテンプレートについては新しいコンソール、Web、Windows Forms 向けに生成されるものについて。その他、暗黙の using と Nullable reference types の有効化、コマンドライン引数が &lt;code&gt;args&lt;/code&gt; としてアクセス可能といった点に触れている。&lt;/p&gt;
@@ -72,6 +72,14 @@
 &lt;li&gt;.NET 5 SDK for Windows ARM64 は .NET 6 RTM 後に早期終了予定&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;.NET 6 がリリース後は .NET 5 SDK のサポートが終了することに注意が必要。&lt;/p&gt;
+&lt;h3 id="visual-studio-2022-for-mac-preview-2-is-now-available"&gt;Visual Studio 2022 for Mac Preview 2 is now available&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-2022-for-mac-preview-2-is-now-available/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-2022-for-mac-preview-2-is-now-available/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 for Mac Preview 2 がリリースされた。&lt;/p&gt;
+&lt;p&gt;.NET 6 RC2 への対応と UI の修正やネイティブ化が進んだ。.NET 6 RC2 は手動でインストールが必要。現時点では Intel 環境のみのサポートで M1 (Apple Silicon) 環境での動作はサポートしていないことに注意。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/uikou/items/83393ddf65eaae068bc4"&gt;Visual Studio 2022 for Mac の Public Preview 2 がリリースされました - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/mac-release-notes-preview#1700-pre2--visual-studio-2022-for-mac-version-170-preview-2-newreleasebutton"&gt;Visual Studio 2022 for Mac v17.0 Preview - Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id="asp.net-core-updates-in.net-6-release-candidate-2"&gt;ASP.NET Core updates in .NET 6 Release Candidate 2&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-rc-2/"&gt;https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-rc-2/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;.NET 6 RC2 での ASP.NET Core のアップデートについての記事。&lt;/p&gt;

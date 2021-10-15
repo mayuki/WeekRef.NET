@@ -116,7 +116,7 @@
 <p><a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-release-candidate-2/">.NET 6 Release Candidate 2 (RC2) がリリース</a>されました。</p>
 <p>それに合わせて ASP.NET Core, MAUI, EF Core もアップデートされ、Visual Studio 2022 も RC と Preview 5 がリリースされています。RC ということもあり新機能はあまりなく、バグ修正がメインのリリースとなっています。</p>
 <p>Visual Studio 2022 は今回から RC (リリース) と Preview でチャンネルが分かれました。RC は General Availability (GA) つまり製品版がリリースされたのち製品版へとアップデートされ、Preview チャンネルはそのまま Visual Studio 2022 の次期 Preview 版 (17.1 Preview) へと更新されるという違いがあります。</p>
-<p>以前より11月9日の <a href="https://www.dotnetconf.net/">.NET Conf</a> で .NET 6 がローンチされるということがアナウンスされていましたが、<a href="https://visualstudio.microsoft.com/ja/launch/">Visual Studio 2022 のオンラインローンチイベントも11月8日(日本時間では11月9日)に行われる</a>こともアナウンスされました。(Visual Studio 2022 に .NET 6 がついてくることを考えると、.NET 6 の実質的なリリース日はそちらになるのでしょうか…) また、Visual Studio for Mac の .NET 6 RC2 対応はまだで今後対応予定のようです。</p>
+<p>以前より11月9日の <a href="https://www.dotnetconf.net/">.NET Conf</a> で .NET 6 がローンチされるということがアナウンスされていましたが、<a href="https://visualstudio.microsoft.com/ja/launch/">Visual Studio 2022 のオンラインローンチイベントも11月8日(日本時間では11月9日)に行われる</a>こともアナウンスされました。(Visual Studio 2022 に .NET 6 がついてくることを考えると、.NET 6 の実質的なリリース日はそちらになるのでしょうか…)。</p>
 <p>ASP.NET Core の Blazor WebAssembly にはネイティブ依存関係のサポートが入りました。これは Emscripten でコンパイルされたネイティブコードを C# から呼び出せるようになる仕組みです。WASM でコンパイルできる C/C++ などのライブラリーを C# から呼び出すといったことができるようになるので、できることが増えそうです。</p>
 <hr>
 <p><a href="https://devblogs.microsoft.com/dotnet/october-2021-updates/">.NET 5.0.11 と 3.1.20 がリリース</a>されました。</p>
@@ -138,7 +138,7 @@
 <li><a href="https://devblogs.microsoft.com/visualstudio/join-us-november-8th-for-the-launch-of-visual-studio-2022/">Join us November 8 for the Launch of Visual Studio 2022</a></li>
 </ul>
 <p>11月9日の <a href="https://www.dotnetconf.net/">.NET Conf</a> で .NET 6 がローンチされ、前日の11月8日(日本時間では11月9日)に<a href="https://visualstudio.microsoft.com/ja/launch/">Visual Studio 2022 のオンラインローンチイベントが行われる</a>こともアナウンスされた。</p>
-<p>.NET 6 は Visual Studio 2022 をサポートし、Visual Studio 2019 をサポートしないことにも触れている。また、Visual Studio 2022 for Mac は現時点では .NET 6 RC2 をサポートしていない。なお Visual Studio は RC (リリース) と Preview でチャンネルが分かれ、RC は General Availability (GA) 時には製品版へとアップデートされ、Preview チャンネルは次期 Preview 版 (17.1 Preview) へと更新される。</p>
+<p>.NET 6 は Visual Studio 2022 をサポートし、Visual Studio 2019 をサポートしないことにも触れている。なお Visual Studio は RC (リリース) と Preview でチャンネルが分かれ、RC は General Availability (GA) 時には製品版へとアップデートされ、Preview チャンネルは次期 Preview 版 (17.1 Preview) へと更新される。</p>
 <p>前回 (RC1) の記事では .NET の基礎機能について触れていたが、今回の記事では C# 10 とテンプレートについてと ARM64 対応について触れている。</p>
 <p>C# 10 については <code>record struct</code>、<code>global using</code>、ファイルスコープ 名前空間、<code>const</code> と文字列補完の強化、拡張プロパティーパターンについてなど。</p>
 <p>プロジェクトテンプレートについては新しいコンソール、Web、Windows Forms 向けに生成されるものについて。その他、暗黙の using と Nullable reference types の有効化、コマンドライン引数が <code>args</code> としてアクセス可能といった点に触れている。</p>
@@ -156,6 +156,14 @@
 <li>.NET 5 SDK for Windows ARM64 は .NET 6 RTM 後に早期終了予定</li>
 </ul>
 <p>.NET 6 がリリース後は .NET 5 SDK のサポートが終了することに注意が必要。</p>
+<h3 id="visual-studio-2022-for-mac-preview-2-is-now-available">Visual Studio 2022 for Mac Preview 2 is now available</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/visual-studio-2022-for-mac-preview-2-is-now-available/">https://devblogs.microsoft.com/visualstudio/visual-studio-2022-for-mac-preview-2-is-now-available/</a></p>
+<p>Visual Studio 2022 for Mac Preview 2 がリリースされた。</p>
+<p>.NET 6 RC2 への対応と UI の修正やネイティブ化が進んだ。.NET 6 RC2 は手動でインストールが必要。現時点では Intel 環境のみのサポートで M1 (Apple Silicon) 環境での動作はサポートしていないことに注意。</p>
+<ul>
+<li><a href="https://qiita.com/uikou/items/83393ddf65eaae068bc4">Visual Studio 2022 for Mac の Public Preview 2 がリリースされました - Qiita</a></li>
+<li><a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/mac-release-notes-preview#1700-pre2--visual-studio-2022-for-mac-version-170-preview-2-newreleasebutton">Visual Studio 2022 for Mac v17.0 Preview - Release Notes</a></li>
+</ul>
 <h3 id="asp.net-core-updates-in.net-6-release-candidate-2">ASP.NET Core updates in .NET 6 Release Candidate 2</h3>
 <p><a href="https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-rc-2/">https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-rc-2/</a></p>
 <p>.NET 6 RC2 での ASP.NET Core のアップデートについての記事。</p>
