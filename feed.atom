@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2021-10-15T10:56:29Z</updated>
+	<updated>2021-10-15T10:57:38Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -18,7 +18,7 @@
 		</author>
 		<link href="/2021/10/15/updates" />
 		<link rel="enclosure" type="image" href="/img/logo.png" />
-		<updated>2021-10-15T10:45:00Z</updated>
+		<updated>2021-10-15T10:55:00Z</updated>
 		<content>&lt;!--
 # yyyy-MM-dd
 ## 主なトピックス
@@ -217,7 +217,7 @@
 &lt;h3 id="carbon"&gt;Carbon&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://carbon.now.sh/"&gt;https://carbon.now.sh/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;ソースコードを画像にしてシェアできるサービス。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/9012/137476483-fcccb08d-f3f1-49f2-be16-a68009170e77.png" alt="carbon"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/9012/137476689-d20dd453-0b4f-4388-9592-3489e12d4561.png" alt="carbon"&gt;&lt;/p&gt;
 &lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
 &lt;!-- https://twitter.com/egorbo/status/1447221009950593032?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;This .NET benchmark is 4x faster on M1 Rosetta (x64 emulation) then on the same M1 but natively (arm64) 🙃 &lt;a href="https://t.co/9gr8kt9Zth"&gt;pic.twitter.com/9gr8kt9Zth&lt;/a&gt;&lt;/p&gt;— Egor Bogatov (@EgorBo) &lt;a href="https://twitter.com/EgorBo/status/1447221009950593032?ref_src=twsrc%5Etfw"&gt;October 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
