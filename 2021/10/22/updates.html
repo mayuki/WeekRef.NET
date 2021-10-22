@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2021-10-22: Visual Studio 2022 RC2, LINQPad 7 Beta, Hot Reload, F# 6 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2021/10/22/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2021-10-22: Visual Studio 2022 RC2, LINQPad 7 Beta, Hot Reload, F# 6 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2021/10/22/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2021-10-22: Visual Studio 2022 RC2, LINQPad 7 Beta, Hot Reload, F# 6
+          </h1>
+              <div class="meta">Published on Friday, 22 October 2021</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<p><a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview#1700-pre60--visual-studio-2022-version-170-rc2-and-preview-6-newreleasebutton">Visual Studio 2022 version 17.0 RC2 and Preview 6</a> がリリースされました。</p>
+<p>.NET 自体の更新はなく Visual Studio のバグ修正が主な更新点です。何か不具合のようなものを踏んでいる方は更新をおすすめします。</p>
+<hr>
+<p><a href="https://www.linqpad.net/LINQPad7.aspx">LINQPad 7 Beta</a> がリリースされました。</p>
+<p>.NET 6 および C# 10 に対応し、ARM64 向けのバイナリーも含まれるようになりました。Surface Pro X のような ARM 版 Windows でも C# を書いて ARM ネイティブで動かせるようになりました。現在 6 のライセンスは無償アップグレードとなっていて、既にライセンスを持っている人でも割引で購入できるようになっています。</p>
+<hr>
+<p><a href="https://devblogs.microsoft.com/dotnet/update-on-net-hot-reload-progress-and-visual-studio-2022-highlights/">ホットリロードについてのステータスアップデート</a>がアナウンスされました。</p>
+<p>アナウンスでは Visual Studio とターゲットフレームワークによる対応具合や MAUI/ASP.NET での対応についても書かれていますが、地味に大きな点としては <code>dotnet watch</code> をリリースしないという決定がなされたという点です。特に Visual Studio を使用していない開発者がホットリロードの恩恵を受けられなくなるということで大きな反響が生まれています。</p>
+<p>元々バギーではあったのですが .NET 6 の目玉機能かつ RC2 をリリースした後、GA までもう少しという直前の段階で削除をしてリリースしないというアナウンスをしたので余計に不満になっていそうです。今後何らかの形で戻されたりする可能性は十分あるのではないかと思います。</p>
+<h2 id="section">トピックス</h2>
+<h3 id="visual-studio-2022-version-17.0-rc2-and-preview-6">Visual Studio 2022 version 17.0 RC2 and Preview 6</h3>
+<p><a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview#1700-pre60--visual-studio-2022-version-170-rc2-and-preview-6-newreleasebutton">https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview#1700-pre60--visual-studio-2022-version-170-rc2-and-preview-6-newreleasebutton</a></p>
+<p>Visual Studio 2022 version 17.0 RC2 と Preview 6 がリリースされた。</p>
+<p>RC と Preview 5 のリリースからの Visual Studio 固有のバグ修正が行われており、.NET 6 SDK などへの変更はない。</p>
+<h3 id="linqpad-7-beta">LINQPad 7 Beta</h3>
+<p><a href="https://www.linqpad.net/LINQPad7.aspx">https://www.linqpad.net/LINQPad7.aspx</a></p>
+<p>LINQPad 7 Beta がリリースされた。</p>
+<p>LINQPad 7 は .NET 6 および C# 10 に対応したリリースとなり、.NET 6, .NET 5, .NET Core 3.1, .NET Framework をサポートする。
+また ARM64 ビルドも提供され Surface Pro X をはじめとする ARM64 環境でのネイティブ動作が可能となった。</p>
+<p>正式なリリースは .NET 6 のリリース後となり、現在 LINQPad 6 のライセンスを購入することでリリース時にアップグレードが可能。</p>
+<!-- https://twitter.com/linqpad/status/1450036548506767363?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">LINQPad 7 Preview has just been released, with full support for C# 10, <a href="https://twitter.com/dotnet?ref_src=twsrc%5Etfw">&#64;dotnet</a> 6 and EF Core 6. There&#39;s also now an ARM64 build, so you can run and debug C# and F# code on your Surface Pro X at native speed!<a href="https://t.co/1sC2iOFwoW">https://t.co/1sC2iOFwoW</a></p>&mdash; LINQPad·Joe Albahari (&#64;linqpad) <a href="https://twitter.com/linqpad/status/1450036548506767363?ref_src=twsrc%5Etfw">October 18, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="update-on.net-hot-reload-progress-and-visual-studio-2022-highlights">Update on .NET Hot Reload progress and Visual Studio 2022 Highlights</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/update-on-net-hot-reload-progress-and-visual-studio-2022-highlights/">https://devblogs.microsoft.com/dotnet/update-on-net-hot-reload-progress-and-visual-studio-2022-highlights/</a></p>
+<p>.NET のホットリロードについてのアップデートの記事。</p>
+<p>記事では次のようなトピックについて書かれている。</p>
+<ul>
+<li>サポートされるフレームワークとシナリオ</li>
+<li>Visual Studio 2022 での体験の向上</li>
+<li>MAUI と ASP.NET でのシナリオ</li>
+<li>.NET アプリの編集に関する追加サポート</li>
+<li>.NET 6 ユニットテストのホットリロード (Experimental)</li>
+<li><code>dotnet watch</code> コマンドラインツールに関する変更</li>
+</ul>
+<p>サポートされるフレームワークとシナリオについては Visual Studio 2022 からデバッガーを使用しているかそうでないか、Visual Studio 2022 と .NET 6 をターゲットとしたアプリかどうかといった場合について書かれている。大まかには従来のフレームワークをターゲットとしている場合にはデバッグ時のみ、.NET 6 をターゲットとしている場合はデバッガーなしも含め殆どのケースでサポートされる。</p>
+<p>ただし Blazor WebAssembly は GA の時点では対応されず、他に対応しないシナリオとして iOS と Android の Xamarin.Forms や F# アプリケーション、.NET Native アプリケーションなどがあるとのこと。</p>
+<p>Visual Studio 2022 での体験の向上は、ラベルが Hot Reload となったこと、ファイル保存時にホットリロードする機能が付いたことなどがあげられている。</p>
+<p>MAUI と ASP.NET でのシナリオは MAUI (iOS/Android) でのホットリロードが可能になること、ASP.NET では Razor CSHTML の変更と自動リロード、CSS のホットリロードなどが可能となった。ただし MAUI のホットリロードは Mono ランタイムの制限上メソッドボディーの編集に限られるとのこと。</p>
+<p>その他 XAML のホットリロードとユニットテスト実行時のホットリロードがプレビュー(オプトイン)で提供されていることについて。</p>
+<p>最後に <code>dotnet watch</code> コマンドラインツールについて、ホットリロードは開発の集中のため Visual Studio 2022 でのみの提供となり、コマンドラインツールはリリースしないと決定したとのこと。Visual Studio 2022 for Mac に関しては将来のリリースで追加する予定。</p>
+<p>これに伴い <code>dotnet watch</code> が削除されたが、Visual Studio Code や Rider といった Visual Studio 以外のユーザーからは不満の声が上がっているので今後何らか動きがある可能性がある。</p>
+<ul>
+<li><a href="https://github.com/dotnet/sdk/pull/22217">Remove Hot Reload support from dotnet watch by pranavkm · Pull Request #22217 · dotnet/sdk</a></li>
+<li><a href="https://github.com/dotnet/sdk/issues/22247">Hot Reload removed from dotnet watch - Why? · Issue #22247 · dotnet/sdk</a></li>
+</ul>
+<h3 id="whats-new-in-f-6">What’s new in F# 6</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/whats-new-in-fsharp-6/">https://devblogs.microsoft.com/dotnet/whats-new-in-fsharp-6/</a></p>
+<p>.NET 6 に含まれる F# 6 についての記事。</p>
+<p>F# で速くなった点、均一化された点、シンプルになった点、ツーリングの改善などについて触れている。</p>
+<h3 id="introducing-new-javascript-engine-yantrajs-for-dotnet">Introducing new JavaScript Engine YantraJS for DotNet</h3>
+<p><a href="https://www.webatoms.in/blog/yantra-js/Introducing-new-JavaScript-Engine-YantraJS-for-DotNet-2g">https://www.webatoms.in/blog/yantra-js/Introducing-new-JavaScript-Engine-YantraJS-for-DotNet-2g</a></p>
+<p>オープンソースの JavaScript エンジンの YantraJS がリリースされた。</p>
+<p>.NET との相互運用や JavaScript を .NET のアセンブリーに変換するコンパイラーなどが提供されることが特徴。
+現時点で ECMAScript 6 の適合率は70%程度で今後100%を目指すとのこと。その他 V8 Debugger Protocol のサポートなどが今後のロードマップにあがっている。</p>
+<p>ライセンスは LGPL、YantraJS Standard License (主にサーバーサイド利用目的)、YantraJS Enterprise License となっている。MIT ライセンスに変更できるようスポンサーも求めているとのこと。(ただ LGPL 版を NuGet で参照した場合でもソースコードを公開する必要があると書かれているので LGPL ではない可能性がある)</p>
+<ul>
+<li><a href="https://github.com/yantrajs/yantra/wiki/License">License · yantrajs/yantra Wiki</a></li>
+</ul>
+<h3 id="weve-upgraded-the-ui-in-visual-studio-2022">We've upgraded the UI in Visual Studio 2022</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/">https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/</a></p>
+<p>Visual Studio 2022 における UI の変更についての記事。</p>
+<p>一貫性や視認性、親しみやすさを考慮したアイコンの刷新、ダークモードでのコントラスト調整や新しいアクセントカラー、Cascadia フォントの導入などについて触れている。</p>
+<h3 id="contributing-to.net-maui-community-toolkit">Contributing to .NET MAUI Community Toolkit</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/contributing-to-net-maui-community-toolkit/">https://devblogs.microsoft.com/dotnet/contributing-to-net-maui-community-toolkit/</a></p>
+<p>.NET MAUI Community Toolkit にコントリビュートする方法についての記事。</p>
+<p>.NET MAUI Community Toolkit がコミュニティーのコントリビュートを受け入れるようになり、新機能を提案したい場合のフローについて解説している。
+フローは C# チームのものを参考にしたものとなっている。</p>
+<ul>
+<li>Discussion をオープン</li>
+<li>フィーチャーの Proposal (Issue) をオープン</li>
+<li>チームによって Champion を選出</li>
+<li>.NET MAUI Community Toolkit Monthly Standup (YouTube 配信) で投票の上、承認</li>
+<li>Pull Request 承認</li>
+<li>ドキュメント承認</li>
+</ul>
+<p>承認された Proposal は <code>help wanted</code> ラベルがつけられるため、簡単なコントリビュートとしてはこの実装を提供する(Pull Request)という方法も提示されている。</p>
+<h3 id="release-2.0.0-beta.5-mysql-netmysqlconnector">Release 2.0.0-beta.5 · mysql-net/MySqlConnector</h3>
+<p><a href="https://github.com/mysql-net/MySqlConnector/releases/tag/2.0.0-beta.5">https://github.com/mysql-net/MySqlConnector/releases/tag/2.0.0-beta.5</a></p>
+<p>Async MySQL Connector 2.0.0-beta.5 がリリースされた。</p>
+<p>変更点は <code>ActivitySource</code> によるトレースへの対応。今回のリリースよりバージョニングが 1.4.0 ベータでの変更範囲を鑑みて 2.0 へと変更された。</p>
+<h3 id="release-1.3.14-mysql-netmysqlconnector">Release 1.3.14 · mysql-net/MySqlConnector</h3>
+<p><a href="https://github.com/mysql-net/MySqlConnector/releases/tag/1.3.14">https://github.com/mysql-net/MySqlConnector/releases/tag/1.3.14</a></p>
+<p>Async MySQL Connector 1.3.14 がリリースされた。</p>
+<p>バグ修正が主な変更となっている。</p>
+<h3 id="release-ef-core-3.1.20-dotnetefcore">Release EF Core 3.1.20 · dotnet/efcore</h3>
+<p><a href="https://github.com/dotnet/efcore/releases/tag/v3.1.20">https://github.com/dotnet/efcore/releases/tag/v3.1.20</a></p>
+<p>Entity Framework Core 3.1.20 がリリースされた。</p>
+<p>SQLite の不具合対応に伴い、依存しているバージョンが 2.0.2 から 2.0.4 へアップデートされた。</p>
+<ul>
+<li><a href="https://github.com/ericsink/SQLitePCL.raw/issues/321">System.AccessViolationException at System.Text.UTF8Encoding.GetCharCount(Byte*, Int32, System.Text.DecoderNLS) · Issue #321 · ericsink/SQLitePCL.raw</a></li>
+</ul>
+<h3 id="release-diagnostics-release-v5.0.251802-dotnetdiagnostics">Release Diagnostics Release - v5.0.251802 · dotnet/diagnostics</h3>
+<p><a href="https://github.com/dotnet/diagnostics/releases/tag/v5.0.251802">https://github.com/dotnet/diagnostics/releases/tag/v5.0.251802</a></p>
+<p>.NET の診断ツール 5.0.251802 がリリースされた。</p>
+<p><code>dotnet-dump</code> と <code>dotnet-sos</code> は Linux と Windows 上でのシングルファイルアプリケーションのプロセスとファイルの解析がサポートされた。その他バグ修正など。</p>
+<h3 id="developing-for-windows-with-the-windows-app-sdk-discussion-1615-microsoftwindowsappsdk">Developing for Windows with the Windows App SDK · Discussion #1615 · microsoft/WindowsAppSDK</h3>
+<p><a href="https://github.com/microsoft/WindowsAppSDK/discussions/1615">https://github.com/microsoft/WindowsAppSDK/discussions/1615</a></p>
+<p>Windows App SDK と WinUI 3 の開発についての FAQ。</p>
+<p>今後 UWP はバグや信頼性に関連する修正のみが行われ、Windows App SDK を使用する場合には新しいデスクトッププロジェクトに移行する必要があること、といった点など。</p>
+<h3 id="net-framework-october-2021-security-and-quality-rollup">.NET Framework October 2021 Security and Quality Rollup</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/net-framework-october-2021-security-and-quality-rollup/">https://devblogs.microsoft.com/dotnet/net-framework-october-2021-security-and-quality-rollup/</a></p>
+<p>.NET Framework の2021年10月のセキュリティーと累積アップデートについて。</p>
+<p>セキュリティーに関する更新はなく、正しくない GC の設定によるパフォーマンスの低下や GC.AddMemoryPressure での GC トリガーのアルゴリズムの調整などが含まれている。</p>
+<h3 id="bouncycastle-c-1.9.0">BouncyCastle C# 1.9.0</h3>
+<p><a href="https://www.bouncycastle.org/csharp/index.html#DOWNLOAD1900">https://www.bouncycastle.org/csharp/index.html#DOWNLOAD1900</a></p>
+<p>BouncyCastle C# 1.9.0 がリリースされた。</p>
+<p>TLS API の更新や Format Preserving Encryption、ParallelHash と TupleHash、ARIA cipher のサポートが追加された。バグ修正も行われている。</p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="net-6-qiita">.NET 6 で追加されるタスクベースの新しいタイマー - Qiita</h3>
+<p><a href="https://qiita.com/karuakun/items/677b2e58260634d86d0d">https://qiita.com/karuakun/items/677b2e58260634d86d0d</a></p>
+<p>.NET 6 で追加されたタスクベースとなる新しいタイマーの使い方とそれ以前のタイマーについての記事。</p>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.periodictimer?view=net-6.0">PeriodicTimer Class (System.Threading)</a></li>
+</ul>
+<h3 id="unity-improving-iteration-time-on-c-script-changes">Unity - Improving iteration time on C# script changes</h3>
+<p><a href="https://forum.unity.com/threads/improving-iteration-time-on-c-script-changes.1184446/">https://forum.unity.com/threads/improving-iteration-time-on-c-script-changes.1184446/</a></p>
+<p>Unity で C# コードを変更したときのドメインリロードの時間が長くなってしまった件についての調査と進捗報告。</p>
+<p>リグレッションは 2020.x から発生し、メトリクスの不足や問題が多岐にわたっていること、幾つかの側面から解決を図っていることなど。</p>
+<p>例えば 2020.1 以降ではドメインリロードの診断メトリクスを保存する機能が追加されたので利用者が調べることができるようになった。コードベース全体を通してリグレッションを探すタスクフォースを立ち上げ細かく最適化を行うことなど。今後も継続して改善を進め、必要なものはバックポートし、その進捗はスレッドに報告するとのこと。</p>
+<h3 id="helpful-nuget-package-for-unit-testing-in.net">5 helpful Nuget package for Unit Testing in .NET</h3>
+<p><a href="https://medium.com/&#64;niteshsinghal85/5-helpful-nuget-package-for-unit-testing-in-net-87c2e087c6d">https://medium.com/&#64;niteshsinghal85/5-helpful-nuget-package-for-unit-testing-in-net-87c2e087c6d</a></p>
+<p>ユニットテストをするときに役に立つ5つの NuGet パッケージの紹介の記事。</p>
+<h3 id="supporting-integration-tests-with-webapplicationfactory-in.net-6-exploring.net-core-6-part-6">Supporting integration tests with WebApplicationFactory in .NET 6: Exploring .NET Core 6 - Part 6</h3>
+<p><a href="https://andrewlock.net/exploring-dotnet-6-part-6-supporting-integration-tests-with-webapplicationfactory-in-dotnet-6/">https://andrewlock.net/exploring-dotnet-6-part-6-supporting-integration-tests-with-webapplicationfactory-in-dotnet-6/</a></p>
+<p>.NET 6 の ASP.NET Core を WebApplicationFactory を使用して統合テストを行うことについての記事。</p>
+<p>WebApplicationFactory が内部で行っている処理についても解説している。</p>
+<h3 id="updated-debugging-experience-uwp-apps-and-debug-windows-docker-containers-in-rider-2021.3-the.net-tools-blog">Updated Debugging Experience, UWP Apps, and Debug Windows Docker containers in Rider 2021.3 | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2021/10/20/debugging-experience-debug-uwp-apps-and-debug-windows-docker-containers-in-rider-2021-3/">https://blog.jetbrains.com/dotnet/2021/10/20/debugging-experience-debug-uwp-apps-and-debug-windows-docker-containers-in-rider-2021-3/</a></p>
+<p>Rider 2021.3 で改善されたデバッグ周りについての記事。</p>
+<p>デバッガーの UI の改善や UWP アプリと Windows Docker コンテナーの対応についてなど。</p>
+<h3 id="bite-size.net-6-linq-ordefault-overloads">Bite-Size .NET 6 - LINQ OrDefault() Overloads</h3>
+<p><a href="https://exceptionnotfound.net/bite-size-dotnet-6-linq-ordefault-overloads/">https://exceptionnotfound.net/bite-size-dotnet-6-linq-ordefault-overloads/</a></p>
+<p>.NET 6 の LINQ の <code>FirstOrDefault</code> のような <code>*OrDefault</code> メソッドにデフォルト値を受けるオーパーロードが追加されたことについての記事。</p>
+<pre><code class="language-csharp">var name = names.FirstOrDefault(&quot;Unknown&quot;); // 見つからなかったら Unknown が返る
+</code></pre>
+<h3 id="exploring-the-auth0-asp.net-core-authentication-sdk">Exploring the Auth0 ASP.NET Core Authentication SDK</h3>
+<p><a href="https://auth0.com/blog/exploring-auth0-aspnet-core-authentication-sdk/">https://auth0.com/blog/exploring-auth0-aspnet-core-authentication-sdk/</a></p>
+<p>アプリケーションで Auth0 の ASP.NET Core Authentication SDK を使用することについての記事。</p>
+<h3 id="grpc-api-performance-improvement-through-protobuf-fieldmask-in.net">gRPC API Performance Improvement Through Protobuf FieldMask In .NET</h3>
+<p><a href="https://medium.com/&#64;AzilenTech/grpc-api-performance-improvement-through-protobuf-fieldmask-in-net-2dff2af6c959">https://medium.com/&#64;AzilenTech/grpc-api-performance-improvement-through-protobuf-fieldmask-in-net-2dff2af6c959</a></p>
+<p>Protobuf の FieldMask を使用することで gRPC の API パフォーマンスを向上させることについての記事。</p>
+<p>必要なフィールドだけを明示して取得することでサーバー側の不要な処理を回避して、メッセージサイズも削減できるというテクニック。</p>
+<ul>
+<li><a href="https://netflixtechblog.com/practical-api-design-at-netflix-part-1-using-protobuf-fieldmask-35cfdc606518">Practical API Design at Netflix, Part 1: Using Protobuf FieldMask</a></li>
+<li><a href="https://blog.pyspa.org/post/using_protobuf_fieldmask/">Netflixにおける実用的なAPI設計: gRPCとFieldMask | pyspa</a></li>
+</ul>
+<h3 id="implement-a-secure-api-and-a-blazor-app-in-the-same-asp.net-core-project-with-azure-ad-authentication">Implement a secure API and a Blazor app in the same ASP.NET Core project with Azure AD authentication</h3>
+<p><a href="https://damienbod.com/2021/10/04/implement-a-secure-api-and-a-blazor-app-in-the-same-asp-net-core-project-with-azure-ad-authentication/">https://damienbod.com/2021/10/04/implement-a-secure-api-and-a-blazor-app-in-the-same-asp-net-core-project-with-azure-ad-authentication/</a></p>
+<p>Blazor WebAssembly と ASP.NET Core Web API に Azure AD 認証を実装する方法についての記事。</p>
+<h3 id="asp-net-core-rest-api-authorization-with-jwt-roles-vs-claims-vs-policy-step-by-step">Asp Net Core - Rest API Authorization with JWT (Roles Vs Claims Vs Policy) - Step by Step</h3>
+<p><a href="https://dev.to/moe23/asp-net-core-rest-api-authorization-with-jwt-roles-vs-claims-vs-policy-step-by-step-5bgn">https://dev.to/moe23/asp-net-core-rest-api-authorization-with-jwt-roles-vs-claims-vs-policy-step-by-step-5bgn</a></p>
+<p>REST API に JWT を使った認可を実装する方法についての記事。</p>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="davidfowliiscrossover-a-prototype-running-asp.net-and-asp.net-core-in-the-same-iis-pipeline">davidfowl/IISCrossover: A prototype running ASP.NET and ASP.NET Core in the same IIS pipeline</h3>
+<p><a href="https://github.com/davidfowl/IISCrossover">https://github.com/davidfowl/IISCrossover</a></p>
+<p>IIS で ASP.NET アプリケーション (.NET Framework) と ASP.NET Core アプリケーションを同居させて同じパイプラインで動かすという仕組みのプロトタイプ。</p>
+<!-- https://twitter.com/davidfowl/status/1449239883529134082?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you&#39;re interested in trying it out and looking at the s/hacks/changes, the the repository is here <a href="https://t.co/masxtR85CC">https://t.co/masxtR85CC</a></p>&mdash; David Fowler 🇧🇧🇺🇸💉💉 (&#64;davidfowl) <a href="https://twitter.com/davidfowl/status/1449239883529134082?ref_src=twsrc%5Etfw">October 16, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="devloopedthisassembly-exposes-project-and-assembly-level-information-as-constants-in-the-thisassembly-class-using-source-generators-powered-by-roslyn">devlooped/ThisAssembly: Exposes project and assembly level information as constants in the ThisAssembly class using source generators powered by Roslyn.</h3>
+<p><a href="https://github.com/devlooped/ThisAssembly">https://github.com/devlooped/ThisAssembly</a></p>
+<p>自身のプロジェクトやアセンブリの情報を取得できるコードを生成する Source Generator。</p>
+<pre><code class="language-csharp">Console.WriteLine(ThisAssembly.Info.Company); // AssemblyCompanyAttribute
+</code></pre>
+<p>アセンブリの情報だけでなく、定数の定義やメタデータ、プロジェクトのプロパティーにアクセスできるようなものも提供されている。</p>
+<h3 id="amis92csharp-source-generators-a-list-of-c-source-generators-not-necessarily-awesome-and-associated-resources-articles-talks-demos">amis92/csharp-source-generators: A list of C# Source Generators (not necessarily awesome) and associated resources: articles, talks, demos.</h3>
+<p><a href="https://github.com/amis92/csharp-source-generators">https://github.com/amis92/csharp-source-generators</a></p>
+<p>C# Source Generator のまとめリポジトリ。</p>
+<h2 id="section-3">サイト、ドキュメントなど</h2>
+<h3 id="windows-subsystem-for-androidtm">Windows Subsystem for Android™️</h3>
+<p><a href="https://docs.microsoft.com/en-us/windows/android/wsa/">https://docs.microsoft.com/en-us/windows/android/wsa/</a></p>
+<p>Windows Subsystem for Android™️ の開発者ドキュメント。考慮すべき点やアプリケーションのデバッグ方法などについて触れている。</p>
+<h3 id="overall-migration-strategy-windows-apps">Overall migration strategy - Windows apps</h3>
+<p><a href="https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/overall-migration-strategy">https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/overall-migration-strategy</a></p>
+<p>Universal Windows Platform から Windows App SDK へのマイグレーションのガイドドキュメント。</p>
+<h3 id="section-4">ツイート</h3>
+<!-- https://twitter.com/steplyakov/status/1449056693568958466?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It is amazing how <a href="https://twitter.com/VisualStudio?ref_src=twsrc%5Etfw">&#64;VisualStudio</a> can show a deadlock in the async code in the &#39;Parallel Stacks&#39; view!<br><br>It&#39;s not possible to figure out an issue like this one simply by looking into the stack traces. You need to look at how the async machinery is linked together to show it. <a href="https://t.co/9WlANzaI5t">pic.twitter.com/9WlANzaI5t</a></p>&mdash; Sergey Teplyakov (&#64;STeplyakov) <a href="https://twitter.com/STeplyakov/status/1449056693568958466?ref_src=twsrc%5Etfw">October 15, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>非同期処理のデッドロックの発見に Parallel Stacks ビューが便利という話(これは以前のバージョンの Visual Studio にある)。</p>
+<ul>
+<li><a href="https://docs.microsoft.com/ja-jp/visualstudio/debugger/using-the-parallel-stacks-window?view=vs-2019">[並列スタック] ウィンドウでスレッドを表示する - Visual Studio (Windows)</a></li>
+</ul>
+<!-- https://twitter.com/okyrylchuk/status/1449098382111346692?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In .NET 6, you can easily generate a random sequence of values from a Cryptographically Secure Pseudorandom Number Generator (CSPNG).<br><br>It&#39;s useful for cryptographic applications for:<br>• key generation<br>• nonces<br>• salts in certain signature schemes<a href="https://twitter.com/hashtag/dotnet6?src=hash&amp;ref_src=twsrc%5Etfw">#dotnet6</a> <a href="https://twitter.com/hashtag/coding?src=hash&amp;ref_src=twsrc%5Etfw">#coding</a> <a href="https://twitter.com/hashtag/devcommunity?src=hash&amp;ref_src=twsrc%5Etfw">#devcommunity</a> <a href="https://t.co/O1AmnBVTVE">pic.twitter.com/O1AmnBVTVE</a></p>&mdash; Oleg Kyrylchuk (&#64;okyrylchuk) <a href="https://twitter.com/okyrylchuk/status/1449098382111346692?ref_src=twsrc%5Etfw">October 15, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>.NET 6 では暗号論的擬似乱数生成器 (CSPRNG) を使用してランダムなデータを生成するのが <code>RandomNumberGenerator</code> クラスの静的メソッドで簡単に取得できるようになったという話。</p>
+<ul>
+<li><a href="https://docs.microsoft.com/ja-jp/dotnet/api/system.security.cryptography.randomnumbergenerator.getbytes?view=net-6.0#System_Security_Cryptography_RandomNumberGenerator_GetBytes_System_Span_System_Byte__">RandomNumberGenerator.GetBytes メソッド (System.Security.Cryptography)</a></li>
+</ul>
+<!-- https://twitter.com/xoofx/status/1449047838017589252?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thrilled to announce we have formed a C#/.NET Tech Group within Unity, bringing Scripting (C# compilation, .NET Runtime integration...), Burst &amp; VM/IL2CPP teams all together to further standardize, modernize, and innovate with .NET technologies within the Unity platform! ♥️</p>&mdash; Alexandre Mutel (&#64;xoofx) <a href="https://twitter.com/xoofx/status/1449047838017589252?ref_src=twsrc%5Etfw">October 15, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Unity 社で C#/.NET の技術グループが立ち上がってスクリプティング (C# や .NET ランタイムの統合)、Burst と VM/IL2CPP チームがまとまって Unity における .NET 技術の推進をしていくという話。今後 <q>exciting news</q> があるとのこと。</p>
+<!-- https://twitter.com/davidfowl/status/1451230807197040649?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">One of my slides from the <a href="https://t.co/4PmXMQN7SX">https://t.co/4PmXMQN7SX</a> Core performance talk <a href="https://twitter.com/hashtag/dotnet?src=hash&amp;ref_src=twsrc%5Etfw">#dotnet</a> <a href="https://twitter.com/hashtag/aspnetcore?src=hash&amp;ref_src=twsrc%5Etfw">#aspnetcore</a> <a href="https://t.co/kfkYo2uKM9">pic.twitter.com/kfkYo2uKM9</a></p>&mdash; David Fowler 🇧🇧🇺🇸💉💉 (&#64;davidfowl) <a href="https://twitter.com/davidfowl/status/1451230807197040649?ref_src=twsrc%5Etfw">October 21, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>ASP.NET Core の .NET 6 まででどのぐらいパフォーマンスが改善されたのかという話のスライドからの抜粋。WebSocket のアロケーションやリクエスト/TLS ハンドシェイクでのアロケーション、ヘッダー周りの高速化などについて。</p>
+<h2 id="deep-dive">Deep Dive</h2>
+<h3 id="datetime.now-on-linux-has-wrong-timezone-issue-60469-dotnetruntime"><code>DateTime.Now</code> on Linux has wrong timezone · Issue #60469 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/issues/60469">https://github.com/dotnet/runtime/issues/60469</a></p>
+<p><code>DateTime.Now</code> が Linux で正しいタイムゾーンを返さないようだという Issue。クローズされているが self-contained な物で発生しているという報告。</p>
+<h3 id="where-is-the-asp.net-branding-and-logo-issue-37550-dotnetaspnetcore">Where is the ASP.NET Branding and Logo? · Issue #37550 · dotnet/aspnetcore</h3>
+<p><a href="https://github.com/dotnet/aspnetcore/issues/37550">https://github.com/dotnet/aspnetcore/issues/37550</a></p>
+<p>ASP.NET のブランディングロゴはどこにあるのかという Issue。</p>
+<p>現時点では個別のロゴは存在しないがあってもいいのではないかとか、ブランディングのガイドラインではアプリモデルの形では例があり、今後更新していくといった話も。</p>
+<h3 id="experiment-with-unsafe.stackalloct-by-stephentoub-pull-request-60428-dotnetruntime">Experiment with Unsafe.StackAlloc&lt;T&gt; by stephentoub · Pull Request #60428 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/60428">https://github.com/dotnet/runtime/pull/60428</a></p>
+<p>Hackathon で実装されたスタック上に <code>T</code> の <code>Span&lt;T&gt;</code> を作れる <code>Unsafe.StackAlloc&lt;T&gt;</code> のサンプル利用例の PR。</p>
+<p>この PR で見られるように現在の dotnet/runtime では <code>Span&lt;参照型&gt;</code> をスタック上に作成するために次のようなテクニックを使っている。</p>
+<pre><code class="language-csharp">ThreeMyClasses tmp = default;
+Span&lt;MyClass&gt; threeMyClasses = MemoryMarshal.CreateSpan(ref Unsafe.As(ref tmp._value1), 3);
+
+ref struct ThreeMyClasses
+{
+    internal MyClass _value1;
+    private MyClass _value2;
+    private MyClass _value3;
+}
+
+class MyClass { }
+</code></pre>
+<p>これによりスタック上の構造体を <code>Span&lt;T&gt;</code> に見せかけることで参照型を含む配列的なものをアロケーションなしで作ることができる。ただし、<code>stackalloc</code> と異なりコンパイラーがコードをチェックできず <code>return</code> できてしまう危険性がある点に注意。</p>
+<h3 id="proposal-readonlyspan-initialization-from-static-data-issue-5295-dotnetcsharplang">[Proposal]: ReadOnlySpan initialization from static data · Issue #5295 · dotnet/csharplang</h3>
+<p><a href="https://github.com/dotnet/csharplang/issues/5295">https://github.com/dotnet/csharplang/issues/5295</a></p>
+<p><code>private static ReadOnlySpan&lt;byte&gt; Bytes =&gt; new byte[] { ... };</code> のような最適化テクニックがあるが、一部のプリミティブでのみ使用できるものでそれ以外のケースでは罠となってしまうのでそれ用の構文が欲しいという提案。</p>
+<h3 id="update-docs-for-pipereader.tryread-by-waf-pull-request-52237-dotnetruntime">Update docs for PipeReader.TryRead by waf · Pull Request #52237 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/52237">https://github.com/dotnet/runtime/pull/52237</a></p>
+<p><code>Stream</code> を元にした <code>PipeReader.TryRead</code> は <code>Stream</code> に対して読み込みを実行しないということをドキュメントに明記するという PR。</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>

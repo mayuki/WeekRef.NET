@@ -6,8 +6,259 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Fri, 15 Oct 2021 10:57:38 GMT</pubDate>
-		<lastBuildDate>Fri, 15 Oct 2021 10:57:38 GMT</lastBuildDate>
+		<pubDate>Fri, 22 Oct 2021 11:57:04 GMT</pubDate>
+		<lastBuildDate>Fri, 22 Oct 2021 11:57:04 GMT</lastBuildDate>
+		<item>
+			<title>2021-10-22: Visual Studio 2022 RC2, LINQPad 7 Beta, Hot Reload, F# 6</title>
+			<link>/2021/10/22/updates</link>
+			<description>.NET 関連の情報をほぼ週刊配信</description>
+			<author>Mayuki Sawatari</author>
+			<enclosure url="/img/logo.png" length="0" type="image" />
+			<guid isPermaLink="false">/2021/10/22/updates</guid>
+			<pubDate>Fri, 22 Oct 2021 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;p&gt;&lt;a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview#1700-pre60--visual-studio-2022-version-170-rc2-and-preview-6-newreleasebutton"&gt;Visual Studio 2022 version 17.0 RC2 and Preview 6&lt;/a&gt; がリリースされました。&lt;/p&gt;
+&lt;p&gt;.NET 自体の更新はなく Visual Studio のバグ修正が主な更新点です。何か不具合のようなものを踏んでいる方は更新をおすすめします。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href="https://www.linqpad.net/LINQPad7.aspx"&gt;LINQPad 7 Beta&lt;/a&gt; がリリースされました。&lt;/p&gt;
+&lt;p&gt;.NET 6 および C# 10 に対応し、ARM64 向けのバイナリーも含まれるようになりました。Surface Pro X のような ARM 版 Windows でも C# を書いて ARM ネイティブで動かせるようになりました。現在 6 のライセンスは無償アップグレードとなっていて、既にライセンスを持っている人でも割引で購入できるようになっています。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/update-on-net-hot-reload-progress-and-visual-studio-2022-highlights/"&gt;ホットリロードについてのステータスアップデート&lt;/a&gt;がアナウンスされました。&lt;/p&gt;
+&lt;p&gt;アナウンスでは Visual Studio とターゲットフレームワークによる対応具合や MAUI/ASP.NET での対応についても書かれていますが、地味に大きな点としては &lt;code&gt;dotnet watch&lt;/code&gt; をリリースしないという決定がなされたという点です。特に Visual Studio を使用していない開発者がホットリロードの恩恵を受けられなくなるということで大きな反響が生まれています。&lt;/p&gt;
+&lt;p&gt;元々バギーではあったのですが .NET 6 の目玉機能かつ RC2 をリリースした後、GA までもう少しという直前の段階で削除をしてリリースしないというアナウンスをしたので余計に不満になっていそうです。今後何らかの形で戻されたりする可能性は十分あるのではないかと思います。&lt;/p&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="visual-studio-2022-version-17.0-rc2-and-preview-6"&gt;Visual Studio 2022 version 17.0 RC2 and Preview 6&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview#1700-pre60--visual-studio-2022-version-170-rc2-and-preview-6-newreleasebutton"&gt;https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview#1700-pre60--visual-studio-2022-version-170-rc2-and-preview-6-newreleasebutton&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 version 17.0 RC2 と Preview 6 がリリースされた。&lt;/p&gt;
+&lt;p&gt;RC と Preview 5 のリリースからの Visual Studio 固有のバグ修正が行われており、.NET 6 SDK などへの変更はない。&lt;/p&gt;
+&lt;h3 id="linqpad-7-beta"&gt;LINQPad 7 Beta&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.linqpad.net/LINQPad7.aspx"&gt;https://www.linqpad.net/LINQPad7.aspx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;LINQPad 7 Beta がリリースされた。&lt;/p&gt;
+&lt;p&gt;LINQPad 7 は .NET 6 および C# 10 に対応したリリースとなり、.NET 6, .NET 5, .NET Core 3.1, .NET Framework をサポートする。
+また ARM64 ビルドも提供され Surface Pro X をはじめとする ARM64 環境でのネイティブ動作が可能となった。&lt;/p&gt;
+&lt;p&gt;正式なリリースは .NET 6 のリリース後となり、現在 LINQPad 6 のライセンスを購入することでリリース時にアップグレードが可能。&lt;/p&gt;
+&lt;!-- https://twitter.com/linqpad/status/1450036548506767363?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;LINQPad 7 Preview has just been released, with full support for C# 10, &lt;a href="https://twitter.com/dotnet?ref_src=twsrc%5Etfw"&gt;&amp;#64;dotnet&lt;/a&gt; 6 and EF Core 6. There&amp;#39;s also now an ARM64 build, so you can run and debug C# and F# code on your Surface Pro X at native speed!&lt;a href="https://t.co/1sC2iOFwoW"&gt;https://t.co/1sC2iOFwoW&lt;/a&gt;&lt;/p&gt;&amp;mdash; LINQPad·Joe Albahari (&amp;#64;linqpad) &lt;a href="https://twitter.com/linqpad/status/1450036548506767363?ref_src=twsrc%5Etfw"&gt;October 18, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;h3 id="update-on.net-hot-reload-progress-and-visual-studio-2022-highlights"&gt;Update on .NET Hot Reload progress and Visual Studio 2022 Highlights&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/update-on-net-hot-reload-progress-and-visual-studio-2022-highlights/"&gt;https://devblogs.microsoft.com/dotnet/update-on-net-hot-reload-progress-and-visual-studio-2022-highlights/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET のホットリロードについてのアップデートの記事。&lt;/p&gt;
+&lt;p&gt;記事では次のようなトピックについて書かれている。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;サポートされるフレームワークとシナリオ&lt;/li&gt;
+&lt;li&gt;Visual Studio 2022 での体験の向上&lt;/li&gt;
+&lt;li&gt;MAUI と ASP.NET でのシナリオ&lt;/li&gt;
+&lt;li&gt;.NET アプリの編集に関する追加サポート&lt;/li&gt;
+&lt;li&gt;.NET 6 ユニットテストのホットリロード (Experimental)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dotnet watch&lt;/code&gt; コマンドラインツールに関する変更&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;サポートされるフレームワークとシナリオについては Visual Studio 2022 からデバッガーを使用しているかそうでないか、Visual Studio 2022 と .NET 6 をターゲットとしたアプリかどうかといった場合について書かれている。大まかには従来のフレームワークをターゲットとしている場合にはデバッグ時のみ、.NET 6 をターゲットとしている場合はデバッガーなしも含め殆どのケースでサポートされる。&lt;/p&gt;
+&lt;p&gt;ただし Blazor WebAssembly は GA の時点では対応されず、他に対応しないシナリオとして iOS と Android の Xamarin.Forms や F# アプリケーション、.NET Native アプリケーションなどがあるとのこと。&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 での体験の向上は、ラベルが Hot Reload となったこと、ファイル保存時にホットリロードする機能が付いたことなどがあげられている。&lt;/p&gt;
+&lt;p&gt;MAUI と ASP.NET でのシナリオは MAUI (iOS/Android) でのホットリロードが可能になること、ASP.NET では Razor CSHTML の変更と自動リロード、CSS のホットリロードなどが可能となった。ただし MAUI のホットリロードは Mono ランタイムの制限上メソッドボディーの編集に限られるとのこと。&lt;/p&gt;
+&lt;p&gt;その他 XAML のホットリロードとユニットテスト実行時のホットリロードがプレビュー(オプトイン)で提供されていることについて。&lt;/p&gt;
+&lt;p&gt;最後に &lt;code&gt;dotnet watch&lt;/code&gt; コマンドラインツールについて、ホットリロードは開発の集中のため Visual Studio 2022 でのみの提供となり、コマンドラインツールはリリースしないと決定したとのこと。Visual Studio 2022 for Mac に関しては将来のリリースで追加する予定。&lt;/p&gt;
+&lt;p&gt;これに伴い &lt;code&gt;dotnet watch&lt;/code&gt; が削除されたが、Visual Studio Code や Rider といった Visual Studio 以外のユーザーからは不満の声が上がっているので今後何らか動きがある可能性がある。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/dotnet/sdk/pull/22217"&gt;Remove Hot Reload support from dotnet watch by pranavkm · Pull Request #22217 · dotnet/sdk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/dotnet/sdk/issues/22247"&gt;Hot Reload removed from dotnet watch - Why? · Issue #22247 · dotnet/sdk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="whats-new-in-f-6"&gt;What’s new in F# 6&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/whats-new-in-fsharp-6/"&gt;https://devblogs.microsoft.com/dotnet/whats-new-in-fsharp-6/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 6 に含まれる F# 6 についての記事。&lt;/p&gt;
+&lt;p&gt;F# で速くなった点、均一化された点、シンプルになった点、ツーリングの改善などについて触れている。&lt;/p&gt;
+&lt;h3 id="introducing-new-javascript-engine-yantrajs-for-dotnet"&gt;Introducing new JavaScript Engine YantraJS for DotNet&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.webatoms.in/blog/yantra-js/Introducing-new-JavaScript-Engine-YantraJS-for-DotNet-2g"&gt;https://www.webatoms.in/blog/yantra-js/Introducing-new-JavaScript-Engine-YantraJS-for-DotNet-2g&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;オープンソースの JavaScript エンジンの YantraJS がリリースされた。&lt;/p&gt;
+&lt;p&gt;.NET との相互運用や JavaScript を .NET のアセンブリーに変換するコンパイラーなどが提供されることが特徴。
+現時点で ECMAScript 6 の適合率は70%程度で今後100%を目指すとのこと。その他 V8 Debugger Protocol のサポートなどが今後のロードマップにあがっている。&lt;/p&gt;
+&lt;p&gt;ライセンスは LGPL、YantraJS Standard License (主にサーバーサイド利用目的)、YantraJS Enterprise License となっている。MIT ライセンスに変更できるようスポンサーも求めているとのこと。(ただ LGPL 版を NuGet で参照した場合でもソースコードを公開する必要があると書かれているので LGPL ではない可能性がある)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/yantrajs/yantra/wiki/License"&gt;License · yantrajs/yantra Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="weve-upgraded-the-ui-in-visual-studio-2022"&gt;We've upgraded the UI in Visual Studio 2022&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/"&gt;https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 における UI の変更についての記事。&lt;/p&gt;
+&lt;p&gt;一貫性や視認性、親しみやすさを考慮したアイコンの刷新、ダークモードでのコントラスト調整や新しいアクセントカラー、Cascadia フォントの導入などについて触れている。&lt;/p&gt;
+&lt;h3 id="contributing-to.net-maui-community-toolkit"&gt;Contributing to .NET MAUI Community Toolkit&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/contributing-to-net-maui-community-toolkit/"&gt;https://devblogs.microsoft.com/dotnet/contributing-to-net-maui-community-toolkit/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET MAUI Community Toolkit にコントリビュートする方法についての記事。&lt;/p&gt;
+&lt;p&gt;.NET MAUI Community Toolkit がコミュニティーのコントリビュートを受け入れるようになり、新機能を提案したい場合のフローについて解説している。
+フローは C# チームのものを参考にしたものとなっている。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Discussion をオープン&lt;/li&gt;
+&lt;li&gt;フィーチャーの Proposal (Issue) をオープン&lt;/li&gt;
+&lt;li&gt;チームによって Champion を選出&lt;/li&gt;
+&lt;li&gt;.NET MAUI Community Toolkit Monthly Standup (YouTube 配信) で投票の上、承認&lt;/li&gt;
+&lt;li&gt;Pull Request 承認&lt;/li&gt;
+&lt;li&gt;ドキュメント承認&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;承認された Proposal は &lt;code&gt;help wanted&lt;/code&gt; ラベルがつけられるため、簡単なコントリビュートとしてはこの実装を提供する(Pull Request)という方法も提示されている。&lt;/p&gt;
+&lt;h3 id="release-2.0.0-beta.5-mysql-netmysqlconnector"&gt;Release 2.0.0-beta.5 · mysql-net/MySqlConnector&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/mysql-net/MySqlConnector/releases/tag/2.0.0-beta.5"&gt;https://github.com/mysql-net/MySqlConnector/releases/tag/2.0.0-beta.5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Async MySQL Connector 2.0.0-beta.5 がリリースされた。&lt;/p&gt;
+&lt;p&gt;変更点は &lt;code&gt;ActivitySource&lt;/code&gt; によるトレースへの対応。今回のリリースよりバージョニングが 1.4.0 ベータでの変更範囲を鑑みて 2.0 へと変更された。&lt;/p&gt;
+&lt;h3 id="release-1.3.14-mysql-netmysqlconnector"&gt;Release 1.3.14 · mysql-net/MySqlConnector&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/mysql-net/MySqlConnector/releases/tag/1.3.14"&gt;https://github.com/mysql-net/MySqlConnector/releases/tag/1.3.14&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Async MySQL Connector 1.3.14 がリリースされた。&lt;/p&gt;
+&lt;p&gt;バグ修正が主な変更となっている。&lt;/p&gt;
+&lt;h3 id="release-ef-core-3.1.20-dotnetefcore"&gt;Release EF Core 3.1.20 · dotnet/efcore&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/dotnet/efcore/releases/tag/v3.1.20"&gt;https://github.com/dotnet/efcore/releases/tag/v3.1.20&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Entity Framework Core 3.1.20 がリリースされた。&lt;/p&gt;
+&lt;p&gt;SQLite の不具合対応に伴い、依存しているバージョンが 2.0.2 から 2.0.4 へアップデートされた。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/ericsink/SQLitePCL.raw/issues/321"&gt;System.AccessViolationException at System.Text.UTF8Encoding.GetCharCount(Byte*, Int32, System.Text.DecoderNLS) · Issue #321 · ericsink/SQLitePCL.raw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="release-diagnostics-release-v5.0.251802-dotnetdiagnostics"&gt;Release Diagnostics Release - v5.0.251802 · dotnet/diagnostics&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/dotnet/diagnostics/releases/tag/v5.0.251802"&gt;https://github.com/dotnet/diagnostics/releases/tag/v5.0.251802&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET の診断ツール 5.0.251802 がリリースされた。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;dotnet-dump&lt;/code&gt; と &lt;code&gt;dotnet-sos&lt;/code&gt; は Linux と Windows 上でのシングルファイルアプリケーションのプロセスとファイルの解析がサポートされた。その他バグ修正など。&lt;/p&gt;
+&lt;h3 id="developing-for-windows-with-the-windows-app-sdk-discussion-1615-microsoftwindowsappsdk"&gt;Developing for Windows with the Windows App SDK · Discussion #1615 · microsoft/WindowsAppSDK&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/microsoft/WindowsAppSDK/discussions/1615"&gt;https://github.com/microsoft/WindowsAppSDK/discussions/1615&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Windows App SDK と WinUI 3 の開発についての FAQ。&lt;/p&gt;
+&lt;p&gt;今後 UWP はバグや信頼性に関連する修正のみが行われ、Windows App SDK を使用する場合には新しいデスクトッププロジェクトに移行する必要があること、といった点など。&lt;/p&gt;
+&lt;h3 id="net-framework-october-2021-security-and-quality-rollup"&gt;.NET Framework October 2021 Security and Quality Rollup&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/net-framework-october-2021-security-and-quality-rollup/"&gt;https://devblogs.microsoft.com/dotnet/net-framework-october-2021-security-and-quality-rollup/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET Framework の2021年10月のセキュリティーと累積アップデートについて。&lt;/p&gt;
+&lt;p&gt;セキュリティーに関する更新はなく、正しくない GC の設定によるパフォーマンスの低下や GC.AddMemoryPressure での GC トリガーのアルゴリズムの調整などが含まれている。&lt;/p&gt;
+&lt;h3 id="bouncycastle-c-1.9.0"&gt;BouncyCastle C# 1.9.0&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.bouncycastle.org/csharp/index.html#DOWNLOAD1900"&gt;https://www.bouncycastle.org/csharp/index.html#DOWNLOAD1900&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;BouncyCastle C# 1.9.0 がリリースされた。&lt;/p&gt;
+&lt;p&gt;TLS API の更新や Format Preserving Encryption、ParallelHash と TupleHash、ARIA cipher のサポートが追加された。バグ修正も行われている。&lt;/p&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="net-6-qiita"&gt;.NET 6 で追加されるタスクベースの新しいタイマー - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/karuakun/items/677b2e58260634d86d0d"&gt;https://qiita.com/karuakun/items/677b2e58260634d86d0d&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 6 で追加されたタスクベースとなる新しいタイマーの使い方とそれ以前のタイマーについての記事。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.periodictimer?view=net-6.0"&gt;PeriodicTimer Class (System.Threading)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="unity-improving-iteration-time-on-c-script-changes"&gt;Unity - Improving iteration time on C# script changes&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://forum.unity.com/threads/improving-iteration-time-on-c-script-changes.1184446/"&gt;https://forum.unity.com/threads/improving-iteration-time-on-c-script-changes.1184446/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Unity で C# コードを変更したときのドメインリロードの時間が長くなってしまった件についての調査と進捗報告。&lt;/p&gt;
+&lt;p&gt;リグレッションは 2020.x から発生し、メトリクスの不足や問題が多岐にわたっていること、幾つかの側面から解決を図っていることなど。&lt;/p&gt;
+&lt;p&gt;例えば 2020.1 以降ではドメインリロードの診断メトリクスを保存する機能が追加されたので利用者が調べることができるようになった。コードベース全体を通してリグレッションを探すタスクフォースを立ち上げ細かく最適化を行うことなど。今後も継続して改善を進め、必要なものはバックポートし、その進捗はスレッドに報告するとのこと。&lt;/p&gt;
+&lt;h3 id="helpful-nuget-package-for-unit-testing-in.net"&gt;5 helpful Nuget package for Unit Testing in .NET&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;niteshsinghal85/5-helpful-nuget-package-for-unit-testing-in-net-87c2e087c6d"&gt;https://medium.com/&amp;#64;niteshsinghal85/5-helpful-nuget-package-for-unit-testing-in-net-87c2e087c6d&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ユニットテストをするときに役に立つ5つの NuGet パッケージの紹介の記事。&lt;/p&gt;
+&lt;h3 id="supporting-integration-tests-with-webapplicationfactory-in.net-6-exploring.net-core-6-part-6"&gt;Supporting integration tests with WebApplicationFactory in .NET 6: Exploring .NET Core 6 - Part 6&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/exploring-dotnet-6-part-6-supporting-integration-tests-with-webapplicationfactory-in-dotnet-6/"&gt;https://andrewlock.net/exploring-dotnet-6-part-6-supporting-integration-tests-with-webapplicationfactory-in-dotnet-6/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 6 の ASP.NET Core を WebApplicationFactory を使用して統合テストを行うことについての記事。&lt;/p&gt;
+&lt;p&gt;WebApplicationFactory が内部で行っている処理についても解説している。&lt;/p&gt;
+&lt;h3 id="updated-debugging-experience-uwp-apps-and-debug-windows-docker-containers-in-rider-2021.3-the.net-tools-blog"&gt;Updated Debugging Experience, UWP Apps, and Debug Windows Docker containers in Rider 2021.3 | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2021/10/20/debugging-experience-debug-uwp-apps-and-debug-windows-docker-containers-in-rider-2021-3/"&gt;https://blog.jetbrains.com/dotnet/2021/10/20/debugging-experience-debug-uwp-apps-and-debug-windows-docker-containers-in-rider-2021-3/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Rider 2021.3 で改善されたデバッグ周りについての記事。&lt;/p&gt;
+&lt;p&gt;デバッガーの UI の改善や UWP アプリと Windows Docker コンテナーの対応についてなど。&lt;/p&gt;
+&lt;h3 id="bite-size.net-6-linq-ordefault-overloads"&gt;Bite-Size .NET 6 - LINQ OrDefault() Overloads&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://exceptionnotfound.net/bite-size-dotnet-6-linq-ordefault-overloads/"&gt;https://exceptionnotfound.net/bite-size-dotnet-6-linq-ordefault-overloads/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 6 の LINQ の &lt;code&gt;FirstOrDefault&lt;/code&gt; のような &lt;code&gt;*OrDefault&lt;/code&gt; メソッドにデフォルト値を受けるオーパーロードが追加されたことについての記事。&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;var name = names.FirstOrDefault(&amp;quot;Unknown&amp;quot;); // 見つからなかったら Unknown が返る
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="exploring-the-auth0-asp.net-core-authentication-sdk"&gt;Exploring the Auth0 ASP.NET Core Authentication SDK&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://auth0.com/blog/exploring-auth0-aspnet-core-authentication-sdk/"&gt;https://auth0.com/blog/exploring-auth0-aspnet-core-authentication-sdk/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;アプリケーションで Auth0 の ASP.NET Core Authentication SDK を使用することについての記事。&lt;/p&gt;
+&lt;h3 id="grpc-api-performance-improvement-through-protobuf-fieldmask-in.net"&gt;gRPC API Performance Improvement Through Protobuf FieldMask In .NET&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;AzilenTech/grpc-api-performance-improvement-through-protobuf-fieldmask-in-net-2dff2af6c959"&gt;https://medium.com/&amp;#64;AzilenTech/grpc-api-performance-improvement-through-protobuf-fieldmask-in-net-2dff2af6c959&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Protobuf の FieldMask を使用することで gRPC の API パフォーマンスを向上させることについての記事。&lt;/p&gt;
+&lt;p&gt;必要なフィールドだけを明示して取得することでサーバー側の不要な処理を回避して、メッセージサイズも削減できるというテクニック。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://netflixtechblog.com/practical-api-design-at-netflix-part-1-using-protobuf-fieldmask-35cfdc606518"&gt;Practical API Design at Netflix, Part 1: Using Protobuf FieldMask&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.pyspa.org/post/using_protobuf_fieldmask/"&gt;Netflixにおける実用的なAPI設計: gRPCとFieldMask | pyspa&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="implement-a-secure-api-and-a-blazor-app-in-the-same-asp.net-core-project-with-azure-ad-authentication"&gt;Implement a secure API and a Blazor app in the same ASP.NET Core project with Azure AD authentication&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://damienbod.com/2021/10/04/implement-a-secure-api-and-a-blazor-app-in-the-same-asp-net-core-project-with-azure-ad-authentication/"&gt;https://damienbod.com/2021/10/04/implement-a-secure-api-and-a-blazor-app-in-the-same-asp-net-core-project-with-azure-ad-authentication/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Blazor WebAssembly と ASP.NET Core Web API に Azure AD 認証を実装する方法についての記事。&lt;/p&gt;
+&lt;h3 id="asp-net-core-rest-api-authorization-with-jwt-roles-vs-claims-vs-policy-step-by-step"&gt;Asp Net Core - Rest API Authorization with JWT (Roles Vs Claims Vs Policy) - Step by Step&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/moe23/asp-net-core-rest-api-authorization-with-jwt-roles-vs-claims-vs-policy-step-by-step-5bgn"&gt;https://dev.to/moe23/asp-net-core-rest-api-authorization-with-jwt-roles-vs-claims-vs-policy-step-by-step-5bgn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;REST API に JWT を使った認可を実装する方法についての記事。&lt;/p&gt;
+&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h3 id="davidfowliiscrossover-a-prototype-running-asp.net-and-asp.net-core-in-the-same-iis-pipeline"&gt;davidfowl/IISCrossover: A prototype running ASP.NET and ASP.NET Core in the same IIS pipeline&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/davidfowl/IISCrossover"&gt;https://github.com/davidfowl/IISCrossover&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;IIS で ASP.NET アプリケーション (.NET Framework) と ASP.NET Core アプリケーションを同居させて同じパイプラインで動かすという仕組みのプロトタイプ。&lt;/p&gt;
+&lt;!-- https://twitter.com/davidfowl/status/1449239883529134082?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;If you&amp;#39;re interested in trying it out and looking at the s/hacks/changes, the the repository is here &lt;a href="https://t.co/masxtR85CC"&gt;https://t.co/masxtR85CC&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Fowler 🇧🇧🇺🇸💉💉 (&amp;#64;davidfowl) &lt;a href="https://twitter.com/davidfowl/status/1449239883529134082?ref_src=twsrc%5Etfw"&gt;October 16, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;h3 id="devloopedthisassembly-exposes-project-and-assembly-level-information-as-constants-in-the-thisassembly-class-using-source-generators-powered-by-roslyn"&gt;devlooped/ThisAssembly: Exposes project and assembly level information as constants in the ThisAssembly class using source generators powered by Roslyn.&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/devlooped/ThisAssembly"&gt;https://github.com/devlooped/ThisAssembly&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;自身のプロジェクトやアセンブリの情報を取得できるコードを生成する Source Generator。&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;Console.WriteLine(ThisAssembly.Info.Company); // AssemblyCompanyAttribute
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;アセンブリの情報だけでなく、定数の定義やメタデータ、プロジェクトのプロパティーにアクセスできるようなものも提供されている。&lt;/p&gt;
+&lt;h3 id="amis92csharp-source-generators-a-list-of-c-source-generators-not-necessarily-awesome-and-associated-resources-articles-talks-demos"&gt;amis92/csharp-source-generators: A list of C# Source Generators (not necessarily awesome) and associated resources: articles, talks, demos.&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/amis92/csharp-source-generators"&gt;https://github.com/amis92/csharp-source-generators&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;C# Source Generator のまとめリポジトリ。&lt;/p&gt;
+&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
+&lt;h3 id="windows-subsystem-for-androidtm"&gt;Windows Subsystem for Android™️&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://docs.microsoft.com/en-us/windows/android/wsa/"&gt;https://docs.microsoft.com/en-us/windows/android/wsa/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Windows Subsystem for Android™️ の開発者ドキュメント。考慮すべき点やアプリケーションのデバッグ方法などについて触れている。&lt;/p&gt;
+&lt;h3 id="overall-migration-strategy-windows-apps"&gt;Overall migration strategy - Windows apps&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/overall-migration-strategy"&gt;https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/overall-migration-strategy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Universal Windows Platform から Windows App SDK へのマイグレーションのガイドドキュメント。&lt;/p&gt;
+&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
+&lt;!-- https://twitter.com/steplyakov/status/1449056693568958466?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;It is amazing how &lt;a href="https://twitter.com/VisualStudio?ref_src=twsrc%5Etfw"&gt;&amp;#64;VisualStudio&lt;/a&gt; can show a deadlock in the async code in the &amp;#39;Parallel Stacks&amp;#39; view!&lt;br&gt;&lt;br&gt;It&amp;#39;s not possible to figure out an issue like this one simply by looking into the stack traces. You need to look at how the async machinery is linked together to show it. &lt;a href="https://t.co/9WlANzaI5t"&gt;pic.twitter.com/9WlANzaI5t&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sergey Teplyakov (&amp;#64;STeplyakov) &lt;a href="https://twitter.com/STeplyakov/status/1449056693568958466?ref_src=twsrc%5Etfw"&gt;October 15, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;非同期処理のデッドロックの発見に Parallel Stacks ビューが便利という話(これは以前のバージョンの Visual Studio にある)。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.microsoft.com/ja-jp/visualstudio/debugger/using-the-parallel-stacks-window?view=vs-2019"&gt;[並列スタック] ウィンドウでスレッドを表示する - Visual Studio (Windows)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- https://twitter.com/okyrylchuk/status/1449098382111346692?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;In .NET 6, you can easily generate a random sequence of values from a Cryptographically Secure Pseudorandom Number Generator (CSPNG).&lt;br&gt;&lt;br&gt;It&amp;#39;s useful for cryptographic applications for:&lt;br&gt;• key generation&lt;br&gt;• nonces&lt;br&gt;• salts in certain signature schemes&lt;a href="https://twitter.com/hashtag/dotnet6?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotnet6&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/coding?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#coding&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/devcommunity?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#devcommunity&lt;/a&gt; &lt;a href="https://t.co/O1AmnBVTVE"&gt;pic.twitter.com/O1AmnBVTVE&lt;/a&gt;&lt;/p&gt;&amp;mdash; Oleg Kyrylchuk (&amp;#64;okyrylchuk) &lt;a href="https://twitter.com/okyrylchuk/status/1449098382111346692?ref_src=twsrc%5Etfw"&gt;October 15, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;.NET 6 では暗号論的擬似乱数生成器 (CSPRNG) を使用してランダムなデータを生成するのが &lt;code&gt;RandomNumberGenerator&lt;/code&gt; クラスの静的メソッドで簡単に取得できるようになったという話。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.microsoft.com/ja-jp/dotnet/api/system.security.cryptography.randomnumbergenerator.getbytes?view=net-6.0#System_Security_Cryptography_RandomNumberGenerator_GetBytes_System_Span_System_Byte__"&gt;RandomNumberGenerator.GetBytes メソッド (System.Security.Cryptography)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- https://twitter.com/xoofx/status/1449047838017589252?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Thrilled to announce we have formed a C#/.NET Tech Group within Unity, bringing Scripting (C# compilation, .NET Runtime integration...), Burst &amp;amp; VM/IL2CPP teams all together to further standardize, modernize, and innovate with .NET technologies within the Unity platform! ♥️&lt;/p&gt;&amp;mdash; Alexandre Mutel (&amp;#64;xoofx) &lt;a href="https://twitter.com/xoofx/status/1449047838017589252?ref_src=twsrc%5Etfw"&gt;October 15, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;Unity 社で C#/.NET の技術グループが立ち上がってスクリプティング (C# や .NET ランタイムの統合)、Burst と VM/IL2CPP チームがまとまって Unity における .NET 技術の推進をしていくという話。今後 &lt;q&gt;exciting news&lt;/q&gt; があるとのこと。&lt;/p&gt;
+&lt;!-- https://twitter.com/davidfowl/status/1451230807197040649?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;One of my slides from the &lt;a href="https://t.co/4PmXMQN7SX"&gt;https://t.co/4PmXMQN7SX&lt;/a&gt; Core performance talk &lt;a href="https://twitter.com/hashtag/dotnet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotnet&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/aspnetcore?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#aspnetcore&lt;/a&gt; &lt;a href="https://t.co/kfkYo2uKM9"&gt;pic.twitter.com/kfkYo2uKM9&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Fowler 🇧🇧🇺🇸💉💉 (&amp;#64;davidfowl) &lt;a href="https://twitter.com/davidfowl/status/1451230807197040649?ref_src=twsrc%5Etfw"&gt;October 21, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;ASP.NET Core の .NET 6 まででどのぐらいパフォーマンスが改善されたのかという話のスライドからの抜粋。WebSocket のアロケーションやリクエスト/TLS ハンドシェイクでのアロケーション、ヘッダー周りの高速化などについて。&lt;/p&gt;
+&lt;h2 id="deep-dive"&gt;Deep Dive&lt;/h2&gt;
+&lt;h3 id="datetime.now-on-linux-has-wrong-timezone-issue-60469-dotnetruntime"&gt;&lt;code&gt;DateTime.Now&lt;/code&gt; on Linux has wrong timezone · Issue #60469 · dotnet/runtime&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/dotnet/runtime/issues/60469"&gt;https://github.com/dotnet/runtime/issues/60469&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;DateTime.Now&lt;/code&gt; が Linux で正しいタイムゾーンを返さないようだという Issue。クローズされているが self-contained な物で発生しているという報告。&lt;/p&gt;
+&lt;h3 id="where-is-the-asp.net-branding-and-logo-issue-37550-dotnetaspnetcore"&gt;Where is the ASP.NET Branding and Logo? · Issue #37550 · dotnet/aspnetcore&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/dotnet/aspnetcore/issues/37550"&gt;https://github.com/dotnet/aspnetcore/issues/37550&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ASP.NET のブランディングロゴはどこにあるのかという Issue。&lt;/p&gt;
+&lt;p&gt;現時点では個別のロゴは存在しないがあってもいいのではないかとか、ブランディングのガイドラインではアプリモデルの形では例があり、今後更新していくといった話も。&lt;/p&gt;
+&lt;h3 id="experiment-with-unsafe.stackalloct-by-stephentoub-pull-request-60428-dotnetruntime"&gt;Experiment with Unsafe.StackAlloc&amp;lt;T&amp;gt; by stephentoub · Pull Request #60428 · dotnet/runtime&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/dotnet/runtime/pull/60428"&gt;https://github.com/dotnet/runtime/pull/60428&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hackathon で実装されたスタック上に &lt;code&gt;T&lt;/code&gt; の &lt;code&gt;Span&amp;lt;T&amp;gt;&lt;/code&gt; を作れる &lt;code&gt;Unsafe.StackAlloc&amp;lt;T&amp;gt;&lt;/code&gt; のサンプル利用例の PR。&lt;/p&gt;
+&lt;p&gt;この PR で見られるように現在の dotnet/runtime では &lt;code&gt;Span&amp;lt;参照型&amp;gt;&lt;/code&gt; をスタック上に作成するために次のようなテクニックを使っている。&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-csharp"&gt;ThreeMyClasses tmp = default;
+Span&amp;lt;MyClass&amp;gt; threeMyClasses = MemoryMarshal.CreateSpan(ref Unsafe.As(ref tmp._value1), 3);
+
+ref struct ThreeMyClasses
+{
+    internal MyClass _value1;
+    private MyClass _value2;
+    private MyClass _value3;
+}
+
+class MyClass { }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;これによりスタック上の構造体を &lt;code&gt;Span&amp;lt;T&amp;gt;&lt;/code&gt; に見せかけることで参照型を含む配列的なものをアロケーションなしで作ることができる。ただし、&lt;code&gt;stackalloc&lt;/code&gt; と異なりコンパイラーがコードをチェックできず &lt;code&gt;return&lt;/code&gt; できてしまう危険性がある点に注意。&lt;/p&gt;
+&lt;h3 id="proposal-readonlyspan-initialization-from-static-data-issue-5295-dotnetcsharplang"&gt;[Proposal]: ReadOnlySpan initialization from static data · Issue #5295 · dotnet/csharplang&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/dotnet/csharplang/issues/5295"&gt;https://github.com/dotnet/csharplang/issues/5295&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;private static ReadOnlySpan&amp;lt;byte&amp;gt; Bytes =&amp;gt; new byte[] { ... };&lt;/code&gt; のような最適化テクニックがあるが、一部のプリミティブでのみ使用できるものでそれ以外のケースでは罠となってしまうのでそれ用の構文が欲しいという提案。&lt;/p&gt;
+&lt;h3 id="update-docs-for-pipereader.tryread-by-waf-pull-request-52237-dotnetruntime"&gt;Update docs for PipeReader.TryRead by waf · Pull Request #52237 · dotnet/runtime&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/dotnet/runtime/pull/52237"&gt;https://github.com/dotnet/runtime/pull/52237&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Stream&lt;/code&gt; を元にした &lt;code&gt;PipeReader.TryRead&lt;/code&gt; は &lt;code&gt;Stream&lt;/code&gt; に対して読み込みを実行しないということをドキュメントに明記するという PR。&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>2021-10-15: .NET 6 RC2, Visual Studio 2022 RC2 &amp; Preview 5, .NET 5.0.11, ReSharper/Rider 2021.3 EAP</title>
 			<link>/2021/10/15/updates</link>
@@ -2060,286 +2311,6 @@ Visual Studio 2022 Preview 4と共に使用することが前提で Visual Studi
 &lt;h3 id="use-poolingasyncvaluetaskmethodbuilder-on-various-readasync-methods.by-adityamandaleeka-pull-request-35011-dotnetaspnetcore-github"&gt;Use PoolingAsyncValueTaskMethodBuilder on various ReadAsync methods. by adityamandaleeka · Pull Request #35011 · dotnet/aspnetcore · GitHub&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/dotnet/aspnetcore/pull/35011"&gt;https://github.com/dotnet/aspnetcore/pull/35011&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Kestrel のボディの読み取りメソッドに &lt;code&gt;PoolingAsyncValueTaskMethodBuilder&lt;/code&gt; を使用することでアロケーションを抑える PR。&lt;/p&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>2021-08-13</title>
-			<link>/2021/08/13/updates</link>
-			<description>.NET 関連の情報をほぼ週刊配信</description>
-			<author>Mayuki Sawatari</author>
-			<enclosure url="/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/2021/08/13/updates</guid>
-			<pubDate>Fri, 13 Aug 2021 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;ニュース&lt;/h2&gt;
-&lt;h3 id="net-6-preview-7-visual-studio-2022-preview-3"&gt;.NET 6 Preview 7 と Visual Studio 2022 Preview 3 のリリース&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-7/"&gt;Announcing .NET 6 Preview 7&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;.NET 6 Preview 7 と Visual Studio 2022 Preview 3 のリリースされました。&lt;/p&gt;
-&lt;p&gt;.NET のライブラリ/ランタイムの強化と C# 10 の新しい機能が多く入っています。&lt;a href="https://devblogs.microsoft.com/dotnet/string-interpolation-in-c-10-and-net-6/"&gt;String Interpolation の強化&lt;/a&gt; は従来の FormattableString に代わるアロケーションを抑え、柔軟なカスタマイズが行える仕組みなので活用の幅は広そうです。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://twitter.com/JeffHandley/status/1424846146850131968"&gt;.NET 6 API 100% annotated for Null reference types&lt;/a&gt; とのことで .NET 6 のすべての API で Nullable アノテーションが対応されました。それもあってか Visual Studio で新しいプロジェクトを作ったときに Nullable はデフォルトで enable となるようです。&lt;/p&gt;
-&lt;p&gt;.NET 6 のリリースは &lt;a href="https://twitter.com/dotnet/status/1425080748621672451?s=21"&gt;11月9日から11日まで行われる .NET Conf 2021&lt;/a&gt; でローンチとなるようです。&lt;/p&gt;
-&lt;h3 id="resharper-2021.2-rider-2021.2"&gt;ReSharper 2021.2 と Rider 2021.2 のリリース&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2021/08/03/resharper-2021-2-release/"&gt;ReSharper 2021.2: Updates to C# Code Analysis, Nullable Reference Types, and Source Generators and Introducing HttpClient URI Support!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2021/08/03/rider-2021-2-released/"&gt;Rider 2021.2: Support for ASP.NET Core Endpoints, Blazor WebAssembly Debugging, and More&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;ReSharper 2021.2 と Rider 2021.2 のリリースではコード解析の改善と Source Generator 対応などが行われています。ReSharper は Visual Studio 2022 サポート版が、Rider では Apple Silicon 版がプレビューリリースされています。&lt;/p&gt;
-&lt;h3 id="visual-studio-2019-v16.11.net"&gt;Visual Studio 2019 v16.11 と .NET のセキュリティアップデートのリリース&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-16-11/"&gt;Visual Studio 2019 v16.11 is Available Now!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/net-august-2021/"&gt;.NET August 2021 Updates – 5.0.9, 3.1.18, 2.1.29&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/net-framework-august-2021-security-and-quality-rollup/"&gt;.NET Framework August 2021 Security and Quality Rollup&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Visual Studio 2019 v16.11 がリリースされましたが、目立った変更は .NET Hot Reload のサポートぐらいで小さめのリリースとなっています。
-また、16.11 が 2019 (v16) の最後の Servicing Baseline (セキュリティ修正などの対象) となり、それ以前のバージョンは順次サポート終了となり、16.11 が2029年4月までサポートされます。&lt;/p&gt;
-&lt;p&gt;また &lt;a href="https://devblogs.microsoft.com/dotnet/net-core-2-1-will-reach-end-of-support-on-august-21-2021/"&gt;.NET Core 2.1 のサポートが2021年8月21日で終了&lt;/a&gt;となり、それ以降は更新が受けられなくなるため .NET 3.1 または .NET 5 への移行が推奨されます。&lt;/p&gt;
-&lt;h2 id="section-1"&gt;ヘッドライン&lt;/h2&gt;
-&lt;h3 id="announcing.net-6-preview-7"&gt;Announcing .NET 6 Preview 7&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-7/"&gt;https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-7/&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-preview-7/"&gt;ASP.NET Core updates in .NET 6 Preview 7&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-7/"&gt;Announcing .NET MAUI Preview 7&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/preview-features-in-net-6-generic-math/"&gt;Preview Features in .NET 6 – Generic Math&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/string-interpolation-in-c-10-and-net-6/"&gt;String Interpolation in C# 10 and .NET 6&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;.NET 6 Preview 7 での各種変更点。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;テンプレートが top-level statements を使ったものに。
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://docs.microsoft.com/en-us/dotnet/core/tutorials/top-level-templates"&gt;New C# templates generate top-level statements&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Nullability Information API の導入。
-&lt;ul&gt;
-&lt;li&gt;プロパティの nullability を調べるリフレクション API の NullabilityInfoContext などが追加&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;ライブラリ: Zip ファイルが Unix パーミッションを尊重するように&lt;/li&gt;
-&lt;li&gt;Early .NET 7 Feature Preview: Generic Math
-&lt;ul&gt;
-&lt;li&gt;Static abstract interface members を活用した計算可能な型の拡張&lt;/li&gt;
-&lt;li&gt;INumber&lt;T&gt; や IParseable&lt;T&gt; といったインターフェース&lt;/li&gt;
-&lt;li&gt;プレビューのため、オプトインが必要で breaking change が発生する可能性もある。プロダクションで使用することは非推奨&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/preview-features-in-net-6-generic-math/"&gt;Preview Features in .NET 6 – Generic Math&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;ライブラリ: NativeMemory APIs
-&lt;ul&gt;
-&lt;li&gt;malloc, free, realloc, calloc を公開する API を追加。Marshal.AllocHGlobal, Marshal.FreeHGlobal は NativeMemory.Alloc, NativeMemory.Free になった&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/runtime/pull/54006/files"&gt;Implement NativeMemory by tannergooding · Pull Request #54006 · dotnet/runtime&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;ライブラリ: System.Text.Json シリアライズ時の通知
-&lt;ul&gt;
-&lt;li&gt;IJsonOnDeserialized, IJsonOnDeserializing インターフェースを実装することでオブジェクトのシリアライズのタイミング(前後)でのコールバックを受け取れるように&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;ライブラリ: System.Text.Json プロパティ順序
-&lt;ul&gt;
-&lt;li&gt;JsonPropertyOrder で順序を指定できるように&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;ライブラリ: “write raw” JSON with System.Text.Json.Utf8JsonWriter
-&lt;ul&gt;
-&lt;li&gt;Utf8JsonWriter で JSON に直接書き込める API の追加&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;ライブラリ: JsonSerializer の同期 stream オーバーロード&lt;/li&gt;
-&lt;li&gt;ライブラリ: System.Text.Json.Nodes.JsonNode support for dynamic is removed
-&lt;ul&gt;
-&lt;li&gt;JsonNode に dynamic サポートが preview 4 で追加されていたが削除&lt;/li&gt;
-&lt;li&gt;.NET 5 からの変更はなし&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;ライブラリ: System.Diagnostics Propagators
-&lt;ul&gt;
-&lt;li&gt;OpenTelemetry の Propagation コンセプトをサポートする仕組み&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;ライブラリ: 暗号処理の呼び出しの簡略化
-&lt;ul&gt;
-&lt;li&gt;既にメモリーにデータがある状態で使える Encrypt-, Decrypt- メソッドの追加&lt;/li&gt;
-&lt;li&gt;以前は Stream を経由する必要があった&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;ライブラリ: Full Case Mapping Support in Globalization Invariant Mode
-&lt;ul&gt;
-&lt;li&gt;グローバルインバリアントモードであっても Unicode のケースマッピングをサポートするように&lt;/li&gt;
-&lt;li&gt;ToLower/ToUpper/Compare で non-ASCII の大文字小文字を区別できるようになる&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://docs.microsoft.com/en-us/dotnet/core/compatibility/globalization/6.0/culture-creation-invariant-mode"&gt;Culture creation and case mapping in globalization-invariant mode&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/runtime/blob/main/docs/design/features/globalization-invariant-mode.md"&gt;.NET Core Globalization Invariant Mode&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;ランタイム: W^X (write xor execute) support for all platforms and architectures
-&lt;ul&gt;
-&lt;li&gt;メモリーページを read-execute にする機能をすべてのプラットフォームに展開&lt;/li&gt;
-&lt;li&gt;Apple Silicon 環境下では writable + executable を同時に指定することを許可していないため Apple Silicon な macOS ではすでに有効&lt;/li&gt;
-&lt;li&gt;スタートアップ速度のリグレッションがあるためオプトイン (Apple SIlicon を除く)。 環境変数 &lt;code&gt;DOTNET_EnableWriteXorExecute&lt;/code&gt; を &lt;code&gt;1&lt;/code&gt; にすることで有効化&lt;/li&gt;
-&lt;li&gt;.NET 7 でパフォーマンスは解決してデフォルト有効にしたい意向&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;VS 2022 Preview 3 &amp;amp; .NET 6 Preview 7 で導入された C# 10 の機能。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Record structs
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/csharplang/issues/4334"&gt;Proposal: record structs · Issue #4334 · dotnet/csharplang · GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Global usings
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/csharplang/issues/3428"&gt;[Proposal] Add ability to declare global usings for namespaces, types and aliases by using a command line switch · Issue #3428 · dotnet/csharplang · GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://docs.microsoft.com/ja-jp/dotnet/core/compatibility/sdk/6.0/implicit-namespaces"&gt;破壊的変更: C# プロジェクトの暗黙的な名前空間 - .NET&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Interpolated string improvements
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/csharplang/issues/4487"&gt;[Proposal]: Improved interpolated strings · Issue #4487 · dotnet/csharplang · GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/string-interpolation-in-c-10-and-net-6/"&gt;String Interpolation in C# 10 and .NET 6&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://tech.blog.aerie.jp/entry/2021/08/03/232710"&gt;Improvement Interpolated Strings 完全に理解した - 鷲ノ巣&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;File-scoped namespace
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/csharplang/issues/137"&gt;Proposal: File scoped namespaces · Issue #137 · dotnet/csharplang · GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Parameterless struct constructors
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/csharplang/issues/99"&gt;Champion &amp;quot;Allow no-arg constructor and field initializers in struct declarations&amp;quot; · Issue #99 · dotnet/csharplang · GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Caller expression attribute
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/csharplang/issues/287"&gt;Champion &amp;quot;CallerArgumentExpression&amp;quot; · Issue #287 · dotnet/csharplang · GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;global usings が導入されたことで、.NET 6 以降の場合には暗黙的 global usings がビルド時にインポートされますが、&lt;code&gt;LangVersion&lt;/code&gt; を 10 未満に落としている場合 (Unity とのコードシェアや &lt;code&gt;TargetFrameworks&lt;/code&gt; の都合など) にビルドエラーとなるため、&lt;code&gt;&amp;lt;DisableImplicitNamespaceImports&amp;gt;true&amp;lt;/DisableImplicitNamespaceImports&amp;gt;&lt;/code&gt; で暗黙的インポートを抑制する必要があります。&lt;/p&gt;
-&lt;h3 id="asp.net-core-updates-in.net-6-preview-7"&gt;ASP.NET Core updates in .NET 6 Preview 7&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-preview-7/"&gt;https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-preview-7/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Minimal API の追加。Blazor におけるクエリーストリングをパラメータで受け取る仕組み、C# と JavaScript 間でのストリームの取り扱い、&lt;code&gt;head&lt;/code&gt; の書き換えサポートなどが追加。Kestrel に HTTP/3 サポートがプレビューで追加。&lt;/p&gt;
-&lt;h3 id="visual-studio-2022-preview-3-now-available"&gt;Visual Studio 2022 Preview 3 now available!&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 Preview 3 のリリース。&lt;/p&gt;
-&lt;p&gt;.NET 6 Preview 7 対応。Nullable Reference Types のデフォルト有効化。&lt;/p&gt;
-&lt;p&gt;エディタの改善。ブレークポイントドラッグアンドドロップや一時ブレークポイント、自動セーブ (プレビュー)、マルチキャレットコピーアンドペーストなど。&lt;/p&gt;
-&lt;p&gt;Git のマルチリポジトリ対応や ASP.NET Core との統合などを含む JavaScript/TypeScript の開発体験の改善。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview#17.0.0-pre.3.0"&gt;Visual Studio 2022 v17.0 Preview Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/"&gt;Multi-repo Support in Visual Studio&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/personalize-your-visual-studio-2022/"&gt;Personalize Your Visual Studio 2022&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/"&gt;The New JavaScript/TypeScript Experience in Visual Studio 2022 Preview 3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="visual-studio-2019-v16.11-is-available-now"&gt;Visual Studio 2019 v16.11 is Available Now!&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-16-11/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-16-11/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2019 v16.11 のリリース。Git ツーリングの改善と .NET アプリケーションの Hot Reload 対応、細かい修正など。&lt;/p&gt;
-&lt;p&gt;16.11 が 2019 (v16) の最後の Servicing Baseline (セキュリティ修正などの対象) となることの発表。それ以前のバージョンは順次サポート終了となり、16.11 が2029年4月までサポートされる。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes#16.11.0"&gt;Visual Studio 2019 version 16.11 Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="resharper-2021.2-updates-to-c-code-analysis-nullable-reference-types-and-source-generators-and-introducing-httpclient-uri-support"&gt;ReSharper 2021.2: Updates to C# Code Analysis, Nullable Reference Types, and Source Generators and Introducing HttpClient URI Support!&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2021/08/03/resharper-2021-2-release/"&gt;https://blog.jetbrains.com/dotnet/2021/08/03/resharper-2021-2-release/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ReSharper 2021.2 のリリース。Code Analysis や Nullable Reference Type の改善。ASP.NET Core のルーティングを元にした HttpClient の URL 入力補完機能の追加。&lt;/p&gt;
-&lt;p&gt;Source Generator にも対応し、ジェネレートされたコードにブレークポイントをはったり、inlay hints を表示する、プロパティ名をリネームしたときにバッキングフィールドの名前もリネームするといったことが可能に。&lt;/p&gt;
-&lt;p&gt;また、このバージョンから .NET Framework 4.7.2 が必須要件に。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.jetbrains.com/resharper/whatsnew/2021-2/"&gt;What’s new in ReSharper 2021.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2021/04/26/resharper-and-rider-2021-2-will-require-net-framework-4-7-2-on-windows/"&gt;ReSharper and Rider 2021.2 will require .NET Framework 4.7.2 or newer installed on Windows&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2021/08/09/improved-support-for-source-generators-in-resharper-2021-2/"&gt;Improved Support for Source Generators in ReSharper 2021.2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="rider-2021.2-support-for-asp.net-core-endpoints-blazor-webassembly-debugging-and-more"&gt;Rider 2021.2: Support for ASP.NET Core Endpoints, Blazor WebAssembly Debugging, and More&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2021/08/03/rider-2021-2-released/"&gt;https://blog.jetbrains.com/dotnet/2021/08/03/rider-2021-2-released/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Rider 2021.2 のリリース。&lt;/p&gt;
-&lt;p&gt;ASP.NET Core のルーティングを元にした Endpoint ツールウィンドウ対応と HttpClient の URL 入力補完機能の追加。ReSharper 同様 Code Analysis や Nullable Reference Type の改善、Source Generator 対応。&lt;/p&gt;
-&lt;p&gt;Blazor WebAssembly のデバッグ対応が追加。&lt;/p&gt;
-&lt;p&gt;Unity 関連の強化。未保存のシーンがある状態でコミットしようとすると警告を出すといった対応など。&lt;/p&gt;
-&lt;p&gt;他の IDE から設定をインポートする機能が搭載。&lt;/p&gt;
-&lt;p&gt;Apple Silicon 対応のプレビュー版もリリースされ、サポートページからダウンロード可能に。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://rider-support.jetbrains.com/hc/en-us/articles/4401925025810"&gt;Apple Silicon (M1 chip) Support in Rider&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="the-v2021.2-releases-for-dotcover-dotmemory-dottrace-and-dotpeek-are-here"&gt;The v2021.2 Releases for dotCover, dotMemory, dotTrace, and dotPeek Are Here!&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2021/08/03/dotcover-dotmemory-dottrace-dotpeek-2021-2/"&gt;https://blog.jetbrains.com/dotnet/2021/08/03/dotcover-dotmemory-dottrace-dotpeek-2021-2/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;dotCover, dotMemory, dotTrace, dotPeek の 2021.2 がリリース。&lt;/p&gt;
-&lt;p&gt;dotCover はカバレッジツリー内の C# 8/9 のサポート強化など。dotMemory はメモリーアロケーションの解析強化など。dotTrace はネイティブプロファイリング対応や macOS/Linux 上でのプロファイリングが拡大。dotPeek は single-file executable をデコンパイル可能に。&lt;/p&gt;
-&lt;h3 id="support-for-visual-studio-2022-preview-resharper-support-jetbrains"&gt;Support for Visual Studio 2022 Preview – ReSharper Support | JetBrains&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://resharper-support.jetbrains.com/hc/en-us/articles/4404930135570"&gt;https://resharper-support.jetbrains.com/hc/en-us/articles/4404930135570&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ReSharper の Visual Studio 2022 Preview のサポートのプレビュー版がリリース。サポートページから入手可能。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2021/08/11/support-for-visual-studio-2022-preview/"&gt;Initial Support for Visual Studio 2022 Preview Is Available!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="net-august-2021-updates-5.0.9-3.1.18-2.1.29"&gt;.NET August 2021 Updates – 5.0.9, 3.1.18, 2.1.29&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/net-august-2021/"&gt;https://devblogs.microsoft.com/dotnet/net-august-2021/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 5, .NET Core 3.1, .NET Core 2.1 に対する3つのセキュリティ修正が行われてリリース。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;CVE-2021-34485: .NET Core Information Disclosure Vulnerability&lt;/li&gt;
-&lt;li&gt;CVE-2021-26423: .NET Core Denial of Service Vulnerability&lt;/li&gt;
-&lt;li&gt;CVE-2021-34532: ASP.NET Core Information Disclosure Vulnerability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;.NET Core 2.1 のサポートが間もなく (8月21日) 終了。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/net-core-2-1-will-reach-end-of-support-on-august-21-2021/"&gt;.NET Core 2.1 will reach End of Support on August 21, 2021&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="net-framework-august-2021-security-and-quality-rollup"&gt;.NET Framework August 2021 Security and Quality Rollup&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/net-framework-august-2021-security-and-quality-rollup/"&gt;https://devblogs.microsoft.com/dotnet/net-framework-august-2021-security-and-quality-rollup/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET Framework のセキュリティと累積更新プログラムの8月リリース分。&lt;/p&gt;
-&lt;p&gt;セキュリティ修正はなく、CLR の GC の挙動のコントロールと Windows Forms の修正。&lt;/p&gt;
-&lt;h3 id="codespaces-github"&gt;Codespaces · GitHub&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/features/codespaces"&gt;https://github.com/features/codespaces&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;GitHub Codespaces (Visual Studio Code とコンテナーによるクラウド開発環境) が正式リリース。&lt;/p&gt;
-&lt;p&gt;また、リポジトリ上で &lt;code&gt;.&lt;/code&gt; キーを押すと簡易版 Codespaces (Visual Studio Code) でファイルを開くことが可能に。コンテナーなどクラウドリソースを持たない代わりに軽量、無料。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-codespaces#codespaces-pricing"&gt;Codespaces pricing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.blog/2021-08-11-githubs-engineering-team-moved-codespaces/"&gt;GitHub’s Engineering Team has moved to Codespaces | The GitHub Blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="unity-2021.2.0-beta-7"&gt;Unity 2021.2.0 Beta 7&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://unity3d.com/jp/unity/beta/2021.2.0b7"&gt;https://unity3d.com/jp/unity/beta/2021.2.0b7&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://unity3d.com/jp/unity/beta/2021.2.0b6"&gt;Unity 2021.2b6&lt;/a&gt; から .NET Standard 2.1 をターゲットにできるように。Unity における .NET Framework 4.8 は .NET Standard 2.1 を含むスーパーセットを意味するように(ただし現状バグがある)。&lt;/p&gt;
-&lt;h2 id="section-2"&gt;アーティクル&lt;/h2&gt;
-&lt;h3 id="githubs-engineering-team-has-moved-to-codespaces-the-github-blog"&gt;GitHub’s Engineering Team has moved to Codespaces | The GitHub Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.blog/2021-08-11-githubs-engineering-team-moved-codespaces/"&gt;https://github.blog/2021-08-11-githubs-engineering-team-moved-codespaces/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;GitHub.com の開発環境を Codespaces に移行した話。(C# や .NET ではない)&lt;/p&gt;
-&lt;h3 id="the.net-ecosystem-in-2021-over-half-of.net-devs-use-c-8-46-do-not-use-diagnostic-tools-and-other-facts"&gt;The .NET Ecosystem in 2021: Over half of .NET devs use C# 8, 46% do not use diagnostic tools, and other facts&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2021/08/12/the-net-ecosystem-in-2021-over-half-of-net-devs-use-c-8-46-do-not-use-diagnostic-tools-and-other-facts/"&gt;https://blog.jetbrains.com/dotnet/2021/08/12/the-net-ecosystem-in-2021-over-half-of-net-devs-use-c-8-46-do-not-use-diagnostic-tools-and-other-facts/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;JetBrains による言語バージョンやツールなどの調査から .NET エコシステムの中で使われているものにフォーカスした話。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.jetbrains.com/lp/devecosystem-2021/"&gt;The State of Developer Ecosystem 2021&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;31,743 developers from 183 countries or regions&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;C# の利用者の 30% が 9.0 、50% が 8.0 といった割合。半分ぐらいの人がパフォーマンス/診断ツールを使っていない、など。&lt;/p&gt;
-&lt;h3 id="net-6-theading-improvements"&gt;.NET 6: Theading Improvements&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.infoq.com/news/2021/08/net6-Threading/"&gt;https://www.infoq.com/news/2021/08/net6-Threading/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 6 でのスレッド周りでの強化について。&lt;/p&gt;
-&lt;p&gt;.NET 6 で Environment.CurrentManagedThreadId に最適化が入ったため Thread.CurrentThread.ManagedThreadId が非推奨に。Paralell.ForEach の async 版 Paralell.ForEachAsync が導入され、ExecutionContext を引き継がずスレッドを起動する Thread.UnsafeStart が導入された、など。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/runtime/pull/41360"&gt;Change Environment.CurrentManagedThreadId back to FCall by jkotas · Pull Request #41360 · dotnet/runtime&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/runtime/issues/46594"&gt;Add Thread.UnsafeStart to avoid capturing the ExecutionContext  · Issue #46594 · dotnet/runtime&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
