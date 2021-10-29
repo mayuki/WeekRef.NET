@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2021-10-29T09:58:48Z</updated>
+	<updated>2021-10-29T10:32:03Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -163,6 +163,7 @@
 &lt;p&gt;匿名型と名前付き ValueTuple を各種シリアライザー (MessagePack, JSON.NET, System.Text.Json) に通した際の結果の違いについての記事。&lt;/p&gt;
 &lt;p&gt;名前付き ValueTuple の名前は属性で付加されるだけの要素のため、大抵の場合出力にはキーとして含まれない。&lt;/p&gt;
 &lt;h3 id="nunit-vs.xunit-vs.mstest-comparing-unit-testing-frameworks-in-c"&gt;NUnit vs. XUnit vs. MSTest: Comparing Unit Testing Frameworks In C#&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.lambdatest.com/blog/nunit-vs-xunit-vs-mstest/"&gt;https://www.lambdatest.com/blog/nunit-vs-xunit-vs-mstest/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;NUnit と xUnit と MSTest の違いをまとめた記事。それぞれの属性が何に対応するかといったことなどもまとまっている。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://qiita.com/kojimadev/items/c451196fb703cbf99e86"&gt;C#のテストフレームワークを MSTest から xUnit に乗り換えたい時にその理由を同僚に説明できるようにする - Qiita&lt;/a&gt;&lt;/li&gt;
