@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2021-10-29: Hot Reload, Visual Studio 2022 RC3 &amp; Preview 7, GitHub Universe 2021 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2021/10/29/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2021-10-29: Hot Reload, Visual Studio 2022 RC3 &amp; Preview 7, GitHub Universe 2021 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2021/10/29/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2021-10-29: Hot Reload, Visual Studio 2022 RC3 &amp; Preview 7, GitHub Universe 2021
+          </h1>
+              <div class="meta">Published on Friday, 29 October 2021</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<p><a href="https://devblogs.microsoft.com/dotnet/net-hot-reload-support-via-cli/"><code>dotnet</code> コマンドから一度削除された Hot Reload が戻ってきました。</a></p>
+<p>削除に対するプロセスがあまり健全ではなく、コミュニティーからの大きな反発を受けて revert される形となりました。また Rider もホットリロードのサポートをアナウンスしています。</p>
+<ul>
+<li><a href="https://blog.jetbrains.com/dotnet/2021/10/25/hot-reload-for-net-6-in-rider-2021-3/">Hot Reload for .NET 6 in Rider 2021.3 | The .NET Tools Blog</a></li>
+</ul>
+<hr>
+<p><a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview#17.0.0-pre.7.0">Visual Studio 2022 の RC3 と Preview 7 がリリース</a>されています。RC2 / Preview 6 同様、更新内容は不具合の修正です。</p>
+<hr>
+<p><a href="https://www.githubuniverse.com/">GitHub Universe 2021</a> が10月27日、28日に開かれました。</p>
+<p>その中で新しい Issue のベータ公開やコマンドパレット機能、 Codespaces に関する CLI ツールの強化といった新機能がいくつか発表されています。</p>
+<ul>
+<li><a href="https://github.blog/2021-10-27-everything-new-from-universe-2021/">Everything new from Universe 2021 | The GitHub Blog</a></li>
+</ul>
+<hr>
+<p><a href="https://www.raspberrypi.com/news/new-raspberry-pi-zero-2-w-2/">Raspberry Pi Zero 2 W</a> が発表されました。</p>
+<p>Raspberry Pi Zero では SoC に BCM2835 (ARM11 コア, ARMv6 アーキテクチャー) が搭載されていましたが、Zero 2 では Raspberry Pi 3 と同じ BCM2710A1 (Cortex-A53 コア, ARMv8 アーキテクチャー) となっています。</p>
+<p>.NET Core や .NET 5 以降では ARM アーキテクチャーをサポートしていますが、サポートするアーキテクチャーの下限は ARMv7 となっており、ARMv6 の Raspberry Pi Zero では動作しませんでした。今回 ARMv8 アーキテクチャーとなることで .NET アプリケーションの動作が可能となることが期待できます。</p>
+<p>スイッチサイエンスによるとまだ工事設計認証が取得できていないので日本での販売は少し先になるようです。</p>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/issues/7764">Arm6 Raspberry PI Zero - PI 1 · Issue #7764 · dotnet/runtime</a></li>
+<li><a href="https://prtimes.jp/main/html/rd/p/000000060.000064534.html">Raspberry Pi財団が2021年10月28日に新製品「Raspberry Pi Zero 2 W」を発表、スイッチサイエンスウェブショップでも近く発売予定</a></li>
+</ul>
+<h2 id="section">トピックス</h2>
+<h3 id="net-hot-reload-support-via-cli">.NET Hot Reload Support via CLI</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/net-hot-reload-support-via-cli/">https://devblogs.microsoft.com/dotnet/net-hot-reload-support-via-cli/</a></p>
+<p>削除されたホットリロードを戻す Pull Request を取り込み、GA に含まれるアナウンス。</p>
+<p>記事では Visual Studio を優先したため削除したといった経緯などについても触れている。</p>
+<h3 id="whats-new-in-the-rider-2021.3-eap5">What’s new in the Rider 2021.3 EAP5</h3>
+<p><a href="https://twitter.com/jetbrainsrider/status/1451555367117275163">https://twitter.com/jetbrainsrider/status/1451555367117275163</a></p>
+<p>Rider 2021.3 EAP5 がリリースされた。</p>
+<p>.NET 6 のホットリロードサポートの追加、.NET 5/.NET Core 3.x の XAML プレビュー対応、NuGet のバインディングリダイレクト、Unity サポートの向上などが含まれる。</p>
+<p>.NET のホットリロードサポートは .NET 6 をターゲットとしたときに利用可能となる。ASP.NET Core であれば Razor テンプレート、それ以外のアプリケーション形式(コンソールアプリケーション、Windows Forms、WPF、WinUI 等)であっても機能するが、現状 C# のホットリロードにフォーカスしているため XAML のホットリロードは限定的となっている。</p>
+<p>その他、現状の制限事項として下記のものが挙げられている。</p>
+<ul>
+<li>ASP.NET Core アプリケーションの自動ページリロード機能がない</li>
+<li>デバッグ実行中のホットリロードは Windows に限定される</li>
+<li>F# と VB ではホットリロードがサポートされない</li>
+</ul>
+<p>その他、.NET 5 と .NET Core 3.x の XAML プレビューに対応 (.NET 6 の対応は含まれない)、.NET Framework アプリケーションのプロジェクトで NuGet のバインディングリダイレクトを自動生成処理の追加、フォーマットとクリーンアップで複数のファイルやディレクトリを対象にできるようになった、Unity 向けの対応として .asmdef の条件付きシンボルの対応や Apple Silicon の Mac でファイルを Unity から開けない不具合の修正など。</p>
+<ul>
+<li><a href="https://blog.jetbrains.com/dotnet/2021/10/25/hot-reload-for-net-6-in-rider-2021-3/">Hot Reload for .NET 6 in Rider 2021.3 | The .NET Tools Blog</a></li>
+<li><a href="https://www.jetbrains.com/rider/nextversion/">Early Access Program - Rider: Cross-platform .NET IDE</a></li>
+</ul>
+<h3 id="resharper-2021.3-eap5-is-here">ReSharper 2021.3 EAP5 is here!</h3>
+<p><a href="https://twitter.com/resharper/status/1451551846280138754">https://twitter.com/resharper/status/1451551846280138754</a></p>
+<p>ReSharper 2021.3 EAP5 がリリースされた。</p>
+<p>メンバー実装のガターマークの最適化が行われデフォルトで有効化、dotPeek においてレコード型とレコード構造体に対応、dotTrace、dotCover、dotMemory のコマンドラインツールが Apple Silicon のネイティブビルドで提供されるようになったなど。</p>
+<ul>
+<li><a href="https://www.jetbrains.com/resharper/nextversion/#section=windows">Early Access Program (EAP) - ReSharper</a></li>
+</ul>
+<!-- https://twitter.com/resharper/status/1451551846280138754?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">ReSharper 2021.3 EAP5 is here! <br>📈 Optimized gutter marks for member implementation<br>🆙 Support for records and record structs in dotPeek<br>🍏 Command Line Tools for dotTrace, dotCover, and dotMemory support Apple silicon <a href="https://t.co/PeC86UzarO">https://t.co/PeC86UzarO</a> <a href="https://t.co/hzXkbbV0xx">pic.twitter.com/hzXkbbV0xx</a></p>&mdash; JetBrains ReSharper (&#64;resharper) <a href="https://twitter.com/resharper/status/1451551846280138754?ref_src=twsrc%5Etfw">October 22, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="visual-studio-2022-version-17.0-rc3-and-preview-7">Visual Studio 2022 version 17.0 RC3 and Preview 7</h3>
+<p><a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview#17.0.0-pre.7.0">https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview#17.0.0-pre.7.0</a></p>
+<p>Visual Studio 2022 version 17.0 RC3 と Preview 7 がリリースされた。</p>
+<p>Windows Forms のデザイナーの修正や Xamarin.Forms のテンプレートの更新、ホットリロードをはじめとする不具合の修正を含む。</p>
+<h3 id="everything-new-from-universe-2021-the-github-blog">Everything new from Universe 2021 | The GitHub Blog</h3>
+<p><a href="https://github.blog/2021-10-27-everything-new-from-universe-2021/">https://github.blog/2021-10-27-everything-new-from-universe-2021/</a></p>
+<p>GitHub Universe 2021 が10月27日、28日に開かれ、GitHub に関するアナウンスがあった。</p>
+<ul>
+<li><a href="https://github.blog/changelog/2021-10-27-the-new-github-issues-public-beta/">新しい Issue (Project) が公開ベータへ</a></li>
+<li>GitHub Discussion の改善
+<ul>
+<li>ラベルが追加</li>
+<li>GitHub Actions との連携</li>
+<li>将来的な機能として Poll (投票) と Community insight ダッシュボードの提供を予定</li>
+</ul>
+</li>
+<li>GitHub Actions の強化
+<ul>
+<li><a href="https://github.blog/changelog/2021-10-27-github-actions-secure-cloud-deployments-with-openid-connect/">GitHub Actions: Secure cloud deployments with OpenID Connect</a></li>
+</ul>
+</li>
+<li><a href="https://github.blog/changelog/2021-10-27-command-palette-beta/">コマンドパレット</a>
+<ul>
+<li>Ctrl-K/Cmd-K で呼び出せる Visual Studio Code などにあるものと似たツール</li>
+</ul>
+</li>
+<li><a href="https://github.blog/changelog/2021-10-27-pull-request-merge-queue-limited-beta/">Pull request merge queue の Limited Beta</a></li>
+<li><a href="https://github.blog/changelog/2021-10-27-new-codespaces-features-launching-at-universe-2021/">GitHub Codespaces の強化</a>
+<ul>
+<li><a href="https://docs.github.com/en/codespaces/customizing-your-codespace/configuring-codespaces-for-your-project#adding-additional-features-to-your-devcontainerjson-file">devcontainer feature</a>
+<ul>
+<li>定義済みの devcontainer にツールなどを簡単に追加できる仕組み</li>
+</ul>
+</li>
+<li>GitHub CLI による Codespaces の作成や SSH での接続、ポートフォワーディングなど</li>
+</ul>
+</li>
+</ul>
+<!-- https://twitter.com/github/status/1453389061478043652?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">You can now use the cmd-k / ctrl-k keyboard shortcut to navigate around GitHub without taking your hands off the keyboard. <a href="https://t.co/H31sg6BdRl">https://t.co/H31sg6BdRl</a> <a href="https://t.co/TbCjGcZt6T">pic.twitter.com/TbCjGcZt6T</a></p>&mdash; GitHub (&#64;github) <a href="https://twitter.com/github/status/1453389061478043652?ref_src=twsrc%5Etfw">October 27, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- https://twitter.com/corywilkerson/status/1453385231264714756?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🚢<a href="https://twitter.com/github?ref_src=twsrc%5Etfw">&#64;github</a> Codespaces + cli. Codespaces from your home in the terminal. ssh and make something great! <a href="https://t.co/Wa2zGC7Cpr">pic.twitter.com/Wa2zGC7Cpr</a></p>&mdash; Cory Wilkerson (&#64;corywilkerson) <a href="https://twitter.com/corywilkerson/status/1453385231264714756?ref_src=twsrc%5Etfw">October 27, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- https://twitter.com/github/status/1453386345766957064?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The new Issues public beta is available to everyone, no sign up required. Learn more at <a href="https://t.co/H31sg6BdRl">https://t.co/H31sg6BdRl</a> <a href="https://t.co/swOMyNBuRN">pic.twitter.com/swOMyNBuRN</a></p>&mdash; GitHub (&#64;github) <a href="https://twitter.com/github/status/1453386345766957064?ref_src=twsrc%5Etfw">October 27, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="windows-terminal-preview-1.12-release">Windows Terminal Preview 1.12 Release</h3>
+<p><a href="https://devblogs.microsoft.com/commandline/windows-terminal-preview-1-12-release/">https://devblogs.microsoft.com/commandline/windows-terminal-preview-1-12-release/</a></p>
+<p>Windows Terminal Preview 1.12 がリリースされた。</p>
+<p>様々なアプリケーションから起動されるデフォルトターミナルの設定を Windows Terminal に変更できるようになった。Windows Insider Program Dev Channel または Windows 11 で利用可能。</p>
+<p>対象となる実行ファイルなどによってプロファイルがあった形での起動が可能となった。例えばスタートから起動されるコマンドプロンプトと PowerShell で開かれるプロファイルがそれぞれ異なるといったケースに対応できる。</p>
+<p>前回のウィンドウ状態(ペインとタブ)を復元する機能が追加、ウィンドウのターミナル部分の完全な透過の対応や細かい改善や修正など。</p>
+<h3 id="new-product-raspberry-pi-zero-2-w-on-sale-now-at-15-raspberry-pi">New product: Raspberry Pi Zero 2 W on sale now at $15 - Raspberry Pi</h3>
+<p><a href="https://www.raspberrypi.com/news/new-raspberry-pi-zero-2-w-2/">https://www.raspberrypi.com/news/new-raspberry-pi-zero-2-w-2/</a></p>
+<p>Raspberry Pi Zero 2 W が発表された。</p>
+<p>Raspberry Pi Zero と同じフォームファクターで SoC が Raspberry Pi 3 と同じ BCM2710A1 (Cortex-A53 コア, ARMv8 アーキテクチャー) にアップグレード。スイッチサイエンスでの発売は工事設計認証を取得次第とのこと。</p>
+<ul>
+<li><a href="https://prtimes.jp/main/html/rd/p/000000060.000064534.html">Raspberry Pi財団が2021年10月28日に新製品「Raspberry Pi Zero 2 W」を発表、スイッチサイエンスウェブショップでも近く発売予定</a></li>
+<li><a href="https://www.switch-science.com/catalog/7600/">Raspberry Pi Zero 2 W【発売予定】 - スイッチサイエンス</a></li>
+<li><a href="https://www.raspi.jp/2021/10/raspberry-pi-zero-2-w-report/">Raspberry Pi Zero 2 Wを見て触ってレポート</a></li>
+</ul>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="webassembrysilverlightopensilver-qiita">WebAssembry上で動くSilverlight、OpenSilverで何が出来るのか - Qiita</h3>
+<p><a href="https://qiita.com/karuakun/items/b1c6a1b08a62b9e8d588">https://qiita.com/karuakun/items/b1c6a1b08a62b9e8d588</a></p>
+<p>WebAssembly で動作する Silverlight 互換実装の OpenSilver のインストールや簡単な使用感についての記事。</p>
+<h3 id="proxy-any-class-by-interface-in-c-with-dispatchproxy">Proxy any class by interface in C# with DispatchProxy</h3>
+<p><a href="https://dev.to/nullabletype/proxy-any-class-by-interface-in-c-with-dispatchproxy-2i6a">https://dev.to/nullabletype/proxy-any-class-by-interface-in-c-with-dispatchproxy-2i6a</a></p>
+<p><code>System.Reflection.DispatchProxy</code> の簡単な使い方の解説記事。</p>
+<p><code>DispatchProxy</code> クラスを継承することでインターフェースのメソッド実行に対するプロキシーを簡単に実装することができる。記事ではその際のパフォーマンスへの影響などについても触れている。</p>
+<h3 id="exploring-c-10-global-using-declarations">Exploring C# 10: Global Using Declarations</h3>
+<p><a href="https://dev.to/daveabrock/exploring-c-10-global-using-declarations-lab">https://dev.to/daveabrock/exploring-c-10-global-using-declarations-lab</a></p>
+<p>C# 10 で導入される Global Usings についての記事。</p>
+<p>通常の C# ソースコードに記述する <code>global using</code> のほか <code>static</code> やエイリアスの指定、.csproj の <code>&lt;ItemGroup&gt;</code> を使用した定義についてなど。</p>
+<h3 id="analyzers-for-asp.net-core-in.net-6-exploring.net-core-6-part-7">Analyzers for ASP.NET Core in .NET 6: Exploring .NET Core 6 - Part 7</h3>
+<p><a href="https://andrewlock.net/exploring-dotnet-6-part-7-analyzers-for-minimal-apis/">https://andrewlock.net/exploring-dotnet-6-part-7-analyzers-for-minimal-apis/</a></p>
+<h3 id="c-valuetuple">C#: 匿名型とValueTupleではシリアライズ結果が違う</h3>
+<p><a href="https://zenn.dev/shimat/articles/c5248dda90270e">https://zenn.dev/shimat/articles/c5248dda90270e</a></p>
+<p>匿名型と名前付き ValueTuple を各種シリアライザー (MessagePack, JSON.NET, System.Text.Json) に通した際の結果の違いについての記事。</p>
+<p>名前付き ValueTuple の名前は属性で付加されるだけの要素のため、大抵の場合出力にはキーとして含まれない。</p>
+<h3 id="nunit-vs.xunit-vs.mstest-comparing-unit-testing-frameworks-in-c">NUnit vs. XUnit vs. MSTest: Comparing Unit Testing Frameworks In C#</h3>
+<p>NUnit と xUnit と MSTest の違いをまとめた記事。それぞれの属性が何に対応するかといったことなどもまとまっている。</p>
+<ul>
+<li><a href="https://qiita.com/kojimadev/items/c451196fb703cbf99e86">C#のテストフレームワークを MSTest から xUnit に乗り換えたい時にその理由を同僚に説明できるようにする - Qiita</a></li>
+</ul>
+<h3 id="csimd-qiita">C#で小さい複素数の積を大量に計算したかったのでSIMD実装とか試してみた - Qiita</h3>
+<p><a href="https://qiita.com/amutou/items/9031667f21f77a95df1e">https://qiita.com/amutou/items/9031667f21f77a95df1e</a></p>
+<p>SDR (ソフトウェア無線) のデータ処理のために SIMD を使用してみたという記事。</p>
+<ul>
+<li><a href="https://qiita.com/amutou/items/2cd69df4f4d140fabfc7">C#のSIMDでカスケード積分コムフィルタ - Qiita</a></li>
+<li><a href="https://qiita.com/amutou/items/4f618495bcff5c07cc32">C#のSIMDでFIRフィルタ - Qiita</a></li>
+</ul>
+<h3 id="file-scoped-namespaces-a-look-at-new-language-features-in-c-10-the.net-tools-blog">File-Scoped Namespaces – A Look at New Language Features in C# 10 | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2021/10/28/file-scoped-namespaces-in-csharp-10/">https://blog.jetbrains.com/dotnet/2021/10/28/file-scoped-namespaces-in-csharp-10/</a></p>
+<p>C# 10 で導入されるファイルスコープ名前空間について、ReSharper と Rider の対応も含めて解説している記事。</p>
+<p>ReSharper と Rider では Code Styles として設定しチームで共有可能で、変換も Quick Fix から可能となる。テンプレートに関してもコードスタイルに合わせて自動的に変換するといったことも。</p>
+<h3 id="encryptdecrypt-data-with.net-6-and-azure-key-vault">Encrypt/decrypt data with .NET 6 and Azure Key Vault</h3>
+<p><a href="https://dev.to/425show/encryptdecrypt-data-with-net-6-and-azure-key-vault-oak">https://dev.to/425show/encryptdecrypt-data-with-net-6-and-azure-key-vault-oak</a></p>
+<p>Azure Key Vault を使用してデータを暗号化、復号処理を行う方法についての記事。</p>
+<h3 id="improving-your-asp.net-core-sites-file-handling-capabilities-part-1-introduction-imar.spaanjaars.com">Improving your ASP.NET Core site's file handling capabilities – part 1 – Introduction - imar.spaanjaars.com</h3>
+<p><a href="https://imar.spaanjaars.com/626/improving-your-aspnet-core-sites-file-handling-capabilities-part-1-introduction">https://imar.spaanjaars.com/626/improving-your-aspnet-core-sites-file-handling-capabilities-part-1-introduction</a></p>
+<p>ASP.NET Core で Web アプリケーションのファイルデータを扱う手段として <code>File</code> クラスなどを直接使用するのではなくファイルアクセスを抽象化した <code>IFileProvider</code> インターフェースを使用する方法についての記事。</p>
+<p>Azure Storage Blob を使用した <code>IFileProvider</code> の実装についても触れている。</p>
+<ul>
+<li><a href="https://docs.microsoft.com/ja-jp/aspnet/core/fundamentals/file-providers?view=aspnetcore-5.0">ASP.NET Core でのファイル プロバイダー | Microsoft Docs</a></li>
+</ul>
+<h3 id="bite-size.net-6-priorityqueuet-n">Bite-Size .NET 6 - PriorityQueue&lt;T, N&gt;</h3>
+<p><a href="https://exceptionnotfound.net/bite-size-dotnet-6-priorityqueue/">https://exceptionnotfound.net/bite-size-dotnet-6-priorityqueue/</a></p>
+<p>.NET 6 で導入される <code>PriorityQueue&lt;TElement, TPriority&gt;</code> クラスについての解説記事。</p>
+<ul>
+<li><a href="https://docs.microsoft.com/ja-jp/dotnet/api/system.collections.generic.priorityqueue-2?view=net-6.0">PriorityQueue&lt;TElement,TPriority&gt; クラス (System.Collections.Generic) | Microsoft Docs</a></li>
+</ul>
+<h3 id="testing-grpc-with-grpcui-docker-and-swagger">Testing gRPC with gRPCui Docker and Swagger</h3>
+<p><a href="https://medium.com/&#64;niteshsinghal85/testing-grpc-with-grpcui-docker-and-swagger-9cfc9531512">https://medium.com/&#64;niteshsinghal85/testing-grpc-with-grpcui-docker-and-swagger-9cfc9531512</a></p>
+<p>ASP.NET Core gRPC アプリケーションのデバッグやテストを行うために gRPC UI を Docker で使用する方法についての記事。</p>
+<ul>
+<li><a href="https://github.com/fullstorydev/grpcui">fullstorydev/grpcui: An interactive web UI for gRPC, along the lines of postman</a></li>
+<li><a href="https://docs.microsoft.com/en-us/aspnet/core/grpc/httpapi?view=aspnetcore-5.0">Create JSON Web APIs from gRPC | Microsoft Docs</a></li>
+</ul>
+<h3 id="x-lessons-learned-from-migrating-a-large-legacy-to.net-56-ndepend">5x Lessons Learned from Migrating a Large Legacy to .NET 5/6 - NDepend</h3>
+<p><a href="https://blog.ndepend.com/5x-lessons-learned-from-migrating-a-large-legacy-to-net-5-6">https://blog.ndepend.com/5x-lessons-learned-from-migrating-a-large-legacy-to-net-5-6</a></p>
+<p>大きい .NET Framework プロジェクト (NDepend) を .NET 5/6 に移行する際の5つの学びについての記事。</p>
+<p>NDepend の UI に依存しないコードを .NET Framework から .NET 5 へと移行したことで解析やレポーティング、といったツールが macOS や Linux で動作できるようになった。その中で得られた教訓を紹介している。</p>
+<p>.NET Framework との共存には .NET Standard を選択すること、API の非互換といったペインポイント、ツールを使用して移行の助けをすること、コードの保守性を担保すること、3rd パーティーのライブラリはモジュール化され軽量でオープンソースであるべきといったことをあげている。</p>
+<h3 id="github-actionsxamarin-androidrelease-qiita">GitHub ActionsでXamarin AndroidをReleaseビルド (ストア提出用) - Qiita</h3>
+<p><a href="https://qiita.com/kurema/items/becaf36dda27351e88cc">https://qiita.com/kurema/items/becaf36dda27351e88cc</a></p>
+<p>GitHub Actions で Xamarin Android のアプリケーションを Release ビルドし、ストア提出可能なパッケージを作る方法についての記事。</p>
+<h3 id="unity-2020-lts-unity-blog">最適化の最前線から：Unity 2020 LTS でのマネージコードストリッピングの強化 | Unity Blog</h3>
+<p><a href="https://blog.unity.com/ja/technology/tales-from-the-optimization-trenches-better-managed-code-stripping-with-unity-2020-lts">https://blog.unity.com/ja/technology/tales-from-the-optimization-trenches-better-managed-code-stripping-with-unity-2020-lts</a></p>
+<p>Unity でのアプリケーションビルドで使用されるマネージドコードのストリッピングを行う Unity リンカーについての記事。</p>
+<p>Unity リンカーによって何が行われるのか、Unity 2020 LTS 以降で導入されたストリッピングの挙動をカスタマイズする属性などについて説明している。</p>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="aarnottxunit.combinatorial-adds-combinatorial-and-pairwise-testing-capability-to-xunit-tests">AArnott/Xunit.Combinatorial: Adds combinatorial and pairwise testing capability to Xunit tests</h3>
+<p><a href="https://github.com/AArnott/Xunit.Combinatorial">https://github.com/AArnott/Xunit.Combinatorial</a></p>
+<p>xUnit のテストのパラメータ値に組み合わせを渡せるようにする拡張ライブラリ。</p>
+<p>例えば下記のような <code>bool</code> を引数にとるテストであれば自動で <code>true</code> / <code>false</code> の組み合わせを渡してテストできる。</p>
+<pre><code class="language-csharp">[Theory, CombinatorialData]
+public void CheckFileSystem(bool recursive) { /* ... */ }
+</code></pre>
+<p>他にも複数指定した組み合わせをテストできる。</p>
+<pre><code class="language-csharp">[Theory, CombinatorialData]
+public void CheckValidAge(
+    [CombinatorialValues(5, 18, 21, 25)] int age,
+    bool friendlyOfficer)
+{
+    // This will run with all combinations:
+    // 5  true
+    // 18 true
+    // 21 true
+    // 25 true
+    // 5  false
+    // 18 false
+    // 21 false
+    // 25 false
+}
+</code></pre>
+<h2 id="section-3">サイト、ドキュメントなど</h2>
+<h3 id="net">プリミティブ: .NET 用拡張機能ライブラリ</h3>
+<p><a href="https://docs.microsoft.com/ja-jp/dotnet/core/extensions/primitives">https://docs.microsoft.com/ja-jp/dotnet/core/extensions/primitives</a></p>
+<p><code>Microsoft.Extensions.Primitives</code> についての説明ドキュメント。</p>
+<p><code>CancellationToken</code> を使用して変更通知を受け取れる <code>CancellationChangeToken</code> や <code>StringSegment</code>, <code>StringTokenizer</code>, <code>StringValues</code> といった文字列を扱うクラスなどについて触れている。</p>
+<h3 id="your-code-displays-japanese-wrong">Your code displays Japanese wrong</h3>
+<p><a href="https://heistak.github.io/your-code-displays-japanese-wrong/">https://heistak.github.io/your-code-displays-japanese-wrong/</a></p>
+<p>アプリケーションで日本語を表示したとき、期待されるグリフとは別なものが表示されるいわゆる中華フォント状態となってしまう場合にどうしてそうなるのか、どうすれば解決するのかを非 CJK の開発者に伝えるためのドキュメント。</p>
+<h3 id="section-4">ツイート</h3>
+<!-- https://twitter.com/nick_craver/status/1453345409984831492?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In case anyone else was wondering this: an empty finally clause is not removed when all conditional contents are removed. It has no practical impact either, though. <a href="https://t.co/EgSwGVPNDA">pic.twitter.com/EgSwGVPNDA</a></p>&mdash; Nick Craver (&#64;Nick_Craver) <a href="https://twitter.com/Nick_Craver/status/1453345409984831492?ref_src=twsrc%5Etfw">October 27, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p><code>finally</code> 句の中が <code>Conditional</code> ですべてなくなったとしてもコンパイル結果には <code>finally</code> 自体は残っているという話。</p>
+<!-- https://twitter.com/konradkokosa/status/1453719238426824716?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Did you know that .NET 6 contains now ISpanFormattable interface, implemented by many built in types, to TryFormat value into Span? 😍 <a href="https://t.co/hoS7sbsIZ2">pic.twitter.com/hoS7sbsIZ2</a></p>&mdash; Konrad Kokosa (&#64;konradkokosa) <a href="https://twitter.com/konradkokosa/status/1453719238426824716?ref_src=twsrc%5Etfw">October 28, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>.NET 6 から <code>ISpanFormattable</code> が使えるようになったので <code>TryFormat</code> で <code>Span&lt;Char&gt;</code> に書き込めるものが増えたという話。</p>
+<ul>
+<li><a href="https://docs.microsoft.com/ja-jp/dotnet/api/system.ispanformattable?view=net-6.0">ISpanFormattable インターフェイス (System) | Microsoft Docs</a></li>
+</ul>
+<!-- https://twitter.com/trapezoid/status/1453685023077404673?s=12 -->
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">いつの間にかBurstが(エントリポイントの引数には使えない制限付きだけど)Span対応していた <a href="https://t.co/PspKs1Xspl">https://t.co/PspKs1Xspl</a></p>&mdash; Haruto Otake (&#64;Trapezoid) <a href="https://twitter.com/Trapezoid/status/1453685023077404673?ref_src=twsrc%5Etfw">October 28, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Unity の Burst コンパイラーの 1.6.1 から <code>Span&lt;T&gt;</code> / <code>ReadOnlySpan&lt;T&gt;</code> が関数ポインターや Job の中のみという制限があるもののサポートされた話。</p>
+<ul>
+<li><a href="https://docs.unity3d.com/Packages/com.unity.burst&#64;1.6/manual/docs/CSharpLanguageSupport_Types.html#span-types">Span types | C#/.NET Language Support | Burst | 1.6.1</a></li>
+<li><a href="https://docs.unity3d.com/Packages/com.unity.burst&#64;1.6/changelog/CHANGELOG.html#161---2021-10-12">Changelog | Burst | 1.6.1</a></li>
+</ul>
+<!-- https://twitter.com/ufcpp/status/1452911700219351044?s=12 -->
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://t.co/gjHpiGEvsr">https://t.co/gjHpiGEvsr</a><br>UnityでのNuGetパッケージでの「dllのバージョン違うから読めない」問題、一応bindingRedirectできるらしいという話をやっと見つけたけどこのページのページランク低すぎて見つけるの苦労した…</p>&mdash; ++C++; // 管理人: 岩永 (&#64;ufcpp) <a href="https://twitter.com/ufcpp/status/1452911700219351044?ref_src=twsrc%5Etfw">October 26, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Unity で csc.rsp に <code>-appconfig:app.config</code> の形で設定を記述することで bindingRedirect できるというテクニック。</p>
+<ul>
+<li><a href="https://forum.unity.com/threads/dependency-on-newtonsoft-json.814128/">Dependency On Newtonsoft.Json</a></li>
+</ul>
+<h2 id="deep-dive">Deep Dive</h2>
+<h3 id="api-implementation-add-indexer-to-vectors-by-deeprobin-pull-request-60517-dotnetruntime">API Implementation: Add Indexer to Vectors by deeprobin · Pull Request #60517 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/60517">https://github.com/dotnet/runtime/pull/60517</a></p>
+<p>Vector 系の構造体にインデックスアクセスを可能にする PR。.NET 7 に含まれる予定。</p>
+<h3 id="super-draft-new-api-for-invoking-js-functions-from-c-by-kg-pull-request-60765-dotnetruntime">[SUPER DRAFT] New API for invoking JS functions from C# by kg · Pull Request #60765 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/60765">https://github.com/dotnet/runtime/pull/60765</a></p>
+<p>WebAssembly 向けに icall を実装することで C# から JavaScript の関数を呼び出したりするオーバーヘッドを小さくするという PR。</p>
+<h3 id="add-objectdisposedexception.throw-for-object-instance-and-type-by-bibletoon-pull-request-58684-dotnetruntime">Add ObjectDisposedException.Throw for object instance and type by Bibletoon · Pull Request #58684 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/58684">https://github.com/dotnet/runtime/pull/58684</a></p>
+<p><code>ObjectDisposedException</code> を簡単にスローするためのヘルパーメソッド <code>ThrowIf</code> の追加 PR。.NET 7 に含まれる予定。</p>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/issues/51700">Add new ObjectDisposedException constructor overload · Issue #51700 · dotnet/runtime</a></li>
+</ul>
+<h3 id="resolve-differences-between-string.indexofany-and-memoryextensions.indexofany-issue-60864-dotnetruntime">Resolve differences between string.IndexOfAny and MemoryExtensions.IndexOfAny · Issue #60864 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/issues/60864">https://github.com/dotnet/runtime/issues/60864</a></p>
+<p><code>string.IndexOfAny</code> は <code>anyOf</code> 引数の値が5つ以下の時は <code>MemoryExtensions.IndexOfAny</code> をそのまま呼び出し、6つ以上の時は Probabilistic Map を使用しているが、挙動をそろえてそのまま <code>MemoryExtensions</code>に 移譲するのでいいのではないかという Issue。</p>
+<h3 id="improve-vectorization-of-memoryextensions.indexof.span-issue-60866-dotnetruntime">Improve vectorization of MemoryExtensions.IndexOf(..., span) · Issue #60866 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/issues/60866">https://github.com/dotnet/runtime/issues/60866</a></p>
+<p><code>MemoryExtensions.IndexOf</code> はベクトル化できる余地があるのではないかという Issue。</p>
+<h3 id="utf8-string-literal-proposal-by-jaredpar-pull-request-5349-dotnetcsharplang">Utf8 string literal proposal by jaredpar · Pull Request #5349 · dotnet/csharplang</h3>
+<p><a href="https://github.com/dotnet/csharplang/pull/5349">https://github.com/dotnet/csharplang/pull/5349</a></p>
+<p>UTF-8 文字列リテラルの初期プロポーザルのPR。</p>
+<ul>
+<li><a href="https://github.com/dotnet/csharplang/blob/main/proposals/utf8-string-literals.md">csharplang/utf8-string-literals.md at main · dotnet/csharplang</a></li>
+</ul>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
