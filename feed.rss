@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Fri, 19 Nov 2021 10:01:14 GMT</pubDate>
-		<lastBuildDate>Fri, 19 Nov 2021 10:01:14 GMT</lastBuildDate>
+		<pubDate>Fri, 19 Nov 2021 17:24:27 GMT</pubDate>
+		<lastBuildDate>Fri, 19 Nov 2021 17:24:27 GMT</lastBuildDate>
 		<item>
 			<title>2021-11-19: Windows App SDK 1.0, Azure Active Directory's gateway is on .NET 6.0</title>
 			<link>/2021/11/19/updates</link>
@@ -202,7 +202,7 @@
 &lt;p&gt;.NET のライブラリ部分に関しては Xamarin のビルド関する不具合の修正や特定のケースでメタデータが破損する問題の修正など。&lt;/p&gt;
 &lt;h3 id="calendar-for.net-6-ga.net-6-tips-pr-advent-calendar-2021-qiita"&gt;Calendar for 祝 .NET 6 GA！.NET 6 での開発 Tips や試してみたことなど、あなたの「いち推し」ポイントを教えてください【PR】日本マイクロソフト | Advent Calendar 2021 - Qiita&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://qiita.com/advent-calendar/2021/microsoft"&gt;https://qiita.com/advent-calendar/2021/microsoft&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;日本マイクロソフトがスポンサーとなっている .NET 6 をメインにした Advent Calendar。&lt;/p&gt;
+&lt;p&gt;日本マイクロソフトがサポートしている .NET 6 をメインにした Advent Calendar。&lt;/p&gt;
 &lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
 &lt;h3 id="new-dependency-injection-features-in.net-6-exploring.net-core-6-part-10"&gt;New dependency injection features in .NET 6: Exploring .NET Core 6 - Part 10&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://andrewlock.net/exploring-dotnet-6-part-10-new-dependency-injection-features-in-dotnet-6/"&gt;https://andrewlock.net/exploring-dotnet-6-part-10-new-dependency-injection-features-in-dotnet-6/&lt;/a&gt;&lt;/p&gt;
