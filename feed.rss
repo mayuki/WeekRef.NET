@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Fri, 19 Nov 2021 17:24:27 GMT</pubDate>
-		<lastBuildDate>Fri, 19 Nov 2021 17:24:27 GMT</lastBuildDate>
+		<pubDate>Mon, 22 Nov 2021 08:44:54 GMT</pubDate>
+		<lastBuildDate>Mon, 22 Nov 2021 08:44:54 GMT</lastBuildDate>
 		<item>
 			<title>2021-11-19: Windows App SDK 1.0, Azure Active Directory's gateway is on .NET 6.0</title>
 			<link>/2021/11/19/updates</link>
@@ -1557,7 +1557,7 @@ public void CheckValidAge(
 &lt;p&gt;Hackathon で実装されたスタック上に &lt;code&gt;T&lt;/code&gt; の &lt;code&gt;Span&amp;lt;T&amp;gt;&lt;/code&gt; を作れる &lt;code&gt;Unsafe.StackAlloc&amp;lt;T&amp;gt;&lt;/code&gt; のサンプル利用例の PR。&lt;/p&gt;
 &lt;p&gt;この PR で見られるように現在の dotnet/runtime では &lt;code&gt;Span&amp;lt;参照型&amp;gt;&lt;/code&gt; をスタック上に作成するために次のようなテクニックを使っている。&lt;/p&gt;
 &lt;pre&gt;&lt;code class="language-csharp"&gt;ThreeMyClasses tmp = default;
-Span&amp;lt;MyClass&amp;gt; threeMyClasses = MemoryMarshal.CreateSpan(ref Unsafe.As(ref tmp._value1), 3);
+Span&amp;lt;MyClass&amp;gt; threeMyClasses = MemoryMarshal.CreateSpan(ref tmp._value1, 3);
 
 ref struct ThreeMyClasses
 {

@@ -325,7 +325,7 @@
 <p>Hackathon で実装されたスタック上に <code>T</code> の <code>Span&lt;T&gt;</code> を作れる <code>Unsafe.StackAlloc&lt;T&gt;</code> のサンプル利用例の PR。</p>
 <p>この PR で見られるように現在の dotnet/runtime では <code>Span&lt;参照型&gt;</code> をスタック上に作成するために次のようなテクニックを使っている。</p>
 <pre><code class="language-csharp">ThreeMyClasses tmp = default;
-Span&lt;MyClass&gt; threeMyClasses = MemoryMarshal.CreateSpan(ref Unsafe.As(ref tmp._value1), 3);
+Span&lt;MyClass&gt; threeMyClasses = MemoryMarshal.CreateSpan(ref tmp._value1, 3);
 
 ref struct ThreeMyClasses
 {
