@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2021-12-03: Visual Studio 2022 v17.0.2, Cake v2.0.0, Uno Platform 4.0 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2021/12/03/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2021-12-03: Visual Studio 2022 v17.0.2, Cake v2.0.0, Uno Platform 4.0 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2021/12/03/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2021-12-03: Visual Studio 2022 v17.0.2, Cake v2.0.0, Uno Platform 4.0
+          </h1>
+              <div class="meta">Published on Friday, 03 December 2021</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<p>今年も Advent Calendar の時期がやってきました。Qiita の Advent Calendar には .NET 関連ではいくつか作られています。</p>
+<ul>
+<li><a href="https://qiita.com/advent-calendar/2021/csharplang">C#</a></li>
+<li><a href="https://qiita.com/advent-calendar/2021/fsharp">F#</a></li>
+<li><a href="https://qiita.com/advent-calendar/2021/unity">Unity</a></li>
+<li><a href="https://qiita.com/advent-calendar/2021/blazor">Blazor</a></li>
+<li><a href="https://qiita.com/advent-calendar/2021/xamarin">Xamarin / MAUI</a></li>
+</ul>
+<p><a href="https://qiita.com/advent-calendar/2021/microsoft">日本マイクロソフトのサポートする Advent Calendar</a>もあり今年は .NET 6 がメインテーマです。どちらもまだ若干数枠があるようですので興味のある方は参加してみるとよさそうです。</p>
+<h2 id="section">トピックス</h2>
+<h3 id="visual-studio-2022-version-17.0.2">Visual Studio 2022 version 17.0.2</h3>
+<p><a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes#17.0.2.0">https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes#17.0.2.0</a></p>
+<p>Visual Studio 2022 version 17.0.2 がリリースされた。</p>
+<p>機能的な変更としては Python ワークロードが脆弱性対応のために 3.7.8 が削除され 3.9.7 となった。その他 Blazor/Razor の IntelliSense に関する問題などを含むバグ修正が行われた。</p>
+<h3 id="cake-cake-v2.0.0-released">Cake - Cake v2.0.0 released</h3>
+<p><a href="https://cakebuild.net/blog/2021/11/cake-v2.0.0-released">https://cakebuild.net/blog/2021/11/cake-v2.0.0-released</a></p>
+<p>Cake 2.0.0 がリリースされた。</p>
+<p>主な変更点は下記の通りとなっている。</p>
+<ul>
+<li>C# 10 と .NET 6 の対応</li>
+<li><code>dotnet</code> エイリアスへの対応の改善</li>
+<li>GitHub Actions と Azure Pipelines の統合の改善</li>
+<li>.NET Framework と .NET Core の Cake runner の削除</li>
+<li>ターゲットフレームワークの更新</li>
+<li>Docker イメージの更新</li>
+</ul>
+<p>Cake 2.0 から .NET Framework と .NET Core 1.x, 2.x, 3.0 のサポートが削除され、.NET Core 3.1 以上が必要となっているとのこと。</p>
+<ul>
+<li><a href="https://cakebuild.net/blog/2021/10/sunsetting-runners">Cake - Sunsetting of .NET Framework and .NET Core runners in Cake 2.0</a></li>
+</ul>
+<h3 id="announcing-uno-platform-4-0.four-major-components-added">Announcing Uno Platform 4-0. Four major components added.</h3>
+<p><a href="https://platform.uno/blog/announcing-uno-platform-4-0-four-major-components-added/">https://platform.uno/blog/announcing-uno-platform-4-0-four-major-components-added/</a></p>
+<p>Uno Platform 4.0 がアナウンスされた。</p>
+<p>Uno Platform 4.0 では新たに Visual Studio Code 統合、Figma 統合、Uno Platform Extensions、Uno Toolkit (UI Toolkit) の4つのプラットフォーム要素が追加となる。</p>
+<p>Visual Studio Code 統合は Visual Studio Code と GitHub Codespaces や GitPod での開発を可能とする拡張(プレビュー)。Windows, Linux, macOS を開発環境としてサポートし、XAML のコード補完やプレビューやホットリロードといった開発支援も提供する。</p>
+<p>Uno Platform Extensions は Microsoft Extensions (ロギング、ホスティング等) をベースとした形で Uno Platform の共通基盤を提供する。</p>
+<p>Figma 統合は Figma でデザインしたものを XAML としてエクスポートするための Figma プラグイン。</p>
+<p>Uno Toolkit は WinUI では標準で備わっていないようなコンポーネントを提供する。これには NavigationBar や TabBar といったものが含まれる。</p>
+<p>記事ではその他 Breaking Changes、Surface Duo や Android Foldable、Windows Community Toolkit for WinUI についても触れている。</p>
+<ul>
+<li><a href="https://github.com/unoplatform/uno/releases/tag/4.0.7">Release 4.0.7 · unoplatform/uno</a></li>
+</ul>
+<h3 id="release-2.1.0-mysql-netmysqlconnector">Release 2.1.0 · mysql-net/MySqlConnector</h3>
+<p><a href="https://github.com/mysql-net/MySqlConnector/releases/tag/2.1.0">https://github.com/mysql-net/MySqlConnector/releases/tag/2.1.0</a></p>
+<p>Async MySQLConnector 2.1.0 がリリースされた。</p>
+<p>このバージョンではプールからのコネクションを開く際のパフォーマンスが2倍になったとのこと。ただし Amazon Aurora RDS では失敗する可能性があり、明示的に無効にする場合には <code>Pipelining = False;</code> を Connection String に記述する必要がある。</p>
+<p>その他に MySQL 8.0 のクエリー属性のサポートの追加(8.0.23 以降またはプリペアードステートメントを使う場合は 8.0.26 以降が必要)、MySqlDecimal 型サポートの追加、<code>Microsoft.Extensions.Logging</code> のロギングでロガー名としてデフォルトで <code>MySqlConnector.</code> プレフィックスをつけるようになった、などの改善が含まれている。</p>
+<h3 id="resharper-2021.3-goes-beta-the.net-tools-blog">ReSharper 2021.3 Goes Beta! | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2021/12/01/resharper-2021-3-beta/">https://blog.jetbrains.com/dotnet/2021/12/01/resharper-2021-3-beta/</a></p>
+<p>ReSharper 2021.3 Beta がリリースされた。</p>
+<p>ReSharper 2021.3 では C# 10 と Visual Studio 2022 の対応をはじめとして、幾つかの改善が行われている。今回 EAP から Beta となった。</p>
+<h3 id="rider-2021.3-goes-beta-the.net-tools-blog">Rider 2021.3 Goes Beta | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2021/12/01/rider-2021-3-goes-beta/">https://blog.jetbrains.com/dotnet/2021/12/01/rider-2021-3-goes-beta/</a></p>
+<p>Rider 2021.3 Beta がリリースされた。</p>
+<p>Rider 2021.3 では C# 10 と .NET 6 の対応、メインツールバーをはじめとする UI のリフレッシュ、デバッガーのアップデートなど様々な改善が行われている。ReSharper と同様に EAP から Beta となった。</p>
+<h3 id="release-support-for-installation-of-multiple-versions-warnings-for-deprecated-versions-actionssetup-dotnet">Release Support for installation of multiple versions, warnings for deprecated versions · actions/setup-dotnet</h3>
+<p><a href="https://github.com/actions/setup-dotnet/releases/tag/v1.9.0">https://github.com/actions/setup-dotnet/releases/tag/v1.9.0</a></p>
+<p>GitHub Actions のアクション <code>actions/setup-dotnet</code> の 1.9.0 がリリースされた。</p>
+<p>このバージョンから複数の .NET を一度にインストールできるようになった。</p>
+<pre><code class="language-yaml">- uses: actions/setup-dotnet&#64;v1
+  with:
+    dotnet-version: | 
+      3.1.x
+      5.0.x
+</code></pre>
+<p>また廃止されたバージョンをインストールした場合に警告を出力するようにもなったとのこと。</p>
+<h3 id="clangsharp-and-llvmsharp-issue-184-dotnet-foundationprojects">ClangSharp and LLVMSharp · Issue #184 · dotnet-foundation/projects</h3>
+<p><a href="https://github.com/dotnet-foundation/projects/issues/184">https://github.com/dotnet-foundation/projects/issues/184</a></p>
+<p>ClanSharp と LLVMSharp のリポジトリーが Microsoft 配下から .NET Foundation 配下へと移管された。</p>
+<ul>
+<li><a href="https://github.com/dotnet/ClangSharp">dotnet/ClangSharp: Clang bindings for .NET and Mono written in C#</a></li>
+<li><a href="https://github.com/dotnet/LLVMSharp">dotnet/LLVMSharp: LLVM bindings for .NET Standard written in C# using ClangSharp</a></li>
+</ul>
+<h3 id="release-diagnostics-release-v6.0.257301-dotnetdiagnostics">Release Diagnostics Release - v6.0.257301 · dotnet/diagnostics</h3>
+<p><a href="https://github.com/dotnet/diagnostics/releases/tag/v6.0.257301">https://github.com/dotnet/diagnostics/releases/tag/v6.0.257301</a></p>
+<p>.NET の診断ツール v6.0.257301 がリリースされた。</p>
+<p>各種ツールにいくつかの改善が行われ、新たに <code>dotnet-dsrouter</code> ツールが追加された。</p>
+<p><code>dotnet-dsrouter</code> は Android や iOS, tvOS といったデバイスで動作をはじめ、リモートで動作している .NET ランタイムに各種診断ツール (<code>dotnet-monitor</code>, <code>dotnet-counter</code> など) を接続するための通信転送ツール。各種診断ツールは IPC (Unix Domain Socket) を使用して接続するので <code>dotnet-dsrouter</code> が IPC で待ち受けて、何らかの通信経路でクライアントと接続してデータを転送する仕組みを提供する。</p>
+<p><code>dotnet-dsrouter</code> のドキュメントでは Android の .NET アプリケーションのトレースを <code>adb</code> 経由でローカルコンピューターから吸い上げる方法などが書かれている。</p>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-dsrouter">dotnet-dsrouter - .NET | Microsoft Docs</a></li>
+</ul>
+<h3 id="release.net-5.0.12-dotnetefcore">Release .NET 5.0.12 · dotnet/efcore</h3>
+<p><a href="https://github.com/dotnet/efcore/releases/tag/v5.0.12">https://github.com/dotnet/efcore/releases/tag/v5.0.12</a></p>
+<p>.NET 5 に対応する Entity Framework Core 5 の更新バージョン 5.0.12 がリリースされた。</p>
+<p>.NET 5 SDK とのバージョン合わせのリリースとなるが、1点だけバグ修正が 6.0 からバックポートされている。</p>
+<ul>
+<li><a href="https://github.com/dotnet/efcore/pull/26241">[5.0.x] Fix context pooling concurrency issue by roji · Pull Request #26241 · dotnet/efcore</a></li>
+</ul>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="targetframework-net5.0.net-6">TargetFramework net5.0 なコードを .NET 6 ランタイムで動かす</h3>
+<p><a href="https://ufcpp.net/blog/2021/11/latestmajor/">https://ufcpp.net/blog/2021/11/latestmajor/</a></p>
+<p>プロジェクトビルド時のターゲットフレームワークよりも上位のバージョンのランタイムで動かす RollForward についての解説記事。</p>
+<p>例えば .NET 5 でビルドされたアプリケーションを再コンパイルなしで .NET 6 のランタイムで動作させるといったことが可能になる。その際設定方法や注意点など。</p>
+<h3 id="azure-functions-v4-dynamic-pgo-readytorun">Azure Functions v4 における Dynamic PGO と ReadyToRun の使い分け - しばやん雑記</h3>
+<p><a href="https://blog.shibayan.jp/entry/20211130/1638265857">https://blog.shibayan.jp/entry/20211130/1638265857</a></p>
+<p>Azure Functions v4 での .NET 6 の Dynamic PGO と ReadyToRun の効果とその使い分けについての記事。</p>
+<p>Azure Functions という特性から踏まえた選択についてと実際の設定方法、効果の比較をしている。</p>
+<h3 id="net-6linq-qiita">.NET 6でLINQに追加されたメソッド - Qiita</h3>
+<p><a href="https://qiita.com/RyotaMurohoshi/items/14efd4492ac14ee635cd">https://qiita.com/RyotaMurohoshi/items/14efd4492ac14ee635cd</a></p>
+<p>.NET 6 で追加された LINQ のメソッドを紹介している記事。</p>
+<p>新規に追加されたメソッドに加えて、SingleOrDefault/FirstOrDefault に追加されたオーバーロードについても触れている。</p>
+<h3 id="deploy-a.net-api-to-heroku-through-github-actions">Deploy a .NET API to Heroku through GitHub Actions</h3>
+<p><a href="https://dev.to/cristofima/deploy-a-net-api-to-heroku-through-github-actions-39fg">https://dev.to/cristofima/deploy-a-net-api-to-heroku-through-github-actions-39fg</a></p>
+<p>ASP.NET Core で実装した API アプリケーションを GitHub Actions を使用して Heroku にデプロイする方法についての記事。</p>
+<h3 id="validated-strongly-typed-ioptions">Validated Strongly Typed IOptions</h3>
+<p><a href="https://medium.com/c-sharp-progarmming/validated-strongly-typed-ioptions-400021f23136">https://medium.com/c-sharp-progarmming/validated-strongly-typed-ioptions-400021f23136</a></p>
+<p>Microsoft.Extension.Configurations の <code>IOptions</code> を使用する際に System.ComponentModel.DataAnnotations の属性を使用して、設定値のバリデーションを行うことについての記事。</p>
+<h3 id="running-a.net-6-service-on-a-specific-port">Running a .NET 6 Service on a Specific Port</h3>
+<p><a href="https://jeremybytes.blogspot.com/2021/11/running-net-6-service-on-specific-port.html">https://jeremybytes.blogspot.com/2021/11/running-net-6-service-on-specific-port.html</a></p>
+<p>.NET 6 / ASP.NET Core 6 でコードから指定したポートでアプリケーションを起動することについての記事。</p>
+<p>従来 <code>UseUrls</code> を使用してバインドする URL を指定できたが、.NET 6 の WebApplicationBuilder の WebHost に対して <code>UseUrls</code> を指定しても効果がない。代わりに <code>ConfigureKestrel</code> で直接リッスンするポートを指定することで動作するとのこと。</p>
+<h3 id="get-to-know-ef-core-6">Get to Know EF Core 6</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/get-to-know-ef-core-6/">https://devblogs.microsoft.com/dotnet/get-to-know-ef-core-6/</a></p>
+<p>Entity Framework Core 6 のお役立ち記事や動画のまとめ記事。</p>
+<h3 id="uploading-files-with-asp.net-minimal-apis">Uploading files with ASP.NET Minimal APIs</h3>
+<p><a href="https://dev.to/gsferreira/uploading-files-with-aspnet-minimal-apis-2036">https://dev.to/gsferreira/uploading-files-with-aspnet-minimal-apis-2036</a></p>
+<h3 id="reinvent-2021.net-amazon-web-services">re:Invent 2021 .NET セッション | Amazon Web Services</h3>
+<p><a href="https://aws.amazon.com/jp/blogs/news/net-at-reinvent-2021/">https://aws.amazon.com/jp/blogs/news/net-at-reinvent-2021/</a></p>
+<p>Amazon re:Invent 2021 (12/3 まで開催のオンラインイベント) での .NET セッションの紹介記事。</p>
+<h3 id="datatable-on.net-6">DataTable からデータ抽出方法の性能比較 on .NET 6</h3>
+<p><a href="https://zenn.dev/okazuki/articles/performance-of-datatable-on-dotnet">https://zenn.dev/okazuki/articles/performance-of-datatable-on-dotnet</a></p>
+<h3 id="unityc">UnityでC#のアセンブラを見る</h3>
+<p><a href="https://notnullvariable.com/2021/jit-asm-for-unity/">https://notnullvariable.com/2021/jit-asm-for-unity/</a></p>
+<h3 id="net6c10-json-jsonnode-qiita">.NET6/C#10 で動的にJsonパースする標準クラス JsonNode - Qiita</h3>
+<p><a href="https://qiita.com/hqf00342/items/6dd97a99c5c46c14e0e4">https://qiita.com/hqf00342/items/6dd97a99c5c46c14e0e4</a></p>
+<h3 id="net6-asp.net-react-typescript-qiita">.NET6 ASP.NET + React + TypeScriptでリアルタイムチャットアプリを作る - Qiita</h3>
+<p><a href="https://qiita.com/raycho/items/45a4f2f929d8a21b2fc3">https://qiita.com/raycho/items/45a4f2f929d8a21b2fc3</a></p>
+<p>.NET 6 で ASP.NET Core SignalR と React 及び TypeScript を使用したサンプルアプリケーションを実装したことについての記事。</p>
+<h3 id="net-6-web-apis-with-openapi-typescript-client-generation">.NET 6 Web APIs with OpenAPI TypeScript Client Generation</h3>
+<p><a href="https://medium.com/&#64;chrlschn/net-6-web-apis-with-openapi-typescript-client-generation-a743e7f8e4f5">https://medium.com/&#64;chrlschn/net-6-web-apis-with-openapi-typescript-client-generation-a743e7f8e4f5</a></p>
+<p>ASP.NET Core の OpenAPI サポートを通じて、API へのアクセスのための TypeScript のコード生成などを行う方法についての記事。</p>
+<h3 id="validating-json-with-schema-in.net">Validating JSON with schema in .NET</h3>
+<p><a href="https://medium.com/&#64;niteshsinghal85/validating-json-with-schema-in-net-7bdc02b0ef3c">https://medium.com/&#64;niteshsinghal85/validating-json-with-schema-in-net-7bdc02b0ef3c</a></p>
+<p>NJsonSchema を使用して JSON を JSON Schema で検証する方法についての記事。</p>
+<h3 id="upgrading-a.net-5-startup-based-app-to.net-6-exploring.net-core-6-part-12">Upgrading a .NET 5 &quot;Startup-based&quot; app to .NET 6: Exploring .NET Core 6 - Part 12</h3>
+<p><a href="https://andrewlock.net/exploring-dotnet-6-part-12-upgrading-a-dotnet-5-startup-based-app-to-dotnet-6/">https://andrewlock.net/exploring-dotnet-6-part-12-upgrading-a-dotnet-5-startup-based-app-to-dotnet-6/</a></p>
+<p>.NET 5 の Startup クラスをベースにしたアプリケーションを .NET 6 の WebApplicationBuilder ベースへと書き換える上でのポイントを解説している記事。</p>
+<h3 id="xunit.nettrait-qiita">xunit.netで、テストに対して独自の属性を付ける(Trait) - Qiita</h3>
+<p><a href="https://qiita.com/skitoy4321/items/69d1444a1e30826ce4a8">https://qiita.com/skitoy4321/items/69d1444a1e30826ce4a8</a></p>
+<p>xUnit で独自の属性を持つテストケースを収集して実行できる仕組みがあり、その独自の Trait の実装方法についての記事。</p>
+<h3 id="introducing-the-new-razor-editor-in-visual-studio-2022">Introducing the new Razor editor in Visual Studio 2022</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/introducing-the-new-razor-editor-in-visual-studio-2022/">https://devblogs.microsoft.com/visualstudio/introducing-the-new-razor-editor-in-visual-studio-2022/</a></p>
+<p>Language Server Protocol (LSP) ベースとなった Visual Studio 2022 の Razor エディターについての記事。</p>
+<p>新しい Razor エディターで使用できるようになった機能を紹介している。ホットリロードや Live Share のサポートも新しいエディターによるものとのこと。</p>
+<p>記事の最後では未サポートの機能とロードマップについて触れている。</p>
+<ul>
+<li><a href="https://github.com/dotnet/razor-tooling/issues/5687">Razor 17.1 Roadmap · Issue #5687 · dotnet/razor-tooling</a></li>
+</ul>
+<h3 id="aws-graviton2arm64.net-6-xnt303-reinvent-developersio">[レポート]AWS Graviton2(Arm64)で.NET 6のパフォーマンスを加速させる #XNT303 #reinvent | DevelopersIO</h3>
+<p><a href="https://dev.classmethod.jp/articles/reinvent-2021-report-xnt303/">https://dev.classmethod.jp/articles/reinvent-2021-report-xnt303/</a></p>
+<p>AWS re:Invent 2021 のセッション Accelerate .NET 6 performance with Arm64 on AWS Graviton2 のレポート記事。</p>
+<h3 id="entity-framework-biweekly-status-updates-2021-issue-23884-dotnetefcore">Entity Framework Biweekly Status Updates (2021) · Issue #23884 · dotnet/efcore</h3>
+<p><a href="https://github.com/dotnet/efcore/issues/23884#issuecomment-984797885">https://github.com/dotnet/efcore/issues/23884#issuecomment-984797885</a></p>
+<p>Entity Framework の隔週のステータスアップデートまとめ。</p>
+<p>EF Core 7.0 のプランが近いうちにレビューされ公開される予定、品質向上のための作業が 6.0.2 に向けて進んでいる、など。</p>
+<h3 id="net6-qiita">.NET6 が起動するまでのコードを追ってみよう - Qiita</h3>
+<p><a href="https://qiita.com/up-hash/items/87e98261bb026298f207">https://qiita.com/up-hash/items/87e98261bb026298f207</a></p>
+<p>.NET 6 においてアプリケーションが起動するまで(エントリーポイントが呼び出されるまで)の流れを追った .NET ランタイムホストについての解説記事。</p>
+<p>実際にアプリケーションが起動するまでの流れをソースコードと合わせながら解説している。</p>
+<h3 id="how-rider-hot-reload-works-under-the-hood-the.net-tools-blog">How Rider Hot Reload Works Under the Hood | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2021/12/02/how-rider-hot-reload-works-under-the-hood/">https://blog.jetbrains.com/dotnet/2021/12/02/how-rider-hot-reload-works-under-the-hood/</a></p>
+<p>Rider のホットリロードが裏側で何をしているのかということを解説している記事。</p>
+<p>Apply Changes を押した際に Roslyn から差分を受け取っていること、.NET 6 ではホットリロードのためのエージェントを読み込ませていて適用する仕組みになっているなど。</p>
+<h3 id="net-conf-2021-recap-videos-slides-demos-and-more">.NET Conf 2021 Recap - Videos, Slides, Demos, and More</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/net-conf-2021-recap-videos-slides-demos-and-more/">https://devblogs.microsoft.com/dotnet/net-conf-2021-recap-videos-slides-demos-and-more/</a></p>
+<p>.NET Conf 2021 のまとめ記事。</p>
+<h3 id="microsoft.maui.graphics">Microsoft.Maui.Graphics でクロスプラットフォームレンダリングしてみる</h3>
+<p><a href="https://zenn.dev/tan_y/articles/ee413cce02de17">https://zenn.dev/tan_y/articles/ee413cce02de17</a></p>
+<p>System.Drawing.Common の代わりとなる Microsoft.Maui.Graphics についての記事。</p>
+<p>記事では Windows Forms, WinUI, MAUI と異なるプラットフォーム/バックエンドで試してみた結果などもあげている。</p>
+<h3 id="i-show-you-how-to-crack-a.net-application">I show you how to Crack a .NET Application</h3>
+<p><a href="https://medium.com/dotnetsafer/i-show-you-how-to-crack-a-net-application-f88ed2598f97">https://medium.com/dotnetsafer/i-show-you-how-to-crack-a-net-application-f88ed2598f97</a></p>
+<p>.NET アプリケーションをクラック(デコンパイルと書き換え)する方法についての記事。</p>
+<p>.NET アプリケーションに対しての解析と書き換えをはじめとして、Blazor や Xamarin (Android) アプリケーションに関しても触れている。</p>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="github-dotnetjitutils">GitHub - dotnet/jitutils</h3>
+<p><a href="https://github.com/dotnet/jitutils">https://github.com/dotnet/jitutils</a></p>
+<p>.NET ランタイムの JIT を開発する人向けのツール集。</p>
+<h3 id="github-pakrymjab-c-source-generator-based-dependency-injection-container-implementation">GitHub - pakrym/jab: C# Source Generator based dependency injection container implementation.</h3>
+<p><a href="https://github.com/pakrym/jab">https://github.com/pakrym/jab</a></p>
+<p>C# Source Generator を使用した Dependency Injection コンテナーのライブラリー。</p>
+<p>コンパイル時に確定できることでスタートアップや解決時のパフォーマンスを大きく改善できるとのこと。</p>
+<!-- https://twitter.com/pakrym/status/1464640630508777475?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A new version of Jab compile-time Dependency Injection is out! Now with incremental compilation support and other fixes. <a href="https://t.co/Va7PV6fUVL">https://t.co/Va7PV6fUVL</a></p>&mdash; Pavel Krymets (&#64;pakrym) <a href="https://twitter.com/pakrym/status/1464640630508777475?ref_src=twsrc%5Etfw">November 27, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="microsoftdotnet-podcasts.net-6-reference-application-shown-at.net-conf-2021-featuring-asp.net-core-blazor.net-maui-microservices-and-more">microsoft/dotnet-podcasts: .NET 6 reference application shown at .NET Conf 2021 featuring ASP.NET Core, Blazor, .NET MAUI, Microservices, and more!</h3>
+<p><a href="https://github.com/microsoft/dotnet-podcasts">https://github.com/microsoft/dotnet-podcasts</a></p>
+<p>.NET Conf 2021 で公開された .NET 6 のリファレンスアプリケーション。ASP.NET Core, Blazor, MAUI, マイクロサービスといった要素で構成されている。</p>
+<h2 id="section-3">サイト、ドキュメントなど</h2>
+<h3 id="section-4">ツイート</h3>
+<!-- https://twitter.com/citizenmatt/status/1464245409195433986?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is a great tip. And Rider 2021.3 (coming soon!) will help editing the .asmdef file! Shows version of the installed package, and highlights when a condition isn&#39;t met. Also gives package completion, define symbol completion + validation, and… (1/2) <a href="https://t.co/z1qSWQpCee">https://t.co/z1qSWQpCee</a> <a href="https://t.co/9OuFZkqw3K">pic.twitter.com/9OuFZkqw3K</a></p>&mdash; Matt Ellis (&#64;citizenmatt) <a href="https://twitter.com/citizenmatt/status/1464245409195433986?ref_src=twsrc%5Etfw">November 26, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Rider 2021.3 では asmdef のパワフルな補完がついてくるという話。インストール済みのパッケージや有効になっているシンボル定数のハイライト、シンボル定数名の補完など。</p>
+<!-- https://twitter.com/sayedihashimi/status/1466462336252887046?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Daily <a href="https://twitter.com/hashtag/TemplateTip?src=hash&amp;ref_src=twsrc%5Etfw">#TemplateTip</a> number 2:<br><br>If you use some language besides C# for most projects, you can configure the default lang for projects created in dotnet new with the env var: DOTNET_NEW_PREFERRED_LANG<br><br>Take a look after I set that to F#, I get F# projects by default. <a href="https://t.co/uIP1ssIHsU">pic.twitter.com/uIP1ssIHsU</a></p>&mdash; Sayed I. Hashimi #BlackLivesMatter (&#64;sayedihashimi) <a href="https://twitter.com/sayedihashimi/status/1466462336252887046?ref_src=twsrc%5Etfw">December 2, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p><code>DOTNET_NEW_PREFERRED_LANG</code> 環境変数を設定しておくと、新しいプロジェクトを作るときにその言語をデフォルトで使用できるという話。</p>
+<!-- https://twitter.com/neuecc/status/1465952053918781443?s=12 -->
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">私がよくやるのはウォッチウィンドウプログラミング。結果も確認しやすいし、式の再利用/再評価もしやすいので、これがあればEvaluate WindowもImmediate Windowもいらない。 <a href="https://t.co/Ek3doORDZa">pic.twitter.com/Ek3doORDZa</a></p>&mdash; neuecc (&#64;neuecc) <a href="https://twitter.com/neuecc/status/1465952053918781443?ref_src=twsrc%5Etfw">December 1, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Visual Studio のウォッチウィンドウでは IntelliSense も使用でき、今ではラムダ式なども書けるのでデバッグ時のイミディエイトウィンドウや評価ウィンドウなどの代わりに使えるというテクニック。</p>
+<p>ちなみにウォッチウィンドウは Non-public なメンバーも IntelliSense には出てこないものの指定すると表示できる。(<code>obj._privateMember</code>のように)</p>
+<h2 id="deep-dive">Deep Dive</h2>
+<h3 id="api-proposal-support-for-multiset-multimap-in-system.collections.generic-issue-61892-dotnetruntime">[API Proposal]: Support for MultiSet &amp; MultiMap in System.Collections.Generic · Issue #61892 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/issues/61892">https://github.com/dotnet/runtime/issues/61892</a></p>
+<p>一つのキーで複数の値が持てる MultiSet や MultiMap が欲しいという提案。やりたいこととしては次のようなことが挙げられている。</p>
+<pre><code class="language-csharp">var c = new MultiSet&lt;int&gt;();
+c.Add(42);
+c.Add(42);
+Console.WriteLine(c[42]); // =&gt; 2
+</code></pre>
+<p>これに対して .NET 6 であれば MultiSet に関しては CollectionMarshal と Dictionary で完結できるので十分ではなど。</p>
+<pre><code class="language-csharp">var counts = new Dictionary&lt;string, int&gt;();
+foreach (string input in source)
+{
+    CollectionsMarshal.GetValueRefOrAddDefault(counts, input, out _)++;
+}
+</code></pre>
+<h3 id="support-unloadability-in-dispatchproxy.by-teo-tsirpanis-pull-request-62095-dotnetruntime">Support unloadability in <code>DispatchProxy</code>. by teo-tsirpanis · Pull Request #62095 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/62095">https://github.com/dotnet/runtime/pull/62095</a></p>
+<p><code>DispatchProxy</code> で生成したアセンブリをアンロードできるようにするという PR。</p>
+<h3 id="proposal-roles-and-extensions-issue-5497-dotnetcsharplang">[Proposal]: Roles and extensions · Issue #5497 · dotnet/csharplang</h3>
+<p><a href="https://github.com/dotnet/csharplang/issues/5497">https://github.com/dotnet/csharplang/issues/5497</a></p>
+<p>既存の型に関する拡張の roles と extensions の提案。</p>
+<ul>
+<li><a href="https://ufcpp.net/blog/2018/7/pickuproslyn0714/">ピックアップRoslyn 7/14: Roles, extension interfaces, and static interface members</a></li>
+</ul>
+<h3 id="remove-razor-compiler-from-aspnetcore-by-pranavkm-pull-request-38706-dotnetaspnetcore">Remove razor-compiler from aspnetcore by pranavkm · Pull Request #38706 · dotnet/aspnetcore</h3>
+<p><a href="https://github.com/dotnet/aspnetcore/pull/38706">https://github.com/dotnet/aspnetcore/pull/38706</a></p>
+<p>Razor のコンパイラーが ASP.NET Core のリポジトリーから分離されたため削除した PR。</p>
+<ul>
+<li><a href="https://github.com/dotnet/razor-compiler">dotnet/razor-compiler: This repo houses the Razor Compiler, which is part of the .NET SDK</a></li>
+</ul>
+<h3 id="happy-holidays-everyone-responses-for-issues-may-be-delayed-till-early-january-issue-38711-dotnetaspnetcore">🎅 🎄 Happy Holidays, everyone! Responses for issues may be delayed till early January · Issue #38711 · dotnet/aspnetcore</h3>
+<p><a href="https://github.com/dotnet/aspnetcore/issues/38711">https://github.com/dotnet/aspnetcore/issues/38711</a></p>
+<p>ホリデーシーズンということでチームのメンバーがお休みしていることもあり、Issue や PR、コメントが来年まで遅れるかもしれないという話。</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
