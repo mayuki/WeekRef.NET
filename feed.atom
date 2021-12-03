@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2021-12-03T11:37:21Z</updated>
+	<updated>2021-12-03T11:43:40Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -151,10 +151,14 @@
 &lt;p&gt;Amazon re:Invent 2021 (12/3 まで開催のオンラインイベント) での .NET セッションの紹介記事。&lt;/p&gt;
 &lt;h3 id="datatable-on.net-6"&gt;DataTable からデータ抽出方法の性能比較 on .NET 6&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://zenn.dev/okazuki/articles/performance-of-datatable-on-dotnet"&gt;https://zenn.dev/okazuki/articles/performance-of-datatable-on-dotnet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 6 での DataTable のパフォーマンスについての記事。&lt;/p&gt;
+&lt;p&gt;意外にもベンチマークを取った多くのケースで .NET Framework 4.8 のほうがパフォーマンスが良いという結果となっている。&lt;/p&gt;
 &lt;h3 id="unityc"&gt;UnityでC#のアセンブラを見る&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://notnullvariable.com/2021/jit-asm-for-unity/"&gt;https://notnullvariable.com/2021/jit-asm-for-unity/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Unity の Mono での JIT コンパイラーの JIT 結果を見るツールの紹介記事。&lt;/p&gt;
 &lt;h3 id="net6c10-json-jsonnode-qiita"&gt;.NET6/C#10 で動的にJsonパースする標準クラス JsonNode - Qiita&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://qiita.com/hqf00342/items/6dd97a99c5c46c14e0e4"&gt;https://qiita.com/hqf00342/items/6dd97a99c5c46c14e0e4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;動的に JSON をパースするライブラリーの比較記事。&lt;/p&gt;
 &lt;h3 id="net6-asp.net-react-typescript-qiita"&gt;.NET6 ASP.NET + React + TypeScriptでリアルタイムチャットアプリを作る - Qiita&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://qiita.com/raycho/items/45a4f2f929d8a21b2fc3"&gt;https://qiita.com/raycho/items/45a4f2f929d8a21b2fc3&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;.NET 6 で ASP.NET Core SignalR と React 及び TypeScript を使用したサンプルアプリケーションを実装したことについての記事。&lt;/p&gt;
