@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2021-12-03T11:45:16Z</updated>
+	<updated>2021-12-03T11:46:53Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -37,7 +37,7 @@
 &lt;li&gt;&lt;a href="https://qiita.com/advent-calendar/2021/blazor"&gt;Blazor&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://qiita.com/advent-calendar/2021/xamarin"&gt;Xamarin / MAUI&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/advent-calendar/2021/microsoft"&gt;日本マイクロソフトのサポートする Advent Calendar&lt;/a&gt;もあり今年は .NET 6 がメインテーマです。どちらもまだ若干数枠があるようですので興味のある方は参加してみるとよさそうです。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/advent-calendar/2021/microsoft"&gt;日本マイクロソフトのサポートする Advent Calendar&lt;/a&gt;もあり今年は .NET 6 がメインテーマです。いくつかのカレンダーはまだ若干数枠があるようですので興味のある方は参加してみるとよさそうです。&lt;/p&gt;
 &lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
 &lt;h3 id="visual-studio-2022-version-17.0.2"&gt;Visual Studio 2022 version 17.0.2&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes#17.0.2.0"&gt;https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes#17.0.2.0&lt;/a&gt;&lt;/p&gt;
