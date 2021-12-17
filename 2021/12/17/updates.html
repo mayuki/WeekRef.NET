@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2021-12-17: Visual Studio 2022 v17.0.3 / 17.0.4 / for Mac Preview 4, Announcing the Plan for EF7 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2021/12/17/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2021-12-17: Visual Studio 2022 v17.0.3 / 17.0.4 / for Mac Preview 4, Announcing the Plan for EF7 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2021/12/17/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2021-12-17: Visual Studio 2022 v17.0.3 / 17.0.4 / for Mac Preview 4, Announcing the Plan for EF7
+          </h1>
+              <div class="meta">Published on Friday, 17 December 2021</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="visual-studio-2022-v17.0.3-17.0.4">Visual Studio 2022 v17.0.3 / 17.0.4</h3>
+<p><a href="https://docs.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes#17030--visual-studio-2022-version-1704">https://docs.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes#17030--visual-studio-2022-version-1704</a></p>
+<p>Visual Studio 2022 の 17.0.3 と 17.0.4 がリリースされた。</p>
+<p>17.0.3 では Unicode の双方向テキスト制御文字への対応といくつかの不具合修正が行われた。双方向テキスト制御文字対応はソースコード内に現れた場合にエディター上では文字の方向を変更する効力は持たず、プレースホルダーとして表示されるようになる。</p>
+<p>17.0.4 では Xcode 13.2 への対応が行われている。</p>
+<h3 id="visual-studio-2022-for-mac-preview-4">Visual Studio 2022 for Mac Preview 4</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/visual-studio-2022-for-mac-preview-4/">https://devblogs.microsoft.com/visualstudio/visual-studio-2022-for-mac-preview-4/</a></p>
+<p>Visual Studio 2022 for Mac Preview 4 がリリースされた。</p>
+<p>大きな変更点としてはエディターの各種ツールペインがドッキング可能となりソリューションエクスプローラー等の位置をドラッグアンドドロップにて移動できるようになったこと、検索結果画面がネイティブ UI になり結果のグルーピングなどができるようになったことがあげられている。その他、引き続きネイティブ UI への移行とバグ修正などが行われている。</p>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/mac-release-notes-preview#1700-pre4--visual-studio-2022-for-mac-version-170-preview-4-newreleasebutton">Visual Studio 2022 for Mac v17.0 Preview - Release Notes | Microsoft Docs</a></li>
+</ul>
+<h3 id="announcing-the-plan-for-ef7">Announcing the Plan for EF7</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/announcing-the-plan-for-ef7/">https://devblogs.microsoft.com/dotnet/announcing-the-plan-for-ef7/</a></p>
+<p>Entity Framework Core 7 (EF Core 7 あるいは EF7) に向けたプランのアナウンス記事。</p>
+<p>EF7 は2022年11月を目標に作業が進み .NET 7 と同時期にリリース予定。EF Core 6.1 のリリース予定はなく、EF7 は LTS ではないサポートリリースとなること、現時点では .NET 6 をターゲットにしているが .NET 7 に変わる可能性があるとのこと。</p>
+<p>記事では EF7 のテーマとして次のようなものをあげている。</p>
+<ul>
+<li>多くの需要のある機能</li>
+<li>.NET プラットフォームとエコシステム</li>
+<li>Entity Framework 6 (レガシー) からの移行</li>
+<li>パフォーマンス</li>
+</ul>
+<p>需要のある機能では JSON カラムやバルクアップデート、Value Object やマップされていない型を使用する生 SQL (Dapper のような Ad-hoc クエリー)といったサポートがあがっており、プラットフォームとエコシステムでは分散トランザクション、新しい SQLServer のドライバー、トリミングや System.Linq.Expression の強化などがプランにあがっている。</p>
+<ul>
+<li><a href="https://docs.microsoft.com/ja-jp/ef/core/what-is-new/ef-core-7.0/plan">Plan for Entity Framework Core 7.0</a></li>
+</ul>
+<h3 id="net-6-networking-improvements">.NET 6 Networking Improvements</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/dotnet-6-networking-improvements/">https://devblogs.microsoft.com/dotnet/dotnet-6-networking-improvements/</a></p>
+<p>.NET 6 でのネットワーク周りでの改善についての記事。記事では下記の項目について細かく解説している。</p>
+<ul>
+<li>HTTP
+<ul>
+<li>HTTP/2 Window Scaling</li>
+<li>HTTP/3 &amp; QUIC</li>
+<li>HTTP リトライロジック</li>
+<li>SOCKS プロキシーサポート</li>
+<li>WinHTTP</li>
+<li>その他
+<ul>
+<li>コネクションプールの改善</li>
+<li>検証なしのヘッダー列挙</li>
+<li>HPack デコードの最適化</li>
+<li>ZLibStream の導入</li>
+<li>Cookie の列挙</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>ソケット
+<ul>
+<li>Windows でのポート範囲自動再利用のサポート</li>
+<li>IPv6 グローバル無効化オプション</li>
+<li><code>System.Net.Sockets</code> の <code>Span</code> および Task ベースのオーバーロードのサポート</li>
+</ul>
+</li>
+<li>セキュリティ
+<ul>
+<li>遅延クライアントネゴシエーション</li>
+<li>Windows でのユーザー偽装の改善</li>
+</ul>
+</li>
+<li>診断
+<ul>
+<li>Activity のヘッダー伝搬のコントロール</li>
+</ul>
+</li>
+<li>URI
+<ul>
+<li>URI の正規化の無効化</li>
+</ul>
+</li>
+</ul>
+<h3 id="net-december-2021-updates-6.0.1-5.0.13-and-3.1.22">.NET December 2021 Updates – 6.0.1, 5.0.13 and 3.1.22</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/december-2021-updates/">https://devblogs.microsoft.com/dotnet/december-2021-updates/</a></p>
+<p>2021年12月の .NET の更新(.NET 6.0.1, 5.0.13, .NET Core 3.1.22)がリリースされた。</p>
+<p>それぞれいくつかのバグ修正やバックポートが含まれるほか、ASP.NET Core のセキュリティー修正が含まれている。</p>
+<p>ASP.NET Core のセキュリティー修正は ASP.NET Core Module (ANCM) と呼ばれる IIS で ASP.NET Core をホストする際に必要となるモジュールに関するものでこのリリースで権限昇格の脆弱性が修正されている。</p>
+<ul>
+<li><a href="https://github.com/dotnet/announcements/issues/206">Microsoft Security Advisory CVE-2021-43877 | ASP.NET Core Elevation of privilege Vulnerability · Issue #206 · dotnet/announcements</a></li>
+<li><a href="https://github.com/dotnet/announcements/issues/205">December 2021 .NET Updates · Issue #205 · dotnet/announcements</a></li>
+</ul>
+<h3 id="orleans-announcement-issue-7423-dotnetorleans">Orleans Announcement · Issue #7423 · dotnet/orleans</h3>
+<p><a href="https://github.com/dotnet/orleans/issues/7423">https://github.com/dotnet/orleans/issues/7423</a></p>
+<p>Orleans を .NET チームに移管するというアナウンス。</p>
+<p>これに伴い Issue の管理やリリースといったプロセスを dotnet/aspnetcore と同様の形にするとのこと。</p>
+<h3 id="release-release-v1.43.0-grpcgrpc">Release Release v1.43.0 · grpc/grpc</h3>
+<p><a href="https://github.com/grpc/grpc/releases/tag/v1.43.0">https://github.com/grpc/grpc/releases/tag/v1.43.0</a></p>
+<p>gRPC 1.43.0 がリリースされた。</p>
+<p>C# に関連する変更として Grpc.Core.Api に null 許容参照型アノテーションが適用された。このパッケージは C-core と .NET 実装 (grpc-dotnet) の両方で使用される API サーフェースを定義したものであり、どちらの実装を使用する場合でも恩恵を受ける。NuGet パッケージでは 2.43.0 となるが<strong>現時点ではまだリリースされていない</strong>ようなので注意。</p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="net-advent-calendar">.NET Advent Calendar</h3>
+<p><a href="https://dotnet.christmas/">https://dotnet.christmas/</a></p>
+<p>英語圏の .NET の Advent Calendar まとめサイト。</p>
+<h3 id="c-advent-calendar-2021">C# Advent Calendar 2021</h3>
+<p><a href="https://csadvent.christmas/">https://csadvent.christmas/</a></p>
+<p>英語圏の C# の Advent Calendar まとめサイト。</p>
+<h3 id="testing-an-incremental-generator-with-snapshot-testing-creating-a-source-generator-part-2">Testing an incremental generator with snapshot testing: Creating a source generator - Part 2</h3>
+<p><a href="https://andrewlock.net/creating-a-source-generator-part-2-testing-an-incremental-generator-with-snapshot-testing/">https://andrewlock.net/creating-a-source-generator-part-2-testing-an-incremental-generator-with-snapshot-testing/</a></p>
+<p>Source Generator を Verify というライブラリーを使用してスナップショットテストを行う方法についての記事。</p>
+<ul>
+<li><a href="https://github.com/VerifyTests/Verify">VerifyTests/Verify: Verify is a snapshot tool that simplifies the assertion of complex data models and documents.</a></li>
+</ul>
+<h3 id="blazor-webassembly2gb4gb-qiita">Blazor WebAssemblyで2GBの壁を超え4GBへ - Qiita</h3>
+<p><a href="https://qiita.com/yamachu/items/a357ab72f76afa2802b6">https://qiita.com/yamachu/items/a357ab72f76afa2802b6</a></p>
+<p>Blazor WebAssembly で 4GB のメモリーを確保するにはという記事。</p>
+<p>記事では Native Dependency を駆使して Emscripten にビルドフラグを渡すことで 2GB の壁を超えるといった手法を紹介している。</p>
+<h3 id="net-6efcore-qiita">.NET 6のトップレベルステートメントを使ったコンソールプロジェクトで、EFCoreのマイグレーションはなぜ動くのか - Qiita</h3>
+<p><a href="https://qiita.com/karuakun/items/d503fb1c9579eb27de18">https://qiita.com/karuakun/items/d503fb1c9579eb27de18</a></p>
+<p>特定のメソッドがないと動かなかった EF Core のマイグレーションが EF Core 6 からはトップレベルステートメントを含めて動くようになった仕組みについての記事。</p>
+<h3 id="net-history-timeline-its-not-finished-yet-so-if-you-find">.NET History Timeline. --- It's not finished yet, so if you find...</h3>
+<p><a href="https://www.reddit.com/r/dotnet/comments/rcg391/net_history_timeline_its_not_finished_yet_so_if/">https://www.reddit.com/r/dotnet/comments/rcg391/net_history_timeline_its_not_finished_yet_so_if/</a></p>
+<p>.NET の年表(タイムライン)</p>
+<h3 id="digging-into-the.net-dictionary-implementation">Digging into the .NET Dictionary implementation…</h3>
+<p><a href="https://ayende.com/blog/195651-B/digging-into-the-net-dictionary-implementation">https://ayende.com/blog/195651-B/digging-into-the-net-dictionary-implementation</a></p>
+<p>Dictionary の内部実装についての記事。<code>_buckets</code> と <code>_entries</code> のフィールドがあることなど。</p>
+<h3 id="net6file-iolinuxmac-qiita">.NET6のFile IO改善はLinux&amp;macでも改善されているか検証してみた - Qiita</h3>
+<p><a href="https://qiita.com/KuriharaJun/items/5bab044c4b02dec2da3a">https://qiita.com/KuriharaJun/items/5bab044c4b02dec2da3a</a></p>
+<p>.NET 6 でのファイルの読み書きに関する改善を Linux と macOS および Windows で比較、検証した記事。</p>
+<p>記事ではすべてのケースで .NET 6 で結果が改善されていることが示されている。</p>
+<h3 id="xamarin.froms.net6">Xamarin.Froms プロジェクトを .NET6 へアップグレードする</h3>
+<p><a href="https://zenn.dev/proudust/articles/2021-12-12-xamarin-upgrade-to-dotnet6">https://zenn.dev/proudust/articles/2021-12-12-xamarin-upgrade-to-dotnet6</a></p>
+<p>従来の Xamarin の Xamarin.Forms のプロジェクトを .NET 6 の Xamarin.Forms へと移行する手順をまとめた記事。</p>
+<h3 id="burstsimd-qiita">Burstでポータブルかつ確実にSIMD化を行うにはどうすればいいのか - Qiita</h3>
+<p><a href="https://qiita.com/Trapezoid/items/461c058a0feadb7ccefe">https://qiita.com/Trapezoid/items/461c058a0feadb7ccefe</a></p>
+<p>Unity の Burst Compiler で SIMD 化をコンパイラー任せではなく、コード上でコントロールすることで確実に SIMD 化する方法についての記事。</p>
+<h3 id="c">【C#】デリゲートのコンパイル結果</h3>
+<p><a href="https://zenn.dev/naminodarie/articles/5acc9f03f10296">https://zenn.dev/naminodarie/articles/5acc9f03f10296</a></p>
+<p>デリゲートの記述方法別での実際にコンパイルされたときの形を調べている記事。</p>
+<h3 id="tagwithtagwithcallsitesql-qiita">TagWithとTagWithCallSiteでSQLを発行したメソッドを特定する - Qiita</h3>
+<p><a href="https://qiita.com/karuakun/items/6d7280d7928af06cb1bc">https://qiita.com/karuakun/items/6d7280d7928af06cb1bc</a></p>
+<p>Entify Framework Core のクエリーに調査目的などでタグをつけるための <code>TagWith</code> と EF Core 6 で追加された呼び出し元名をタグとしてつける <code>TagWithCallSite</code> についての解説記事。</p>
+<h3 id="new-apis-in.net-6">20 New APIs in .NET 6</h3>
+<p><a href="https://blog.okyrylchuk.dev/20-new-apis-in-net-6">https://blog.okyrylchuk.dev/20-new-apis-in-net-6</a></p>
+<p>.NET 6 で追加された API を20個、簡単に紹介している記事。</p>
+<h3 id="windows-terminal-as-your-default-command-line-experience">Windows Terminal as your Default Command Line Experience</h3>
+<p><a href="https://devblogs.microsoft.com/commandline/windows-terminal-as-your-default-command-line-experience/">https://devblogs.microsoft.com/commandline/windows-terminal-as-your-default-command-line-experience/</a></p>
+<p>Windows Terminal をデフォルトのコマンドライン環境とすることについての記事。</p>
+<p>将来の Windows 11 のバージョンでは Windows Terminal がデフォルトになる予定であるとのこと。</p>
+<h3 id="machine-learning-in-xamarin.forms-with-onnx-runtime">Machine Learning in Xamarin.Forms with ONNX Runtime</h3>
+<p><a href="https://devblogs.microsoft.com/xamarin/machine-learning-in-xamarin-forms-with-onnx-runtime/">https://devblogs.microsoft.com/xamarin/machine-learning-in-xamarin-forms-with-onnx-runtime/</a></p>
+<p>Xamarin.Forms と ONNX Runtime でモバイルで機械学習を使用するという記事。</p>
+<p>記事では既にある画像に対して画像の分類をかけるといった処理を行うサンプルで解説している。</p>
+<h3 id="whats-new-in.net-productivity-with-visual-studio-2022">What’s new in .NET Productivity with Visual Studio 2022</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/whats-new-in-net-productivity-with-visual-studio-2022/">https://devblogs.microsoft.com/visualstudio/whats-new-in-net-productivity-with-visual-studio-2022/</a></p>
+<p>Visual Studio 2022 の .NET の生産性に関する新機能について紹介している記事。</p>
+<ul>
+<li>Source Link ナビゲーション</li>
+<li>Stack Trace Explorer</li>
+<li>EditorConfig UI での命名規則設定</li>
+<li>ソリューションエクスプローラーから名前空間の同期</li>
+<li>await の IntelliSense 補完</li>
+<li>新しいコードフィックスとリファクタリング</li>
+</ul>
+<p>なお Stack Trace Explorer は現時点ではリリースされておらず、17.1 Preview 2 以降で提供されるとのこと。</p>
+<h3 id="csealed">C#のsealedメソッドをオーバーライドする</h3>
+<p><a href="https://www.infoq.com/jp/articles/overriding-sealed-methods-c-sharp/">https://www.infoq.com/jp/articles/overriding-sealed-methods-c-sharp/</a></p>
+<p>メタデータを書き換えることでメソッドを置き換える黒魔術を解説している記事(日本語訳)。</p>
+<h3 id="planned-work-for-system.text.regularexpressions-for-7.0.0-issue-62758-dotnetruntime">Planned work for System.Text.RegularExpressions for 7.0.0 · Issue #62758 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/issues/62758">https://github.com/dotnet/runtime/issues/62758</a></p>
+<p>.NET 7 で予定されている正規表現関連の改修タスクの Issue。</p>
+<h3 id="net-6-c-10-repl-qiita">.NET 6 の C# 10 を今すぐ REPL で試す - Qiita</h3>
+<p><a href="https://qiita.com/advanceboy/items/03f347cd773934fda8d5">https://qiita.com/advanceboy/items/03f347cd773934fda8d5</a></p>
+<p>Binder (Jupyter Notebook のホスト) と dotnet/interactive リポジトリを使用して、ブラウザー上でインスタントに .NET Interactive を起動して .NET を試す方法についての記事。</p>
+<h3 id="qiita">コンテナ環境でのデータベースマイグレーション - Qiita</h3>
+<p><a href="https://qiita.com/karuakun/items/6dc22d2cdbbb43c024e7">https://qiita.com/karuakun/items/6dc22d2cdbbb43c024e7</a></p>
+<p>コンテナー環境での Entity Framework Core のマイグレーションの実行についての記事。</p>
+<p>記事ではスクリプトを出力する方法、<code>dotnet ef database update</code> を使用できるコンテナーイメージを作る方法、EF Core 6 から提供されているマイグレーションバンドルを使用する方法が紹介されている。</p>
+<h3 id="interpreting-async-code-in-cpu-traces">Interpreting async code in CPU traces</h3>
+<p><a href="https://www.poppastring.com/blog/interpreting-async-code-in-cpu-traces">https://www.poppastring.com/blog/interpreting-async-code-in-cpu-traces</a></p>
+<p>プロファイラーで非同期コードのパフォーマンスを確認する際に役立つ機能についての記事。</p>
+<ul>
+<li><a href="https://docs.microsoft.com/ja-jp/visualstudio/profiling/analyze-async?view=vs-2022">.NET 非同期コードのパフォーマンスを分析する - Visual Studio (Windows) | Microsoft Docs</a></li>
+</ul>
+<h3 id="maui-qiita">MAUIのコントロールをカスタマイズする方法 - Qiita</h3>
+<p><a href="https://qiita.com/f-miyu/items/ca02ea3bcf7e88f6eeb7">https://qiita.com/f-miyu/items/ca02ea3bcf7e88f6eeb7</a></p>
+<p>MAUI でコントロールをカスタマイズする方法についての記事。</p>
+<h3 id="netwpfdihttp-qiita">.NET汎用ホストでWPFを動かしてDIしたりHTTPリクエストを受け付けたりした話 - Qiita</h3>
+<p><a href="https://qiita.com/miswil/items/3b9bd7e40209f1c5dce3">https://qiita.com/miswil/items/3b9bd7e40209f1c5dce3</a></p>
+<p>WPF プロジェクトで Microsoft.Extensions.Hosting を使用して DI や Web アプリケーションをホストする方法についての記事。</p>
+<h3 id="c-11-c-c">【C# 11 候補】 {} 中の改行 | ++C++; // 未確認飛行 C ブログ</h3>
+<p><a href="https://ufcpp.net/blog/2021/12/newlines-in-interpolated-string/">https://ufcpp.net/blog/2021/12/newlines-in-interpolated-string/</a></p>
+<p>文字列補完式の <code>{}</code> の中でのコード的な改行の取り扱いが C# 11 で変更される予定があるという記事。</p>
+<h3 id="feature-preview-il2cpp-full-generic-sharing-in-unity-2022.1-beta-unity-blog">Feature preview: IL2CPP Full Generic Sharing in Unity 2022.1 beta | Unity Blog</h3>
+<p><a href="https://blog.unity.com/technology/feature-preview-il2cpp-full-generic-sharing-in-unity-20221-beta">https://blog.unity.com/technology/feature-preview-il2cpp-full-generic-sharing-in-unity-20221-beta</a></p>
+<p>Unity 2022.1 beta の IL2CPP (AOT) でジェネリクスの型パラメーターに値型を取る物に対するコード生成を一つのコードでカバーできる仕組みを導入したという記事。</p>
+<p>従来ジェネリクスの型パラメーターに値型を取る場合はその型固有のコードを生成する必要があり、何らかの理由で解析から漏れると実行エラーとなっていたがそれをカバーできるフォールバック的なコードを生成するようになった。</p>
+<p>記事では <code>Manager.SendMessage&lt;T&gt;</code> と <code>IManager.SendMessage&lt;T&gt;</code> のようなものがあり、インターフェースを経由して呼び出した場合(<code>IManager.SendMessage&lt;AnyEnum&gt;(...)</code>)、<code>Manager.SendMessage&lt;AnyEnum&gt;</code> をコンパイル時には検出できずコード生成が不完全となり実行時にエラーになるという例が挙げられている。このようなケースを Full Generic Sharing のコードでカバーする。</p>
+<p>また、すべてのコードを共通化することでコードサイズを抑えたい場合にも役立つといったことが書かれている。</p>
+<!-- https://twitter.com/mstrehovsky/status/1471254757792940033?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We&#39;ve seen 15% throughput degradation for generic heavy code (Entity Framework) with a similar tech in .NET Native. I call this code &quot;Universal Shitty Code&quot;. One really wants to run such code as little as possible. <a href="https://t.co/2ULALO4uU3">https://t.co/2ULALO4uU3</a></p>&mdash; Michal Strehovský (&#64;MStrehovsky) <a href="https://twitter.com/MStrehovsky/status/1471254757792940033?ref_src=twsrc%5Etfw">December 15, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>.NET Native (UWP の .NET の AOT コンパイラー) でも同じような実装があり、このパスを通ることでパフォーマンスが低下するといったことがあったという話。</p>
+<p>スレッドでは IL2CPP の記事を書いた Josh Peterson さんもこの共有コードを通る場合はパフォーマンスのオーバーヘッドがあるが、殆どのプロジェクトではこのパスを通らないので影響はほとんどないとのこと。もしパフォーマンスが重要なコードではこのパスを通らないようにしたほうがよいとしている。</p>
+<h3 id="parallel.foreachasync-deep-dive">Parallel.ForEachAsync Deep Dive</h3>
+<p><a href="https://www.gregbair.dev/posts/parallel-foreachasync/">https://www.gregbair.dev/posts/parallel-foreachasync/</a></p>
+<p>.NET 6 で導入された <code>Parallel.ForEachAsync</code> の内部実装についての記事。</p>
+<h3 id="system.text.json-qiita">System.Text.Jsonソースジェネレーターパフォーマンス調査 - Qiita</h3>
+<p><a href="https://qiita.com/skitoy4321/items/727ae10a2bc5a54404d5">https://qiita.com/skitoy4321/items/727ae10a2bc5a54404d5</a></p>
+<p>.NET 6 で導入された System.Text.Json の Source Generator によるコード生成を使用した場合のパフォーマンスについての記事。</p>
+<p>記事ではシリアライズとデシリアライズのパフォーマンスを比較している。</p>
+<h3 id="were-upgrading-visual-studios-feedback">We’re upgrading Visual Studio’s feedback!</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/were-upgrading-visual-studios-feedback/">https://devblogs.microsoft.com/visualstudio/were-upgrading-visual-studios-feedback/</a></p>
+<p>Visual Studio のフィードバックのシステムをアップグレードしているという記事。</p>
+<p>このアップグレードの影響で Visual Studio からフィードバックするには 16.7 以降または LTSC リリースが必要となるとのこと。</p>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h2 id="section-3">サイト、ドキュメントなど</h2>
+<h3 id="section-4">ツイート</h3>
+<!-- https://twitter.com/sergiopedri/status/1469267425522712577?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Happy to announce that with the latest changes merged, both messenger types in the MVVM Toolkit are now completely allocation free on .NET 6! They are also both by far the fastest messenger/event-aggregator types across any other MVVM library that I could find! 🚀<a href="https://twitter.com/hashtag/csharp?src=hash&amp;ref_src=twsrc%5Etfw">#csharp</a> <a href="https://twitter.com/hashtag/dotnet?src=hash&amp;ref_src=twsrc%5Etfw">#dotnet</a> <a href="https://t.co/KmgvDAc6uL">pic.twitter.com/KmgvDAc6uL</a></p>&mdash; Sergio Pedri (&#64;SergioPedri) <a href="https://twitter.com/SergioPedri/status/1469267425522712577?ref_src=twsrc%5Etfw">December 10, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>.NET 6 の MVVM Toolkit がアロケーションフリーになったという話。</p>
+<!-- https://twitter.com/jbevain/status/1469389090525114375?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Everybody is talking about log4j’s RCE, meanwhile <a href="https://twitter.com/sailro?ref_src=twsrc%5Etfw">&#64;sailro</a> is using a NLog feature that will automatically load and execute binaries to inject his own code in Escape from Tarkov, the README is worth a read: <a href="https://t.co/qSqhBc3Dsd">https://t.co/qSqhBc3Dsd</a></p>&mdash; Jb Evain (&#64;jbevain) <a href="https://twitter.com/jbevain/status/1469389090525114375?ref_src=twsrc%5Etfw">December 10, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>NLog にはアセンブリーと同じディレクトリーの NLog で始まる名前のアセンブリーを自動で読み込むという機能があり、改変なしでコードを注入するのに使用できてしまうという話(アプリケーション自体の改ざんをチェックしていても追加で読まれてしまう)。</p>
+<!-- https://twitter.com/msdevjp/status/1468905769173143552?s=12 -->
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">【完全に人間翻訳されたドキュメントのお知らせ｜ASP .NET 】<br>皆さまからのフィードバックをもとに、一部機械翻訳だった「ASP .NET ドキュメント」が、完全に人間による翻訳になりました！<br>自己学習の際にはぜひご活用ください。<br><br>▼ドキュメントを読む<a href="https://t.co/tNhqwBXBpj">https://t.co/tNhqwBXBpj</a><a href="https://twitter.com/hashtag/MSDocsJP?src=hash&amp;ref_src=twsrc%5Etfw">#MSDocsJP</a></p>&mdash; Microsoft Tech (&#64;msdevjp) <a href="https://twitter.com/msdevjp/status/1468905769173143552?ref_src=twsrc%5Etfw">December 9, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>ASP.NET のドキュメントが完全に人間による翻訳になったという話。</p>
+<!-- https://twitter.com/vs_debugger/status/1470772350450819082?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">With .NET 6 apps, you can now get the # of bytes each thread has allocated so far using the new debugger pseudovariables “$threadSmallObjectHeapBytes and $threadUserOldHeapBytes”<a href="https://twitter.com/hashtag/vsdebuggertip?src=hash&amp;ref_src=twsrc%5Etfw">#vsdebuggertip</a> <a href="https://twitter.com/hashtag/vstip?src=hash&amp;ref_src=twsrc%5Etfw">#vstip</a> <a href="https://twitter.com/hashtag/VS2022?src=hash&amp;ref_src=twsrc%5Etfw">#VS2022</a> <a href="https://t.co/Po0VAIfU5f">pic.twitter.com/Po0VAIfU5f</a></p>&mdash; Visual Studio Debugger (&#64;VS_Debugger) <a href="https://twitter.com/VS_Debugger/status/1470772350450819082?ref_src=twsrc%5Etfw">December 14, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>.NET 6 アプリケーションを Visual Studio でデバッグ中に <code>$threadSmallObjectHeapBytes</code> と <code>$threadUserOldHeapBytes</code> 擬似変数というスレッドでアロケートしたバイト数を確認できるというテクニック。</p>
+<!-- https://twitter.com/wieslawsoltes/status/1470340515623276546?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Webassembly application written using C#/XAML .NET 6 using <a href="https://twitter.com/hashtag/AvaloniaUI?src=hash&amp;ref_src=twsrc%5Etfw">#AvaloniaUI</a> framework running on the web - total download size 8.4 MB ! <a href="https://t.co/78jC6hDz2w">pic.twitter.com/78jC6hDz2w</a></p>&mdash; Wiesław Šoltés (&#64;wieslawsoltes) <a href="https://twitter.com/wieslawsoltes/status/1470340515623276546?ref_src=twsrc%5Etfw">December 13, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Avalonia UI 向けのノードエディターのデモアプリを WebAssembly で動かせたという話。</p>
+<!-- https://twitter.com/mstrehovsky/status/1471646768656154624?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">2/2 The most important question is - will it run DOOM as a .NET app? Yes it will. Source in this repo: <a href="https://t.co/lm1R6l5uqW">https://t.co/lm1R6l5uqW</a> <a href="https://t.co/GVM7qALgss">pic.twitter.com/GVM7qALgss</a></p>&mdash; Michal Strehovský (&#64;MStrehovsky) <a href="https://twitter.com/MStrehovsky/status/1471646768656154624?ref_src=twsrc%5Etfw">December 17, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Microsoft Visual C++ のコンパイラー <code>cl</code> コマンドでは <code>/clr</code> オプションをつけることで C++ のコードを C++/CLI としてコンパイルできるが、隠しオプションを使うことで C++ の代わりに C 言語のコードを .NET アプリケーションとしてコンパイルできるので DOOM を動かしたという話。</p>
+<h2 id="deep-dive">Deep Dive</h2>
+<h3 id="net-number-values-such-as-positive-and-negative-infinity-cannot-be-written-as-valid-json.issue-48926-dotnetruntime">.NET number values such as positive and negative infinity cannot be written as valid JSON. · Issue #48926 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/issues/48926">https://github.com/dotnet/runtime/issues/48926</a></p>
+<p>System.Text.Json で <code>double.PositiveInfinity</code>/<code>double.NegativeInfinity</code> をシリアライズしようとすると例外がでるという Issue。</p>
+<p>JSON の仕様上表現できないためそのような挙動となっている。<code>JsonNumberHandling.AllowNamedFloatingPointLiterals</code> をオプションに渡すことで回避できるがその場合は単に文字列として出力される。</p>
+<h3 id="add-array.getmaxlengtht-by-huoyaoyuan-pull-request-43301-dotnetruntime">Add Array.GetMaxLength&lt;T&gt; by huoyaoyuan · Pull Request #43301 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/43301">https://github.com/dotnet/runtime/pull/43301</a></p>
+<p>Array の最大長を取得するメソッドを追加する PR。</p>
+<p>元々バイト配列は <code>0X7FFFFFC7</code>、それ以外は <code>0X7FEFFFFF</code> が最大長だったので一貫した最大値を取る方法がほしいという話だった。ところが将来的にパフォーマンスに有利に働かせられるのではとその制限を残してきていたが、そういったこともなさそうなので <code>0X7FFFFFC7</code> に統一されることになり、メソッドではなく <code>Array.MaxLength</code> として定数で公開されることになった。</p>
+<h3 id="reimplement-the-concurrency-limiter-middleware-to-use-the-new-abstractions-implementations-by-tratcher-pull-request-39040-dotnetaspnetcore">Reimplement the concurrency limiter middleware to use the new abstractions &amp; implementations by Tratcher · Pull Request #39040 · dotnet/aspnetcore</h3>
+<p><a href="https://github.com/dotnet/aspnetcore/pull/39040">https://github.com/dotnet/aspnetcore/pull/39040</a></p>
+<p>ASP.NET Core の Concurrency Limiter ミドルウェアを新しい Rate Limiting API に置き換えるという PR。</p>
+<h3 id="add-constantexpectedattribute-by-wzchua-pull-request-62436-dotnetruntime">Add ConstantExpectedAttribute by wzchua · Pull Request #62436 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/62436">https://github.com/dotnet/runtime/pull/62436</a></p>
+<p>メソッドの引数が受け取る値が定数であることを期待することを明示するマーカー属性を追加する PR。</p>
+<p>これは Intrisics なメソッドの場合、定数が渡っていることを期待している場合があるので Analzyer などで早期に間違いを発見したいというところから来ている。</p>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/issues/33771">Pass constants to parameters marked as [ConstantExpected] · Issue #33771 · dotnet/runtime</a></li>
+</ul>
+<h3 id="strange-regex-performance-in.net-5-issue-62902-dotnetruntime">Strange RegEx performance in .NET 5 · Issue #62902 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/issues/62902">https://github.com/dotnet/runtime/issues/62902</a></p>
+<p>正規表現のパフォーマンスが .NET Core 3.1, .NET 5, .NET 6 で比較すると .NET 5 だけ良いので変ではという Issue。</p>
+<p>これは .NET 5 で最適化が入ったが特定のパターンで期待した結果とならないのでロールバックしたという話(つまり .NET 5 の正規表現だけ結果が異なる場合がある)。</p>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/issues/56721">Regex: different result for Regex.Match in .NET 5.0 and .NET Framework 4.7.2 · Issue #56721 · dotnet/runtime</a></li>
+</ul>
+<h3 id="report-error-if-record-struct-constructor-calls-default-parameterless-constructor-by-cston-pull-request-58339-dotnetroslyn">Report error if 'record struct' constructor calls default parameterless constructor by cston · Pull Request #58339 · dotnet/roslyn</h3>
+<p><a href="https://github.com/dotnet/roslyn/pull/58339">https://github.com/dotnet/roslyn/pull/58339</a></p>
+<p><code>record struct</code> にコンストラクターを定義した場合 <code>this</code> でコンストラクターを呼び出すようにエラーが出るが、<code>this()</code> とすると <code>InvalidProgramException</code> がスローされてしまう問題を修正する PR。</p>
+<ul>
+<li><a href="https://github.com/dotnet/roslyn/issues/58328">System.InvalidProgramException when constructing a record struct with parameter list and calling the default constructor · Issue #58328 · dotnet/roslyn</a></li>
+</ul>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
