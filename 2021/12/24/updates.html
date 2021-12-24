@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2021-12-24: Npgsql 6.0.2, AWS Toolkit for Visual Studio 2022, MAUI 6.0.101-preview.11 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2021/12/24/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2021-12-24: Npgsql 6.0.2, AWS Toolkit for Visual Studio 2022, MAUI 6.0.101-preview.11 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2021/12/24/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2021-12-24: Npgsql 6.0.2, AWS Toolkit for Visual Studio 2022, MAUI 6.0.101-preview.11
+          </h1>
+              <div class="meta">Published on Friday, 24 December 2021</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="release-v6.0.2-npgsqlnpgsql">Release v6.0.2 · npgsql/npgsql</h3>
+<p><a href="https://github.com/npgsql/npgsql/releases/tag/v6.0.2">https://github.com/npgsql/npgsql/releases/tag/v6.0.2</a></p>
+<p>Npgsql 6.0.2 がリリースされた。</p>
+<p>6.0.0 でパラメータ名のマッチングを case-sensitive に変更したが、いくつかのシナリオでパラメータプレースホルダーがカラム名として評価されデータの損失が発生する問題があったため差し戻されている。</p>
+<h3 id="aws-toolkit-for-visual-studio-2022-visual-studio-marketplace">AWS Toolkit for Visual Studio 2022 - Visual Studio Marketplace</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2022">https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.AWSToolkitforVisualStudio2022</a></p>
+<p>AWS Toolkit for Visual Studio 2022 がリリースされた。</p>
+<!-- https://twitter.com/dotnetonaws/status/1473359044421242886?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Upgrade your .NET on AWS developer experience. The AWS Toolkit for Visual Studio 2022 is out of preview and is now generally available. Download from the Visual Studio Marketplace.<a href="https://t.co/nvBS1wSNSz">https://t.co/nvBS1wSNSz</a><a href="https://twitter.com/hashtag/dotnet?src=hash&amp;ref_src=twsrc%5Etfw">#dotnet</a> <a href="https://twitter.com/hashtag/AWS?src=hash&amp;ref_src=twsrc%5Etfw">#AWS</a> <a href="https://twitter.com/hashtag/dotNETonAWS?src=hash&amp;ref_src=twsrc%5Etfw">#dotNETonAWS</a></p>&mdash; .NET on AWS (&#64;dotnetonAWS) <a href="https://twitter.com/dotnetonAWS/status/1473359044421242886?ref_src=twsrc%5Etfw">December 21, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="release-6.0.101-preview.11-dotnetmaui">Release 6.0.101-preview.11 · dotnet/maui</h3>
+<p><a href="https://github.com/dotnet/maui/releases/tag/6.0.101-preview.11.3">https://github.com/dotnet/maui/releases/tag/6.0.101-preview.11.3</a></p>
+<p>MAUI 6.0.101-preview.11 がリリースされた。</p>
+<p>主な変更点は Windows での Fluent Design System のスタイリング、Android, iOS, macOS, Windows (experimental) でのマルチウィンドウ対応、テンプレートの更新など。</p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="blazor-serverfa-qiita">Blazor serverをラズパイに入れてFAしたい - Qiita</h3>
+<p><a href="https://qiita.com/yamaccu/items/9e86db8d8fa44f43dcc1">https://qiita.com/yamaccu/items/9e86db8d8fa44f43dcc1</a></p>
+<p>Raspberry Pi で動作するアプリケーションの UI として Blazor を使用するという記事。</p>
+<h3 id="integration-testing-and-nuget-packaging-creating-a-source-generator-part-3">Integration testing and NuGet packaging: Creating a source generator - Part 3</h3>
+<p><a href="https://andrewlock.net/creating-a-source-generator-part-3-integration-testing-and-packaging/">https://andrewlock.net/creating-a-source-generator-part-3-integration-testing-and-packaging/</a></p>
+<p>Source Generator の統合テストと NuGet パッケージ作成についての記事。</p>
+<p>統合テストでは Source Generator で生成したコード自体をテストするといったことを行っている。</p>
+<h3 id="net-6priorityqueue-yucchiys-note">.NET 6に入ったPriorityQueueの紹介と、ダイクストラ法を書いてみる | Yucchiy's Note</h3>
+<p><a href="https://blog.yucchiy.com/2021/12/priority-queue-dotnet6/">https://blog.yucchiy.com/2021/12/priority-queue-dotnet6/</a></p>
+<p>.NET 6 で新たに導入された PriorityQueue クラスの紹介の記事。</p>
+<p>記事では PriorityQueue を使用してダイクストラ法を解く例を解説している。</p>
+<h3 id="test-tools-for.net-and-cross-platform-apps">Test tools for .NET and cross-platform apps</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/vs22-test-tools-for-net-and-cross-platform-apps/">https://devblogs.microsoft.com/visualstudio/vs22-test-tools-for-net-and-cross-platform-apps/</a></p>
+<p>Visual Studio の .NET のテストツールに関する Tips 的な記事。</p>
+<ul>
+<li>コードからテストエクスプローラーで表示する機能</li>
+<li>テストが完了時に音を鳴らす機能</li>
+<li>Console.WriteLine の呼び出しをテストエクスプローラーで確認できる機能</li>
+<li>SSH や WSL などのリモートでテストを実行する機能</li>
+<li>Playwright の Web アプリケーションテストコードを生成する機能</li>
+</ul>
+<h3 id="uiexprazordom-qiita">自作UIフレームワークExprazorの紹介と仮想DOMの実装方法 - Qiita</h3>
+<p><a href="https://qiita.com/WiZLite/items/6448185e5156efa348e2">https://qiita.com/WiZLite/items/6448185e5156efa348e2</a></p>
+<p>ASP.NET Core で動作する仮想 DOM を持つ C# による UI フレームワークを実装したという記事。</p>
+<h3 id="net-6-ltslong-term-support-qiita">.NET 6 がLTS(Long-term Support)にふさわしい理由 - Qiita</h3>
+<p><a href="https://qiita.com/proprogrammer0/items/0f828266e710eea86e09">https://qiita.com/proprogrammer0/items/0f828266e710eea86e09</a></p>
+<p>以前から要素としては提供されていたが、組み合わせることができなかったものが .NET 6 で解消したものについての記事。</p>
+<p>記事では「アセンブリのトリミングと System.Text.Json」と「Blazor コンポーネントと where 型制約」といったものが紹介され、.NET 6 でも未対応な組み合わせについても触れている。</p>
+<h3 id="c-on.net6">(C#) メモリ確保ベンチマーク on .NET6 - ネコのために鐘は鳴る</h3>
+<p><a href="https://ikorin2.hatenablog.jp/entry/2021/12/20/225208">https://ikorin2.hatenablog.jp/entry/2021/12/20/225208</a></p>
+<p>.NET 6 で追加/変更された NativeMemory も含めてのマネージドなメモリー(配列)とアンマネージドなメモリー(ネイティブ)での確保時のベンチマークを取っている記事。</p>
+<h3 id="blazor-webassembly-web-snow-catch-qiita">Blazor WebAssembly で作った Web アプリ &quot;snow catch&quot; ゲームを、🎮 ゲームパッド (ジョイスティック) で操作できるようにする - Qiita</h3>
+<p><a href="https://qiita.com/jsakamoto/items/4705be2e5c6c7f1fccc8">https://qiita.com/jsakamoto/items/4705be2e5c6c7f1fccc8</a></p>
+<h3 id="how-to-compare-two-files-using.net-really-really-fast">How to compare two files using .NET, really really fast!</h3>
+<p><a href="https://dev.to/emrahsungu/how-to-compare-two-files-using-net-really-really-fast-2pd9">https://dev.to/emrahsungu/how-to-compare-two-files-using-net-really-really-fast-2pd9</a></p>
+<p>.NET で二つのファイルを高速に比較する手法についての記事。</p>
+<p>記事では MD5 での比較に対してバイト単位での直接比較を行う中で、チャンク化や SIMD の使用といった手法での高速化を紹介している。</p>
+<h3 id="net6.0linqapi-qiita">.NET6.0でのLINQの改善や新しいAPIを紹介 - Qiita</h3>
+<p><a href="https://qiita.com/shun-shun123/items/235cf61ae03d402f46ce">https://qiita.com/shun-shun123/items/235cf61ae03d402f46ce</a></p>
+<p>.NET 6 で改善された LINQ のメソッドについてと、新しい API について紹介している記事。</p>
+<p>Index/Range をとるオーバーロードについてや TryGetNonEnumeratedCount メソッドについて触れている。</p>
+<h3 id="blazor-componentsjavascript-qiita">Blazor ComponentsをJavaScriptからインスタンス化出来る機能のサンプルコードを追って拡張してみよう - Qiita</h3>
+<p><a href="https://qiita.com/yamachu/items/7fcf645cfdc995990cce">https://qiita.com/yamachu/items/7fcf645cfdc995990cce</a></p>
+<p>Blazor のコンポーネントを JavaScript (React) から生成する公式のサンプルコードを開設している記事。</p>
+<p>記事では解説のほか、コード生成部分を型情報を生成するといった修正なども行っている。</p>
+<h3 id="net-6c-incremental-source-generator">.NET 6からのC# Incremental Source Generatorの開発入門</h3>
+<p><a href="https://zenn.dev/pcysl5edgo/articles/6d9be0dd99c008">https://zenn.dev/pcysl5edgo/articles/6d9be0dd99c008</a></p>
+<p>Visual Studio 2022 / .NET 6 からの Incremental Source Generator についての記事。</p>
+<p>記事ではファイルをコードに埋め込む Source Generator を題材として実装、パッケージングについてを解説している。Visual Studio 2019 との共存方法についても触れている。</p>
+<h3 id="unity-cpublic-qiita">【Unity, C#】非publicな型やメンバにアクセスするには、多分これが一番手軽だと思います - Qiita</h3>
+<p><a href="https://qiita.com/mob-sakai/items/37978a030d6a6e262065">https://qiita.com/mob-sakai/items/37978a030d6a6e262065</a></p>
+<p>Unity で internal な型やメンバーにアクセスする方法についてのまとめ記事。</p>
+<p>記事では <code>InternalsVisibleToAttribute</code>, <code>.asmref</code>, CSharpCompilerSettingsForUnity パッケージを使用する方法を紹介している。</p>
+<h3 id="cswitch-qiita">C#のアプデでめちゃくちゃ便利になったswitch文（パターンマッチング）の紹介 - Qiita</h3>
+<p><a href="https://qiita.com/toRisouP/items/18b31b024b117009137a">https://qiita.com/toRisouP/items/18b31b024b117009137a</a></p>
+<p>C# 8 以降で強化された switch 式とステートメントについての記事。</p>
+<h3 id="c-qiita">C#のプロパティによるパターンマッチングを使おう - Qiita</h3>
+<p><a href="https://qiita.com/emoacht/items/dc1c40769dc6cdc1ef44">https://qiita.com/emoacht/items/dc1c40769dc6cdc1ef44</a></p>
+<p>C# 8 以降で使用できるプロパティー対するパターンマッチングについての記事。</p>
+<h3 id="c-qiita-1">C# パターンマッチングのデコンパイルコードを確認する - Qiita</h3>
+<p><a href="https://qiita.com/sh1ch/items/cd8a418ec2bf7f3eafb2">https://qiita.com/sh1ch/items/cd8a418ec2bf7f3eafb2</a></p>
+<p>パターンマッチングを行うコードが実際にどのような形でコンパイルされているのかを SharpLab でデコンパイルすることで調べている記事。</p>
+<h3 id="an-overview-of-distributed-tracing-with-opentelemetry-in.net-6">An Overview of Distributed Tracing with OpenTelemetry in .NET 6</h3>
+<p><a href="https://aaronstannard.com/opentelemetry-dotnet6/">https://aaronstannard.com/opentelemetry-dotnet6/</a></p>
+<h3 id="c">【C#】マルチスレッド関連操作の詳説。 - ねののお庭。</h3>
+<p><a href="https://blog.neno.dev/entry/2021/12/23/124215">https://blog.neno.dev/entry/2021/12/23/124215</a></p>
+<p>C# / .NET でのマルチスレッドに関連するアトミック性のような問題とそれに対するメモリバリアーといった対処に関して詳しく説明している記事。</p>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="filipnavaracodesign">filipnavara/CodeSign</h3>
+<p><a href="https://github.com/filipnavara/CodeSign">https://github.com/filipnavara/CodeSign</a></p>
+<p>アプリケーションバンドルと Mach-O 実行ファイルに Apple Code Signing の署名をするツール。</p>
+<h3 id="githubsuper-linter-combination-of-multiple-linters-to-install-as-a-github-action">github/super-linter: Combination of multiple linters to install as a GitHub Action</h3>
+<p><a href="https://github.com/github/super-linter">https://github.com/github/super-linter</a></p>
+<p>GitHub Actions から様々な言語の Lint を実行するためのアクション。.NET は dotnet format に対応している。</p>
+<ul>
+<li><a href="https://zenn.dev/mattak/articles/5ae354e525b9ed">dotnet formatでのlint checkをgithub actionsで実行する</a></li>
+</ul>
+<h3 id="cysharpnativememoryarray-utilized-native-memory-backed-array-for.net-and-unity-over-the-2gb-limitation-and-support-the-modern-apiibufferwriter-readonlysequence-scattergather-io-etc">Cysharp/NativeMemoryArray: Utilized native-memory backed array for .NET and Unity - over the 2GB limitation and support the modern API(IBufferWriter, ReadOnlySequence, scatter/gather I/O, etc...).</h3>
+<p><a href="https://github.com/Cysharp/NativeMemoryArray">https://github.com/Cysharp/NativeMemoryArray</a></p>
+<p>ネイティブメモリーを使用することで .NET の配列の最大サイズを超えるような大きなデータを扱えるようにするライブラリー。</p>
+<ul>
+<li><a href="https://neue.cc/2021/12/22.html">neue cc - NativeMemoryArray - .NET 6 APIをフル活用した2GB超えの巨大データを扱うライブラリ</a></li>
+</ul>
+<h2 id="section-3">サイト、ドキュメントなど</h2>
+<h3 id="section-4">ツイート</h3>
+<!-- https://twitter.com/xoofx/status/1473579951731482629?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">D&#39;oh! TIL that I can use monospace fonts on <a href="https://twitter.com/github?ref_src=twsrc%5Etfw">&#64;github</a> issues/PR/comments (Settings, Appearance tab at the bottom), I can&#39;t explain why it&#39;s not the default 🤔 <a href="https://t.co/9A48vq6g8o">pic.twitter.com/9A48vq6g8o</a></p>&mdash; Alexandre Mutel (&#64;xoofx) <a href="https://twitter.com/xoofx/status/1473579951731482629?ref_src=twsrc%5Etfw">December 22, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>GitHub.com の Issue や Pull request などで Markdown を記述するテキストエディター部分を等幅フォントに設定する項目があるという話。</p>
+<!-- https://twitter.com/rickbrewpdn/status/1472320987056132098?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">C++/CLI has been officially purged from the Paint​.NET codebase! I couldn&#39;t have done it without <a href="https://twitter.com/tannergooding?ref_src=twsrc%5Etfw">&#64;tannergooding</a> &#39;s TerraFX​.Interop​.Windows package, which made it a breeze. Went way faster than I thought it would. <a href="https://t.co/Si8MnJufsB">pic.twitter.com/Si8MnJufsB</a></p>&mdash; Rick Brewster (&#64;rickbrewPDN) <a href="https://twitter.com/rickbrewPDN/status/1472320987056132098?ref_src=twsrc%5Etfw">December 18, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Paint.NET から C++/CLI のコードがなくなったという話。</p>
+<!-- https://twitter.com/vollragm/status/1472243008963854342?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I don&#39;t recommend creating Kernel Mode drivers in C#, as it is highly experimental, but its possible.<a href="https://t.co/1d1iwQ4gjv">https://t.co/1d1iwQ4gjv</a><br><br>This is another example, a Driver with memory reading and writing capabilities communication over a hooked function.</p>&mdash; VollRagm (&#64;vollragm) <a href="https://twitter.com/vollragm/status/1472243008963854342?ref_src=twsrc%5Etfw">December 18, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>NativeAOT を使用して C# でカーネルモードドライバーを作ってみたという話。</p>
+<h2 id="deep-dive">Deep Dive</h2>
+<h3 id="improve.net-productivity-inner-loop-performance-issue-58268-dotnetroslyn">Improve .NET Productivity inner-loop performance · Issue #58268 · dotnet/roslyn</h3>
+<p><a href="https://github.com/dotnet/roslyn/issues/58268">https://github.com/dotnet/roslyn/issues/58268</a></p>
+<p>Roslyn / Visual Studio の .NET 生産性機能周りのパフォーマンス改善の Issue。</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
