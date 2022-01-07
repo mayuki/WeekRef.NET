@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Fri, 07 Jan 2022 07:17:22 GMT</pubDate>
-		<lastBuildDate>Fri, 07 Jan 2022 07:17:22 GMT</lastBuildDate>
+		<pubDate>Fri, 07 Jan 2022 07:29:41 GMT</pubDate>
+		<lastBuildDate>Fri, 07 Jan 2022 07:29:41 GMT</lastBuildDate>
 		<item>
 			<title>2022-01-07: Visual Studio 17.1 Preview 2, MAUI Preview 11, Pinta 2.0, Amazon.Lambda.Annotations</title>
 			<link>/2022/01/07/updates</link>
@@ -176,10 +176,11 @@
 &lt;p&gt;Incremental Source Generator の開発とデバッグ手法についての記事。&lt;/p&gt;
 &lt;h3 id="net6c-qiita"&gt;.NET6でブラウザ完結のC#開発環境を作る話 - Qiita&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://qiita.com/Kujiro/items/4b9223a9b79179d2bc0d"&gt;https://qiita.com/Kujiro/items/4b9223a9b79179d2bc0d&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Blazor WebAssembly と Roslyn を使用してブラウザー上でコードをコンパイルして実行できる環境を実装したことについての記事。記事では実装した上での工夫などを取り上げている。&lt;/p&gt;
+&lt;p&gt;Blazor WebAssembly と Roslyn を使用してブラウザー上でコードをコンパイルして実行できる環境を実装したことについての記事。&lt;/p&gt;
+&lt;p&gt;記事では高速化やブロッキング処理など、実装上での工夫などを取り上げている。&lt;/p&gt;
 &lt;h3 id="metricseventsource-qiita"&gt;MetricsEventSourceを利用する - Qiita&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://qiita.com/skitoy4321/items/36e1c693bc6719ec122a"&gt;https://qiita.com/skitoy4321/items/36e1c693bc6719ec122a&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;System.Diagnostics.Metrics.MetricsEventSource&lt;/code&gt; についての記事。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;System.Diagnostics.Metrics.MetricsEventSource&lt;/code&gt; の利用方法を解説している記事。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;MetricsEventSource&lt;/code&gt; はメトリクスを &lt;code&gt;EventSource&lt;/code&gt; として扱うもののため、&lt;code&gt;dotnet-trace&lt;/code&gt; のような外部から取得することができる。&lt;/p&gt;
 &lt;h3 id="net"&gt;.NET のオプション機能を完全に理解した。 - 鷲ノ巣&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://tech.blog.aerie.jp/entry/2021/12/24/161443"&gt;https://tech.blog.aerie.jp/entry/2021/12/24/161443&lt;/a&gt;&lt;/p&gt;
@@ -187,7 +188,7 @@
 &lt;p&gt;コンフィギュレーションの更新を動的に行う必要があるケースでの &lt;code&gt;IOptionsMonitor&amp;lt;T&amp;gt;&lt;/code&gt; の更新処理や &lt;code&gt;IConfigureOptions&amp;lt;T&amp;gt;&lt;/code&gt; について解説している。&lt;/p&gt;
 &lt;h3 id="neue-cc-consoleappframework-v4-minimal-api-for-commandline-tool"&gt;neue cc - ConsoleAppFramework v4 - Minimal API for CommandLine tool&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://neue.cc/2021/12/30.html"&gt;https://neue.cc/2021/12/30.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;コンソールアプリケーションを実装するフレームワーク ConsoleAppFramework v4 についての紹介と、そこで導入された Minimal API についての紹介記事。&lt;/p&gt;
+&lt;p&gt;コンソールアプリケーションを実装するフレームワーク ConsoleAppFramework v4 についての紹介と、そこで導入された Minimal API についての紹介している記事。&lt;/p&gt;
 &lt;h3 id="visual-studio-yucchiys-note"&gt;Visual Studioで外部ソースを含めたデバッグを実行する | Yucchiy's Note&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://blog.yucchiy.com/2022/01/debugging-external-sources-with-vs/"&gt;https://blog.yucchiy.com/2022/01/debugging-external-sources-with-vs/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Visual Studio 2022 でデバッグ実行時に依存ライブラリなども含めて外部のソースコードをステップ実行する方法についての記事。&lt;/p&gt;
@@ -287,7 +288,7 @@ Task NantokaAsync()
 &lt;p&gt;メソッドグループのデリゲート変換をキャッシュしたいという試みの PR。&lt;/p&gt;
 &lt;h3 id="ancm-arm64-tracking-issue-39281-dotnetaspnetcore"&gt;ANCM + ARM64 Tracking · Issue #39281 · dotnet/aspnetcore&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/dotnet/aspnetcore/issues/39281"&gt;https://github.com/dotnet/aspnetcore/issues/39281&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Windows の IIS で ASP.NET Core を動作するのにつかわれる ASP.NET Core Module を ARM64 版でもビルドできるようにするという話の Issue。&lt;/p&gt;
+&lt;p&gt;Windows の IIS で ASP.NET Core アプリケーションをホストする際に使用する ASP.NET Core Module を ARM64 版でもビルドできるようにするという話の Issue。&lt;/p&gt;
 &lt;h3 id="add-compilergeneratedattribute-to-record-members-by-youssef1313-pull-request-58542-dotnetroslyn"&gt;Add CompilerGeneratedAttribute to record members by Youssef1313 · Pull Request #58542 · dotnet/roslyn&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/dotnet/roslyn/pull/58542"&gt;https://github.com/dotnet/roslyn/pull/58542&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;レコード型の一部のメンバー (ToString や Equals, GetHashCode など) はコンパイラーが生成するものであるにもかかわらず &lt;code&gt;CompilerGeneratedAttribute&lt;/code&gt; がついていないのでつけるという PR。&lt;/p&gt;
