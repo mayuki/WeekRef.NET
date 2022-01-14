@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2022-01-14T06:54:46Z</updated>
+	<updated>2022-01-14T07:00:17Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -120,6 +120,9 @@
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;The Thread Pool is fully re-written in managed code in .net 6 with a really nice new feature: it can now detect a famous &amp;quot;sync over async&amp;quot; anti-pattern when a thread pool is blocked on Task.Wait or Task.GetAwaiter().GetResult() to add more threads quicker to unblock the app. &lt;a href="https://t.co/o8rJxKlaoJ"&gt;pic.twitter.com/o8rJxKlaoJ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sergey Teplyakov (&amp;#64;STeplyakov) &lt;a href="https://twitter.com/STeplyakov/status/1480983879938838530?ref_src=twsrc%5Etfw"&gt;January 11, 2022&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 &lt;p&gt;.NET 6 で Thread Pool がマネージドコードで書き直され、&amp;quot;sync over async&amp;quot; と呼ばれる非同期を同期待機するアンチパターンによるブロッキングを検出して新しいスレッドを立ち上げるようになった。(&amp;quot;sync over async&amp;quot; は待機スレッドがブロック状態となり、二つのスレッドがないと完了できなくなるためスレッドプール枯渇の原因となる)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.microsoft.com/ja-jp/dotnet/core/run-time-config/threading#thread-injection-in-response-to-blocking-work-items"&gt;作業項目のブロックに応じたスレッドの挿入 | スレッドの構成設定 - .NET | Microsoft Docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;!-- https://twitter.com/jamesnk/status/1481695358699061248?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;gRPC on .NET reached #1 in the latest benchmark results! 🚀 (by 13 whole req/s 😅)&lt;br&gt;&lt;br&gt;Enabling .NET 6&amp;#39;s profile-guided optimization pushed .NET over the top.&lt;a href="https://t.co/60yFyVmzpw"&gt;https://t.co/60yFyVmzpw&lt;/a&gt; &lt;a href="https://t.co/v9gluHUgdG"&gt;pic.twitter.com/v9gluHUgdG&lt;/a&gt;&lt;/p&gt;&amp;mdash; James Newton-King ♔ (&amp;#64;JamesNK) &lt;a href="https://twitter.com/JamesNK/status/1481695358699061248?ref_src=twsrc%5Etfw"&gt;January 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
