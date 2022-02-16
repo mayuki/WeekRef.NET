@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2022-02-12T13:39:52Z</updated>
+	<updated>2022-02-16T14:31:07Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -97,9 +97,6 @@
 &lt;p&gt;&lt;a href="https://minidump.net/writing-native-windbg-extensions-in-c-5390726f3cec"&gt;https://minidump.net/writing-native-windbg-extensions-in-c-5390726f3cec&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;ClrMD と NativeAOT を使用して WinDbg の拡張を実装する記事。&lt;/p&gt;
 &lt;p&gt;NativeAOT を使用することでネイティブライブラリーとして出力して、WinDbg に拡張として読み込ませている。&lt;/p&gt;
-&lt;h3 id="asp.net-core-2-qiita"&gt;ASP.NET Core で素の認証に時間ベースの２段階認証を追加する - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/karuakun/items/2a6da89ca08156aef0a5"&gt;https://qiita.com/karuakun/items/2a6da89ca08156aef0a5&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core Identity を使用していない ASP.NET Core アプリケーションに時間ベースの二要素認証 (TOTP) を導入する方法についての記事。&lt;/p&gt;
 &lt;h3 id="vulnerabilities-due-to-xml-files-processing-xxe-in-c-applications-in-theory-and-in-practice"&gt;Vulnerabilities due to XML files processing: XXE in C# applications in theory and in practice&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://dev.to/_sergvasiliev_/vulnerabilities-due-to-xml-files-processing-xxe-in-c-applications-in-theory-and-in-practice-3a67"&gt;https://dev.to/_sergvasiliev_/vulnerabilities-due-to-xml-files-processing-xxe-in-c-applications-in-theory-and-in-practice-3a67&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;.NET での XML外部実体攻撃についてと、BlogEngine.NET での実例を紹介した記事。&lt;/p&gt;
