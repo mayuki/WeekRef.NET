@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Tue, 12 Apr 2022 13:42:42 GMT</pubDate>
-		<lastBuildDate>Tue, 12 Apr 2022 13:42:42 GMT</lastBuildDate>
+		<pubDate>Tue, 12 Apr 2022 13:47:31 GMT</pubDate>
+		<lastBuildDate>Tue, 12 Apr 2022 13:47:31 GMT</lastBuildDate>
 		<item>
 			<title>2022-04-12: ReSharper 2021.3.4, .NET Framework End of Support, Visual Studio 2022 for Mac Preview 8</title>
 			<link>/2022/04/12/updates</link>
@@ -43,8 +43,8 @@
 &lt;p&gt;Visual Studio 2022 for Mac Preview 8 がリリースされた。&lt;/p&gt;
 &lt;p&gt;機能の追加などはなく、多くの小さな UI の修正やキーバインドの修正などが行われている。&lt;/p&gt;
 &lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="high-performance-udp-sockets-in.net-6"&gt;High Performance UDP sockets in .NET 6&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://t.co/UWAfR6wOpB"&gt;https://t.co/UWAfR6wOpB&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="high-performance-udp-sockets-in.net-6-enclave"&gt;High Performance UDP sockets in .NET 6 | Enclave&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://enclave.io/high-performance-udp-sockets-net6/"&gt;https://enclave.io/high-performance-udp-sockets-net6/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="net-annotated-monthly-april-2022-the.net-tools-blog"&gt;.NET Annotated Monthly | April 2022 | The .NET Tools Blog&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2022/04/04/net-annotated-monthly-april-2022/"&gt;https://blog.jetbrains.com/dotnet/2022/04/04/net-annotated-monthly-april-2022/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="rllibc-qiita"&gt;RLlibで強化学習したモデルをC#で使う - Qiita&lt;/h3&gt;
