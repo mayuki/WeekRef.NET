@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Tue, 19 Apr 2022 09:15:30 GMT</pubDate>
-		<lastBuildDate>Tue, 19 Apr 2022 09:15:30 GMT</lastBuildDate>
+		<pubDate>Tue, 19 Apr 2022 10:09:38 GMT</pubDate>
+		<lastBuildDate>Tue, 19 Apr 2022 10:09:38 GMT</lastBuildDate>
 		<item>
 			<title>2022-04-19: .NET 7 Preview 3, MAUI RC1, .NET 6.0.4</title>
 			<link>/2022/04/19/updates</link>
@@ -145,7 +145,7 @@
 &lt;h3 id="c-11-preview-updates-raw-string-literals-utf-8-and-more"&gt;C# 11 Preview Updates - Raw string literals, UTF-8 and more!&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/csharp-11-preview-updates/"&gt;https://devblogs.microsoft.com/dotnet/csharp-11-preview-updates/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;C# 11 Preview についての記事。&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 17.2 Preview 3 または .NET 7 Preview 3 以降で使用することのできる C# 11 のプレビュー機能を紹介している。&lt;/p&gt;
+&lt;p&gt;C# 11 で導入される予定の機能を紹介している。Raw string literals など一部の機能は既に Visual Studio 2022 17.2 Preview 3 または .NET 7 Preview 3 以降で使用できるが、それ以降を予定しているものも多いので注意。対応状況は&lt;a href="https://github.com/dotnet/roslyn/blob/main/docs/Language%20Feature%20Status.md"&gt;Language Feature Status&lt;/a&gt;を参照のこと。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Raw string literals
 &lt;ul&gt;
