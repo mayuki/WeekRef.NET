@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Tue, 19 Apr 2022 09:12:14 GMT</pubDate>
-		<lastBuildDate>Tue, 19 Apr 2022 09:12:14 GMT</lastBuildDate>
+		<pubDate>Tue, 19 Apr 2022 09:15:30 GMT</pubDate>
+		<lastBuildDate>Tue, 19 Apr 2022 09:15:30 GMT</lastBuildDate>
 		<item>
 			<title>2022-04-19: .NET 7 Preview 3, MAUI RC1, .NET 6.0.4</title>
 			<link>/2022/04/19/updates</link>
@@ -147,38 +147,34 @@
 &lt;p&gt;C# 11 Preview についての記事。&lt;/p&gt;
 &lt;p&gt;Visual Studio 2022 17.2 Preview 3 または .NET 7 Preview 3 以降で使用することのできる C# 11 のプレビュー機能を紹介している。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Raw string literals&lt;/p&gt;
+&lt;li&gt;Raw string literals
 &lt;ul&gt;
 &lt;li&gt;いわゆるヒアドキュメント的な文字列を埋め込む記法&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;UTF-8 文字列リテラル&lt;/p&gt;
+&lt;li&gt;UTF-8 文字列リテラル
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;byte[]&lt;/code&gt; や &lt;code&gt;Span&amp;lt;byte&amp;gt;&lt;/code&gt; といった型へ文字列を代入する形で UTF-8 バイト列となる記法&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;code&gt;checked&lt;/code&gt; ユーザー定義演算子&lt;/p&gt;
+&lt;li&gt;&lt;code&gt;checked&lt;/code&gt; ユーザー定義演算子
 &lt;ul&gt;
 &lt;li&gt;算術オーバー/アンダーフローの取り扱いが可能になる&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;構造体の自動デフォルト&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;code&gt;Span&lt;/code&gt; のパターンマッチング&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;メソッドグループ変換でキャッシュされたデリゲートを使用&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;パラメータ null チェックの削除&lt;/p&gt;
+&lt;li&gt;構造体の自動デフォルト&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Span&lt;/code&gt; のパターンマッチング&lt;/li&gt;
+&lt;li&gt;メソッドグループ変換でキャッシュされたデリゲートを使用&lt;/li&gt;
+&lt;li&gt;パラメータ null チェックの削除
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;!!&lt;/code&gt; でパラメータに null がセットされていることをチェックして例外を投げる記法を一旦取り下げ&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;小文字の型名に関する警告&lt;/p&gt;
+&lt;li&gt;小文字の型名に関する警告
 &lt;ul&gt;
 &lt;li&gt;C# ではキーワードに小文字を使用しているため、破壊的変更を防ぐために小文字の型名に対して警告する&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.paranoidcoding.com/2022/04/11/lowercase-type-names.html"&gt;Warning on lower case type names in C# 11&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://blog.paranoidcoding.com/2022/04/11/lowercase-type-names.html"&gt;Warning on lower case type names in C# 11&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="resharper-2022.1-release-candidate-is-out"&gt;ReSharper 2022.1 Release Candidate is out&lt;/h3&gt;
