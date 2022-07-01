@@ -7,12 +7,12 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2022-07-01T08:32:51Z</updated>
+	<updated>2022-07-01T08:51:54Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
 		<id>/2022/07/01/updates</id>
-		<title>2022-07-01: Uno Platform 4.4, Leveraging trimming to make the Microsoft Store faster and reduce its binary size</title>
+		<title>2022-07-01: Uno Platform 4.4, Leveraging trimming to make the Microsoft Store faster and reduce its binary size, StackExchange.Redis 2.6.48</title>
 		<author>
 			<name>Mayuki Sawatari</name>
 		</author>
@@ -45,6 +45,16 @@
 &lt;p&gt;ケーススタディーとして動的なプロパティーの取得や XAML のページレイアウトセレクターの型名の取得などといったコードでリフレクションをいかにして減らしたかを説明している。また、オープンソースの Windows Community Toolkit でのトリミングの問題解消に貢献したとのこと。&lt;/p&gt;
 &lt;p&gt;トリミングによって Microsoft Store のアプリケーションバイナリサイズが 25% 程度削減できたとしている。&lt;/p&gt;
 &lt;p&gt;まとめとしてトリミングの有効化は落とし穴や必要な作業も増えてしまうがとても価値があり、新しいコードを書くときは常にパフォーマンスとトリミングを念頭に置くことが重要であるとしている。これは後からトリミングを有効にした際のエラーを減らして時間を節約できることに繋がる他、(リフレクションなどによる)エラーの発生しにくいコードを書くことを強制されるためとしている。&lt;/p&gt;
+&lt;h3 id="stackexchange.redis-2.6.48-is-now-deployed"&gt;StackExchange.Redis 2.6.48 is now deployed&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/marcgravell/status/1541782061278789632"&gt;https://twitter.com/marcgravell/status/1541782061278789632&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;StackExchange.Redis 2.6.48 がリリースされた。&lt;/p&gt;
+&lt;p&gt;直前にリリースされたバージョン 2.6.45 でのバッチ/トランザクションハンドリングに問題があり、正しくトランザクションに入らない可能性があるため、2.6.45 を使用している場合には更新の必要がある。(2.6.45 は NuGet から取り下げ済)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/StackExchange/StackExchange.Redis/pull/2177"&gt;URGENT Fix error in batch/transaction handling by mgravell · Pull Request #2177 · StackExchange/StackExchange.Redis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- https://twitter.com/marcgravell/status/1541782061278789632?s=20&amp;t=iAAZQNQJkSxrjSRojc2y7g --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;StackExchange.Redis 2.6.48 is now deployed; this is considered a critical update if you&amp;#39;re using the recent 2.6.45 (if you&amp;#39;re not using that: no urgency) &lt;a href="https://t.co/ri2dIYXMdF"&gt;https://t.co/ri2dIYXMdF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Marc Gravell (&amp;#64;marcgravell) &lt;a href="https://twitter.com/marcgravell/status/1541782061278789632?ref_src=twsrc%5Etfw"&gt;June 28, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 &lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
 &lt;h3 id="cosmos-db.net-qiita"&gt;Cosmos DBに対する .NET での再試行ロジック - Qiita&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://qiita.com/hamu502/items/2cc26723c010fa7e6ca4"&gt;https://qiita.com/hamu502/items/2cc26723c010fa7e6ca4&lt;/a&gt;&lt;/p&gt;

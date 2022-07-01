@@ -10,7 +10,7 @@
     <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
     <meta name="author" content="Mayuki Sawatari">
 
-  <title>2022-07-01: Uno Platform 4.4, Leveraging trimming to make the Microsoft Store faster and reduce its binary size - WeekRef.NET</title>
+  <title>2022-07-01: Uno Platform 4.4, Leveraging trimming to make the Microsoft Store faster and reduce its binary size, StackExchange.Redis 2.6.48 - WeekRef.NET</title>
 
   <link rel="canonical" href="/2022/07/01/updates">
 
@@ -20,7 +20,7 @@
   <meta name="msapplication-tooltip" content="WeekRef.NET" />
   <meta name="msapplication-starturl" content="/" />
 
-  <meta property="og:title" content="2022-07-01: Uno Platform 4.4, Leveraging trimming to make the Microsoft Store faster and reduce its binary size - WeekRef.NET" />
+  <meta property="og:title" content="2022-07-01: Uno Platform 4.4, Leveraging trimming to make the Microsoft Store faster and reduce its binary size, StackExchange.Redis 2.6.48 - WeekRef.NET" />
     <meta property="og:image" content="/img/logo.png" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="/2022/07/01/updates" />
@@ -90,7 +90,7 @@
       <div class="col-md-12">
         <div class="post-heading">
           <h1>
-            2022-07-01: Uno Platform 4.4, Leveraging trimming to make the Microsoft Store faster and reduce its binary size
+            2022-07-01: Uno Platform 4.4, Leveraging trimming to make the Microsoft Store faster and reduce its binary size, StackExchange.Redis 2.6.48
           </h1>
               <div class="meta">Published on Friday, 01 July 2022</div>
         </div>
@@ -129,6 +129,16 @@
 <p>ケーススタディーとして動的なプロパティーの取得や XAML のページレイアウトセレクターの型名の取得などといったコードでリフレクションをいかにして減らしたかを説明している。また、オープンソースの Windows Community Toolkit でのトリミングの問題解消に貢献したとのこと。</p>
 <p>トリミングによって Microsoft Store のアプリケーションバイナリサイズが 25% 程度削減できたとしている。</p>
 <p>まとめとしてトリミングの有効化は落とし穴や必要な作業も増えてしまうがとても価値があり、新しいコードを書くときは常にパフォーマンスとトリミングを念頭に置くことが重要であるとしている。これは後からトリミングを有効にした際のエラーを減らして時間を節約できることに繋がる他、(リフレクションなどによる)エラーの発生しにくいコードを書くことを強制されるためとしている。</p>
+<h3 id="stackexchange.redis-2.6.48-is-now-deployed">StackExchange.Redis 2.6.48 is now deployed</h3>
+<p><a href="https://twitter.com/marcgravell/status/1541782061278789632">https://twitter.com/marcgravell/status/1541782061278789632</a></p>
+<p>StackExchange.Redis 2.6.48 がリリースされた。</p>
+<p>直前にリリースされたバージョン 2.6.45 でのバッチ/トランザクションハンドリングに問題があり、正しくトランザクションに入らない可能性があるため、2.6.45 を使用している場合には更新の必要がある。(2.6.45 は NuGet から取り下げ済)</p>
+<ul>
+<li><a href="https://github.com/StackExchange/StackExchange.Redis/pull/2177">URGENT Fix error in batch/transaction handling by mgravell · Pull Request #2177 · StackExchange/StackExchange.Redis</a></li>
+</ul>
+<!-- https://twitter.com/marcgravell/status/1541782061278789632?s=20&t=iAAZQNQJkSxrjSRojc2y7g -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">StackExchange.Redis 2.6.48 is now deployed; this is considered a critical update if you&#39;re using the recent 2.6.45 (if you&#39;re not using that: no urgency) <a href="https://t.co/ri2dIYXMdF">https://t.co/ri2dIYXMdF</a></p>&mdash; Marc Gravell (&#64;marcgravell) <a href="https://twitter.com/marcgravell/status/1541782061278789632?ref_src=twsrc%5Etfw">June 28, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <h2 id="section-1">アーティクル、スライドなど</h2>
 <h3 id="cosmos-db.net-qiita">Cosmos DBに対する .NET での再試行ロジック - Qiita</h3>
 <p><a href="https://qiita.com/hamu502/items/2cc26723c010fa7e6ca4">https://qiita.com/hamu502/items/2cc26723c010fa7e6ca4</a></p>
