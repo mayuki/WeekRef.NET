@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2022-07-10: AWS .NET deployment tool, Increased Subscription Pricing for JetBrains products, CoreWCF 1.1.0 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2022/07/10/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2022-07-10: AWS .NET deployment tool, Increased Subscription Pricing for JetBrains products, CoreWCF 1.1.0 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2022/07/10/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2022-07-10: AWS .NET deployment tool, Increased Subscription Pricing for JetBrains products, CoreWCF 1.1.0
+          </h1>
+              <div class="meta">Published on Sunday, 10 July 2022</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="aws-announces-a-streamlined-deployment-experience-for.net-applications-in.net-cli-and-visual-studio">AWS announces a streamlined deployment experience for .NET applications in .NET CLI and Visual Studio</h3>
+<p><a href="https://aws.amazon.com/jp/about-aws/whats-new/2022/07/aws-streamlined-deployment-net-applications-cli-visual-studio/">https://aws.amazon.com/jp/about-aws/whats-new/2022/07/aws-streamlined-deployment-net-applications-cli-visual-studio/</a></p>
+<p>.NET アプリケーションを AWS に簡単にデプロイするための CLI と Visual Studio 向けの拡張が一般公開となった。</p>
+<p>適切なコンピュートの選択や Dockerfile の自動生成、パッケージングとデプロイといったことを支援するツール。例えば <code>dotnet aws deploy ...</code> で ECS や App Runner にデプロイできる。</p>
+<ul>
+<li><a href="https://aws.github.io/aws-dotnet-deploy/">AWS .NET deployment tool</a></li>
+</ul>
+<h3 id="ide.net-all-products-pack-jetbrains-news">IDE、.NET ツール、および All Products Pack のサブスクリプションの価格改定 | JetBrains News</h3>
+<p><a href="https://blog.jetbrains.com/ja/blog/2022/06/29/increased-subscription-pricing-for-ides-net-tools-and-the-all-products-pack/">https://blog.jetbrains.com/ja/blog/2022/06/29/increased-subscription-pricing-for-ides-net-tools-and-the-all-products-pack/</a></p>
+<p>JetBrains の IDE や .NET ツール、All Products Pack のサブスクリプションの価格が改訂されるというアナウンス。</p>
+<p>ReSharper や Rider を含む、多くの JetBrains 製品のサブスクリプションの価格が改訂され値上がりとなる。この新しい価格は2022年10月1日から適用される。</p>
+<p>個人向けのプランでは最大2年または3年の、法人向けプランでは最大2年の現行の価格での先払いが可能となっている。</p>
+<table class="table">
+<thead>
+<tr>
+<th>製品 (個人向け)</th>
+<th>現行価格 (税込; 1年目)</th>
+<th>改定後価格 (税込; 1年目)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All Products Pack</td>
+<td>31,570 円</td>
+<td>38,148 円</td>
+</tr>
+<tr>
+<td>dotUltimate (Rider + ReSharper)</td>
+<td>18,920 円</td>
+<td>22,308 円</td>
+</tr>
+<tr>
+<td>ReSharper</td>
+<td>16,390 円</td>
+<td>18,348 円</td>
+</tr>
+<tr>
+<td>Rider</td>
+<td>17,600 円</td>
+<td>19,668 円</td>
+</tr>
+</tbody>
+</table>
+<h3 id="corewcf-1.1.0-and-project-templates.net-blog">CoreWCF 1.1.0 and project templates - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/corewcf-1-1-0-and-project-templates/">https://devblogs.microsoft.com/dotnet/corewcf-1-1-0-and-project-templates/</a></p>
+<p>CoreWCF 1.1 がリリースされた。</p>
+<p>HTTP 上のトランスポートセキュリティーでの偽装や WebHttpBinding で生成する Swagger ファイルを変更するための新しい API といった小さな改善が含まれている。</p>
+<p>記事ではこのリリースで追加されたプロジェクトテンプレートについても紹介している。</p>
+<h3 id="release-release-v2.47.0-grpcgrpc-dotnet">Release Release v2.47.0 · grpc/grpc-dotnet</h3>
+<p><a href="https://github.com/grpc/grpc-dotnet/releases/tag/v2.47.0">https://github.com/grpc/grpc-dotnet/releases/tag/v2.47.0</a></p>
+<p>grpc-dotnet 2.47.0 がリリースされた。</p>
+<p>HttpClientBuilder で AddCallCredentials に CallCredentials を受け取るオーバーロードの追加のほかいくつかの不具合が修正されている。</p>
+<h3 id="net-data-frameworks-biweekly-updates-2022-issue-27185-dotnetefcore">.NET Data Frameworks Biweekly Updates (2022) · Issue #27185 · dotnet/efcore</h3>
+<p><a href="https://github.com/dotnet/efcore/issues/27185">https://github.com/dotnet/efcore/issues/27185</a></p>
+<p>Entity Framework を含むデータフレームワークの隔週更新情報の7月7日分。</p>
+<p>Entity Framework 7 で値オブジェクトのサポートとマップされていない型に対する生 SQL クエリーのサポートがカットされたとのこと。</p>
+<!-- https://twitter.com/ajcvickers/status/1545089731385491458?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">EF Core Biweekly Update<br><br>Unfortunately, we have had to make some painful cuts for EF7. Most notably, value objects and raw SQL for unmapped types are cut. 😢<br><br>In better news, interceptors for query expressions and concurrency exceptions are now merged! 🦄<a href="https://t.co/4RGMEMJtB4">https://t.co/4RGMEMJtB4</a></p>&mdash; Arthur Vickers (&#64;ajcvickers) <a href="https://twitter.com/ajcvickers/status/1545089731385491458?ref_src=twsrc%5Etfw">July 7, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="c-c-10-ref-field">(C#) C# 10でも ref field したい - ネコのために鐘は鳴る</h3>
+<p><a href="https://ikorin2.hatenablog.jp/entry/2022/07/02/203741">https://ikorin2.hatenablog.jp/entry/2022/07/02/203741</a></p>
+<p>C# 11 で導入される ref field と同様なことを <code>Span&lt;T&gt;</code> で実現するというテクニックについての記事。</p>
+<h3 id="azure-sdk-for.net-defaultazurecredential-tech.guitarrapc.com">Azure SDK for .NET の認証を DefaultAzureCredential にそろえる - tech.guitarrapc.cóm</h3>
+<p><a href="https://tech.guitarrapc.com/entry/2022/07/06/012351">https://tech.guitarrapc.com/entry/2022/07/06/012351</a></p>
+<p>Azure SDK for .NET に古くからの <code>AzureCredentials</code> と現在推奨される <code>DefaultAzureCredential</code> があり、それを <code>DefaultAzureCredential</code> で共通に扱う方法についての記事。</p>
+<h3 id="manage.net-microservices-apis-with-apache-apisix-api-gateway">Manage .NET Microservices APIs with Apache APISIX API Gateway</h3>
+<p><a href="https://dev.to/apisix/manage-net-microservices-apis-with-apache-apisix-api-gateway-2cbk">https://dev.to/apisix/manage-net-microservices-apis-with-apache-apisix-api-gateway-2cbk</a></p>
+<p>Apache APISIX API Gateway を使用して .NET の Web API を扱う例についての記事。</p>
+<h3 id="back-to-basics-custom-http-response-header-manipulation-in-asp.net-core-rick-strahls-web-log">Back to Basics: Custom HTTP Response Header Manipulation in ASP.NET Core - Rick Strahl's Web Log</h3>
+<p><a href="https://weblog.west-wind.com/posts/2022/Jul/07/Back-to-Basics-Custom-HTTP-Response-Header-Manipulation-in-ASPNET-Core">https://weblog.west-wind.com/posts/2022/Jul/07/Back-to-Basics-Custom-HTTP-Response-Header-Manipulation-in-ASPNET-Core</a></p>
+<p>ASP.NET Core でカスタム HTTP レスポンスヘッダーを取り扱う方法についてのおさらい記事。MVC のアクションの中、ミドルウェア、Web.config といったものを説明している。</p>
+<h3 id="net-annotated-monthly-july-2022-the.net-tools-blog">.NET Annotated Monthly | July 2022 | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2022/07/05/net-annotated-monthly-july-2022/">https://blog.jetbrains.com/dotnet/2022/07/05/net-annotated-monthly-july-2022/</a></p>
+<p>JetBrains による .NET 関連情報のまとめ、7月号。</p>
+<h3 id="graphql-for.net">GraphQL For .NET</h3>
+<p><a href="https://dev.to/drminnaar/graphql-for-net-38lc">https://dev.to/drminnaar/graphql-for-net-38lc</a></p>
+<p>GraphQL の API サーバーを構築する方法をステップバイステップで解説している記事。</p>
+<p>サーバーの構築からミューテーション、Entity Framework Core の利用やクエリープロジェクションといったことに触れている。</p>
+<h3 id="asp.net-core-web-qiita">複数のASP.NET Core Webアプリーションでセッション情報を共有する方法 - Qiita</h3>
+<p><a href="https://qiita.com/Shuji_Kitamura/items/e8fa20c30b8bb52d5d84">https://qiita.com/Shuji_Kitamura/items/e8fa20c30b8bb52d5d84</a></p>
+<p>複数の ASP.NET Core アプリケーション間でセッション情報を共有する方法についての記事。</p>
+<p>記事では Redis を使用してアプリケーション間でセッションを共有する構成を解説している。</p>
+<h3 id="monodigit-separator-qiita">MonoでDigit Separator (桁区切り文字)にハメられた話 - Qiita</h3>
+<p><a href="https://qiita.com/ktz_alias/items/42359f5fe76f2cf21ac9">https://qiita.com/ktz_alias/items/42359f5fe76f2cf21ac9</a></p>
+<p>Mono の mcs (C# コンパイラー) では Digit Separators (桁区切り文字; 数字区切り文字) の処理に不具合があり、不正な値となる問題があるという記事。</p>
+<p>Roslyn では問題がないため、Mono かつ mcs を使用している場合に影響を受けるので外部のサービスなどで注意が必要なケースがある(Mono には Roslyn の csc も含まれている)。</p>
+<h3 id="maui">MAUI で独自のコントロールを作る方法のメモ</h3>
+<p><a href="https://zenn.dev/okazuki/articles/maui-custom-control">https://zenn.dev/okazuki/articles/maui-custom-control</a></p>
+<p>MAUI でネイティブのコントロールを使用するカスタムコントロールを実装する方法についての記事。</p>
+<h3 id="c-11-generic-attributes-more-than-syntax-sugar">C# 11 Generic Attributes More Than Syntax Sugar</h3>
+<p><a href="https://gsferreira.com/archive/2022/csharp-11-generic-attributes-more-than-syntax-sugar/">https://gsferreira.com/archive/2022/csharp-11-generic-attributes-more-than-syntax-sugar/</a></p>
+<p>C# 11 (.NET 7) で導入されるジェネリック属性についての記事。</p>
+<p>簡単なコード例でどのような形で利用できるのかといったことを紹介している。</p>
+<h3 id="net-maui-ui-july-outlook-clone">.NET MAUI UI July: Outlook Clone</h3>
+<p><a href="https://goforgoldman.com/2022/06/30/outlook-clone.html">https://goforgoldman.com/2022/06/30/outlook-clone.html</a></p>
+<p>.NET MAUI で Outlook の UI を再現してみるという記事。</p>
+<h3 id="distribute-visual-studio-project-templates">Distribute Visual Studio project templates</h3>
+<p><a href="https://pieterjandeclippel.medium.com/distribute-visual-studio-project-templates-1788324cc842">https://pieterjandeclippel.medium.com/distribute-visual-studio-project-templates-1788324cc842</a></p>
+<p>Visual Studio (.NET SDK) のプロジェクトテンプレートを配布する方法についての記事。</p>
+<h3 id="creating-a-treeview-control-in.net-maui">Creating a TreeView control in .NET MAUI</h3>
+<p><a href="https://dev.to/icebeam7/creating-a-treeview-control-in-net-maui-49mp">https://dev.to/icebeam7/creating-a-treeview-control-in-net-maui-49mp</a></p>
+<p>.NET MAUI でツリービューコントロールを実装するという記事。</p>
+<h3 id="containerizing-a-running-application-with-aws-app2container-bill-the-vest-guy">Containerizing a Running Application with AWS App2Container - Bill, the Vest Guy</h3>
+<p><a href="https://billthevestguy.com/2022/07/03/containerizing-a-running-application-with-aws-app2container/">https://billthevestguy.com/2022/07/03/containerizing-a-running-application-with-aws-app2container/</a></p>
+<p>.NET Framework で実装されたアプリケーションを AWS App2Container でコンテナー化する方法についての記事。</p>
+<h3 id="the-best.net-decompiler-comparison-guide-free-and-paid">The Best .NET Decompiler Comparison Guide ✅ (Free and Paid)</h3>
+<p><a href="https://blog.dotnetsafer.com/best-dotnet-decompilers/">https://blog.dotnetsafer.com/best-dotnet-decompilers/</a></p>
+<p>.NET のデコンパイラー(有償および無償)を比較紹介している記事。</p>
+<p>記事では ildasm, ILSpy, DnSpy, 9Rays Spices.Net, Redgate .NET Reflector, JustDecompile, dotPeek のそれぞれの特徴を紹介している。</p>
+<h3 id="returning-xml-from-minimal-apis-in.net-6">Returning XML from minimal APIs in .NET 6</h3>
+<p><a href="https://andrewlock.net/returning-xml-from-minimal-apis-in-dotnet-6/">https://andrewlock.net/returning-xml-from-minimal-apis-in-dotnet-6/</a></p>
+<p>ASP.NET Core の Minimal APIs で XML を返すリザルトを実装する方法についての記事。</p>
+<p>記事では RecyclableMemoryStream を使用したバッファーのプーリングについても触れている。</p>
+<h3 id="checking-orleans-with-the-pvs-studio-analyzer-dev-community">Checking Orleans with the PVS-Studio analyzer - DEV Community</h3>
+<p><a href="https://dev.to/unicorn_developer/checking-orleans-with-the-pvs-studio-analyzer-3id2">https://dev.to/unicorn_developer/checking-orleans-with-the-pvs-studio-analyzer-3id2</a></p>
+<p>Orleans を PVS-Studio Analyzer (有償の静的コードアナライザー) で解析して見つかった問題を紹介する記事。</p>
+<p>初期化の順番、重複したコードといった様々な問題が発見されている。</p>
+<h3 id="story-about-graceful-termination-with-modern.net">Story about graceful termination with modern .NET</h3>
+<p><a href="https://blog.kbegiedza.eu/dotnet-and-story-about-graceful-termination">https://blog.kbegiedza.eu/dotnet-and-story-about-graceful-termination</a></p>
+<p>.NET アプリケーションでコンテナーのシャットダウン要求のようなグレースフルな終了を実装する方法についての記事。</p>
+<p>記事では Microsoft.Extensions.Hosting の BackgroundService を使用した方法を紹介している。</p>
+<h3 id="visual-studio-2022-tech.guitarrapc.com">Visual Studio 2022 でインラインで型名やパラメーター名を表示する設定 - tech.guitarrapc.cóm</h3>
+<p><a href="https://tech.guitarrapc.com/entry/2022/07/08/015920">https://tech.guitarrapc.com/entry/2022/07/08/015920</a></p>
+<p>Visual Studio 2022 で導入されたインラインヒント (ReSharper や Rider の Inlay hints と同様の機能) を有効にする方法を紹介する記事。</p>
+<h3 id="tag-helper-for-display-templates-youve-been-haacked">Tag Helper for Display Templates | You've Been Haacked</h3>
+<p><a href="http://haacked.com/archive/2022/07/08/display-template-tag-helper/">http://haacked.com/archive/2022/07/08/display-template-tag-helper/</a></p>
+<p><code>Html.DisplayFor(...)</code> の代わりに <code>&lt;display for=&quot;...&quot;&gt;</code> で呼び出せるタグヘルパーを実装するという記事。</p>
+<h3 id="the-fastest.net-ever-the-latest-new-features-of.net-7-confirm-the-rumors">The FASTEST .NET Ever? The Latest New Features of .NET 7 Confirm the Rumors</h3>
+<p><a href="https://blog.dotnetsafer.com/dotnet-7-performance-features-benchmark-comparison/">https://blog.dotnetsafer.com/dotnet-7-performance-features-benchmark-comparison/</a></p>
+<p>.NET 7 で達成されるといわれているパフォーマンス改善について紹介している記事。</p>
+<p>リフレクション、On Stack Replacement、起動時間や AOT など。</p>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="damianedwardsblazoridentity-an-exploration-of-recreating-the-asp.net-core-identity-ui-functionality-in-blazor-components">DamianEdwards/BlazorIdentity: An exploration of recreating the ASP.NET Core Identity UI functionality in Blazor components.</h3>
+<p><a href="https://github.com/DamianEdwards/BlazorIdentity">https://github.com/DamianEdwards/BlazorIdentity</a></p>
+<p>Blazor で ASP.NET Core Identity の UI を再実装しているライブラリー。</p>
+<h3 id="skater.net-obfuscator-index">Skater .NET Obfuscator - Index</h3>
+<p><a href="https://skaterpro.net/">https://skaterpro.net/</a></p>
+<p>有償の .NET 向け難読化ツール。</p>
+<h2 id="section-3">サイト、ドキュメントなど</h2>
+<h3 id="section-4">ツイート</h3>
+<!-- https://twitter.com/tannergooding/status/1543456262230200320?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I should clarify no differences in &quot;normal&quot; single threaded code.<br><br>You can pretty easily create observable differences in safe single threaded code if you know what you&#39;re doing.<br><br>It&#39;s just expected most methods and ideas won&#39;t do something like that so it wouldn&#39;t be an issue</p>&mdash; Tanner Gooding (&#64;tannergooding) <a href="https://twitter.com/tannergooding/status/1543456262230200320?ref_src=twsrc%5Etfw">July 3, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p><code>in</code> 修飾子をつけても値渡しと違いはないといったツイートから、実際には大きい構造体以外では複雑なコード生成によるパフォーマンスの悪化や、防衛的コピーやマルチスレッドでの問題の発生といったことがあるよというツッコミ。</p>
+<!-- https://twitter.com/tannergooding/status/1545096402732167168?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This means that you need to consider `constexpr` in the face of &quot;ref assembly&quot;.<br><br>You need to consider `constexpr` in the face of runtime differences or behaviors (say Roslyn runs on Mono and the user has set an environment variable opting into &quot;fast math&quot;, changing the result)</p>&mdash; Tanner Gooding (&#64;tannergooding) <a href="https://twitter.com/tannergooding/status/1545096402732167168?ref_src=twsrc%5Etfw">July 7, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>C# では <code>Math.Floor(100/7)</code> をコンパイル時定数化できないんですか?という問いに対して、JIT はできるかもしれないが C# (Roslyn) はその関数が決定論的に pure な関数であることを伝えることができないので無理という話。</p>
+<h2 id="deep-dive">Deep Dive</h2>
+<h3 id="arm64-server-throughput-address-many-core-scaling-challenges-issue-70528-dotnetruntime">[Arm64 Server Throughput] Address many-core scaling challenges · Issue #70528 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/issues/70528#issuecomment-1171487696">https://github.com/dotnet/runtime/issues/70528#issuecomment-1171487696</a></p>
+<p>ARM64 のメニーコアサーバーでのスケーリングに関する Issue。</p>
+<p>.NET 7 では .NET 6 に比べて最大5倍のパフォーマンスを出せるようになったというコメント。</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
