@@ -7,9 +7,153 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2022-07-10T03:36:04Z</updated>
+	<updated>2022-07-16T10:44:45Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
+	<entry>
+		<id>/2022/07/16/updates</id>
+		<title>2022-07-16: .NET 7 Preview 6, Rate Limiting API, .NET Core 3.1 EoS on December 13, 2022</title>
+		<author>
+			<name>Mayuki Sawatari</name>
+		</author>
+		<link href="/2022/07/16/updates" />
+		<link rel="enclosure" type="image" href="/img/logo.png" />
+		<updated>2022-07-16T00:00:00Z</updated>
+		<content>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="announcing.net-7-preview-6.net-blog"&gt;Announcing .NET 7 Preview 6 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-6/"&gt;https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-6/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 7 Preview 6 がリリースされた。&lt;/p&gt;
+&lt;p&gt;このプレビューリリースでは型コンバーターの改善、JSON コントラクトのカスタマイズ、System.Formats.Tar API の更新、.NET プロジェクトテンプレートの制約、コード生成によるパフォーマンス改善などが含まれている。&lt;/p&gt;
+&lt;p&gt;型コンバーター (TypeConverter) では新たに DateOnly, TimeOnly, Int128, UInt128, Half といった型をサポートした。JSON コントラクトのカスタマイズではプロパティーのシリアライズの挙動をコンバーターなしでコントロールしたりといったことが可能となる。&lt;/p&gt;
+&lt;p&gt;System.Formats.Tar API にはグローバル拡張属性 (GEA) のサポートや複数のエントリー形式の混在のサポートが対応されている。&lt;/p&gt;
+&lt;p&gt;.NET プロジェクトテンプレートに制約の概念が導入され、OS やテンプレートエンジンホスト (.NET CLI や Visual Studio)、インストールされているワークロードといった条件を設定できるようになった。現在は CLI でのサポートのみで Visual Studio でのサポートも進めているとのこと。将来的には MSBuild のプロパティーに基づく制約などもサポートするとのこと。そのほか複数項目選択や終了コードの統一といった改善も含まれる。&lt;/p&gt;
+&lt;h3 id="asp.net-core-updates-in.net-7-preview-6.net-blog"&gt;ASP.NET Core updates in .NET 7 Preview 6 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-dotnet-7-preview-6/"&gt;https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-dotnet-7-preview-6/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 7 Preview 6 での ASP.NET Core のアップデートについてのアナウンス記事。&lt;/p&gt;
+&lt;p&gt;このプレビューリリースでは次の新機能や改善が含まれている。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;リクエスト圧縮展開ミドルウェア&lt;/li&gt;
+&lt;li&gt;出力キャッシュミドルウェア&lt;/li&gt;
+&lt;li&gt;レートリミットミドルウェアの更新&lt;/li&gt;
+&lt;li&gt;Kestrel での HTTP/2 上の WebSockets のサポート&lt;/li&gt;
+&lt;li&gt;Kestrel の多コアマシンでのパフォーマンス改善&lt;/li&gt;
+&lt;li&gt;W3CLogger での付加的なリクエストヘッダーのロギングのサポート&lt;/li&gt;
+&lt;li&gt;空の Blazor プロジェクトテンプレート&lt;/li&gt;
+&lt;li&gt;WebAssembly での System.Security.Cryptography のサポート&lt;/li&gt;
+&lt;li&gt;Blazor カスタム要素 (Blazor custom elements) の非実験的な位置づけへの変更&lt;/li&gt;
+&lt;li&gt;Blazor の実験的な QuickGrid コンポーネント&lt;/li&gt;
+&lt;li&gt;gRPC JSON トランスコーディングの複数に分割されたパラメータ&lt;/li&gt;
+&lt;li&gt;MapGroup で多くの拡張メソッドをサポート&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+リクエスト圧縮展開ミドルウェアはクライアントからのリクエストが `Content-Encoding: gzip` のような形で圧縮されている場合に展開する。レスポンスの圧縮と同様に GZip, Brotli, Deflate またはカスタムな形式をサポートする。
+--&gt;
+&lt;h3 id="announcing-entity-framework-core-7-preview-6-performance-edition.net-blog"&gt;Announcing Entity Framework Core 7 Preview 6: Performance Edition - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-ef7-preview6/"&gt;https://devblogs.microsoft.com/dotnet/announcing-ef7-preview6/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Entity Framework Core 7 Preview 6 がリリースされたことに合わせてパフォーマンス改善についての記事。&lt;/p&gt;
+&lt;p&gt;記事では SaveChanges でのラウンドトリップの削減について、SQL Server での複数行の INSERT の改善といったパフォーマンスに関する改善を紹介している。&lt;/p&gt;
+&lt;h3 id="announcing-rate-limiting-for.net.net-blog"&gt;Announcing Rate Limiting for .NET - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/"&gt;https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 7 で導入されるレートリミッターの API についての紹介記事。&lt;/p&gt;
+&lt;p&gt;記事では .NET 7 のレートリミッターがサポートするアルゴリズムと API について説明している。レートリミッターは「同時実行制限」「トークンバケット制限」「固定ウィンドウ制限」「スライディングウィンドウ制限」の4つのアルゴリズムを提供する。&lt;/p&gt;
+&lt;p&gt;API についてはそれぞれのアルゴリズムでの使用や、HttpClient と組み合わせた場合の使い方、ASP.NET Core のミドルウェアでの利用にも触れている。&lt;/p&gt;
+&lt;h3 id="net-core-3.1-will-reach-end-of-support-on-december-13-2022.net-blog"&gt;.NET Core 3.1 will reach End of Support on December 13, 2022 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/net-core-3-1-will-reach-end-of-support-on-december-13-2022/"&gt;https://devblogs.microsoft.com/dotnet/net-core-3-1-will-reach-end-of-support-on-december-13-2022/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET Core 3.1 が2022年12月13日でサポート終了となるというアナウンス。&lt;/p&gt;
+&lt;p&gt;2022年12月13日以降セキュリティー修正はリリースされなくなるため、.NET 6 (LTS) への移行が推奨される。またこれによってサポート終了後には Visual Studio 2019 および 2022 では .NET Core 3.1 コンポーネントのインストールがサポート外となりオプションに変更される。インストール済みのものや、手動でインストールした場合には引き続き利用できるが Visual Studio 2022 の .NET 6 への移行が推奨される。&lt;/p&gt;
+&lt;h3 id="net-framework-july-2022-security-and-quality-rollup-updates.net-blog"&gt;.NET Framework July 2022 Security and Quality Rollup Updates - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-framework-july-2022-security-and-quality-rollup-updates/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-framework-july-2022-security-and-quality-rollup-updates/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET Framework の2022年7月のセキュリティーと累積アップデートがリリースされた。&lt;/p&gt;
+&lt;p&gt;このリリースでは新しいセキュリティー修正は含まれないが、6月のリリースが正しく累積されておらず、セキュリティー更新のいくつかが含まれていなかった問題が修正されている。&lt;/p&gt;
+&lt;h3 id="net-july-2022-updates.net-6.0.7-and.net-core-3.1.27.net-blog"&gt;.NET July 2022 Updates – .NET 6.0.7 and .NET Core 3.1.27 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/july-2022-updates/"&gt;https://devblogs.microsoft.com/dotnet/july-2022-updates/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 6.0.7 と .NET Core 3.1.27 がリリースされた。&lt;/p&gt;
+&lt;p&gt;このリリースでは新しいセキュリティー修正は含まれておらず、不具合の修正や改善といったものが含まれるものとなっている。&lt;/p&gt;
+&lt;h3 id="microsoft-open-sources-salus-software-bill-of-materials-sbom-generation-tool"&gt;Microsoft open sources Salus software bill of materials (SBOM) generation tool&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/engineering-at-microsoft/microsoft-open-sources-salus-software-bill-of-materials-sbom-generation-tool/"&gt;https://devblogs.microsoft.com/engineering-at-microsoft/microsoft-open-sources-salus-software-bill-of-materials-sbom-generation-tool/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;SBOM (ソフトウェア部品表) の生成ツールがオープンソースでリリースされた。&lt;/p&gt;
+&lt;p&gt;成果物をスキャンしてファイルや各種依存パッケージといった情報を SPDX 形式で出力することのできるツール。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/microsoft/sbom-tool"&gt;microsoft/sbom-tool: The SBOM tool is a highly scalable and enterprise ready tool to create SPDX 2.2 compatible SBOMs for any variety of artifacts.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="whats-coming-for-blazor-in.net-7"&gt;What’s Coming for Blazor in .NET 7?&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.telerik.com/blogs/whats-coming-blazor-dotnet-7?dclid=CNH85ZbH-vgCFW6G6QUdOtoLHg"&gt;https://www.telerik.com/blogs/whats-coming-blazor-dotnet-7?dclid=CNH85ZbH-vgCFW6G6QUdOtoLHg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 7 の Blazor で導入される新機能などをまとめて紹介している記事。&lt;/p&gt;
+&lt;h3 id="minimal-api-validation-with-fluentvalidation"&gt;Minimal API Validation with FluentValidation&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://khalidabuhakmeh.com/minimal-api-validation-with-fluentvalidation"&gt;https://khalidabuhakmeh.com/minimal-api-validation-with-fluentvalidation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ASP.NET Core の Minimal API で FluentValidation を使用してパラメータ検証を行う方法についての記事。&lt;/p&gt;
+&lt;h3 id="neue-cc-asyncawait"&gt;neue cc - async/awaitのキャンセル処理やタイムアウトを効率的に扱うためのパターン＆プラクティス&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://neue.cc/2022/07/13_Cancellation.html"&gt;https://neue.cc/2022/07/13_Cancellation.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;非同期処理を実装する上で頻出する、CancellationToken を使用したキャンセルやタイムアウトを取り扱うためのパターンとプラクティスについての記事。&lt;/p&gt;
+&lt;h3 id="net-mauiandroid"&gt;.NET MAUI(Android)でも、データをシェア(受信)したい！&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/test_myname/articles/d856ed8e4d5fa3"&gt;https://zenn.dev/test_myname/articles/d856ed8e4d5fa3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET MAUI (Android) アプリケーションで外部のアプリケーションからデータを受け取る (Intent) 方法についての記事。&lt;/p&gt;
+&lt;h3 id="firebase-push-notifications-for-android-and-ios-using-ionic-and-asp.net-a-complete-guide"&gt;Firebase Push Notifications for Android and iOS Using Ionic and ASP.NET —A Complete Guide&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/syncfusion/firebase-push-notifications-for-android-and-ios-using-ionic-and-aspnet-a-complete-guide-16bi"&gt;https://dev.to/syncfusion/firebase-push-notifications-for-android-and-ios-using-ionic-and-aspnet-a-complete-guide-16bi&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ionic を使用した iOS/Android アプリケーションに ASP.NET Core アプリケーションから Firebase Push Notification で通知を送る方法について解説している記事。&lt;/p&gt;
+&lt;h3 id="net-6-system.text.json.nodes.jsonnode"&gt;[.NET 6] System.Text.Json.Nodes.JsonNode の一致を判定する&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/shimat/articles/f961adfe2219ff"&gt;https://zenn.dev/shimat/articles/f961adfe2219ff&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;System.Text.Json で JSON をパースし JsonNode となったものを比較して同一の値を持つかどうかを判定する方法についての記事。&lt;/p&gt;
+&lt;p&gt;単純に JSON を文字列比較した場合はプロパティーの順番などでうまくいかないため、オブジェクトのプロパティー単位で比較していく必要がある。&lt;/p&gt;
+&lt;h3 id="binding-lottie-or-any-other-swift-framework-with-ui-in-maui"&gt;Binding Lottie (or any other Swift framework with UI) in MAUI&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/csaba8472/binding-lottie-or-any-other-swift-framework-with-ui-in-maui-543m"&gt;https://dev.to/csaba8472/binding-lottie-or-any-other-swift-framework-with-ui-in-maui-543m&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET MAUI (Android と iOS) で Lottie (アニメーションを再生する仕組み)を使用するバインディングを実装する方法についての記事。&lt;/p&gt;
+&lt;h3 id="vs2022-performance-enhancements-git-branch-switching-visual-studio-blog"&gt;VS2022 Performance Enhancements: Git Branch Switching - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/vs2022-performance-enhancements-git-branch-switching/"&gt;https://devblogs.microsoft.com/visualstudio/vs2022-performance-enhancements-git-branch-switching/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 のプレビューでの Git のブランチ切り替えのパフォーマンス改善について。&lt;/p&gt;
+&lt;p&gt;ソリューションのの読み込みを回避したり、リロードは30%程度改善するといったことでパフォーマンスを大幅に向上しているとのこと。&lt;/p&gt;
+&lt;h3 id="building-our-first-microsoft-orleans-app"&gt;Building our first Microsoft Orleans App&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/willvelida/building-our-first-microsoft-orleans-app-489l"&gt;https://dev.to/willvelida/building-our-first-microsoft-orleans-app-489l&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Orleans でクライアントとサーバーのプロジェクトを作ってみるというステップバイステップ記事。&lt;/p&gt;
+&lt;h3 id="net-debugger.launch-for-macos-and-linux"&gt;.NET Debugger.Launch for macOS and Linux&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://khalidabuhakmeh.com/dotnet-debugger-launch-for-macos-and-linux"&gt;https://khalidabuhakmeh.com/dotnet-debugger-launch-for-macos-and-linux&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Debugger.Launch&lt;/code&gt; は Windows でのみ使用できるが macOS と Linux でも似たようなことをするにはどうすればよいかという記事。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;IsAttached&lt;/code&gt; プロパティーは使用できるので起動時にアタッチするまで待機するというワークアラウンドになってしまうとのこと。&lt;/p&gt;
+&lt;h3 id="c-1-qiita"&gt;【C#】ループの最適化手法 ①配列編 ～境界値チェックと専用命令と～ - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/Kujiro/items/fafd3468690a896139b3"&gt;https://qiita.com/Kujiro/items/fafd3468690a896139b3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;配列、 &lt;code&gt;List&amp;lt;T&amp;gt;&lt;/code&gt; や &lt;code&gt;Span&amp;lt;T&amp;gt;&lt;/code&gt; を使った要素の列挙のパフォーマンスをソースコードやアセンブリレベルで比較、解説している記事。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/Kujiro/items/9569e91b942bcf9d528b"&gt;【C#】ループの最適化手法 ②List&amp;lt;T&amp;gt;編 ～List&amp;lt;T&amp;gt;はSpanT化すると数倍早い～ - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/Kujiro/items/21d004bc74449765dbf7"&gt;【C#】ループの最適化手法 ③Span&amp;lt;T&amp;gt;編 ～配列をSpan&amp;lt;T&amp;gt;にするだけで早い～ - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="customizing-controls-in.net-maui.net-blog"&gt;Customizing Controls in .NET MAUI - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/customizing-dotnet-maui-controls/"&gt;https://devblogs.microsoft.com/dotnet/customizing-dotnet-maui-controls/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;NET MAUI の既存のコントロールを拡張、カスタマイズする方法についての記事。&lt;/p&gt;
+&lt;h3 id="ienumerable-debugger-visualizer-improvements-visual-studio-blog"&gt;IEnumerable Debugger Visualizer Improvements - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/ienumerable-visualizer-improvements/"&gt;https://devblogs.microsoft.com/visualstudio/ienumerable-visualizer-improvements/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 Preview で強化された IEnumerable のデバッガービジュアライザーの最新のアップデートについての記事。&lt;/p&gt;
+&lt;p&gt;フィルタリングや CSV エクスポート、Visual Studio に合わせたテーマといった機能が実装されたとのこと。&lt;/p&gt;
+&lt;h3 id="julyot-15.net-nanoframework-networking-and-azure"&gt;#JulyOT 15: .NET nanoFramework networking and Azure&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/azure/julyot-15-net-nanoframework-networking-and-azure-2ng5"&gt;https://dev.to/azure/julyot-15-net-nanoframework-networking-and-azure-2ng5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET nanoFramework でネットワーク通信を行い、Azure と接続する方法についての記事。&lt;/p&gt;
+&lt;p&gt;HTTPSのクライアントや Web サーバー、MQTT や SignalR といったものを使用する方法、Azure IoT サービスを呼び出す方法とったものを紹介している。&lt;/p&gt;
+&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h3 id="github-usausaazure-functions-extension-azure-functions-extension"&gt;GitHub - usausa/azure-functions-extension: Azure Functions extension.&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/usausa/azure-functions-extension"&gt;https://github.com/usausa/azure-functions-extension&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Azure Functions でパラメータのモデルバインディングなどを提供する拡張ライブラリー。&lt;/p&gt;
+&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
+&lt;h3 id="cutt-systemc"&gt;CUTT System:C#ベクトルプログラミング入門&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.cutt.co.jp/book/978-4-87783-524-8.html"&gt;https://www.cutt.co.jp/book/978-4-87783-524-8.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;System.Runtime.Intrinsics の SIMD サポートを使用して C# でベクトルプログラミングを行うことについての書籍。&lt;/p&gt;
+&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
+&lt;!-- https://twitter.com/vs_debugger/status/1547311810277085184?s=12&amp;t=i6d9fNI7jg-55SATIPgtYw --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;If you&amp;#39;ve ever needed to debug WPF or other NGEN/R2R images in VS, it&amp;#39;s now even easier with our new option.&lt;br&gt;&lt;br&gt;You can disable the load of NGEN/ R2R using the &lt;br&gt;settings under  Tools &amp;gt;Options&amp;gt;Debugging &amp;gt;General&amp;gt; Prevent using precompiled images on module load&lt;a href="https://twitter.com/hashtag/vstip?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#vstip&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/vsdebuggertip?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#vsdebuggertip&lt;/a&gt; &lt;a href="https://t.co/eHnv1NCSGT"&gt;pic.twitter.com/eHnv1NCSGT&lt;/a&gt;&lt;/p&gt;&amp;mdash; Visual Studio Debugger (&amp;#64;VS_Debugger) &lt;a href="https://twitter.com/VS_Debugger/status/1547311810277085184?ref_src=twsrc%5Etfw"&gt;July 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;デバッグ時に R2R/NGEN イメージを読み込まないようにするオプションが 17.3 Preview 3 で追加されたという話。&lt;/p&gt;
+</content>
+		<summary>.NET 関連の情報をほぼ週刊配信</summary>
+	</entry>
 	<entry>
 		<id>/2022/07/10/updates</id>
 		<title>2022-07-10: AWS .NET deployment tool, Increased Subscription Pricing for JetBrains products, CoreWCF 1.1.0</title>
@@ -1462,265 +1606,6 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://neue.cc/2022/05/11_AlterNats.html"&gt;neue cc - AlterNats - ハイパフォーマンスな.NET PubSubクライアントと、その実装に見る.NET 6時代のSocketプログラミング最適化のTips、或いはMagicOnionを絡めたメタバース構築のアーキテクチャについて&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-		<summary>.NET 関連の情報をほぼ週刊配信</summary>
-	</entry>
-	<entry>
-		<id>/2022/05/05/updates</id>
-		<title>2022-05-05: CoreWCF 1.0, MAUI RC 2, Microsoft Graph's Journey to .NET 6</title>
-		<author>
-			<name>Mayuki Sawatari</name>
-		</author>
-		<link href="/2022/05/05/updates" />
-		<link rel="enclosure" type="image" href="/img/logo.png" />
-		<updated>2022-05-05T00:00:00Z</updated>
-		<content>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="corewcf-1.0-has-been-released-wcf-for.net-core-and.net-5"&gt;CoreWCF 1.0 has been Released, WCF for .NET Core and .NET 5+&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/corewcf-v1-released/"&gt;https://devblogs.microsoft.com/dotnet/corewcf-v1-released/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;CoreWCF 1.0 がリリースされた。&lt;/p&gt;
-&lt;p&gt;CoreWCF は .NET Core と .NET 5 以降向けに WCF (Windows Communication Foundation) を移植したものとなり、SOAP、NetTCP や WSDL の互換実装を提供するコミュニティー主導のフレームワーク。&lt;/p&gt;
-&lt;p&gt;CoreWCF は .NET Standard 2.0 のライブラリーとして提供され、.NET Framework と .NET Core, .NET ランタイムで動作することで .NET Framework プロジェクトなどからの移行を簡単にする。&lt;/p&gt;
-&lt;p&gt;記事ではサポートしている機能と未サポートの機能についても触れている。&lt;/p&gt;
-&lt;h3 id="net-maui-release-candidate-2-with-100-more-tizen"&gt;.NET MAUI Release Candidate 2 - With 100% More Tizen&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-maui-rc-2/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-maui-rc-2/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET MAUI Release Candidate 2 がリリースされた。&lt;/p&gt;
-&lt;p&gt;Tizen のサポートが追加され Samsung Tizen を搭載するモバイルやテレビといったデバイスで MAUI アプリケーションの動作が可能となる。.NET 6 をサポートする Tizen Emulator は近くリリースされるとのこと。&lt;/p&gt;
-&lt;p&gt;記事ではプラットフォーム固有のソース管理(フォルダーや条件付きコンパイル)についても触れている。&lt;/p&gt;
-&lt;h3 id="microsoft-graphs-journey-to.net-6"&gt;Microsoft Graph's Journey to .NET 6&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/microsoft-graph-dotnet-6-journey/"&gt;https://devblogs.microsoft.com/dotnet/microsoft-graph-dotnet-6-journey/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Microsoft Graph のサーバーを .NET 6 に移行するまでの話。(Microsoft Graph は Microsoft 365 の様々なデータにアクセスするための API ゲートウェイ)&lt;/p&gt;
-&lt;p&gt;記事では .NET 6 への道のりと移行のガイダンス、アップグレードのヒントが書かれている。&lt;/p&gt;
-&lt;p&gt;.NET 6 への道のりについて。&lt;/p&gt;
-&lt;p&gt;4年前は .NET Framework 4.6.2 上の ASP.NET を IIS で実行していて、現在は .NET 6 上の ASP.NET Core を Http.sys で実行している (.NET Core 3.1, .NET 5 を経て)。.NET Core 3.1 と .NET 6 では特に CPU 使用率の改善が見られた。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;.NET Framework から .NET Core 3.1 で CPU 使用率が 30% 削減された (トラフィックは同量)&lt;/li&gt;
-&lt;li&gt;.NET Core 3.1 から .NET 5 では大きな差はみられなかった&lt;/li&gt;
-&lt;li&gt;.NET 5 から .NET 6 では CPU 使用率が 10% 削減された (トラフィックは同量)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;4年前は10億リクエスト/日でコストがとても高く、現在では700億リクエスト/日の70倍となっているが10億リクエストごとの運用コストは91%削減されているとのこと。&lt;/p&gt;
-&lt;p&gt;.NET Core のインパクトについては .NET Framework から .NET Core 3.1 (Kestrel + ASP.NET Core その後 Http.sys) に移行した際のスループットの改善での比較を紹介している。&lt;/p&gt;
-&lt;p&gt;Standard_D3_v2 インスタンスで疑似的なトラフィックをかけた場合の RPS (リクエスト毎秒) と CPU 使用率を比較し、CPU 使用率 60% での RPS が古いスタックで約 350 RPS に対して、新しいスタックでは約 850 RPS となり、最終的に運用環境では 30% の CPU 使用率の削減が見られた。&lt;/p&gt;
-&lt;p&gt;ビルドシステムのモダナイゼーションについて。.NET Core への移行するために .NET Core と互換性のないツールチェーンを使用する内部ビルドシステムを使用していたため、初めにビルドシステムをモダナイズして MSBuild と dotnet コマンドをサポートする Visual Studio ツールチェーンを使用するモダンなビルドシステムに移行した。この移行は困難だったが、ビルドの高速化や保守が簡単になるなど、生産性の向上に寄与したとしている。&lt;/p&gt;
-&lt;p&gt;最後に移行することでコードベースを新しくでき、 Span や null 許容参照型 など新しい API と C# の機能による様々なメリットを得られたとしている。&lt;/p&gt;
-&lt;p&gt;次に移行ガイダンスでは ASP.NET から ASP.NET Core に移行する戦略を解説している。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Step 1. モダナイゼーションの構築
-&lt;ul&gt;
-&lt;li&gt;.NET Framework と .NET Core でのビルドシステムの構築&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Step 2. アーキテクチャーの準備
-&lt;ul&gt;
-&lt;li&gt;ここでは3つのステージに分けるアーキテクチャをあげている&lt;/li&gt;
-&lt;li&gt;Stage 1. すべて .NET Framework&lt;/li&gt;
-&lt;li&gt;Stage 2. アプリケーションを .NET Standard にして .NET Framework / .NET Core 両対応&lt;/li&gt;
-&lt;li&gt;Stage 3. すべて .NET Core&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Step 3. .NET Framework 依存の棚卸&lt;/li&gt;
-&lt;li&gt;Step 4. プロジェクトライブラリーから .NET Framework の依存を取り除く&lt;/li&gt;
-&lt;li&gt;Step 5. ブロックされることを避ける
-&lt;ul&gt;
-&lt;li&gt;取り除くのが難しい依存関係を解消することをあきらめない&lt;/li&gt;
-&lt;li&gt;そのような状況となった場合は次のようなオプションがある
-&lt;ul&gt;
-&lt;li&gt;コードオーナーが .NET Standard 対応を行い、ブロックを解消するボランティアを行う&lt;/li&gt;
-&lt;li&gt;コードをフォークして互換性のあるものがリリースされるまで一時的に .NET Standard としてビルドする&lt;/li&gt;
-&lt;li&gt;依存関係を .NET Framework で動作するコンソールアプリケーションやバックグラウンドサービスとして切り出す&lt;/li&gt;
-&lt;li&gt;最終手段として .NET Framework プロジェクトやパッケージを参照して、互換 shim で動作させる (ビルドはできるかもしれないが保証はない)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Step 6. ASP.NET Core の新しい Web サーバープロジェクトを作成する&lt;/li&gt;
-&lt;li&gt;Step 7. A/B テストとロールアウトプラン
-&lt;ul&gt;
-&lt;li&gt;Stage 2 の状態で A/B テストを行う計画を作成する&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Step 8. すべてのプロジェクトのターゲットを .NET Core にする&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;最後のアップグレードのヒントでは URI エンコーディングの取り扱いが ASP.NET と ASP.NET Core で違うこと、.NET 6 で導入された Dynamic PGO によるパフォーマンス向上といったものを紹介している。&lt;/p&gt;
-&lt;h3 id="visual-studio-2022-for-mac-release-candidate"&gt;Visual Studio 2022 for Mac Release Candidate&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-2022-for-mac-release-candidate/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-2022-for-mac-release-candidate/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 for Mac RC がリリースされた。&lt;/p&gt;
-&lt;p&gt;記事では改めて Visual Studio 2022 for Mac での変更点を紹介している(アクセシビリティー対応、Apple Silicon ネイティブサポート、.NET 6 対応や UI の更新など)。&lt;/p&gt;
-&lt;h3 id="livesharp-goes-free-and-open-source-news-livesharp"&gt;26.04.2022 LiveSharp goes free and open source - News – LiveSharp&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.livesharp.net/news/"&gt;https://www.livesharp.net/news/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;LiveSharp が無料化しオープンソースとなった。&lt;/p&gt;
-&lt;p&gt;LiveSharp は .NET 上でホットリロードを実現するツールキットで今まで有償製品として提供されてきたが、.NET 6 でホットリロードがランタイムと SDK で提供されることとなり、有償ライセンス利用者が減ったことにより LiveSharp のサポートを継続できなくなったとのこと。&lt;/p&gt;
-&lt;p&gt;しかし .NET 6 のホットリロードは一部のシナリオで利用できず、そのようなケースでは LiveSharp はまだ役立つので無料とオープンソース化を行ったとしている。既存のサブスクリプションはすべてキャンセルされるとのこと。&lt;/p&gt;
-&lt;h3 id="yarp-1.1-is-here-with-new-requested-reverse-proxy-features"&gt;YARP 1.1 is here with new requested reverse proxy features&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/yarp-reverse-proxy-1-1-release/"&gt;https://devblogs.microsoft.com/dotnet/yarp-reverse-proxy-1-1-release/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;YARP (Yet Another Reverse Proxy) 1.1 がリリースされた。&lt;/p&gt;
-&lt;p&gt;バージョン 1.1 での変更点は次の通り。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ゼロバイト読み込み
-&lt;ul&gt;
-&lt;li&gt;WebSocket や gRPC のようなストリーミングでアイドル状態のストリームが多い場合のメモリースケーリングが改善される&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;複数値ヘッダーマッチング
-&lt;ul&gt;
-&lt;li&gt;ルートのヘッダーマッチングで複数値を持つヘッダーや同名のヘッダーが複数ある場合をサポート&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;HTTP/3 サポート
-&lt;ul&gt;
-&lt;li&gt;.NET 6 の HTTP/3 をサポートする&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;複数の構成ソース
-&lt;ul&gt;
-&lt;li&gt;YARP の構成をソースコードや設定ファイルなど複数のソースから読み込み、マージすることが可能となった&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Http.sys への移譲
-&lt;ul&gt;
-&lt;li&gt;YARP が Http.sys でホストされている場合、同マシン上で Http.sys を使用する他のプロセスにリクエストをルーティングできるように&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;ミドルウェアのための API
-&lt;ul&gt;
-&lt;li&gt;クラスターやルーティングといった構成にリアルタイムでアクセスできる API を追加。これにより A/B テストやローリングアップデートのような機能を実装できる&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;ドキュメンテーション&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="remove-c-implementation-individual-packages-will-continue-to-be-maintained-through-v2.46.x-patches-or-moved-to-grpc-dotnet-by-jtattermusch-pull-request-29225-grpcgrpc"&gt;Remove C# implementation (individual packages will continue to be maintained through v2.46.x patches or moved to grpc-dotnet) by jtattermusch · Pull Request #29225 · grpc/grpc&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/grpc/grpc/pull/29225"&gt;https://github.com/grpc/grpc/pull/29225&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;gRPC (C-core) リポジトリーから C# の実装 (ツールを除く) が削除された。&lt;/p&gt;
-&lt;p&gt;モチベーションとしては C# 実装を削除することで C-core の大きな変更を簡素化する、gRPC の C#/.NET のサポート状況と一致させる(現在 Grpc.Core はメンテナンスモードで、grpc-dotnet が推奨実装)こととしている。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Grpc&lt;/code&gt;, &lt;code&gt;Grpc.Core&lt;/code&gt;, &lt;code&gt;Grpc.Core.Testing&lt;/code&gt;, &lt;code&gt;Grpc.Core.NativeDebug&lt;/code&gt;, &lt;code&gt;Grpc.Core.Xamarin&lt;/code&gt; は v1.46.x メンテナンスブランチに残され、セキュリティー修正などはそこで行われる&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Grpc.Core.Api&lt;/code&gt;, &lt;code&gt;Grpc.Auth&lt;/code&gt;, &lt;code&gt;Grpc.HealthCheck&lt;/code&gt;, &lt;code&gt;Grpc.Reflection&lt;/code&gt; は grpc/grpc-dotnet リポジトリーに移動する (これらは実装非依存)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Grpc.Tools&lt;/code&gt; は grpc/grpc の master に残り続ける (このツールはビルドインフラストラクチャーや最新の protoc などに依存してる部分が多く、簡単ではないため現時点ではそのまま)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="release-release-v1.46.0-grpcgrpc"&gt;Release Release v1.46.0 · grpc/grpc&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/grpc/grpc/releases/tag/v1.46.0"&gt;https://github.com/grpc/grpc/releases/tag/v1.46.0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;gRPC v1.46.0 (NuGet パッケージバージョンは 2.46.0) がリリースされた。&lt;/p&gt;
-&lt;p&gt;C# (C-core) ではシャットダウンされたチャンネルに対して Unary 呼び出しを行うとクラッシュする問題が修正されている。&lt;/p&gt;
-&lt;h3 id="net-package-maintenance-deprecation-issue-7420-dotnetcore-github"&gt;.NET Package Maintenance (deprecation) · Issue #7420 · dotnet/core · GitHub&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/dotnet/core/issues/7420"&gt;https://github.com/dotnet/core/issues/7420&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET の NuGet パッケージメンテナンス (非推奨化) についてのアナウンス。&lt;/p&gt;
-&lt;p&gt;原則として .NET サポートポリシーに従いサポートから外れたものが非推奨 (Deprecated) としてマークされるようになる。そのほか dnx のような古いプレビューリリースも非推奨となる。&lt;/p&gt;
-&lt;p&gt;今後新しいパッケージがリリースされた場合は古いバージョンを非推奨としてマークするようになる。例えば .NET 6.0.10 がリリースされた後は 6.0.9 が非推奨としてマークされる。&lt;/p&gt;
-&lt;p&gt;AspNetCore 2.2 パッケージは .NET Framework の利用もあるため特別な扱いとなる。&lt;/p&gt;
-&lt;p&gt;来週からマーキングを開始したいとしていて何か問題がある場合は Issue にコメントが欲しいとしている。対象となるパッケージは &lt;a href="https://github.com/dotnet/core/blob/main/release-notes/net-package-deprecation.md"&gt;.NET Package Deprecation list&lt;/a&gt; を参照のこと。&lt;/p&gt;
-&lt;h3 id="release-11.0-fluentvalidationfluentvalidation"&gt;Release 11.0 · FluentValidation/FluentValidation&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/FluentValidation/FluentValidation/releases/tag/11.0"&gt;https://github.com/FluentValidation/FluentValidation/releases/tag/11.0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;FluentValidation 11.0 がリリースされた。&lt;/p&gt;
-&lt;p&gt;.NET Core 2.1 のサポートの削除や、Sync-over-async 状況で例外をスローするようになるなど。&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="opentelemetry.net"&gt;OpenTelemetry .NETの追加コード不要な計装ライブラリの最初のリリースが出たので試してみた | ドクセル&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.docswell.com/s/tanaka_733/ZJNQGK-opentelemetry-dotnet-automatic-instrumentation"&gt;https://www.docswell.com/s/tanaka_733/ZJNQGK-opentelemetry-dotnet-automatic-instrumentation&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;OpenTelemetry.NET の追加コード不要で計測を実装するライブラリーの beta がリリースされたので使用してみるというスライド。&lt;/p&gt;
-&lt;h3 id="cfcmhttp-v1-api-qiita"&gt;【C#】FCMでHTTP v1 APIを使ってプッシュメッセージ送信 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/piro_rin_piro/items/0d479b523996f475c809"&gt;https://qiita.com/piro_rin_piro/items/0d479b523996f475c809&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Firebase Cloud Messaging の HTTP v1 API を使用するという記事。&lt;/p&gt;
-&lt;h3 id="path.getinvalidpathchars-path.getinvalidfilenamechars-qiita"&gt;Path.GetInvalidPathChars と Path.GetInvalidFileNameChars の違い - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/FN_Programming/items/33e73566fcd5d666a865"&gt;https://qiita.com/FN_Programming/items/33e73566fcd5d666a865&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Path.GetInvalidPathChars&lt;/code&gt; と &lt;code&gt;Path.GetInvalidFileNameChars&lt;/code&gt; の違いについての記事。&lt;/p&gt;
-&lt;p&gt;例えば Windows 上では &lt;code&gt;GetInvalidPathChars&lt;/code&gt; はパスとして無効な文字なので &lt;code&gt;*&lt;/code&gt; を含まないが、&lt;code&gt;GetInvalidFileNameChars&lt;/code&gt; はファイル名なので &lt;code&gt;*&lt;/code&gt; は無効な文字として扱われている。またコメント欄では Unix 系の環境では null 文字のみがパスとして無効、ファイル名は null 文字と &lt;code&gt;/&lt;/code&gt; だけとなっていることも。&lt;/p&gt;
-&lt;h3 id="asp.netcore2.26.0.pptx"&gt;2022年ASP.NETCore2.2～6.0の旅.pptx&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.slideshare.net/ssuser7f4bbb/2022aspnetcore2260pptx"&gt;https://www.slideshare.net/ssuser7f4bbb/2022aspnetcore2260pptx&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET Core 2.2 (ASP.NET Core + EF Core) のアプリケーションを .NET 6 に更新した話のスライド。&lt;/p&gt;
-&lt;p&gt;.NET Core 2.2 → 3.1 → .NET 5 → .NET 6 へとアップグレードしていく間に出た対応を紹介している。&lt;/p&gt;
-&lt;h3 id="net-annotated-monthly-may-2022-the.net-tools-blog"&gt;.NET Annotated Monthly | May 2022 | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2022/05/03/net-annotated-monthly-may-2022/"&gt;https://blog.jetbrains.com/dotnet/2022/05/03/net-annotated-monthly-may-2022/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;JetBrains の .NET 関連のまとめ2022年5月分の記事。&lt;/p&gt;
-&lt;h3 id="case-study-double-performance-in-under-30-minutes"&gt;Case Study: Double performance in under 30 minutes&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/case-study-double-performance-in-under-30-minutes/"&gt;https://devblogs.microsoft.com/visualstudio/case-study-double-performance-in-under-30-minutes/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;C# で展開コードを実装してプロファイルして30分で2倍のパフォーマンス改善を行えた話。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Stream.ReadByte&lt;/code&gt; の実装が1要素の byte 配列を確保するという実装となっていたため大量のアロケーションがあり GC が発生していたという話。&lt;/p&gt;
-&lt;h3 id="system.text.jsonjsondocument-qiita"&gt;System.Text.JsonのJsonDocumentを使ってみる - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/TheParkSider/items/7d85f730314dfe642c91"&gt;https://qiita.com/TheParkSider/items/7d85f730314dfe642c91&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;System.Text.Json の JsonDocument の使い方についての記事。&lt;/p&gt;
-&lt;h3 id="system.text.jsonjsonnode-qiita"&gt;System.Text.JsonのJsonNodeを使ってみる - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/TheParkSider/items/9632c7c5cb4c5b3d9717"&gt;https://qiita.com/TheParkSider/items/9632c7c5cb4c5b3d9717&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;System.Text.Json の JsonNode の使い方についての記事。&lt;/p&gt;
-&lt;h3 id="cswin32-win32-api-com"&gt;CsWin32 で Win32 API や COM を使ったアプリケーション開発を効率化する - しばやん雑記&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.shibayan.jp/entry/20220501/1651339430"&gt;https://blog.shibayan.jp/entry/20220501/1651339430&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;CsWin32 (Win32 API のラッパーコードを生成する Source Generator) を使用して Win32 API や COM をアプリケーションから呼び出すためのコツを紹介する記事。&lt;/p&gt;
-&lt;h3 id="net-benchmarking-and-profiling-for-beginners"&gt;.NET benchmarking and profiling for beginners&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/ingeniouslysimple/net-benchmarking-and-profiling-for-beginners-62462e1e9a19"&gt;https://medium.com/ingeniouslysimple/net-benchmarking-and-profiling-for-beginners-62462e1e9a19&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;BenchmarkDotNet を使用したベンチマークとプロファイリングの入門についての記事。&lt;/p&gt;
-&lt;h3 id="why-isnt-my-asp.net-core-app-in-docker-working"&gt;Why isn't my ASP.NET Core app in Docker working?&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/why-isnt-my-aspnetcore-app-in-docker-working/"&gt;https://andrewlock.net/why-isnt-my-aspnetcore-app-in-docker-working/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core アプリケーションを Docker コンテナーで稼働させたときにうまく動かない問題があったことについての記事。Kestrel でバインドするアドレスが問題となっていたことについて解説している。&lt;/p&gt;
-&lt;h3 id="improving-asp.net-core-before-it-ships"&gt;Improving ASP.NET Core Before It Ships 🚢&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/justeattakeaway-tech/improving-asp-net-core-before-it-ships-3e44b6f65054"&gt;https://medium.com/justeattakeaway-tech/improving-asp-net-core-before-it-ships-3e44b6f65054&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core で見つかった問題を特定して修正したことについての記事。&lt;/p&gt;
-&lt;p&gt;.NET 6 の RC 版を展開して問題がなかったのでリリース版を展開したところデッドロックが発生し、状況証拠などから構成関連の処理(M.E.Configuration)であることを特定し、Visual Studio でコード上の原因を特定、バグ修正を行ったとのこと。(なおこの修正は .NET 6.0.3 で利用可能)&lt;/p&gt;
-&lt;h3 id="generating-sortable-guids-using-newid"&gt;Generating sortable Guids using NewId&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/generating-sortable-guids-using-newid/"&gt;https://andrewlock.net/generating-sortable-guids-using-newid/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;GUID の代わりに使用できる Snowflake アルゴリズムを使用した NewId パッケージの解説の記事。&lt;/p&gt;
-&lt;h3 id="evil-monkeypatching-in-c-with-rosyln-source-generators"&gt;Evil Monkeypatching in C# with Rosyln Source Generators&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/martinjt/evil-monkeypatching-in-c-with-rosyln-source-generators-4g6f"&gt;https://dev.to/martinjt/evil-monkeypatching-in-c-with-rosyln-source-generators-4g6f&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Source Generator で &lt;code&gt;global using&lt;/code&gt; を吐き出すことでモンキーパッチ(コード上で指しているものを上書き)するという手法についての記事。&lt;/p&gt;
-&lt;h3 id="detect-breaking-changes-in-your-graphql-schema-automatically-for-each-pull-request"&gt;Detect Breaking Changes in your GraphQL Schema automatically for Each Pull Request&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;TimHolzherr/detect-breaking-changes-in-your-graphql-schema-automatically-for-each-pull-request-77bbe261feef"&gt;https://medium.com/&amp;#64;TimHolzherr/detect-breaking-changes-in-your-graphql-schema-automatically-for-each-pull-request-77bbe261feef&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Azure Pipelines で Pull request を作った際に GraphQL スキーマの破壊的変更を検出する手法についての記事。&lt;/p&gt;
-&lt;h3 id="use-the-query-string-to-pass-an-array-of-selected-values-between-blazor-pages"&gt;Use the Query String to pass an array of selected values between Blazor Pages&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://jonhilton.net/blazor-deep-linking/"&gt;https://jonhilton.net/blazor-deep-linking/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Blazor のページ間で選択した値の配列をクエリーストリングを使用して渡す方法についての記事。&lt;/p&gt;
-&lt;h3 id="quickly-map-your-nuget-packages-to-sources"&gt;Quickly Map Your NuGet Packages to Sources&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/nuget/quickly-map-your-nuget-packages-to-sources/"&gt;https://devblogs.microsoft.com/nuget/quickly-map-your-nuget-packages-to-sources/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;NuGet のパッケージソースマッピング (パッケージごとにどの NuGet サーバーを使うかの設定) を生成する PackageSourceMapper を紹介する記事。&lt;/p&gt;
-&lt;h3 id="looking-for-a-way-to-initialize-ioptionst-manually"&gt;Looking for a way to initialize IOptions&amp;lt;T&amp;gt; manually?&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://mahesh-more.medium.com/looking-for-a-way-to-initialize-ioptions-t-manually-4df4ca97b2b0"&gt;https://mahesh-more.medium.com/looking-for-a-way-to-initialize-ioptions-t-manually-4df4ca97b2b0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;IOption&amp;lt;T&amp;gt;&lt;/code&gt; のインスタンスをユニットテストなどで簡単に作るにはどうするのかという記事。&lt;code&gt;Options.Create&lt;/code&gt; というヘルパーがあるのでそれを使用する。&lt;/p&gt;
-&lt;h3 id="null-c-c"&gt;引数 null チェックの !!、取りやめ | ++C++; // 未確認飛行 C ブログ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://ufcpp.net/blog/2022/5/double-bang-removed/"&gt;https://ufcpp.net/blog/2022/5/double-bang-removed/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;引数で null を受け入れないことを明示し、渡された場合に &lt;code&gt;NullReferenceException&lt;/code&gt; をスローするという &lt;code&gt;!!&lt;/code&gt; という文法がプレビューで導入されたが、フィードバックの結果差し戻しとなった件についての記事。&lt;/p&gt;
-&lt;h3 id="windows-property-system-c"&gt;Windows Property System を使って C# から曲情報を取得する - しばやん雑記&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.shibayan.jp/entry/20220504/1651658855"&gt;https://blog.shibayan.jp/entry/20220504/1651658855&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Windows が持つ Windows Property System と呼ばれるファイルのメタデータを取得・変更できる機能を使用して音楽の曲情報を取得する方法についての記事。&lt;/p&gt;
-&lt;h3 id="c-11.0-c-c"&gt;C# 11.0 の新機能 | ++C++; // 未確認飛行 C ブログ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://ufcpp.net/study/csharp/cheatsheet/ap_ver11/"&gt;https://ufcpp.net/study/csharp/cheatsheet/ap_ver11/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;C# 11 での新機能について紹介している記事。&lt;/p&gt;
-&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="github-azure-samplesorleans-cluster-on-azure-app-service-sample-application-demonstrating-a-multiple-silo-orleans-cluster-running-in-azure-app-service"&gt;GitHub - Azure-Samples/Orleans-Cluster-on-Azure-App-Service: Sample application demonstrating a multiple-silo Orleans cluster running in Azure App Service.&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/Azure-Samples/Orleans-Cluster-on-Azure-App-Service"&gt;https://github.com/Azure-Samples/Orleans-Cluster-on-Azure-App-Service&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Azure App Service で動作する Orleans のクラスターのサンプルコード。&lt;/p&gt;
-&lt;h3 id="github-ievangelistblazorators-this-project-converts-typescript-type-declarations-into-c-representations-and-use-c-source-generators-to-expose-automatic-javascript-interop-functionality"&gt;GitHub - IEvangelist/blazorators: This project converts TypeScript type declarations into C# representations, and use C# source generators to expose automatic JavaScript interop functionality.&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/IEvangelist/blazorators"&gt;https://github.com/IEvangelist/blazorators&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;TypeScript の型定義から Blazor の JavaScript 相互運用のための C# コードを生成する Source Generator。&lt;/p&gt;
-&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
-&lt;h3 id="htmx-for-asp.net-core-developers.net-guide"&gt;HTMX for ASP.NET Core Developers - .NET Guide&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.jetbrains.com/dotnet/guide/tutorials/htmx-aspnetcore/"&gt;https://www.jetbrains.com/dotnet/guide/tutorials/htmx-aspnetcore/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core で HTMX を使うチュートリアル。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2022/04/27/htmx-for-asp-net-core-developers-tutorial/"&gt;HTMX for ASP.NET Core Developers – Tutorial | The .NET Tools Blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="diagnostics-tools-overview.net-core"&gt;Diagnostics tools overview - .NET Core&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://docs.microsoft.com/en-us/dotnet/core/diagnostics/"&gt;https://docs.microsoft.com/en-us/dotnet/core/diagnostics/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET Core/.NET で使用できる診断ツールについてのドキュメント。&lt;/p&gt;
-&lt;h3 id="blazor-ecec.net6-nekojoker-booth"&gt;猫でもわかるBlazor ECサイト編〜誰でもかんたんにECサイトを作る！〜（.NET6対応） - nekojoker - BOOTH&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://nekojoker.booth.pm/items/3813171"&gt;https://nekojoker.booth.pm/items/3813171&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Blazor で EC サイトを実装することについてのまとめた本。Azure Active Directory B2C を使用しての認証、Stripe での決済などにも触れている。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/nekojoker/articles/f0b80c407209dc"&gt;【Blazor】約300ページにわたる技術書をひとりで執筆した話&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
-&lt;!-- https://twitter.com/davidfowl/status/1520966312817664000?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;One of the patterns that has emerged when doing high performance byte/char manipulation in .NET since the inception of Span is using stack allocated or pooled memory for synchronous operations. &lt;a href="https://twitter.com/hashtag/dotnet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotnet&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/csharp?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#csharp&lt;/a&gt; &lt;a href="https://t.co/nUNnRtDfy5"&gt;pic.twitter.com/nUNnRtDfy5&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Fowler 🇧🇧🇺🇸 (&amp;#64;davidfowl) &lt;a href="https://twitter.com/davidfowl/status/1520966312817664000?ref_src=twsrc%5Etfw"&gt;May 2, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;&lt;code&gt;stackalloc&lt;/code&gt; と &lt;code&gt;ArrayPool&lt;/code&gt; を使った定型パターン。&lt;/p&gt;
-&lt;h2 id="deep-dive"&gt;Deep Dive&lt;/h2&gt;
-&lt;h3 id="update-sdk-and-use-u8-string-literals-by-brennanconroy-pull-request-41449-dotnetaspnetcore"&gt;Update SDK and use 'u8' string literals by BrennanConroy · Pull Request #41449 · dotnet/aspnetcore&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/dotnet/aspnetcore/pull/41449"&gt;https://github.com/dotnet/aspnetcore/pull/41449&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core の中で使用されている UTF-8 文字列 (バイト配列)を &lt;code&gt;u8&lt;/code&gt; サフィックスによる UTF-8 文字列に変更する PR。&lt;/p&gt;
 </content>
 		<summary>.NET 関連の情報をほぼ週刊配信</summary>
 	</entry>
