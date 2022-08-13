@@ -6,8 +6,282 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Mon, 08 Aug 2022 03:15:51 GMT</pubDate>
-		<lastBuildDate>Mon, 08 Aug 2022 03:15:51 GMT</lastBuildDate>
+		<pubDate>Sat, 13 Aug 2022 14:52:07 GMT</pubDate>
+		<lastBuildDate>Sat, 13 Aug 2022 14:52:07 GMT</lastBuildDate>
+		<item>
+			<title>2022-08-13: Visual Studio 2022 17.3, .NET MAUI in Visual Studio 2022, .NET 7 Preview 7, .NET Framework 4.8.1</title>
+			<link>/2022/08/13/updates</link>
+			<description>.NET 関連の情報をほぼ週刊配信</description>
+			<author>Mayuki Sawatari</author>
+			<enclosure url="/img/logo.png" length="0" type="image" />
+			<guid isPermaLink="false">/2022/08/13/updates</guid>
+			<pubDate>Sat, 13 Aug 2022 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="visual-studio-2022-17.3-is-now-available-visual-studio-blog"&gt;Visual Studio 2022 17.3 is now available! - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-3-is-now-available/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-3-is-now-available/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 version 17.3 がリリースされた。&lt;/p&gt;
+&lt;p&gt;記事では 17.3 で更新された次の機能について触れている。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;.NET MAUI サポート&lt;/li&gt;
+&lt;li&gt;Microsoft Teams 向けアプリケーション開発サポート&lt;/li&gt;
+&lt;li&gt;C++ のサポートの改善
+&lt;ul&gt;
+&lt;li&gt;低優先度ビルド&lt;/li&gt;
+&lt;li&gt;インデクシングの高速化&lt;/li&gt;
+&lt;li&gt;統合ターミナルでのリモート SSH 接続のサポート&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Azure Container Apps サポート&lt;/li&gt;
+&lt;li&gt;Live Unit Testing の改善&lt;/li&gt;
+&lt;li&gt;What's New ページ&lt;/li&gt;
+&lt;li&gt;Git ラインステージング&lt;/li&gt;
+&lt;li&gt;タブの複数行表示&lt;/li&gt;
+&lt;li&gt;IEnumerable ビジュアライザー&lt;/li&gt;
+&lt;li&gt;閉じたドキュメントの再オープン&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また、次のバージョンとなる 17.4 のプレビューもリリースされ、17.4 は Arm64 ネイティブのリリースバージョンとなること LTSC (長期サポートチャンネル) バージョンとなるとのこと。&lt;/p&gt;
+&lt;h3 id="productivity-comes-to.net-maui-in-visual-studio-2022.net-blog"&gt;Productivity comes to .NET MAUI in Visual Studio 2022 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-maui-visualstudio-2022-release/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-maui-visualstudio-2022-release/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 17.3 で .NET MAUI のサポートがプレビューからリリースとなったアナウンス。&lt;/p&gt;
+&lt;p&gt;.NET MAUI 自体の GA はすでに行われていたが、ツールサポートは今までプレビューとなっていたが 17.3 のリリースでリリースとなり一般に利用できるようになった。これには XAML のライブプレビューやホットリロードといったものが含まれる。&lt;/p&gt;
+&lt;p&gt;Visual Studio for Mac での .NET MAUI サポートは 17.4 Preview ではプレビューとなっており、今年後半にリリースとなる予定とのこと。&lt;/p&gt;
+&lt;h3 id="announcing.net-7-preview-7.net-blog"&gt;Announcing .NET 7 Preview 7 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-7/"&gt;https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-7/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 7 Preview 7 がリリースされた。開発環境としては Windows, macOS 共に Visual Studio 2022 17.4 プレビューの使用が推奨されている。&lt;/p&gt;
+&lt;p&gt;記事では Preview 7 でのアップデートについて紹介している。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;シンプルな LINQ
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Order&lt;/code&gt;, &lt;code&gt;OrderDescending&lt;/code&gt; (キーセレクター不要の &lt;code&gt;OrderBy&lt;/code&gt;/&lt;code&gt;OrderByDescending&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Unix ファイルモードサポート&lt;/li&gt;
+&lt;li&gt;低レベルな &lt;code&gt;struct&lt;/code&gt; の改善: &lt;code&gt;ref&lt;/code&gt; フィールド&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;LibraryImport&lt;/code&gt; P/Invoke ソースジェネレーター
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;DllImport&lt;/code&gt; に代わるネイティブライブラリー呼び出しのマーシャリングコード生成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ClientWebSocket アップグレードレスポンスの詳細
+&lt;ul&gt;
+&lt;li&gt;ClientWebSocket がアップグレードの応答に関する詳細(ステータスコード等)を取得できるように&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;コード生成の改善&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また、破壊的変更として次のものがあげられている。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;トリミングと NativeAOT: すべてのアセンブリがデフォルトでトリミングされる
+&lt;ul&gt;
+&lt;li&gt;コンソールアプリケーションで &lt;code&gt;PublishTrimmed&lt;/code&gt; を指定した場合、ライブラリープロジェクトが &lt;code&gt;IsTrimmable&lt;/code&gt; の有無にかかわらずトリミングされる。この挙動を変更するには &lt;code&gt;TrimMode&lt;/code&gt; を指定することで以前のバージョンと同等に戻すことが可能。また Windows, Android, iOS, WASM, ASP.NET Core といったプレーンではない .NET アプリケーションは影響を受けない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="asp.net-core-updates-in.net-7-preview-7.net-blog"&gt;ASP.NET Core updates in .NET 7 Preview 7 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-dotnet-7-preview-7/"&gt;https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-dotnet-7-preview-7/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 7 Preview 7 での ASP.NET Core のアップデートについての記事。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;新しい Blazor WebAssembly のローディングページ&lt;/li&gt;
+&lt;li&gt;Blazor データバインディングの get/set/after 修飾子&lt;/li&gt;
+&lt;li&gt;Blazor 仮想化の改善&lt;/li&gt;
+&lt;li&gt;NavigationManager を使用したステート渡し&lt;/li&gt;
+&lt;li&gt;WebAssembly における System.Security.Cryptography サポートの更なる追加&lt;/li&gt;
+&lt;li&gt;Angular と React のテンプレートの更新&lt;/li&gt;
+&lt;li&gt;gRPC JSON トランスコーディングパフォーマンス&lt;/li&gt;
+&lt;li&gt;認証で単一スキームを &lt;code&gt;DefaultScheme&lt;/code&gt; として扱う&lt;/li&gt;
+&lt;li&gt;Minimal API での認証済みリクエストでの &lt;code&gt;IFormFile&lt;/code&gt;/&lt;code&gt;IFormFileCollection&lt;/code&gt; のサポート&lt;/li&gt;
+&lt;li&gt;問題の詳細サービス
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.rfc-editor.org/rfc/rfc7807"&gt;RFC 7807: Problem Details for HTTP APIs&lt;/a&gt; をサポートするサービス&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;診断ミドルウェアのアップデート&lt;/li&gt;
+&lt;li&gt;新しい &lt;code&gt;HttpResults&lt;/code&gt; インターフェース
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;IFileHttpResult&lt;/code&gt; や &lt;code&gt;IValueHttpResult&amp;lt;TValue&amp;gt;&lt;/code&gt; といった &lt;code&gt;IResult&lt;/code&gt; の型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="announcing-entity-framework-7-preview-7-interceptors.net-blog"&gt;Announcing Entity Framework 7 Preview 7: Interceptors! - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-ef7-preview7/"&gt;https://devblogs.microsoft.com/dotnet/announcing-ef7-preview7/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Entity Framework 7 Preview 7 がリリースされた。&lt;/p&gt;
+&lt;p&gt;記事では Entity Framework 7 で強化される Interceptor について紹介している。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;エンティティー作成時のシンプルなアクション (マテリアライゼーション)&lt;/li&gt;
+&lt;li&gt;LINQ 式ツリーのインターセプト&lt;/li&gt;
+&lt;li&gt;オプティミスティック同時実行制御インターセプト&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="announcing.net-framework-4.8.1.net-blog"&gt;Announcing .NET Framework 4.8.1 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-framework-481/"&gt;https://devblogs.microsoft.com/dotnet/announcing-dotnet-framework-481/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET Framework 4.8.1 がリリースされた。&lt;/p&gt;
+&lt;p&gt;.NET Framework 4.8.1 では Arm64 のネイティブサポート、 WCAG2.1 準拠のアクセシブルなツールチップ、Windows Forms でのアクセシビリティーの向上といった新機能が導入される。&lt;/p&gt;
+&lt;p&gt;対応 OS は Windows 10 Version 20H2 と Windows Server 2022 以降が対象となる。&lt;/p&gt;
+&lt;h3 id="visual-studio-for-mac-17.3-is-now-available-visual-studio-blog"&gt;Visual Studio for Mac 17.3 is now available - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-for-mac-17-3-is-now-available/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-for-mac-17-3-is-now-available/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 for Mac 17.3 がリリースされた。&lt;/p&gt;
+&lt;p&gt;User Secrets のサポート、新しいコードフィックスの追加や &lt;code&gt;StringSyntaxAttribute&lt;/code&gt; の対応、タスクウィンドウと正規表現ダイアログのネイティブ UI 化、Apple Developer アカウントサポートが行われている。&lt;/p&gt;
+&lt;p&gt;また次期バージョンのプレビューである Visual Studio 2022 for Mac v17.4 もリリースされているとのこと。&lt;/p&gt;
+&lt;h3 id="net-august-2022-updates.net-6.0.8-and.net-core-3.1.28.net-blog"&gt;.NET August 2022 Updates – .NET 6.0.8 and .NET Core 3.1.28 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/august-2022-updates/"&gt;https://devblogs.microsoft.com/dotnet/august-2022-updates/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 6.0.8 と .NET Core 3.1.28 がリリースされた。&lt;/p&gt;
+&lt;p&gt;.NET 6 および .NET Core 3.1 の特権情報の不正アクセスによる情報漏洩のセキュリティー修正が含まれている。&lt;/p&gt;
+&lt;h3 id="net-framework-august-2022-security-and-quality-rollup-updates.net-blog"&gt;.NET Framework August 2022 Security and Quality Rollup Updates - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-framework-august-2022-security-and-quality-rollup-updates/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-framework-august-2022-security-and-quality-rollup-updates/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET Framework の2022年8月のセキュリティーと累積アップデートがリリースされた。&lt;/p&gt;
+&lt;p&gt;TLS 1.3 でクライアント証明書を使用している場合にネゴシエーションでハングアップする問題や、WPF の同期に関する問題の修正が含まれる。&lt;/p&gt;
+&lt;h3 id="announcing-nuget-6.3-transitive-dependencies-floating-versions-and-re-enabling-signed-package-verification-the-nuget-blog"&gt;Announcing NuGet 6.3 - Transitive Dependencies, Floating Versions, and Re-enabling Signed Package Verification - The NuGet Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/nuget/announcing-nuget-6-3-transitive-dependencies-floating-versions-and-re-enabling-signed-package-verification/"&gt;https://devblogs.microsoft.com/nuget/announcing-nuget-6-3-transitive-dependencies-floating-versions-and-re-enabling-signed-package-verification/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;NuGet 6.3 がリリースされた。&lt;/p&gt;
+&lt;p&gt;NuGet 6.3 は Visual Studio 2022 や .NET 6 に含まれるほか、独立した実行ファイルとしてダウンロードも可能。&lt;/p&gt;
+&lt;p&gt;このバージョンでは次の新機能や改善が含まれている。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PackageReference のパッケージから pdb を使用する&lt;/li&gt;
+&lt;li&gt;Visual Studio での推移的な依存関係の表示 (実験的な機能)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/nuget/introducing-transitive-dependencies-in-visual-studio/"&gt;Introducing Transitive Dependencies in Visual Studio - The NuGet Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PackageReference&lt;/code&gt;, &lt;code&gt;PackageVersion&lt;/code&gt; または &lt;code&gt;PackageDownload&lt;/code&gt; の重複が見つかった場合の新しい警告&lt;/li&gt;
+&lt;li&gt;Visual Studio でのカスタム浮動バージョンのインストール
+&lt;ul&gt;
+&lt;li&gt;UI 上から &lt;code&gt;1.*&lt;/code&gt; のような形でバージョンを指定できるようになった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Linux での署名されたパッケージの検証のデフォルトでの再有効化&lt;/li&gt;
+&lt;li&gt;HTTPS everywhere.
+&lt;ul&gt;
+&lt;li&gt;HTTP (非暗号化) 利用時の警告 NU1803 の追加、2023年11月以降には HTTP はエラーとなる (オプトアウト可)、2024年11月以降はエラーのオプトアウトも無効化される予定&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/nuget/https-everywhere/"&gt;HTTPS everywhere - The NuGet Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="visualstudio.extensibility-a-new-way-to-write-extensions-visual-studio-blog"&gt;VisualStudio.Extensibility: A New Way to Write Extensions - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility/"&gt;https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio の拡張性 (VisualStudio.Extensibility) の Phase 2 についての記事。&lt;/p&gt;
+&lt;p&gt;Phase 2 で利用できるようになった次の新機能について紹介している。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;リモート UI フレームワーク
+&lt;ul&gt;
+&lt;li&gt;Out-of-Process モデルでの UI サポート&lt;/li&gt;
+&lt;li&gt;ツールウィンドウ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;新しいエディタ API の追加
+&lt;ul&gt;
+&lt;li&gt;新しい言語コンテンツタイプの定義&lt;/li&gt;
+&lt;li&gt;ドキュメントセレクターを使用した拡張機能の適用可能性の指定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;新しいコマンド
+&lt;ul&gt;
+&lt;li&gt;ツールチップの表示&lt;/li&gt;
+&lt;li&gt;カスタムイメージの表示&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;タスク進捗状況通知&lt;/li&gt;
+&lt;li&gt;インプロセス API によるスムーズな移行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="announcing-synapseml-for.net-large-scale-ml-with-a-simple-api.net-blog"&gt;Announcing SynapseML for .NET - Large Scale ML with a Simple API - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-synapseml-for-dotnet/"&gt;https://devblogs.microsoft.com/dotnet/announcing-synapseml-for-dotnet/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;SynapseML v0.10 のリリースの一部として .NET バインディングが利用できるようになったというアナウンス。&lt;/p&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="announcing-the.net-maui-beautiful-ui-challenge.net-blog"&gt;Announcing the .NET MAUI Beautiful UI Challenge - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-maui-beautiful-ui-challenge/"&gt;https://devblogs.microsoft.com/dotnet/announcing-dotnet-maui-beautiful-ui-challenge/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Xamarin と .NET MAUI のきれいなデザインを集める Snppts と NET MAUI Good Look UI リポジトリーにデザインを共有することでステッカーをもらえるというキャンペーンのアナウンス。&lt;/p&gt;
+&lt;h3 id="microsoft-authentication-library-for.net-present"&gt;Microsoft Authentication Library for .NET でリフレッシュトークンを永続化する - present&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://tnakamura.hatenablog.com/entry/2022/08/08/microsoft-identity-client-extensions-msal"&gt;https://tnakamura.hatenablog.com/entry/2022/08/08/microsoft-identity-client-extensions-msal&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Microsoft Authentication Library for .NET を使用して取得したリフレッシュトークンはインメモリのみの保持のため、永続化してプロセス終了後も利用できるようにする方法についての記事。&lt;/p&gt;
+&lt;h3 id="trying-out-native-aot-in.net-7-preview-7-soundar-anbu-codes"&gt;Trying out Native AOT in .NET 7 Preview 7 - Soundar Anbu Code's&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://code.soundaranbu.com/trying-out-native-aot-in-net-7-preview-7/"&gt;https://code.soundaranbu.com/trying-out-native-aot-in-net-7-preview-7/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 7 Preview 7 での NativeAOT を試してみたという記事。最終的にどの程度のファイルサイズになるかといった部分に触れている。&lt;/p&gt;
+&lt;h3 id="net-7-preview-7-c-11-c-c"&gt;.NET 7 Preview 7 で、C# 11 の機能が一通りそろったみたい | ++C++; // 未確認飛行 C ブログ&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://ufcpp.net/blog/2022/8/net7p7/"&gt;https://ufcpp.net/blog/2022/8/net7p7/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 7 Preview 7 の時点で C# 11 が Preview からデフォルトになり、リリースに向けて機能が確定したという話。&lt;/p&gt;
+&lt;h3 id="cc-qiita"&gt;どのバージョンのC#としてビルドされているかを調べるC#コード - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/chocolamint/items/1c8635a34e6aa0adbc6d"&gt;https://qiita.com/chocolamint/items/1c8635a34e6aa0adbc6d&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;C# 言語バージョンごとの文法を含むコードを用意することで、コンパイラーがどのバージョンの C# でコンパイルしているか判断できる(どこでエラーが出るかで判断できる)のではないかという記事。&lt;/p&gt;
+&lt;h3 id="virtual-formatter-fixing-tabs-versus-spaces-and-other-problems-the.net-tools-blog"&gt;Virtual Formatter – Fixing Tabs versus Spaces and other Problems | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2022/08/11/virtual-formatter-in-resharper-2022-2/"&gt;https://blog.jetbrains.com/dotnet/2022/08/11/virtual-formatter-in-resharper-2022-2/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ReSharper 2022.2 の新機能 Virtual Formatter について紹介している記事。&lt;/p&gt;
+&lt;p&gt;Virtual Formatter は表示上でのみフォーマットを適用する機能で、アクセシビリティーや既存のコードのフォーマット、企業でのコーディングスタイルとの不一致といったシーンでのメリットを紹介している。&lt;/p&gt;
+&lt;h3 id="exploring.net-webassembly-with-wasi-and-wasmtime"&gt;Exploring .NET WebAssembly with WASI and Wasmtime&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/azure/exploring-net-webassembly-with-wasi-and-wasmtime-41l5"&gt;https://dev.to/azure/exploring-net-webassembly-with-wasi-and-wasmtime-41l5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;WASI を実装する Wasmtime で .NET WebAssembly を Dev Container を使用してビルド、動かす方法についての記事。&lt;/p&gt;
+&lt;h3 id="lessons-learned-from-optimizing-performance-in-multi-layered.net-projects"&gt;Lessons learned from optimizing performance in multi-layered .NET projects&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/elca-it/lessons-learned-from-optimizing-performance-in-multi-layered-net-projects-136576f61787"&gt;https://medium.com/elca-it/lessons-learned-from-optimizing-performance-in-multi-layered-net-projects-136576f61787&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;多層化(データベース、アプリケーション、ネットワーク等)された .NET プロジェクトでのパフォーマンス最適化で得られた教訓についての記事。&lt;/p&gt;
+&lt;h3 id="handling-concurrent-merges-to-master-in-multi-stage-azure-devops-pipelines"&gt;Handling concurrent merges to master in multi-stage Azure DevOps pipelines&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/handling-concurrent-merges-to-master-in-multi-stage-azure-devops-pipelines/"&gt;https://andrewlock.net/handling-concurrent-merges-to-master-in-multi-stage-azure-devops-pipelines/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Datadog .NET APM Tracer のような複数のステージを持つ Azure Pipelines のビルドで、 Pull request によるマージコミットでビルドしている場合にステージ進行中に master が更新されるとマージコミットが変更されてしまう問題に対する対処についての記事。&lt;/p&gt;
+&lt;h3 id="discover-the-new-asp.net-core-features-in.net-7-dotnetsafer-blog"&gt;Discover the New ASP.NET Core Features in .NET 7! - Dotnetsafer Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.dotnetsafer.com/discover-the-new-asp-net-core-features-in-net-7/"&gt;https://blog.dotnetsafer.com/discover-the-new-asp-net-core-features-in-net-7/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 7 の ASP.NET Core の新機能についての記事。Minimal API や SignalR のソースジェネレーターといったものを紹介している。&lt;/p&gt;
+&lt;h3 id="migrating-from-asp.net-to-asp.net-core-in-visual-studio.net-blog"&gt;Migrating from ASP.NET to ASP.NET Core in Visual Studio - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/introducing-project-migrations-visual-studio-extension/"&gt;https://devblogs.microsoft.com/dotnet/introducing-project-migrations-visual-studio-extension/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio に実装された ASP.NET から ASP.NET Core に移行するツールを使用する方法についての記事。&lt;/p&gt;
+&lt;h3 id="net-annotated-monthly-august-2022-the.net-tools-blog"&gt;.NET Annotated Monthly | August 2022 | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2022/08/08/net-annotated-monthly-august-2022/"&gt;https://blog.jetbrains.com/dotnet/2022/08/08/net-annotated-monthly-august-2022/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;JetBrains による .NET まとめの2022年8月号。&lt;/p&gt;
+&lt;h3 id="heap-sort-in-c-code-maze"&gt;Heap Sort in C# - Code Maze&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://code-maze.com/csharp-heap-sort/"&gt;https://code-maze.com/csharp-heap-sort/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;C# でのヒープソートを実装する記事。&lt;/p&gt;
+&lt;h3 id="running-a.net-application-on-a-local-kubernetes-cluster"&gt;Running a .NET application on a local Kubernetes cluster&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;TheLe0/running-a-net-application-on-a-local-kubernetes-cluster-1aff3537f755"&gt;https://medium.com/&amp;#64;TheLe0/running-a-net-application-on-a-local-kubernetes-cluster-1aff3537f755&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET アプリケーションを Kind のローカル Kubernetes クラスターで動かす方法についての記事。&lt;/p&gt;
+&lt;h3 id="linq-explained-with-sketches"&gt;LINQ explained with sketches&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://steven-giesel.com/blogPost/d65c5411-a69b-489f-b73f-18ce0ed8678d"&gt;https://steven-giesel.com/blogPost/d65c5411-a69b-489f-b73f-18ce0ed8678d&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;LINQ オペレーターの動きを絵で表す、という記事。&lt;/p&gt;
+&lt;h3 id="net-community-toolkit-qiita"&gt;【.NET Community Toolkit】ソースジェネレータのファイルサイズ調査 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/myoga/items/79e64ad7d358b281f6da"&gt;https://qiita.com/myoga/items/79e64ad7d358b281f6da&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET Community Toolkit の MVVM Source Generator でコード生成した場合に継承ベースの実装とバイナリサイズを比較している記事。&lt;/p&gt;
+&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h3 id="microsoftfluentui-emoji-fluent-emoji-are-a-collection-of-familiar-friendly-and-modern-emoji-from-microsoft"&gt;microsoft/fluentui-emoji: Fluent Emoji are a collection of familiar, friendly, and modern emoji from Microsoft.&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/microsoft/fluentui-emoji"&gt;https://github.com/microsoft/fluentui-emoji&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fluent UI の絵文字。&lt;/p&gt;
+&lt;p&gt;Windows の Fluent UI 絵文字で使用されているものと同じデザインの絵文字画像。 MIT ライセンスで公開されている。&lt;/p&gt;
+&lt;h3 id="bruce-dunwiddietsql-parser-library-written-in-c-for-parsing-sql-server-t-sql-scripts-in.net"&gt;bruce-dunwiddie/tsql-parser: Library Written in C# For Parsing SQL Server T-SQL Scripts in .Net&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/bruce-dunwiddie/tsql-parser"&gt;https://github.com/bruce-dunwiddie/tsql-parser&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Transact-SQL を解析するライブラリー。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/yaju/items/b74310ca4718c2ee112b"&gt;【.NET】SQL構文解析ライブラリーのTSQL Parserを使用する - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/yaju/items/cf6988f4a6a6707654ce"&gt;【.NET】SQL構文解析ライブラリーのTSQL Parserを使用する 応用編 - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
+&lt;h3 id="enterprise-application-patterns-using.net-maui-microsoft-docs"&gt;Enterprise Application Patterns Using .NET MAUI | Microsoft Docs&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://docs.microsoft.com/en-us/dotnet/architecture/maui/"&gt;https://docs.microsoft.com/en-us/dotnet/architecture/maui/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET MAUI のアプリケーションパターンの E-book。&lt;/p&gt;
+&lt;!-- https://twitter.com/MichaelStonis/status/1557771597406257152 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;My book Enterprise Application Patterns using .NET MAUI is now available! Lots of info to help you start building apps on the right path.&lt;br&gt;&lt;br&gt;It can be dowloaded from &lt;a href="https://t.co/AYumrTFUhc"&gt;https://t.co/AYumrTFUhc&lt;/a&gt;&lt;br&gt;&lt;br&gt;The best part is that it comes at the low, low price of FREE!&lt;a href="https://twitter.com/hashtag/dotnet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotnet&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/MAUI?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#MAUI&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/dotNETMAUI?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotNETMAUI&lt;/a&gt;&lt;/p&gt;&amp;mdash; Michael Stonis (&amp;#64;MichaelStonis) &lt;a href="https://twitter.com/MichaelStonis/status/1557771597406257152?ref_src=twsrc%5Etfw"&gt;August 11, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
+&lt;!-- https://twitter.com/shayrojansky/status/1557078174143459328?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Released version 7.0.0-preview.7 of &lt;a href="https://twitter.com/hashtag/npgsql?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#npgsql&lt;/a&gt; and the &lt;a href="https://twitter.com/hashtag/efcore?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#efcore&lt;/a&gt; provider for &lt;a href="https://twitter.com/hashtag/PostgreSQL?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#PostgreSQL&lt;/a&gt;, with some exciting aggregate support (&lt;a href="https://t.co/QvLCYfL09O"&gt;https://t.co/QvLCYfL09O&lt;/a&gt;) and various other stuff!&lt;/p&gt;&amp;mdash; Shay Rojansky (&amp;#64;shayrojansky) &lt;a href="https://twitter.com/shayrojansky/status/1557078174143459328?ref_src=twsrc%5Etfw"&gt;August 9, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;Npgsql と Entity Framework の 7.0.0-preview.7 で PostgreSQL の集計処理を利用できるようになったという話。&lt;/p&gt;
+&lt;!-- https://twitter.com/jaredpar/status/1558127162233786369?s=12&amp;t=n8ip1IrKkbSKILeSOgoYjA --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;One lesson I&amp;#39;ve learned hard over the last few years is the approach for CI must be different between large and jumbo projects.&lt;/p&gt;&amp;mdash; Jared Parsons (&amp;#64;jaredpar) &lt;a href="https://twitter.com/jaredpar/status/1558127162233786369?ref_src=twsrc%5Etfw"&gt;August 12, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;!-- https://twitter.com/jaredpar/status/1558132794676506624?s=12&amp;t=n8ip1IrKkbSKILeSOgoYjA --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;In terms of the odd incentives of testing at jumbo scale, consider the case of List&amp;lt;T&amp;gt;.Count for .NET. For a large / medium project you&amp;#39;d run unit tests for  core collections on every PR. At jumbo scale though this actually a measurable negative.&lt;/p&gt;&amp;mdash; Jared Parsons (&amp;#64;jaredpar) &lt;a href="https://twitter.com/jaredpar/status/1558132794676506624?ref_src=twsrc%5Etfw"&gt;August 12, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;中/大規模と超大規模のプロジェクトにおける CI とテストでの違いの話。&lt;/p&gt;
+&lt;h2 id="deep-dive"&gt;Deep Dive&lt;/h2&gt;
+&lt;h3 id="port-windowsmsdtc-distributed-transactions-support-by-roji-pull-request-72051-dotnetruntime"&gt;Port Windows/MSDTC distributed transactions support by roji · Pull Request #72051 · dotnet/runtime&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/dotnet/runtime/pull/72051"&gt;https://github.com/dotnet/runtime/pull/72051&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MSDTC による分散トランザクションのサポートの PR。&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>2022-08-08: .NET Community Toolkit 8.0, Rider and ReSharper 2022.2, ILSpy 8.0 Preview 2</title>
 			<link>/2022/08/08/updates</link>
@@ -1366,107 +1640,6 @@
 &lt;li&gt;&lt;a href="https://github.com/dotnet/aspnetcore/pull/42097"&gt;[WIP] Adding the rest of WebTransport into Kestrel by Daniel-Genkin-MS-2 · Pull Request #42097 · dotnet/aspnetcore&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/dotnet/aspnetcore/pull/41877"&gt;Adding WebTransport Handshake to Kestrel by Daniel-Genkin-MS-2 · Pull Request #41877 · dotnet/aspnetcore&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>2022-06-03: Visual Studio at Microsoft Build 2022, Incremental ASP.NET to ASP.NET Core Migration</title>
-			<link>/2022/06/03/updates</link>
-			<description>.NET 関連の情報をほぼ週刊配信</description>
-			<author>Mayuki Sawatari</author>
-			<enclosure url="/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/2022/06/03/updates</guid>
-			<pubDate>Fri, 03 Jun 2022 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="visual-studio-at-microsoft-build-2022.net-blog"&gt;Visual Studio at Microsoft Build 2022 - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-at-microsoft-build-2022/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-at-microsoft-build-2022/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Microsoft Build 2022 での Visual Studio 関連の情報についての記事。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Visual Studio 2022 17.3 Preview 1.1 と Visual Studio 2022 for Mac 17.3 Preview 1 で .NET MAUI のツーリングが利用可能に&lt;/li&gt;
-&lt;li&gt;Microsoft Dev Box (Windows 365 の開発者向け版) のアナウンス&lt;/li&gt;
-&lt;li&gt;Azure Deployment Environments のアナウンス&lt;/li&gt;
-&lt;li&gt;ARM64 向け Visual Studio のアナウンス&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="incremental-asp.net-to-asp.net-core-migration.net-blog"&gt;Incremental ASP.NET to ASP.NET Core Migration - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/incremental-asp-net-to-asp-net-core-migration/"&gt;https://devblogs.microsoft.com/dotnet/incremental-asp-net-to-asp-net-core-migration/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET を ASP.NET Core に段階的に移行する方法とそれを支援するツールやライブラリーについての記事。&lt;/p&gt;
-&lt;p&gt;記事では大きなプロジェクトを段階的に移行する方法として System.Web アダプターライブラリーと YARP を使用した構成を構築し、一部のロジックを ASP.NET Core アプリケーションへと移行しトラフィックを流していく形でインクリメンタルに移行する手段を紹介している。&lt;/p&gt;
-&lt;p&gt;またその構成を Visual Studio 上で簡単に構築できるマイグレーション用の拡張 (要 Visual Studio Preview) についても使用方法を含めて紹介している。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/systemweb-adapters"&gt;dotnet/systemweb-adapters&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://marketplace.visualstudio.com/items?itemName=WebToolsTeam.aspnetprojectmigrations"&gt;Microsoft Project Migrations (Experimental) - Visual Studio Marketplace&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="net-framework-may-2022-cumulative-update.net-blog"&gt;.NET Framework May 2022 Cumulative Update - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/net-framework-may-2022-cumulative-update/"&gt;https://devblogs.microsoft.com/dotnet/net-framework-may-2022-cumulative-update/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET Framework の2022年5月の累積アップデートプレビューがリリースされた。&lt;/p&gt;
-&lt;p&gt;このアップデートでは WPF、WinForms、.NET ランタイム、ワークフローに関する品質と安定性の向上が含まれている。&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="ccustom-github-action-yucchiys-note"&gt;C#でCustom GitHub Actionを書く | Yucchiy's Note&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.yucchiy.com/2022/05/implement-custom-github-action-with-csharp/"&gt;https://blog.yucchiy.com/2022/05/implement-custom-github-action-with-csharp/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;GitHub Actions のカスタム action を C# で記述する方法についての記事。&lt;/p&gt;
-&lt;h3 id="vscodeunityuseglobalmono"&gt;【vscode/Unity】補完が消えた&amp;amp;useGlobalMonoがなくなって混乱している人へ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/leaf/articles/98f02a61440893"&gt;https://zenn.dev/leaf/articles/98f02a61440893&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio Code で使用する C# 拡張を使用している場合に Unity のプロジェクトのようなフルフレームワークプロジェクトで補完が効かなくなる問題についての記事。&lt;/p&gt;
-&lt;p&gt;原因は C# 拡張の OmniSharp が .NET 6 で動作するようになったことで不完全な付属のミニマルな Mono と MSBuild Tools を削除となり、その結果として設定項目が変更されたことによる。(デフォルトでは .NET SDK を探しにいく)&lt;/p&gt;
-&lt;p&gt;解決策は omnisharp.useModernNet を false にすることでインストールされた Mono を利用するようにする。&lt;/p&gt;
-&lt;h3 id="page-navigation-in.net-maui-an-overview"&gt;Page Navigation in .NET MAUI: An Overview&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/syncfusion/page-navigation-in-net-maui-an-overview-2bkm"&gt;https://dev.to/syncfusion/page-navigation-in-net-maui-an-overview-2bkm&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET MAUI で利用できる2種類のページナビゲーションの簡単な説明記事。&lt;/p&gt;
-&lt;h3 id="c-cswin32win32apipinvoke-qiita"&gt;[C#] CsWin32でWin32APIのプラットフォーム呼び出し(P/Invoke)コードを自動生成 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/radian-jp/items/a4509f9a44101fb2f30e"&gt;https://qiita.com/radian-jp/items/a4509f9a44101fb2f30e&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Windows (Win32 API) 向けの P/Invoke の呼び出しコードを生成する Source Generator の CsWin32 の使い方についての記事。&lt;/p&gt;
-&lt;h3 id="securing.net-app-secrets-with-aws-secrets-manager"&gt;Securing .NET App Secrets with AWS Secrets Manager&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/aws-builders/securing-net-app-secrets-with-aws-secrets-manager-2f4h"&gt;https://dev.to/aws-builders/securing-net-app-secrets-with-aws-secrets-manager-2f4h&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET アプリケーションから AWS Secrets Manager にアクセスしてシークレットを取得する方法についての記事。&lt;/p&gt;
-&lt;h3 id="improved-doc-management-personalization"&gt;Improved doc management personalization&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/doc-management-personalization/"&gt;https://devblogs.microsoft.com/visualstudio/doc-management-personalization/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 で強化されたドキュメント(タブ)管理について紹介する記事。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;タブの複数行配置&lt;/li&gt;
-&lt;li&gt;非表示ドキュメント名の斜体表示&lt;/li&gt;
-&lt;li&gt;変更済みインジケーターのアクセシビリティの向上&lt;/li&gt;
-&lt;li&gt;閉じたタブの復元&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="next.js-meets-asp.net-core-a-story-of-performance-and-love-at-long-tail"&gt;Next.js meets ASP .NET Core — a story of performance and love at long tail&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;david.nissimoff/next-js-meets-asp-net-core-a-story-of-performance-and-love-at-long-tail-41cf9231b2de"&gt;https://medium.com/&amp;#64;david.nissimoff/next-js-meets-asp-net-core-a-story-of-performance-and-love-at-long-tail-41cf9231b2de&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core サーバーで Next.js の静的生成 (SSG) ページをホストするという試みについての記事。&lt;/p&gt;
-&lt;h3 id="surprising-ways-to-profile-your.net-applications-the.net-tools-blog"&gt;Surprising Ways To Profile Your .NET Applications | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2022/05/31/surprising-ways-to-profile-your-net-applications/"&gt;https://blog.jetbrains.com/dotnet/2022/05/31/surprising-ways-to-profile-your-net-applications/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;dotTrace, dotMemory を使用してのプロファイリングは IDE やビルドパイプライン、ユニットテストやリモート環境といった様々な環境で行えることを紹介する記事。&lt;/p&gt;
-&lt;h3 id="understanding-pathbase-in-asp.net-core"&gt;Understanding PathBase in ASP.NET Core&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/understanding-pathbase-in-aspnetcore/"&gt;https://andrewlock.net/understanding-pathbase-in-aspnetcore/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core の HttpContext にある PathBase プロパティーがどういうものかを説明している記事。&lt;/p&gt;
-&lt;p&gt;PathBase はリクエストのプレフィックスとなるパスを表すもので、リバースプロキシーの裏側にいる場合などに役立つ。&lt;/p&gt;
-&lt;h3 id="unusual-optimizations-ref-foreach-and-ref-returns"&gt;Unusual optimizations; ref foreach and ref returns&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.marcgravell.com/2022/05/unusual-optimizations-ref-foreach-and.html"&gt;https://blog.marcgravell.com/2022/05/unusual-optimizations-ref-foreach-and.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;foreach で ref を使い、構造体のコピーを減らすことでパフォーマンスを向上させるテクニックについての記事。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;foreach&lt;/code&gt; は対象が構造体の列挙の場合、値を取り出すことがコピーとなるためパフォーマンスに影響が出る可能性がある。&lt;/p&gt;
-&lt;p&gt;例として配列の要素に対するメソッド呼び出しには &lt;code&gt;foreach&lt;/code&gt; を使った場合は「配列からインデックスで値を取り出す」「ローカル変数に保存する」「ローカル変数のアドレスを取得する」の3ステップが必要となる一方、 &lt;code&gt;for&lt;/code&gt; の場合は「インデックスで値のアドレスを取り出す」だけでコピーが発生しない IL へとコンパイルされる。(ちなみに SharpLab で JIT 結果を見ると同じ結果になっているように見えるので単純なコードの場合差がない可能性がある)&lt;/p&gt;
-&lt;p&gt;配列以外で似たようなことをするにはどうすればよいのかというところで &lt;code&gt;Span&amp;lt;T&amp;gt;&lt;/code&gt; と &lt;code&gt;foreach (ref ...)&lt;/code&gt; を使用する方法があるとしている。リストであれば &lt;code&gt;foreach (ref var tmp in CollectionsMarshal.AsSpan(list)) { ... }&lt;/code&gt; のようにすることでコンパイラーと JIT での最適化で配列での &lt;code&gt;for&lt;/code&gt; と同じようなコピーしない操作結果を得られる。&lt;/p&gt;
-&lt;p&gt;もし &lt;code&gt;Span&amp;lt;T&amp;gt;&lt;/code&gt; を使用できないとしても &lt;code&gt;Span&amp;lt;T&amp;gt;&lt;/code&gt; などと同様に Enumerator.Current で &lt;code&gt;ref return&lt;/code&gt; するカスタム Enumerator を実装することもできる。&lt;/p&gt;
-&lt;h3 id="may-26-2022.net-data-biweekly-updates-2022-issue-27185-dotnetefcore"&gt;May 26, 2022 - .NET Data Biweekly Updates (2022) · Issue #27185 · dotnet/efcore&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/dotnet/efcore/issues/27185"&gt;https://github.com/dotnet/efcore/issues/27185&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Entity Framework Core 関連の隔週のアップデート情報。5月26日分。&lt;/p&gt;
-&lt;p&gt;コミュニティスタンドアップの紹介や EF Core 7 の実装状況などについて触れている。&lt;/p&gt;
-&lt;h2 id="section-2"&gt;サイト、ドキュメントなど&lt;/h2&gt;
-&lt;h3 id="vol.78-web-shell-mag"&gt;シェルスクリプトマガジンvol.78 Web掲載記事まとめ | shell-mag&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://shell-mag.com/vol-78-web/"&gt;https://shell-mag.com/vol-78-web/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 特集が組まれている。&lt;/p&gt;
-&lt;h3 id="section-3"&gt;ツイート&lt;/h3&gt;
-&lt;!-- https://twitter.com/runfaster2000/status/1531743163190128640?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Cool ... The MCR domain now does something useful. &lt;a href="https://t.co/UyELAGuv4E"&gt;https://t.co/UyELAGuv4E&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rich Lander (&amp;#64;runfaster2000) &lt;a href="https://twitter.com/runfaster2000/status/1531743163190128640?ref_src=twsrc%5Etfw"&gt;May 31, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;Microsoft の公式コンテナーレジストリーのカタログページがあるので、.NET のイメージも探せるという話。&lt;/p&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
