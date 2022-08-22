@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Mon, 22 Aug 2022 09:02:42 GMT</pubDate>
-		<lastBuildDate>Mon, 22 Aug 2022 09:02:42 GMT</lastBuildDate>
+		<pubDate>Mon, 22 Aug 2022 09:05:41 GMT</pubDate>
+		<lastBuildDate>Mon, 22 Aug 2022 09:05:41 GMT</lastBuildDate>
 		<item>
 			<title>2022-08-22: .NET 6 is now in Ubuntu 22.04, Avalonia 11.0 Preview 1, Bringing Kestrel + YARP to Azure App Services</title>
 			<link>/2022/08/22/updates</link>
@@ -31,7 +31,7 @@
 &lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-6-is-now-in-ubuntu-2204/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-6-is-now-in-ubuntu-2204/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;.NET 6 が Ubuntu 22.04 (Jammy) の公式配布に含まれるようになったアナウンス。&lt;/p&gt;
 &lt;p&gt;Canonical とのパートナーシップにより .NET 6 が Ubuntu の一部として配布されるようになった。これにより apt パッケージマネージャーからパッケージソースの追加なしに &lt;code&gt;apt install dotnet6&lt;/code&gt; でインストールできるようになる。&lt;/p&gt;
-&lt;p&gt;また同時に .NET 6 の Chiseled Ubuntu コンテナーイメージも公開された。Chiseled Ubuntu コンテナーイメージは通常のコンテナーイメージと異なり、パッケージマネージャーやシェル、root といったものが削除された極小サイズのイメージとなっている。必要最低限のコンポーネントを含むイメージとなっているため、アタックサーフェースを小さくできる。なお、Chiseled イメージには ICU が含まれていないため、Globalization Invariant モードが有効となっている点に注意が必要。&lt;/p&gt;
+&lt;p&gt;また同時に .NET 6 の Chiseled Ubuntu コンテナーイメージも公開された。Chiseled Ubuntu コンテナーイメージは通常のコンテナーイメージと異なり、パッケージマネージャーやシェル、root といったものが削除された極小サイズのイメージとなっている。必要最低限のコンポーネントを含むイメージとなっているため、アタックサーフェスを小さくできる。なお、Chiseled イメージには ICU が含まれていないため、Globalization Invariant モードが有効となっている点に注意が必要。&lt;/p&gt;
 &lt;p&gt;記事では apt パッケージマネージャーからのインストールについてとコンテナーイメージの利用方法や注意点について触れている。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://ubuntu.com/blog/install-dotnet-on-ubuntu"&gt;Microsoft and Canonical announce native .NET availability in Ubuntu 22.04 hosts and containers | Ubuntu&lt;/a&gt;&lt;/li&gt;
