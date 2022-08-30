@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Tue, 30 Aug 2022 10:46:46 GMT</pubDate>
-		<lastBuildDate>Tue, 30 Aug 2022 10:46:46 GMT</lastBuildDate>
+		<pubDate>Tue, 30 Aug 2022 10:54:41 GMT</pubDate>
+		<lastBuildDate>Tue, 30 Aug 2022 10:54:41 GMT</lastBuildDate>
 		<item>
 			<title>2022-08-30: built-in container support, C# 11 preview, ReSharper and Rider 2022.2.2</title>
 			<link>/2022/08/30/updates</link>
@@ -145,7 +145,7 @@
 &lt;!-- https://twitter.com/jaredpar/status/1562836200565534721?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;&lt;a href="https://t.co/pOKpJALuo2"&gt;https://t.co/pOKpJALuo2&lt;/a&gt;&lt;br&gt;&lt;br&gt;This is what the C# compiler team uses to troll the C# IDE team with perf issues.&lt;/p&gt;&amp;mdash; Jared Parsons (&amp;#64;jaredpar) &lt;a href="https://twitter.com/jaredpar/status/1562836200565534721?ref_src=twsrc%5Etfw"&gt;August 25, 2022&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;Visual Studio のエディター拡張のパフォーマンステストにいい巨大 C# ファイルはないか?という質問に対する答え。&lt;/p&gt;
+&lt;p&gt;Visual Studio のエディター拡張のパフォーマンステストにちょうどいい巨大な C# ファイルはないか?という質問に対する答え。&lt;/p&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
