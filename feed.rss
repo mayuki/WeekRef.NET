@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Tue, 30 Aug 2022 10:54:41 GMT</pubDate>
-		<lastBuildDate>Tue, 30 Aug 2022 10:54:41 GMT</lastBuildDate>
+		<pubDate>Tue, 30 Aug 2022 10:55:44 GMT</pubDate>
+		<lastBuildDate>Tue, 30 Aug 2022 10:55:44 GMT</lastBuildDate>
 		<item>
 			<title>2022-08-30: built-in container support, C# 11 preview, ReSharper and Rider 2022.2.2</title>
 			<link>/2022/08/30/updates</link>
@@ -139,7 +139,7 @@
 &lt;p&gt;ASP.NET Core の様々な幅広いユースケース(Minimal API から YARP, gRPC などまで)のサンプルコード集。&lt;/p&gt;
 &lt;h3 id="microsoftpeeker-roslyn-analyzers-on.net-binaries"&gt;microsoft/peeker: Roslyn analyzers on .NET binaries&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/microsoft/peeker"&gt;https://github.com/microsoft/peeker&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;コンパイル済みの .NET アセンブリーを逆コンパイルして Roslyn Analyzer にかけ、その結果を SALIF として出力するツール。&lt;/p&gt;
+&lt;p&gt;コンパイル済みの .NET アセンブリーを逆コンパイルして Roslyn Analyzer にかけ、その結果を SARIF として出力するツール。&lt;/p&gt;
 &lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
 &lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
 &lt;!-- https://twitter.com/jaredpar/status/1562836200565534721?s=12 --&gt;
