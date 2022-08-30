@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2022-08-30: built-in container support, C# 11 preview, ReSharper and Rider 2022.2.2 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2022/08/30/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2022-08-30: built-in container support, C# 11 preview, ReSharper and Rider 2022.2.2 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2022/08/30/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2022-08-30: built-in container support, C# 11 preview, ReSharper and Rider 2022.2.2
+          </h1>
+              <div class="meta">Published on Tuesday, 30 August 2022</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="announcing-built-in-container-support-for-the.net-sdk.net-blog">Announcing built-in container support for the .NET SDK - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/announcing-builtin-container-support-for-the-dotnet-sdk/">https://devblogs.microsoft.com/dotnet/announcing-builtin-container-support-for-the-dotnet-sdk/</a></p>
+<p>.NET 7 の <code>dotnet</code> コマンドからワンストップでコンテナーイメージをビルドするサポートパッケージのプレビューのアナウンス。</p>
+<p>このサポートにより <code>dotnet publish</code> でアプリケーション発行時にコンテナーイメージとしてビルドできるようになる。ベースイメージの変更といったカスタマイズが行えるほか、今後のリリースではさらなるイメージのカスタマイズポイントの追加とコンテナーレジストリーへのプッシュや Windows コンテナーイメージといったものが予定されている。</p>
+<h3 id="c-11-preview-generic-math-required-members-and-more.net-blog">C# 11 preview: generic math, required members, and more - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/csharp-11-preview-august-update/">https://devblogs.microsoft.com/dotnet/csharp-11-preview-august-update/</a></p>
+<p>完成が近づいてきた C# 11 の機能 (オブジェクト初期化関連、Generic Math、開発者生産性) について紹介している記事。</p>
+<ul>
+<li>オブジェクト初期化関連
+<ul>
+<li><code>ref</code> フィールド</li>
+<li>必須メンバー</li>
+</ul>
+</li>
+<li>Generic Math</li>
+<li>開発者生産性
+<ul>
+<li>メソッドパラメーターを対象とした <code>nameof</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="resharper-and-rider-2022.2.2-more-bug-fixes-delivered-the.net-tools-blog">ReSharper and Rider 2022.2.2 – More Bug Fixes Delivered | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2022/08/22/resharper-and-rider-2022-2-2-bug-fixes/">https://blog.jetbrains.com/dotnet/2022/08/22/resharper-and-rider-2022-2-2-bug-fixes/</a></p>
+<p>ReSharper と Rider 2022.2.2 がリリースされた。</p>
+<p>このリリースではそれぞれいくつかの不具合の修正が含まれている。</p>
+<h3 id="net-maui-cloud-skills-challenge-learn.net-maui-get-stickers.net-blog">.NET MAUI Cloud Skills Challenge - Learn .NET MAUI, Get Stickers! - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/dotnet-maui-cloud-skills-challenge/">https://devblogs.microsoft.com/dotnet/dotnet-maui-cloud-skills-challenge/</a></p>
+<p>.NET MAUI Cloud Skills Challenge が9月30日までに延長された。</p>
+<p>.NET MAUI Cloud Skills Challenge は Microsoft Learn 上の .NET MAUI のトレーニングを行うとステッカーがもらえるというキャンペーン。</p>
+<h3 id="net-framework-august-2022-cumulative-update-preview-updates.net-blog">.NET Framework August 2022 Cumulative Update Preview Updates - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/dotnet-framework-august-2022-cumulative-update-preview-updates/">https://devblogs.microsoft.com/dotnet/dotnet-framework-august-2022-cumulative-update-preview-updates/</a></p>
+<p>.NET Framework の2022年8月の累積アップデートのプレビューがリリースされた。</p>
+<p>このリリースにはローカリゼーションの問題と WinForms の問題の修正が含まれている。</p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="net-6">金融の基幹システムを1年半かけて.NET 6に移行した話</h3>
+<p><a href="https://zenn.dev/nuits_jp/articles/2022-08-26-migration-to-net6">https://zenn.dev/nuits_jp/articles/2022-08-26-migration-to-net6</a></p>
+<p>.NET Framework で実装された金融の基幹システムを .NET 6 へと移行した事例紹介。</p>
+<p>実例をもとに .NET 6 への以降をどのように進めたのかといったことを紹介している。</p>
+<h3 id="net-csharptokyo">.NETのサポートポリシーのおさらい #csharptokyo</h3>
+<p><a href="https://www.slideshare.net/YutaMatsumura/net-csharptokyo-252711803">https://www.slideshare.net/YutaMatsumura/net-csharptokyo-252711803</a></p>
+<p>.NET のサポートポリシーをおさらいして解説しているスライド。</p>
+<h3 id="system.drawing">System.Drawing 周りの話</h3>
+<p><a href="https://www.slideshare.net/masatoru/systemdrawing-252711487">https://www.slideshare.net/masatoru/systemdrawing-252711487</a></p>
+<p>.NET 5/6 での System.Drawing の扱いについてのスライド。</p>
+<h3 id="file-c-c">file ローカル型 | ++C++; // 未確認飛行 C ブログ</h3>
+<p><a href="https://ufcpp.net/study/csharp/misc/file-local/">https://ufcpp.net/study/csharp/misc/file-local/</a></p>
+<p>C# 11 で導入される <code>file</code> ローカル型について解説している記事。</p>
+<p><code>file</code> ローカル型は型のアクセシビリティがそのファイルの中となるもの。記事では使い方や効果のほか導入の背景なども紹介している。</p>
+<h3 id="mapping-multiple-static-file-folders-in-asp.net-core-rick-strahls-web-log">Mapping Multiple Static File Folders in ASP.NET Core - Rick Strahl's Web Log</h3>
+<p><a href="https://weblog.west-wind.com/posts/2022/Aug/23/Mapping-Multiple-Static-File-Folders-in-ASPNET-Core">https://weblog.west-wind.com/posts/2022/Aug/23/Mapping-Multiple-Static-File-Folders-in-ASPNET-Core</a></p>
+<p>ASP.NET Core の静的ファイル配信において複数のローカルパスから配信できるようにする方法についての記事。</p>
+<h3 id="detours-redirecting-c-methods-at-runtime">Detours: redirecting C# methods at runtime</h3>
+<p><a href="https://tryfinally.dev/detours-redirecting-csharp-methods-at-runtime">https://tryfinally.dev/detours-redirecting-csharp-methods-at-runtime</a></p>
+<p>Unity や Mono ランタイムで動作するアプリケーションのメソッドを実行時に差し替える方法についての記事。</p>
+<h3 id="winui3-winui3-qiita">[WinUI3] WinUI3でウインドウプロシージャをフックする（最大/最小ウインドウサイズの指定にも使える） - Qiita</h3>
+<p><a href="https://qiita.com/tera1707/items/75609595f4d42e0ac160">https://qiita.com/tera1707/items/75609595f4d42e0ac160</a></p>
+<p>WinUI 3 のアプリケーションでウィンドウプロシージャーをフックしてサブクラス化する方法についての記事。</p>
+<h3 id="malware-analysis-4-eternity-project-eternity-stealer">[ Malware Analysis #4] —Eternity Project — Eternity Stealer</h3>
+<p><a href="https://0xm3h51n.medium.com/malware-analysis-4-eternity-project-eternity-stealer-682df3f0dafd">https://0xm3h51n.medium.com/malware-analysis-4-eternity-project-eternity-stealer-682df3f0dafd</a></p>
+<p>&quot;Eternity Project&quot; というマルウェアサービスのサンプルマルウェアを解析するという記事。</p>
+<p>記事では .NET 製のマルウェアを解析してどのようにして難読化されているか、どのようなことを行っているのかといったことに触れている。</p>
+<h3 id="asp.net-core-6-handling-grpc-exception-correctly-server-side">ASP.NET Core 6: Handling gRPC exception correctly server side</h3>
+<p><a href="https://anthonygiretti.com/2022/08/28/asp-net-core-6-handling-grpc-exception-correctly-server-side/">https://anthonygiretti.com/2022/08/28/asp-net-core-6-handling-grpc-exception-correctly-server-side/</a></p>
+<p>ASP.NET Core の gRPC サービスでのサーバーサイドの例外ハンドリングについての記事。</p>
+<p>記事では Interceptor を使用することで各メソッドの呼び出し中に発生した例外をハンドリングしてクライアントに伝える情報をコントロールしている。</p>
+<h3 id="strongly-typed-middleware-in-asp.net-core">Strongly Typed Middleware in ASP.NET Core</h3>
+<p><a href="https://www.mikesdotnetting.com/article/359/strongly-typed-middleware-in-asp-net-core">https://www.mikesdotnetting.com/article/359/strongly-typed-middleware-in-asp-net-core</a></p>
+<p>ASP.NET Core のミドルウェアを規約ベースではなく <code>IMiddleware</code> インターフェースによって実装することについての記事。</p>
+<h3 id="add-persisted-parameters-to-cli-applications-in.net">Add persisted parameters to CLI applications in .NET</h3>
+<p><a href="https://dev.to/nikiforovall/add-persisted-parameters-to-cli-applications-in-net-5cgd">https://dev.to/nikiforovall/add-persisted-parameters-to-cli-applications-in-net-5cgd</a></p>
+<p>System.CommandLine を使用した CLI アプリケーションで、設定ファイルにコマンドのパラメーターを永続化しておく方法についての記事。</p>
+<h3 id="c-source-generator">C# Source Generator で将棋の指し手生成を生成して高速化してみた</h3>
+<p><a href="https://zenn.dev/tomori_k/articles/f2bcaf312bc946">https://zenn.dev/tomori_k/articles/f2bcaf312bc946</a></p>
+<p>Source Generator を使用して、元となるコードを読み込み、書き換えを行ったうえで生成することで処理を高速化するというテクニックについての記事。</p>
+<h3 id="xamarin.net">Xamarin のサポート終了と .NET 統合の話</h3>
+<p><a href="https://zenn.dev/mayuki/articles/64f86fbc1d3da0">https://zenn.dev/mayuki/articles/64f86fbc1d3da0</a></p>
+<p>Xamarin のサポート終了による .NET への統合、MAUI の位置づけについてまとめた記事。</p>
+<h3 id="net7.0-generic-math-qiita">.NET7.0 の Generic Math についてメモ - Qiita</h3>
+<p><a href="https://qiita.com/YuHima03/items/11dd31f8f380b1c1311d">https://qiita.com/YuHima03/items/11dd31f8f380b1c1311d</a></p>
+<p>C# 11 / .NET 7 の Generic Math で使用されるインターフェースを紹介している記事。</p>
+<h3 id="deploy-a-c.net-core-website-to-kubernetes-in-5-minutes-with-jetpack.io">Deploy a C# &amp; .NET Core Website to Kubernetes in 5 Minutes with Jetpack.io</h3>
+<p><a href="https://dev.to/robrich/deploy-a-c-net-core-website-to-kubernetes-in-5-minutes-with-jetpackio-17da">https://dev.to/robrich/deploy-a-c-net-core-website-to-kubernetes-in-5-minutes-with-jetpackio-17da</a></p>
+<p>Kubernetes に簡単にデプロイできるようにパッケージングなどを行う Jetpack.io というツールを使用して .NET アプリケーションをデプロイする方法についての記事。</p>
+<h3 id="net-maui-ebook-now-available-enterprise-application-patterns.net-blog">.NET MAUI eBook Now Available - Enterprise Application Patterns - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/dotnet-maui-ebook-released/">https://devblogs.microsoft.com/dotnet/dotnet-maui-ebook-released/</a></p>
+<p>.NET MAUI の eBook &quot;Enterprise Application Patterns using .NET MAUI&quot; が利用できるようになったというアナウンス。</p>
+<h3 id="use-keycloak-as-identity-provider-in-asp.net-core-6">Use Keycloak as Identity Provider in ASP.NET Core 6</h3>
+<p><a href="https://dev.to/nikiforovall/use-keycloak-as-identity-provider-in-aspnet-core-6-4c7g">https://dev.to/nikiforovall/use-keycloak-as-identity-provider-in-aspnet-core-6-4c7g</a></p>
+<p>オープンソースのアイデンティティとアクセス制御管理の Keycloak を ASP.NET Core から Identity Provider として使用する方法についての記事。</p>
+<h3 id="entity-framework-core-and-multiple-database-providers-the.net-tools-blog">Entity Framework Core and Multiple Database Providers | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2022/08/24/entity-framework-core-and-multiple-database-providers/">https://blog.jetbrains.com/dotnet/2022/08/24/entity-framework-core-and-multiple-database-providers/</a></p>
+<p>Entity Framework Core で複数のデータベースプロバイダーを扱う方法についての記事。</p>
+<p>このようなケースが必要になるものとしてアプリケーションをセルフホストできるようにする場合、顧客の環境やニーズに合わせたデータベースでの対応が必要となる場合があるとしている。</p>
+<h3 id="using-the-new-composition-renderer-in-avalonia-11">Using the new Composition Renderer in Avalonia 11</h3>
+<p><a href="https://dev.to/adirh3/using-the-new-composition-renderer-in-avalonia-11-1k0p">https://dev.to/adirh3/using-the-new-composition-renderer-in-avalonia-11-1k0p</a></p>
+<p>Avalonia 11 の新しいコンポジションレンダラーに関する記事。記事では特にアニメーションについて触れている。</p>
+<h3 id="using-cancellationtokens-in-asp.net-core-minimal-apis">Using CancellationTokens in ASP.NET Core minimal APIs</h3>
+<p><a href="https://andrewlock.net/using-cancellationtokens-in-asp-net-core-minimal-apis/">https://andrewlock.net/using-cancellationtokens-in-asp-net-core-minimal-apis/</a></p>
+<p>ASP.NET Core での CancellationToken の取り扱いの必要性と Minimal API での使用方法についての記事。</p>
+<p>リクエストに長時間かかるようなケースなどでは CancellationToken をケアすることが価値を持つこと、ミドルウェアでハンドリングできることなどが書かれている。</p>
+<h3 id="processing-open-street-map-data-with-f-and.net-interactive">Processing Open Street Map data with F# and .NET Interactive</h3>
+<p><a href="https://dev.to/cognipla/processing-open-street-map-data-with-f-and-net-interactive-4lh6">https://dev.to/cognipla/processing-open-street-map-data-with-f-and-net-interactive-4lh6</a></p>
+<p>Open Street Map から生成したデータを F# と .NET Interactive で処理するという記事。</p>
+<h3 id="asp.net-custom-metrics-with-opentelemetry-collector-prometheusgrafana">ASP.NET Custom Metrics with OpenTelemetry Collector &amp; Prometheus/Grafana</h3>
+<p><a href="https://dev.to/cdennig/aspnet-custom-metrics-with-opentelemetry-collector-prometheusgrafana-1hp">https://dev.to/cdennig/aspnet-custom-metrics-with-opentelemetry-collector-prometheusgrafana-1hp</a></p>
+<p>ASP.NET Core アプリケーションから OpenTelemetry でカスタムメトリクスを Prometheus、Grafana を使用して取り扱う方法についての記事。</p>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="dodygpractical-aspnetcore-practical-samples-of-asp.net-core-2.1-2.2-3.1-5.0-6.0-and-7.0-projects-you-can-use.readme-contains-explanations-on-all-projects">dodyg/practical-aspnetcore: Practical samples of ASP.NET Core 2.1, 2.2, 3.1, 5.0, 6.0 and 7.0 projects you can use. Readme contains explanations on all projects.</h3>
+<p><a href="https://github.com/dodyg/practical-aspnetcore">https://github.com/dodyg/practical-aspnetcore</a></p>
+<p>ASP.NET Core の様々な幅広いユースケース(Minimal API から YARP, gRPC などまで)のサンプルコード集。</p>
+<h3 id="microsoftpeeker-roslyn-analyzers-on.net-binaries">microsoft/peeker: Roslyn analyzers on .NET binaries</h3>
+<p><a href="https://github.com/microsoft/peeker">https://github.com/microsoft/peeker</a></p>
+<p>コンパイル済みの .NET アセンブリーを逆コンパイルして Roslyn Analyzer にかけ、その結果を SALIF として出力するツール。</p>
+<h2 id="section-3">サイト、ドキュメントなど</h2>
+<h3 id="section-4">ツイート</h3>
+<!-- https://twitter.com/jaredpar/status/1562836200565534721?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://t.co/pOKpJALuo2">https://t.co/pOKpJALuo2</a><br><br>This is what the C# compiler team uses to troll the C# IDE team with perf issues.</p>&mdash; Jared Parsons (&#64;jaredpar) <a href="https://twitter.com/jaredpar/status/1562836200565534721?ref_src=twsrc%5Etfw">August 25, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Visual Studio のエディター拡張のパフォーマンステストにいい巨大 C# ファイルはないか?という質問に対する答え。</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
