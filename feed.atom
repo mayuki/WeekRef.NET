@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2022-10-03T10:15:05Z</updated>
+	<updated>2022-10-03T10:48:51Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -143,6 +143,10 @@
 &lt;p&gt;&lt;a href="https://github.com/mathnet/mathnet-numerics"&gt;https://github.com/mathnet/mathnet-numerics&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;数値計算ライブラリー。特殊関数、線形代数、確率モデル、乱数、統計、補間、積分、回帰、曲線フィッティング、積分変換 (FFT) などが含まれる。&lt;/p&gt;
 &lt;p&gt;-&lt;a href="https://qiita.com/higege-amdeker/items/f424267279bb078ec435"&gt;「ちょっと午後までに標準偏差表示しといて」～C# での最速標準偏差～ - Qiita&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="cysharpmemorypack-zero-encoding-extreme-performance-binary-serializer-for-c"&gt;Cysharp/MemoryPack: Zero encoding extreme performance binary serializer for C#.&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/Cysharp/MemoryPack"&gt;https://github.com/Cysharp/MemoryPack&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;C# / .NET に特化したバイナリー形式(メモリー表現のまま)のシリアライズを行うハイパフォーマンスなシリアライザー。&lt;/p&gt;
+&lt;p&gt;.NET 7 を前提とした実装と Incremental Source Generator による事前コード生成などの特徴を持っている。&lt;/p&gt;
 &lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
 &lt;h3 id="asp.net-core-in-action-version-3-is-now-available"&gt;ASP.NET Core in Action, version 3, is now available&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://andrewlock.net/asp-dotnet-core-in-action-version-3-is-now-available/"&gt;https://andrewlock.net/asp-dotnet-core-in-action-version-3-is-now-available/&lt;/a&gt;&lt;/p&gt;
