@@ -6,8 +6,158 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Mon, 03 Oct 2022 10:51:04 GMT</pubDate>
-		<lastBuildDate>Mon, 03 Oct 2022 10:51:04 GMT</lastBuildDate>
+		<pubDate>Tue, 11 Oct 2022 10:11:35 GMT</pubDate>
+		<lastBuildDate>Tue, 11 Oct 2022 10:11:35 GMT</lastBuildDate>
+		<item>
+			<title>2022-10-11: Console.ReadKey improvements, Bing Ads Campaign Platform – Journey to .NET 6</title>
+			<link>/2022/10/11/updates</link>
+			<description>.NET 関連の情報をほぼ週刊配信</description>
+			<author>Mayuki Sawatari</author>
+			<enclosure url="/img/logo.png" length="0" type="image" />
+			<guid isPermaLink="false">/2022/10/11/updates</guid>
+			<pubDate>Tue, 11 Oct 2022 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="console.readkey-improvements-in.net-7.net-blog"&gt;Console.ReadKey improvements in .NET 7 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/console-readkey-improvements-in-net-7/"&gt;https://devblogs.microsoft.com/dotnet/console-readkey-improvements-in-net-7/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Unix/Linux での &lt;code&gt;Console.ReadKey&lt;/code&gt; の挙動をより良いものにするために .NET 7 で書き直したこととその変更の解説記事。&lt;/p&gt;
+&lt;p&gt;以前から Unix/Linux での &lt;code&gt;Console.ReadKey&lt;/code&gt; の挙動には入力されたキーの組み合わせや修飾キーの取り扱いでバグとなる挙動がいくつも確認されてきていた。.NET 7 ではコードを新たに書き換えこの問題に対処している。&lt;/p&gt;
+&lt;p&gt;記事では書き換えの前に自動テストカバレッジを増やすために取った手法、内部でのシステムコールの呼び出し、古い実装と新しい実装について書かれている。&lt;/p&gt;
+&lt;p&gt;また .NET 6 互換の挙動に戻す runtimeconfig.json と環境変数の設定も紹介している。これらの互換動作は .NET 8 で削除される予定。&lt;/p&gt;
+&lt;h3 id="bing-ads-campaign-platform-journey-to.net-6.net-blog"&gt;Bing Ads Campaign Platform – Journey to .NET 6 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/bing-ads-campaign-platform-journey-to-dotnet-6/"&gt;https://devblogs.microsoft.com/dotnet/bing-ads-campaign-platform-journey-to-dotnet-6/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Bing の検索広告のキャンペーンプラットフォームを .NET 6 (+ AKS) へと移行した事例紹介。&lt;/p&gt;
+&lt;p&gt;プラットフォームは秒間数千のリクエストを 100ms 未満で処理する数十の分散サービスで構築されている。コードベースでは .cspro は600を超え、500を超える NuGet パッケージの依存を持つという規模感であり、元々の実行環境は .NET Framework 4.6 と(単に&amp;quot;リフト&amp;quot;した) Windows 仮想マシンでホストする WCF による SOAP サービスだったとのこと。&lt;/p&gt;
+&lt;p&gt;記事では新しい .NET に移行する理由と移行プロセス、課題、移行の結果についてそれぞれ紹介している。&lt;/p&gt;
+&lt;p&gt;.NET に移行する理由は大きく次の5つをあげている。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;コンテナーを使うようなクロスプラットフォーム化&lt;/li&gt;
+&lt;li&gt;ハイパフォーマンスや言語の機能、.NET Framework 進化の停止といった面からの .NET 開発の未来&lt;/li&gt;
+&lt;li&gt;改善のイテレーションが高速であることによるイノベーションの摩擦の軽減&lt;/li&gt;
+&lt;li&gt;オープンソース&lt;/li&gt;
+&lt;li&gt;CLI ツールや SDK スタイルプロジェクト、バインディングリダイレクトの廃止のような優れたツーリング&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;移行プロセスはライブラリーは &amp;quot;.NET Framework 4.6 → .NET Framework 4.7 → .NET Standard 2.0&amp;quot;、アプリケーションは .NET Framework 4.6 → .NET Framework 4.7 → .NET Core 3.1 → .NET 5 → .NET 6&amp;quot; という順番で移行していった。.NET Framework 4.6 は .NET Standard を完全にサポートしておらず .NET Standard への移行は簡単ではなかったとのこと。&lt;/p&gt;
+&lt;p&gt;移行する中での課題とその解決について幾つか紹介している。&lt;/p&gt;
+&lt;p&gt;まず、プロジェクトは数多くの NuGet パッケージに依存しているためパッケージの更新や古いライブラリーからの置き換えが発生すること。互換性のないパッケージは再パッケージして .NET Standard をサポートした形で社内パッケージフィードに公開したり、ソースの存在しないパッケージであっても逆コンパイルしてパッチすることで .NET Standard 互換として解決した。&lt;/p&gt;
+&lt;p&gt;バインディングリダイレクトの問題は PackageReference 方式へと移行したことでダイアモンド依存問題を解決した。大量の .csproj があるため SDK スタイルに変換するツールを使用して移行を達成した。その後 .NET チームからは try-convert と呼ばれる同様のツールがリリースされた。また、パッケージ依存の複雑性を下げるためにパッケージのバージョン管理を一元化するようにしたとのこと。(記事でリンクされている &lt;a href="https://github.com/Microsoft/MSBuildSdks/tree/main/src/CentralPackageVersions"&gt;Microsoft.Build.CentralPackageVersions&lt;/a&gt; は&lt;a href="https://devblogs.microsoft.com/nuget/introducing-central-package-management/"&gt;NuGet の Central Package Management&lt;/a&gt; の前身と思われる)&lt;/p&gt;
+&lt;p&gt;最後に WCF への依存について。サービスは WCF による SOAP サービスで構築されていて、利用者に公開している都合 gRPC のような物への移行はできないので最終的には WCF のサブセットである CoreWCF 作成し、移行をしたとのこと。以降の過程では .NET Framework と .NET のコードが共存することもあり、マルチターゲット化するなどの苦労はある程度あった様子。&lt;/p&gt;
+&lt;p&gt;.NET への移行の結果としてレイテンシーは大きく改善され、WCF から CoreWCF に移行した結果メモリーの使用量を40-50%ほど削減するといった大きな効果があった。&lt;/p&gt;
+&lt;p&gt;まとめとして .NET 6 への移行は大規模で痛みを伴うものではあったが価値があったと評価し、大規模なコードベースからの移行の教訓として次のポイントをあげている。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;.NET Framework 4.7 か .NET Framework 4.8 に移行する&lt;/li&gt;
+&lt;li&gt;何事を始める前にすべてのプロジェクトを SDK スタイルに変換し、PackageReference を使用するようにする&lt;/li&gt;
+&lt;li&gt;.NET Standard を使用して .NET Framework と .NET の両方のプロジェクトでコードを共有できるようにする&lt;/li&gt;
+&lt;li&gt;パッケージの一元管理を使用して新しい NuGet パッケージへの移行を簡単にする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="comparing-files-in-visual-studio-visual-studio-blog"&gt;Comparing files in Visual Studio - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/comparing-files-in-visual-studio/"&gt;https://devblogs.microsoft.com/visualstudio/comparing-files-in-visual-studio/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio にファイル比較機能を実装することを検討していることについて。&lt;/p&gt;
+&lt;p&gt;Visual Studio では従来任意のファイルを選択してのファイル比較を行う機能を提供して来なかったが検討を始めた。まずは File Differ という機能拡張から機能の実験開始していて記事ではその拡張の機能を紹介している。&lt;/p&gt;
+&lt;p&gt;興味がある場合はフィードバックや投票を行ってほしいとのこと。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileDiffer"&gt;File Differ - Visual Studio Marketplace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://developercommunity.visualstudio.com/t/is-there-a-way-to-compare-two-files-from-solution/619706"&gt;[NEW] Is there a way to compare two files from solution explorer? - Visual Studio Feedback&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="authentication-for.net-maui-apps-with-msal.net.net-blog"&gt;Authentication for .NET MAUI Apps with MSAL.NET - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/authentication-in-dotnet-maui-apps-msal/"&gt;https://devblogs.microsoft.com/dotnet/authentication-in-dotnet-maui-apps-msal/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Microsoft Identity.Client 4.47.0 (MSAL.NET) で .NET MAUI をサポートしたというアナウンス。&lt;/p&gt;
+&lt;h3 id="announcing-the.net-maui-community-toolkit-v1.3.net-blog"&gt;Announcing the .NET MAUI Community Toolkit v1.3 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-the-dotnet-maui-community-toolkit-v13/"&gt;https://devblogs.microsoft.com/dotnet/announcing-the-dotnet-maui-community-toolkit-v13/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET MAUI Community Toolkit v1.3 がリリースされた。&lt;/p&gt;
+&lt;p&gt;ステータスバーのスタイリング、Gravatar イメージソース、アニメーションの強化、ソースリンクの対応といったものが含まれている。&lt;/p&gt;
+&lt;h3 id="release-11.0.0-preview-2-avaloniauiavalonia"&gt;Release 11.0.0 Preview 2 · AvaloniaUI/Avalonia&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/AvaloniaUI/Avalonia/releases/tag/11.0.0-preview2"&gt;https://github.com/AvaloniaUI/Avalonia/releases/tag/11.0.0-preview2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Avalonia 11.0.0 Preview 2 がリリースされた。&lt;/p&gt;
+&lt;p&gt;いくつかの安定性の向上や様々な修正などが含まれている。&lt;/p&gt;
+&lt;h3 id="rider-2022.3-eap-2-new-ui-improved-unit-testing-better-dynamic-program-analysis-and-more.the.net-tools-blog"&gt;Rider 2022.3 EAP 2: New UI, Improved Unit Testing, Better Dynamic Program Analysis and More. | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2022/10/07/rider-2022-3-eap-2/"&gt;https://blog.jetbrains.com/dotnet/2022/10/07/rider-2022-3-eap-2/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Rider 2022.3 EAP 2 がリリースされた。&lt;/p&gt;
+&lt;p&gt;新しい IntelliJ ベース IDE の UI、Search Everywhere やツールウィンドウ、ソリューションエクスプローラーの改善、Rider 組み込みの dotMemory の Linux, macOS への対応、C# 11 への対応、ユニットテストエクスプローラーの改善、デバッガーのパフォーマンス改善、.NET MAUI サポート、IIS での起動対応、動的プログラム解析 (データベースアクセス)など。&lt;/p&gt;
+&lt;h3 id="announcing-nuget-packagereference-support-for-ccli-msbuild-projects-targeting.net-core-and.net-5-or-higher-c-team-blog"&gt;Announcing NuGet PackageReference support for C++/CLI MSBuild projects targeting .NET Core and .NET 5 or higher - C++ Team Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/cppblog/announcing-nuget-packagereference-support-for-c-cli-msbuild-projects-targeting-net-core/"&gt;https://devblogs.microsoft.com/cppblog/announcing-nuget-packagereference-support-for-c-cli-msbuild-projects-targeting-net-core/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 version 17.3 以降の .NET Core または .NET 5 以降をターゲットとする C++/CLI MSBuild プロジェクトでは NuGet パッケージの参照が可能になったというアナウンス。&lt;/p&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="xamarin.forms-maui"&gt;Xamarin.Formsライブラリを MAUIに移植した話&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://speakerdeck.com/muak/xamarin-dot-formsraiburariwo-mauiniyi-zhi-sitahua"&gt;https://speakerdeck.com/muak/xamarin-dot-formsraiburariwo-mauiniyi-zhi-sitahua&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Xamarin.Forms 向けのライブラリーを .NET MAUI に移植した話のスライド。&lt;/p&gt;
+&lt;p&gt;Xamarin.Forms と .NET MAUI の実装方法の違いや Tips 等を紹介している。&lt;/p&gt;
+&lt;h3 id="maui"&gt;MAUI の現状と進化ポイント | ドクセル&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.docswell.com/s/hiro128_777/KW79X5-2022-09-30-184910"&gt;https://www.docswell.com/s/hiro128_777/KW79X5-2022-09-30-184910&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET MAUI の Xamarin.Forms とのアーキテクチャーの違いや、現状の各種ツーリングのサポート状態などをまとめたスライド。&lt;/p&gt;
+&lt;h3 id="net-annotated-monthly-october-2022-the.net-tools-blog"&gt;.NET Annotated Monthly | October 2022 | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2022/10/06/net-annotated-monthly-october-2022/"&gt;https://blog.jetbrains.com/dotnet/2022/10/06/net-annotated-monthly-october-2022/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;JetBrains による2022年10月の .NET 関連情報まとめ記事。&lt;/p&gt;
+&lt;h3 id="c.net-namedpipe-ipc-wpf-qiita"&gt;[C#] .NET で NamedPipe を使ってプロセス間通信 (IPC) を行う (WPFサンプル) - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/kobayashi_stmn/items/7de42805eba009deebaa"&gt;https://qiita.com/kobayashi_stmn/items/7de42805eba009deebaa&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 6 の WPF アプリケーションで NamedPipe を使用してプロセス間通信を行う方法についての記事。&lt;/p&gt;
+&lt;h3 id="visual-studios-azure-marketplace-images-now-support-microsoft-dev-box-visual-studio-blog"&gt;Visual Studio’s Azure Marketplace images now support Microsoft Dev Box - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studios-azure-marketplace-images-now-support-microsoft-dev-box/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studios-azure-marketplace-images-now-support-microsoft-dev-box/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Azure Marketplace の Visual Studio イメージが Microsoft Dev Box でサポートされたというアナウンス。&lt;/p&gt;
+&lt;h3 id="adding-validation-to-strongly-typed-configuration-objects-in.net-6"&gt;Adding validation to strongly typed configuration objects in .NET 6&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/adding-validation-to-strongly-typed-configuration-objects-in-dotnet-6/"&gt;https://andrewlock.net/adding-validation-to-strongly-typed-configuration-objects-in-dotnet-6/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 6 の Microsoft.Extensions.Configuration で厳密に型指定された構成オブジェクトに検証を追加する方法についての記事。&lt;/p&gt;
+&lt;h3 id="opentelemetry.net-8-azure-service-bus"&gt;OpenTelemetry .NETを理解する (8) 手動でのトレースの接続例: Azure Service Busを経由したアプリ間でトレースをつなげる - 銀の光と碧い空&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://tech.tanaka733.net/entry/2022/10/opentelemetry-dotnet-08"&gt;https://tech.tanaka733.net/entry/2022/10/opentelemetry-dotnet-08&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Azure Service Bus を使用したサービス間でのリクエストのトレースを繋げる方法についての記事。&lt;/p&gt;
+&lt;h3 id="using.net-7s-blazor-custom-elements-to-render-dynamic-content"&gt;Using .NET 7's Blazor Custom Elements to render dynamic content&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://jonhilton.net/blazor-custom-elements/"&gt;https://jonhilton.net/blazor-custom-elements/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Custom Elements を使用して Blazor で動的な要素を構築する方法についての記事。&lt;/p&gt;
+&lt;h3 id="how-we-achieved-5x-faster-pipeline-execution-by-removing-closure-allocations"&gt;How we achieved 5X faster pipeline execution by removing closure allocations&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://particular.net/blog/pipeline-and-closure-allocations"&gt;https://particular.net/blog/pipeline-and-closure-allocations&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;NServiceBus でラムダのキャプチャー(アロケーション)を削減することでパフォーマンスを改善したという記事。&lt;/p&gt;
+&lt;h3 id="net-mauiandroid"&gt;.NET MAUIだってキーボード開きたい！(Android)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/test_myname/articles/d982b67cf0615f"&gt;https://zenn.dev/test_myname/articles/d982b67cf0615f&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET MAUI で Android のスクリーンキーボードを表示/非表示にする方法についての記事。&lt;/p&gt;
+&lt;h3 id="blazor-wasm-custom-404-page-on-gh-pages"&gt;Blazor WASM Custom 404 Page on GH Pages&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/dotnet/blazor-wasm-custom-404-page-on-gh-pages-1o99"&gt;https://dev.to/dotnet/blazor-wasm-custom-404-page-on-gh-pages-1o99&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Blazor WebAssembly を GitHub Pages でホストしたときに存在しないページへのアクセス時にカスタムのエラーページを表示する方法についての記事。&lt;/p&gt;
+&lt;h3 id="from-junior-to-genius-an-optimization-story-by-israel-lot-oct-2022-itnext"&gt;From Junior to Genius: an optimization story | by Israel Lot | Oct, 2022 | ITNEXT&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://itnext.io/from-junior-to-genius-an-optimization-story-ab20afc8159d"&gt;https://itnext.io/from-junior-to-genius-an-optimization-story-ab20afc8159d&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;32bit チェックサムを計算するコードを元に様々な段階を追ってチューニングしていくという記事。&lt;/p&gt;
+&lt;p&gt;記事では素朴な実装から unsafe な実装へ、トリッキーな実装やシンプルな実装、SIMD を使用した実装へと進んで最終的に85倍の高速化を行っている。&lt;/p&gt;
+&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h3 id="github-xoofxantlr4ast-antlr4ast-is-a.net-library-that-provides-a-parser-and-abstract-syntax-tree-ast-for-antlr4g4-files"&gt;GitHub - xoofx/Antlr4Ast: Antlr4Ast is a .NET library that provides a parser and abstract syntax tree (AST) for ANTLR4/g4 files.&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/xoofx/Antlr4Ast"&gt;https://github.com/xoofx/Antlr4Ast&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ANTLR4/g4 ファイルのパースを行って AST を作るライブラリー。&lt;/p&gt;
+&lt;!-- https://twitter.com/xoofx/status/1579135102885715969?s=12&amp;t=sNYyiHhZFM_OqXNzHAwD7A --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Hey .NET folks, it&amp;#39;s a rainy Sunday here so I just released a new .NET library &lt;a href="https://t.co/3tlFpUlJnt"&gt;https://t.co/3tlFpUlJnt&lt;/a&gt; to parse ANTLR4/g4 files into a lightweight AST useful for codegen scenarios.&lt;br&gt;I&amp;#39;ll use this library for &lt;a href="https://twitter.com/hashtag/starklang?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#starklang&lt;/a&gt; to generate the data oriented syntax from an ANTLR g4 spec! 🏎️&lt;/p&gt;&amp;mdash; Alexandre Mutel (&amp;#64;xoofx) &lt;a href="https://twitter.com/xoofx/status/1579135102885715969?ref_src=twsrc%5Etfw"&gt;October 9, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;h3 id="disruptor-netdisruptor-net-port-of-lmax-disruptor-to.net"&gt;disruptor-net/Disruptor-net: Port of LMAX Disruptor to .NET&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/disruptor-net/Disruptor-net"&gt;https://github.com/disruptor-net/Disruptor-net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ハイパフォーマンスなスレッド間のメッセージパッシングフレームワークライブラリー。&lt;/p&gt;
+&lt;h3 id="bchavezbogus-a-simple-fake-data-generator-for-c-f-and-vb.net.based-on-and-ported-from-the-famed-faker.js"&gt;bchavez/Bogus: A simple fake data generator for C#, F#, and VB.NET. Based on and ported from the famed faker.js.&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/bchavez/Bogus"&gt;https://github.com/bchavez/Bogus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;faker.js を移植した疑似データ生成ライブラリー。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://juldhais.net/generating-random-dummy-data-using-bogus-e1f57eecf90b"&gt;Generating Random Dummy Data using Bogus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
+&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
+&lt;!-- https://twitter.com/linqpad/status/1576879508078366720?s=12&amp;t=HKDKQV9LxTi47JU-CPxyEg --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Performance-testing with the industrial-grade &lt;a href="https://twitter.com/hashtag/BenchmarkDotNet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#BenchmarkDotNet&lt;/a&gt; in LINQPad is now as simple as selecting your code and pressing Ctrl+Shift+B. Full integration, with customizable real-time output! &lt;a href="https://t.co/5mvykpZBX2"&gt;https://t.co/5mvykpZBX2&lt;/a&gt; &lt;a href="https://t.co/PaleWcQBUd"&gt;pic.twitter.com/PaleWcQBUd&lt;/a&gt;&lt;/p&gt;&amp;mdash; LINQPad·Joe Albahari (&amp;#64;linqpad) &lt;a href="https://twitter.com/linqpad/status/1576879508078366720?ref_src=twsrc%5Etfw"&gt;October 3, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;LINQPad 上で Ctrl+Shift+B を押すことで BenchmarkDotNet で即ベンチマークを取れるという統合機能が導入されるという話。&lt;/p&gt;
+&lt;!-- https://twitter.com/egorbo/status/1579474949152313347?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Some pieces of FOH (Frozen Object Heap) were already merged to .NET 8.0. In this example we bake a direct reference to typeof(x) object in jit codegen and omit the write-barrier 🥳 &lt;a href="https://t.co/qNArNRxhYC"&gt;pic.twitter.com/qNArNRxhYC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Egor Bogatov (&amp;#64;EgorBo) &lt;a href="https://twitter.com/EgorBo/status/1579474949152313347?ref_src=twsrc%5Etfw"&gt;October 10, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;FOH (Frozen Object Heap) のいくつの部分が .NET 8 にマージされ、&lt;code&gt;typeof(x)&lt;/code&gt; のようなものは JIT のコード生成時にライトバリアなしに直接参照を扱えるようになれるという話。&lt;/p&gt;
+&lt;h2 id="deep-dive"&gt;Deep Dive&lt;/h2&gt;
+&lt;h3 id="initial-green-thread-prototype-by-davidwrighton-pull-request-2002-dotnetruntimelab"&gt;Initial green thread prototype by davidwrighton · Pull Request #2002 · dotnet/runtimelab&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/dotnet/runtimelab/pull/2002"&gt;https://github.com/dotnet/runtimelab/pull/2002&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;runtimelab におけるグリーンスレッドのプロトタイプ実装の PR。&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>2022-10-03: Experimental WebTransport over HTTP/3 support, .NET 6 Migration Journeys</title>
 			<link>/2022/10/03/updates</link>
@@ -1510,125 +1660,6 @@ await using (var testcontainers = testcontainersBuilder.Build())
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/dotnet/core/issues/7455#issuecomment-1184710446"&gt;What's new in .NET 7 Preview 7 [WIP] · Issue #7455 · dotnet/core&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>2022-07-22: Windows Community Toolkit Labs, Microsoft.UI.Xaml v2.8.0, Visual Studio 2022 17.3 Preview 4</title>
-			<link>/2022/07/22/updates</link>
-			<description>.NET 関連の情報をほぼ週刊配信</description>
-			<author>Mayuki Sawatari</author>
-			<enclosure url="/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/2022/07/22/updates</guid>
-			<pubDate>Fri, 22 Jul 2022 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="announcing-the-windows-community-toolkit-labs"&gt;Announcing the Windows Community Toolkit Labs!&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/ifdef-windows/announcing-the-windows-community-toolkit-labs/"&gt;https://devblogs.microsoft.com/ifdef-windows/announcing-the-windows-community-toolkit-labs/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Windows Community Toolkit の実験的なコンポーネントを開発する「ラボ」を発表した。&lt;/p&gt;
-&lt;p&gt;Windows Community Toolkit Labs は新しいアイデアや開発中、実験段階のコンポーネントのためのプロジェクト。成熟したコンポーネントは最終的に Windows Community Toolkit に取り込まれることとなる。&lt;/p&gt;
-&lt;p&gt;記事では Lab の目的、Lab に含まれているコンポーネントの紹介、アプリケーションでのパッケージ使用方法といった部分にも触れている。&lt;/p&gt;
-&lt;p&gt;また Uno Platform もサポートされ、現在ブラウザーで Lab のサンプルアプリケーションを実行可能となっている。&lt;/p&gt;
-&lt;h3 id="release-microsoft.ui.xaml-v2.8.0-microsoftmicrosoft-ui-xaml"&gt;Release Microsoft.UI.Xaml v2.8.0 · microsoft/microsoft-ui-xaml&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/microsoft/microsoft-ui-xaml/releases/tag/v2.8.0"&gt;https://github.com/microsoft/microsoft-ui-xaml/releases/tag/v2.8.0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Microsoft.UI.Xaml (WinUI 2) 2.8.0 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは WebView2 が利用できるようになった他、サポートバージョンの変更、いくつかの不具合修正と改善が含まれている。&lt;/p&gt;
-&lt;h3 id="visual-studio-2022-17.3-preview-4-visual-studio-2022-preview-release-notes"&gt;Visual Studio 2022 17.3 Preview 4 - Visual Studio 2022 Preview Release Notes&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview#1730-pre40--visual-studio-2022-version-173-preview-4"&gt;https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview#1730-pre40--visual-studio-2022-version-173-preview-4&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 17.3 Preview 4 がリリースされた。&lt;/p&gt;
-&lt;p&gt;.NET MAUI のサービスリリースが含まれるほか、ARM64 での Windows Forms のデザイナーの修正などいくつかの不具合が修正されている。&lt;/p&gt;
-&lt;h3 id="net-7-preview-5-available-on-app-service-azure-app-service"&gt;.NET 7 Preview 5 available on App Service - Azure App Service&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://azure.github.io/AppService/2022/07/18/dotnet7_preview5.html"&gt;https://azure.github.io/AppService/2022/07/18/dotnet7_preview5.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Azure App Service で .NET 7 Preview 5 が App Service Early Access feature にて利用可能となった。&lt;/p&gt;
-&lt;p&gt;App Service 上で .NET 7 をターゲットにしている場合、今後アップデートがリリースされると自動で更新される。これは RC と GA となるまで続く。Self-contained なアプリケーションの場合は更新されない。&lt;/p&gt;
-&lt;h3 id="announcing-the.net-7-support-for-azure-functions-in-an-isolated-process-in-public-preview"&gt;Announcing the .NET 7 support for Azure functions in an isolated process in public preview&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-the-net-7-support-for-azure-functions-in-an-isolated/ba-p/3574316"&gt;https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-the-net-7-support-for-azure-functions-in-an-isolated/ba-p/3574316&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Azure Functions のプロセス分離モデルで .NET 7 のサポートがパブリックプレビューとなった。&lt;/p&gt;
-&lt;h3 id="release-6.0.419-service-release-3-dotnetmaui"&gt;Release 6.0.419 (Service Release 3) · dotnet/maui&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/dotnet/maui/releases/tag/6.0.419"&gt;https://github.com/dotnet/maui/releases/tag/6.0.419&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET MAUI 6.0.419 (Service Release 3) がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースはサービスリリースとなり、主に細かい不具合の修正が行われている。&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="net-6-c-tokyo-connpass"&gt;【オンライン】.NET 6 移行祭り！ C# Tokyo イベント - connpass&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://csharp-tokyo.connpass.com/event/254206/"&gt;https://csharp-tokyo.connpass.com/event/254206/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 6 への移行をテーマにしたコミュニティーオンラインイベントが8月26日に行われる。&lt;/p&gt;
-&lt;h3 id="net-7"&gt;.NET 7からサポートポリシーが変更になる予定 - つばろぐ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://tsubalog.hatenablog.com/entry/2022/07/16/221307"&gt;https://tsubalog.hatenablog.com/entry/2022/07/16/221307&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 7 で変更となるサポートポリシーについて解説している記事。&lt;/p&gt;
-&lt;p&gt;大きく Current の呼び名の変更、サポートライフサイクルの流れの整理が行われるとのこと。&lt;/p&gt;
-&lt;h3 id="production-postmortem-out-of-memory-on-a-clear-sky"&gt;Production postmortem: Out of memory on a clear sky&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://ayende.com/blog/197635-A/production-postmortem-out-of-memory-on-a-clear-sky?Key=43188033-6bfd-4682-9fc8-1bef248f2caf"&gt;https://ayende.com/blog/197635-A/production-postmortem-out-of-memory-on-a-clear-sky?Key=43188033-6bfd-4682-9fc8-1bef248f2caf&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Linux のシステム上に余裕があるにもかかわらずスレッド生成時に OutOfMemoryException が発生した原因を調査したという記事。&lt;/p&gt;
-&lt;p&gt;Linux にはいくつかの設定がありその上限に達していたため失敗していたとのこと。&lt;/p&gt;
-&lt;h3 id="high-performance.net-building-a-redis-cloneanalysis-ii"&gt;High performance .NET: Building a Redis Clone–Analysis II&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://ayende.com/blog/197665-C/high-performance-net-building-a-redis-clone-analysis-ii?Key=be0be55d-1092-47ce-a951-950ce65243cd"&gt;https://ayende.com/blog/197665-C/high-performance-net-building-a-redis-clone-analysis-ii?Key=be0be55d-1092-47ce-a951-950ce65243cd&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Redis クローンを作りながらパフォーマンスについてみていくというシリーズ。&lt;/p&gt;
-&lt;p&gt;記事ではコマンドの実行に関して、ネットワークの I/O を含む処理の負荷のかかっている部分を探っている。&lt;/p&gt;
-&lt;h3 id="benchmarking-slow-is-fast-fast-is-slow"&gt;Benchmarking: Slow is fast, fast is slow&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://ayende.com/blog/197857-C/benchmarking-slow-is-fast-fast-is-slow"&gt;https://ayende.com/blog/197857-C/benchmarking-slow-is-fast-fast-is-slow&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Corax と Lucene でのインデックス速度の比較をした際に Corax のほうが遅く、Corax と Lucene 両方から呼び出される共通コードの実行時間に差が出ていたのは何故かについて。&lt;/p&gt;
-&lt;p&gt;これは RavenDB ではデータを読み出す前にページを検証する仕組みがあり、Corax が速く検証を行い、あとから Lucene が来るので Lucene はその操作をする必要がないため見かけ上速くなっていた。&lt;/p&gt;
-&lt;p&gt;正しい結果を見るにはそれぞれ別々のシナリオに分けてコールドブートで実行しようという話。&lt;/p&gt;
-&lt;h3 id="top-50-reasons-to-use-uno-platform-2022-edition"&gt;Top 50 Reasons to use Uno Platform – 2022 edition&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://platform.uno/blog/top-50-reasons-to-use-uno-platform-2022-edition/"&gt;https://platform.uno/blog/top-50-reasons-to-use-uno-platform-2022-edition/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Uno Platform を使う50の理由 (2022年版)&lt;/p&gt;
-&lt;h3 id="building-ambie-3.0-the-best-white-noise-app-on-windows"&gt;Building Ambie 3.0 — the best white noise app on Windows&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://kid-jenius.medium.com/building-ambie-3-0-the-best-white-noise-app-on-windows-d899fb02adf2"&gt;https://kid-jenius.medium.com/building-ambie-3-0-the-best-white-noise-app-on-windows-d899fb02adf2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Ambie というホワイトノイズを流す Windows アプリの新しいバージョンを開発した際の話。&lt;/p&gt;
-&lt;p&gt;新しいデザインにする初期プランが始まり、プロトタイプ、見直し、結果といったことが書かれている。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/jenius-apps/ambie"&gt;jenius-apps/ambie: The best white noise app on Windows&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="maui"&gt;MAUI ハンドラーのマップ変更を試したメモ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/muak/articles/8e17cabbc1ae35"&gt;https://zenn.dev/muak/articles/8e17cabbc1ae35&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET MAUI のコントロールのハンドラーマッピングをカスタマイズする方法を試してみるという記事。&lt;/p&gt;
-&lt;h3 id="how-to-profile.net-code-using-the-dotmemory-plugin-in-rider-the.net-tools-blog"&gt;How to Profile .NET Code Using the dotMemory Plugin in Rider | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2022/07/18/how-to-profile-net-code-using-the-dotmemory-plugin-in-rider/"&gt;https://blog.jetbrains.com/dotnet/2022/07/18/how-to-profile-net-code-using-the-dotmemory-plugin-in-rider/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Rider で dotMemory プラグインを使用して .NET アプリケーションのプロファイルを行う方法についての記事。&lt;/p&gt;
-&lt;h3 id="add-authentication-to.net-maui-apps-with-auth0"&gt;Add Authentication to .NET MAUI Apps with Auth0&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://auth0.com/blog/add-authentication-to-dotnet-maui-apps-with-auth0/"&gt;https://auth0.com/blog/add-authentication-to-dotnet-maui-apps-with-auth0/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET MAUI アプリケーションに Auth0 による認証を組み込む方法についての記事。&lt;/p&gt;
-&lt;h3 id="discord-ui-in.net-maui-tylah-kapa"&gt;Discord UI in .NET MAUI — Tylah Kapa&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://kapa.dev/blog/discord-ui-in-net-maui"&gt;https://kapa.dev/blog/discord-ui-in-net-maui&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET MAUI で Discord の UI のようなモックアップを作ってみるという記事。&lt;/p&gt;
-&lt;h3 id="combining-lottie-animations-with-gestures-and-scrolling"&gt;Combining Lottie Animations with Gestures and Scrolling&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.cayas.de/blog/lottie-animations-gestures-and-scrolling"&gt;https://www.cayas.de/blog/lottie-animations-gestures-and-scrolling&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;MAUI 上で表示した Lottie アニメーションをジェスチャーやスクロールといったインタラクションと連動させる方法についての記事。&lt;/p&gt;
-&lt;h3 id="setting-up-ci-for-your.net-maui-windows-app-in-azure-devops-andreas-nesheim"&gt;Setting up CI for your .NET MAUI Windows app in Azure DevOps - Andreas Nesheim&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.andreasnesheim.no/setting-up-ci-for-your-net-maui-windows-app-in-azure-devops/"&gt;https://www.andreasnesheim.no/setting-up-ci-for-your-net-maui-windows-app-in-azure-devops/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET MAUI の Windows アプリケーションを Azure  DevOps でビルド、署名する方法についての記事。&lt;/p&gt;
-&lt;h3 id="visual-basic-4-option"&gt;Visual Basic の 4 つの Option について - 鷲ノ巣&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://tech.blog.aerie.jp/entry/2022/07/15/153127"&gt;https://tech.blog.aerie.jp/entry/2022/07/15/153127&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Basic .NET の言語で使用されている設定の4つの Option (&lt;code&gt;Option Compare&lt;/code&gt;, &lt;code&gt;Option Explicit&lt;/code&gt;, &lt;code&gt;Option Strict&lt;/code&gt;, &lt;code&gt;Option Infer&lt;/code&gt;) について解説している記事。&lt;/p&gt;
-&lt;h3 id="exploring-the-new-output-caching-middleware"&gt;Exploring the new output caching middleware&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/this-is-learning/exploring-the-new-output-caching-middleware-4no1"&gt;https://dev.to/this-is-learning/exploring-the-new-output-caching-middleware-4no1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 7 の ASP.NET Core で導入される出力キャッシュのミドルウェアについての記事。どのようにして利用できるかといったことを紹介している。&lt;/p&gt;
-&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="byme8zeroql"&gt;byme8/ZeroQL&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/byme8/ZeroQL"&gt;https://github.com/byme8/ZeroQL&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;GraphQL のクエリー呼び出しコードを解析して事前にコードを生成することでパフォーマンスを向上させたクライアントライブラリー。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://dev.to/byme8/zeroql-c-friendly-graphql-4134"&gt;ZeroQL - C# friendly GraphQL&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
-&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
-&lt;!-- https://twitter.com/markrussinovich/status/1549440918553448448?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;It&amp;#39;s here: Zoomit with screen recording plus updates to Sigcheck, Procmon, Bginfo and PsExec: &lt;a href="https://t.co/th84RGgI18"&gt;https://t.co/th84RGgI18&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mark Russinovich (&amp;#64;markrussinovich) &lt;a href="https://twitter.com/markrussinovich/status/1549440918553448448?ref_src=twsrc%5Etfw"&gt;July 19, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;ZoomIt に簡易的なスクリーンレコーディング機能が実装されたという話。(ウィンドウや範囲指定などはなくズームされている画面か全画面となる)&lt;/p&gt;
-&lt;!-- https://twitter.com/FSazanavets/status/1548972196596486144 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;To help more &lt;a href="https://twitter.com/hashtag/dotnet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotnet&lt;/a&gt; developers to gain access to educational resources, I am, once again, giving away digital copies of my &lt;a href="https://twitter.com/hashtag/signalr?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#signalr&lt;/a&gt; book for free until the end of July. It is available to download via this link:&lt;a href="https://t.co/3tZPp8QfRn"&gt;https://t.co/3tZPp8QfRn&lt;/a&gt; &lt;a href="https://t.co/1CP8eoXbQ8"&gt;pic.twitter.com/1CP8eoXbQ8&lt;/a&gt;&lt;/p&gt;&amp;mdash; Fiodar Sazanavets 🇺🇦 (&amp;#64;FSazanavets) &lt;a href="https://twitter.com/FSazanavets/status/1548972196596486144?ref_src=twsrc%5Etfw"&gt;July 18, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;&lt;a href="https://leanpub.com/signalronnet6-thecompleteguide/c/free-until-august"&gt;SignalR on .NET 6 - the Complete Guide&lt;/a&gt; という電子書籍 (E-book) が7月末まで無料という話。&lt;/p&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
