@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2022-11-01: AWS App Runner now supports .NET managed runtime, AWS Toolkit for .NET Refactoring, Copy Nice - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2022/11/01/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2022-11-01: AWS App Runner now supports .NET managed runtime, AWS Toolkit for .NET Refactoring, Copy Nice - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2022/11/01/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2022-11-01: AWS App Runner now supports .NET managed runtime, AWS Toolkit for .NET Refactoring, Copy Nice
+          </h1>
+              <div class="meta">Published on Tuesday, 01 November 2022</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="aws-app-runner-launches-support-for-php-go.net-and-ruby-managed-runtimes">AWS App Runner launches support for PHP, Go, .Net, and Ruby managed runtimes</h3>
+<p><a href="https://aws.amazon.com/jp/about-aws/whats-new/2022/10/aws-app-runner-support-php-go-dot-net-ruby-managed-runtimes/">https://aws.amazon.com/jp/about-aws/whats-new/2022/10/aws-app-runner-support-php-go-dot-net-ruby-managed-runtimes/</a></p>
+<p>AWS App Runner で .NET を含む複数の言語のランタイムがサポートされた。</p>
+<p>AWS App Runner はイメージまたは設定ファイルをソースコード共に用意することでビルド、デプロイ、実行まで簡単に行える仕組み。ランタイムとして .NET 6 がサポートされ、例として以下のような設定ファイルで ASP.NET Core アプリケーションをビルド、デプロイできるとのこと。</p>
+<pre><code class="language-yaml">version: 1.0
+runtime: dotnet6
+build:
+  commands:
+    build:
+      – dotnet publish -c Release -o out
+run:
+  command: dotnet out/HelloWorldDotNetApp.dll
+  network:
+    port: 5000
+    env: APP_PORT
+  env:
+    – name: ASPNETCORE_URLS
+      value: &quot;http://*:5000&quot;
+</code></pre>
+<h3 id="introducing-aws-toolkit-for.net-refactoring-a-new-visual-studio-extension">Introducing AWS Toolkit for .NET Refactoring, a new Visual Studio extension</h3>
+<p><a href="https://aws.amazon.com/jp/about-aws/whats-new/2022/10/aws-toolkit-net-refactoring-visual-studio-extension/">https://aws.amazon.com/jp/about-aws/whats-new/2022/10/aws-toolkit-net-refactoring-visual-studio-extension/</a></p>
+<p>AWS Toolkit for .NET Refactoring という Visual Studio 拡張がリリースされた。</p>
+<p>これはレガシー .NET Framework アプリケーションをクラウド環境向けに更新するための機能を提供する拡張。.NET Core/.NET に移行するにあたっての依存関係や API 利用をスキャンや、IIS の web.config から Linux 環境で動作させるためのコードの変更、 AWS へのデプロイ支援といったことを行える。</p>
+<h3 id="copy-with-proper-indentation-visual-studio-blog">Copy with proper indentation - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/copy-with-proper-indentation/">https://devblogs.microsoft.com/visualstudio/copy-with-proper-indentation/</a></p>
+<p>コードのインデントを正しく維持した形でコピーできるようにする実験的な Visual Studio 拡張について紹介している記事。</p>
+<p>この拡張を利用すると、ネストしたコードブロックの途中のブロックをコピーした場合でもインデントを整えて維持された状態にできる。メッセージングアプリやブログなどにペーストする際に一行目のみインデントが失われ、それ以降がインデントされすぎているといった状態を防ぐことができる。</p>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CopyNice">Copy Nice - Visual Studio Marketplace</a></li>
+</ul>
+<h3 id="net-framework-october-2022-cumulative-update-preview.net-blog">.NET Framework October 2022 Cumulative Update Preview - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/dotnet-framework-october-2022-cumulative-update-preview/">https://devblogs.microsoft.com/dotnet/dotnet-framework-october-2022-cumulative-update-preview/</a></p>
+<p>.NET Framework の2022年10月の累積アップデートのプレビューがリリースされた。</p>
+<p>このリリースでは WPF をはじめとしたいくつかの品質改善の更新が含まれている。</p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="making-animationevent-safe-for-the-coreclr-garbage-collector-unity-blog">Making AnimationEvent safe for the CoreCLR garbage collector | Unity Blog</h3>
+<p><a href="https://blog.unity.com/technology/making-animationevent-safe-for-the-coreclr-garbage-collector">https://blog.unity.com/technology/making-animationevent-safe-for-the-coreclr-garbage-collector</a></p>
+<p>Unity を CoreCLR で動作させる上で AnimationEvent を CoreCLR の GC と共に統合して動かすために行ったことについての記事。</p>
+<p>速度のために Blittable にしたこと、GCHandle を再利用すること、それらのコードが Mono, IL2CPP で CoreCLR と同等の速度で動くように修正したことなど。</p>
+<h3 id="visual-studio-2022-tech.guitarrapc.com">Visual Studio 2022 で使っている拡張機能 - tech.guitarrapc.cóm</h3>
+<p><a href="https://tech.guitarrapc.com/entry/2022/10/27/023608">https://tech.guitarrapc.com/entry/2022/10/27/023608</a></p>
+<p>Visual Studio 2022 で利用できる拡張機能の紹介記事。エディターからビルド状況の表示など様々な拡張を紹介している。</p>
+<h3 id="blazor-wasm-c-c">Blazor Wasm 実動作デモはじめました | ++C++; // 未確認飛行 C ブログ</h3>
+<p><a href="https://ufcpp.net/blog/2022/10/blazorwasmdemo/">https://ufcpp.net/blog/2022/10/blazorwasmdemo/</a></p>
+<p>ソートについての記事で動作デモを Blazor WebAssembly で作り直したという記事。</p>
+<h3 id="net-16-jsakamoto">複数の .NET プロジェクトに対し、共通の1箇所で同じバージョン情報を設定する、6 つの方法 | &#64;jsakamoto</h3>
+<p><a href="https://devadjust.exblog.jp/29404286/">https://devadjust.exblog.jp/29404286/</a></p>
+<p>ソリューションなどに含まれる複数の .NET プロジェクトのバージョン情報などを一か所から共通して設定できるようにする方法を紹介している記事。</p>
+<p>共通して設定する方法として記事では6つの手法を紹介している。</p>
+<ul>
+<li>Directory.Build.props</li>
+<li>props の Import</li>
+<li>AssemblyFileVersion を含むソースコードのリンク</li>
+<li>ファイルからの読み込み</li>
+<li>dotnet build の引数による指定</li>
+<li>環境変数によるビルド時の指定</li>
+</ul>
+<h3 id="opensearch.netga">OpenSearchの.NETクライアントがGAになったので使ってみる</h3>
+<p><a href="https://zenn.dev/shimat/articles/d2ae99acaf022f">https://zenn.dev/shimat/articles/d2ae99acaf022f</a></p>
+<p>Amazon OpenSearch (旧 Elasticsearch Service) の .NET クライアントライブラリーについての記事。</p>
+<p>Elasticsearch のクライアントライブラリーは v7.14 以降 OpenSearch に接続できなくなったため、OpenSearch によるクライアントライブラリーが待たれていた。今回リリースされた .NET 版クライアントライブラリーの使用方法と使用感について。</p>
+<h3 id="build-your-own-oauth-2.0-server-and-openid-connect-provider-in-asp.net-core-6.0">Build your own OAuth 2.0 Server and OpenId Connect Provider in ASP.NET Core 6.0</h3>
+<p><a href="https://dev.to/mohammedahmed/build-your-own-oauth-20-server-and-openid-connect-provider-in-aspnet-core-60-1g1m">https://dev.to/mohammedahmed/build-your-own-oauth-20-server-and-openid-connect-provider-in-aspnet-core-60-1g1m</a></p>
+<p>.NET 6 の ASP.NET Core で OAuth 2.0 サーバーと OpenId Connect Provider を独自実装してみるという記事。</p>
+<h3 id="managed-pointers-span-ref-struct-c11-ref-fields-and-the-scoped-keyword-ndepend">Managed pointers, Span, ref struct, C#11 ref fields and the scoped keyword - NDepend</h3>
+<p><a href="https://blog.ndepend.com/managed-pointers-span-ref-struct-c11-ref-fields-and-the-scoped-keyword">https://blog.ndepend.com/managed-pointers-span-ref-struct-c11-ref-fields-and-the-scoped-keyword</a></p>
+<p>ポインターから Span、ref 構造体とフィールドといったものをおさらいして解説している記事。</p>
+<h3 id="automatically-version-and-release.net-application">Automatically version and release .Net Application</h3>
+<p><a href="https://blog.antosubash.com/posts/automatic-version-and-release">https://blog.antosubash.com/posts/automatic-version-and-release</a></p>
+<p>Versionize というツールを使用して GitHub Actions で自動バージョニングを行ってリリースする方法についての記事。</p>
+<p>記事では Husky.Net を使用して Git の pre-commit フックでコメントの lint を行う方法についても触れている。</p>
+<h3 id="learning-series-get-started-with-github-in-visual-studio">Learning Series: Get started with GitHub in Visual Studio</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/learn-github-in-visual-studio-learning-series/">https://devblogs.microsoft.com/visualstudio/learn-github-in-visual-studio-learning-series/</a></p>
+<p>Visual Studio を使用して GitHub を学ぶメールシリーズの紹介記事。</p>
+<h3 id="net7-linq-qiita">.NET7 で LINQ の集計関数がめっちゃ高速化した話 (あるいは、ベクトル化の難しさ) - Qiita</h3>
+<p><a href="https://qiita.com/Kujiro/items/dc90366325fffcd3675d">https://qiita.com/Kujiro/items/dc90366325fffcd3675d</a></p>
+<p>.NET 7 で高速化した LINQ の集計関数 (Sum, Max, Average) の具体的な実装について解説している記事。</p>
+<h3 id="project-volterra-windows-2023">Project Volterra 改め Windows 開発キット 2023 を購入した - しばやん雑記</h3>
+<p><a href="https://blog.shibayan.jp/entry/20221027/1666807751">https://blog.shibayan.jp/entry/20221027/1666807751</a></p>
+<p>Windows 開発キット 2023 のレビュー記事。</p>
+<h3 id="windows-2023-developersio">Windows 開発キット 2023を買ってみた | DevelopersIO</h3>
+<p><a href="https://dev.classmethod.jp/articles/try-windows-dev-kit-2023-project-volterra/">https://dev.classmethod.jp/articles/try-windows-dev-kit-2023-project-volterra/</a></p>
+<p>Windows 開発キット 2023 のレビュー記事。PowerShell や AWS のツールといったものの動作についても触れている。</p>
+<h3 id="fighting-with-nullable-reference-types-in-razor-pages">Fighting with nullable reference types in Razor Pages</h3>
+<p><a href="https://andrewlock.net/fighting-with-nullable-reference-types-in-razor-pages/">https://andrewlock.net/fighting-with-nullable-reference-types-in-razor-pages/</a></p>
+<p>Razor ページで null 参照型との付き合い方についての記事。</p>
+<p>Razor は外部から値が差し込まれるといった都合もあり、警告や不適切な握りつぶしでは NullReferenceException の可能性を高めてしまうためどのようにするのがよいのかという話。記事では C# 11 の <code>required</code> を使用することである程度緩和できる案などを紹介している。</p>
+<h3 id="csqlite">C#でSQLiteをマルチスレッドで利用する</h3>
+<p><a href="https://zenn.dev/kn64872/articles/90ae674d5332a7">https://zenn.dev/kn64872/articles/90ae674d5332a7</a></p>
+<p>System.Data.SQLite をマルチスレッドで利用する際の挙動について調べている記事。</p>
+<h3 id="slaying-zombie-no-repro-crashes-with-infer.net-blog">Slaying Zombie ‘No Repro’ Crashes with Infer# - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/slaying-zombie-no-repo-crashes-with-infersharp/">https://devblogs.microsoft.com/dotnet/slaying-zombie-no-repo-crashes-with-infersharp/</a></p>
+<p>静的なコード分析を行う Infer# を使用して、見つけにくいリソースリークやセキュリティー問題を検出する紹介記事。</p>
+<ul>
+<li><a href="https://github.com/microsoft/infersharp">microsoft/infersharp: Infer# is an interprocedural and scalable static code analyzer for C#. Via the capabilities of Facebook's Infer, this tool detects null dereferences, resource leaks, and thread-safety violations. It also performs taint flow tracking to detect critical security vulnerabilities like SQL injections.</a></li>
+</ul>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="corvus-dotnetcorvus.uritemplates-low-allocation-uri-template-parsing-and-resolution-supporting-the-tavis.uritemplates-api">corvus-dotnet/Corvus.UriTemplates: Low-allocation URI Template parsing and resolution, supporting the Tavis.UriTemplates API.</h3>
+<p><a href="https://github.com/corvus-dotnet/corvus.uritemplates">https://github.com/corvus-dotnet/corvus.uritemplates</a></p>
+<p>URI Template (RFC 6570) を取り扱うアロケーションの少ないライブラリー。</p>
+<ul>
+<li><a href="https://endjin.com/blog/2022/10/high-performance-csharp-uritemplates">High Performance UriTemplate resolution with low-allocation C# | endjin</a></li>
+</ul>
+<h2 id="section-3">サイト、ドキュメントなど</h2>
+<h3 id="section-4">ツイート</h3>
+<!-- https://twitter.com/mairacw/status/1585789100879069185?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s official now! <a href="https://twitter.com/dotnet?ref_src=twsrc%5Etfw">&#64;dotnet</a> Current releases have been renamed to Standard Term Support and the changes are live on the site<a href="https://t.co/d25vW0BnlG">https://t.co/d25vW0BnlG</a> <a href="https://t.co/oz3g5oVQIc">pic.twitter.com/oz3g5oVQIc</a></p>&mdash; Maira Wenzel (&#64;mairacw) <a href="https://twitter.com/mairacw/status/1585789100879069185?ref_src=twsrc%5Etfw">October 28, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>.NET の Current リリース (1年サポート) は Standard Term Support という名前に変わったという話。</p>
+<!-- https://twitter.com/egorbo/status/1585714639806947331?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">.NET8 now instruments hot AOT code (re-jits it) and in general instruments only hot code - we already can see nice benefits from that (RPS🔼, Start-time🔽)🙃<a href="https://t.co/WvS3IkZDxI">https://t.co/WvS3IkZDxI</a> (merged) <a href="https://t.co/mknbA6sPPl">pic.twitter.com/mknbA6sPPl</a></p>&mdash; Egor Bogatov (&#64;EgorBo) <a href="https://twitter.com/EgorBo/status/1585714639806947331?ref_src=twsrc%5Etfw">October 27, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>.NET 8 ではホットな AOT コードを計測(再 JIT)し、計測もホットなコードのみを対象とするようにしたことで RPS と起動時間が改善するという話。</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
