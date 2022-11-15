@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Tue, 15 Nov 2022 07:58:34 GMT</pubDate>
-		<lastBuildDate>Tue, 15 Nov 2022 07:58:34 GMT</lastBuildDate>
+		<pubDate>Tue, 15 Nov 2022 08:11:43 GMT</pubDate>
+		<lastBuildDate>Tue, 15 Nov 2022 08:11:43 GMT</lastBuildDate>
 		<item>
 			<title>2022-11-15: .NET 7</title>
 			<link>/2022/11/15/updates</link>
@@ -263,7 +263,7 @@
 &lt;li&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/deploy-visual-studio-updates-to-devices-enrolled-in-windows-update-for-business/"&gt;Deploy Visual Studio updates to devices enrolled in Windows Update for Business - Visual Studio Blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/introducing-visual-studio-rollback/"&gt;Introducing Visual Studio Rollback! - Visual Studio Blog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;最後に次期バージョンのプレビューである Visual Studio 2022 17.5 Preview 1 も利用可能となった。&lt;/p&gt;
+&lt;p&gt;最後に次期バージョンのプレビューである Visual Studio 2022 17.5 Preview 1 も利用可能となったことも案内している。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Azure Container Registry や Azure Container Apps のサポート&lt;/li&gt;
 &lt;li&gt;SQL Server 2022 のサポート&lt;/li&gt;
@@ -278,7 +278,7 @@
 &lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-17-4-is-now-available/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-17-4-is-now-available/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Visual Studio 2022 for Mac v17.4 がリリースされた。&lt;/p&gt;
 &lt;p&gt;このリリースではドッキングウィンドウ、フォントや行間の設定のようなユーザーインターフェースの改善、デバッガーの UI の改善、MAUI や .NET 7 と C# 11 のサポートといったものが含まれている。&lt;/p&gt;
-&lt;p&gt;また Visual Studio 2022 for Mac v17.5 Preview 1 も利用可能となり、ランタイムの .NET 7 への更新やフォントサポートの改善が行われている。&lt;/p&gt;
+&lt;p&gt;また Visual Studio 2022 for Mac v17.5 Preview 1 も利用可能となり、ランタイムの .NET 7 への更新やフォントサポートの改善が行われていることが案内されている。&lt;/p&gt;
 &lt;h3 id="announcing-ml.net-2.0.net-blog"&gt;Announcing ML.NET 2.0 - .NET Blog&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-ml-net-2-0/"&gt;https://devblogs.microsoft.com/dotnet/announcing-ml-net-2-0/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;ML.NET 2.0 と新しいバージョンの Model Builder がリリースされた。&lt;/p&gt;
