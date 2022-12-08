@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2022-12-08T09:31:23Z</updated>
+	<updated>2022-12-08T09:42:21Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -231,6 +231,9 @@
 &lt;h3 id="net-annotations-lambda-framework.net-6-api-developersio"&gt;.NET Annotations Lambda Framework を使って .NET 6 のサーバーレス API を作成する | DevelopersIO&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://dev.classmethod.jp/articles/net-annotations-lambda-framework/"&gt;https://dev.classmethod.jp/articles/net-annotations-lambda-framework/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;AWS のプレビューリリースしている .NET Annotations Lambda Framework を使用して .NET 6 でサーバーレス API (Lambda + API Gateway) を実装する方法を紹介している記事。&lt;/p&gt;
+&lt;h3 id="c11-memorypack-speaker-deck"&gt;C#11 による世界最速バイナリシリアライザー「MemoryPack」の作り方 - Speaker Deck&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://speakerdeck.com/neuecc/c-number-11-niyorushi-jie-zui-su-bainarisiriaraiza-memorypack-nozuo-rifang"&gt;https://speakerdeck.com/neuecc/c-number-11-niyorushi-jie-zui-su-bainarisiriaraiza-memorypack-nozuo-rifang&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MemoryPack という高速なシリアライザーを実装する上での工夫を元に C# 11 の言語機能や Source Generator、.NET のライブラリーのモダンな活用の仕方を紹介しているスライド。&lt;/p&gt;
 &lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
 &lt;h3 id="dotnetbrowser.net-web-browser-for-wpf-and-winforms-apps"&gt;DotNetBrowser | .NET web browser for WPF and WinForms apps&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.teamdev.com/dotnetbrowser"&gt;https://www.teamdev.com/dotnetbrowser&lt;/a&gt;&lt;/p&gt;
