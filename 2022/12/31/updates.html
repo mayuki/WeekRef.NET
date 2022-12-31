@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2022-12-31: BenchmarkDotNet 0.13.3 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2022/12/31/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2022-12-31: BenchmarkDotNet 0.13.3 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2022/12/31/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2022-12-31: BenchmarkDotNet 0.13.3
+          </h1>
+              <div class="meta">Published on Saturday, 31 December 2022</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="benchmarkdotnet-v0.13.3-benchmarkdotnet">BenchmarkDotNet v0.13.3 | BenchmarkDotNet</h3>
+<p><a href="https://benchmarkdotnet.org/changelog/v0.13.3.html">https://benchmarkdotnet.org/changelog/v0.13.3.html</a></p>
+<p>BenchmarkDotNet 0.13.3 がリリースされた。</p>
+<p>このリリースでは ARM64 逆アセンブラー、.NET 8 の初期サポート、.NET 6/7 の Mono VM サポート、armv6 と ppc64le のサポートといったプラットフォーム技術への対応が追加された。
+その他 WASM や NativeAOT、 Android でのさまざまな改善や ExceptionDiagnoser や PerfCollectProfiler といった機能の追加が行われている。</p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="practicing-algorithms-using-polyglot-notebooks-part-1-setup">Practicing algorithms using Polyglot Notebooks - part 1 (setup)</h3>
+<p><a href="https://dev.to/kkoziarski/practicing-algorithms-using-polyglot-notebooks-part-1-setup-1fp3">https://dev.to/kkoziarski/practicing-algorithms-using-polyglot-notebooks-part-1-setup-1fp3</a></p>
+<p>Polyglot Notebooks (.NET Interactive) を使用したアルゴリズムの勉強記事シリーズ。セットアップやヘルパーなどを紹介している。</p>
+<h3 id="json-c-c">JSON とかの中身確認ツール | ++C++; // 未確認飛行 C ブログ</h3>
+<p><a href="https://ufcpp.net/blog/2022/12/binarytool/">https://ufcpp.net/blog/2022/12/binarytool/</a></p>
+<p>MessagePack や JSON などのデータをパースして表示、再シリアライズするといったツールを Blazor WebAssembly で作成したという記事。</p>
+<h3 id="how-to-use-change-tokens-in.net-7">How to Use Change Tokens in .NET 7?</h3>
+<p><a href="https://medium.com/&#64;gokerakce/how-to-use-change-tokens-in-net-7-3db9cc43910f">https://medium.com/&#64;gokerakce/how-to-use-change-tokens-in-net-7-3db9cc43910f</a></p>
+<p>IOptionsMonitor などで使用される ChangeToken の使い方を紹介している記事。</p>
+<h3 id="semgrep-sql-injection-1">Semgrep で SQL Injection と戦う #1</h3>
+<p><a href="https://zenn.dev/masakura/articles/3e65ba04401256">https://zenn.dev/masakura/articles/3e65ba04401256</a></p>
+<p>静的コード解析ツールの Semgrep で C# のコードを解析し、SQL インジェクションを検出する方法についての記事。
+記事では Dapper での対応と、いくつかの C# のコードパターンに対応させる方法を紹介している。</p>
+<h3 id="udp-qiita">UDPでパケットが失われたり入れ替わることを検証 - Qiita</h3>
+<p><a href="https://qiita.com/diontools/items/822772f8f2d54be8260a">https://qiita.com/diontools/items/822772f8f2d54be8260a</a></p>
+<p>UDP で送受信した際にどこ程度ドロップや並び替えが発生するのかを検証してみたという記事。</p>
+<h3 id="a-heavy-lift-bringing-kestrel-yarp-to-azure-app-services-qiita">A Heavy Lift: Bringing Kestrel + YARP to Azure App Services をピックアップして訳しつつ補足する - Qiita</h3>
+<p><a href="https://qiita.com/nt-7/items/786ec694b17d8816c2c9">https://qiita.com/nt-7/items/786ec694b17d8816c2c9</a></p>
+<p>Azure App Service のフロントエンドを Kestrel + YARP へ移行したことについての公式ブログ記事を訳して紹介している記事。</p>
+<h3 id="fun-with-nanoframework-running.net-c-on-esp32">Fun with NanoFramework, running .Net C# on ESP32</h3>
+<p><a href="https://sandervandevelde.wordpress.com/2022/12/15/fun-with-nanoframework-running-net-charp-on-esp32/">https://sandervandevelde.wordpress.com/2022/12/15/fun-with-nanoframework-running-net-charp-on-esp32/</a></p>
+<p>ESP32 で .NET nanoFramework 使用して C# のコードを動かす方法を解説している記事。</p>
+<p>記事では MP3 の再生や Wi-Fi への接続方法なども紹介している。</p>
+<h3 id="visual-studio-qiita">Visual Studioから利用できるプロジェクトテンプレートを作成する - Qiita</h3>
+<p><a href="https://qiita.com/kamikawa_m/items/75c337f101d9d2f6080e">https://qiita.com/kamikawa_m/items/75c337f101d9d2f6080e</a></p>
+<p>Visual Studio で使用できるプロジェクトテンプレートを作成する手順を紹介している記事。</p>
+<h3 id="asp.net-core-identity-qiita">ASP.NET Core Identity の拡張性を探る - Qiita</h3>
+<p><a href="https://qiita.com/MugeSo/items/7ada1f2713b8917970c3">https://qiita.com/MugeSo/items/7ada1f2713b8917970c3</a></p>
+<p>ASP.NET Core Identity のユーザーデータやパスワード関連など細かく拡張するためのインターフェースを紹介している記事。</p>
+<h3 id="top.net-blog-posts-of-2022.net-blog">Top .NET Blog Posts of 2022 - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/top-dotnet-blog-posts-of-2022/">https://devblogs.microsoft.com/dotnet/top-dotnet-blog-posts-of-2022/</a></p>
+<p>.NET Blog の2022年のトップ投稿を改めて紹介している記事。</p>
+<h3 id="top.net-videos-live-streams-of-2022.net-blog">Top .NET Videos &amp; Live Streams of 2022 - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/top-dotnet-videos-live-streams-of-2022/">https://devblogs.microsoft.com/dotnet/top-dotnet-videos-live-streams-of-2022/</a></p>
+<p>.NET チームによる2022年のトップ動画とライブストリーミングを紹介している記事。</p>
+<h3 id="c-qiita">C#のソースコードから差分のあるメソッドだけを抜き出す - Qiita</h3>
+<p><a href="https://qiita.com/myosotis/items/fa48b8aa940f53405218">https://qiita.com/myosotis/items/fa48b8aa940f53405218</a></p>
+<p>Roslyn を使用してソースコードを解析して、二つのソースコード間のメソッドを比較して追加、削除、変更を抽出を試みるという記事。</p>
+<h3 id="asp.net-core-7.0-blazor">ASP.NET Core 7.0 Blazor の新機能のカスタム エレメントを使ってみよう</h3>
+<p><a href="https://zenn.dev/okazuki/articles/blazor-customtag">https://zenn.dev/okazuki/articles/blazor-customtag</a></p>
+<p>.NET 7 の Blazor で対応した、コンポーネントを一般的な HTML の要素のように使用できる仕組みであるカスタムエレメントを使用する方法についての記事。</p>
+<h3 id="better-assertions-for-your-unit-tests">Better assertions for your unit tests</h3>
+<p><a href="https://www.johansmarius.dev/2022/12/better-assertions-for-your-unit-tests.html?m=1">https://www.johansmarius.dev/2022/12/better-assertions-for-your-unit-tests.html?m=1</a></p>
+<p>ユニットテストでアサーションを Fluent な形で記述する FluentAssertions の紹介をしている記事。</p>
+<h3 id="keycloak-as-authorization-server-in.net">Keycloak as Authorization Server in .NET</h3>
+<p><a href="https://dev.to/nikiforovall/keycloak-as-authorization-server-in-net-91m">https://dev.to/nikiforovall/keycloak-as-authorization-server-in-net-91m</a></p>
+<p>Keycloak をASP.NET Core の認証サーバーとして使用する方法について紹介している記事。</p>
+<h3 id="accelerate-ml.net-training-with-intel-onedal">Accelerate ML.NET training with Intel oneDAL</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/accelerate-ml-net-training-with-intel-onedal/">https://devblogs.microsoft.com/dotnet/accelerate-ml-net-training-with-intel-onedal/</a></p>
+<p>ML.NET 3.0 のプレビューリリースで Intel oneDAL バックエンドを利用できるようになったというアナウンス。</p>
+<h3 id="vb.netmodvb-qiita">【VB.NET】拡張コンパイラModVBの紹介(インストール編) - Qiita</h3>
+<p><a href="https://qiita.com/yaju/items/2c154a939b9896c855e2">https://qiita.com/yaju/items/2c154a939b9896c855e2</a></p>
+<p>VB.NET を拡張したコンパイラー ModVB の導入方法を紹介している記事。</p>
+<h3 id="blazor-javascript">Blazor から JavaScript のクラスのコンストラクタを呼びたい</h3>
+<p><a href="https://zenn.dev/okazuki/articles/call-js-constructor-from-blazor">https://zenn.dev/okazuki/articles/call-js-constructor-from-blazor</a></p>
+<p>Blazor の C# 側から JavaScript のクラスのインスタンスを作る方法についての記事。
+.NET 8 では直接インスタンスを作ることができるが、.NET 7 では生成用の関数を呼び出すといった形をとる必要がある。</p>
+<h3 id="net-maui-entityframeworkcore">【.NET MAUI 】EntityFrameworkCore のマイグレーションができない時の対処法</h3>
+<p><a href="https://zenn.dev/tomori_k/articles/9cb07c31a1fdca">https://zenn.dev/tomori_k/articles/9cb07c31a1fdca</a></p>
+<p>.NET MAUI プロジェクトでは Entity Framework Core のマイグレーションを実行できない問題とその対処についての記事。</p>
+<h3 id="c-tipudp-qiita">[C#] メモtip:UDPマルチキャストを受信する(送受信同一ホスト対応) - Qiita</h3>
+<p><a href="https://qiita.com/Yothuba3/items/ae6d7822b6b3cfe63be7">https://qiita.com/Yothuba3/items/ae6d7822b6b3cfe63be7</a></p>
+<p>UDP マルチキャストを同一ホストでの送信も含めて受信する方法についての記事。</p>
+<h3 id="cdapper-qiita">【C#】Dapper忘備録【基本編】 - Qiita</h3>
+<p><a href="https://qiita.com/YuMo_tea/items/ee4182260a0e3216237e">https://qiita.com/YuMo_tea/items/ee4182260a0e3216237e</a></p>
+<p>Dapper の基本的なメソッドと使い方を紹介している記事。</p>
+<h3 id="ctencent-trtc-sdk-qiita">C#でTencent TRTC SDK使ってみた！ - Qiita</h3>
+<p><a href="https://qiita.com/SoeAtsu/items/6085c647b2c61feed5cb">https://qiita.com/SoeAtsu/items/6085c647b2c61feed5cb</a></p>
+<p>Tencent Real-Time Communication の SDK を使用して WPF アプリケーションにビデオ通話を組み込んでみるという記事。</p>
+<h3 id="system.threading.ratelimiting-qiita">種類を分けて流量制限をする(System.Threading.RateLimiting) - Qiita</h3>
+<p><a href="https://qiita.com/skitoy4321/items/265111dd440041e66e5a">https://qiita.com/skitoy4321/items/265111dd440041e66e5a</a></p>
+<p>.NET 7 で導入されたレートリミットの API でURLやリソースといった種類ごとに流量制限を行うための PartitionedRateLimiter クラスの解説記事。</p>
+<h3 id="ix.netmaxby.net-6maxbywithties-qiita">Ix.NETのMaxBy、.NET 6から加わった標準メソッドと名称が衝突したので、MaxByWithTiesになってた - Qiita</h3>
+<p><a href="https://qiita.com/RyotaMurohoshi/items/9072987415bcab80b703">https://qiita.com/RyotaMurohoshi/items/9072987415bcab80b703</a></p>
+<p>.NET 6 で LINQ に MaxBy などが追加された影響で Ix.NET の同名のメソッドが変わったことについての記事。</p>
+<h3 id="azure-app-service-asp.net-core-app-service-getconnectionstring-jsakamoto">Azure App Service に配置した ASP.NET Core アプリで、App Service 上に設定した接続文字列を GetConnectionString で取得できない? | &#64;jsakamoto</h3>
+<p><a href="https://devadjust.exblog.jp/29454749/">https://devadjust.exblog.jp/29454749/</a></p>
+<p>Azure App Service の接続文字列設定 (Configuration の  Connection strings) で PostgreSQL のみ正しく取得できない問題について。</p>
+<p>App Service で設定した接続文字列には各データベース種類ごとのプレフィックスがついており、M.E.Configuration は環境変数から読み取る際にそれらを考慮しているが PostgreSQL のみ考慮されていない問題がある。</p>
+<h3 id="generatedregex-qiita">GeneratedRegexで遊ぶ - Qiita</h3>
+<p><a href="https://qiita.com/kurema/items/068385ba2f8bbe3858e1">https://qiita.com/kurema/items/068385ba2f8bbe3858e1</a></p>
+<p>.NET 7 で導入された正規表現の処理をあらかじめソースジェネレーターで生成する GeneratedRegex について解説している記事。</p>
+<p>記事では使用方法のほか、実装についての解説、パフォーマンスの比較といったことに触れている。</p>
+<h3 id="hybrid-blazor-nativeaot">Hybrid Blazor + NativeAOT = ❤️</h3>
+<p><a href="https://codevision.medium.com/hybrid-blazor-nativeaot-%EF%B8%8F-a6c93de6ede3">https://codevision.medium.com/hybrid-blazor-nativeaot-%EF%B8%8F-a6c93de6ede3</a></p>
+<p>Blazor Hybrid を Windows Forms 上の WebView2 で表示し、NativeAOT で動作させる方法についての記事。</p>
+<h3 id="net-conf-2022-recap-event.net-7-windows">.NET Conf 2022 Recap Event 福岡で .NET 7 時代の Windows アプリケーション開発について話しました - しばやん雑記</h3>
+<p><a href="https://blog.shibayan.jp/entry/20221226/1671991195">https://blog.shibayan.jp/entry/20221226/1671991195</a></p>
+<p>.NET Conf 2022 Recap Event 福岡での .NET 7 時代の Windows アプリケーション開発についてのセッションの振り返りとスライドの記事。</p>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="kareaditakavita-kavita-is-a-fast-feature-rich-cross-platform-reading-server.built-with-a-focus-for-manga-and-the-goal-of-being-a-full-solution-for-all-your-reading-needs.setup-your-own-server-and-share-your-reading-collection-with-your-friends-and-family">Kareadita/Kavita: Kavita is a fast, feature rich, cross platform reading server. Built with a focus for manga and the goal of being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.</h3>
+<p><a href="https://github.com/Kareadita/Kavita">https://github.com/Kareadita/Kavita</a></p>
+<p>Web ベースの書籍リーダーアプリケーション。</p>
+<p>ZIP ファイルなどを取り扱えるいわゆる自炊などのマンガビューアー。</p>
+<h3 id="mkaringconfuserex-an-open-source-free-protector-for.net-applications">mkaring/ConfuserEx: An open-source, free protector for .NET applications</h3>
+<p><a href="https://github.com/mkaring/ConfuserEx">https://github.com/mkaring/ConfuserEx</a></p>
+<p>.NET アプリケーションの難読化を行うツール。</p>
+<p>コマンドラインツールや MSBuild タスクといった形での利用が可能。</p>
+<ul>
+<li><a href="https://qiita.com/myosotis/items/e14e6e448eeaef574172">.Netの単一実行ファイルを難読化する - Qiita</a></li>
+</ul>
+<h3 id="mrdave1999dotenv.core-dotenv.core-is-a-class-library-for-read-and-parsing.env-files-in.net-core">MrDave1999/dotenv.core: dotenv.core is a class library for read and parsing .env files in .NET Core</h3>
+<p><a href="https://github.com/MrDave1999/dotenv.core?hss_channel=tw-2384354214">https://github.com/MrDave1999/dotenv.core?hss_channel=tw-2384354214</a></p>
+<p>.env (環境変数を記述したファイル) を .NET から取り扱うライブラリー。</p>
+<h2 id="section-3">サイト、ドキュメントなど</h2>
+<h3 id="soysign">SoySign | シンプルな電子契約サービス</h3>
+<p><a href="https://soysign.com/">https://soysign.com/</a></p>
+<p>Blazor で実装された電子サインサービス。</p>
+<ul>
+<li><a href="https://zenn.dev/nekojoker/articles/11942566354b49">【Blazor】電子サインができるWebサービスを4ヶ月かけて作った話</a></li>
+</ul>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
