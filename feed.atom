@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2023-01-06T05:49:14Z</updated>
+	<updated>2023-01-06T05:52:45Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -65,9 +65,8 @@
 &lt;h3 id="a-first-look-behind-the-scenes-of-minimal-api-endpoints-behind-the-scenes-of-minimal-apis-part-1"&gt;A first look behind the scenes of minimal API endpoints: Behind the scenes of minimal APIs - Part 1&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://andrewlock.net/behind-the-scenes-of-minimal-apis-1-a-first-look-behind-the-scenes-of-minimal-api-endpoints/"&gt;https://andrewlock.net/behind-the-scenes-of-minimal-apis-1-a-first-look-behind-the-scenes-of-minimal-api-endpoints/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;ASP.NET Core の Minimal API によるエンドポイント構築処理の裏側を解説。&lt;/p&gt;
-&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
-&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
+&lt;h2 id="section-2"&gt;サイト、ドキュメントなど&lt;/h2&gt;
+&lt;h3 id="section-3"&gt;ツイート&lt;/h3&gt;
 &lt;p&gt;FNA では NativeAOT をコンソール向けに移植したという話。&lt;/p&gt;
 &lt;!-- https://twitter.com/thespydog/status/1609602883418296320?s=12&amp;t=d6NIoMx9sGgDHxHGPEHOIA --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;NativeAOT allows C# game developers to build their games directly for console platforms, without any C++ transpilation! This means you get to use modern .NET on consoles, with build times around 10 seconds instead of 10 minutes.&lt;br&gt;&lt;br&gt;If you’re interested, please get in touch with us! &lt;a href="https://t.co/NOkhPdIYNb"&gt;https://t.co/NOkhPdIYNb&lt;/a&gt;&lt;/p&gt;&amp;mdash; Caleb Cornett (&amp;#64;TheSpydog) &lt;a href="https://twitter.com/TheSpydog/status/1609602883418296320?ref_src=twsrc%5Etfw"&gt;January 1, 2023&lt;/a&gt;&lt;/blockquote&gt;
