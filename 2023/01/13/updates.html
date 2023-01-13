@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2023-01-13: paint.net 5.0, ReSharper &amp; Rider 2023.1 Roadmap, Swashbuckle.AspNetCore 6.5.0 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2023/01/13/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2023-01-13: paint.net 5.0, ReSharper &amp; Rider 2023.1 Roadmap, Swashbuckle.AspNetCore 6.5.0 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2023/01/13/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2023-01-13: paint.net 5.0, ReSharper &amp; Rider 2023.1 Roadmap, Swashbuckle.AspNetCore 6.5.0
+          </h1>
+              <div class="meta">Published on Friday, 13 January 2023</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="paint.net-5.0-is-now-available">paint.net 5.0 is now available!</h3>
+<p><a href="https://forums.getpaint.net/topic/121643-paintnet-50-is-now-available/">https://forums.getpaint.net/topic/121643-paintnet-50-is-now-available/</a></p>
+<p>Paint.NET 5.0 がリリースされた。</p>
+<p>このリリースでは筆圧検知の対応、GPU を使用したレンダリングや画像処理、新しいエフェクトプラグインシステム、様々なパフォーマンスの向上や改善などが行われている。</p>
+<p>また、.NET 7 を使用してビルドされるようになり、レガシーな C++/CLI コードは <a href="https://github.com/terrafx/terrafx.interop.windows">TerraFX.Interop.Windows</a> に置き換えられたとのこと。</p>
+<h3 id="resharper-2023.1-roadmap-the.net-tools-blog">ReSharper 2023.1 Roadmap | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/01/10/resharper-2023-1-roadmap/">https://blog.jetbrains.com/dotnet/2023/01/10/resharper-2023-1-roadmap/</a></p>
+<p>ReSharper 2023.1 のロードマップ。</p>
+<ul>
+<li>ショートカットのオーバーホール</li>
+<li>アウトオブプロセスへの移行</li>
+<li>文法チェック
+<ul>
+<li>組み込みのスペルチェッカーから JetBrains Grazie への移行</li>
+</ul>
+</li>
+<li>ユニットテスト自動化</li>
+<li>ローカリゼーション
+<ul>
+<li>簡体字中国語、日本語、韓国語</li>
+</ul>
+</li>
+<li>UX/UI の再デザイン</li>
+<li>その他
+<ul>
+<li>Web 開発</li>
+<li>更新ダイアログ</li>
+</ul>
+</li>
+</ul>
+<h3 id="rider-2023.1-roadmap-the.net-tools-blog">Rider 2023.1 Roadmap | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/01/10/rider-2023-1-roadmap/">https://blog.jetbrains.com/dotnet/2023/01/10/rider-2023-1-roadmap/</a></p>
+<p>Rider 2023.1 のロードマップ。</p>
+<ul>
+<li>設定の同期プラグイン</li>
+<li>Docker サポートの改善</li>
+<li>データベーススキーマ比較</li>
+<li>ゲーム開発
+<ul>
+<li>Unity
+<ul>
+<li>DOTS のサポート</li>
+</ul>
+</li>
+<li>Unreal Engine</li>
+</ul>
+</li>
+<li>文法チェック
+<ul>
+<li>組み込みのスペルチェッカーから JetBrains Grazie への移行</li>
+</ul>
+</li>
+<li>その他
+<ul>
+<li>パフォーマンス</li>
+<li>新しい UI の調整</li>
+<li>ローカリゼーション
+<ul>
+<li>簡体字中国語、日本語、韓国語</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="release-v6.5.0-domaindrivendevswashbuckle.aspnetcore">Release v6.5.0 · domaindrivendev/Swashbuckle.AspNetCore</h3>
+<p><a href="https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v6.5.0">https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v6.5.0</a></p>
+<p>Swashbuckle.AspNetCore 6.5.0 がリリースされた。</p>
+<p>このリリースではターゲットフレームワークに .NET 7 が追加されたほか、Swagger UI のアップデートが行われている。</p>
+<h3 id="release-release-v1.46.6-grpcgrpc">Release Release v1.46.6 · grpc/grpc</h3>
+<p><a href="https://github.com/grpc/grpc/releases/tag/v1.46.6">https://github.com/grpc/grpc/releases/tag/v1.46.6</a></p>
+<p>gRPC 1.46.6 (C-Core) がリリースされた。</p>
+<p>このリリースでは zlib に関する脆弱性の対応といくつかの不具合の修正が行われている。</p>
+<h3 id="release-6.9.0-fluentassertionsfluentassertions">Release 6.9.0 · fluentassertions/fluentassertions</h3>
+<p><a href="https://github.com/fluentassertions/fluentassertions/releases/tag/6.9.0">https://github.com/fluentassertions/fluentassertions/releases/tag/6.9.0</a></p>
+<p>FluentAssertions 6.9.0 がリリースされた。</p>
+<p>TimeOnly や型やメソッドなどのリフレクションなどに関するアサーションメソッドの追加。</p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="cdatetime-qiita">【C#】DateTimeの和暦表示 - Qiita</h3>
+<p><a href="https://qiita.com/ikuzak/items/b0fa005d267041890ed6">https://qiita.com/ikuzak/items/b0fa005d267041890ed6</a></p>
+<p>DateTime を和暦でフォーマットする際に R (令和) のようなアルファベットにする方法について。</p>
+<h3 id="c-io">C# で本当の非同期 IO</h3>
+<p><a href="https://zenn.dev/k_taro56/articles/csharp-true-async-io">https://zenn.dev/k_taro56/articles/csharp-true-async-io</a></p>
+<p>FileStream の非同期 I/O を使用するかどうかの <code>useAsync</code> はデフォルトで <code>false</code> となっているので非同期 I/O とならないことについて。</p>
+<h3 id="inheritance-strategies-in-entity-framework-core-7">Inheritance Strategies in Entity Framework Core 7</h3>
+<p><a href="https://medium.com/abp-community/inheritance-strategies-in-entity-framework-core-7-e0cfd42877a5">https://medium.com/abp-community/inheritance-strategies-in-entity-framework-core-7-e0cfd42877a5</a></p>
+<p>Entity Framework Core の継承したモデルの格納方法として EF 7 でサポートされた TPC (コンクリート型ごとのテーブル)とそれ以前からサポートされていた TPH, TPT についての簡単な紹介。</p>
+<h3 id="sqlitepclraw-and-open-source-sustainability">SQLitePCLRaw and open source sustainability</h3>
+<p><a href="https://ericsink.com/entries/sqlitepclraw_sustainability.html">https://ericsink.com/entries/sqlitepclraw_sustainability.html</a></p>
+<p>SQLitePCLRaw (SQLite のネイティブバインディング) を維持する上での現状や懸念点、利益など。</p>
+<h3 id="parsing-a-template-language-with-c-and-pidgin-zach-on-code">Parsing a template language with C# and Pidgin | Zach on Code</h3>
+<p><a href="https://zachoncode.dev/blog/parsing-template-language-with-csharp-and-pidgin/">https://zachoncode.dev/blog/parsing-template-language-with-csharp-and-pidgin/</a></p>
+<p>パーサーライブラリーの Pidgin を使用してテンプレート言語を実装する方法を解説。</p>
+<h3 id="reactiveproperty-v9.0.0">ReactiveProperty v9.0.0 のプレリリース版を出してみました</h3>
+<p><a href="https://zenn.dev/okazuki/articles/reactiveproperty-v9-0-0-pre1">https://zenn.dev/okazuki/articles/reactiveproperty-v9-0-0-pre1</a></p>
+<p>ReactiveProperty v9.0.0 のプレリリースで行った改善や再構成、新しいクラスの追加などを解説。</p>
+<h3 id="the-road-to-out-of-process-resharper-asynchronous-typing-the.net-tools-blog">The Road to Out-of-Process ReSharper: Asynchronous Typing | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/01/05/resharper-out-of-process/">https://blog.jetbrains.com/dotnet/2023/01/05/resharper-out-of-process/</a></p>
+<p>ReSharper を Visual Studio とは別のプロセス(アウトオブプロセス)で動作させる形に移行するためのハードルや行なっていることを解説。</p>
+<h3 id="net-conf-2022-recap-event-microsoft-japan-community-event-tour-series">[オンデマンド版] .NET Conf 2022 Recap Event 東京 ~ Microsoft Japan Community Event Tour Series</h3>
+<p><a href="https://info.microsoft.com/JA-ModApps-VDEO-FY23-12Dec-23-MKTO-FY23-dotnetconf-2022-Recap-Tokyo-Gated-video-SRGCM8691_LP01-Registration---Form-in-Body.html">https://info.microsoft.com/JA-ModApps-VDEO-FY23-12Dec-23-MKTO-FY23-dotnetconf-2022-Recap-Tokyo-Gated-video-SRGCM8691_LP01-Registration---Form-in-Body.html</a></p>
+<p>.NET Conf 2022 Recap Event 東京 のセッションのオンデマンド動画。</p>
+<ul>
+<li><a href="https://www.microsoft.com/cms/api/am/binary/RE5c8Zg">アジェンダ (PDF)</a></li>
+</ul>
+<h3 id="c-qiita">フォルダの書き込みに管理者権限が不要かどうかをC#で判定する - Qiita</h3>
+<p><a href="https://qiita.com/Alone-and-Slow/items/a2332bcb500051e19fbc">https://qiita.com/Alone-and-Slow/items/a2332bcb500051e19fbc</a></p>
+<p>Windows 環境でフォルダーに対する書き込み権限があるかどうかを確認する方法。</p>
+<h3 id="testing-asp.net-core-fastendpoints-khalid-abuhakmeh">Testing ASP.NET Core FastEndpoints | Khalid Abuhakmeh</h3>
+<p><a href="https://khalidabuhakmeh.com/testing-aspnet-core-fastendpoints">https://khalidabuhakmeh.com/testing-aspnet-core-fastendpoints</a></p>
+<p>ASP.NET Core 上に構築されたフレームワーク FastEndpoints を使用した際のユニットテストについての解説。</p>
+<h3 id="implement-a-custom-configuration-provider-in.net-7">Implement a Custom Configuration Provider in .NET 7</h3>
+<p><a href="https://medium.com/&#64;gokerakce/implement-a-custom-configuration-provider-in-net-7-c0a195dcd05f">https://medium.com/&#64;gokerakce/implement-a-custom-configuration-provider-in-net-7-c0a195dcd05f</a></p>
+<p>.NET 7 での Microsoft.Extensions.Configuration のカスタムの構成プロバイダーを実装する方法の解説。</p>
+<p>記事では SQL Server から値を読み出し、再読み込みが可能なプロバイダーを実装している。</p>
+<h3 id="how-to-run-disposable-databases-for-your-tests.improve-your-integration-tests-accuracy-with-testcontainers">How to run disposable databases for your tests. Improve your integration tests accuracy with Testcontainers</h3>
+<p><a href="https://blog.genezini.com/p/how-to-run-disposable-databases-for-your-tests.-improve-your-integration-tests-accuracy-with-testcontainers/">https://blog.genezini.com/p/how-to-run-disposable-databases-for-your-tests.-improve-your-integration-tests-accuracy-with-testcontainers/</a></p>
+<p>Testcontainers を使用して使い捨てのデータベースを起動して、ユニットテストや統合テストを行う方法を解説。</p>
+<h3 id="five-shortcuts-to-boost-your-productivity-visual-studio-blog">Five shortcuts to boost your productivity - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/the-visual-studio-editor-can-do-that/">https://devblogs.microsoft.com/visualstudio/the-visual-studio-editor-can-do-that/</a></p>
+<p>Visual Studio で生産性を高める5つのショートカットを紹介。</p>
+<ul>
+<li><kbd>Ctrl</kbd>+<kbd>D</kbd>: 行の複製</li>
+<li><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd>: 行全体の削除</li>
+<li><kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>.</kbd>: 次の同じ単語を選択</li>
+<li><kbd>Alt</kbd>+選択: ボックス(矩形)選択</li>
+<li><kbd>Alt</kbd>+<kbd>Ctrl</kbd>+マウスクリック: 複数カーソルの挿入</li>
+</ul>
+<h3 id="confusing.net-debuggers-proxy-objects">Confusing .NET Debuggers: Proxy Objects</h3>
+<p><a href="https://washi.dev/blog/posts/debugger-proxy-objects/">https://washi.dev/blog/posts/debugger-proxy-objects/</a></p>
+<p>プロキシーオブジェクトを差し込むことで、逆コンパイラーやそれに付随したデバッガーなどを欺く手法について解説。</p>
+<h3 id="c-12-params-c-c">【C# 12 候補】ラムダ式のデフォルト引数と params 引数 | ++C++; // 未確認飛行 C ブログ</h3>
+<p><a href="https://ufcpp.net/blog/2023/1/lambda-default/">https://ufcpp.net/blog/2023/1/lambda-default/</a></p>
+<p>C# 12の機能の候補であるラムダ式でのデフォルト引数と params 引数を許可する改善について。</p>
+<h3 id="language-injection-improvements-in-rider-2022.3-the.net-tools-blog">Language Injection Improvements in Rider 2022.3 | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/01/12/language-injection-improvements-in-rider-2022-3/">https://blog.jetbrains.com/dotnet/2023/01/12/language-injection-improvements-in-rider-2022-3/</a></p>
+<p>Rider 2022.3 での言語インジェクションの改善の紹介。</p>
+<p>生文字列リテラルでの対応や、文字列結合での補完文字列の対応、LanguageInjection 属性の対応、.NET 7 の StringSyntax 属性の対応など。</p>
+<h3 id="debugging-encoded-text-visual-studio-blog">Debugging Encoded Text - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/debugging-encoded-text/">https://devblogs.microsoft.com/visualstudio/debugging-encoded-text/</a></p>
+<p>最新の Visual Studio プレビューで利用できるデバッガーのテキストビジュアライザーの紹介。</p>
+<p>プレビューでのテキストビジュアライザーは Base64 や URL のエンコードとデコード、JWT のデコードを行った結果を表示できる。</p>
+<h3 id="extracting-metadata-from-a-minimal-api-handler-behind-the-scenes-of-minimal-apis-part-2">Extracting metadata from a minimal API handler: Behind the scenes of minimal APIs - Part 2</h3>
+<p><a href="https://andrewlock.net/behind-the-scenes-of-minimal-apis-2-extracting-metadata-from-a-minimal-api-handler/">https://andrewlock.net/behind-the-scenes-of-minimal-apis-2-extracting-metadata-from-a-minimal-api-handler/</a></p>
+<p>Minimal API のエンドポイントのハンドラーとして渡される Delegate からどのようにしてメタデータを抽出し、RequestDelegate を作っているかを解説。</p>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="jellyfinjellyfin-the-free-software-media-system">jellyfin/jellyfin: The Free Software Media System</h3>
+<p><a href="https://github.com/jellyfin/jellyfin">https://github.com/jellyfin/jellyfin</a></p>
+<p>Emby や Plex のような .NET で構築されたメディアサーバー。</p>
+<ul>
+<li><a href="https://jellyfin.org/">The Free Software Media System | Jellyfin</a></li>
+<li><a href="https://dev.to/awsmfoss/foss-spotlight-jellyfin-452g">FOSS Spotlight: 📺 Jellyfin</a></li>
+</ul>
+<h3 id="jonpsmithnet.localizemessagesanderrors-this-library-provides-extra-code-to-make-it-easier-to-support-in-different-languages-in-your.net-application">JonPSmith/Net.LocalizeMessagesAndErrors: This library provides extra code to make it easier to support in different languages in your .NET application</h3>
+<p><a href="https://github.com/JonPSmith/Net.LocalizeMessagesAndErrors">https://github.com/JonPSmith/Net.LocalizeMessagesAndErrors</a></p>
+<p>.NET アプリケーションのローカリゼーションの実装を支援するライブラリー。</p>
+<ul>
+<li><a href="https://www.thereformedprogrammer.net/improving-the-support-of-multiple-languages-in-net-applications/">Improving the support of multiple languages in .NET applications – The Reformed Programmer</a></li>
+</ul>
+<h3 id="linq-me-up">LINQ Me Up</h3>
+<p><a href="https://linqmeup.com/">https://linqmeup.com/</a></p>
+<p>AI を使用して SQL の SELECT 文を LINQ に変換するツール。</p>
+<h2 id="section-3">サイト、ドキュメントなど</h2>
+<h3 id="section-4">ツイート</h3>
+<p>C# はコンテキストキーワードが多いので一見予約語のような識別子を持つものを定義して変なコードを書けてしまうという話。</p>
+<!-- https://twitter.com/jaredpar/status/1613615815231934468?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The .NET Community Stand up was fun today. Got to show viewers the evolution of code that leads us to the following being legal <a href="https://t.co/PZNe9XT4Ij">pic.twitter.com/PZNe9XT4Ij</a></p>&mdash; Jared Parsons (&#64;jaredpar) <a href="https://twitter.com/jaredpar/status/1613615815231934468?ref_src=twsrc%5Etfw">January 12, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>.NET では同じ完全修飾名で同じアセンブリなのに同一プロセス内で異なる型として認識されるケースがあるという話。(AssemblyLoadContext が異なる場合など)。これは殆どのユーザーには問題がないが、Analyzer や Source Generator といった文脈で問題となることがある。</p>
+<!-- https://twitter.com/jaredpar/status/1613211080918192133?s=12&t=zFu2JC3YBugL-SiMBxWFeg -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you think that having two types with the same fully qualified name but diff assemblies in .NET is weird, wait until you have to deal with the same type in the same assembly having two different identities in the same process.</p>&mdash; Jared Parsons (&#64;jaredpar) <a href="https://twitter.com/jaredpar/status/1613211080918192133?ref_src=twsrc%5Etfw">January 11, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="deep-dive">Deep Dive</h2>
+<h3 id="rewrite-how-matrix3x2-and-matrix4x4-are-implemented-by-tannergooding-pull-request-80091-dotnetruntime">Rewrite how Matrix3x2 and Matrix4x4 are implemented by tannergooding · Pull Request #80091 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/80091">https://github.com/dotnet/runtime/pull/80091</a></p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
