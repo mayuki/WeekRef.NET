@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Sat, 04 Feb 2023 14:29:15 GMT</pubDate>
-		<lastBuildDate>Sat, 04 Feb 2023 14:29:15 GMT</lastBuildDate>
+		<pubDate>Sat, 04 Feb 2023 14:33:02 GMT</pubDate>
+		<lastBuildDate>Sat, 04 Feb 2023 14:33:02 GMT</lastBuildDate>
 		<item>
 			<title>2023-02-04: MySqlConnector 2.3.0 Beta 1, Visual Studio Code January 2023, ReSharper &amp; Rider 2023.1 EAP 3</title>
 			<link>/2023/02/04/updates</link>
@@ -26,6 +26,7 @@
 ### ツイート
 ## Deep Dive
 --&gt;
+&lt;p&gt;今回はリンク URL の紹介のみとなっています。&lt;/p&gt;
 &lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
 &lt;h3 id="release-2.3.0-beta-1-mysql-netmysqlconnector"&gt;Release 2.3.0 Beta 1 · mysql-net/MySqlConnector&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/mysql-net/MySqlConnector/releases/tag/2.3.0-beta.1"&gt;https://github.com/mysql-net/MySqlConnector/releases/tag/2.3.0-beta.1&lt;/a&gt;&lt;/p&gt;

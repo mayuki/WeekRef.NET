@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2023-02-04T14:29:15Z</updated>
+	<updated>2023-02-04T14:33:02Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -29,6 +29,7 @@
 ### ツイート
 ## Deep Dive
 --&gt;
+&lt;p&gt;今回はリンク URL の紹介のみとなっています。&lt;/p&gt;
 &lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
 &lt;h3 id="release-2.3.0-beta-1-mysql-netmysqlconnector"&gt;Release 2.3.0 Beta 1 · mysql-net/MySqlConnector&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/mysql-net/MySqlConnector/releases/tag/2.3.0-beta.1"&gt;https://github.com/mysql-net/MySqlConnector/releases/tag/2.3.0-beta.1&lt;/a&gt;&lt;/p&gt;
