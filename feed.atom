@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2023-02-18T15:19:20Z</updated>
+	<updated>2023-02-18T15:24:18Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -114,9 +114,8 @@
 &lt;h3 id="net-blazorradzen-qiita"&gt;.NET Blazor＋Radzen を使ってみた - Qiita&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://qiita.com/tinymouse/items/01b1bc4a74429ddc0b17"&gt;https://qiita.com/tinymouse/items/01b1bc4a74429ddc0b17&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Blazor 向けの UI コンポーネントライブラリー Radzen を使用する方法について。&lt;/p&gt;
-&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
-&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
+&lt;h2 id="section-2"&gt;サイト、ドキュメントなど&lt;/h2&gt;
+&lt;h3 id="section-3"&gt;ツイート&lt;/h3&gt;
 &lt;p&gt;新しい Bing の AI チャットは SignalR を使用しているという話。&lt;/p&gt;
 &lt;!-- https://twitter.com/davidfowl/status/1626097506286436352?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Got access to the new bing and I looked to see how they implemented the chat. It&amp;#39;s using &lt;a href="https://twitter.com/hashtag/signalr?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#signalr&lt;/a&gt; 😍😍😍 &lt;a href="https://t.co/nAyEndNMUq"&gt;pic.twitter.com/nAyEndNMUq&lt;/a&gt;&lt;/p&gt;&amp;mdash; hachyderm.io/&amp;#64;davidfowl (&amp;#64;davidfowl) &lt;a href="https://twitter.com/davidfowl/status/1626097506286436352?ref_src=twsrc%5Etfw"&gt;February 16, 2023&lt;/a&gt;&lt;/blockquote&gt;
