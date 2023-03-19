@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2023-03-19: .NET 8 Preview 2, Visual Studio 2022 v17.6 Preview 2, Semantic Kernel, MessagePack-CSharp v2.5.108 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2023/03/19/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2023-03-19: .NET 8 Preview 2, Visual Studio 2022 v17.6 Preview 2, Semantic Kernel, MessagePack-CSharp v2.5.108 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2023/03/19/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2023-03-19: .NET 8 Preview 2, Visual Studio 2022 v17.6 Preview 2, Semantic Kernel, MessagePack-CSharp v2.5.108
+          </h1>
+              <div class="meta">Published on Sunday, 19 March 2023</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="announcing.net-8-preview-2.net-blog">Announcing .NET 8 Preview 2 - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-8-preview-2/">https://devblogs.microsoft.com/dotnet/announcing-dotnet-8-preview-2/</a></p>
+<p>.NET 8 Preview 2 がリリースされた。</p>
+<p>このリリースでは System.ComponentModel.DataAnnotations を拡張する属性の追加やリフレクションでの関数ポインターのサポートが追加された。</p>
+<h3 id="ef-core-8-preview-2-lite-and-familiar.net-blog">EF Core 8 Preview 2: Lite and familiar - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/announcing-ef8-preview-2/">https://devblogs.microsoft.com/dotnet/announcing-ef8-preview-2/</a></p>
+<p>Entity Framework Core 8 Preview 2 がリリースされた。</p>
+<p>記事ではこのリリースで利用できるようになった SQLite での JSON 列サポートと SQL Server/Azure SQL databases での HierarchyId サポートについて紹介している。</p>
+<h3 id="asp.net-core-updates-in.net-8-preview-2.net-blog">ASP.NET Core updates in .NET 8 Preview 2 - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-dotnet-8-preview-2/">https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-dotnet-8-preview-2/</a></p>
+<p>.NET 8 Preview 8 での ASP.NET Core のアップデートについて。</p>
+<ul>
+<li>Blazor の QuickGrid サポート</li>
+<li>Blazor WebAssembly での JIT (Jiterpreter) によるパフォーマンス向上</li>
+<li><code>[FromBody]</code> が複数指定されていることを検出する Analyzer</li>
+<li>より回復力のある統合のための <code>ProblemDetails</code> の新 API</li>
+<li><code>ObjectPool</code> での <code>IResettable</code> インターフェース</li>
+<li>名前付きパイプのパフォーマンスの向上</li>
+</ul>
+<h3 id="visual-studio-2022-v17.6-preview-2-is-now-available-visual-studio-blog">Visual Studio 2022 v17.6 Preview 2 is now available - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/visual-studio-2022-v17-6-preview-2-is-now-available/">https://devblogs.microsoft.com/visualstudio/visual-studio-2022-v17-6-preview-2-is-now-available/</a></p>
+<p>Visual Studio 2022 version 17.6 Preview 2 がリリースされた。</p>
+<ul>
+<li>生産性のレベルアップ
+<ul>
+<li>ビルド中の Git ステージとコミット</li>
+<li>マージダイアログの改善</li>
+<li>ブレークポイントグループ</li>
+<li>C++ のインストルメンテーションプロファイリング</li>
+<li>WSL 上での .NET のプロファイラーライブグラフ</li>
+<li>C++ メンバー関数の作成</li>
+</ul>
+</li>
+<li>ゲーム開発の合理化
+<ul>
+<li>Unreal Engine コード解析</li>
+<li>Tim Jones による　HLSL ツール拡張</li>
+</ul>
+</li>
+<li>.NET モバイル開発
+<ul>
+<li>Android Manifest エディター</li>
+</ul>
+</li>
+<li>エンタープライズ管理
+<ul>
+<li>Visual Studio のレイアウトのイントラネットからのホストとデプロイ</li>
+<li>インストーラーでの利用可能なプロダクトの公開の制限</li>
+</ul>
+</li>
+</ul>
+<h3 id="hello-semantic-kernel-semantic-kernel">Hello, Semantic Kernel! | Semantic Kernel</h3>
+<p><a href="https://devblogs.microsoft.com/semantic-kernel/hello-world/">https://devblogs.microsoft.com/semantic-kernel/hello-world/</a></p>
+<p>Semantic Kernel が公開された。</p>
+<p>Semantic Kernel は OpenAI や Azure OpenAI Service といった大規模言語モデル (LLM) の AI プロンプトをアプリケーションに組み込むための 軽量 SDK。現在 C# がサポートされ、Python がプレビューサポートとなっている。</p>
+<ul>
+<li><a href="https://github.com/microsoft/semantic-kernel">microsoft/semantic-kernel: Integrate cutting-edge LLM technology quickly and easily into your apps</a></li>
+</ul>
+<h3 id="release-v2.5.108-neueccmessagepack-csharp">Release v2.5.108 · neuecc/MessagePack-CSharp</h3>
+<p><a href="https://github.com/neuecc/MessagePack-CSharp/releases/tag/v2.5.108">https://github.com/neuecc/MessagePack-CSharp/releases/tag/v2.5.108</a></p>
+<p>MessagePack-CSharp v2.5.108 がリリースされた。</p>
+<p>v2.4.59 以降の変更点として nullable アノテーションの追加や .NET 5 のサポートの廃止、ジェネレーターのロールフォワード、その他さまざまな修正と改善が含まれている。</p>
+<ul>
+<li><a href="https://github.com/neuecc/MessagePack-CSharp/releases/tag/v2.5.94">Release v2.5.94 · neuecc/MessagePack-CSharp · GitHub</a></li>
+<li><a href="https://github.com/neuecc/MessagePack-CSharp/releases/tag/v2.5.103">Release v2.5.103 · neuecc/MessagePack-CSharp · GitHub</a></li>
+</ul>
+<h3 id="how-asyncawait-really-works-in-c.net-blog">How Async/Await Really Works in C# - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/how-async-await-really-works/">https://devblogs.microsoft.com/dotnet/how-async-await-really-works/</a></p>
+<p>C# の async/await がどのように動いているのかを解説している記事。</p>
+<p>APM やイベントベースでの非同期パターンから Task ベースへの流れ、Task と ValueTask、C# におけるコンパイル時のコードの展開とその動作の詳しい解説といったことが書かれている。</p>
+<h3 id="release-release-v2.52.0-grpcgrpc-dotnet">Release Release v2.52.0 · grpc/grpc-dotnet</h3>
+<p><a href="https://github.com/grpc/grpc-dotnet/releases/tag/v2.52.0">https://github.com/grpc/grpc-dotnet/releases/tag/v2.52.0</a></p>
+<p>grpc-dotnet (Grpc.Net) v2.52 がリリースされた。</p>
+<p>このリリースでは dotnet-grpc ツールが .NET 6 をターゲットとするようになったほか、様々な細かい不具合の修正と改善が含まれている。</p>
+<ul>
+<li><a href="https://github.com/grpc/grpc-dotnet/releases/tag/v2.52.0-pre1">Release Release v2.52.0-pre1 · grpc/grpc-dotnet</a></li>
+</ul>
+<h3 id="release-v1.2.5-microsoftwindowsappsdk">Release v1.2.5 · microsoft/WindowsAppSDK</h3>
+<p><a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.2.5">https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.2.5</a></p>
+<p>Windows App SDK 1.2.5 (1.2.230313.1) がリリースされた。</p>
+<p>このリリースでは Composition のシャットダウン中のクラッシュの修正や画面がオフの場合でもアニメーションが継続する問題の修正、WebView2 でのマウスとタッチの入力の失敗の修正が含まれている。</p>
+<h3 id="net-march-2023-updates.net-7.0.4.net-6.0.15.net-blog">.NET March 2023 Updates – .NET 7.0.4, .NET 6.0.15 - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/march-2023-updates/">https://devblogs.microsoft.com/dotnet/march-2023-updates/</a></p>
+<p>.NET 7.0.4 と .NET 6.0.15 がリリースされた。</p>
+<p>このリリースでは細かい不具合の修正と改善が複数含まれている。</p>
+<h3 id="announcing-polyglot-notebooks-multi-language-notebooks-in-visual-studio-code.net-blog">Announcing Polyglot Notebooks! Multi-language notebooks in Visual Studio Code - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/announcing-polyglot-notebooks-harness-the-power-of-multilanguage-notebooks-in-visual-studio-code/">https://devblogs.microsoft.com/dotnet/announcing-polyglot-notebooks-harness-the-power-of-multilanguage-notebooks-in-visual-studio-code/</a></p>
+<p>Polyglot Notebooks (旧 .NET Interactive Notebooks) が Visual Studio Code 向け拡張として Marketplace で一般公開された。</p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="net-8-preview-2">.NET 8 Preview 2で追加された入力値検証について</h3>
+<p><a href="https://zenn.dev/tomokusaba/articles/bb5cb32470ca8a">https://zenn.dev/tomokusaba/articles/bb5cb32470ca8a</a></p>
+<p>.NET 8 Preview 2 で追加された System.ComponentModel.DataAnnotations の検証属性の機能を紹介している。</p>
+<h3 id="blazor-webassembly">Blazor WebAssemblyにおける入力値検証について</h3>
+<p><a href="https://zenn.dev/tomokusaba/articles/9fd92c1716ca30">https://zenn.dev/tomokusaba/articles/9fd92c1716ca30</a></p>
+<p>Blazor WebAssembly での入力値検証の実装方法について。</p>
+<h3 id="wearedotnet">#WeAreDotnet</h3>
+<p><a href="https://medium.com/&#64;tim.cadenbach/wearedotnet-d8ec96685c33">https://medium.com/&#64;tim.cadenbach/wearedotnet-d8ec96685c33</a></p>
+<p>#WeAreDotnet というコミュニティーポータルについて。</p>
+<ul>
+<li><a href="https://www.wearedotnet.io/">WeAreDotnet (Beta)</a></li>
+</ul>
+<h3 id="getting-started-with-eventstoredb-c">Getting Started with EventStoreDb (C#)</h3>
+<p><a href="https://medium.com/&#64;no1.melman10/getting-started-with-eventstoredb-c-13411ec08713">https://medium.com/&#64;no1.melman10/getting-started-with-eventstoredb-c-13411ec08713</a></p>
+<p>EventStoreDB というイベントソーシング向けデータベースを使う方法の解説。</p>
+<p>なお EventStoreDB 自体も .NET (C#) で実装されている。</p>
+<ul>
+<li><a href="https://github.com/EventStore/EventStore">EventStore/EventStore: The stream database optimised for event sourcing</a></li>
+</ul>
+<h3 id="extending-visual-studio-codelens-functionality-part-ii">Extending Visual Studio CodeLens Functionality - Part II</h3>
+<p><a href="https://codingwithcalvin.net/extending-visual-studio-codelens-functionality-part-ii/">https://codingwithcalvin.net/extending-visual-studio-codelens-functionality-part-ii/</a></p>
+<p>Visual Studio の CodeLens を拡張方法の解説シリーズ。この記事では CodeLens のコールバックを実装する方法について解説している。</p>
+<h3 id="c-c">忘れがちなカルチャー依存問題 | ++C++; // 未確認飛行 C ブログ</h3>
+<p><a href="https://ufcpp.net/blog/2023/3/string-order/">https://ufcpp.net/blog/2023/3/string-order/</a></p>
+<p>Globalization Invariant Mode を有効にした場合に文字列比較における Invariant, Ordinal の扱いと Order などでのパフォーマンスについて。</p>
+<h3 id="xcopywinui3">XCopyでデプロイ可能なWinUI3のミニマムプロジェクトを作る</h3>
+<p><a href="https://zenn.dev/nin_neko/articles/ecb16042f04c01">https://zenn.dev/nin_neko/articles/ecb16042f04c01</a></p>
+<p>XCopy デプロイ (インストールせずファイルをコピーすれば動く形)のミニマムな WinUI 3 アプリケーションプロジェクトの作り方について。</p>
+<h3 id="cesu-8-utf-16-qiita">CESU-8 から UTF-16 への変換 - Qiita</h3>
+<p><a href="https://qiita.com/7shi/items/8eae6d909e1b82b35215">https://qiita.com/7shi/items/8eae6d909e1b82b35215</a></p>
+<p>CESU-8 (UTF-8 の変種) を UTF-16 に変換する方法について。</p>
+<h3 id="unity-dots-support-in-rider-2023.1-the.net-tools-blog">Unity DOTS support in Rider 2023.1 | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/03/16/unity-dots-support-in-rider-2023-1/">https://blog.jetbrains.com/dotnet/2023/03/16/unity-dots-support-in-rider-2023-1/</a></p>
+<p>Rider 2023.1 で追加された Unity の DOTS サポートの紹介。</p>
+<p>DOTS 向けのテンプレートやコード生成などがサポートされている。</p>
+<h3 id="help-us-investigate-a-new-welcome-experience-in-visual-studio-17.6-preview-2-visual-studio-blog">Help us investigate a new Welcome Experience in Visual Studio 17.6 Preview 2 - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/welcome-experience/">https://devblogs.microsoft.com/visualstudio/welcome-experience/</a></p>
+<p>Visual Studio 17.6 Preview 2 で導入された新しい Welcome ページについて。</p>
+<p>以前のスタートウィンドウ(既存のソリューションの選択や新しいプロジェクトの作成などを行うウィンドウ)に代わり導入された Welcome ページの紹介とそのフィードバックを求める案内。</p>
+<h3 id="c-search-ad-entry-by-objectsid-using-novell-directory-ldap-nuget-package">C# - Search AD entry by ObjectSid using Novell Directory Ldap Nuget package</h3>
+<p><a href="https://dev.to/hbolajraf/c-search-ad-entry-by-objectsid-using-novell-directory-ldap-nuget-package-28il">https://dev.to/hbolajraf/c-search-ad-entry-by-objectsid-using-novell-directory-ldap-nuget-package-28il</a></p>
+<p>Novell.Directory.Ldap.NETStandard パッケージを使用して ObjectSid を元に Active Directory を検索する方法について。</p>
+<h3 id="asp.net-core-try-server-sent-events">[ASP.NET Core] Try Server-Sent Events</h3>
+<p><a href="https://dev.to/masanori_msl/aspnet-core-try-server-sent-events-5db2">https://dev.to/masanori_msl/aspnet-core-try-server-sent-events-5db2</a></p>
+<p>ASP.NET Core で Server-Sent Events を実現する方法について。</p>
+<h3 id="building-a-video-calling-app-using-wpf-dyte">Building a Video Calling App Using WPF &amp; Dyte</h3>
+<p><a href="https://dyte.io/blog/building-video-calling-app-using-wpf-dyte/">https://dyte.io/blog/building-video-calling-app-using-wpf-dyte/</a></p>
+<p>Dyte (ライブビデオ、ビデオカンファレンスを扱うサービス) を使用してビデオ通話を行う WPF アプリケーションを実装する方法について。</p>
+<h3 id="net-qiita">.NETでのコンソールのバッファーとウィンドウについて - Qiita</h3>
+<p><a href="https://qiita.com/rougemeilland/items/10f4d94c9343fd8eb708">https://qiita.com/rougemeilland/items/10f4d94c9343fd8eb708</a></p>
+<p>.NET でのコンソールのバッファーとウィンドウの取り扱いについて。Console.Clear の挙動についても触れている。</p>
+<h3 id="implementing-an-accessible-checkable-wpf-tree-view-engineeringmicrosoft">Implementing an accessible, checkable WPF Tree View - Engineering&#64;Microsoft</h3>
+<p><a href="https://devblogs.microsoft.com/engineering-at-microsoft/implementing-an-accessible-checkable-wpf-tree-view/">https://devblogs.microsoft.com/engineering-at-microsoft/implementing-an-accessible-checkable-wpf-tree-view/</a></p>
+<p>Accessibility Insight チームが修正した WPF のチェックボックスを持つツリービューの実装について。</p>
+<h3 id="working-with-git-in-jetbrains-rider">Working with Git in JetBrains Rider</h3>
+<p><a href="https://andrewlock.net/working-with-git-in-jetbrains-rider/">https://andrewlock.net/working-with-git-in-jetbrains-rider/</a></p>
+<p>JetBrains Rider での様々な Git 操作についての紹介。</p>
+<h3 id="static-interface-members-generic-attributes-auto-default-structs-using-c-11-in-rider-and-resharper-the.net-tools-blog">Static Interface Members, Generic Attributes, Auto-Default Structs – Using C# 11 in Rider and ReSharper | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/03/14/static-interface-members-generic-attributes-auto-default-structs-using-csharp-11-in-rider-and-resharper/">https://blog.jetbrains.com/dotnet/2023/03/14/static-interface-members-generic-attributes-auto-default-structs-using-csharp-11-in-rider-and-resharper/</a></p>
+<p>JetBrains Rider と ReSharper での C# 11 の Static abstract members in interfaces やジェネリック属性、struct の自動デフォルトといった新機能をサポートする機能の紹介。</p>
+<h3 id="improving-the-spell-checker-visual-studio-blog">Improving the Spell Checker - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/improving-the-spell-checker/">https://devblogs.microsoft.com/visualstudio/improving-the-spell-checker/</a></p>
+<p>Visual Studio 2022 17.6 Preview 2 でのスペルチェッカーの改善についての紹介。</p>
+<p>プログラミング言語固有の辞書や除外辞書のエンコーディングの改善、特殊ケースでの検出の改善、スペルチェッカーのカスタマイズについてを紹介している。</p>
+<h3 id="net-qiita-1">特定フォルダー以下にあるプロジェクトで参照しているライブラリの一覧を取得する(.NET) - Qiita</h3>
+<p><a href="https://qiita.com/karuakun/items/a6149a40d9c775a6665d">https://qiita.com/karuakun/items/a6149a40d9c775a6665d</a></p>
+<p>特定フォルダー以下にある .csproj から参照しているライブラリーの一覧を PowerShell で取得する方法について。</p>
+<h3 id="cgoogle-qiita">C#からGoogleスプレッドシートを操作してみる - Qiita</h3>
+<p><a href="https://qiita.com/tat_tt/items/b9757cc940338c7deeab">https://qiita.com/tat_tt/items/b9757cc940338c7deeab</a></p>
+<p>C# から Google スプレッドシートを操作するための手順とデータの読み取り例の解説。</p>
+<h3 id="azure-functions-v3-to-v4.net-7.0">Azure Functions v3 to v4 (.NET 7.0)</h3>
+<p><a href="https://zenn.dev/tessecraft_r/articles/1d3f83025e0830">https://zenn.dev/tessecraft_r/articles/1d3f83025e0830</a></p>
+<p>.NET で実装した Azure Functions を v3 から v4 へと移行する際に行ったことを解説している記事。</p>
+<h3 id="reactiveproperty-v9.1">ReactiveProperty v9.1 をリリースしました</h3>
+<p><a href="https://zenn.dev/okazuki/articles/release-reactiveproperty-v9_1_0">https://zenn.dev/okazuki/articles/release-reactiveproperty-v9_1_0</a></p>
+<p>ReactiveProperty v9.1 の新機能についての紹介。コマンドへの拡張メソッドや <code>ReactivePropertiesValidator</code> の改良といったポイントを解説している。</p>
+<h3 id="c-11-pattern-matching-on-span-for-constant-string">C# 11- Pattern Matching On Span For Constant String</h3>
+<p><a href="https://www.c-sharpcorner.com/blogs/c-sharp-11-pattern-matching-on-span-for-constant-string">https://www.c-sharpcorner.com/blogs/c-sharp-11-pattern-matching-on-span-for-constant-string</a></p>
+<p><code>ReadOnlySpan&lt;char&gt;</code> にはリストパターンマッチが使用できることについて。</p>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="dfedermreferencetrimmer-easily-identify-which-dependencies-can-be-removed-from-a.net-project">dfederm/ReferenceTrimmer: Easily identify which dependencies can be removed from a .NET project</h3>
+<p><a href="https://github.com/dfederm/ReferenceTrimmer">https://github.com/dfederm/ReferenceTrimmer</a></p>
+<p>使用していない依存関係を簡単に洗い出すための MSBuild タスクと Roslyn Analyzer。</p>
+<ul>
+<li><a href="https://dfederm.com/removing-unused-dependencies-with-referencetrimmer/">Removing unused dependencies with ReferenceTrimmer</a></li>
+</ul>
+<h3 id="azuredata-api-builder-data-api-builder-for-azure-databases-provides-modern-rest-and-graphql-endpoints-to-your-azure-databases">Azure/data-api-builder: Data API builder for Azure Databases provides modern REST and GraphQL endpoints to your Azure Databases.</h3>
+<p><a href="https://github.com/Azure/data-api-builder">https://github.com/Azure/data-api-builder</a></p>
+<p>Azure Database (CosmosDB, MySQL, PostgreSQL, SQL Database) に対する REST/GraphQL ゲートウェイサーバー。</p>
+<p>主に Azure Static Web Apps からデータベースにアクセスするために使用される。</p>
+<ul>
+<li><a href="https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-database-connections-for-azure-static-web-apps-with/ba-p/3747831">Announcing Database connections for Azure Static Web Apps with Data API builder</a></li>
+<li><a href="https://dev.to/azure/graphql-on-azure-part-12-graphql-as-a-service-3nd8">GraphQL on Azure: Part 12 - GraphQL as a Service</a></li>
+</ul>
+<h3 id="wilder-mindsminimalapidiscovery-a.net-core-library-to-support-registering-minimal-apis-in-a-sane-way">wilder-minds/MinimalApiDiscovery: A .NET Core Library to support registering Minimal APIs in a Sane Way</h3>
+<p><a href="https://github.com/wilder-minds/MinimalApiDiscovery">https://github.com/wilder-minds/MinimalApiDiscovery</a></p>
+<p>Minimal API を小分け(グループ)にして自動登録できるようにするライブラリー。</p>
+<ul>
+<li><a href="https://wildermuth.com/2023/02/22/minimal-api-discovery/">A Minimal API Discovery Tool for Large APIs</a></li>
+</ul>
+<h3 id="jsakamotoblazingstory-the-clone-of-storybook-for-blazor-a-frontend-workshop-for-building-ui-components-and-pages-in-isolation">jsakamoto/BlazingStory: The clone of &quot;Storybook&quot; for Blazor, a frontend workshop for building UI components and pages in isolation.</h3>
+<p><a href="https://github.com/jsakamoto/BlazingStory/">https://github.com/jsakamoto/BlazingStory/</a></p>
+<p>UI コンポーネントカタログ Storybook のBlazor 向けのクローン。</p>
+<!-- https://twitter.com/jsakamoto/status/1635746624759795713 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today, I released the &quot;Blazing Story&quot; preview 1, the clone of &quot;Storybook&quot; for Blazor! 🎉<a href="https://t.co/HbtUJlBbLG">https://t.co/HbtUJlBbLG</a> <a href="https://twitter.com/hashtag/Blazor?src=hash&amp;ref_src=twsrc%5Etfw">#Blazor</a> <a href="https://twitter.com/hashtag/Storybook?src=hash&amp;ref_src=twsrc%5Etfw">#Storybook</a><br>It is the first preview, will not be stable, and lacks many features, but an important milestone for me. <a href="https://t.co/LF9kLvUuvz">pic.twitter.com/LF9kLvUuvz</a></p>&mdash; &#64;jsakamoto (&#64;jsakamoto) <a href="https://twitter.com/jsakamoto/status/1635746624759795713?ref_src=twsrc%5Etfw">March 14, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="damianedwardsrazorslices-lightweight-razor-based-templates-for-asp.net-core-without-mvc-razor-pages-or-blazor">DamianEdwards/RazorSlices: Lightweight Razor-based templates for ASP.NET Core without MVC, Razor Pages, or Blazor.</h3>
+<p><a href="https://github.com/DamianEdwards/RazorSlices">https://github.com/DamianEdwards/RazorSlices</a></p>
+<p>ASP.NET Core MVC や Razor Pages なしに Razor ベースのテンプレートを使用するライブラリー。</p>
+<p>主に Minimal API のようなユースケースを想定したものとなっている。(ASP.NET Core MVC は使用しないが ASP.NET Core フレームワークには依存がある)</p>
+<!-- https://twitter.com/DamianEdwards/status/1635404036118827008 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I released a new NuGet library that enables using Razor to produce templated responses from <a href="https://twitter.com/hashtag/aspnetcore?src=hash&amp;ref_src=twsrc%5Etfw">#aspnetcore</a> Minimal APIs, middleware, etc. w/ a focus on performance &amp; PAYG feature implementation.<br><br>NuGet: <a href="https://t.co/TJUfGKLAk0">https://t.co/TJUfGKLAk0</a><br>GitHub: <a href="https://t.co/f7YIgJ1GyD">https://t.co/f7YIgJ1GyD</a></p>&mdash; hackyderm.io/&#64;damianedwards 🦣 (&#64;DamianEdwards) <a href="https://twitter.com/DamianEdwards/status/1635404036118827008?ref_src=twsrc%5Etfw">March 13, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
