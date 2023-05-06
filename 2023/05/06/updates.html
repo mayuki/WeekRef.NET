@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2023-05-06: Temporal .NET, Bob&#x2019;s Used Books, .NET mobile Debugging in VS Code - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2023/05/06/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2023-05-06: Temporal .NET, Bob&#x2019;s Used Books, .NET mobile Debugging in VS Code - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2023/05/06/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2023-05-06: Temporal .NET, Bob&#x2019;s Used Books, .NET mobile Debugging in VS Code
+          </h1>
+              <div class="meta">Published on Saturday, 06 May 2023</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="introducing-temporal.net-deterministic-workflow-authoring-in.net">Introducing Temporal .NET – Deterministic Workflow Authoring in .NET</h3>
+<p><a href="https://temporal.io/blog/introducing-temporal-dotnet">https://temporal.io/blog/introducing-temporal-dotnet</a></p>
+<p>Temporal ワークフローエンジンで .NET のサポート追加のアナウンス。</p>
+<p>記事では C# でのワークフローの実装と呼び出し例のコードや仕組みについてなどを紹介している。</p>
+<p>現在 .NET SDK はアルファーリリースであり、API は変更の可能性があるが機能はすべて実装され、ベータと GA が近く公開予定とのこと。</p>
+<h3 id="introducing-bobs-used-booksa-new-real-world.net-sample-application-amazon-web-services">Introducing Bob’s Used Books—a New, Real-World, .NET Sample Application | Amazon Web Services</h3>
+<p><a href="https://aws.amazon.com/jp/blogs/aws/introducing-bobs-used-books-a-new-real-world-net-sample-application/">https://aws.amazon.com/jp/blogs/aws/introducing-bobs-used-books-a-new-real-world-net-sample-application/</a></p>
+<p>AWS が .NET 6 で構築した Bob’s Used Books と呼ばれる架空の中古書店のコマースサイトのサンプルアプリケーションを公開した。</p>
+<p>このアプリケーションはコマースサイトの一連の機能を実装し、Amazon Web Service の各種サービスを利用するサンプルとして作られている。</p>
+<p>今後 App Runner や Amazon EKS などにデプロイするコンテンツなどを用意する予定であるとしている。</p>
+<h3 id="announcing.net-mobile-debugging-in-vs-code.mobile-development-in-vs-code-with-uno-platform-or.net-maui">Announcing .NET mobile Debugging in VS Code. Mobile development in VS Code with Uno Platform or .NET MAUI.</h3>
+<p><a href="https://platform.uno/blog/announcing-net-mobile-debugging-in-vs-code-mobile-development-in-vs-code-with-uno-platform-or-net-maui/">https://platform.uno/blog/announcing-net-mobile-debugging-in-vs-code-mobile-development-in-vs-code-with-uno-platform-or-net-maui/</a></p>
+<p>Uno Platform の Visual Studio Code 向けの拡張機能でモバイル開発がサポートされた。</p>
+<p>このサポートにより Windows, macOS, Linux での Visual Studio Code を利用した Uno Platform および .NET MAUI のビルドとデバッグが行えるようになる。</p>
+<h3 id="release-2.2.6-mysql-netmysqlconnector">Release 2.2.6 · mysql-net/MySqlConnector</h3>
+<p><a href="https://github.com/mysql-net/MySqlConnector/releases/tag/2.2.6">https://github.com/mysql-net/MySqlConnector/releases/tag/2.2.6</a></p>
+<p>Async MySQL Connector 2.2.6 がリリースされた。</p>
+<p>TransactionScope 内でロールバック時に発生したデッドロックの例外によってメモリーリークする問題などいくつかの修正が含まれている。</p>
+<h3 id="release-2.6.111-stackexchangestackexchange.redis">Release 2.6.111 · StackExchange/StackExchange.Redis</h3>
+<p><a href="https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.6.111">https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.6.111</a></p>
+<p>StackExchange.Redis 2.6.111 がリリースされた。</p>
+<p>Envoy プロキシーを使用した際のマルチスロットコマンドの対応やいくつかの不具合と改善が含まれている。</p>
+<h3 id="release-release-v2.53.0-grpcgrpc-dotnet">Release Release v2.53.0 · grpc/grpc-dotnet</h3>
+<p><a href="https://github.com/grpc/grpc-dotnet/releases/tag/v2.53.0">https://github.com/grpc/grpc-dotnet/releases/tag/v2.53.0</a></p>
+<p>gRPC (grpc-dotnet) v2.53.0 がリリースされた。</p>
+<p>エラーメッセージの改善や .NET 6 でのトリミング有効時の例外の修正などいくつかの修正が含まれている。</p>
+<h3 id="c-support-in-fleet-solution-view-unit-testing-and-more-the.net-tools-blog">C# Support in Fleet: Solution View, Unit Testing, and More! | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/05/04/csharp-support-in-fleet-solution-view-unit-testing-and-more/">https://blog.jetbrains.com/dotnet/2023/05/04/csharp-support-in-fleet-solution-view-unit-testing-and-more/</a></p>
+<p>JetBrains Fleet の C# サポートにソリューションビューやユニットテストが追加された。</p>
+<p>記事ではソリューションビューとユニットテスト関連の機能についてのほか、マルチターゲットフレームワークプロジェクトのサポートの向上やソリューションプロパティー、ショートカットキーマップの追加、実行構成の変更対応の必要について触れている。</p>
+<h3 id="rider-2023.2-roadmap-the.net-tools-blog">Rider 2023.2 Roadmap | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/05/03/rider-2023-2-roadmap/">https://blog.jetbrains.com/dotnet/2023/05/03/rider-2023-2-roadmap/</a></p>
+<p>JetBrains Rider 2023.2 のロードマップについて。</p>
+<ul>
+<li>言語サポートと改善</li>
+<li>ビルドツールウィンドウの再構築</li>
+<li>新しい UI</li>
+<li>新しいソリューションウィザード</li>
+<li>ゲーム開発
+<ul>
+<li>Unity
+<ul>
+<li>DOTS サポートの継続</li>
+<li>UI Toolkit</li>
+<li>シェーダー</li>
+</ul>
+</li>
+<li>Unreal Engine
+<ul>
+<li>パフォーマンスの改善</li>
+<li>デバッグ</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>設定の同期</li>
+<li>その他改善</li>
+</ul>
+<h3 id="resharper-2023.2-roadmap-the.net-tools-blog">ReSharper 2023.2 Roadmap | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/05/03/resharper-2023-2-roadmap/">https://blog.jetbrains.com/dotnet/2023/05/03/resharper-2023-2-roadmap/</a></p>
+<p>JetBrains ReSharper 2023.2 のロードマップについて。</p>
+<ul>
+<li>言語サポートと改善</li>
+<li>パフォーマンス</li>
+<li>プレディクティブ デバッガー</li>
+<li>コードスタイル</li>
+</ul>
+<h3 id="announcing-a-new-version-of-the.net-upgrade-assistant-with-support-for.net-maui-and-azure-functions.net-blog">Announcing a new version of the .NET Upgrade Assistant with support for .NET MAUI and Azure Functions! - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/upgrade-assistant-general-availability/">https://devblogs.microsoft.com/dotnet/upgrade-assistant-general-availability/</a></p>
+<p>.NET Upgrade Assistant の新しいバージョンがリリースされた。</p>
+<p>このバージョンでは .NET MAUI や Azure Functions のアップグレードに対応している。</p>
+<ul>
+<li>.NET 8 のサポート</li>
+<li>Xamarin.Forms から .NET MAUI へのアップグレード</li>
+<li>Azure Functions のアップグレード</li>
+<li>UWP から WinUI へのアップグレード</li>
+<li>ARM64 のサポート</li>
+</ul>
+<p>記事では機能の強化についてのほか、.NET MAUI と Azure Functions のアップグレードについて解説している。</p>
+<h3 id="announcing-copilot-chat-semantic-kernel">Announcing Copilot Chat | Semantic Kernel</h3>
+<p><a href="https://devblogs.microsoft.com/semantic-kernel/announcing-copilot-chat/">https://devblogs.microsoft.com/semantic-kernel/announcing-copilot-chat/</a></p>
+<p>Semantic Kernel に Copilot Chat という仕組みが追加された。</p>
+<p>Copilot Chat を使用することで LLM ベースのカスタムのチャットボットをアプリケーションに組み込むことができるようになる。</p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="real-time-charts-with-blazor-signalr-and-apexcharts">Real-time charts with Blazor, SignalR and ApexCharts</h3>
+<p><a href="https://blog.genezini.com/p/real-time-charts-with-blazor-signalr-and-apexcharts/">https://blog.genezini.com/p/real-time-charts-with-blazor-signalr-and-apexcharts/</a></p>
+<p>Blazor WebAssembly と SignalR、ApexCharts を使用したリアルタイムなチャートのアプリケーションの実装について。</p>
+<h3 id="unlock-the-power-of-nuget-essential-packages-for.net-rest-api-or-microservices">Unlock the Power of NuGet: Essential Packages for .NET REST API or Microservices</h3>
+<p><a href="https://levelup.gitconnected.com/unlock-the-power-of-nuget-essential-packages-for-net-rest-api-or-microservices-b1c25cfbdefa">https://levelup.gitconnected.com/unlock-the-power-of-nuget-essential-packages-for-net-rest-api-or-microservices-b1c25cfbdefa</a></p>
+<p>.NET サーバーアプリケーションで定番の NuGet パッケージの紹介まとめ。</p>
+<h3 id="running-vite-with-asp.net-core-web-applications">Running Vite with ASP.NET Core Web Applications</h3>
+<p><a href="https://khalidabuhakmeh.com/running-vite-with-aspnet-core-web-applications">https://khalidabuhakmeh.com/running-vite-with-aspnet-core-web-applications</a></p>
+<p>ASP.NET Core Web アプリケーションでフロントエンドに Vite (TypeScript など) を使用して開発するための手順について。</p>
+<h3 id="uploading-large-files-in-asp.net-core-code-maze">Uploading Large Files in ASP.NET Core - Code Maze</h3>
+<p><a href="https://code-maze.com/aspnetcore-upload-large-files/">https://code-maze.com/aspnetcore-upload-large-files/</a></p>
+<p>ASP.NET Core での巨大なファイルのアップロードの取り扱いについて。</p>
+<h3 id="moving.net-apps-to-the-cloud">Moving .NET Apps to the Cloud</h3>
+<p><a href="https://www.infoq.com/presentations/net-apps-cloud/">https://www.infoq.com/presentations/net-apps-cloud/</a></p>
+<p>.NET アプリケーションをクラウドに移行することについてのセッションの書き起こし。</p>
+<p>リフトアンドシフトやコンテナープラットフォーム、クラウドネイティブで注意すべき点、サーバーレスについてやポータビリティなど。</p>
+<h3 id="jetbrains.net-day-online-2023-call-for-speakers-the.net-tools-blog">JetBrains .NET Day Online 2023 – Call for Speakers | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/05/04/jetbrains-net-day-online-2023-call-for-speakers/">https://blog.jetbrains.com/dotnet/2023/05/04/jetbrains-net-day-online-2023-call-for-speakers/</a></p>
+<p>9月26日に開催される JetBrains .NET Day Online 2023 のスピーカー募集について。(英語)</p>
+<h3 id="semantic-kernelgtp-4">Semantic KernelでGTP-4でのチャットアプリを実装する</h3>
+<p><a href="https://zenn.dev/tomokusaba/articles/4fcc3f865036ad">https://zenn.dev/tomokusaba/articles/4fcc3f865036ad</a></p>
+<p>Blazor Server と Semantic Kernel で Azure OpenAI Services の GPT-4 を使用してチャットアプリを実装する方法について。</p>
+<h3 id="c-winui-3">カスタムコントロールで自由に描画する（C# / WinUI 3）</h3>
+<p><a href="https://zenn.dev/shinta0806/articles/custom-control-draw">https://zenn.dev/shinta0806/articles/custom-control-draw</a></p>
+<p>WinUI 3 で自由な描画を行うカスタムコントロールを実装する方法について。</p>
+<h3 id="signalrpostman">SignalRをPostmanでデバッグする</h3>
+<p><a href="https://zenn.dev/satoppepper/articles/8bdcff559d6c86">https://zenn.dev/satoppepper/articles/8bdcff559d6c86</a></p>
+<p>Postman を使用して SignalR で通信するアプリケーションとメッセージをやり取りしてデバッグする手順について。</p>
+<h3 id="web-api-development-in-visual-studio-2022-visual-studio-blog">Web API development in Visual Studio 2022 - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/web-api-development-in-visual-studio-2022/">https://devblogs.microsoft.com/visualstudio/web-api-development-in-visual-studio-2022/</a></p>
+<p>Visual Studio 2022 version 17.6 のプレビューで強化された Web API 開発についての紹介</p>
+<ul>
+<li>クライアントが統合された HTTP エディター</li>
+<li>API エンドポイントエクスプローラー</li>
+<li>スキャフォールディング</li>
+<li>Visual Studio での Entity Framework ツール</li>
+</ul>
+<h3 id="okazuki-semantic-kernel">日本マイクロソフトの大田さん (&#64;okazuki) による Semantic Kernel の記事</h3>
+<ul>
+<li><a href="https://zenn.dev/microsoft/articles/semantic-kernel-10">Semantic Kernel でトークンの限界を超えるような長い文章を分割してスキルに渡して結果を結合したい</a></li>
+<li><a href="https://zenn.dev/microsoft/articles/semantic-kernel-7">Semantic Kernel のテンプレートをプログラムでレンダリングする方法とテンプレートの文法</a></li>
+<li><a href="https://zenn.dev/microsoft/articles/semantic-kernel-8">Semantic Kernel で Open AI の Embeddings を使う (あいまい検索出来てすげーやつ)</a></li>
+<li><a href="https://zenn.dev/microsoft/articles/semantic-kernel-6">Semantic Kernel でプランナーを使って自発的に解決策を考えて実行する AI を作ってみよう</a></li>
+<li><a href="https://zenn.dev/microsoft/articles/semantic-kernel-9">Semantic Kernel で自作スキルをクラスライブラリ形式で共有したい</a></li>
+<li><a href="https://zenn.dev/microsoft/articles/semantic-kernel-3">Semantic Kernel のネイティブ スキルを試してみよう</a></li>
+<li><a href="https://zenn.dev/microsoft/articles/semantic-kernel-5">Semantic Kernel でトークンを数える</a></li>
+<li><a href="https://zenn.dev/microsoft/articles/semantic-kernel-4">Semantic Kernel のスキルを好きにカスタマイズしよう (余談です)</a></li>
+</ul>
+<h3 id="jwt-authentication-with-c.net">JWT Authentication with C# .NET</h3>
+<p><a href="https://dev.to/rmaurodev/jwt-authentication-with-c-net-1h4c">https://dev.to/rmaurodev/jwt-authentication-with-c-net-1h4c</a></p>
+<p>ASP.NET Core で JWT を使用した Bearer 認証を実装する手順の紹介。</p>
+<h3 id="net-annotated-monthly-may-2023-the.net-tools-blog">.NET Annotated Monthly | May 2023 | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/05/02/net-annotated-monthly-may-2023/">https://blog.jetbrains.com/dotnet/2023/05/02/net-annotated-monthly-may-2023/</a></p>
+<p>JetBrains による3月の .NET 関連情報まとめ。</p>
+<h3 id="how-to-lock-orientation-at-runtime-on-ios-16-with.net-maui-and-xamarin.forms">How to lock orientation at runtime on iOS 16 with .NET MAUI and Xamarin.Forms</h3>
+<p><a href="https://msicc.net/how-to-lock-orientation-at-runtime-on-ios-16-with-net-maui-and-xamarin-forms/">https://msicc.net/how-to-lock-orientation-at-runtime-on-ios-16-with-net-maui-and-xamarin-forms/</a></p>
+<p>iOS 16 上での .NET MAUI および Xamarin.Forms アプリケーションで実行時に回転ロックを行う方法について。</p>
+<h3 id="verificationexception-in.net-framework-when-using-structs">VerificationException in .NET Framework when using structs</h3>
+<p><a href="https://minidump.net/verificationexception-in-net-framework-when-using-structs-6269eb3df448">https://minidump.net/verificationexception-in-net-framework-when-using-structs-6269eb3df448</a></p>
+<p>.NET Framework では値型を readonly フィールドにした上で部分信頼状態で実行すると VerificationException をスローするという問題の原因とその回避方法。</p>
+<ul>
+<li><a href="https://github.com/dotnet/roslyn/issues/27382">VerificationException due to read-only struct use · Issue #27382 · dotnet/roslyn</a></li>
+</ul>
+<h3 id="calling-internal-ctors-in-your-unit-tests">Calling internal ctors in your unit tests</h3>
+<p><a href="https://haacked.com/archive/2023/05/01/calling-internal-ctors/">https://haacked.com/archive/2023/05/01/calling-internal-ctors/</a></p>
+<p>ユニットテストで主に外部のライブラリーなどの型を使う場合に非公開なコンストラクターを呼び出すという手段について。</p>
+<h3 id="netstandard.net-framework.netapi">.netstandardなアセンブリの中で.NET Frameworkや.NETのAPIをフルに使用する</h3>
+<p><a href="https://zenn.dev/benutomo/articles/3365c3dc61a9d3">https://zenn.dev/benutomo/articles/3365c3dc61a9d3</a></p>
+<p>.NET Standard 向けにビルドされたアセンブリーから .NET Framework や .NET (Core) の API を使用する方法について。</p>
+<p>入り口となる .NET Standard 向けのビルドを用意して、それぞれのランタイム向けのアセンブリーを読み込み呼び出すという手法。</p>
+<h3 id="uno-platform-for-figma-preview-5-enhanced-features-for-designers-and-developers">Uno Platform for Figma Preview 5: Enhanced Features for Designers and Developers</h3>
+<p><a href="https://www.infoq.com/news/2023/04/uno-platform-figma-plugin-5/">https://www.infoq.com/news/2023/04/uno-platform-figma-plugin-5/</a></p>
+<p>Uno Platform の Figma 向けプラグインの Preview 5 での機能強化された点についての紹介。</p>
+<h2 id="deep-dive">Deep Dive</h2>
+<h3 id="constant-folding-for-simd-comparisons-by-egorbo-pull-request-85584-dotnetruntime">Constant folding for SIMD comparisons by EgorBo · Pull Request #85584 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/85584">https://github.com/dotnet/runtime/pull/85584</a></p>
+<p>SIMD 比較での定数畳み込みの PR。</p>
+<!-- https://twitter.com/egorbo/status/1653014086534266881?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In .NET 8.0 JIT is able to perform constant folding for SIMD operations, example: (<a href="https://t.co/CHwfC8CZ79">https://t.co/CHwfC8CZ79</a>) <a href="https://t.co/ZcWkp29jJf">pic.twitter.com/ZcWkp29jJf</a></p>&mdash; Egor Bogatov (&#64;EgorBo) <a href="https://twitter.com/EgorBo/status/1653014086534266881?ref_src=twsrc%5Etfw">May 1, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="allocate-array.empty-on-a-frozen-segment-nongc-heap-by-egorbo-pull-request-85559-dotnetruntime">Allocate Array.Empty on a frozen segment (NonGC heap) by EgorBo · Pull Request #85559 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/85559">https://github.com/dotnet/runtime/pull/85559</a></p>
+<p><code>Array.Empty&lt;T&gt;</code> のオブジェクトは GC 対象とは別のセグメントに確保されるようになる、という話。</p>
+<!-- https://twitter.com/egorbo/status/1653716548517806080?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Merged today a PR to make Array&lt;T&gt;.Empty cheaper than it used to be (basically a direct address to a frozen heap object) 🙂<a href="https://t.co/mgA5kzZA4S">https://t.co/mgA5kzZA4S</a></p>&mdash; Egor Bogatov (&#64;EgorBo) <a href="https://twitter.com/EgorBo/status/1653716548517806080?ref_src=twsrc%5Etfw">May 3, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="introducing-time-abstraction-whats-new-in.net-8-preview-4-wip-issue-8234-dotnetcore">Introducing Time abstraction - What's new in .NET 8 Preview 4 [WIP] · Issue #8234 · dotnet/core</h3>
+<p><a href="https://github.com/dotnet/core/issues/8234#issuecomment-1530525108">https://github.com/dotnet/core/issues/8234#issuecomment-1530525108</a></p>
+<p>時間に関する抽象化 API である TimeProvider が .NET 8 Preview 4 に。</p>
+<!-- https://twitter.com/ufcpp/status/1653208094888046593?s=12 -->
+<blockquote class="twitter-tweet"><p lang="vi" dir="ltr"><a href="https://t.co/mAHs5VkwZm">https://t.co/mAHs5VkwZm</a><br>TimeProviderもPreview 4で。</p>&mdash; ++C++; // 管理人: 岩永 (&#64;ufcpp) <a href="https://twitter.com/ufcpp/status/1653208094888046593?ref_src=twsrc%5Etfw">May 2, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
