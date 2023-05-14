@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2023-05-14: Windows App SDK v1.3.1, Visual Studio UI Refresh, .NET Framework 4.8.1 on Windows Update and Catalog - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2023/05/14/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2023-05-14: Windows App SDK v1.3.1, Visual Studio UI Refresh, .NET Framework 4.8.1 on Windows Update and Catalog - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2023/05/14/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2023-05-14: Windows App SDK v1.3.1, Visual Studio UI Refresh, .NET Framework 4.8.1 on Windows Update and Catalog
+          </h1>
+              <div class="meta">Published on Sunday, 14 May 2023</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="release-v1.3.1-microsoftwindowsappsdk">Release v1.3.1 · microsoft/WindowsAppSDK</h3>
+<p><a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.3.1">https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.3.1</a></p>
+<p>Windows App SDK v1.3.1 がリリースされた。</p>
+<p>このリリースではいくつかのクラッシュする問題の修正やテンプレートの更新などが含まれている。</p>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/stable-channel#version-131-13230502000">Version 1.3.1 (1.3.230502000) - Stable channel release notes for the Windows App SDK - Windows apps</a></li>
+</ul>
+<h3 id="visual-studio-ui-refresh-visual-studio-blog">Visual Studio UI Refresh - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/visual-studio-ui-refresh/">https://devblogs.microsoft.com/visualstudio/visual-studio-ui-refresh/</a></p>
+<p>Visual Studio の UI をリフレッシュする計画についてのアナウンス。</p>
+<p>将来的に Visual Studio の UI を Fluent Design に準じたものへアップデートすることを計画していること、現時点でのデザイン案の共有、フィードバックの受け付けについてなど。</p>
+<ul>
+<li><a href="https://developercommunity.visualstudio.com/t/Feedback-on-the-Visual-Studio-UI-Refresh/10351411">Feedback on the Visual Studio UI Refresh - Developer Community</a></li>
+</ul>
+<h3 id="upcoming-availability-of.net-framework-4.8.1-on-windows-update-and-catalog.net-blog">Upcoming availability of .NET Framework 4.8.1 on Windows Update and Catalog - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/upcoming-availability-of-net-framework-4-8-1-on-windows-update-and-catalog/">https://devblogs.microsoft.com/dotnet/upcoming-availability-of-net-framework-4-8-1-on-windows-update-and-catalog/</a></p>
+<p>.NET Framework 4.8.1 が Windows Update と Windows Updaet Catalog から利用可能となることについてのアナウンス。</p>
+<p>今後数週間かけて Windows Update および Windows Update Catalog から .NET Framework 4.8.1 が配信される。配信は Windows Insider Preview の Release Preview から展開される。</p>
+<p>記事ではダウンロード方法や言語パック、自動更新のブロック、その他 FAQ について書かれている。</p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="azure.ai.openai-openai-azure-openai-service">Azure.AI.OpenAI パッケージで OpenAI と Azure OpenAI Service に繋ぐときの違い</h3>
+<p><a href="https://zenn.dev/microsoft/articles/howtouser-azure-ai-openai">https://zenn.dev/microsoft/articles/howtouser-azure-ai-openai</a></p>
+<p>Azure.AI.OpenAI NuGet パッケージでは OpenAI API と Azure OpenAI Service の両方に対応しているが、利用設定時に若干異なる部分があることについて。</p>
+<h3 id="visualizing-data-in-dotnet-with-polyglot-notebooks-and-sanddance">Visualizing Data in dotnet with Polyglot Notebooks and SandDance</h3>
+<p><a href="https://dev.to/integerman/visualizing-data-in-dotnet-with-polyglot-notebooks-and-sanddance-55k9">https://dev.to/integerman/visualizing-data-in-dotnet-with-polyglot-notebooks-and-sanddance-55k9</a></p>
+<p>Polyglot Notebooks でデータビジュアライズのライブラリー SandDance を C# コードから利用する方法について。</p>
+<h3 id="level-up-your-gpt-game-with-prompt-engineering.net-blog">Level up your GPT game with prompt engineering - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/gpt-prompt-engineering-openai-azure-dotnet/">https://devblogs.microsoft.com/dotnet/gpt-prompt-engineering-openai-azure-dotnet/</a></p>
+<p>OpenAI の ChatGPT を呼び出す際に役立つプロンプトエンジニアリングについて。</p>
+<h3 id="join-us-for-hacktogether-the-microsoft-teams-global-hack.net-blog">Join us for HackTogether: The Microsoft Teams Global Hack - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/hacktogether-microsoft-teams-global-hack/">https://devblogs.microsoft.com/dotnet/hacktogether-microsoft-teams-global-hack/</a></p>
+<p>Microsoft Teams のバーチャルハッカソンイベントについて。</p>
+<p>6月1日にキーノートとともに開始し、15日までの間で開発、提出を行うイベント。いくつかの省が用意され、勝者には賞品が贈られる。</p>
+<h3 id="net">.NET のオプション パターンで設定が正しい値かどうか検証をしたい</h3>
+<p><a href="https://zenn.dev/microsoft/articles/options-pattern-validation">https://zenn.dev/microsoft/articles/options-pattern-validation</a></p>
+<p>ASP.NET Core をはじめとした Microsoft.Extensions.Options をを使用したオプションパターンで設定値を検証する方法について。</p>
+<p>記事では Microsoft.Extensions.Options.DataAnnotations を使用して DataAnnotations で検証する方法を紹介している。</p>
+<h3 id="ef-coreupdate-qiita">EF Coreで正しくUPDATEする方法 - Qiita</h3>
+<p><a href="https://qiita.com/jun1s/items/3e2b3702a965bb5e2705">https://qiita.com/jun1s/items/3e2b3702a965bb5e2705</a></p>
+<p>Entity Framework Core で間違えて使用される Update メソッドについてや Detach されているエンティティから更新する方法についてなど。</p>
+<h3 id="surround-selection-experiment-visual-studio-blog">Surround selection experiment - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/surround-selection-experiment/">https://devblogs.microsoft.com/visualstudio/surround-selection-experiment/</a></p>
+<p>選択範囲を囲むような入力を実現する機能について。</p>
+<p>実際に製品に組み込む前の実験的な拡張を提供し、すべての言語に適用できるか検証を行いフィードバックを求めている。</p>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.Surrounder">Surrounder - Visual Studio Marketplace</a></li>
+</ul>
+<h3 id="api-versioning-and-swagger-in-asp.net-core-7.0">API versioning and Swagger in ASP.NET Core 7.0</h3>
+<p><a href="https://mohsen.es/api-versioning-and-swagger-in-asp-net-core-7-0-fe45f67d8419">https://mohsen.es/api-versioning-and-swagger-in-asp-net-core-7-0-fe45f67d8419</a></p>
+<p>ASP.NET Core でバージョニングされた API を提供し、Swagger を Bearer 認証で利用できるようにするまでの手順を説明している。</p>
+<h3 id="top-10-c-conference-talks-20192022">Top 10 C# conference talks 2019–2022</h3>
+<p><a href="https://unicorn-dev.medium.com/top-10-c-conference-talks-2019-2022-78c049b2d6e9">https://unicorn-dev.medium.com/top-10-c-conference-talks-2019-2022-78c049b2d6e9</a></p>
+<p>2019年から2022年に行われた C# 関連のカンファレンスのセッション10選。</p>
+<h3 id="how-to-use-visual-studio-like-a-pro-when-presenting-your-code">How to Use Visual Studio Like a Pro When Presenting Your Code</h3>
+<p><a href="https://dev.to/this-is-learning/how-to-use-visual-studio-like-a-pro-when-presenting-your-code-5955">https://dev.to/this-is-learning/how-to-use-visual-studio-like-a-pro-when-presenting-your-code-5955</a></p>
+<p>プレゼンテーションで Visual Studio を使用するためのモードを用意する方法について。</p>
+<h3 id="modern-minimal-workers-in.net-anthony-simmon">Modern minimal workers in .NET | Anthony Simmon</h3>
+<p><a href="https://anthonysimmon.com/dotnet-minimal-workers/">https://anthonysimmon.com/dotnet-minimal-workers/</a></p>
+<p>Generic Host と Top-level Statements を使用して Worker 型のをアプリケーションを実装する方法について。</p>
+<h3 id="net-market-history-in-china">.NET Market History in China</h3>
+<p><a href="https://tonyqus.medium.com/net-market-history-in-china-d057e1f24d0f">https://tonyqus.medium.com/net-market-history-in-china-d057e1f24d0f</a></p>
+<p>中国における .NET の状況の今昔。</p>
+<h3 id="semantic-kernel-v0.13.442.1-preview">Semantic Kernel v0.13.442.1-preview がリリースされました</h3>
+<p><a href="https://zenn.dev/microsoft/articles/semantic-kernel-12">https://zenn.dev/microsoft/articles/semantic-kernel-12</a></p>
+<p>Semantic Kernel v0.13.442.1-preview での更新点について。</p>
+<p>gRPC をスキルとして読み込めるようになったことや Azure Cognitive Search を Semantic Memory として利用できるようになったこと、Completion のストリーミング対応などについて。</p>
+<h3 id="how-to-start-using.net-background-services-the.net-tools-blog">How to start using .NET Background Services | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/05/09/dotnet-background-services/">https://blog.jetbrains.com/dotnet/2023/05/09/dotnet-background-services/</a></p>
+<p>Generic Host でバックグラウンドで処理を行う BackgroundService の開発の始め方について。</p>
+<h3 id="net-maui-webviews-how-to-play-videos-in-full-screen">.NET MAUI WebViews: How to Play Videos in Full Screen</h3>
+<p><a href="https://dev.to/vhugogarcia/net-maui-webviews-how-to-play-videos-in-full-screen-1j03">https://dev.to/vhugogarcia/net-maui-webviews-how-to-play-videos-in-full-screen-1j03</a></p>
+<p>.NET MAUI の Android WebView で全画面動画再生を行う方法について。</p>
+<h3 id="how-to-download-files-from-secure-ftp-server-sftp-using-winscp-in.net">How to Download Files from Secure FTP Server (SFTP) using WinSCP in .NET</h3>
+<p><a href="https://juldhais.net/how-to-download-files-from-secure-ftp-server-sftp-using-winscp-in-net-895fbb44362c">https://juldhais.net/how-to-download-files-from-secure-ftp-server-sftp-using-winscp-in-net-895fbb44362c</a></p>
+<p>WinSCP の .NET 向けスクリプティングライブラリーを利用して SFTP サーバーからファイルをダウンロードする方法について。</p>
+<h3 id="raiders-of-the-lost-root-looking-for-memory-leaks-in.net">Raiders of the lost root: looking for memory leaks in .NET</h3>
+<p><a href="https://chnasarre.medium.com/raiders-of-the-lost-root-looking-for-memory-leaks-in-net-28febafebac1">https://chnasarre.medium.com/raiders-of-the-lost-root-looking-for-memory-leaks-in-net-28febafebac1</a></p>
+<p>C++ Profiler API を使用してオブジェクトの参照を辿ってメモリーリークを探す方法について。</p>
+<h3 id="go-for-c-developers-defer-is-not-idisposable">Go for C# developers: defer is not IDisposable</h3>
+<p><a href="https://blog.cellfish.se/2023/05/go-for-c-developers-defer-is-not.html">https://blog.cellfish.se/2023/05/go-for-c-developers-defer-is-not.html</a></p>
+<p>Go の defer と C# の IDisposable (using) の違いについて。一見似ていて勘違いしそうであるが defer は関数スコープとなる。</p>
+<h3 id="reading-windows-application-manifest-of-an-exe-in.net-gerald-barre">Reading Windows Application Manifest of an exe in .NET - Gérald Barré</h3>
+<p><a href="https://www.meziantou.net/reading-windows-application-manifest-of-an-exe-in-dotnet.htm">https://www.meziantou.net/reading-windows-application-manifest-of-an-exe-in-dotnet.htm</a></p>
+<p>実行ファイル (.exe) ファイルのマニフェストファイルを Win32 API を使用して読み出す方法について。</p>
+<h3 id="c">C# で始める並列化：目次</h3>
+<p><a href="https://zenn.dev/k_taro56/articles/vetcorized-csharp-introduction">https://zenn.dev/k_taro56/articles/vetcorized-csharp-introduction</a></p>
+<p>SIMD を使用した並列化についてのシリーズ。</p>
+<ul>
+<li><a href="https://zenn.dev/k_taro56/articles/vetcorized-csharp-array-summation">C# で始める並列化：配列の総和</a></li>
+</ul>
+<h2 id="section-2">イベント</h2>
+<h3 id="net-20235-connpass">.NETラボ 勉強会 2023年5月 - connpass</h3>
+<p><a href="https://dotnetlab.connpass.com/event/281932/">https://dotnetlab.connpass.com/event/281932/</a></p>
+<p>5月27日(土)に開催されるオンライン勉強会。</p>
+<ul>
+<li>Tanzu Application Platform と Azure Spring Apps によるマイクロサービスアプリケーション開発のアジリティ向上</li>
+<li>C# の async/await は実際にどうやって動いているか</li>
+<li>C#とUnityによる初めてのゲーム開発</li>
+<li>Semantic Kernel(C#)でAzure OpenAI ServiceのGTP-4を使ってみる</li>
+</ul>
+<h2 id="section-3">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="chatgpt-apitmcgpt-debuggerv2.0-beta">ChatGPT APIクライアントアプリ『TmCGPT Debugger』v2.0-beta</h3>
+<p><a href="https://zenn.dev/jun_murakami/articles/a5ca626eb8204b">https://zenn.dev/jun_murakami/articles/a5ca626eb8204b</a></p>
+<p>Avalonia UI で実装された ChatGPT の API クライアント。</p>
+<h2 id="section-4">サイト、ドキュメントなど</h2>
+<h3 id="section-5">ツイート</h3>
+<p>.NET 8 のマネージドヒープの種類。</p>
+<!-- https://twitter.com/egorbo/status/1657007196171902976?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Types of managed heaps in .NET 8.0: (<a href="https://t.co/BoJeF91nZN">https://t.co/BoJeF91nZN</a> and <a href="https://t.co/mhJlwsuMDx">https://t.co/mhJlwsuMDx</a>) <a href="https://t.co/OwZeOypp3r">pic.twitter.com/OwZeOypp3r</a></p>&mdash; Egor Bogatov (&#64;EgorBo) <a href="https://twitter.com/EgorBo/status/1657007196171902976?ref_src=twsrc%5Etfw">May 12, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Visual Studio でサポートされた .http ファイルのドキュメントが追加された。</p>
+<!-- https://twitter.com/sayedihashimi/status/1656751184697339905?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We have added formal docs for the HTTP file support in <a href="https://twitter.com/VisualStudio?ref_src=twsrc%5Etfw">&#64;VisualStudio</a> at <a href="https://t.co/MgJmde3wGn">https://t.co/MgJmde3wGn</a>. We made sure to give credit to the VS Code REST Client extension as the inspiration for that support!</p>&mdash; Sayed I. Hashimi 🇺🇦 (&#64;sayedihashimi) <a href="https://twitter.com/sayedihashimi/status/1656751184697339905?ref_src=twsrc%5Etfw">May 11, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="deep-dive">Deep Dive</h2>
+<h3 id="delete-windows-arm32-support-by-jkotas-pull-request-86065-dotnetruntime">Delete Windows arm32 support by jkotas · Pull Request #86065 · dotnet/runtime</h3>
+<p><a href="https://github.com/dotnet/runtime/pull/86065">https://github.com/dotnet/runtime/pull/86065</a></p>
+<p>.NET 6 以前でサポートが終わっていた Windows の ARM32 サポートの削除 PR。</p>
+<!-- https://twitter.com/egorbo/status/1656456755835027457?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We&#39;ve purged the last pieces of win-arm32 support from .NET today :-) <a href="https://t.co/1m90wvUNcA">https://t.co/1m90wvUNcA</a></p>&mdash; Egor Bogatov (&#64;EgorBo) <a href="https://twitter.com/EgorBo/status/1656456755835027457?ref_src=twsrc%5Etfw">May 11, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
