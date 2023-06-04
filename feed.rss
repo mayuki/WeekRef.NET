@@ -6,8 +6,125 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Sat, 27 May 2023 14:39:30 GMT</pubDate>
-		<lastBuildDate>Sat, 27 May 2023 14:39:30 GMT</lastBuildDate>
+		<pubDate>Sun, 04 Jun 2023 13:24:33 GMT</pubDate>
+		<lastBuildDate>Sun, 04 Jun 2023 13:24:33 GMT</lastBuildDate>
+		<item>
+			<title>2023-06-04: .NET Upgrade Assistant CLI, Avalonia UI v11 RC 1, devtunnel CLI</title>
+			<link>/2023/06/04/updates</link>
+			<description>.NET 関連の情報をほぼ週刊配信</description>
+			<author>Mayuki Sawatari</author>
+			<enclosure url="/img/logo.png" length="0" type="image" />
+			<guid isPermaLink="false">/2023/06/04/updates</guid>
+			<pubDate>Sun, 04 Jun 2023 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="announcing-an-update-for.net-upgrade-assistant-with-a-new-cli-tool.net-blog"&gt;Announcing an update for .NET Upgrade Assistant with a new CLI tool! - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/upgrade-assistant-cli/"&gt;https://devblogs.microsoft.com/dotnet/upgrade-assistant-cli/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;コンソール版の .NET アップグレードアシスタントツールがアップデートされた。&lt;/p&gt;
+&lt;p&gt;新しいバージョンのアップグレードアシスタントツールは Visual Studio の拡張と同様の恩恵が受けられるようになった。&lt;/p&gt;
+&lt;h3 id="first-release-candidate-of-avalonia-ui-v11-now-available"&gt;First Release Candidate of Avalonia UI v11 Now Available!&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/avalonia/first-release-candidate-of-avalonia-ui-v11-now-available-34c8"&gt;https://dev.to/avalonia/first-release-candidate-of-avalonia-ui-v11-now-available-34c8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Avalonia UI v11 のリリース候補版が公開された。&lt;/p&gt;
+&lt;p&gt;API に大きな変更があり破壊的変更などもあるため RC を試してのフィードバックを求めている。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/AvaloniaUI/Avalonia/releases/tag/11.0.0-rc1.1"&gt;Release 11.0.0 Release Candidate 1.1 · AvaloniaUI/Avalonia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="announcing-the-public-preview-of-the-devtunnel-cli"&gt;Announcing the public preview of the devtunnel CLI&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://techcommunity.microsoft.com/t5/azure-developer-community-blog/announcing-the-public-preview-of-the-devtunnel-cli/ba-p/3823131"&gt;https://techcommunity.microsoft.com/t5/azure-developer-community-blog/announcing-the-public-preview-of-the-devtunnel-cli/ba-p/3823131&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dev Tunnel のコマンドライン版ツールのパブリックプレビューが公開された。&lt;/p&gt;
+&lt;p&gt;Dev Tunnel は ngrok のような外部からローカルにアクセスできるような仕組みを提供するもので、Visual Studio 2022 に組み込まれていたがコマンドラインツールとしても利用できるようになる。&lt;/p&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="using-elasticsearch-and-nest-in-net"&gt;Using Elasticsearch and NEST in NET&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;lucasgarciaz2018/using-elasticsearch-and-nest-in-net-9821f64cfa76"&gt;https://medium.com/&amp;#64;lucasgarciaz2018/using-elasticsearch-and-nest-in-net-9821f64cfa76&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Elasticsearch .NET クライアントを利用する方法について。&lt;/p&gt;
+&lt;p&gt;記事では高レベルな操作である NEST についても触れている。&lt;/p&gt;
+&lt;h3 id="handling-jwt-authentication-with-asp.net-core-testserver-jason-mitchell"&gt;Handling JWT authentication with ASP.NET Core TestServer | Jason Mitchell&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://json.codes/posts/dotnet/handling-jwt-authentication-with-aspnetcore-testserver/"&gt;https://json.codes/posts/dotnet/handling-jwt-authentication-with-aspnetcore-testserver/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ASP.NET Core アプリケーションのユニットテストを行う際にテストサーバーで JWT 認証を取り扱う方法について。&lt;/p&gt;
+&lt;h3 id="how-to-build-a-shared-library-in-c-and-call-it-from-java-code"&gt;How to Build a Shared Library in C# and Call it From Java Code&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;sixpeteunder/how-to-build-a-shared-library-in-c-sharp-and-call-it-from-java-code-6931260d01e5"&gt;https://medium.com/&amp;#64;sixpeteunder/how-to-build-a-shared-library-in-c-sharp-and-call-it-from-java-code-6931260d01e5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;NativeAOT を使用して C# の共有ライブラリーを作り、Java から呼び出す方法について。&lt;/p&gt;
+&lt;h3 id="understanding-the-dapr-workflow-engine-authoring-workflows-in.net-diagrid"&gt;Understanding the Dapr Workflow engine &amp;amp; authoring workflows in .NET | Diagrid&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.diagrid.io/blog/authoring-dapr-workflows-in-dotnet"&gt;https://www.diagrid.io/blog/authoring-dapr-workflows-in-dotnet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dapr Workflow のワークフローやアクティビティを .NET で実装する方法について。&lt;/p&gt;
+&lt;h3 id="typed-exceptions-for-jsinterop-in-blazor-kristoffer-strubes-blog"&gt;Typed exceptions for JSInterop in Blazor - Kristoffer Strube’s Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://kristoffer-strube.dk/post/typed-exceptions-for-jsinterop-in-blazor/"&gt;https://kristoffer-strube.dk/post/typed-exceptions-for-jsinterop-in-blazor/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Blazor の JavaScript 相互運用で JavaScript 側で発生した例外を .NET 側で固有の例外の型として変換して取り扱う方法について。&lt;/p&gt;
+&lt;h3 id="speech-recognition-in.net-maui-with-communitytoolkit.net-blog"&gt;Speech Recognition in .NET MAUI with CommunityToolkit - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/speech-recognition-in-dotnet-maui-with-community-toolkit/"&gt;https://devblogs.microsoft.com/dotnet/speech-recognition-in-dotnet-maui-with-community-toolkit/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET MAUI Community Toolkit の Speech-to-Text (音声認識) 機能の紹介記事。&lt;/p&gt;
+&lt;h3 id="iterating-on-your-welcome-experience-feedback-visual-studio-blog"&gt;Iterating on your Welcome Experience feedback - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/welcome-feedback/"&gt;https://devblogs.microsoft.com/visualstudio/welcome-feedback/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio プレビューで導入されている新しいウェルカムページ(起動時のプロジェクト選択や作成などの画面)体験の紹介。&lt;/p&gt;
+&lt;p&gt;新しいウェルカムページはより多くの要素を表示できるようになったことやレスポンシブになったこと、MRU リストの取り扱いなどについて。&lt;/p&gt;
+&lt;h3 id="net-avaloniaui-7chatgpt-api"&gt;.NET + AvaloniaUI 制作日誌⑦（ChatGPT APIクライアントアプリ：最終回）&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/jun_murakami/articles/a2a30d11efd14a"&gt;https://zenn.dev/jun_murakami/articles/a2a30d11efd14a&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Avalonia UI を使用して ChatGPT のクライアントアプリを作成する中での学びなどをつづった制作記録(の最終回)。&lt;/p&gt;
+&lt;h3 id="c-qiita"&gt;【C#】ソースジェネレータを使ってみる - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/dsyuuto/items/4c13cc2234980a906863"&gt;https://qiita.com/dsyuuto/items/4c13cc2234980a906863&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Git の情報を埋め込むコードを生成する Source Generator を作ってみるという記事。&lt;/p&gt;
+&lt;h3 id="create-a-microsoft-power-app-for-your-asp.net-core-web-api-visual-studio-blog"&gt;Create a Microsoft Power App for your ASP.NET Core Web API - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/create-a-microsoft-power-app-for-your-asp-net-core-web-api/"&gt;https://devblogs.microsoft.com/visualstudio/create-a-microsoft-power-app-for-your-asp-net-core-web-api/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 17.6 preview 2 で追加された Power App との接続とカスタムコネクター作成のサポートで ASP.NET Core Web API による API を作成する手順の紹介。&lt;/p&gt;
+&lt;h3 id="level-up-with-live-templates-in-jetbrains-rider-the.net-tools-blog"&gt;Level Up with Live Templates in JetBrains Rider | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/05/30/level-up-with-live-templates-in-jetbrains-rider/"&gt;https://blog.jetbrains.com/dotnet/2023/05/30/level-up-with-live-templates-in-jetbrains-rider/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Rider のライブテンプレートの活用について。&lt;/p&gt;
+&lt;p&gt;記事ではライブテンプレートとは何か、作成の仕方、共有方法について触れている。&lt;/p&gt;
+&lt;h3 id="doing-aes-encryption-correct-in-your.net-application"&gt;Doing AES Encryption Correct in Your .NET Application&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://propertyguru.tech/doing-aes-encryption-correct-in-your-net-application-5d66168b5b44"&gt;https://propertyguru.tech/doing-aes-encryption-correct-in-your-net-application-5d66168b5b44&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET アプリケーションで AES 暗号化を行う方法について。&lt;/p&gt;
+&lt;p&gt;記事では簡単なキーローテーションなどについても触れている。&lt;/p&gt;
+&lt;h3 id="concurrent-b-trees-concurrentsorteddictionary-c.net"&gt;Concurrent B+ Trees — ConcurrentSortedDictionary c#/.net&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;mkrebser/concurrent-b-trees-concurrentsorteddictionary-c-net-f7c1c2a84141"&gt;https://medium.com/&amp;#64;mkrebser/concurrent-b-trees-concurrentsorteddictionary-c-net-f7c1c2a84141&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ConcurrentDictionary をベースとした ConcurrentSortedDictionary の B+ ツリーでの実装詳細についての解説。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/mkrebser/ConcurrentSortedDictionary"&gt;mkrebser/ConcurrentSortedDictionary: ConcurrentSortedDictionary implementation in (c#, .NET 7) . It is implemented using a concurrent B+Tree&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="c-worker-services-and-kubernetes-liveness-probes"&gt;C# worker services and Kubernetes Liveness probes&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;james.matson_64120/c-worker-services-and-kubernetes-liveness-probes-538c6839bbb5"&gt;https://medium.com/&amp;#64;james.matson_64120/c-worker-services-and-kubernetes-liveness-probes-538c6839bbb5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ワーカーサービス (コンソールアプリや BackgroundService) で Kubernetes 向けの Liveness probe を実装する方法について。&lt;/p&gt;
+&lt;h3 id="serilog-logging-and-ef-core-logging"&gt;Serilog logging and EF Core logging&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/karenpayneoregon/serilog-logging-and-ef-core-logging-25hm"&gt;https://dev.to/karenpayneoregon/serilog-logging-and-ef-core-logging-25hm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Serilog を使用して Entity Framework Core のログを記録する方法について。&lt;/p&gt;
+&lt;h3 id="getting.net-library-projects-to-output-dependent-assemblies"&gt;Getting .NET Library Projects to Output Dependent Assemblies&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://weblog.west-wind.com/posts/2023/May/29/Getting-NET-Library-Projects-to-Output-Dependent-Assemblies"&gt;https://weblog.west-wind.com/posts/2023/May/29/Getting-NET-Library-Projects-to-Output-Dependent-Assemblies&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ライブラリーの出力として依存しているアセンブリーも出力する方法について。&lt;/p&gt;
+&lt;p&gt;依存しているアセンブリーそのものは通常のユースケースでは必要にならないが、例えばプラグインのようなケースでは依存しているアセンブリーも必要となる。&lt;/p&gt;
+&lt;h3 id="how-to-detect-globalization-invariant-mode-in.net-gerald-barre"&gt;How to detect Globalization-Invariant mode in .NET - Gérald Barré&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.meziantou.net/detect-globalization-invariant-mode-in-dotnet.htm"&gt;https://www.meziantou.net/detect-globalization-invariant-mode-in-dotnet.htm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Globalization Invariant モードで実行されているかどうかを検出するテクニック。&lt;/p&gt;
+&lt;h3 id="the-art-of-http-connection-pooling-how-to-optimize-your-connections-for-peak-performance-developer-support"&gt;The Art of HTTP Connection Pooling: How to Optimize Your Connections for Peak Performance - Developer Support&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/premier-developer/the-art-of-http-connection-pooling-how-to-optimize-your-connections-for-peak-performance/"&gt;https://devblogs.microsoft.com/premier-developer/the-art-of-http-connection-pooling-how-to-optimize-your-connections-for-peak-performance/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;クラウドサービスにおけるアクセスのピーク時にポートの枯渇によるエラーの事例とその対策としてのコネクションプールについて。&lt;/p&gt;
+&lt;h3 id="publish-your-own-nuget-packages-to-github-nuget-registry-with-github-actions"&gt;Publish your own Nuget packages to Github Nuget Registry with Github actions.&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://pasinduprabhashitha.medium.com/publish-your-own-nuget-packages-to-github-nuget-registry-with-github-actions-939b07e8b6f5"&gt;https://pasinduprabhashitha.medium.com/publish-your-own-nuget-packages-to-github-nuget-registry-with-github-actions-939b07e8b6f5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GitHub の Package Registry に NuGet パッケージを発行する方法についての解説。&lt;/p&gt;
+&lt;h3 id="net-micro-optimization-and-refactoring-trick-ndepend"&gt;.NET Micro-Optimization and Refactoring Trick - NDepend&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.ndepend.com/net-micro-optimization-and-refactoring-trick/"&gt;https://blog.ndepend.com/net-micro-optimization-and-refactoring-trick/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dictionary で文字列をキーにする場合 &lt;code&gt;StringComparer.Ordinal&lt;/code&gt; を使用することで .NET Framework でのみ高速化されることと、それを ReSharper のパターン置き換え機能を使ってリファクタリングする方法を紹介。&lt;/p&gt;
+&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
+&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
+&lt;p&gt;wasmtime に WASI-http 仕様が含まれるようになったことと、.NET で WASI-http を呼び出すサンプル実装。&lt;/p&gt;
+&lt;!-- https://twitter.com/brendandburns/status/1664684609924378625?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;The latest release of wasmtime now includes support for the WASI-http specification!&lt;br&gt;&lt;br&gt;Find examples for C, &lt;a href="https://twitter.com/golang?ref_src=twsrc%5Etfw"&gt;&amp;#64;golang&lt;/a&gt; and &lt;a href="https://twitter.com/dotnet?ref_src=twsrc%5Etfw"&gt;&amp;#64;dotnet&lt;/a&gt; below&lt;a href="https://t.co/XxawwrPeel"&gt;https://t.co/XxawwrPeel&lt;/a&gt;&lt;a href="https://t.co/vBtlAGwSQq"&gt;https://t.co/vBtlAGwSQq&lt;/a&gt;&lt;a href="https://t.co/qSnUbYut8W"&gt;https://t.co/qSnUbYut8W&lt;/a&gt;&lt;br&gt;&lt;br&gt;cc &lt;a href="https://twitter.com/stevesanderson?ref_src=twsrc%5Etfw"&gt;&amp;#64;stevesanderson&lt;/a&gt; &lt;a href="https://twitter.com/davidfowl?ref_src=twsrc%5Etfw"&gt;&amp;#64;davidfowl&lt;/a&gt;&lt;/p&gt;&amp;mdash; brendandburns (&amp;#64;brendandburns) &lt;a href="https://twitter.com/brendandburns/status/1664684609924378625?ref_src=twsrc%5Etfw"&gt;June 2, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;AWS Lambda の .NET デモアプリでのベンチマークに .NET 8 Native AOT の結果が追加されたという話。&lt;/p&gt;
+&lt;!-- https://twitter.com/plantpowerjames/status/1663601337945280512?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Benchmarks live for .NET 8 native AOT on AWS Lambda, for single purpose handers and running ASP NET on Lambda.&lt;br&gt;&lt;br&gt;Performance gains across the board. An important thing to point out, cold starts account for less than 1% of the total invokes.&lt;a href="https://twitter.com/hashtag/dotnet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotnet&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/aws?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#aws&lt;/a&gt;&lt;a href="https://t.co/ae4ILrapxo"&gt;https://t.co/ae4ILrapxo&lt;/a&gt;&lt;/p&gt;&amp;mdash; James Eastham (&amp;#64;plantpowerjames) &lt;a href="https://twitter.com/plantpowerjames/status/1663601337945280512?ref_src=twsrc%5Etfw"&gt;May 30, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>2023-05-27: Microsoft Build 2023, How NPOI succeeds, ILSpy 8.0</title>
 			<link>/2023/05/27/updates</link>
@@ -1447,141 +1564,6 @@
 &lt;h2 id="deep-dive"&gt;Deep Dive&lt;/h2&gt;
 &lt;h3 id="deadlock-when-using-trystartnogcregion-andor-gc.collect-issue-84096-dotnetruntime"&gt;Deadlock when using TryStartNoGCRegion and/or GC.Collect · Issue #84096 · dotnet/runtime&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/dotnet/runtime/issues/84096"&gt;https://github.com/dotnet/runtime/issues/84096&lt;/a&gt;&lt;/p&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>2023-03-24: .NET 5 to .NET 7 @ Bing, GitHub Copilot chat for Visual Studio 2022, Uno Platform 4.8.15</title>
-			<link>/2023/03/24/updates</link>
-			<description>.NET 関連の情報をほぼ週刊配信</description>
-			<author>Mayuki Sawatari</author>
-			<enclosure url="/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/2023/03/24/updates</guid>
-			<pubDate>Fri, 24 Mar 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="net-performance-delivers-again-for-bing-from.net-5-to.net-7.net-blog"&gt;.NET Performance Delivers Again for Bing, From .NET 5 to .NET 7 - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-performance-delivers-again-for-bing-from-dotnet-5-to-dotnet-7/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-performance-delivers-again-for-bing-from-dotnet-5-to-dotnet-7/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Bing の中央ワークフローエンジンを .NET 5 から .NET 6, 7 へと更新した際の課題や効果について。&lt;/p&gt;
-&lt;p&gt;.NET 5 から .NET 6 への移行は簡単に完了すると考えていたが、内部の HTTP 呼び出しで使用されていた誤ったペイロードを取りあつかえなくなる問題や、スピンカウントに関するバグによる可用性の低下といった問題に .NET 側が対応する必要があったがそれ以外では大きな書き換えもなく移行は行えたとのこと。&lt;/p&gt;
-&lt;p&gt;また、起動時に事前の分析を元に JIT を意図的に発生させるよう暖気を行っていたが .NET 6 で JIT 効率が改善されたことで起動時間が劇的に改善された。&lt;/p&gt;
-&lt;p&gt;.NET 7 への移行ではスレッドプールの動作の変更とリージョンベースの GC という大きな変更があったため、注意深くテストを行った結果 GC にかかる時間は24-30%近い改善を示し、GC の改善とスレッドプールの改善などにより95パーセンタイルレイテンシーは3-7%程度改善されたとのこと。&lt;/p&gt;
-&lt;h3 id="github-copilot-chat-for-visual-studio-2022-visual-studio-blog"&gt;GitHub Copilot chat for Visual Studio 2022 - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/github-copilot-chat-for-visual-studio-2022/"&gt;https://devblogs.microsoft.com/visualstudio/github-copilot-chat-for-visual-studio-2022/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;GitHub Copilot chat for Visual Studio 2022 の紹介。&lt;/p&gt;
-&lt;p&gt;GitHub Copilot chat ではエディター上から直接 AI に対するチャットの質問文を入力できるようになり、Visual Studio 上のウィンドウで AI とチャットを行いコードに関する問題の改善などが行える。その他例外発生時に AI チャットで例外の内容を調べるといったこともできる。&lt;/p&gt;
-&lt;p&gt;現在はプライベートプレビューに向けてウェイトリストの登録フォームが公開されている。&lt;/p&gt;
-&lt;h3 id="release-4.8.15-unoplatformuno"&gt;Release 4.8.15 · unoplatform/uno&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/unoplatform/uno/releases/tag/4.8.15"&gt;https://github.com/unoplatform/uno/releases/tag/4.8.15&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Uno Platform 4.8.15 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは .NET 8 Preview のサポート、スタートアップエクスペリエンスの改善、ThemeShadow for iOS/Catalyst/Android、Skia ターゲットでの影、パフォーマンスとメモリーの改善、その他さまざまな修正が含まれる。&lt;/p&gt;
-&lt;h3 id="resharper-and-rider-2022.3.3-bug-fixes-have-landed-the.net-tools-blog"&gt;ReSharper and Rider 2022.3.3 Bug Fixes Have Landed | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/03/22/resharper-and-rider-2022-3-3-bug-fixes/"&gt;https://blog.jetbrains.com/dotnet/2023/03/22/resharper-and-rider-2022-3-3-bug-fixes/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ReSharper と Rider 2022.3.3 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースではいくつかの細かい不具合が修正されている。&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="how-to-perform-mutation-testing-in.net-and-c"&gt;How to perform mutation testing in .NET and C#?&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;RebeldeCuantico/how-to-perform-mutation-testing-in-net-and-c-bd23a530341f"&gt;https://medium.com/&amp;#64;RebeldeCuantico/how-to-perform-mutation-testing-in-net-and-c-bd23a530341f&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET / C# でミューテーションテストを行う方法について。記事では Stryker というツールを使用してテストを行う方法を解説している。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://stryker-mutator.io/"&gt;Stryker Mutator&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="c.net-tools-with-system.commandline"&gt;C# .NET Tools with System.CommandLine&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/karenpayneoregon/c-net-tools-withsystemcommandline-2nc2"&gt;https://dev.to/karenpayneoregon/c-net-tools-withsystemcommandline-2nc2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;System.CommandLine を使用してコンソールアプリケーションを実装する簡単な紹介。&lt;/p&gt;
-&lt;h3 id="asp.net-web-app-migration-to-azure-app-service-using-powershell-scripts"&gt;ASP. Net web app Migration to Azure App Service using PowerShell Scripts&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://techcommunity.microsoft.com/t5/apps-on-azure-blog/asp-net-web-app-migration-to-azure-app-service-using-powershell/ba-p/2814513"&gt;https://techcommunity.microsoft.com/t5/apps-on-azure-blog/asp-net-web-app-migration-to-azure-app-service-using-powershell/ba-p/2814513&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Web アプリケーション (.NET Framework) を Azure App Service に移行する PowerShell ツールの紹介。&lt;/p&gt;
-&lt;h3 id="too-many-timers-in.net-gerald-barre"&gt;Too many timers in .NET? - Gérald Barré&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.meziantou.net/too-many-timers-in-dotnet.htm"&gt;https://www.meziantou.net/too-many-timers-in-dotnet.htm&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET に含まれる複数のタイマー (System.Threading.Timer, System.Threading.PeriodicTimer, System.Timers.Timer) の違いと使い方の紹介。&lt;/p&gt;
-&lt;h3 id="scatter-plots-in-f-and-c-using-plotly.net"&gt;Scatter plots in F# and C# using Plotly.NET&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://fslab.org/blog/graph-gallery/scatter/csharp.html"&gt;https://fslab.org/blog/graph-gallery/scatter/csharp.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Plotly.NET を使用して散布図を表示する方法について。記事では Interactive (Juptyer Notebook) での使用例を紹介している。&lt;/p&gt;
-&lt;h3 id="mastering-blazor-part-2-hot-reloading"&gt;Mastering Blazor - Part 2: Hot Reloading&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/florianrappl/mastering-blazor-part-2-hot-reloading-2b87"&gt;https://dev.to/florianrappl/mastering-blazor-part-2-hot-reloading-2b87&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Blazor でのホットリロードについての解説。&lt;/p&gt;
-&lt;p&gt;記事ではホットリロードはどのように使用し、どのような制限があるのか、そしてどのように動作しているのかを解説している。&lt;/p&gt;
-&lt;h3 id="debugging-multiple.net-projects-in-vs-code"&gt;Debugging Multiple .NET Projects in VS Code&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/this-is-learning/debugging-multiple-net-projects-in-vs-code-28kn"&gt;https://dev.to/this-is-learning/debugging-multiple-net-projects-in-vs-code-28kn&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio Code で複数の .NET プロジェクトをまとめてデバッグ実行する方法について。&lt;/p&gt;
-&lt;h3 id="remote-development-with-jetbrains-rider-the.net-tools-blog"&gt;Remote Development with JetBrains Rider | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/03/22/remote-development-with-jetbrains-rider/"&gt;https://blog.jetbrains.com/dotnet/2023/03/22/remote-development-with-jetbrains-rider/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Rider 2022.2 でベータとしてサポートされたリモート開発についての紹介記事。&lt;/p&gt;
-&lt;p&gt;記事ではどのようにして Rider を使用してリモート開発を始めるのか、どのようなことができるのかといったことを紹介している。&lt;/p&gt;
-&lt;h3 id="secure-your.net-cloud-apps-with-rootless-linux-containers.net-blog"&gt;Secure your .NET cloud apps with rootless Linux Containers - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/securing-containers-with-rootless/"&gt;https://devblogs.microsoft.com/dotnet/securing-containers-with-rootless/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 8 で導入される rootless な Linux コンテナーイメージについて。&lt;/p&gt;
-&lt;p&gt;rootless コンテナーイメージは一般ユーザーで動作することでセキュリティー面でのリスクを軽減することができる。.NET 8 ではコンテナーイメージにアプリケーション用のユーザーが含まれるようになる。&lt;/p&gt;
-&lt;p&gt;記事では一般ユーザーで実行する方法やその際に必要な対応などを説明している。&lt;/p&gt;
-&lt;h3 id="streamlining-your-debugging-process-with-breakpoint-groups-visual-studio-blog"&gt;Streamlining your Debugging process with Breakpoint Groups - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/streamlining-your-debugging-process-with-breakpoint-groups/"&gt;https://devblogs.microsoft.com/visualstudio/streamlining-your-debugging-process-with-breakpoint-groups/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 version 17.6 Preview 2 で導入されたブレークポイントをグループ化する機能についての紹介。&lt;/p&gt;
-&lt;h3 id="visual-studio-2022-c-iotraspberrypi-l-qiita"&gt;Visual Studio 2022 C# でIOT（RaspberryPi でＬチカ） - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/dail1015/items/aa8169c72598865f3bca"&gt;https://qiita.com/dail1015/items/aa8169c72598865f3bca&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Raspberry Pi 4 で .NET 7 を実行してLチカする方法について。&lt;/p&gt;
-&lt;h3 id="why-is-resharper-suggesting-this-the.net-tools-blog"&gt;Why is ReSharper suggesting this? | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/03/20/why-is-resharper-suggesting-this/"&gt;https://blog.jetbrains.com/dotnet/2023/03/20/why-is-resharper-suggesting-this/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&amp;quot;Why is ReSharper suggesting this?&amp;quot; という ReSharper が何故その提案を行っているのかについてのヘルプを表示できる機能についての紹介。&lt;/p&gt;
-&lt;h3 id="akka.net-v1.5-no-hocon-no-lighthouse-no-problem"&gt;Akka.NET v1.5: No Hocon, No Lighthouse, No Problem&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://petabridge.com/blog/akkadotnet-1.5-no-hocon-no-lighthouse-no-problem/"&gt;https://petabridge.com/blog/akkadotnet-1.5-no-hocon-no-lighthouse-no-problem/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Akka.NET 1.5 で追加された Akka.Hosting, Akka.Management, Akka.HealthCheck についての解説。&lt;/p&gt;
-&lt;h3 id="create-a-portfolio-website-without-installing-any-tools.net-blog"&gt;Create a portfolio website without installing any tools - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/codespaces-template-blazor-portfolio-website/"&gt;https://devblogs.microsoft.com/dotnet/codespaces-template-blazor-portfolio-website/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;GitHub Codespaces を使用して GitHub Pages や Azure Static Web Apps に Blazor WebAssembly のウェブサイトを作る方法について。&lt;/p&gt;
-&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="endeciphercoracle.raft-clusterize-your-functionality-and-build-your-own-replicated-state-machine-using-this-completely-extensible-implementation-of-the-raft-consensus-algorithm-in.net"&gt;endecipher/Coracle.Raft: Clusterize your functionality and build your own replicated state machine using this completely extensible implementation of the Raft consensus algorithm in .NET&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/endecipher/Coracle.Raft"&gt;https://github.com/endecipher/Coracle.Raft&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Raft コンセンサスアルゴリズムを使用したクラスターを実装するためのライブラリー。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://medium.com/&amp;#64;ayan.choudhury329/extensible-raft-consensus-algorithm-in-net-1db4ba13efa2"&gt;Extensible Raft Consensus algorithm in .NET | by Ayan Choudhury | Mar, 2023 | Medium&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="stevesandersonmsdotnetisolator-a-library-for-running-isolated.net-runtimes-inside.net"&gt;SteveSandersonMS/DotNetIsolator: A library for running isolated .NET runtimes inside .NET&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/SteveSandersonMS/DotNetIsolator"&gt;https://github.com/SteveSandersonMS/DotNetIsolator&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET ランタイムの上で Wasm の .NET ランタイムをホストすることで隔離環境でコードを実行できるようにするという仕組みを提供するライブラリー。&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5u1UaqkPZbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h3 id="drasticactionsdrastic.flex.net-binding-of-flex-an-in-app-debugging-and-exploration-tool-for-ios"&gt;drasticactions/Drastic.Flex: .NET Binding of FLEX, An in-app debugging and exploration tool for iOS&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/drasticactions/Drastic.Flex"&gt;https://github.com/drasticactions/Drastic.Flex&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;iOS 向けのアプリ内開発ツールの Flex の .NET バインディング。&lt;/p&gt;
-&lt;!-- https://twitter.com/drasticactions/status/1637324021103755264?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;In my quest for more iOS Perf tools to help debug MAUI, I bound another iOS Library to .NET: Flex.&lt;br&gt;&lt;br&gt;Debug your iOS UI, networking features, and much much more, all from within your application!&lt;a href="https://t.co/Uciktm6mjv"&gt;https://t.co/Uciktm6mjv&lt;/a&gt; &lt;a href="https://t.co/iH9UZgicee"&gt;pic.twitter.com/iH9UZgicee&lt;/a&gt;&lt;/p&gt;&amp;mdash; Drastic Actions (&amp;#64;drasticactions) &lt;a href="https://twitter.com/drasticactions/status/1637324021103755264?ref_src=twsrc%5Etfw"&gt;March 19, 2023&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
-&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
-&lt;p&gt;.NET のデコンパイラーについての記事が2023年の情報で更新されている。&lt;/p&gt;
-&lt;!-- https://twitter.com/ndepend/status/1635867251084521472?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;.NET Decompilers Compared: A Comprehensive Guide &lt;a href="https://t.co/Rwr7458YqY"&gt;https://t.co/Rwr7458YqY&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/dotnet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotnet&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/csharp?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#csharp&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/decompilation?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#decompilation&lt;/a&gt; &lt;a href="https://t.co/tviFpkPZzJ"&gt;pic.twitter.com/tviFpkPZzJ&lt;/a&gt;&lt;/p&gt;&amp;mdash; ndepend (&amp;#64;ndepend) &lt;a href="https://twitter.com/ndepend/status/1635867251084521472?ref_src=twsrc%5Etfw"&gt;March 15, 2023&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;Rx.Async の最初のアルファーリリースが出たという話。&lt;/p&gt;
-&lt;!-- https://twitter.com/howardvrooijen/status/1637018355243646977?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;The first alpha release of Async Rx is available&lt;a href="https://t.co/SCq7RHRQeo"&gt;https://t.co/SCq7RHRQeo&lt;/a&gt; &lt;a href="https://t.co/Ta9GapjOgQ"&gt;pic.twitter.com/Ta9GapjOgQ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Howard van Rooijen (&amp;#64;HowardvRooijen) &lt;a href="https://twitter.com/HowardvRooijen/status/1637018355243646977?ref_src=twsrc%5Etfw"&gt;March 18, 2023&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;Span.CopyTo がアンロール可能になったという話。&lt;/p&gt;
-&lt;!-- https://twitter.com/egorbo/status/1637807882979667973?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Span.CopyTo is now unrollable! &lt;a href="https://t.co/OLON4Xom92"&gt;https://t.co/OLON4Xom92&lt;/a&gt; it allows us to remove hacks like this one in Boolean.cs and have the same optimized codegen: &lt;a href="https://t.co/hf1voKUC4o"&gt;pic.twitter.com/hf1voKUC4o&lt;/a&gt;&lt;/p&gt;&amp;mdash; Egor Bogatov (&amp;#64;EgorBo) &lt;a href="https://twitter.com/EgorBo/status/1637807882979667973?ref_src=twsrc%5Etfw"&gt;March 20, 2023&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;h2 id="deep-dive"&gt;Deep Dive&lt;/h2&gt;
-&lt;h3 id="optimize-stackalloc-zeroing-via-blk-by-egorbo-pull-request-83255-dotnetruntime"&gt;Optimize stackalloc zeroing via BLK by EgorBo · Pull Request #83255 · dotnet/runtime&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/dotnet/runtime/pull/83255"&gt;https://github.com/dotnet/runtime/pull/83255&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="asp.net-core-spa-templates-need-better-options-for-authentication-issue-42158-dotnetaspnetcore"&gt;ASP.NET Core SPA Templates Need Better Options for Authentication · Issue #42158 · dotnet/aspnetcore&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/dotnet/aspnetcore/issues/42158#issuecomment-1481742187"&gt;https://github.com/dotnet/aspnetcore/issues/42158#issuecomment-1481742187&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 8 での ASP.NET Core SPA テンプレートに関する変更点。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;既存の Cookie ベースの認証を拡張し、SPA アプリケーションでのカスタマイズのサポート&lt;/li&gt;
-&lt;li&gt;既存のアイデンティティのモダン化によるトークベースの認証のサポート&lt;/li&gt;
-&lt;li&gt;SPA テンプレートから Duende IdentityServer の依存の削除&lt;/li&gt;
-&lt;li&gt;ASP.NET Core の認証オプションの新しいドキュメントの作成&lt;/li&gt;
-&lt;li&gt;認証ドキュメントへのテンプレートからのリンク&lt;/li&gt;
-&lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
