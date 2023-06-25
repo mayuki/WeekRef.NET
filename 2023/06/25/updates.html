@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2023-06-25: grpc-dotnet v2.54.0, Microsoft Forms Service&#x2019;s Journey to .NET 6, ReSharper &amp; Rider 2023.1.3 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2023/06/25/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2023-06-25: grpc-dotnet v2.54.0, Microsoft Forms Service&#x2019;s Journey to .NET 6, ReSharper &amp; Rider 2023.1.3 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2023/06/25/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2023-06-25: grpc-dotnet v2.54.0, Microsoft Forms Service&#x2019;s Journey to .NET 6, ReSharper &amp; Rider 2023.1.3
+          </h1>
+              <div class="meta">Published on Sunday, 25 June 2023</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="release-release-v2.54.0-grpcgrpc-dotnet">Release Release v2.54.0 · grpc/grpc-dotnet</h3>
+<p><a href="https://github.com/grpc/grpc-dotnet/releases/tag/v2.54.0">https://github.com/grpc/grpc-dotnet/releases/tag/v2.54.0</a></p>
+<p>grpc-dotnet (gRPC for .NET) v2.54.0 がリリースされた。</p>
+<p>このリリースでは認証インターセプターでの CancellationToken のサポートをはじめいくつかの改善と不具合の修正が含まれている。</p>
+<h3 id="microsoft-forms-services-journey-to.net-6.net-blog">Microsoft Forms Service’s Journey to .NET 6 - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/microsoft-forms-services-journey-to-dotnet-6/">https://devblogs.microsoft.com/dotnet/microsoft-forms-services-journey-to-dotnet-6/</a></p>
+<p>Microsoft Forms (アンケートを作成するサービス) のマイクロサービスを .NET 6 へ移行した事例について。</p>
+<p>Microsoft Forms は .NET Framework 4.7.2 の WebForms と Web API で構築されたマイクロサービスであったが、そのフロントエンド REST API とバックエンド REST API サービスを .NET 6 に移行したとのこと。</p>
+<p>記事では移行に向けたアプローチと導入の結果を紹介している。移行のアプローチとしては初めに HttpContext の排除、次に依存の更新とプロジェクトの netstandard2.0 や net472, net6.0 といったマルチターゲットビルドへの変更を行った。その際マルチターゲットビルドが増えることによる問題についても紹介している。導入の結果としても CPU 使用率とレスポンスのレイテンシーが大きく改善されたとのこと。</p>
+<h3 id="resharper-and-rider-2023.1.3-another-set-of-bug-fixes-is-here-the.net-tools-blog">ReSharper and Rider 2023.1.3 – Another Set of Bug-fixes Is Here | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/06/23/rsrp-and-rd-2023-1-3-bug-fix/">https://blog.jetbrains.com/dotnet/2023/06/23/rsrp-and-rd-2023-1-3-bug-fix/</a></p>
+<p>ReSharper と Rider 2023.1.3 がリリースされた。</p>
+<p>ReSharper の Visual Studio でのパフォーマンス問題の修正、dotTrace と dotMemory のバグの修正、Rider のアップデータのクラッシュする問題やその他 IDE のバグの修正が含まれている。</p>
+<h3 id="whats-new-in-npoi-2.6.1">What’s New in NPOI 2.6.1</h3>
+<p><a href="https://tonyqus.medium.com/whats-new-in-npoi-2-6-1-92b5f07c479c">https://tonyqus.medium.com/whats-new-in-npoi-2-6-1-92b5f07c479c</a></p>
+<p>NPOI 2.6.1 がリリースされた。</p>
+<p>このリリースではエリアチャートやパイチャートのサポート追加をはじめとしていくつかの改善と不具合の修正が含まれている。</p>
+<h3 id="get-ready-for-fsharpconf-2023.net-blog">Get ready for fsharpConf 2023! - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/tune-in-for-fsharpconf-2023/">https://devblogs.microsoft.com/dotnet/tune-in-for-fsharpconf-2023/</a></p>
+<p>F# のコミュニティーイベントの fsharpConf 2023 の紹介している記事。</p>
+<p>fsharpConf 2023 は6月26日に開催される F# のコミュニティーのバーチャルイベント。記事ではイベントのタイムテーブルを紹介している。</p>
+<ul>
+<li><a href="https://fsharpconf.com/">fsharpConf: The F# Community Virtual Conference</a></li>
+</ul>
+<h3 id="introducing-the-new-t4-command-line-tool-for.net.net-blog">Introducing the New T4 Command-Line Tool for .NET - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/t4-command-line-tool-for-dotnet/">https://devblogs.microsoft.com/dotnet/t4-command-line-tool-for-dotnet/</a></p>
+<p>Visual Studio 2022 17.6 以降で利用可能となった .NET 向けの T4 のコマンドラインツールの紹介。</p>
+<p>Visual Studio 2022 17.6 以降では .NET 6 で動作する新しいバージョンの T4 (Text Template) 実行のコマンドラインツールが同梱されるようになった。</p>
+<p>この新しいバージョンのツールは .NET 6 ランタイムで動作することで T4 のテンプレートからモダンな .NET のライブラリーを使用することができるようになる。現時点での制限として IDE から実行と MSBuild Task による実行はサポートされない。</p>
+<p>今後に向けてのフィードバックについても求めており、記事からリンクされたアンケートも用意されている。</p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="cmstestfine-code-coverage-qiita">C#のMSTestでFine Code Coverageでカバレッジを計測する - Qiita</h3>
+<p><a href="https://qiita.com/YoshijiGates/items/efc700574edbf8eb1ab2">https://qiita.com/YoshijiGates/items/efc700574edbf8eb1ab2</a></p>
+<p>Visual Studio 2022 Community でコードカバレッジを確認する方法について。</p>
+<p>記事では Fine Code Coverage 拡張機能を導入して確認する方法を紹介している。</p>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=FortuneNgwenya.FineCodeCoverage2022">Fine Code Coverage - Visual Studio Marketplace</a></li>
+</ul>
+<h3 id="how-to-build-a-flight-network-analysis-graph-based-asp.net-application-with-memgraph-c-and-d3.js">How to Build a Flight Network Analysis Graph-Based ASP.NET Application with Memgraph, C#, and D3.js</h3>
+<p><a href="https://medium.com/memgraph/how-to-build-a-flight-network-analysis-graph-based-asp-net-application-with-memgraph-c-and-d3-js-601d7e7a6bdb">https://medium.com/memgraph/how-to-build-a-flight-network-analysis-graph-based-asp-net-application-with-memgraph-c-and-d3-js-601d7e7a6bdb</a></p>
+<p>Memgraph というインメモリのグラフ DB を使用し、ASP.NET アプリケーションで D3.js でビジュアライズするツールを構築するチュートリアル。</p>
+<h3 id="c-chatgpt-api-ai-function-calling-qiita">C# で ChatGPT API： AI で作曲する (Function calling を使用) - Qiita</h3>
+<p><a href="https://qiita.com/fsdg-adachi_h/items/7b2e75fa916cd6d4d804">https://qiita.com/fsdg-adachi_h/items/7b2e75fa916cd6d4d804</a></p>
+<p>ChatGPT の API を活用し AI で作曲、 MIDI ファイルを作成する方法について。</p>
+<p>記事では ChatGPT の Function Calling を使用する形で実装している。</p>
+<h3 id="parsing-websites-in-c-with-html-agility-pack-or-anglesharp">Parsing websites in C# with Html Agility Pack or AngleSharp</h3>
+<p><a href="https://blog.elmah.io/parsing-websites-in-c-with-html-agility-pack-or-anglesharp/">https://blog.elmah.io/parsing-websites-in-c-with-html-agility-pack-or-anglesharp/</a></p>
+<p>Html Agility Pack と AngleSharp を使用して Web サイトをスクレイピングする方法について。</p>
+<h3 id="improved.net-debugging-experience-with-source-link-ndepend">Improved .NET Debugging Experience with Source Link - NDepend</h3>
+<p><a href="https://blog.ndepend.com/improved-net-debugging-experience-with-source-link">https://blog.ndepend.com/improved-net-debugging-experience-with-source-link</a></p>
+<p>Source Link による .NET のデバッグ体験の向上についての紹介。</p>
+<h3 id="hash-signing-and-signature-validation-in-c-using-the-yubikey.net-sdk">Hash Signing and Signature Validation in C# Using the YubiKey .NET SDK</h3>
+<p><a href="https://medium.com/&#64;matt.heimlich/hash-signing-and-signature-validation-in-c-using-the-yubikey-net-sdk-dbaa227255dd">https://medium.com/&#64;matt.heimlich/hash-signing-and-signature-validation-in-c-using-the-yubikey-net-sdk-dbaa227255dd</a></p>
+<p>YubiKey の .NET SDK を使用して YubiKey を使用したハッシュ署名と署名の検証を行う方法について。</p>
+<h3 id="how-to-build-a-shared-library-in-java-and-call-it-from.net-code">How to Build a Shared Library in Java and Call it From .NET Code</h3>
+<p><a href="https://medium.com/&#64;sixpeteunder/how-to-build-a-shared-library-in-java-and-call-it-from-dotnet-code-b47c22300456">https://medium.com/&#64;sixpeteunder/how-to-build-a-shared-library-in-java-and-call-it-from-dotnet-code-b47c22300456</a></p>
+<p>.NET から共有ライブラリーとしてビルドされた Java のライブラリーを呼び出す方法について。</p>
+<p>記事では GraalVM でネイティブライブラリーにビルドされたものを C 言語によるラッパーを通して .NET から呼び出す形を紹介している。</p>
+<h3 id="caws-lambdagithub-actions-qiita">C#で作成したAWS Lambdaの関数をGitHub Actionsで自動デプロイする - Qiita</h3>
+<p><a href="https://qiita.com/shin4488/items/20660044f6c86cfdead2">https://qiita.com/shin4488/items/20660044f6c86cfdead2</a></p>
+<p>.NET の AWS Lambda 関数を GitHub Actions からデプロイする方法について。</p>
+<h3 id="ncmbcmauixamarin-sdk-qiita">NCMBのC#（MAUI/Xamarin） SDKがプッシュ通知の操作に対応しました - Qiita</h3>
+<p><a href="https://qiita.com/goofmint/items/585b63dcb6374382afb1">https://qiita.com/goofmint/items/585b63dcb6374382afb1</a></p>
+<p>ニフクラ mobile backend (NCMB) のコミュニティーによる SDK でプッシュ通知の操作に対応したことと使い方について。</p>
+<h3 id="xiao-esp32c3nanoframework-adc">XIAO ESP32C3で始めるnanoFramework <sub>ADC</sub></h3>
+<p><a href="https://zenn.dev/matsujirushi/articles/8bdbccd464d571">https://zenn.dev/matsujirushi/articles/8bdbccd464d571</a></p>
+<p>Seeed Studio XIAO ESP32C3 で nanoFramework を使用して ADC の値を読み取る方法について。</p>
+<h3 id="xamarin.mac.net-7">Xamarin.Macに別れを告げ、.NET 7に移行した話</h3>
+<p><a href="https://zenn.dev/dogfortune/articles/51d1b2aa17be27">https://zenn.dev/dogfortune/articles/51d1b2aa17be27</a></p>
+<p>Xamarin.Mac から .NET 7 に移行作業でのポイントをいくつかまとめた記事。</p>
+<h3 id="net-on-power-4-mariadbodbc-qiita">.NET on Power を動かしてみた話 #4 - MariaDBへODBCドライバを使用して接続 - Qiita</h3>
+<p><a href="https://qiita.com/Nakaji1106/items/429034b3707c65c4d6ff">https://qiita.com/Nakaji1106/items/429034b3707c65c4d6ff</a></p>
+<p>Power アーキテクチャーで .NET を動かし、MariaDB に ODBC ドライバーで接続してみたという記事。</p>
+<h3 id="microsoft-store-qiita">アプリをMicrosoft Storeに提出してみる - Qiita</h3>
+<p><a href="https://qiita.com/dhq_boiler/items/781b2ef98ce26a090566">https://qiita.com/dhq_boiler/items/781b2ef98ce26a090566</a></p>
+<p>アプリケーションを Microsoft Store に提出し、公開されるまでの流れについての解説。</p>
+<h3 id="reset-passwords-in-asp.net-core-using-delegated-permissions-and-microsoft-graph">Reset passwords in ASP.NET Core using delegated permissions and Microsoft Graph</h3>
+<p><a href="https://damienbod.com/2023/06/19/reset-passwords-in-asp-net-core-using-delegated-permissions-and-microsoft-graph/">https://damienbod.com/2023/06/19/reset-passwords-in-asp-net-core-using-delegated-permissions-and-microsoft-graph/</a></p>
+<p>ASP.NET Core アプリケーションから Microsoft Graph を使用してユーザーのパスワードをリセットする方法について。</p>
+<h3 id="getting-the.net-desktop-runtime-installed-with-a-custom-runtime-checker-and-installer">Getting the .NET Desktop Runtime Installed with a Custom Runtime Checker and Installer</h3>
+<p><a href="https://weblog.west-wind.com/posts/2023/Jun/21/Creating-a-Runtime-Checker-and-Installer-for-a-NET-Core-WPF-Application">https://weblog.west-wind.com/posts/2023/Jun/21/Creating-a-Runtime-Checker-and-Installer-for-a-NET-Core-WPF-Application</a></p>
+<p>.NET ランタイムのインストール状況をチェックし、インストールするカスタムインストーラーについて。</p>
+<p>記事ではランタイムの配布について、自己完結型配布について、共有ランタイムについて、インストーラーの実装解説といった内容が解説されている。</p>
+<h3 id="wsl2.net-sdk-kkamegawas-weblog">WSL2の .NET SDKが認識されない現象を修復する - kkamegawa's weblog</h3>
+<p><a href="https://kkamegawa.hatenablog.jp/entry/2023/06/24/191525">https://kkamegawa.hatenablog.jp/entry/2023/06/24/191525</a></p>
+<p>WSL 2 で .NET SDK が正常に認識されなくなった場合のトラブルシューティングについて。</p>
+<h3 id="validating-nested-dataannotation-ioptions-recursively-with-minivalidation">Validating nested DataAnnotation IOptions recursively with MiniValidation</h3>
+<p><a href="https://andrewlock.net/validating-nested-dataannotation-options-recursively-with-minivalidation/">https://andrewlock.net/validating-nested-dataannotation-options-recursively-with-minivalidation/</a></p>
+<p>IOptions の検証として標準の <code>ValidateDataAnnotations</code> を使用した場合、ネストされた検証が行われない問題を回避する方法について。</p>
+<p>記事では MiniValidation を使用して検証する方法を紹介している。</p>
+<h3 id="windowswixtoolsetv4-qiita">Windowsインストーラーを作れるwixtoolsetの概要(v4) - Qiita</h3>
+<p><a href="https://qiita.com/skitoy4321/items/194888be042e5c4c32ad">https://qiita.com/skitoy4321/items/194888be042e5c4c32ad</a></p>
+<p>WiX v4 についての概要をまとめた記事。WiX で使用されるファイルやビルド方法といったことを解説している。</p>
+<h3 id="c-12.0-c-c">C# 12.0 の新機能 | ++C++; // 未確認飛行 C ブログ</h3>
+<p><a href="https://ufcpp.net/study/csharp/cheatsheet/ap_ver12/">https://ufcpp.net/study/csharp/cheatsheet/ap_ver12/</a></p>
+<p>C# 12 (現時点ではプレビュー) で導入される新機能の解説。</p>
+<h3 id="net-c-c">.NET の文字列比較でカルチャー未指定を検知する | ++C++; // 未確認飛行 C ブログ</h3>
+<p><a href="https://ufcpp.net/blog/2023/6/ca-specify-culture/">https://ufcpp.net/blog/2023/6/ca-specify-culture/</a></p>
+<p>文字列比較でカルチャーが未指定の場合に警告/エラーとするようにして事前に気づけるようにする方法について。</p>
+<p>記事では .NET 5 で導入された NetAnalyzers と .editorconfig を使用してエラーにする手法を紹介している。</p>
+<h3 id="announcing-create-a-pull-request-in-visual-studio-visual-studio-blog">Announcing Create a Pull Request in Visual Studio - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/create-a-pull-request-in-visual-studio/">https://devblogs.microsoft.com/visualstudio/create-a-pull-request-in-visual-studio/</a></p>
+<p>Visual Studio 2022 17.7 preview 2 で追加された Pull request の作成機能の紹介。</p>
+<h3 id="how-to-detect-heap-allocations">How to detect heap allocations</h3>
+<p><a href="https://bartwullems.blogspot.com/2023/06/how-to-detect-heap-allocations.html">https://bartwullems.blogspot.com/2023/06/how-to-detect-heap-allocations.html</a></p>
+<p>ヒープアロケーションを検出する方法について。</p>
+<p>記事では Visual Studio のプロファイラーと ClrHeapAllocationAnalyzer を使用したコード上での検出を紹介している。</p>
+<h3 id="treat-your.net-minimal-api-endpoint-as-the-application-layer">Treat your .NET Minimal API Endpoint as the application layer</h3>
+<p><a href="https://timdeschryver.dev/blog/treat-your-net-minimal-api-endpoint-as-the-application-layer">https://timdeschryver.dev/blog/treat-your-net-minimal-api-endpoint-as-the-application-layer</a></p>
+<p>ASP.NET Core の Minimal API をアーキテクチャー上のアプリケーション層としてあつかう構成について。</p>
+<h3 id="how-does-list-work-under-the-hood-in.net">How does List work under the hood in .NET?</h3>
+<p><a href="https://steven-giesel.com/blogPost/06e2c8e8-0119-4e8d-9227-3cb922a8c916">https://steven-giesel.com/blogPost/06e2c8e8-0119-4e8d-9227-3cb922a8c916</a></p>
+<p><code>List&lt;T&gt;</code> の内部の実装についての簡単な解説。</p>
+<h2 id="section-2">サイト、ドキュメントなど</h2>
+<h3 id="section-3">ツイート</h3>
+<p>Visual Studio 2022 17.6 では GC や CPU が高負荷な状況をテレメトリーで見るようになったという話。</p>
+<p>続くスレッドではどのような体制でどのように活用できているのかを説明している。</p>
+<!-- https://twitter.com/davkean/status/1672295235026829312?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In Visual Studio 17.6, we rolled out new a couple of new telemetry systems that capture high-GC and high-CPU usage within Visual Studio. This supplements our existing crash, hang, freeze, thread pool &amp; memory usage performance &amp; reliability telemetry.</p>&mdash; David Kean (&#64;davkean) <a href="https://twitter.com/davkean/status/1672295235026829312?ref_src=twsrc%5Etfw">June 23, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
