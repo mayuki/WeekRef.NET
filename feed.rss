@@ -6,8 +6,111 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Sun, 25 Jun 2023 13:29:55 GMT</pubDate>
-		<lastBuildDate>Sun, 25 Jun 2023 13:29:55 GMT</lastBuildDate>
+		<pubDate>Sun, 02 Jul 2023 12:59:40 GMT</pubDate>
+		<lastBuildDate>Sun, 02 Jul 2023 12:59:40 GMT</lastBuildDate>
+		<item>
+			<title>2023-07-02: ReSharper &amp; Rider 2023.2 EAP 6, MagicPhysX</title>
+			<link>/2023/07/02/updates</link>
+			<description>.NET 関連の情報をほぼ週刊配信</description>
+			<author>Mayuki Sawatari</author>
+			<enclosure url="/img/logo.png" length="0" type="image" />
+			<guid isPermaLink="false">/2023/07/02/updates</guid>
+			<pubDate>Sun, 02 Jul 2023 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="ai-assistant-comes-to-resharper-the.net-tools-blog"&gt;AI Assistant Comes to ReSharper | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/06/26/resharper-ai-assistant/"&gt;https://blog.jetbrains.com/dotnet/2023/06/26/resharper-ai-assistant/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ReSharper 2023.2 EAP 6 がリリースされた。&lt;/p&gt;
+&lt;p&gt;このリリースでは大規模言語モデルを活用した AI アシスタントが組み込まれた。これによりチャットによるコードの改善についての質問といったことが Visual Studio 上で行えるようになる。&lt;/p&gt;
+&lt;p&gt;その他 C# サポート、LINQ のインレイヒント、dotTrace の Linux, macOS のソースビューなど。&lt;/p&gt;
+&lt;h3 id="ai-assistant-comes-to-rider-the.net-tools-blog"&gt;AI Assistant Comes to Rider! | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/06/26/rider-ai-assistant/"&gt;https://blog.jetbrains.com/dotnet/2023/06/26/rider-ai-assistant/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Rider 2023.2 EAP 6 がリリースされた。&lt;/p&gt;
+&lt;p&gt;このリリースでは大規模言語モデルを活用した AI アシスタントが組み込まれｔ。これによりチャット形式でのアシスト、コミットメッセージの生成、ファイル生成といった機能が提供される。&lt;/p&gt;
+&lt;p&gt;その他 C# サポートの更新、新規ユーザーにおける新しい UI のデフォルト化、プロジェクトごとのカスタムカラー設定、アクセシビリティーの向上、Structure ビューのフィルターとソートの追加、Roslyn (Source Generator) に関する改善とテンプレートの追加、リモートデバッガーでの ARM32 サポートなど。&lt;/p&gt;
+&lt;h3 id="cysharpmagicphysx.net-physx-5-binding-to-all-platformswin-osx-linux-for-3d-engine-deep-learning-dedicated-server-of-gaming"&gt;Cysharp/MagicPhysX: .NET PhysX 5 binding to all platforms(win, osx, linux) for 3D engine, deep learning, dedicated server of gaming.&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Cysharp/MagicPhysX"&gt;https://github.com/Cysharp/MagicPhysX&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;物理エンジンの PhysX 5 の .NET バインディングライブラリーがリリースされた。&lt;/p&gt;
+&lt;!-- https://twitter.com/neuecc/status/1674688540339499010?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;MagicPhysXという .NET で PhysX 5を動かすバインディングライブラリを公開しました！サーバーサイドで物理エンジンがないなら動かせばいいじゃない、という発想により、Rustとcsbindgenを経由することで持ち込みに成功しました！&lt;a href="https://t.co/AgRLtQY50a"&gt;https://t.co/AgRLtQY50a&lt;/a&gt;&lt;/p&gt;&amp;mdash; neuecc (&amp;#64;neuecc) &lt;a href="https://twitter.com/neuecc/status/1674688540339499010?ref_src=twsrc%5Etfw"&gt;June 30, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="net-8-sdk-preview-4-assemblyinformationalversion-jsakamoto"&gt;.NET 8 SDK Preview 4 から AssemblyInformationalVersion 属性に何かハッシュが付くようになった | &amp;#64;jsakamoto&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devadjust.exblog.jp/29614447/?fbclid=IwAR0xwYcrAFtldsg6H1-jr9OHBo4zSBNIOA7sof4LTakIpqWyyzOpaVvdyco"&gt;https://devadjust.exblog.jp/29614447/?fbclid=IwAR0xwYcrAFtldsg6H1-jr9OHBo4zSBNIOA7sof4LTakIpqWyyzOpaVvdyco&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 8 Preview 4 の SDK でビルドしたアセンブリの AssemblyInformationVersion にソースコードのリビジョンがつくようになったことについて。&lt;/p&gt;
+&lt;p&gt;記事ではリビジョンを付けないようにするための設定方法についても紹介している。&lt;/p&gt;
+&lt;h3 id="implementing-websocket-client-and-server-on-asp.net-core-6.0-c"&gt;Implementing WebSocket Client and Server on ASP.NET Core 6.0 (C#)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/bina-nusantara-it-division/implementing-websocket-client-and-server-on-asp-net-core-6-0-c-4fbda11dbceb"&gt;https://medium.com/bina-nusantara-it-division/implementing-websocket-client-and-server-on-asp-net-core-6-0-c-4fbda11dbceb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ASP.NET Core で WebSocket のサーバーを実装し、クライアントと通信する実装の仕方について。&lt;/p&gt;
+&lt;h3 id="c-semantic-kernel-qiita"&gt;C# で Semantic Kernel：複数プラグインを連携させる - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/fsdg-adachi_h/items/1fe094f4f1a0556045ae"&gt;https://qiita.com/fsdg-adachi_h/items/1fe094f4f1a0556045ae&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Semantic Kernel で複数のプラグインを連携させる方法について。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/fsdg-adachi_h/items/875583d556552ff14d4d"&gt;C# で Semantic Kernel：AI で作曲する (複数プラグインを連携させる) - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="elevating-c-code-quality-with-qodana-a-journey-towards-perfection-the.net-tools-blog"&gt;Elevating C# Code Quality with Qodana: A Journey Towards Perfection | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/06/29/elevating-csharp-code-quality-with-qodana-a-journey-towards-perfection/"&gt;https://blog.jetbrains.com/dotnet/2023/06/29/elevating-csharp-code-quality-with-qodana-a-journey-towards-perfection/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;C# をコードを解析してレポートする Jetbrains Qodana の紹介。&lt;/p&gt;
+&lt;h3 id="open-source-alternative-to-visual-studio-marketplace-avoids-decommission-visual-studio-magazine"&gt;Open Source Alternative to Visual Studio Marketplace Avoids Decommission -- Visual Studio Magazine&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://visualstudiomagazine.com/articles/2023/06/27/open-vsx-registry.aspx"&gt;https://visualstudiomagazine.com/articles/2023/06/27/open-vsx-registry.aspx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio Marketplace の代替となる Open VSX Registry について。&lt;/p&gt;
+&lt;h3 id="microsoft-store-open-source-series-appservices-library-ifdef-windows"&gt;Microsoft Store Open Source Series — AppServices library - #ifdef Windows&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/ifdef-windows/microsoft-store-open-source-series-appservices-library/"&gt;https://devblogs.microsoft.com/ifdef-windows/microsoft-store-open-source-series-appservices-library/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Microsoft Store アプリにおいて利用している UWP と完全信頼 Win32 アプリで通信する AppService という仕組みとそれを活用するライブラリーを紹介している。&lt;/p&gt;
+&lt;p&gt;記事では Community Kit Lab にはプロキシーを Source Generator で生成する仕組みを利用することについて触れている。&lt;/p&gt;
+&lt;h3 id="using-the-new-configuration-binder-source-generator-exploring-the.net-8-preview-part-1"&gt;Using the new configuration binder source generator: Exploring the .NET 8 preview - Part 1&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/exploring-the-dotnet-8-preview-using-the-new-configuration-binder-source-generator/"&gt;https://andrewlock.net/exploring-the-dotnet-8-preview-using-the-new-configuration-binder-source-generator/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 8 Preview 3 で導入された Microsoft.Extensions.Configuration の Source Generator ベースのバインダーについての解説。&lt;/p&gt;
+&lt;p&gt;記事では導入方法と実際の仕組み、現時点での問題/制限について触れている。&lt;/p&gt;
+&lt;h3 id="asp.net-coreantiforgeryjwt400-bad-request-qiita"&gt;ASP.NET Coreでクッキー認証+AntiForgery+JWTによるリモートサーバとの認証情報共有と400 Bad Request対策 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/jun1s/items/903570264d1bfb62cf14"&gt;https://qiita.com/jun1s/items/903570264d1bfb62cf14&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ASP.NET Core アプリケーションで Cookie 認証かつ JWT を使用する構成で、AntiForgery を使用している場合に JWT のリフレッシュが発生すると AntiForgery トークンの検証失敗する問題についてと解決方法。&lt;/p&gt;
+&lt;h3 id="how-to-use-runtimehelpers.isreferenceorcontainsreferences-to-micro-optimize-collections-gerald-barre"&gt;How to use RuntimeHelpers.IsReferenceOrContainsReferences to micro-optimize collections - Gérald Barré&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.meziantou.net/how-to-use-runtimehelpers-isreferenceorcontainsreferences-to-micro-optimize-coll.htm"&gt;https://www.meziantou.net/how-to-use-runtimehelpers-isreferenceorcontainsreferences-to-micro-optimize-coll.htm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;RuntimeHelpers.IsReferenceOrContainsReferences を使用したコレクションのマイクロ最適化について。&lt;/p&gt;
+&lt;p&gt;例えば Pop するような場面で参照型は内部配列から参照を外す必要があるが、値型の場合に要素を削除せずインデックスを減らすだけにするといったテクニックがあり、その際に IsReferenceOrContainsReferences が役立つ。&lt;/p&gt;
+&lt;h3 id="using-stringbuilder-to-replace-values"&gt;Using StringBuilder To Replace Values&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://khalidabuhakmeh.com/using-stringbuilder-to-replace-values"&gt;https://khalidabuhakmeh.com/using-stringbuilder-to-replace-values&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;StringBuilder を使用して文字列置換を行うことについて。&lt;/p&gt;
+&lt;p&gt;StringBuilder を使用した場合、String の Replace で置換した場合よりもアロケーションを削減できる。&lt;/p&gt;
+&lt;h3 id="system.diagnostics.process.getprocessesbyname-qiita"&gt;System.Diagnostics.Process.GetProcessesByNameのアロケーションに絶望した僕は、異世界で復讐することにした - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/gazf/items/085a93cabf10e745e227"&gt;https://qiita.com/gazf/items/085a93cabf10e745e227&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Process.GetProcessesByName をアロケーションの少ない形で再実装してみる試み。&lt;/p&gt;
+&lt;h3 id="section-2"&gt;モジュール初期化子が呼ばれる順&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://ufcpp.net/blog/2023/6/init-order/"&gt;https://ufcpp.net/blog/2023/6/init-order/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;モジュール初期化子 (&lt;code&gt;ModuleInitializer&lt;/code&gt;) が複数ある場合の実行順序についての解説。&lt;/p&gt;
+&lt;h3 id="writing-a.net-profiler-in-c-part-4"&gt;Writing a .NET profiler in C# — Part 4&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://minidump.net/writing-a-net-profiler-in-c-part-4-c54df903b9ce"&gt;https://minidump.net/writing-a-net-profiler-in-c-part-4-c54df903b9ce&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;C# (NativeAOT) を使用して .NET プロファイラーを作成するシリーズの Part 4。&lt;/p&gt;
+&lt;h3 id="swashbuckle.aspnetcore.cli-fileloadexception-xin9le.net"&gt;Swashbuckle.AspNetCore.Cli で FileLoadException が出る場合の対処 - xin9le.net&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.xin9le.net/entry/2023/06/25/230203"&gt;https://blog.xin9le.net/entry/2023/06/25/230203&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Swashbuckle.AspNetCore.Cli が Top-level Statements に対応していないため生成に失敗してしまう問題への対策。&lt;/p&gt;
+&lt;p&gt;特別に呼び出される IHost を生成するメソッドを実装する方法について紹介している。&lt;/p&gt;
+&lt;h3 id="section-3"&gt;ツイート&lt;/h3&gt;
+&lt;p&gt;MessagePack-CSharp が個人のアカウントから Organization に移動したという話(と pre-release 版で Source Generator に対応した話)。&lt;/p&gt;
+&lt;!-- https://twitter.com/neuecc/status/1674179032349306884?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;MessagePack for C#、neuecc配下から専用organizationに移行しました！なお直近のpre-release版ではついにSource Generator対応(Unityも対応済み！)しています。&lt;a href="https://t.co/E5XlxsMX9Z"&gt;https://t.co/E5XlxsMX9Z&lt;/a&gt;&lt;/p&gt;&amp;mdash; neuecc (&amp;#64;neuecc) &lt;a href="https://twitter.com/neuecc/status/1674179032349306884?ref_src=twsrc%5Etfw"&gt;June 28, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;.csproj で MapPath プロパティを設定することでスタックトレースに表示されるパスを変更できるという話。&lt;/p&gt;
+&lt;!-- https://twitter.com/karenpaynemvp/status/1674152970668351488?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Did you know when logging exceptions you can remove the path to lines of code? &lt;a href="https://t.co/z2srKipRdf"&gt;pic.twitter.com/z2srKipRdf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Karen Payne MVP (&amp;#64;KarenPayneMVP) &lt;a href="https://twitter.com/KarenPayneMVP/status/1674152970668351488?ref_src=twsrc%5Etfw"&gt;June 28, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;Visual Studio 2022 17.7 Preview 3 に C# 12 の Inline Arrays がマージされた。&lt;/p&gt;
+&lt;!-- https://twitter.com/jcouv/status/1673780113434091520?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;We merged a preview C# 12 feature into VS 17.7 (preview 3): inline arrays.&lt;br&gt;&lt;br&gt;It provides a general-purpose and safe mechanism for declaring inline arrays within classes, structs, and interfaces using the `[InlineArray(size)]` attribute.&lt;a href="https://t.co/VxQNdB3pav"&gt;https://t.co/VxQNdB3pav&lt;/a&gt;&lt;/p&gt;&amp;mdash; Julien Couvreur (&amp;#64;jcouv) &lt;a href="https://twitter.com/jcouv/status/1673780113434091520?ref_src=twsrc%5Etfw"&gt;June 27, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>2023-06-25: grpc-dotnet v2.54.0, Microsoft Forms Service’s Journey to .NET 6, ReSharper &amp; Rider 2023.1.3</title>
 			<link>/2023/06/25/updates</link>
@@ -1562,106 +1665,6 @@
 &lt;p&gt;&lt;a href="https://qiita.com/hqf00342/items/3707ab2bf5f480ec41f8"&gt;https://qiita.com/hqf00342/items/3707ab2bf5f480ec41f8&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="exploring-hashicorp-vault-with-vault.net-client-library"&gt;Exploring HashiCorp Vault with Vault .NET Client Library&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://dev.to/berviantoleo/exploring-hashicorp-vault-with-vault-net-client-library-194n"&gt;https://dev.to/berviantoleo/exploring-hashicorp-vault-with-vault-net-client-library-194n&lt;/a&gt;&lt;/p&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>2023-04-23: Windows Community Toolkit 2023 Update</title>
-			<link>/2023/04/23/updates</link>
-			<description>.NET 関連の情報をほぼ週刊配信</description>
-			<author>Mayuki Sawatari</author>
-			<enclosure url="/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/2023/04/23/updates</guid>
-			<pubDate>Sun, 23 Apr 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="the-windows-community-toolkit-2023-update-ifdef-windows"&gt;The Windows Community Toolkit 2023 Update - #ifdef Windows&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/ifdef-windows/the-windows-community-toolkit-2023-update/"&gt;https://devblogs.microsoft.com/ifdef-windows/the-windows-community-toolkit-2023-update/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Windows Community Toolkit のアップデートについて。&lt;/p&gt;
-&lt;p&gt;新しい WCT Lab コンポーネントや次期バージョンでのコンポーネント、名前空間の統一についてといったことを紹介している。&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="azure-functions-line-messaging-api-chatgpt"&gt;Azure Functions と LINE Messaging API を使って ChatGPT とやり取りできるサービスを作ってみた&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/takunology/articles/linebotandazure-gpt"&gt;https://zenn.dev/takunology/articles/linebotandazure-gpt&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Azure Functions と OpenAI の ChatGPT API を使用して LINE ボットを実装する方法について。&lt;/p&gt;
-&lt;h3 id="setwindowsubclass-c-winui-3"&gt;SetWindowSubclass によるウィンドウプロシージャーのカスタム（C# / WinUI 3）&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/shinta0806/articles/de27f23a0c3684"&gt;https://zenn.dev/shinta0806/articles/de27f23a0c3684&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;WinUI 3 アプリケーションでウィンドウプロシージャーのカスタム(ウィンドウのサブクラス化)を行う方法について。&lt;/p&gt;
-&lt;h3 id="windowsservice-qiita"&gt;WindowsのServiceを簡単にデバッグする方法 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/TheParkSider/items/dc0aa0a03c02cec462e6"&gt;https://qiita.com/TheParkSider/items/dc0aa0a03c02cec462e6&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Windows のサービスを実装した際にデバッグ実行などを簡単にする方法について。&lt;/p&gt;
-&lt;h3 id="improving-the-syntax-highlighting-of-javascript-in-visual-studio-visual-studio-blog"&gt;Improving the Syntax Highlighting of JavaScript in Visual Studio - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/improving-the-syntax-highlighting-of-javascript-in-visual-studio/"&gt;https://devblogs.microsoft.com/visualstudio/improving-the-syntax-highlighting-of-javascript-in-visual-studio/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 v17.6 以降での JavaScript のシンタックスハイライトの改善についての紹介。&lt;/p&gt;
-&lt;h3 id="how-to-use-aqua-web-inspector-for-asp.net-core-development-in-rider-the.net-tools-blog"&gt;How to Use Aqua Web Inspector for ASP.NET Core Development in Rider | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/04/20/jetbrains-rider-and-aqua-for-aspnetcore-development/"&gt;https://blog.jetbrains.com/dotnet/2023/04/20/jetbrains-rider-and-aqua-for-aspnetcore-development/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Rider で利用できる JetBrains Aqua プラグインで IDE に組み込まれた Web インスペクターを ASP.NET Core 開発で使用する方法について。&lt;/p&gt;
-&lt;h3 id="git-tooling-preview-features-to-enhance-productivity-visual-studio-blog"&gt;Git Tooling Preview Features to Enhance Productivity - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/"&gt;https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio (プレビュー) で強化された Git 関連機能のまとめ記。&lt;/p&gt;
-&lt;h3 id="reduce-collection-lookups-with-resharper-the.net-tools-blog"&gt;Reduce Collection Lookups With ReSharper | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/04/18/reduce-lookups-in-hashset-dictionary-and-other-collections-with-resharper/"&gt;https://blog.jetbrains.com/dotnet/2023/04/18/reduce-lookups-in-hashset-dictionary-and-other-collections-with-resharper/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ReSharper で Dictionary や HashSet といったコレクションの ContainsKey や Contains を呼び出してから操作することの不要なケースについて指摘できるようになったことについて。&lt;/p&gt;
-&lt;h3 id="chrome-extensions-in.net-web-view-controls"&gt;Chrome extensions in .NET web view controls&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/dotnetbrowser/chrome-extensions-in-net-web-view-controls-11lm"&gt;https://dev.to/dotnetbrowser/chrome-extensions-in-net-web-view-controls-11lm&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;DotNetBrowser をはじめとして WebView2、CefSharp といった Web View での Chrome 拡張のサポート状況について。&lt;/p&gt;
-&lt;h3 id="format-and-send.net-application-logs-to-elasticsearch-using-serilog"&gt;Format and send .Net application logs to Elasticsearch using Serilog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;ingrid.jardillier/format-and-send-net-application-logs-to-elasticsearch-using-serilog-9819742cf806"&gt;https://medium.com/&amp;#64;ingrid.jardillier/format-and-send-net-application-logs-to-elasticsearch-using-serilog-9819742cf806&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Serilog から Elasticsearch にログを送信するように構成する手順について。&lt;/p&gt;
-&lt;h3 id="nethttp-qiita"&gt;.NETアプリケーションがHTTP通信に使用したプロキシ設定をメモリダンプから確認する - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/nishiseki/items/fe3e4795df9f790831f7"&gt;https://qiita.com/nishiseki/items/fe3e4795df9f790831f7&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET アプリケーションのメモリーダンプを取得し、そのメモリーダンプから HTTP のプロキシー設定情報を解析して確認する方法について。&lt;/p&gt;
-&lt;h3 id="running-non-root.net-containers-with-kubernetes.net-blog"&gt;Running non-root .NET containers with Kubernetes - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/running-nonroot-kubernetes-with-dotnet/"&gt;https://devblogs.microsoft.com/dotnet/running-nonroot-kubernetes-with-dotnet/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 8 で対応する non-root なコンテナーの Kubernetes での利用について、サンプルを交えて紹介している。dotnet-monitor に関しても動作することのこと。&lt;/p&gt;
-&lt;h3 id="xamarincvr"&gt;【Xamarin/C#】スマホでVR写真表示アプリを作る&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/daddy_yukio/articles/a70e04b8896f15"&gt;https://zenn.dev/daddy_yukio/articles/a70e04b8896f15&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Xamarin.Forms で360度全天球映像を表示する実装について。&lt;/p&gt;
-&lt;h3 id="setting-an-absolute-output-path-for.net-sdk-projects"&gt;Setting an Absolute Output Path for .NET SDK Projects&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://weblog.west-wind.com/posts/2023/Apr/21/Setting-an-Absolute-Output-Path-for-NET-SDK-Projects"&gt;https://weblog.west-wind.com/posts/2023/Apr/21/Setting-an-Absolute-Output-Path-for-NET-SDK-Projects&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ビルド時の出力先パスの指定方法と AppendTargetFrameworkToOutputPath によるターゲットフレームワークをパスに追加しない指定について。&lt;/p&gt;
-&lt;h3 id="investigating-a-crash-in-enumerable.lastordefault-with-a-custom-collection-gerald-barre"&gt;Investigating a crash in Enumerable.LastOrDefault with a custom collection - Gérald Barré&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.meziantou.net/investigating-a-crash-in-enumerable-lastordefault.htm"&gt;https://www.meziantou.net/investigating-a-crash-in-enumerable-lastordefault.htm&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;カスタムコレクションで LINQ の LastOrDefault メソッドを使用した際にスレッドセーフではない操作によって例外が発生するケースについての解説。&lt;/p&gt;
-&lt;h3 id="net-8-performance-edition"&gt;.NET 8 Performance Edition&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://steven-giesel.com/blogPost/f6504300-7bf0-48d2-8a14-ba4e2bbea02e"&gt;https://steven-giesel.com/blogPost/f6504300-7bf0-48d2-8a14-ba4e2bbea02e&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 8 とそれ以前でのパフォーマンスを Enum, LINQ, Reflection やリストといった部分でのベンチマークによる比較。&lt;/p&gt;
-&lt;h3 id="azure-openai-service-c-sdk-chatgpt"&gt;Azure OpenAI Service の C# SDK (ChatGPT でも使えます)&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/azure-openai-service-csharpsdk"&gt;https://zenn.dev/microsoft/articles/azure-openai-service-csharpsdk&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ChatGPT を含む Azure OpenAI Service の .NET SDK を使用してみるという記事。&lt;/p&gt;
-&lt;h3 id="cqrexcelnpoizxing"&gt;C#でQR画像入りExcelを作る（NPOI、ZXing）&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/junnuj/articles/a68409f9e18fd0"&gt;https://zenn.dev/junnuj/articles/a68409f9e18fd0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ZXing.NET で QR コードを生成して NPOI を使用して Excel に画像を埋め込む方法について。&lt;/p&gt;
-&lt;h3 id="semantic-kernelgpt-taste-of-tech-topics"&gt;Semantic Kernelを使ってGPTと外部ツールを簡単に連携してみる - Taste of Tech Topics&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://acro-engineer.hatenablog.com/entry/2023/04/18/120000"&gt;https://acro-engineer.hatenablog.com/entry/2023/04/18/120000&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Semantic Kernel を使用して ChatGPT API と外部ツールである Elasticsearch を連携させる実装方法について。&lt;/p&gt;
-&lt;h3 id="c-c"&gt;[雑記] 明確な代入ルール | ++C++; // 未確認飛行 C ブログ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://ufcpp.net/study/csharp/start/definiteassignment/"&gt;https://ufcpp.net/study/csharp/start/definiteassignment/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;未初期化を避けるための明確に代入するルールについて。C# 10で改善された点についても触れている。&lt;/p&gt;
-&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="microsofttokenizer.net-implementation-of-bpe-tokenizer-for-openai-llms"&gt;microsoft/Tokenizer: .NET implementation of BPE tokenizer for OpenAI LLMs.&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/microsoft/Tokenizer"&gt;https://github.com/microsoft/Tokenizer&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;OpenAI の tiktoken というトークンをカウントするライブラリーの .NET 実装。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/microsoft/articles/azure-openai-count-token"&gt;C# で Azure OpenAI Service のトークン数を数えよう&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="calvinallenvs4mac-super-clean-super-clean-is-an-extension-for-visual-studio-for-mac-that-when-triggered-completely-obiterates-the-bin-and-obj-directories-from-all-projects-in-the-solution"&gt;CalvinAllen/vs4mac-super-clean: Super Clean is an extension for Visual Studio for Mac that, when triggered, completely obiterates the bin and obj directories from all projects in the solution&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/CalvinAllen/vs4mac-super-clean"&gt;https://github.com/CalvinAllen/vs4mac-super-clean&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;obj や bin ディレクトリをすべて削除する Visual Studio for Mac 用拡張。&lt;/p&gt;
-&lt;h3 id="bunit-devbunit-bunit-is-a-testing-library-for-blazor-components-that-make-tests-look-feel-and-runs-like-regular-unit-tests.bunit-makes-it-easy-to-render-and-control-a-component-under-tests-life-cycle-pass-parameter-and-inject-services-into-it-trigger-event-handlers-and-verify-the-rendered-markup-from-the-component-using-a-built-in-semantic-html-comparer"&gt;bUnit-dev/bUnit: bUnit is a testing library for Blazor components that make tests look, feel, and runs like regular unit tests. bUnit makes it easy to render and control a component under test’s life-cycle, pass parameter and inject services into it, trigger event handlers, and verify the rendered markup from the component using a built-in semantic HTML comparer.&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/bUnit-dev/bUnit"&gt;https://github.com/bUnit-dev/bUnit&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Blazor のコンポーネントをテストしやすくするためのライブラリー。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://medium.com/&amp;#64;longeardev/blazor-component-testing-basic-verification-of-a-raw-markup-670bf91c1d90"&gt;Blazor Component Testing: Basic Verification of a Raw Markup&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
