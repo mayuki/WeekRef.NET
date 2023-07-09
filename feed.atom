@@ -7,9 +7,103 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2023-07-02T12:59:40Z</updated>
+	<updated>2023-07-09T14:21:49Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
+	<entry>
+		<id>/2023/07/09/updates</id>
+		<title>2023-07-09: Avalonia UI v11, .NET Community Toolkit 8.2.1</title>
+		<author>
+			<name>Mayuki Sawatari</name>
+		</author>
+		<link href="/2023/07/09/updates" />
+		<link rel="enclosure" type="image" href="/img/logo.png" />
+		<updated>2023-07-09T00:00:00Z</updated>
+		<content>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="avalonia-ui-welcome-to-the-new-era-of-app-development-introducing-avalonia-v11"&gt;Avalonia UI - Welcome to the New Era of App Development: Introducing Avalonia v11&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://avaloniaui.net/Blog/welcome-to-the-new-era-of-app-development-introducing-avalonia-v11,a8907121-eae9-4a16-aca8-2432e1dac13a"&gt;https://avaloniaui.net/Blog/welcome-to-the-new-era-of-app-development-introducing-avalonia-v11,a8907121-eae9-4a16-aca8-2432e1dac13a&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="improved-source-generators-and-code-fixers-arrive-in.net-community-toolkit-8.2.1.net-blog"&gt;Improved Source Generators and Code Fixers Arrive in .NET Community Toolkit 8.2.1! - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-the-dotnet-community-toolkit-821/"&gt;https://devblogs.microsoft.com/dotnet/announcing-the-dotnet-community-toolkit-821/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="release-v12.1.0-jbogardmediatr"&gt;Release v12.1.0 · jbogard/MediatR&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/jbogard/MediatR/releases/tag/v12.1.0"&gt;https://github.com/jbogard/MediatR/releases/tag/v12.1.0&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="resharper-2023.2-eap-7-introduces-a-predictive-debugger-and-other-updates-the.net-tools-blog"&gt;ReSharper 2023.2 EAP 7 Introduces a Predictive Debugger and Other Updates | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/07/03/resharper-2023-2-eap-7/"&gt;https://blog.jetbrains.com/dotnet/2023/07/03/resharper-2023-2-eap-7/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="rider-2023.2-eap-7-is-out-the.net-tools-blog"&gt;Rider 2023.2 EAP 7 Is Out! | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/07/03/rider-2023-2-eap-7-is-out/"&gt;https://blog.jetbrains.com/dotnet/2023/07/03/rider-2023-2-eap-7-is-out/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="improvements-to-the-caching-abstraction-in-asp.net-core.net-blog"&gt;Improvements to the Caching Abstraction in ASP.NET Core - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/caching-abstraction-improvements-in-aspnetcore/"&gt;https://devblogs.microsoft.com/dotnet/caching-abstraction-improvements-in-aspnetcore/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="release-release-v2.55.0-grpcgrpc-dotnet"&gt;Release Release v2.55.0 · grpc/grpc-dotnet&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/grpc/grpc-dotnet/releases/tag/v2.55.0"&gt;https://github.com/grpc/grpc-dotnet/releases/tag/v2.55.0&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="improved-f-hints-in-visual-studio.net-blog"&gt;Improved F# hints in Visual Studio - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/improved-fsharp-hints-in-visual-studio/"&gt;https://devblogs.microsoft.com/dotnet/improved-fsharp-hints-in-visual-studio/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="moq-techniques-how-to-pick-the-best-syntax-when-configuring-your-mocks"&gt;Moq Techniques: How to Pick the Best Syntax when Configuring Your Mocks&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/ant_f_dev/moq-techniques-how-to-pick-the-best-syntax-when-configuring-your-mocks-3aa1"&gt;https://dev.to/ant_f_dev/moq-techniques-how-to-pick-the-best-syntax-when-configuring-your-mocks-3aa1&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-annotated-monthly-july-2023-the.net-tools-blog"&gt;.NET Annotated Monthly | July 2023 | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/07/05/net-annotated-monthly-july-2023/"&gt;https://blog.jetbrains.com/dotnet/2023/07/05/net-annotated-monthly-july-2023/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="share-your-thoughts-about-game-development-for-the-chance-to-win-a-prize-the-jetbrains-blog"&gt;Share Your Thoughts About Game Development for the Chance to Win a Prize | The JetBrains Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/2023/07/04/share-your-thoughts-about-game-development-for-the-chance-to-win-a-prize/"&gt;https://blog.jetbrains.com/2023/07/04/share-your-thoughts-about-game-development-for-the-chance-to-win-a-prize/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="examining-suspicious-code-fragments-in-aws-sdk-for.net"&gt;Examining suspicious code fragments in AWS SDK for .NET&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/_sergvasiliev_/examining-suspicious-code-fragments-in-aws-sdk-for-net-2p9l"&gt;https://dev.to/_sergvasiliev_/examining-suspicious-code-fragments-in-aws-sdk-for-net-2p9l&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="crafting-beautiful-interactive-console-apps-with-system.commandline-and-spectre.console"&gt;Crafting beautiful interactive console apps with System.CommandLine and Spectre.Console&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/asimmon/crafting-beautiful-interactive-console-apps-with-systemcommandline-and-spectreconsole-c6f"&gt;https://dev.to/asimmon/crafting-beautiful-interactive-console-apps-with-systemcommandline-and-spectreconsole-c6f&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="http-client-tools-everywhere-the.net-tools-blog"&gt;HTTP Client Tools Everywhere! | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/07/04/http-client-tools-everywhere/"&gt;https://blog.jetbrains.com/dotnet/2023/07/04/http-client-tools-everywhere/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="asp.net-core-nullmodelbinder-qiita"&gt;ASP.NET Core で配列プロパティへのバインドがnullになる問題を解決するModelBinderの作成 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/jun1s/items/f432ae774cb737d58edf"&gt;https://qiita.com/jun1s/items/f432ae774cb737d58edf&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="the-minimal-api-aot-compilation-template-exploring-the.net-8-preview-part-2"&gt;The minimal API AOT compilation template: Exploring the .NET 8 preview - Part 2&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/exploring-the-dotnet-8-preview-the-minimal-api-aot-template/"&gt;https://andrewlock.net/exploring-the-dotnet-8-preview-the-minimal-api-aot-template/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="timeprovider-and-itimer-writing-unit-tests-with-time-in.net-8-preview-4"&gt;TimeProvider and ITimer: Writing Unit Tests with Time in .NET 8 Preview 4&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.infoq.com/articles/dotnet-unit-tests-time-timezone/"&gt;https://www.infoq.com/articles/dotnet-unit-tests-time-timezone/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="c-qiita"&gt;[C#] キャッシング戦略とパフォーマンスプロファイリング - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/syantien/items/d4df7b58611223ae0d02"&gt;https://qiita.com/syantien/items/d4df7b58611223ae0d02&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="entityframework-toolsno-build-qiita"&gt;EntityFramework Toolsのno-buildオプション - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/karuakun/items/c0b1b95dba5eecf8db38"&gt;https://qiita.com/karuakun/items/c0b1b95dba5eecf8db38&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="adding-a-readme-to-nuget-package-landing-pages"&gt;Adding a Readme to NuGet Package Landing Pages&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://khalidabuhakmeh.com/adding-a-readme-to-nuget-package-landing-pages"&gt;https://khalidabuhakmeh.com/adding-a-readme-to-nuget-package-landing-pages&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="issue-employee-verifiable-credentials-using-entra-verified-id-and-asp.net-core"&gt;Issue Employee verifiable credentials using Entra Verified ID and ASP.NET Core&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://damienbod.com/2023/07/03/issue-employee-verifiable-credentials-using-entra-verified-id-and-asp-net-core/"&gt;https://damienbod.com/2023/07/03/issue-employee-verifiable-credentials-using-entra-verified-id-and-asp-net-core/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="using-encryption-to-verify-a-license-key"&gt;Using encryption to verify a license key&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://ayende.com/blog/199617-A/using-encryption-to-verify-a-license-key"&gt;https://ayende.com/blog/199617-A/using-encryption-to-verify-a-license-key&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="migrating-xamarin.android-xamarin.ios-applications-to.net-6"&gt;Migrating Xamarin.Android &amp;amp; Xamarin.iOS Applications to .NET 6&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;ruby.verma10/migrating-xamarin-android-xamarin-ios-applications-to-net-6-f398ba74b992"&gt;https://medium.com/&amp;#64;ruby.verma10/migrating-xamarin-android-xamarin-ios-applications-to-net-6-f398ba74b992&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-at-oracle-cloudworld-2023"&gt;.NET at Oracle CloudWorld 2023&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/oracledevs/net-at-oracle-cloudworld-2023-fbecf93e911a"&gt;https://medium.com/oracledevs/net-at-oracle-cloudworld-2023-fbecf93e911a&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="tmemorytspantref-qiita"&gt;T[]（配列）・MemoryT・SpanT・ポインタ・参照変数（ref）の使い分けと相互変換 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/Funny_Silkie/items/ea21dd1e3d06d48ffdad"&gt;https://qiita.com/Funny_Silkie/items/ea21dd1e3d06d48ffdad&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="netmsiwixtoolset-v4-qiita"&gt;.NETでMSIインストーラーを操作する(wixtoolset v4) - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/skitoy4321/items/d2f7ba641cbd27566c67"&gt;https://qiita.com/skitoy4321/items/d2f7ba641cbd27566c67&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="casp.net-core-w3c-trace-context"&gt;【C#】ASP.NET Core と W3C Trace Context とお手軽ロギング。 - ねののお庭。&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.neno.dev/entry/2023/07/04/181843"&gt;https://blog.neno.dev/entry/2023/07/04/181843&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="neue-cc-magicphysx.net"&gt;neue cc - MagicPhysX - .NET用のクロスプラットフォーム物理エンジン&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://neue.cc/2023/07/04_MagicPhysX.html"&gt;https://neue.cc/2023/07/04_MagicPhysX.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h3 id="funny-silkiecuilib-library-for.net-cui-application"&gt;Funny-Silkie/CuiLib: Library for .NET CUI application&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Funny-Silkie/CuiLib"&gt;https://github.com/Funny-Silkie/CuiLib&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/Funny_Silkie/items/432763d0725bfa6dc743"&gt;C#のCUIアプリケーション用ライブラリ『CuiLib』 - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="miloszkrajewskik4os.streams-implementation-for-pooled-in-memory-streams-for.net"&gt;MiloszKrajewski/K4os.Streams: Implementation for pooled in-memory streams for .NET&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/MiloszKrajewski/K4os.Streams"&gt;https://github.com/MiloszKrajewski/K4os.Streams&lt;/a&gt;&lt;/p&gt;
+&lt;!-- https://twitter.com/mrkrashan/status/1677045966631841792?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;&lt;a href="https://twitter.com/dotnet?ref_src=twsrc%5Etfw"&gt;&amp;#64;dotnet&lt;/a&gt; &lt;br&gt;Low allocation, high performance, pooled in-memory streams for &lt;a href="https://twitter.com/hashtag/dotnet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotnet&lt;/a&gt;&lt;br&gt;Faster than MemoryStream (a lot) and RecyclableMemoryStream (with caveats), YMMV.&lt;a href="https://t.co/I8fOjKq00s"&gt;https://t.co/I8fOjKq00s&lt;/a&gt;&lt;/p&gt;&amp;mdash; Milosz Krajewski (&amp;#64;MrKrashan) &lt;a href="https://twitter.com/MrKrashan/status/1677045966631841792?ref_src=twsrc%5Etfw"&gt;July 6, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;h2 id="deep-dive"&gt;Deep Dive&lt;/h2&gt;
+&lt;h3 id="add-searchvaluesstring-by-mihazupan-pull-request-88394-dotnetruntime"&gt;Add SearchValuesstring by MihaZupan · Pull Request #88394 · dotnet/runtime&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/dotnet/runtime/pull/88394"&gt;https://github.com/dotnet/runtime/pull/88394&lt;/a&gt;&lt;/p&gt;
+</content>
+		<summary>.NET 関連の情報をほぼ週刊配信</summary>
+	</entry>
 	<entry>
 		<id>/2023/07/02/updates</id>
 		<title>2023-07-02: ReSharper &amp; Rider 2023.2 EAP 6, MagicPhysX</title>
@@ -1584,99 +1678,6 @@
 &lt;!-- https://twitter.com/ufcpp/status/1653208094888046593?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="vi" dir="ltr"&gt;&lt;a href="https://t.co/mAHs5VkwZm"&gt;https://t.co/mAHs5VkwZm&lt;/a&gt;&lt;br&gt;TimeProviderもPreview 4で。&lt;/p&gt;&amp;mdash; ++C++; // 管理人: 岩永 (&amp;#64;ufcpp) &lt;a href="https://twitter.com/ufcpp/status/1653208094888046593?ref_src=twsrc%5Etfw"&gt;May 2, 2023&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-</content>
-		<summary>.NET 関連の情報をほぼ週刊配信</summary>
-	</entry>
-	<entry>
-		<id>/2023/04/30/updates</id>
-		<title>2023-04-30: SqlScriptDOM, Avalonia UI 11 Preview 7, ReSharper and Rider 2023.1.1</title>
-		<author>
-			<name>Mayuki Sawatari</name>
-		</author>
-		<link href="/2023/04/30/updates" />
-		<link rel="enclosure" type="image" href="/img/logo.png" />
-		<updated>2023-04-30T00:00:00Z</updated>
-		<content>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="microsoftsqlscriptdom-scriptdomsqldom-is-a.net-library-for-parsing-t-sql-statements-and-interacting-with-its-abstract-syntax-tree"&gt;microsoft/SqlScriptDOM: ScriptDOM/SqlDOM is a .NET library for parsing T-SQL statements and interacting with its abstract syntax tree&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/microsoft/SqlScriptDOM"&gt;https://github.com/microsoft/SqlScriptDOM&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://techcommunity.microsoft.com/t5/azure-sql-blog/scriptdom-net-library-for-t-sql-parsing-is-now-open-source/ba-p/3804284"&gt;ScriptDOM .NET library for T-SQL parsing is now open source&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="release-11.0.0-preview-7-avaloniauiavalonia"&gt;Release 11.0.0 Preview 7 · AvaloniaUI/Avalonia&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/AvaloniaUI/Avalonia/releases/tag/11.0.0-preview7"&gt;https://github.com/AvaloniaUI/Avalonia/releases/tag/11.0.0-preview7&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="resharper-and-rider-2023.1.1-bug-fixes-are-here-the.net-tools-blog"&gt;ReSharper and Rider 2023.1.1 – Bug Fixes Are Here | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/04/27/resharper-and-rider-2023-1-1-bug-fixes/"&gt;https://blog.jetbrains.com/dotnet/2023/04/27/resharper-and-rider-2023-1-1-bug-fixes/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net-framework-april-2023-cumulative-update-preview-updates.net-blog"&gt;.NET Framework April 2023 Cumulative Update Preview Updates - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-framework-april-2023-cumulative-update-preview-updates/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-framework-april-2023-cumulative-update-preview-updates/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="release-v7.0.4-npgsqlnpgsql"&gt;Release v7.0.4 · npgsql/npgsql&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/npgsql/npgsql/releases/tag/v7.0.4"&gt;https://github.com/npgsql/npgsql/releases/tag/v7.0.4&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="join-the.net-team-at-microsoft-build-2023.net-blog"&gt;Join the .NET Team at Microsoft Build 2023! - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/microsoft-build-2023-and-dotnet/"&gt;https://devblogs.microsoft.com/dotnet/microsoft-build-2023-and-dotnet/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="semantic-kernel"&gt;Semantic Kernel のスキルを外部ファイルで定義して読み込む&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/semantic-kernel-2"&gt;https://zenn.dev/microsoft/articles/semantic-kernel-2&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="azure-openai-service-semantic-kernel-on-c"&gt;Azure OpenAI Service を便利に使うための Semantic Kernel を試してみよう on C#&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/semantic-kernel-1"&gt;https://zenn.dev/microsoft/articles/semantic-kernel-1&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="c-winui-3"&gt;テーマの実際の色等をコードで取得する（C# / WinUI 3）&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/shinta0806/articles/theme-property"&gt;https://zenn.dev/shinta0806/articles/theme-property&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="exploring-javascript-and-typescript-development-in-visual-studio-visual-studio-blog"&gt;Exploring JavaScript and TypeScript Development in Visual Studio - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/exploring-javascript-and-typescript-development-in-visual-studio/"&gt;https://devblogs.microsoft.com/visualstudio/exploring-javascript-and-typescript-development-in-visual-studio/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="html-xml-json-and-jwt-visualizers-in-rider-2023.1-the.net-tools-blog"&gt;HTML, XML, JSON, and JWT Visualizers in Rider 2023.1 | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/04/27/html-xml-json-and-jwt-visualizers-in-rider-2023-1/"&gt;https://blog.jetbrains.com/dotnet/2023/04/27/html-xml-json-and-jwt-visualizers-in-rider-2023-1/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="jetbrains-rider-the.net-tools-blog"&gt;JetBrains Rider を使ったリモート開発 | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/ja/dotnet/2023/04/10/remote-development-with-jetbrains-rider/"&gt;https://blog.jetbrains.com/ja/dotnet/2023/04/10/remote-development-with-jetbrains-rider/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="how-i-saved-my-production-database-with-one-simple-console-message"&gt;How I Saved My Production Database with One Simple Console Message&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/vanenshi/how-i-saved-my-production-database-with-one-simple-console-message-4fjm"&gt;https://dev.to/vanenshi/how-i-saved-my-production-database-with-one-simple-console-message-4fjm&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="creating-a-dapr-pluggable-component-for-supabase"&gt;Creating a Dapr pluggable component for Supabase&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/diagrid/creating-a-dapr-pluggable-component-for-supabase-32kj"&gt;https://dev.to/diagrid/creating-a-dapr-pluggable-component-for-supabase-32kj&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="introduction-to-asp.net-core-minimal-apis-the.net-tools-blog"&gt;Introduction to ASP.NET Core Minimal APIs | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/04/25/introduction-to-asp-net-core-minimal-apis/"&gt;https://blog.jetbrains.com/dotnet/2023/04/25/introduction-to-asp-net-core-minimal-apis/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="send.net-application-traces-to-elasticsearch-using-elastic-apm-rum-agent"&gt;Send .Net application traces to Elasticsearch using Elastic APM / RUM agent&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.zenika.com/send-net-application-traces-to-elasticsearch-using-elastic-apm-rum-agent-d7ff111b1ef"&gt;https://medium.zenika.com/send-net-application-traces-to-elasticsearch-using-elastic-apm-rum-agent-d7ff111b1ef&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="observability.net-opentelemetry-collector"&gt;Observability .NET &amp;amp; OpenTelemetry Collector&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/kim-ch/observability-net-opentelemetry-collector-25g1"&gt;https://dev.to/kim-ch/observability-net-opentelemetry-collector-25g1&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net-mauictrlenter-qiita"&gt;.NET MAUIでのCtrl+Enterなどのキーイベントハンドリングの難しさ - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/selfstudy/items/d0f9520d3b40f8946d36"&gt;https://qiita.com/selfstudy/items/d0f9520d3b40f8946d36&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="converting-strings-to.net-objects-iparsable-and-ispanparsable"&gt;Converting Strings to .NET Objects – IParsable and ISpanParsable&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://csharp.christiannagel.com/2023/04/14/iparsable/"&gt;https://csharp.christiannagel.com/2023/04/14/iparsable/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="industrial-strength-controlled-concurrency-testing-for-c-programs-with-coyote-microsoft-research"&gt;Industrial-Strength Controlled Concurrency Testing for C# Programs with Coyote - Microsoft Research&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.microsoft.com/en-us/research/publication/industrial-strength-controlled-concurrency-testing-for-c-programs-with-coyote/"&gt;https://www.microsoft.com/en-us/research/publication/industrial-strength-controlled-concurrency-testing-for-c-programs-with-coyote/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="japanese-lets-learn.net-azure-youtube"&gt;[Japanese] Let's Learn .NET - Azure - YouTube&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.youtube.com/live/g5KIYx6p8Ek"&gt;https://www.youtube.com/live/g5KIYx6p8Ek&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/lets-learn-dotnet-anywhere-in-the-world/"&gt;Let's Learn .NET Virtual Events - All Around the World - .NET Blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/g5KIYx6p8Ek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h3 id="get-started-with-openai-in.net.net-blog"&gt;Get started with OpenAI in .NET - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/getting-started-azure-openai-dotnet/"&gt;https://devblogs.microsoft.com/dotnet/getting-started-azure-openai-dotnet/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="windows-app-sdk-1.3-system-backdrop-appwindow"&gt;Windows App SDK 1.3 で System Backdrop の設定と AppWindow の利用が簡単になった - しばやん雑記&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.shibayan.jp/entry/20230425/1682412792"&gt;https://blog.shibayan.jp/entry/20230425/1682412792&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="do-you-know-what-is-going-on-with-your-api-collect-asp.net-core-api-metrics-using-appmetrics"&gt;Do you know what is going on with your API? Collect ASP.NET Core API metrics using AppMetrics.&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;milwojarski/do-you-know-what-is-going-on-with-your-api-collect-asp-net-core-api-metrics-using-appmetrics-f5efa2cf050d"&gt;https://medium.com/&amp;#64;milwojarski/do-you-know-what-is-going-on-with-your-api-collect-asp-net-core-api-metrics-using-appmetrics-f5efa2cf050d&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="redis-keyspace-notifications-with-a-c-example"&gt;Redis keyspace notifications with a C# example&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/sayganov/redis-keyspace-notifications-with-a-c-example-2ahp"&gt;https://dev.to/sayganov/redis-keyspace-notifications-with-a-c-example-2ahp&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="wpf-vs-winui-3"&gt;WPF vs WinUI 3 機能対比表&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/shinta0806/articles/dcc4bf056ab1d4"&gt;https://zenn.dev/shinta0806/articles/dcc4bf056ab1d4&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="http2-grpc"&gt;HTTP/2 と gRPC に対するよくある誤解。 - ねののお庭。&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.neno.dev/entry/2023/04/22/190510"&gt;https://blog.neno.dev/entry/2023/04/22/190510&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="making-friends-with-httpclientfactory-a-chill-guide-to-upgrading-your-httpclient-game-in.net"&gt;Making Friends with HttpClientFactory: A Chill Guide to Upgrading Your HttpClient Game in .NET&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;longeardev/making-friends-with-httpclientfactory-a-chill-guide-to-upgrading-your-httpclient-game-in-net-f4cef3f72a63"&gt;https://medium.com/&amp;#64;longeardev/making-friends-with-httpclientfactory-a-chill-guide-to-upgrading-your-httpclient-game-in-net-f4cef3f72a63&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="making-friends-with-httpclientfactory-a-chill-guide-to-upgrading-your-httpclient-game-in.net-1"&gt;Making Friends with HttpClientFactory: A Chill Guide to Upgrading Your HttpClient Game in .NET&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;longeardev/making-friends-with-httpclientfactory-a-chill-guide-to-upgrading-your-httpclient-game-in-net-f4cef3f72a63"&gt;https://medium.com/&amp;#64;longeardev/making-friends-with-httpclientfactory-a-chill-guide-to-upgrading-your-httpclient-game-in-net-f4cef3f72a63&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="c-enumeratefiles-qiita"&gt;[C#] EnumerateFiles()の例外ハンドルの最適な方法を探る - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/hqf00342/items/3707ab2bf5f480ec41f8"&gt;https://qiita.com/hqf00342/items/3707ab2bf5f480ec41f8&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="exploring-hashicorp-vault-with-vault.net-client-library"&gt;Exploring HashiCorp Vault with Vault .NET Client Library&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/berviantoleo/exploring-hashicorp-vault-with-vault-net-client-library-194n"&gt;https://dev.to/berviantoleo/exploring-hashicorp-vault-with-vault-net-client-library-194n&lt;/a&gt;&lt;/p&gt;
 </content>
 		<summary>.NET 関連の情報をほぼ週刊配信</summary>
 	</entry>
