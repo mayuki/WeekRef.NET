@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2023-07-30T14:22:16Z</updated>
+	<updated>2023-07-30T14:31:48Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -84,6 +84,11 @@
 &lt;h3 id="using-session-and-localstorage-in-blazor-and-maui"&gt;Using Session- and LocalStorage in Blazor and MAUI&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://medium.com/&amp;#64;kxmliebl/using-session-and-localstorage-in-blazor-and-maui-b01fbb41d14c"&gt;https://medium.com/&amp;#64;kxmliebl/using-session-and-localstorage-in-blazor-and-maui-b01fbb41d14c&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h3 id="cysharpyetanotherhttphandler-yetanotherhttphandler-brings-the-power-of-http2-and-grpc-to-unity-and.net-standard"&gt;Cysharp/YetAnotherHttpHandler: YetAnotherHttpHandler brings the power of HTTP/2 (and gRPC) to Unity and .NET Standard.&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Cysharp/YetAnotherHttpHandler"&gt;https://github.com/Cysharp/YetAnotherHttpHandler&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://neue.cc/2023/07/28_yetanotherhttphandler.html"&gt;neue cc - Unity用のHTTP/2(gRPC) Client、YetAnotherHttpHandlerを公開しました&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id="matthewrdevunityuaal.maui-embedding-the-unity-game-engine-into.net-maui"&gt;matthewrdev/UnityUaal.Maui: Embedding the Unity game engine into .NET MAUI.&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/matthewrdev/UnityUaal.Maui"&gt;https://github.com/matthewrdev/UnityUaal.Maui&lt;/a&gt;&lt;/p&gt;
 &lt;!-- https://twitter.com/matthewrdev/status/1684349416210337793?s=12 --&gt;
