@@ -7,9 +7,102 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2023-07-23T13:37:10Z</updated>
+	<updated>2023-07-30T14:22:16Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
+	<entry>
+		<id>/2023/07/30/updates</id>
+		<title>2023-07-30: ReSharper &amp; Rider 2023.2 RC, Avalonia for Visual Studio Code, ODP.NET 23c Dev Release</title>
+		<author>
+			<name>Mayuki Sawatari</name>
+		</author>
+		<link href="/2023/07/30/updates" />
+		<link rel="enclosure" type="image" href="/img/logo.png" />
+		<updated>2023-07-30T00:00:00Z</updated>
+		<content>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="resharper-2023.2-release-candidate-is-available-the.net-tools-blog"&gt;ReSharper 2023.2 Release Candidate Is Available | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/07/26/resharper-2023-2-rc/"&gt;https://blog.jetbrains.com/dotnet/2023/07/26/resharper-2023-2-rc/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="rider-2023.2-release-candidate-is-available-the.net-tools-blog"&gt;Rider 2023.2 Release Candidate Is Available | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/07/26/rider-2023-2-rc/"&gt;https://blog.jetbrains.com/dotnet/2023/07/26/rider-2023-2-rc/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="avalonia-for-visual-studio-code-early-access"&gt;Avalonia for Visual Studio Code (Early Access)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/avalonia/avalonia-for-visual-studio-code-early-access-34bh"&gt;https://dev.to/avalonia/avalonia-for-visual-studio-code-early-access-34bh&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="announcing-odp.net-23c-dev-release"&gt;Announcing ODP.NET 23c Dev Release&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;alex.keh/announcing-odp-net-23c-dev-release-fbd92861e466"&gt;https://medium.com/&amp;#64;alex.keh/announcing-odp-net-23c-dev-release-fbd92861e466&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="new-syntax-for-string-interpolation-in-f.net-blog"&gt;New syntax for string interpolation in F# - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/new-syntax-for-string-interpolation-in-fsharp/"&gt;https://devblogs.microsoft.com/dotnet/new-syntax-for-string-interpolation-in-fsharp/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="introducing-predictive-debugging-a-game-changing-look-into-the-future-the.net-tools-blog"&gt;Introducing Predictive Debugging: A Game-Changing Look into the Future | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/07/27/introducing-predictive-debugging-a-game-changing-look-into-the-future/"&gt;https://blog.jetbrains.com/dotnet/2023/07/27/introducing-predictive-debugging-a-game-changing-look-into-the-future/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-framework-july-2023-cumulative-update-preview.net-blog"&gt;.NET Framework July 2023 Cumulative Update Preview - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-framework-july-2023-cumulative-update-preview/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-framework-july-2023-cumulative-update-preview/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="release-2.2.7-mysql-netmysqlconnector"&gt;Release 2.2.7 · mysql-net/MySqlConnector&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/mysql-net/MySqlConnector/releases/tag/2.2.7"&gt;https://github.com/mysql-net/MySqlConnector/releases/tag/2.2.7&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="avaloniauiandroid-qiita"&gt;AvaloniaUIでAndroidビルドする🚀 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/tkhshiq/items/f3a363d24cbdf5bd2793"&gt;https://qiita.com/tkhshiq/items/f3a363d24cbdf5bd2793&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="how-to-set-global-setting-for-xunit-tests-event-driven.io"&gt;How to set global setting for XUnit tests - Event-Driven.io&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://event-driven.io/en/xunit_global_settings/"&gt;https://event-driven.io/en/xunit_global_settings/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="five-years-of-fuzzing.net-with-sharpfuzz"&gt;Five years of fuzzing .NET with SharpFuzz&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://mijailovic.net/2023/07/23/sharpfuzz-anniversary/"&gt;https://mijailovic.net/2023/07/23/sharpfuzz-anniversary/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="using-azure-web-pubsub-with-protobuf-subprotocol-in.net"&gt;Using Azure Web PubSub with Protobuf subprotocol in .NET&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/corcav/using-azure-web-pubsub-with-protobuf-subprotocol-in-net-58li"&gt;https://dev.to/corcav/using-azure-web-pubsub-with-protobuf-subprotocol-in-net-58li&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="new-features-or-bug-fixes-you-might-have-missed-in.net-8"&gt;7 New Features (or bug fixes🐛) You Might Have Missed in .NET 8&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/bytehide/7-new-features-or-bug-fixes-you-might-have-missed-in-net-8-4f11"&gt;https://dev.to/bytehide/7-new-features-or-bug-fixes-you-might-have-missed-in-net-8-4f11&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="subscribe-to-the-visual-studio-blog-via-email-visual-studio-blog"&gt;Subscribe to the Visual Studio Blog via email - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/subscribe-to-the-visual-studio-blog-via-email/"&gt;https://devblogs.microsoft.com/visualstudio/subscribe-to-the-visual-studio-blog-via-email/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="debugging.net-containers-with-visual-studio-code-docker-tools.net-blog"&gt;Debugging .NET Containers with Visual Studio Code Docker Tools - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/debugging-dotnet-containers-with-visual-studio-code-docker-tools/"&gt;https://devblogs.microsoft.com/dotnet/debugging-dotnet-containers-with-visual-studio-code-docker-tools/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="rock-your-debugging-game-parallel-stack-window-tips-you-need-to-know-visual-studio-blog"&gt;Rock Your Debugging Game: Parallel Stack Window Tips You Need to Know! - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/rock-your-debugging-game-parallel-stack-window-tips-you-need-to-know/"&gt;https://devblogs.microsoft.com/visualstudio/rock-your-debugging-game-parallel-stack-window-tips-you-need-to-know/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="improvements-to-unity-shader-files-in-rider-2023.2-the.net-tools-blog"&gt;Improvements to Unity shader files in Rider 2023.2 | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/07/25/improvements-to-unity-shader-files-in-rider-2023-2/"&gt;https://blog.jetbrains.com/dotnet/2023/07/25/improvements-to-unity-shader-files-in-rider-2023-2/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="replacing-method-calls-with-interceptors-exploring-the.net-8-preview-part-5"&gt;Replacing method calls with Interceptors: Exploring the .NET 8 preview - Part 5&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/exploring-the-dotnet-8-preview-changing-method-calls-with-interceptors/"&gt;https://andrewlock.net/exploring-the-dotnet-8-preview-changing-method-calls-with-interceptors/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="ga4-data-api-with.net"&gt;GA4 Data API with .NET&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/chuac/ga4-data-api-with-net-1n00"&gt;https://dev.to/chuac/ga4-data-api-with-net-1n00&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="background-tasks-and-scheduled-jobs-in.net-meet-hangfire"&gt;Background Tasks and Scheduled Jobs in .NET? Meet Hangfire🔥&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/bytehide/background-tasks-and-scheduled-jobs-in-net-meet-hangfire-30pd"&gt;https://dev.to/bytehide/background-tasks-and-scheduled-jobs-in-net-meet-hangfire-30pd&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="enhancing-test-visualization-on-gitlab-with.net-projects"&gt;Enhancing Test Visualization on GitLab with .NET Projects&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;dejandjenic/enhancing-test-visualization-on-gitlab-with-net-projects-47f65a90c19"&gt;https://medium.com/&amp;#64;dejandjenic/enhancing-test-visualization-on-gitlab-with-net-projects-47f65a90c19&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="turn-your-chromebook-into-a.net-developer-machine"&gt;Turn your Chromebook into a .Net developer machine!&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/brunosilvadev/turn-your-chromebook-into-a-net-developer-machine-2bk6"&gt;https://dev.to/brunosilvadev/turn-your-chromebook-into-a-net-developer-machine-2bk6&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-framework-4.8-to.net-6-migration"&gt;.NET Framework 4.8 to .NET 6 migration&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://steven-giesel.com/blogPost/f531dded-44af-4341-871c-d54875877900"&gt;https://steven-giesel.com/blogPost/f531dded-44af-4341-871c-d54875877900&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="log-formatters-in-c-bruno-sonnino"&gt;Log Formatters in C# - Bruno Sonnino&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.revolution.com.br/2023/07/17/log-formatters-in-c/"&gt;https://blog.revolution.com.br/2023/07/17/log-formatters-in-c/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="how-to-run-integration-tests-using-testcontainers-with-wsl"&gt;How to run integration tests using Testcontainers with WSL&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;NelsonBN/how-to-run-integration-tests-using-testcontainers-with-wsl-52c77a2acbbb"&gt;https://medium.com/&amp;#64;NelsonBN/how-to-run-integration-tests-using-testcontainers-with-wsl-52c77a2acbbb&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="using-session-and-localstorage-in-blazor-and-maui"&gt;Using Session- and LocalStorage in Blazor and MAUI&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;kxmliebl/using-session-and-localstorage-in-blazor-and-maui-b01fbb41d14c"&gt;https://medium.com/&amp;#64;kxmliebl/using-session-and-localstorage-in-blazor-and-maui-b01fbb41d14c&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h3 id="matthewrdevunityuaal.maui-embedding-the-unity-game-engine-into.net-maui"&gt;matthewrdev/UnityUaal.Maui: Embedding the Unity game engine into .NET MAUI.&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/matthewrdev/UnityUaal.Maui"&gt;https://github.com/matthewrdev/UnityUaal.Maui&lt;/a&gt;&lt;/p&gt;
+&lt;!-- https://twitter.com/matthewrdev/status/1684349416210337793?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Did you know, with some native binding trickery, you can embed &lt;a href="https://twitter.com/hashtag/unity3d?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#unity3d&lt;/a&gt; into your &lt;a href="https://twitter.com/hashtag/Dotnet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#Dotnet&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/Maui?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#Maui&lt;/a&gt; app!&lt;br&gt;&lt;br&gt;This makes consuming 3D content and building AR/VR experiences way, waaaay easier.&lt;br&gt;&lt;br&gt;I&amp;#39;ve created an itty bitty sample on my Github here:&lt;a href="https://t.co/2Q3IClcVZE"&gt;https://t.co/2Q3IClcVZE&lt;/a&gt;&lt;br&gt;&lt;br&gt;Enjoy! 😙👌&lt;/p&gt;&amp;mdash; Matthew Robbins (&amp;#64;matthewrdev) &lt;a href="https://twitter.com/matthewrdev/status/1684349416210337793?ref_src=twsrc%5Etfw"&gt;July 26, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
+&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
+&lt;!-- https://twitter.com/mariohewardt/status/1684254752891346944?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;ProcDump 2.0 for Linux just released!&lt;br&gt;&lt;br&gt;Want to trigger core dumps based on .NET memory usage?&lt;br&gt;&lt;br&gt;-gcm allows you to specify per generation or heap (LOH and POH) thresholds.&lt;br&gt;&lt;br&gt;-gcgen allows you to create a dump at the start and end of a GC.&lt;a href="https://t.co/NbFzOYA0nu"&gt;https://t.co/NbFzOYA0nu&lt;/a&gt; &lt;a href="https://t.co/Q56v3k66yr"&gt;https://t.co/Q56v3k66yr&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mario Hewardt 🦆 (&amp;#64;MarioHewardt) &lt;a href="https://twitter.com/MarioHewardt/status/1684254752891346944?ref_src=twsrc%5Etfw"&gt;July 26, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;!-- https://twitter.com/davidfowl/status/1683956501570879489?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;.NET 8&amp;#39;s dependency injection container will support &amp;quot;keyed services&amp;quot;. A long-requested feature that has finally landed. This is useful when type alone isn&amp;#39;t enough to determine the right implementation. &lt;a href="https://twitter.com/hashtag/dotnet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotnet&lt;/a&gt; &lt;a href="https://t.co/6a4KowNSPu"&gt;pic.twitter.com/6a4KowNSPu&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Fowler (&amp;#64;davidfowl) &lt;a href="https://twitter.com/davidfowl/status/1683956501570879489?ref_src=twsrc%5Etfw"&gt;July 25, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;!-- https://twitter.com/mkristensen/status/1683909106783105025?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;I like the idea of rendering XML doc comments inside Visual Studio to improve readability of code. What do you think? Vote and comment here: &lt;a href="https://t.co/wcVXmOWpzj"&gt;https://t.co/wcVXmOWpzj&lt;/a&gt; &lt;a href="https://t.co/pdE2e6iJQ7"&gt;pic.twitter.com/pdE2e6iJQ7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mads Kristensen (&amp;#64;mkristensen) &lt;a href="https://twitter.com/mkristensen/status/1683909106783105025?ref_src=twsrc%5Etfw"&gt;July 25, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content>
+		<summary>.NET 関連の情報をほぼ週刊配信</summary>
+	</entry>
 	<entry>
 		<id>/2023/07/23/updates</id>
 		<title>2023-07-23: .NET Lambda Annotations Framework GA, Appwrite .NET SDK (Beta), NATS .NET Client v2 Alpha</title>
@@ -1394,304 +1487,6 @@
 &lt;!-- https://twitter.com/davidpine7/status/1661084920553283590?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Watching &lt;a href="https://twitter.com/bradygaster?ref_src=twsrc%5Etfw"&gt;&amp;#64;bradygaster&lt;/a&gt; present on the cloud-native story for &lt;a href="https://twitter.com/dotnet?ref_src=twsrc%5Etfw"&gt;&amp;#64;dotnet&lt;/a&gt;! Here&amp;#39;s what&amp;#39;s imminent for .NET 8:&lt;br&gt;&lt;br&gt;- Resilience&lt;br&gt;- Compliance&lt;br&gt;- Telemetry &lt;a href="https://t.co/6SZgTueKjn"&gt;pic.twitter.com/6SZgTueKjn&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Pine (&amp;#64;davidpine&amp;#64;dotnet.social) 🇺🇦 (&amp;#64;davidpine7) &lt;a href="https://twitter.com/davidpine7/status/1661084920553283590?ref_src=twsrc%5Etfw"&gt;May 23, 2023&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-</content>
-		<summary>.NET 関連の情報をほぼ週刊配信</summary>
-	</entry>
-	<entry>
-		<id>/2023/05/21/updates</id>
-		<title>2023-05-21: Visual Studio 2022 version 17.6, .NET 8 Preview 4, Rx.NET v6.0</title>
-		<author>
-			<name>Mayuki Sawatari</name>
-		</author>
-		<link href="/2023/05/21/updates" />
-		<link rel="enclosure" type="image" href="/img/logo.png" />
-		<updated>2023-05-21T00:00:00Z</updated>
-		<content>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="visual-studio-2022-17.6-now-available-visual-studio-blog"&gt;Visual Studio 2022 - 17.6 Now Available - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-6-now-available/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-6-now-available/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 version 17.6 がリリースされた。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;生産性の向上
-&lt;ul&gt;
-&lt;li&gt;パフォーマンスの改善
-&lt;ul&gt;
-&lt;li&gt;ソリューションのオープン、クローズの速度向上&lt;/li&gt;
-&lt;li&gt;Performance Profiler の収集の停止時速度向上&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;エディターの強化
-&lt;ul&gt;
-&lt;li&gt;スティッキースクロール&lt;/li&gt;
-&lt;li&gt;All-in-One 検索&lt;/li&gt;
-&lt;li&gt;ブレースペアの色付け&lt;/li&gt;
-&lt;li&gt;スペルチェッカー&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;デバッグと診断機能
-&lt;ul&gt;
-&lt;li&gt;ブレークポイントグループ&lt;/li&gt;
-&lt;li&gt;.NET リモートデバッグ&lt;/li&gt;
-&lt;li&gt;Visual Studio プロファイラー&lt;/li&gt;
-&lt;li&gt;Visual Studio プロファイラーでのインストルメンテーション&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Git コラボレーションツール
-&lt;ul&gt;
-&lt;li&gt;マージダイアログの改善&lt;/li&gt;
-&lt;li&gt;Git 行アンステージング&lt;/li&gt;
-&lt;li&gt;GitHub Issues へのリンク&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;モダン .NET とクラウドネイティブアプリの構築
-&lt;ul&gt;
-&lt;li&gt;Android Manifest Editor&lt;/li&gt;
-&lt;li&gt;JavaScript/TypeScript での CodeLens&lt;/li&gt;
-&lt;li&gt;JavaScript/TypeScript のシンタックスハイライト&lt;/li&gt;
-&lt;li&gt;ASP.NET Core の Web API 開発&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;ゲーム開発の効率化
-&lt;ul&gt;
-&lt;li&gt;Unreal Engine ログビューア&lt;/li&gt;
-&lt;li&gt;Tim Jones による HLSL ツール拡張&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;C++ クロスプラットフォームコードベースの持ち込み
-&lt;ul&gt;
-&lt;li&gt;CMake デバッガー&lt;/li&gt;
-&lt;li&gt;Unix 向けリモートファイルエクスプローラー&lt;/li&gt;
-&lt;li&gt;STM32CubeIDE プロジェクトのインポート&lt;/li&gt;
-&lt;li&gt;Vcpkg&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;エンタープライズ管理
-&lt;ul&gt;
-&lt;li&gt;組織によるイントラネットウェブサイトでの Visual Studio レイアウトのホストとデプロイ&lt;/li&gt;
-&lt;li&gt;リポジトリーの任意の場所で複数の .vsconfig をサポート&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="announcing.net-8-preview-4.net-blog"&gt;Announcing .NET 8 Preview 4 - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-8-preview-4/"&gt;https://devblogs.microsoft.com/dotnet/announcing-dotnet-8-preview-4/&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;MSBuild: New, modern terminal build output&lt;/li&gt;
-&lt;li&gt;MSBuild: 新しい、モダンなターミナルビルド出力&lt;/li&gt;
-&lt;li&gt;SDK: 出力パスの単純化のアップデート
-&lt;ul&gt;
-&lt;li&gt;artifacts&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;テンプレートエンジン: Nuget.org からのパッケージのセキュアな体験&lt;/li&gt;
-&lt;li&gt;NuGet: Linux での署名されたパッケージの検証&lt;/li&gt;
-&lt;li&gt;NuGet: セキュリティー脆弱性に関するパッケージ依存関係の監査&lt;/li&gt;
-&lt;li&gt;ライブラリー: UTF-8 サポートの改善
-&lt;ul&gt;
-&lt;li&gt;IUtf8SpanFormattable&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;時刻の抽象化の導入
-&lt;ul&gt;
-&lt;li&gt;TimeProvider&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;System.Runtime.Intrinsics.Vector512 と AVX-512&lt;/li&gt;
-&lt;li&gt;Native AOT の改善&lt;/li&gt;
-&lt;li&gt;Linux distro バージョンサポート&lt;/li&gt;
-&lt;li&gt;System.Text.Json: 読み取り専用メンバーの収集&lt;/li&gt;
-&lt;li&gt;System.Text.Json 改善
-&lt;ul&gt;
-&lt;li&gt;JsonSerializer.IsReflectionEnabledByDefault&lt;/li&gt;
-&lt;li&gt;JsonSerializerOptions.TypeInfoResolverChain&lt;/li&gt;
-&lt;li&gt;JsonSerializerOptions.TryGetTypeInfo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;コード生成
-&lt;ul&gt;
-&lt;li&gt;連続したレジスターの割り当て&lt;/li&gt;
-&lt;li&gt;最適化された ThreadStatic フィールドアクセス&lt;/li&gt;
-&lt;li&gt;Arm64&lt;/li&gt;
-&lt;li&gt;コードのベクトル化&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="ef-core-8-preview-4-primitive-collections-and-improved-contains.net-blog"&gt;EF Core 8 Preview 4: Primitive collections and improved Contains - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-ef8-preview-4/"&gt;https://devblogs.microsoft.com/dotnet/announcing-ef8-preview-4/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Entity Framework Core 8 Preview 4 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは LINQ 内での Contains の変換のサポート、OPENJSON のサポート、接続先 SQL Server の互換性レベルの指定、プリミティブコレクションのカラムサポートなどが含まれている。&lt;/p&gt;
-&lt;h3 id="asp.net-core-updates-in.net-8-preview-4.net-blog"&gt;ASP.NET Core updates in .NET 8 Preview 4 - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-dotnet-8-preview-4/"&gt;https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-dotnet-8-preview-4/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 8 Preview 4 での ASP.NET Core のアップデートについて。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Blazor
-&lt;ul&gt;
-&lt;li&gt;Blazor コンポーネントのストリーミングレンダリング&lt;/li&gt;
-&lt;li&gt;Blazor SSR のフォーム送信のハンドリング&lt;/li&gt;
-&lt;li&gt;Blazor での名前付き要素へのルート&lt;/li&gt;
-&lt;li&gt;Blazor WebAssembly アプリの Webcli パッケージング&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;API オーサリング
-&lt;ul&gt;
-&lt;li&gt;Minimal APIs でのフォームバインディングの拡張サポート&lt;/li&gt;
-&lt;li&gt;.http ファイルを含む API プロジェクトテンプレート&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Native AOT
-&lt;ul&gt;
-&lt;li&gt;コンパイル時生成 Minimal APIs でのロギングと例外ハンドリング&lt;/li&gt;
-&lt;li&gt;ASP.NET Core トップレベル API のトリム警告アノテーション&lt;/li&gt;
-&lt;li&gt;構成可能な HTTPS サポートでのアプリサイズの削減&lt;/li&gt;
-&lt;li&gt;Worker サービステンプレートの更新&lt;/li&gt;
-&lt;li&gt;スリムビルダーに構成されたデフォルトのサービスの追加&lt;/li&gt;
-&lt;li&gt;API テンプレート JSON 構成の変更&lt;/li&gt;
-&lt;li&gt;コンパイラー生成 IAsyncEnumerable の特殊な型の JSON シリアライズサポート&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;認証と認可
-&lt;ul&gt;
-&lt;li&gt;アイデンティティ API エンドポイント&lt;/li&gt;
-&lt;li&gt;IAuthorizationRequirementData でのカスタム認可ポリシーのサポート向上&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;ASP.NET Core メトリクス&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="rx.net-v6.0-now-available-endjin"&gt;Rx.NET v6.0 Now Available | endjin&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://endjin.com/blog/2023/05/rx-dotnet-v6-released"&gt;https://endjin.com/blog/2023/05/rx-dotnet-v6-released&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Rx.NET v6.0 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは .NET 6/7 のサポートやトリミングのサポート、snupkg を使用したシンボルの提供、その他の改善が含まれている。&lt;/p&gt;
-&lt;p&gt;記事では Async Rx.NET のアルファ版の案内や v6.0 での更新点について、この先についてといったことについて書かれている。&lt;/p&gt;
-&lt;h3 id="visual-studio-2022-17.7-preview-1-is-here-visual-studio-blog"&gt;Visual Studio 2022 17.7 Preview 1 is here! - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-7-preview-1-is-here/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-7-preview-1-is-here/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 version 17.7 Preview 1 がリリースされた。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;生産性
-&lt;ul&gt;
-&lt;li&gt;ファイルの比較&lt;/li&gt;
-&lt;li&gt;マルチブランチグラフおよび Git リポジトリの改善&lt;/li&gt;
-&lt;li&gt;テキストのコピーとインデントの削除&lt;/li&gt;
-&lt;li&gt;All-in-One 検索強化&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;.NET とクラウド開発
-&lt;ul&gt;
-&lt;li&gt;IntelliTest の .NET 6 および .NET Standard でのサポート&lt;/li&gt;
-&lt;li&gt;Blazor WebAssembly の Azure Static Web Apps への発行&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;C++ とゲーム開発
-&lt;ul&gt;
-&lt;li&gt;Unreal Engine C++ マクロフォーマット&lt;/li&gt;
-&lt;li&gt;Unreal Engine C++ 名前規約チェッカー&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="hot-reload-supports-modifying-generics.net-blog"&gt;Hot Reload Supports Modifying Generics! - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/hot-reload-generics/"&gt;https://devblogs.microsoft.com/dotnet/hot-reload-generics/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ジェネリクスのコードを変更した際のホットリロードが .NET 8 でサポートされることについての解説。&lt;/p&gt;
-&lt;p&gt;以下のシナリオでのホットリロードがサポートされるようになる。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;新しい (静的, インスタンス) メソッドの(非)ジェネリック型への追加&lt;/li&gt;
-&lt;li&gt;新しい (静的, インスタンス) ジェネリックメソッドの(非)ジェネリック型への追加&lt;/li&gt;
-&lt;li&gt;(非)ジェネリック型の既存の (静的, インスタンス) メソッドの編集&lt;/li&gt;
-&lt;li&gt;(非)ジェネリック型の既存の (静的, インスタンス) ジェネリックメソッドの編集&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="client-support-for-calling-wcfcorewcf-with-system.servicemodel-6.0-is-here.net-blog"&gt;Client Support for Calling WCF/CoreWCF with System.ServiceModel 6.0 Is Here! - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/wcf-client-60-has-been-released/"&gt;https://devblogs.microsoft.com/dotnet/wcf-client-60-has-been-released/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;WCF/CoreWCF を呼び出す WCF クライアントである System.ServiceModel の 6.0 がリリースされた。&lt;/p&gt;
-&lt;p&gt;System.ServiceModel は Microsoft によりサポートされる WCF クライアントライブラリー。&lt;/p&gt;
-&lt;p&gt;このリリースでは NetNamedPipe サポートの追加、.NET Standard および .NET Framework サポートの削除、System.ServiceModel.Duplex および Security の非推奨化といったアップデートが含まれている。&lt;/p&gt;
-&lt;h3 id="resharper-and-rider-2023.1.2-more-bug-fixes-released-the.net-tools-blog"&gt;ReSharper and Rider 2023.1.2 – More Bug-fixes Released | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/05/17/rsrp-and-rider-2023-1-2-bug-fixes/"&gt;https://blog.jetbrains.com/dotnet/2023/05/17/rsrp-and-rider-2023-1-2-bug-fixes/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ReSharper と Rider 2023.1.2 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは様々な不具合の修正が行われている。&lt;/p&gt;
-&lt;h3 id="xamarin.forms-and-essentials-now-target-android-13-in-preview-xamarin-blog"&gt;Xamarin.Forms and Essentials now target Android 13 (in Preview) - Xamarin Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/xamarin/xamarin-forms-essentials-target-android13-preview/"&gt;https://devblogs.microsoft.com/xamarin/xamarin-forms-essentials-target-android13-preview/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Xamarin.Forms と Essentials が Android 13 をターゲットにできるようになった(プレビュー)。&lt;/p&gt;
-&lt;p&gt;.NET と .NET MAUI では Android 13 がすでにサポートされている。&lt;/p&gt;
-&lt;h3 id="get-ready-for-visual-studio-at-build-2023-join-tens-of-thousands-online-visual-studio-blog"&gt;Get Ready for Visual Studio at Build 2023: Join Tens of Thousands Online! - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/get-ready-for-visual-studio-at-build-2023-join-tens-of-thousands-online/"&gt;https://devblogs.microsoft.com/visualstudio/get-ready-for-visual-studio-at-build-2023-join-tens-of-thousands-online/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;5月23日から25日にかけて行われる Microsoft Build 2023 での Visual Studio に関連するセッションなどの紹介。&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="object-detection-in-ml.net-model-builder.net-blog"&gt;Object Detection in ML.NET Model Builder - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/object-detection-ml-dotnet-model-builder/"&gt;https://devblogs.microsoft.com/dotnet/object-detection-ml-dotnet-model-builder/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ML.NET Model Builder を使用してオブジェクト検出を行う紹介。&lt;/p&gt;
-&lt;h3 id="get-started-with-chatgpt-in.net.net-blog"&gt;Get started with ChatGPT in .NET - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/get-started-chatgpt-azure-dotnet/"&gt;https://devblogs.microsoft.com/dotnet/get-started-chatgpt-azure-dotnet/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET から OpenAI API を使用するシリーズ。ChatGPT (チャットとプロンプト) についての解説。&lt;/p&gt;
-&lt;h3 id="sticky-scroll-stay-in-the-right-context-visual-studio-blog"&gt;Sticky Scroll: Stay in the Right Context - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/sticky-scroll-stay-in-the-right-context/"&gt;https://devblogs.microsoft.com/visualstudio/sticky-scroll-stay-in-the-right-context/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 17.6 で追加されたスティッキースクロール機能の紹介。&lt;/p&gt;
-&lt;h3 id="calendar-control-from-scratch-on.net-maui"&gt;Calendar Control from scratch on .NET MAUI&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/serhii_korol_ab7776c50dba/calendar-control-from-scratch-on-net-maui-5dh6"&gt;https://dev.to/serhii_korol_ab7776c50dba/calendar-control-from-scratch-on-net-maui-5dh6&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET MAUI でカレンダーコントロールを一から作ってみるという記事。&lt;/p&gt;
-&lt;h3 id="using-octokit.graphql-to-interact-with-the-github-discussions-api"&gt;Using Octokit.GraphQL to interact with the GitHub discussions API&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/using-octokit-graphql-to-interact-with-the-github-discussions-api/"&gt;https://andrewlock.net/using-octokit-graphql-to-interact-with-the-github-discussions-api/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Octokit.GraphQL NuGet パッケージを使用して GitHub ディスカッションの API を使用する方法について。&lt;/p&gt;
-&lt;p&gt;記事ではディスカッションの取得や作成、レートリミットなどについて解説している。&lt;/p&gt;
-&lt;h3 id="integration-tests-for-aws-serverless-solution"&gt;Integration tests for AWS serverless solution&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/ohalay/integration-tests-for-aws-serverless-solution-12aj"&gt;https://dev.to/ohalay/integration-tests-for-aws-serverless-solution-12aj&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;AWS サーバーレス構成のアプリケーションを統合テストする方法について。&lt;/p&gt;
-&lt;p&gt;LocalStack を使用してローカルコンテナーを動かすことでユニットテストを実行する方法を紹介している。&lt;/p&gt;
-&lt;h3 id="how-to-control-visual-studio-from-an-external-application-gerald-barre"&gt;How to Control Visual Studio from an external application - Gérald Barré&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.meziantou.net/control-visual-studio-from-an-external-application.htm"&gt;https://www.meziantou.net/control-visual-studio-from-an-external-application.htm&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;COM 経由で Visual Studio のインスタンスを取得し、操作する方法について。&lt;/p&gt;
-&lt;h3 id="are-compiled-queries-really-efficient-on-c-ef-core"&gt;Are compiled queries really efficient on C# EF Core?&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://goatreview.com/are-compiled-queries-efficient-efcore/"&gt;https://goatreview.com/are-compiled-queries-efficient-efcore/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Entity Framework Core のコンパイル済みクエリーは効果的なのかどうかについて。&lt;/p&gt;
-&lt;p&gt;コンパイル済みクエリーは特定のパターンで効果的ではあるがそうでないパターンも多いため、利用にはテストすることやクエリーそのものを見直すことなどをすめてている。&lt;/p&gt;
-&lt;h3 id="concurrent-hosted-service-start-and-stop-in.net-8-steve-gordon-code-with-steve"&gt;Concurrent Hosted Service Start and Stop in .NET 8 - Steve Gordon - Code with Steve&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.stevejgordon.co.uk/concurrent-hosted-service-start-and-stop-in-dotnet-8"&gt;https://www.stevejgordon.co.uk/concurrent-hosted-service-start-and-stop-in-dotnet-8&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 8 の Microsoft.Extensions.Hosting ではホストの起動と停止が並列化されることについて。&lt;/p&gt;
-&lt;p&gt;記事では開始と停止が並列化されることによる影響や並列化を無効にする方法などを解説している。&lt;/p&gt;
-&lt;h3 id="netnugetglobal-using"&gt;.NETのNuGetパッケージからアプリにglobal usingを自動で追加する&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/nuits_jp/articles/2023-05-15-global-usings"&gt;https://zenn.dev/nuits_jp/articles/2023-05-15-global-usings&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;インストールすることで global using が自動で追加されるような NuGet パッケージを作る方法について。&lt;/p&gt;
-&lt;h3 id="microsoft-build-cloud-skills-challenge"&gt;Microsoft Build | Cloud Skills Challenge&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.microsoft.com/ja-JP/cloudskillschallenge/build/officialrules/2022"&gt;https://www.microsoft.com/ja-JP/cloudskillschallenge/build/officialrules/2022&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Build 2023 に合わせたキャンペーン。チャレンジを完了することで Microsoft 認定資格試験を一つ無料で受ける権利をもらえる。&lt;/p&gt;
-&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="drasticactionsllamamaui"&gt;drasticactions/LLaMAMaui&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/drasticactions/llamamaui"&gt;https://github.com/drasticactions/llamamaui&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;llama.cpp の .NET MAUI 向けバインディング。&lt;/p&gt;
-&lt;!-- https://twitter.com/drasticactions/status/1658867229637898240?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;I wrote a small MAUI app to show off llama.cpp .NET Bindings running on more platforms. It works well! Although with multi-gig file sizes for the models, it&amp;#39;s not that great on phones. Still, it does work though! 😉&lt;a href="https://t.co/rZsq6GpvNQ"&gt;https://t.co/rZsq6GpvNQ&lt;/a&gt; &lt;a href="https://t.co/v2cgs2uBWO"&gt;pic.twitter.com/v2cgs2uBWO&lt;/a&gt;&lt;/p&gt;&amp;mdash; Drastic Actions (&amp;#64;drasticactions) &lt;a href="https://twitter.com/drasticactions/status/1658867229637898240?ref_src=twsrc%5Etfw"&gt;May 17, 2023&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
-&lt;h3 id="introduction-rust-for-c.net-developers"&gt;Introduction - Rust for C#/.NET Developers&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://microsoft.github.io/rust-for-dotnet-devs/latest/"&gt;https://microsoft.github.io/rust-for-dotnet-devs/latest/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;C#/.NET 開発者向けの Rust 解説ドキュメント。&lt;/p&gt;
-&lt;p&gt;.NET のものが Rust ではどのように表現されるのかといったことを説明している。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/microsoft/rust-for-dotnet-devs"&gt;microsoft/rust-for-dotnet-devs: Rust for C#/.NET Developers&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
-&lt;p&gt;ClaimsPrincipal のデバッガー上での表示がマシになるという話。ASP.NET Core のほかの型も対応するとのこと。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/aspnetcore/issues/48205"&gt;ASP.NET Core ❤️ Debugging · Issue #48205 · dotnet/aspnetcore&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- https://twitter.com/jamesnk/status/1659366431920898049?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Debugging ClaimsPrincipal is better in .NET 8 &lt;a href="https://t.co/SKu5wbgQSm"&gt;https://t.co/SKu5wbgQSm&lt;/a&gt; &lt;a href="https://t.co/esWQ1aqShC"&gt;pic.twitter.com/esWQ1aqShC&lt;/a&gt;&lt;/p&gt;&amp;mdash; James Newton-King ♔ (&amp;#64;JamesNK) &lt;a href="https://twitter.com/JamesNK/status/1659366431920898049?ref_src=twsrc%5Etfw"&gt;May 19, 2023&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;AWS FOSS fund が Avalonia UI をスポンサーしたという話。&lt;/p&gt;
-&lt;!-- https://twitter.com/dotnetonaws/status/1658578068762394625?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;For the month of May, the .NET on AWS FOSS fund is proud to have selected Avalonia UI as part of its monthly pledge to sponsor .NET &lt;a href="https://twitter.com/hashtag/OSS?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#OSS&lt;/a&gt; projects. 🎉&lt;br&gt;Our selection committee awarded &lt;a href="https://twitter.com/AvaloniaUI?ref_src=twsrc%5Etfw"&gt;&amp;#64;AvaloniaUI&lt;/a&gt; 12 $500 payments totaling $6k in funding. Thanks for empowering the &lt;a href="https://twitter.com/hashtag/dotnet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotnet&lt;/a&gt; ecosystem! &lt;a href="https://t.co/WunElv1Dql"&gt;pic.twitter.com/WunElv1Dql&lt;/a&gt;&lt;/p&gt;&amp;mdash; .NET on AWS (&amp;#64;dotnetonAWS) &lt;a href="https://twitter.com/dotnetonAWS/status/1658578068762394625?ref_src=twsrc%5Etfw"&gt;May 16, 2023&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;h2 id="deep-dive"&gt;Deep Dive&lt;/h2&gt;
-&lt;h3 id="api-diff-between.net-8.0-preview-3-and.net-8-preview-4-by-carlossanlop-pull-request-8469-dotnetcore"&gt;API diff between .NET 8.0 Preview 3 and .NET 8 Preview 4 by carlossanlop · Pull Request #8469 · dotnet/core&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/dotnet/core/pull/8469"&gt;https://github.com/dotnet/core/pull/8469&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 8 Preview 3 から 4 への API の差分&lt;/p&gt;
 </content>
 		<summary>.NET 関連の情報をほぼ週刊配信</summary>
 	</entry>
