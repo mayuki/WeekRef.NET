@@ -7,9 +7,95 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2023-09-03T11:29:26Z</updated>
+	<updated>2023-09-10T13:04:21Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
+	<entry>
+		<id>/2023/09/10/updates</id>
+		<title>2023-09-10: grpc-dotnet v2.57.0, Uno Platform 4.10.13, Windows Community Toolkit v8.0</title>
+		<author>
+			<name>Mayuki Sawatari</name>
+		</author>
+		<link href="/2023/09/10/updates" />
+		<link rel="enclosure" type="image" href="/img/logo.png" />
+		<updated>2023-09-10T00:00:00Z</updated>
+		<content>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="release-release-v2.57.0-grpcgrpc-dotnet"&gt;Release Release v2.57.0 · grpc/grpc-dotnet&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/grpc/grpc-dotnet/releases/tag/v2.57.0"&gt;https://github.com/grpc/grpc-dotnet/releases/tag/v2.57.0&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="release-4.10.13-unoplatformuno"&gt;Release 4.10.13 · unoplatform/uno&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/unoplatform/uno/releases/tag/4.10.13"&gt;https://github.com/unoplatform/uno/releases/tag/4.10.13&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="announcing-windows-community-toolkit-v8.0-ifdef-windows"&gt;Announcing Windows Community Toolkit v8.0 - #ifdef Windows&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/ifdef-windows/announcing-windows-community-toolkit-v8-0/"&gt;https://devblogs.microsoft.com/ifdef-windows/announcing-windows-community-toolkit-v8-0/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="wpf-file-dialog-improvements-in.net-8.net-blog"&gt;WPF File Dialog Improvements in .NET 8 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/wpf-file-dialog-improvements-in-dotnet-8/"&gt;https://devblogs.microsoft.com/dotnet/wpf-file-dialog-improvements-in-dotnet-8/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="green-thread-experiment-results-issue-2398-dotnetruntimelab"&gt;Green Thread Experiment Results · Issue #2398 · dotnet/runtimelab&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/dotnet/runtimelab/issues/2398"&gt;https://github.com/dotnet/runtimelab/issues/2398&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="debugging-docker-compose-solutions-in-jetbrains-rider-a-deep-dive"&gt;Debugging Docker Compose Solutions in JetBrains Rider: A Deep Dive&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/maxarshinov/debugging-docker-compose-solutions-in-jetbrains-rider-a-deep-dive-2a2d"&gt;https://dev.to/maxarshinov/debugging-docker-compose-solutions-in-jetbrains-rider-a-deep-dive-2a2d&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="daniel-cazzulino-creator-of-moq-and-sponsorlink-code-code-ship"&gt;Daniel Cazzulino, creator of Moq and SponsorLink · Code Code Ship&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://codecodeship.com/blog/2023-09-07-daniel-cazzulino"&gt;https://codecodeship.com/blog/2023-09-07-daniel-cazzulino&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="everything-you-need-to-know-about-configuration-and-secret-management-in.net"&gt;Everything you need to know about configuration and secret management in .NET&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://stenbrinke.nl/blog/configuration-and-secret-management-in-dotnet/"&gt;https://stenbrinke.nl/blog/configuration-and-secret-management-in-dotnet/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-annotated-monthly-september-2023-the.net-tools-blog"&gt;.NET Annotated Monthly | September 2023 | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/09/07/net-annotated-monthly-september-2023/"&gt;https://blog.jetbrains.com/dotnet/2023/09/07/net-annotated-monthly-september-2023/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="elevating-debugging-with-auto-decompilation-and-external-sources-visual-studio-blog"&gt;Elevating Debugging with Auto-decompilation and External Sources - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/elevating-debugging-with-auto-decompilation-and-external-sources/"&gt;https://devblogs.microsoft.com/visualstudio/elevating-debugging-with-auto-decompilation-and-external-sources/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="vulkan-wpf-qiita"&gt;Vulkan から WPF に直接イメージをコピーする - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/moka76203078/items/70d5cb4530f7994f7374"&gt;https://qiita.com/moka76203078/items/70d5cb4530f7994f7374&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="demystifying-retrieval-augmented-generation-with.net.net-blog"&gt;Demystifying Retrieval Augmented Generation with .NET - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/demystifying-retrieval-augmented-generation-with-dotnet/"&gt;https://devblogs.microsoft.com/dotnet/demystifying-retrieval-augmented-generation-with-dotnet/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="keep-your-casing-with-case-preserving-find-and-replace-visual-studio-blog"&gt;Keep your casing with Case-preserving Find and Replace - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/keep-your-casing-with-case-preserving-find-and-replace/"&gt;https://devblogs.microsoft.com/visualstudio/keep-your-casing-with-case-preserving-find-and-replace/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="introducing-the-identity-api-endpoints-exploring-the.net-8-preview-part-8"&gt;Introducing the Identity API endpoints: Exploring the .NET 8 preview - Part 8&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/exploring-the-dotnet-8-preview-introducing-the-identity-api-endpoints/"&gt;https://andrewlock.net/exploring-the-dotnet-8-preview-introducing-the-identity-api-endpoints/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="redos-attacks-how-regex-can-bring-down-your-system-and-how-to-avoid-them"&gt;ReDoS Attacks: How Regex Can Bring Down Your System and How to Avoid Them&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://levelup.gitconnected.com/redos-attacks-how-regex-can-bring-down-your-system-and-how-to-avoid-them-355f269c1f9d"&gt;https://levelup.gitconnected.com/redos-attacks-how-regex-can-bring-down-your-system-and-how-to-avoid-them-355f269c1f9d&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="resharper-2023.3-roadmap-the.net-tools-blog"&gt;ReSharper 2023.3 Roadmap | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/09/05/resharper-2023-3-roadmap/"&gt;https://blog.jetbrains.com/dotnet/2023/09/05/resharper-2023-3-roadmap/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="rider-2023.3-roadmap-the.net-tools-blog"&gt;Rider 2023.3 Roadmap | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/09/05/rider-2023-3-roadmap/"&gt;https://blog.jetbrains.com/dotnet/2023/09/05/rider-2023-3-roadmap/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="blazor-qiita"&gt;Blazorでカレンダーコンポーネントを使ってみる - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/HAGITAKO/items/7c091a0ca5ed6ca917ba"&gt;https://qiita.com/HAGITAKO/items/7c091a0ca5ed6ca917ba&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="supercharge-your.net-data-visualizations-with-grafana-dashboards-find-out-how"&gt;Supercharge Your .NET Data Visualizations with Grafana Dashboards — Find Out How!&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.devops.dev/supercharge-your-net-data-visualizations-with-grafana-dashboards-find-out-how-4d955904629b"&gt;https://blog.devops.dev/supercharge-your-net-data-visualizations-with-grafana-dashboards-find-out-how-4d955904629b&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="blazingstory-a-blazor-component-development-game-changer"&gt;BlazingStory: A Blazor Component Development Game Changer&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;mariekie/blazingstory-a-blazor-component-development-game-changer-9b249dc7de34"&gt;https://medium.com/&amp;#64;mariekie/blazingstory-a-blazor-component-development-game-changer-9b249dc7de34&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="wpfmain"&gt;WPFアプリケーションのMainメソッドを編集する&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/hat_kotap/articles/1652558a2aaa48"&gt;https://zenn.dev/hat_kotap/articles/1652558a2aaa48&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="investigating.net-out-of-memory-exceptions-using-sysinternals-procdump-for-linux"&gt;Investigating .NET Out of Memory Exceptions Using Sysinternals ProcDump for Linux&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;marioh_78322/investigating-net-out-of-memory-exceptions-using-sysinternals-procdump-for-linux-8a59c8b289"&gt;https://medium.com/&amp;#64;marioh_78322/investigating-net-out-of-memory-exceptions-using-sysinternals-procdump-for-linux-8a59c8b289&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="taskvaluetask-asyncawait"&gt;Task/ValueTask を直接返せる場合でも原則非同期メソッド (async/await) にしたほうが良い&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/mayuki/articles/96a17916096714"&gt;https://zenn.dev/mayuki/articles/96a17916096714&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="tales-from-the.net-migration-trenches-empty-proxy"&gt;Tales from the .NET Migration Trenches - Empty Proxy&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.jimmybogard.com/tales-from-the-net-migration-trenches-empty-proxy/"&gt;https://www.jimmybogard.com/tales-from-the-net-migration-trenches-empty-proxy/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="bearertoken-the-new-authentication-handler-in.net-8-tore-nestenius-trainer-and-senior-software-developer"&gt;BearerToken: The new Authentication handler in .NET 8 – Tore Nestenius | Trainer and Senior Software Developer&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://nestenius.se/2023/08/29/bearertoken-the-new-authentication-handler-in-net-8/"&gt;https://nestenius.se/2023/08/29/bearertoken-the-new-authentication-handler-in-net-8/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="the-weak-event-pattern-in-c"&gt;The &amp;quot;Weak Event&amp;quot; Pattern in C#&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://steven-giesel.com/blogPost/675b75fc-2c1b-43da-9ff8-42962ca8159b"&gt;https://steven-giesel.com/blogPost/675b75fc-2c1b-43da-9ff8-42962ca8159b&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="c.net-worker-service-health-check"&gt;【C#】.NET Worker Service の health check。 - ねののお庭。&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.neno.dev/entry/2023/09/10/153014"&gt;https://blog.neno.dev/entry/2023/09/10/153014&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="use-dateonly-and-timeonly-with-ef-core-6-7-8-and-azure-sql-sql-server"&gt;Use DateOnly and TimeOnly with EF Core 6, 7 &amp;amp; 8 and Azure SQL / SQL Server&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://erikej.github.io/efcore/sqlserver/2023/09/03/efcore-dateonly-timeonly.html"&gt;https://erikej.github.io/efcore/sqlserver/2023/09/03/efcore-dateonly-timeonly.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
+&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
+&lt;!-- https://x.com/marcgravell/status/1698357724470276104?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;So it looks like the main feedback here is &amp;quot;book&amp;quot;; I&amp;#39;m going to give it a whirl! Watch this space...&lt;a href="https://t.co/ijwIPp36MF"&gt;https://t.co/ijwIPp36MF&lt;/a&gt; &lt;a href="https://t.co/TgwOB9GC8J"&gt;https://t.co/TgwOB9GC8J&lt;/a&gt;&lt;/p&gt;&amp;mdash; Marc Gravell (&amp;#64;marcgravell) &lt;a href="https://twitter.com/marcgravell/status/1698357724470276104?ref_src=twsrc%5Etfw"&gt;September 3, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content>
+		<summary>.NET 関連の情報をほぼ週刊配信</summary>
+	</entry>
 	<entry>
 		<id>/2023/09/03/updates</id>
 		<title>2023-09-03: Visual Studio for Mac Retirement, Windows App SDK 1.4.0, Polly 8.0.0-beta.1</title>
@@ -1253,149 +1339,6 @@
 &lt;p&gt;Visual Studio 2022 17.7 Preview 3 に C# 12 の Inline Arrays がマージされた。&lt;/p&gt;
 &lt;!-- https://twitter.com/jcouv/status/1673780113434091520?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;We merged a preview C# 12 feature into VS 17.7 (preview 3): inline arrays.&lt;br&gt;&lt;br&gt;It provides a general-purpose and safe mechanism for declaring inline arrays within classes, structs, and interfaces using the `[InlineArray(size)]` attribute.&lt;a href="https://t.co/VxQNdB3pav"&gt;https://t.co/VxQNdB3pav&lt;/a&gt;&lt;/p&gt;&amp;mdash; Julien Couvreur (&amp;#64;jcouv) &lt;a href="https://twitter.com/jcouv/status/1673780113434091520?ref_src=twsrc%5Etfw"&gt;June 27, 2023&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-</content>
-		<summary>.NET 関連の情報をほぼ週刊配信</summary>
-	</entry>
-	<entry>
-		<id>/2023/06/25/updates</id>
-		<title>2023-06-25: grpc-dotnet v2.54.0, Microsoft Forms Service’s Journey to .NET 6, ReSharper &amp; Rider 2023.1.3</title>
-		<author>
-			<name>Mayuki Sawatari</name>
-		</author>
-		<link href="/2023/06/25/updates" />
-		<link rel="enclosure" type="image" href="/img/logo.png" />
-		<updated>2023-06-25T00:00:00Z</updated>
-		<content>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="release-release-v2.54.0-grpcgrpc-dotnet"&gt;Release Release v2.54.0 · grpc/grpc-dotnet&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/grpc/grpc-dotnet/releases/tag/v2.54.0"&gt;https://github.com/grpc/grpc-dotnet/releases/tag/v2.54.0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;grpc-dotnet (gRPC for .NET) v2.54.0 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは認証インターセプターでの CancellationToken のサポートをはじめいくつかの改善と不具合の修正が含まれている。&lt;/p&gt;
-&lt;h3 id="microsoft-forms-services-journey-to.net-6.net-blog"&gt;Microsoft Forms Service’s Journey to .NET 6 - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/microsoft-forms-services-journey-to-dotnet-6/"&gt;https://devblogs.microsoft.com/dotnet/microsoft-forms-services-journey-to-dotnet-6/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Microsoft Forms (アンケートを作成するサービス) のマイクロサービスを .NET 6 へ移行した事例について。&lt;/p&gt;
-&lt;p&gt;Microsoft Forms は .NET Framework 4.7.2 の WebForms と Web API で構築されたマイクロサービスであったが、そのフロントエンド REST API とバックエンド REST API サービスを .NET 6 に移行したとのこと。&lt;/p&gt;
-&lt;p&gt;記事では移行に向けたアプローチと導入の結果を紹介している。移行のアプローチとしては初めに HttpContext の排除、次に依存の更新とプロジェクトの netstandard2.0 や net472, net6.0 といったマルチターゲットビルドへの変更を行った。その際マルチターゲットビルドが増えることによる問題についても紹介している。導入の結果としても CPU 使用率とレスポンスのレイテンシーが大きく改善されたとのこと。&lt;/p&gt;
-&lt;h3 id="resharper-and-rider-2023.1.3-another-set-of-bug-fixes-is-here-the.net-tools-blog"&gt;ReSharper and Rider 2023.1.3 – Another Set of Bug-fixes Is Here | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2023/06/23/rsrp-and-rd-2023-1-3-bug-fix/"&gt;https://blog.jetbrains.com/dotnet/2023/06/23/rsrp-and-rd-2023-1-3-bug-fix/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ReSharper と Rider 2023.1.3 がリリースされた。&lt;/p&gt;
-&lt;p&gt;ReSharper の Visual Studio でのパフォーマンス問題の修正、dotTrace と dotMemory のバグの修正、Rider のアップデータのクラッシュする問題やその他 IDE のバグの修正が含まれている。&lt;/p&gt;
-&lt;h3 id="whats-new-in-npoi-2.6.1"&gt;What’s New in NPOI 2.6.1&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://tonyqus.medium.com/whats-new-in-npoi-2-6-1-92b5f07c479c"&gt;https://tonyqus.medium.com/whats-new-in-npoi-2-6-1-92b5f07c479c&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;NPOI 2.6.1 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースではエリアチャートやパイチャートのサポート追加をはじめとしていくつかの改善と不具合の修正が含まれている。&lt;/p&gt;
-&lt;h3 id="get-ready-for-fsharpconf-2023.net-blog"&gt;Get ready for fsharpConf 2023! - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/tune-in-for-fsharpconf-2023/"&gt;https://devblogs.microsoft.com/dotnet/tune-in-for-fsharpconf-2023/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;F# のコミュニティーイベントの fsharpConf 2023 の紹介している記事。&lt;/p&gt;
-&lt;p&gt;fsharpConf 2023 は6月26日に開催される F# のコミュニティーのバーチャルイベント。記事ではイベントのタイムテーブルを紹介している。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://fsharpconf.com/"&gt;fsharpConf: The F# Community Virtual Conference&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="introducing-the-new-t4-command-line-tool-for.net.net-blog"&gt;Introducing the New T4 Command-Line Tool for .NET - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/t4-command-line-tool-for-dotnet/"&gt;https://devblogs.microsoft.com/dotnet/t4-command-line-tool-for-dotnet/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 17.6 以降で利用可能となった .NET 向けの T4 のコマンドラインツールの紹介。&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 17.6 以降では .NET 6 で動作する新しいバージョンの T4 (Text Template) 実行のコマンドラインツールが同梱されるようになった。&lt;/p&gt;
-&lt;p&gt;この新しいバージョンのツールは .NET 6 ランタイムで動作することで T4 のテンプレートからモダンな .NET のライブラリーを使用することができるようになる。現時点での制限として IDE から実行と MSBuild Task による実行はサポートされない。&lt;/p&gt;
-&lt;p&gt;今後に向けてのフィードバックについても求めており、記事からリンクされたアンケートも用意されている。&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="cmstestfine-code-coverage-qiita"&gt;C#のMSTestでFine Code Coverageでカバレッジを計測する - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/YoshijiGates/items/efc700574edbf8eb1ab2"&gt;https://qiita.com/YoshijiGates/items/efc700574edbf8eb1ab2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 Community でコードカバレッジを確認する方法について。&lt;/p&gt;
-&lt;p&gt;記事では Fine Code Coverage 拡張機能を導入して確認する方法を紹介している。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://marketplace.visualstudio.com/items?itemName=FortuneNgwenya.FineCodeCoverage2022"&gt;Fine Code Coverage - Visual Studio Marketplace&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="how-to-build-a-flight-network-analysis-graph-based-asp.net-application-with-memgraph-c-and-d3.js"&gt;How to Build a Flight Network Analysis Graph-Based ASP.NET Application with Memgraph, C#, and D3.js&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/memgraph/how-to-build-a-flight-network-analysis-graph-based-asp-net-application-with-memgraph-c-and-d3-js-601d7e7a6bdb"&gt;https://medium.com/memgraph/how-to-build-a-flight-network-analysis-graph-based-asp-net-application-with-memgraph-c-and-d3-js-601d7e7a6bdb&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Memgraph というインメモリのグラフ DB を使用し、ASP.NET アプリケーションで D3.js でビジュアライズするツールを構築するチュートリアル。&lt;/p&gt;
-&lt;h3 id="c-chatgpt-api-ai-function-calling-qiita"&gt;C# で ChatGPT API： AI で作曲する (Function calling を使用) - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/fsdg-adachi_h/items/7b2e75fa916cd6d4d804"&gt;https://qiita.com/fsdg-adachi_h/items/7b2e75fa916cd6d4d804&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ChatGPT の API を活用し AI で作曲、 MIDI ファイルを作成する方法について。&lt;/p&gt;
-&lt;p&gt;記事では ChatGPT の Function Calling を使用する形で実装している。&lt;/p&gt;
-&lt;h3 id="parsing-websites-in-c-with-html-agility-pack-or-anglesharp"&gt;Parsing websites in C# with Html Agility Pack or AngleSharp&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.elmah.io/parsing-websites-in-c-with-html-agility-pack-or-anglesharp/"&gt;https://blog.elmah.io/parsing-websites-in-c-with-html-agility-pack-or-anglesharp/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Html Agility Pack と AngleSharp を使用して Web サイトをスクレイピングする方法について。&lt;/p&gt;
-&lt;h3 id="improved.net-debugging-experience-with-source-link-ndepend"&gt;Improved .NET Debugging Experience with Source Link - NDepend&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.ndepend.com/improved-net-debugging-experience-with-source-link"&gt;https://blog.ndepend.com/improved-net-debugging-experience-with-source-link&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Source Link による .NET のデバッグ体験の向上についての紹介。&lt;/p&gt;
-&lt;h3 id="hash-signing-and-signature-validation-in-c-using-the-yubikey.net-sdk"&gt;Hash Signing and Signature Validation in C# Using the YubiKey .NET SDK&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;matt.heimlich/hash-signing-and-signature-validation-in-c-using-the-yubikey-net-sdk-dbaa227255dd"&gt;https://medium.com/&amp;#64;matt.heimlich/hash-signing-and-signature-validation-in-c-using-the-yubikey-net-sdk-dbaa227255dd&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;YubiKey の .NET SDK を使用して YubiKey を使用したハッシュ署名と署名の検証を行う方法について。&lt;/p&gt;
-&lt;h3 id="how-to-build-a-shared-library-in-java-and-call-it-from.net-code"&gt;How to Build a Shared Library in Java and Call it From .NET Code&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;sixpeteunder/how-to-build-a-shared-library-in-java-and-call-it-from-dotnet-code-b47c22300456"&gt;https://medium.com/&amp;#64;sixpeteunder/how-to-build-a-shared-library-in-java-and-call-it-from-dotnet-code-b47c22300456&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET から共有ライブラリーとしてビルドされた Java のライブラリーを呼び出す方法について。&lt;/p&gt;
-&lt;p&gt;記事では GraalVM でネイティブライブラリーにビルドされたものを C 言語によるラッパーを通して .NET から呼び出す形を紹介している。&lt;/p&gt;
-&lt;h3 id="caws-lambdagithub-actions-qiita"&gt;C#で作成したAWS Lambdaの関数をGitHub Actionsで自動デプロイする - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/shin4488/items/20660044f6c86cfdead2"&gt;https://qiita.com/shin4488/items/20660044f6c86cfdead2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET の AWS Lambda 関数を GitHub Actions からデプロイする方法について。&lt;/p&gt;
-&lt;h3 id="ncmbcmauixamarin-sdk-qiita"&gt;NCMBのC#（MAUI/Xamarin） SDKがプッシュ通知の操作に対応しました - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/goofmint/items/585b63dcb6374382afb1"&gt;https://qiita.com/goofmint/items/585b63dcb6374382afb1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ニフクラ mobile backend (NCMB) のコミュニティーによる SDK でプッシュ通知の操作に対応したことと使い方について。&lt;/p&gt;
-&lt;h3 id="xiao-esp32c3nanoframework-adc"&gt;XIAO ESP32C3で始めるnanoFramework &lt;sub&gt;ADC&lt;/sub&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/matsujirushi/articles/8bdbccd464d571"&gt;https://zenn.dev/matsujirushi/articles/8bdbccd464d571&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Seeed Studio XIAO ESP32C3 で nanoFramework を使用して ADC の値を読み取る方法について。&lt;/p&gt;
-&lt;h3 id="xamarin.mac.net-7"&gt;Xamarin.Macに別れを告げ、.NET 7に移行した話&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/dogfortune/articles/51d1b2aa17be27"&gt;https://zenn.dev/dogfortune/articles/51d1b2aa17be27&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Xamarin.Mac から .NET 7 に移行作業でのポイントをいくつかまとめた記事。&lt;/p&gt;
-&lt;h3 id="net-on-power-4-mariadbodbc-qiita"&gt;.NET on Power を動かしてみた話 #4 - MariaDBへODBCドライバを使用して接続 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/Nakaji1106/items/429034b3707c65c4d6ff"&gt;https://qiita.com/Nakaji1106/items/429034b3707c65c4d6ff&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Power アーキテクチャーで .NET を動かし、MariaDB に ODBC ドライバーで接続してみたという記事。&lt;/p&gt;
-&lt;h3 id="microsoft-store-qiita"&gt;アプリをMicrosoft Storeに提出してみる - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/dhq_boiler/items/781b2ef98ce26a090566"&gt;https://qiita.com/dhq_boiler/items/781b2ef98ce26a090566&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;アプリケーションを Microsoft Store に提出し、公開されるまでの流れについての解説。&lt;/p&gt;
-&lt;h3 id="reset-passwords-in-asp.net-core-using-delegated-permissions-and-microsoft-graph"&gt;Reset passwords in ASP.NET Core using delegated permissions and Microsoft Graph&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://damienbod.com/2023/06/19/reset-passwords-in-asp-net-core-using-delegated-permissions-and-microsoft-graph/"&gt;https://damienbod.com/2023/06/19/reset-passwords-in-asp-net-core-using-delegated-permissions-and-microsoft-graph/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core アプリケーションから Microsoft Graph を使用してユーザーのパスワードをリセットする方法について。&lt;/p&gt;
-&lt;h3 id="getting-the.net-desktop-runtime-installed-with-a-custom-runtime-checker-and-installer"&gt;Getting the .NET Desktop Runtime Installed with a Custom Runtime Checker and Installer&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://weblog.west-wind.com/posts/2023/Jun/21/Creating-a-Runtime-Checker-and-Installer-for-a-NET-Core-WPF-Application"&gt;https://weblog.west-wind.com/posts/2023/Jun/21/Creating-a-Runtime-Checker-and-Installer-for-a-NET-Core-WPF-Application&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET ランタイムのインストール状況をチェックし、インストールするカスタムインストーラーについて。&lt;/p&gt;
-&lt;p&gt;記事ではランタイムの配布について、自己完結型配布について、共有ランタイムについて、インストーラーの実装解説といった内容が解説されている。&lt;/p&gt;
-&lt;h3 id="wsl2.net-sdk-kkamegawas-weblog"&gt;WSL2の .NET SDKが認識されない現象を修復する - kkamegawa's weblog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://kkamegawa.hatenablog.jp/entry/2023/06/24/191525"&gt;https://kkamegawa.hatenablog.jp/entry/2023/06/24/191525&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;WSL 2 で .NET SDK が正常に認識されなくなった場合のトラブルシューティングについて。&lt;/p&gt;
-&lt;h3 id="validating-nested-dataannotation-ioptions-recursively-with-minivalidation"&gt;Validating nested DataAnnotation IOptions recursively with MiniValidation&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/validating-nested-dataannotation-options-recursively-with-minivalidation/"&gt;https://andrewlock.net/validating-nested-dataannotation-options-recursively-with-minivalidation/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;IOptions の検証として標準の &lt;code&gt;ValidateDataAnnotations&lt;/code&gt; を使用した場合、ネストされた検証が行われない問題を回避する方法について。&lt;/p&gt;
-&lt;p&gt;記事では MiniValidation を使用して検証する方法を紹介している。&lt;/p&gt;
-&lt;h3 id="windowswixtoolsetv4-qiita"&gt;Windowsインストーラーを作れるwixtoolsetの概要(v4) - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/skitoy4321/items/194888be042e5c4c32ad"&gt;https://qiita.com/skitoy4321/items/194888be042e5c4c32ad&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;WiX v4 についての概要をまとめた記事。WiX で使用されるファイルやビルド方法といったことを解説している。&lt;/p&gt;
-&lt;h3 id="c-12.0-c-c"&gt;C# 12.0 の新機能 | ++C++; // 未確認飛行 C ブログ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://ufcpp.net/study/csharp/cheatsheet/ap_ver12/"&gt;https://ufcpp.net/study/csharp/cheatsheet/ap_ver12/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;C# 12 (現時点ではプレビュー) で導入される新機能の解説。&lt;/p&gt;
-&lt;h3 id="net-c-c"&gt;.NET の文字列比較でカルチャー未指定を検知する | ++C++; // 未確認飛行 C ブログ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://ufcpp.net/blog/2023/6/ca-specify-culture/"&gt;https://ufcpp.net/blog/2023/6/ca-specify-culture/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;文字列比較でカルチャーが未指定の場合に警告/エラーとするようにして事前に気づけるようにする方法について。&lt;/p&gt;
-&lt;p&gt;記事では .NET 5 で導入された NetAnalyzers と .editorconfig を使用してエラーにする手法を紹介している。&lt;/p&gt;
-&lt;h3 id="announcing-create-a-pull-request-in-visual-studio-visual-studio-blog"&gt;Announcing Create a Pull Request in Visual Studio - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/create-a-pull-request-in-visual-studio/"&gt;https://devblogs.microsoft.com/visualstudio/create-a-pull-request-in-visual-studio/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 17.7 preview 2 で追加された Pull request の作成機能の紹介。&lt;/p&gt;
-&lt;h3 id="how-to-detect-heap-allocations"&gt;How to detect heap allocations&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://bartwullems.blogspot.com/2023/06/how-to-detect-heap-allocations.html"&gt;https://bartwullems.blogspot.com/2023/06/how-to-detect-heap-allocations.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ヒープアロケーションを検出する方法について。&lt;/p&gt;
-&lt;p&gt;記事では Visual Studio のプロファイラーと ClrHeapAllocationAnalyzer を使用したコード上での検出を紹介している。&lt;/p&gt;
-&lt;h3 id="treat-your.net-minimal-api-endpoint-as-the-application-layer"&gt;Treat your .NET Minimal API Endpoint as the application layer&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://timdeschryver.dev/blog/treat-your-net-minimal-api-endpoint-as-the-application-layer"&gt;https://timdeschryver.dev/blog/treat-your-net-minimal-api-endpoint-as-the-application-layer&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core の Minimal API をアーキテクチャー上のアプリケーション層としてあつかう構成について。&lt;/p&gt;
-&lt;h3 id="how-does-list-work-under-the-hood-in.net"&gt;How does List work under the hood in .NET?&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://steven-giesel.com/blogPost/06e2c8e8-0119-4e8d-9227-3cb922a8c916"&gt;https://steven-giesel.com/blogPost/06e2c8e8-0119-4e8d-9227-3cb922a8c916&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;List&amp;lt;T&amp;gt;&lt;/code&gt; の内部の実装についての簡単な解説。&lt;/p&gt;
-&lt;h2 id="section-2"&gt;サイト、ドキュメントなど&lt;/h2&gt;
-&lt;h3 id="section-3"&gt;ツイート&lt;/h3&gt;
-&lt;p&gt;Visual Studio 2022 17.6 では GC や CPU が高負荷な状況をテレメトリーで見るようになったという話。&lt;/p&gt;
-&lt;p&gt;続くスレッドではどのような体制でどのように活用できているのかを説明している。&lt;/p&gt;
-&lt;!-- https://twitter.com/davkean/status/1672295235026829312?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;In Visual Studio 17.6, we rolled out new a couple of new telemetry systems that capture high-GC and high-CPU usage within Visual Studio. This supplements our existing crash, hang, freeze, thread pool &amp;amp; memory usage performance &amp;amp; reliability telemetry.&lt;/p&gt;&amp;mdash; David Kean (&amp;#64;davkean) &lt;a href="https://twitter.com/davkean/status/1672295235026829312?ref_src=twsrc%5Etfw"&gt;June 23, 2023&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 </content>
 		<summary>.NET 関連の情報をほぼ週刊配信</summary>
