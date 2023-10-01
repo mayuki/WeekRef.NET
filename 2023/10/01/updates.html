@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2023-10-01: Debugging Enhancements in .NET 8, Polly v8, CoreWCF v1.4 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2023/10/01/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2023-10-01: Debugging Enhancements in .NET 8, Polly v8, CoreWCF v1.4 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2023/10/01/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2023-10-01: Debugging Enhancements in .NET 8, Polly v8, CoreWCF v1.4
+          </h1>
+              <div class="meta">Published on Sunday, 01 October 2023</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="debugging-enhancements-in.net-8.net-blog">Debugging Enhancements in .NET 8 - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/debugging-enhancements-in-dotnet-8/">https://devblogs.microsoft.com/dotnet/debugging-enhancements-in-dotnet-8/</a></p>
+<h3 id="polly-v8-officially-released">Polly v8 officially released</h3>
+<p><a href="https://www.thepollyproject.org/2023/09/28/polly-v8-officially-released/">https://www.thepollyproject.org/2023/09/28/polly-v8-officially-released/</a></p>
+<ul>
+<li><a href="https://github.com/App-vNext/Polly/releases/tag/8.0.0">Release 8.0.0 · App-vNext/Polly</a></li>
+</ul>
+<h3 id="corewcf-v1.4-and-v1.5-preview1-released-issue-15-corewcfannouncements">CoreWCF v1.4 and v1.5 preview1 released · Issue #15 · CoreWCF/announcements</h3>
+<p><a href="https://github.com/CoreWCF/announcements/issues/15">https://github.com/CoreWCF/announcements/issues/15</a></p>
+<ul>
+<li><a href="https://www.infoq.com/news/2023/09/corewcf-140-released/">CoreWCF 1.4.0 Released: RabbitMQ and Apache Kafka Support Added</a></li>
+</ul>
+<h3 id="release-diagnostics-release-v7.0.447801-dotnetdiagnostics">Release Diagnostics Release - v7.0.447801 · dotnet/diagnostics</h3>
+<p><a href="https://github.com/dotnet/diagnostics/releases/tag/v7.0.447801">https://github.com/dotnet/diagnostics/releases/tag/v7.0.447801</a></p>
+<h3 id="net-framework-september-2023-cumulative-update-preview.net-blog">.NET Framework September 2023 Cumulative Update Preview - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/dotnet-framework-september-2023-cumulative-update-preview/">https://devblogs.microsoft.com/dotnet/dotnet-framework-september-2023-cumulative-update-preview/</a></p>
+<h3 id="get-a-sneak-peek-the-visual-studio-tea-technology-miniseries-visual-studio-blog">Get a Sneak Peek: The Visual Studio 'Tea &amp; Technology' Miniseries - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/visual-studio-tea-technology-miniseries/">https://devblogs.microsoft.com/visualstudio/visual-studio-tea-technology-miniseries/</a></p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="cicd-unleashed-optimizing.net-web-application-delivery-with-jenkins-and-docker">CI/CD Unleashed: Optimizing .NET Web Application Delivery with Jenkins and Docker</h3>
+<p><a href="https://medium.com/&#64;shubnimkar/ci-cd-unleashed-optimizing-net-web-application-delivery-with-jenkins-and-docker-ed67ca06aeba">https://medium.com/&#64;shubnimkar/ci-cd-unleashed-optimizing-net-web-application-delivery-with-jenkins-and-docker-ed67ca06aeba</a></p>
+<h3 id="efsqldb-qiita">EFとSQLDBの暗号化について - Qiita</h3>
+<p><a href="https://qiita.com/gsrh/items/cd77acbc2af350b3ee03">https://qiita.com/gsrh/items/cd77acbc2af350b3ee03</a></p>
+<h3 id="gitlab-cicdcwpf">GitLab CI/CDを導入してC#/WPFアプリケーションのテストとインストーラーのビルド・デプロイを自動化する</h3>
+<p><a href="https://zenn.dev/hacarus_blog/articles/3-gitlab-ci-for-c-application">https://zenn.dev/hacarus_blog/articles/3-gitlab-ci-for-c-application</a></p>
+<h3 id="handling-of-unknown-enums-in.net-serialization-for-api-integration">Handling of unknown enums in .NET serialization for API integration</h3>
+<p><a href="https://gaevoy.com/2023/09/26/dotnet-serialization-unknown-enums-handling-api.html">https://gaevoy.com/2023/09/26/dotnet-serialization-unknown-enums-handling-api.html</a></p>
+<h3 id="server-sent-events-with.net-7">Server Sent Events with .NET 7</h3>
+<p><a href="https://blog.devgenius.io/server-sent-events-with-net-7-4f06499a7762">https://blog.devgenius.io/server-sent-events-with-net-7-4f06499a7762</a></p>
+<h3 id="cdi-qiita">[C#]DIコンテナのスコープ範囲を制御する - Qiita</h3>
+<p><a href="https://qiita.com/jun1s/items/a4ebf7e897dc3cb1fea9">https://qiita.com/jun1s/items/a4ebf7e897dc3cb1fea9</a></p>
+<h3 id="asp.net-core-signalr-redis-hub-qiita">ASP.NET Core SignalR × Redis でHubを冗長化 - Qiita</h3>
+<p><a href="https://qiita.com/takasan/items/c9f245d0be24111e0cc1">https://qiita.com/takasan/items/c9f245d0be24111e0cc1</a></p>
+<h3 id="preventing-breaking-changes-in.net-class-libraries">Preventing breaking changes in .NET class libraries</h3>
+<p><a href="https://medium.com/workleap/preventing-breaking-changes-in-net-class-libraries-e61ae93b1b46">https://medium.com/workleap/preventing-breaking-changes-in-net-class-libraries-e61ae93b1b46</a></p>
+<h3 id="the-convenience-of.net.net-blog">The convenience of .NET - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/the-convenience-of-dotnet/">https://devblogs.microsoft.com/dotnet/the-convenience-of-dotnet/</a></p>
+<h3 id="a-unit-of-profiling-makes-the-allocations-go-away-visual-studio-blog">A unit of profiling makes the allocations go away - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/a-unit-of-profiling-makes-the-allocations-go-away/">https://devblogs.microsoft.com/visualstudio/a-unit-of-profiling-makes-the-allocations-go-away/</a></p>
+<h3 id="rider-kicks-off-the-early-access-program-for-the-2023.3-release-the.net-tools-blog">Rider Kicks Off the Early Access Program for the 2023.3 Release! | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/09/25/rider-2023-3-eap1/">https://blog.jetbrains.com/dotnet/2023/09/25/rider-2023-3-eap1/</a></p>
+<h3 id="windowsc-qiita">【Windows/C#】アクセストークンの特権を変更する - Qiita</h3>
+<p><a href="https://qiita.com/mitsu_at3/items/8e5fa9cdbd61a315cb32">https://qiita.com/mitsu_at3/items/8e5fa9cdbd61a315cb32</a></p>
+<h3 id="resharper-2023.3-early-access-program-begins-the.net-tools-blog">ReSharper 2023.3 Early Access Program Begins! | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/09/25/rsrp-2023-3-eap1/">https://blog.jetbrains.com/dotnet/2023/09/25/rsrp-2023-3-eap1/</a></p>
+<h3 id="how-to-modify-response-headers-in-asp.net-core-middleware">How to modify response headers in ASP.NET Core middleware</h3>
+<p><a href="https://blog.elmah.io/how-to-modify-response-headers-in-asp-net-core-middleware/">https://blog.elmah.io/how-to-modify-response-headers-in-asp-net-core-middleware/</a></p>
+<h3 id="accessing-private-members-without-reflection-in-c-gerald-barre">Accessing private members without reflection in C# - Gérald Barré</h3>
+<p><a href="https://www.meziantou.net/accessing-private-members-without-reflection-in-csharp.htm">https://www.meziantou.net/accessing-private-members-without-reflection-in-csharp.htm</a></p>
+<h3 id="tales-from-the.net-migration-trenches-our-first-controller">Tales from the .NET Migration Trenches - Our First Controller</h3>
+<p><a href="https://www.jimmybogard.com/tales-from-the-net-migration-trenches-our-first-controller/">https://www.jimmybogard.com/tales-from-the-net-migration-trenches-our-first-controller/</a></p>
+<h3 id="feature-flags-101-a-guide-for.net-developers">Feature Flags 101: A Guide for .NET Developers</h3>
+<p><a href="https://www.code4it.dev/blog/feature-flags-dotnet/">https://www.code4it.dev/blog/feature-flags-dotnet/</a></p>
+<h3 id="building.net-solutions-through-code-on-nuke-build">Building .NET solutions through code on Nuke Build</h3>
+<p><a href="https://medium.com/&#64;alex.ozr/building-net-solutions-through-code-on-nuke-build-de40be06b091">https://medium.com/&#64;alex.ozr/building-net-solutions-through-code-on-nuke-build-de40be06b091</a></p>
+<h3 id="test-coverage-analysis-with-coverlet-in.net">Test Coverage Analysis with Coverlet in .NET</h3>
+<p><a href="https://victormagalhaes-dev.medium.com/test-coverage-analysis-with-coverlet-in-net-2e38df3c6ed7">https://victormagalhaes-dev.medium.com/test-coverage-analysis-with-coverlet-in-net-2e38df3c6ed7</a></p>
+<h3 id="tales-from-the.net-migration-trenches-migrating-initial-business-logic">Tales from the .NET Migration Trenches - Migrating Initial Business Logic</h3>
+<p><a href="https://www.jimmybogard.com/tales-from-the-net-migration-trenches-migrating-business-logic/">https://www.jimmybogard.com/tales-from-the-net-migration-trenches-migrating-business-logic/</a></p>
+<h2 id="section-2">サイト、ドキュメントなど</h2>
+<h3 id="section-3">ツイート</h3>
+<!-- https://x.com/mhmd_azeez/status/1706713404415549906?s=12&t=ggvrrZ7oLogHyNoIGNgjbw -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I am very excited to share something I have been working on for the past few weeks: <a href="https://twitter.com/extism?ref_src=twsrc%5Etfw">&#64;extism</a> .NET PDK! Start building universal wasm libraries in C# and F#: <a href="https://t.co/T5UupbWgOA">https://t.co/T5UupbWgOA</a><br><br>It&#39;s still very experimental, but we would love to get your feedback<a href="https://twitter.com/hashtag/csharp?src=hash&amp;ref_src=twsrc%5Etfw">#csharp</a> <a href="https://twitter.com/hashtag/dotnet?src=hash&amp;ref_src=twsrc%5Etfw">#dotnet</a> <a href="https://twitter.com/hashtag/fsharp?src=hash&amp;ref_src=twsrc%5Etfw">#fsharp</a></p>&mdash; Muhammad Azeez (&#64;mhmd_azeez) <a href="https://twitter.com/mhmd_azeez/status/1706713404415549906?ref_src=twsrc%5Etfw">September 26, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- https://x.com/egorbo/status/1706316706316996947?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In .NET you can load a huge graph(s) of objects directly from a file and, basically, mmap it &amp; register as a managed heap! GC won&#39;t waste time scanning/compacting/collecting it. Quick example of me registering stack memory as a managed heap: <a href="https://t.co/ljAn6UNoqS">pic.twitter.com/ljAn6UNoqS</a></p>&mdash; Egor Bogatov (&#64;EgorBo) <a href="https://twitter.com/EgorBo/status/1706316706316996947?ref_src=twsrc%5Etfw">September 25, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
