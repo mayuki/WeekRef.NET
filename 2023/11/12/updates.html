@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2023-11-12: The convenience of System.IO, ILSpy 8.2, .NET MAUI Community Toolkit v6.1.0 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2023/11/12/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2023-11-12: The convenience of System.IO, ILSpy 8.2, .NET MAUI Community Toolkit v6.1.0 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2023/11/12/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2023-11-12: The convenience of System.IO, ILSpy 8.2, .NET MAUI Community Toolkit v6.1.0
+          </h1>
+              <div class="meta">Published on Sunday, 12 November 2023</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="the-convenience-of-system.io.net-blog">The convenience of System.IO - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/the-convenience-of-system-io/">https://devblogs.microsoft.com/dotnet/the-convenience-of-system-io/</a></p>
+<h3 id="whats-new-with-identity-in.net-8.net-blog">What's new with identity in .NET 8 - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/whats-new-with-identity-in-dotnet-8/">https://devblogs.microsoft.com/dotnet/whats-new-with-identity-in-dotnet-8/</a></p>
+<h3 id="release-ilspy-8.2-icsharpcodeilspy">Release ILSpy 8.2 · icsharpcode/ILSpy</h3>
+<p><a href="https://github.com/icsharpcode/ILSpy/releases/tag/v8.2">https://github.com/icsharpcode/ILSpy/releases/tag/v8.2</a></p>
+<h3 id="release-v6.1.0-a-new-release-popped-up-communitytoolkitmaui">Release v6.1.0: A New Release Popped Up! · CommunityToolkit/Maui</h3>
+<p><a href="https://github.com/CommunityToolkit/Maui/releases/tag/6.1.0">https://github.com/CommunityToolkit/Maui/releases/tag/6.1.0</a></p>
+<h3 id="release-release-v2.59.0-grpcgrpc-dotnet">Release Release v2.59.0 · grpc/grpc-dotnet</h3>
+<p><a href="https://github.com/grpc/grpc-dotnet/releases/tag/v2.59.0">https://github.com/grpc/grpc-dotnet/releases/tag/v2.59.0</a></p>
+<h3 id="release-2.3.0-beta-4-mysql-netmysqlconnector">Release 2.3.0 Beta 4 · mysql-net/MySqlConnector</h3>
+<p><a href="https://github.com/mysql-net/MySqlConnector/releases/tag/2.3.0-beta.4">https://github.com/mysql-net/MySqlConnector/releases/tag/2.3.0-beta.4</a></p>
+<h3 id="release-microsoft.ui.xaml-v2.8.6-microsoftmicrosoft-ui-xaml">Release Microsoft.UI.Xaml v2.8.6 · microsoft/microsoft-ui-xaml</h3>
+<p><a href="https://github.com/microsoft/microsoft-ui-xaml/releases/tag/v2.8.6">https://github.com/microsoft/microsoft-ui-xaml/releases/tag/v2.8.6</a></p>
+<h3 id="more-bug-fixes-resharper-2023.2.3-and-rider-2023.2.3-are-out-the.net-tools-blog">More Bug Fixes: ReSharper 2023.2.3 and Rider 2023.2.3 Are Out! | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/11/03/resharper-rider-2023-2-3/">https://blog.jetbrains.com/dotnet/2023/11/03/resharper-rider-2023-2-3/</a></p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="c">【C#】固定長配列をリフレクションで操作する</h3>
+<p><a href="https://zenn.dev/ruccho/articles/c000525edfaffe">https://zenn.dev/ruccho/articles/c000525edfaffe</a></p>
+<h3 id="reading-json-and-binary-data-from-multipartform-data-sections-in-asp.net-core">Reading JSON and binary data from multipart/form-data sections in ASP.NET Core</h3>
+<p><a href="https://andrewlock.net/reading-json-and-binary-data-from-multipart-form-data-sections-in-aspnetcore/">https://andrewlock.net/reading-json-and-binary-data-from-multipart-form-data-sections-in-aspnetcore/</a></p>
+<h3 id="net-annotated-monthly-november-2023-the.net-tools-blog">.NET Annotated Monthly | November 2023 | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/11/09/net-annotated-monthly-november-2023/">https://blog.jetbrains.com/dotnet/2023/11/09/net-annotated-monthly-november-2023/</a></p>
+<h3 id="section-2">いまさらはしごだか対応</h3>
+<p><a href="https://zenn.dev/panda728/articles/1846b923cfab6a">https://zenn.dev/panda728/articles/1846b923cfab6a</a></p>
+<h3 id="resharper-2023.3-eap-6-code-analysis-performance-improvements-support-for-c-12-interceptors-and-much-more.the.net-tools-blog">ReSharper 2023.3 EAP 6: Code Analysis Performance Improvements, Support for C# 12 Interceptors, and Much More. | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/11/08/resharper-2023-3-eap-6/">https://blog.jetbrains.com/dotnet/2023/11/08/resharper-2023-3-eap-6/</a></p>
+<h3 id="moonsharp-running-lua-scripts-in.net">MoonSharp - Running Lua Scripts in .NET</h3>
+<p><a href="https://khalidabuhakmeh.com/moonsharp-running-lua-scripts-in-dotnet">https://khalidabuhakmeh.com/moonsharp-running-lua-scripts-in-dotnet</a></p>
+<h3 id="how-to-dig-into-the-clr">How to dig into the CLR</h3>
+<p><a href="https://chnasarre.medium.com/how-to-dig-into-the-clr-bd67d884f8da">https://chnasarre.medium.com/how-to-dig-into-the-clr-bd67d884f8da</a></p>
+<h3 id="how-jetbrains-rider-implemented.net-webassembly-debugging-the.net-tools-blog">How JetBrains Rider Implemented .NET WebAssembly Debugging | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2023/11/07/how-jetbrains-rider-implemented-net-webassembly-debugging/">https://blog.jetbrains.com/dotnet/2023/11/07/how-jetbrains-rider-implemented-net-webassembly-debugging/</a></p>
+<h3 id="configureawait-in.net-8">ConfigureAwait in .NET 8</h3>
+<p><a href="https://blog.stephencleary.com/2023/11/configureawait-in-net-8.html">https://blog.stephencleary.com/2023/11/configureawait-in-net-8.html</a></p>
+<h3 id="exploring-object-layouts-to-kill-a-mocking-bug">Exploring Object Layouts - To kill a mocking bug</h3>
+<p><a href="https://vannevel.net/posts/exploring-object-layouts/">https://vannevel.net/posts/exploring-object-layouts/</a></p>
+<h3 id="net-httpclient-extensibility-support-for-unix-domain-sockets-named-pipes">.NET HttpClient extensibility: Support for Unix Domain Sockets &amp; Named Pipes</h3>
+<p><a href="https://medium.com/&#64;madhus.bsg/net-httpclient-extensibility-support-for-unix-domain-sockets-named-pipes-abe3c66ffb6e">https://medium.com/&#64;madhus.bsg/net-httpclient-extensibility-support-for-unix-domain-sockets-named-pipes-abe3c66ffb6e</a></p>
+<h3 id="czero-byte-reads">【C#】zero-byte reads という最適化とピン留めについて。 - ねののお庭。</h3>
+<p><a href="https://blog.neno.dev/entry/2023/11/11/215353">https://blog.neno.dev/entry/2023/11/11/215353</a></p>
+<h3 id="native-aot-with-asp.net-core-overview">Native AOT with ASP.NET Core - Overview</h3>
+<p><a href="https://www.thinktecture.com/en/net/native-aot-with-asp-net-core-overview/">https://www.thinktecture.com/en/net/native-aot-with-asp-net-core-overview/</a></p>
+<h3 id="net-conf-2023-recap-japan.net-microsoft-event">.NET Conf 2023 Recap Japan ～ 最新の.NETを学ぶ | Microsoft Event</h3>
+<p><a href="https://mktoevents.com/Microsoft+Event/415522/157-GQE-382">https://mktoevents.com/Microsoft+Event/415522/157-GQE-382</a></p>
+<h3 id="net-conf-2023-sendai-connpass">.NET Conf 2023 Sendai - connpass</h3>
+<p><a href="https://minamimachi.connpass.com/event/298198/">https://minamimachi.connpass.com/event/298198/</a></p>
+<h2 id="section-3">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="microsoftinshellisense-ide-style-command-line-auto-complete">microsoft/inshellisense: IDE style command line auto complete</h3>
+<p><a href="https://github.com/microsoft/inshellisense">https://github.com/microsoft/inshellisense</a></p>
+<h3 id="mikihiro-tnormalizejapaneseaddressesnet.net">mikihiro-t/NormalizeJapaneseAddressesNET: オープンソースの住所正規化ライブラリ。 .NET版</h3>
+<p><a href="https://github.com/mikihiro-t/NormalizeJapaneseAddressesNET">https://github.com/mikihiro-t/NormalizeJapaneseAddressesNET</a></p>
+<ul>
+<li><a href="https://qiita.com/hiro_t/items/8884e817bd40642c63e8">オープンソースの住所正規化ライブラリ NormalizeJapaneseAddresses .NET版 公開 - Qiita</a></li>
+</ul>
+<h2 id="section-4">サイト、ドキュメントなど</h2>
+<h3 id="section-5">ツイート</h3>
+<!-- https://x.com/terrajobst/status/1722011787053424825?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In case you missed it: <a href="https://t.co/BCOvhYeb4v">https://t.co/BCOvhYeb4v</a></p>&mdash; Immo Landwerth (&#64;terrajobst) <a href="https://twitter.com/terrajobst/status/1722011787053424825?ref_src=twsrc%5Etfw">November 7, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- https://x.com/ufcpp/status/1720646144139911476?s=12&t=ggvrrZ7oLogHyNoIGNgjbw -->
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://t.co/f5l6qzs6XQ">https://t.co/f5l6qzs6XQ</a><br>16年ぶりにページ更新(追記・部分書き換え)すると、ずいぶん文体変わっててどうしようってなった。</p>&mdash; ++C++; // 管理人: 岩永 (&#64;ufcpp) <a href="https://twitter.com/ufcpp/status/1720646144139911476?ref_src=twsrc%5Etfw">November 4, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
