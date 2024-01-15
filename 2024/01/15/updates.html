@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2024-01-15: Windows App SDK 1.4.4, .NET 8.0.1 &amp; 7.0.15 &amp; 6.0.26 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2024/01/15/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2024-01-15: Windows App SDK 1.4.4, .NET 8.0.1 &amp; 7.0.15 &amp; 6.0.26 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2024/01/15/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2024-01-15: Windows App SDK 1.4.4, .NET 8.0.1 &amp; 7.0.15 &amp; 6.0.26
+          </h1>
+              <div class="meta">Published on Monday, 15 January 2024</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="release-windows-app-sdk-1.4.4-1.4.231219000-microsoftwindowsappsdk">Release Windows App SDK 1.4.4 (1.4.231219000) · microsoft/WindowsAppSDK</h3>
+<p><a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.4.4">https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.4.4</a></p>
+<p>Windows App SDK 1.4.4 がリリースされた。</p>
+<p>このリリースでは WinUI 3 診断セキュリティー問題の修正、パスワードボックスでタッチ操作によるオンスクリーンキーボードが表示されない問題の修正などいくつかの不具合が修正されている。</p>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/stable-channel#version-144-14231219000">Version 1.4.4 (1.4.231219000) | Stable channel release notes for the Windows App SDK - Windows apps</a></li>
+<li><a href="https://github.com/microsoft/microsoft-ui-xaml/releases/tag/winui3/release/1.4.4">Release WinUI 3 in WinAppSDK 1.4.4 · microsoft/microsoft-ui-xaml · GitHub</a></li>
+</ul>
+<h3 id="net-january-2024-updates.net-8.0.1-7.0.15.net-6.0.26.net-blog">.NET January 2024 Updates – .NET 8.0.1, 7.0.15, .NET 6.0.26 - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/january-2024-updates/">https://devblogs.microsoft.com/dotnet/january-2024-updates/</a></p>
+<p>.NET 8.0.1, 7.0.15, 6.0.26 がリリースされた。</p>
+<p>このリリースでは3つの脆弱性の修正が含まれる他、いくつかの不具合の修正などが含まれている。</p>
+<ul>
+<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-0056">CVE-2024-0056 - セキュリティ更新プログラム ガイド - Microsoft - Microsoft.Data.SqlClient と System.Data.SqlClient の SQL データ プロバイダーのセキュリティ機能のバイパスの脆弱性</a></li>
+<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-0057">CVE-2024-0057 - セキュリティ更新プログラム ガイド - Microsoft - NET、.NET Framework、Visual Studio のセキュリティ機能のバイパス脆弱性</a></li>
+<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21319">CVE-2024-21319 - セキュリティ更新プログラム ガイド - Microsoft - Microsoft ID のサービス拒否の脆弱性</a></li>
+</ul>
+<h3 id="net-framework-january-2024-security-and-quality-rollup.net-blog">.NET Framework January 2024 Security and Quality Rollup - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/dotnet-framework-january-2024-security-and-quality-rollup/">https://devblogs.microsoft.com/dotnet/dotnet-framework-january-2024-security-and-quality-rollup/</a></p>
+<p>2024年1月の .NET Framework のセキュリティーと品質のロールアップリリース。</p>
+<p>このリリースでは4つの脆弱性の修正が含まれ、品質に関する修正は含まれない。</p>
+<ul>
+<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36042">CVE-2023-36042 - セキュリティ更新プログラム ガイド - Microsoft - Visual Studio のサービス拒否の脆弱性</a></li>
+<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-0056">CVE-2024-0056 - セキュリティ更新プログラム ガイド - Microsoft - Microsoft.Data.SqlClient と System.Data.SqlClient の SQL データ プロバイダーのセキュリティ機能のバイパスの脆弱性</a></li>
+<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-0057">CVE-2024-0057 - セキュリティ更新プログラム ガイド - Microsoft - NET、.NET Framework、Visual Studio のセキュリティ機能のバイパス脆弱性</a></li>
+<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21312">CVE-2024-21312 - セキュリティ更新プログラム ガイド - Microsoft - .NET Framework のサービス拒否の脆弱性</a></li>
+</ul>
+<h3 id="code-connect-learn-at-visual-studio-live-in-las-vegas-visual-studio-blog">Code, Connect &amp; Learn at Visual Studio LIVE! in Las Vegas. - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/visual-studio-live-2024-las-vegas/">https://devblogs.microsoft.com/visualstudio/visual-studio-live-2024-las-vegas/</a></p>
+<p>Visual Studio LIVE! イベントについてのアナウンス。</p>
+<p>Visual Studio LIVE! は3月3日から8日にかけて Las Vegas で開催される IDE や Azure、GitHub といった開発者向けのイベント。</p>
+<p>なお記事では2月9日までの特別割引オファーが提供されている。</p>
+<h3 id="our-move-to-generated-sdks">Our move to generated SDKs</h3>
+<p><a href="https://github.blog/2024-01-03-our-move-to-generated-sdks/">https://github.blog/2024-01-03-our-move-to-generated-sdks/</a></p>
+<p>GitHub の API アクセス SDK である Octokit を Kiota を使用して生成されたものへと移行するというアナウンス。</p>
+<p>新しい SDK は Kiota によって OpenAPI 定義から Go と .NET のクライアントを生成する形となる。</p>
+<ul>
+<li><a href="https://github.com/octokit/dotnet-sdk">octokit/dotnet-sdk</a></li>
+</ul>
+<h3 id="release-8.2.1-app-vnextpolly">Release 8.2.1 · App-vNext/Polly</h3>
+<p><a href="https://github.com/App-vNext/Polly/releases/tag/8.2.1">https://github.com/App-vNext/Polly/releases/tag/8.2.1</a></p>
+<p>Polly 8.2.1 がリリースされた。</p>
+<p>このリリースではリトライやサーキットブレーカーに関するいくつかの不具合が修正されている。</p>
+<h3 id="release-diagnostics-release-v8.0.505301-dotnetdiagnostics">Release Diagnostics Release - v8.0.505301 · dotnet/diagnostics</h3>
+<p><a href="https://github.com/dotnet/diagnostics/releases/tag/v8.0.505301">https://github.com/dotnet/diagnostics/releases/tag/v8.0.505301</a></p>
+<p>.NET 診断ツール v8.0.505301 がリリースされた。</p>
+<p>このリリースではいくつかの機能改善と不具合の修正、RISC-V の SOS 関連コードの実装などが含まれる。</p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="sortable-lists-for-blazor-using-a-sortablejs-component.net-blog">Sortable Lists for Blazor using a SortableJS Component - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/introducing-blazor-sortable/">https://devblogs.microsoft.com/dotnet/introducing-blazor-sortable/</a></p>
+<p>SortableJS を使用した Blazor 上でソート可能なリストを実現するコンポーネント Bazor Sortable の紹介。</p>
+<h3 id="short-history-of-all-windows-ui-frameworks-and-libraries">Short history of all Windows UI frameworks and libraries</h3>
+<p><a href="https://www.irrlicht3d.org/index.php?t=1626">https://www.irrlicht3d.org/index.php?t=1626</a></p>
+<p>Windows の UI フレームワークとライブラリーの簡単な歴史。</p>
+<h3 id="use-jetbrains-ai-assistant-to-help-you-understand-changes-in-your-code-the.net-tools-blog">Use JetBrains AI Assistant To Help You Understand Changes In Your Code | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2024/01/10/use-jetbrains-ai-assistant-to-help-you-understand-changes-in-your-code/">https://blog.jetbrains.com/dotnet/2024/01/10/use-jetbrains-ai-assistant-to-help-you-understand-changes-in-your-code/</a></p>
+<p>ReSharper や Rider で利用できる JetBrains AI Assistant でできることの紹介。</p>
+<p>記事では Git の複数のコミットからログを要約したり、チャットでコミットによるコードの変更の概要を確認するといったタスクを行える例を紹介している。</p>
+<h3 id="blazor-web-app.net8">Blazor Web App(.NET8)に多言語対応の機能を実装する。</h3>
+<p><a href="https://zenn.dev/tkeproject/articles/3069d23ab78123">https://zenn.dev/tkeproject/articles/3069d23ab78123</a></p>
+<p>Blazor Web App で言語リソースを使用した多言語対応を実装する方法について。</p>
+<h3 id="csyslogrsyslog">C#プログラムからsyslog(rsyslog)サーバーにログを送る</h3>
+<p><a href="https://zenn.dev/techmadot/articles/rsyslog-csharp">https://zenn.dev/techmadot/articles/rsyslog-csharp</a></p>
+<p>Serilog の syslog Sink を使用して syslog/rsyslog サーバーにログを送信する方法について。</p>
+<h3 id="a-year-of-community-experiments-visual-studio-blog">2023 – a year of community experiments - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/2023-a-year-of-community-experiments/">https://devblogs.microsoft.com/visualstudio/2023-a-year-of-community-experiments/</a></p>
+<p>2023年のコミュニティーでの Visual Studio の機能実験に関する振り返り。</p>
+<ul>
+<li>Differentiating Visual Studio instances</li>
+<li>Adding color to bracket pairs</li>
+<li>Comparing files in Visual Studio</li>
+<li>Copy with proper indentation</li>
+<li>Get your developer news</li>
+<li>Surround selection</li>
+<li>Scroll document tabs</li>
+<li>Image hover preview</li>
+</ul>
+<p>これらの機能を実験的な拡張として提供したのち、どのような数のフィードバックがあり結果として Visual Studio に搭載されたかどうかについて書かれている。</p>
+<h3 id="a-brief-look-at-stringvalues">A brief look at StringValues</h3>
+<p><a href="https://andrewlock.net/a-brief-look-at-stringvalues/">https://andrewlock.net/a-brief-look-at-stringvalues/</a></p>
+<p>ASP.NET Core のコードによく出てくる <code>StringValues</code> についての解説。</p>
+<p>記事では String の配列との違いや実際の実装の中身について解説している。</p>
+<h3 id="netopentelemetry-qiita">.NETの汎用ホストでOpenTelemetry - Qiita</h3>
+<p><a href="https://qiita.com/kwhrkzk/items/1f31759dd570b3be4fa2">https://qiita.com/kwhrkzk/items/1f31759dd570b3be4fa2</a></p>
+<p>.NET の Generic Host (汎用ホスト) で OpenTelemetry を使用する方法について。</p>
+<p>記事では Entity Framework Core の情報を Zipkin で表示するといった手順を紹介している。</p>
+<h3 id="visual-studio-performance-highlights-delivered-in-2023-visual-studio-blog">Visual Studio Performance Highlights Delivered in 2023 - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/visual-studio-performance-highlights-delivered-in-2023/">https://devblogs.microsoft.com/visualstudio/visual-studio-performance-highlights-delivered-in-2023/</a></p>
+<p>2023年の Visual Studio のパフォーマンス向上記事の振り返り。</p>
+<p>17.5から17.8までのパフォーマンス改善に関する記事へのリンクとその内容の簡単な紹介。</p>
+<h3 id="net-digest-january-2024-the.net-tools-blog">.NET Digest | January 2024 | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2024/01/08/net-digest-january-2024/">https://blog.jetbrains.com/dotnet/2024/01/08/net-digest-january-2024/</a></p>
+<p>JetBrains による .NET ニュースレター1月号。</p>
+<p>今までは JetBrains .NET Annotated という名前だったが今回から JetBrains .NET Digest という名前に変更となった。</p>
+<h3 id="asp.net-core-8.0-uses-c-12.0s-experimental-interceptors-to-enable-aot-endjin">ASP.NET Core 8.0 uses C# 12.0's experimental interceptors to enable AOT | endjin</h3>
+<p><a href="https://endjin.com/blog/2024/01/asp-dotnet-8-aot-csharp-12-interceptors">https://endjin.com/blog/2024/01/asp-dotnet-8-aot-csharp-12-interceptors</a></p>
+<p>C# 12 のプレビュー機能のインターセプターと ASP.NET Core で利用されている部分についての解説。</p>
+<p>.NET 8 の ASP.NET Core では NativeAOT 時にはインターセプターを活用したコード生成を行っている。記事ではその動作についての解説。</p>
+<h3 id="how-to-distribute-roslyn-analyzers-via-nuget">How to Distribute Roslyn Analyzers via NuGet</h3>
+<p><a href="https://aaronstannard.com/roslyn-nuget/">https://aaronstannard.com/roslyn-nuget/</a></p>
+<p>Roslyn Analyzer を .nuspec で NuGet パッケージにする方法について。</p>
+<h3 id="wpfblazor-hybrid">WPFをベースにしたサイドビュー付きのBlazor Hybridアプリの構築方法</h3>
+<p><a href="https://zenn.dev/tkeproject/articles/59eb1b20381e41">https://zenn.dev/tkeproject/articles/59eb1b20381e41</a></p>
+<p>WPF による　Blazor Hybrid アプリケーションでサイドメニューを表示する構成を実装する方法について。</p>
+<h3 id="blazor-hybrid">Blazor Hybrid でテキストボックスの右クリックメニューを表示する</h3>
+<p><a href="https://zenn.dev/microsoft/articles/blazor-hybrid-editable-context-menu">https://zenn.dev/microsoft/articles/blazor-hybrid-editable-context-menu</a></p>
+<p>Windows 上の Blazor Hybrid アプリケーション内のテキストボックスでコンテキストメニューを表示できるようにする方法について。</p>
+<h3 id="blazor-hybrid-f5">Blazor Hybrid で F5 キーでリフレッシュなどのブラウザ固有のキー操作を無効化したい</h3>
+<p><a href="https://zenn.dev/microsoft/articles/blazor-hybrid-disable-fkeys">https://zenn.dev/microsoft/articles/blazor-hybrid-disable-fkeys</a></p>
+<p>Windows 上の Blazor Hybrid アプリケーション内で F5 のようなブラウザーのショートカットキー操作を無効にする方法について。</p>
+<h3 id="wpf-github-actions-qiita">[WPF] GitHub Actions を使った自動リリース - Qiita</h3>
+<p><a href="https://qiita.com/thinva/items/904191e7c8bdaf0441f8">https://qiita.com/thinva/items/904191e7c8bdaf0441f8</a></p>
+<p>WPF アプリケーションを GitHub Actions を使用してリリースする方法について。</p>
+<h3 id="net-qiita">[小ネタ] .NETアセンブリが存在するディレクトリパス名を取得する方法 (単一ファイルに発行対応版) - Qiita</h3>
+<p><a href="https://qiita.com/rougemeilland/items/3bd5f302778737df5b56">https://qiita.com/rougemeilland/items/3bd5f302778737df5b56</a></p>
+<p>単一ファイル発行時にも対応したアセンブリーの存在するディレクトリーのパスを取得する方法について。</p>
+<h3 id="net-8-blazor">.NET 8 での Blazor を整理整頓して理解しよう</h3>
+<p><a href="https://zenn.dev/microsoft/articles/blazor-dotnet8-all">https://zenn.dev/microsoft/articles/blazor-dotnet8-all</a></p>
+<p>.NET 8 時点の Blazor と呼ばれるものはどのようなものがあるのか、どの動作モードを選択するのが適切なのかといったことのまとめ。</p>
+<h3 id="net-8-new-randomness-methods">.NET 8 — New Randomness Methods</h3>
+<p><a href="https://henriquesd.medium.com/net-8-new-randomness-methods-f2422f55320f">https://henriquesd.medium.com/net-8-new-randomness-methods-f2422f55320f</a></p>
+<p>.NET 8 の Random クラスに追加された GetItems, Shuffle などの紹介記事。</p>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="cysharpr3-the-new-future-of-dotnetreactive-and-unirx">Cysharp/R3: The new future of dotnet/reactive and UniRx.</h3>
+<p><a href="https://github.com/Cysharp/R3">https://github.com/Cysharp/R3</a></p>
+<p>既存の Rx や UniRx の知見をもとに、現代的で新しいよりよい実装を目指した Rx。</p>
+<h3 id="funny-silkielongarraylib-implementation-of-the-array-with-64-bit-signed-integer-length">Funny-Silkie/LongArrayLib: Implementation of the array with 64-bit signed integer length</h3>
+<p><a href="https://github.com/Funny-Silkie/LongArrayLib">https://github.com/Funny-Silkie/LongArrayLib</a></p>
+<p>Array.MaxLength (2147483591) を超える要素数を持てる配列的なものを実現するライブラリー。</p>
+<ul>
+<li><a href="https://qiita.com/Funny_Silkie/items/171598f9e7e6eb280328">Array.MaxLength を超えたサイズの配列を扱えるライブラリを作ってみた - Qiita</a></li>
+</ul>
+<h3 id="mayukidotnet-sail-downloads.net-project-from-gist-github-git-or-the-web-and-runs-it-in-a-container">mayuki/dotnet-sail: Downloads .NET project from Gist, GitHub, Git, or the web and runs it in a container.</h3>
+<p><a href="https://github.com/mayuki/dotnet-sail">https://github.com/mayuki/dotnet-sail</a></p>
+<p>Gist や GitHub や Git リポジトリー、その他 Web サイトから C# プロジェクトやソースコードをダウンロードして直接実行するコンテナーイメージ。</p>
+<h2 id="section-3">サイト、ドキュメントなど</h2>
+<h3 id="f">F# ではじめる関数型プログラミング入門 (上巻)</h3>
+<p><a href="https://zenn.dev/midoliy/books/85dd010d0b2ce7">https://zenn.dev/midoliy/books/85dd010d0b2ce7</a></p>
+<p>F# を使用した関数型プログラミングの入門オンラインブック。</p>
+<h3 id="section-4">ツイート</h3>
+<p>CsWinRT で NativeAOT サポートを進めているという話。</p>
+<!-- https://x.com/sergiopedri/status/1745086760244191523?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">My CsWinRT PR w/ NativeAOT support for authoring (<a href="https://t.co/95hiRmvohb">https://t.co/95hiRmvohb</a>) just got merged! Along w/ other improvements it allows you to create fully native, self-contained WinRT components using CsWinRT and NativeAOT. We can improve the size, but it&#39;s a start! 🚀<a href="https://twitter.com/hashtag/dotnet?src=hash&amp;ref_src=twsrc%5Etfw">#dotnet</a> <a href="https://twitter.com/hashtag/csharp?src=hash&amp;ref_src=twsrc%5Etfw">#csharp</a> <a href="https://t.co/sJ7syu0yAz">pic.twitter.com/sJ7syu0yAz</a></p>&mdash; Sergio Pedri (&#64;SergioPedri) <a href="https://twitter.com/SergioPedri/status/1745086760244191523?ref_src=twsrc%5Etfw">January 10, 2024</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
