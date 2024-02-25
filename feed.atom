@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2024-02-23T07:20:22Z</updated>
+	<updated>2024-02-25T04:34:33Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -185,7 +185,7 @@
 &lt;p&gt;CPU とウォールタイムのプロファイリングの詳細やプロファイラーの OS ごとの実装について書かれている。&lt;/p&gt;
 &lt;h3 id="c-c"&gt;ジェネリック型引数の部分型推論 | &lt;ins&gt;C&lt;/ins&gt;; // 未確認飛行 C ブログ&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://ufcpp.net/blog/2024/2/partial-inference/"&gt;https://ufcpp.net/blog/2024/2/partial-inference/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;C# えもジェネリック型の部分型推論ができるようにしたいという話があることについて。&lt;/p&gt;
+&lt;p&gt;C# でもジェネリック型の部分型推論ができるようにしたいという話があることについて。&lt;/p&gt;
 &lt;h3 id="rider-2024.1-eap-5-collections-visualizer-sticky-lines-improved-github-actions-support-and-more-the.net-tools-blog"&gt;Rider 2024.1 EAP 5: Collections Visualizer, Sticky Lines, Improved GitHub Actions Support, and More | The .NET Tools Blog&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/02/16/rider-2024-1-eap-5/"&gt;https://blog.jetbrains.com/dotnet/2024/02/16/rider-2024-1-eap-5/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Rider 2024.1 EAP 5 がリリースされた。&lt;/p&gt;
