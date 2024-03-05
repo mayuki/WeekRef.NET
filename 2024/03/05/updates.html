@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2024-03-05: Windows App SDK 1.5, StackExchange.Redis 2.7.27, NCrunch V5 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2024/03/05/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2024-03-05: Windows App SDK 1.5, StackExchange.Redis 2.7.27, NCrunch V5 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2024/03/05/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2024-03-05: Windows App SDK 1.5, StackExchange.Redis 2.7.27, NCrunch V5
+          </h1>
+              <div class="meta">Published on Tuesday, 05 March 2024</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="version-1.5-stable-channel-release-notes-for-the-windows-app-sdk-windows-apps">Version 1.5 - Stable channel release notes for the Windows App SDK - Windows apps</h3>
+<p><a href="https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/stable-channel#version-15">https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/stable-channel#version-15</a></p>
+<p>Windows App SDK 1.5 がリリースされた。</p>
+<p>このリリースでは XAML Island でのシャットダウン時の挙動の変更、WebView2 と Azure Map ベースでの Map コントロールの追加、SelectorBar コントロールの追加、CommandBarFlyout でのプライマリーコマンドのラベル対応、WebView2 でのカスタム環境/オプション対応、.NET 8 対応といった改善が含まれている。</p>
+<ul>
+<li><a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.5.0">Release v1.5.0 · microsoft/WindowsAppSDK</a></li>
+</ul>
+<h3 id="windows-app-sdk-windows-apps">バージョン 1.4.5 - Windows App SDK の安定チャネルのリリース ノート - Windows apps</h3>
+<p><a href="https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/stable-channel#version-145-14240211001">https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/stable-channel#version-145-14240211001</a></p>
+<p>Windows App SDK 1.4.5 がリリースされた。</p>
+<p>このリリースではハングやクラッシュといったいくつかの不具合が修正されている。</p>
+<h3 id="release-2.7.27-stackexchangestackexchange.redis">Release 2.7.27 · StackExchange/StackExchange.Redis</h3>
+<p><a href="https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.7.27">https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.7.27</a></p>
+<p>StackExchange.Redis 2.7.23, 2.7.27 がリリースされた。</p>
+<p>このリリースではコネクションのライブラリー名にサフィックスを付ける機能やアイドル時以外にもキープアライブチェックを行うオプションが追加された。</p>
+<ul>
+<li><a href="https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.7.23">Release 2.7.23 · StackExchange/StackExchange.Redis</a></li>
+</ul>
+<h3 id="ncrunch-blog-ncrunch-v5-now-available">NCrunch Blog | NCrunch V5 Now Available</h3>
+<p><a href="https://blog.ncrunch.net/post/NCrunch-V5-Now-Available.aspx">https://blog.ncrunch.net/post/NCrunch-V5-Now-Available.aspx</a></p>
+<p>NCrunch V5 がリリースされた。</p>
+<p>このリリースでは JetBrains Rider のサポートと Runtime Data Inspection (RDI) 機能の導入が行われている。</p>
+<p>Runtime Data Inspection はテスト実行時に様々なデータをキャプチャーして、それを元にコードの挙動を解析できる機能。</p>
+<ul>
+<li><a href="https://blog.ncrunch.net/post/Introducing-Runtime-Data-Inspection.aspx">NCrunch Blog | Introducing Runtime Data Inspection</a></li>
+</ul>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="code-coverage-features-in-visual-studio-enterprise-visual-studio-blog">Code coverage features in Visual Studio Enterprise - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/code-coverage-features-in-visual-studio-enterprise/">https://devblogs.microsoft.com/visualstudio/code-coverage-features-in-visual-studio-enterprise/</a></p>
+<p>Visual Studio Enterprise のコードカバレッジ機能についての新機能やパフォーマンス改善といったものの紹介。</p>
+<h3 id="entity-framework-core-qiita">Entity Framework Coreで論理削除 - Qiita</h3>
+<p><a href="https://qiita.com/filunK/items/8485c8fcc38fae5d2b40">https://qiita.com/filunK/items/8485c8fcc38fae5d2b40</a></p>
+<p>Entity Framework Core で Interceptor を使用して、データベースのテーブルからの論理削除(削除フラグ)を実装する方法について。</p>
+<h3 id="c-qiita">C# で文字列の式から計算結果を得る - Qiita</h3>
+<p><a href="https://qiita.com/hyukix/items/ac26decee3bb75b32f75">https://qiita.com/hyukix/items/ac26decee3bb75b32f75</a></p>
+<p>与えられた文字列の式から計算結果を取得するための機能を持つライブラリーを挙動とパフォーマンス面から比較。</p>
+<h3 id="rider-2024.1-eap-7-c-updates-new-product-icons-bundled-kubernetes-plugin-the.net-tools-blog">Rider 2024.1 EAP 7: C# Updates, New Product Icons, Bundled Kubernetes Plugin | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2024/03/01/rider-2024-1-eap-7/">https://blog.jetbrains.com/dotnet/2024/03/01/rider-2024-1-eap-7/</a></p>
+<p>Rider 2024.1 EAP 7 がリリースされた。</p>
+<p>このリリースでは C# 12 サポートの改善、新しいアイコン、Kubernetes プラグインのバンドルといった変更が行われている。</p>
+<h3 id="rider-2024.1-eap-6-updated-new-project-dialog-custom-naming-rules-and-vcs-improvements-the.net-tools-blog">Rider 2024.1 EAP 6: Updated New Project Dialog, Custom Naming Rules, and VCS Improvements | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2024/02/27/rider-2024-1-eap-6/">https://blog.jetbrains.com/dotnet/2024/02/27/rider-2024-1-eap-6/</a></p>
+<p>Rider 2024.1 EAP 6 がリリースされた。</p>
+<p>このリリースでは新しいプロジェクトダイアログの更新、Blazor WASM のホットリロードデバッグ、C# サポートの改善、パフォーマンスの改善、メモリープロファイリングでの Frozen Object Heap の対応などが含まれる。</p>
+<h3 id="resharper-2024.1-eap-6-the-most-feature-rich-update-yet-the.net-tools-blog">ReSharper 2024.1 EAP 6: The Most Feature-Rich Update Yet | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2024/02/27/resharper-2024-1-eap-6/">https://blog.jetbrains.com/dotnet/2024/02/27/resharper-2024-1-eap-6/</a></p>
+<p>ReSharper 2024.1 EAP 6 がリリースされた。</p>
+<p>このリリースではリネームの高速化、C# での async メソッド内の disposable なリソースの取り扱いの改善、コードフォーマットやデコンパイラーの改善、dotMemory のメモリープロファイリングでの Frozen Object Heap の対応などが含まれる。</p>
+<h3 id="google-magika-python-cday-1-7-qiita">Google の Magika を Python から C#に移植するまでの過程（Day 1 / 7） - Qiita</h3>
+<p><a href="https://qiita.com/mkht/items/64b02b8648266d40380a">https://qiita.com/mkht/items/64b02b8648266d40380a</a></p>
+<p>Google の機械学習ベースのファイル種別判定ツール Magika を Python から C# に移植を試みた話。モデルを読み込んで実行するコマンドラインツールにするといった一連の移植を行っている。</p>
+<h3 id="params-c-c">params コレクション | ++C++; // 未確認飛行 C ブログ</h3>
+<p><a href="https://ufcpp.net/blog/2024/3/params-collections/">https://ufcpp.net/blog/2024/3/params-collections/</a></p>
+<p>C# 13 で検討されている params に配列以外を指定できるようにする params コレクションについて。</p>
+<h3 id="how-to-build-a-nuget-package-with-ios-frameworks-for.net-maui-development">How to Build a NuGet Package with iOS Frameworks for .NET MAUI Development</h3>
+<p><a href="https://www.dynamsoft.com/codepool/ios-ipados-dotnet-maui-mrz-recognition.html">https://www.dynamsoft.com/codepool/ios-ipados-dotnet-maui-mrz-recognition.html</a></p>
+<p>.NET MAUI 向けの iOS の Framework を含む NuGet パッケージを作る手順について。</p>
+<h3 id="stride-qiita">Strideでコンポーネントを作成、共有する - Qiita</h3>
+<p><a href="https://qiita.com/skitoy4321/items/ba6fdfedf03d444cac40">https://qiita.com/skitoy4321/items/ba6fdfedf03d444cac40</a></p>
+<p>Stride (ゲームエンジン) でコンポーネントを作成する方法と、NuGet パッケージで後悔する際の注意点など。</p>
+<h3 id="using-unix-domain-sockets-with-asp.net-core-and-httpclient">Using Unix domain sockets with ASP.NET Core and HttpClient</h3>
+<p><a href="https://andrewlock.net/using-unix-domain-sockets-with-aspnetcore-and-httpclient/">https://andrewlock.net/using-unix-domain-sockets-with-aspnetcore-and-httpclient/</a></p>
+<p>UNIX ドメインソケットで ASP.NET Core サーバーと HttpClient で通信する方法について。</p>
+<h3 id="visual-studios-full-year-in-review-2023-visual-studio-blog">Visual Studio's Full Year in Review (2023) - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/visual-studios-full-year-in-review-2023/">https://devblogs.microsoft.com/visualstudio/visual-studios-full-year-in-review-2023/</a></p>
+<p>Visual Studio の2023年の振り返りのまとめ記事。</p>
+<h3 id="the-fast-and-the-fluent-a-blazor-story.net-blog">The FAST and the Fluent: A Blazor story - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/the-fast-and-the-fluent-a-blazor-story/">https://devblogs.microsoft.com/dotnet/the-fast-and-the-fluent-a-blazor-story/</a></p>
+<p>Fluent UI Blazor ライブラリーについての紹介。</p>
+<p>ベースとなる FAST (Web Component) とその連携、そのほか Aspire のダッシュボードで使用されていることなどに触れている。</p>
+<h3 id="shoelace-web-components-with-asp.net-core">Shoelace Web Components with ASP.NET Core</h3>
+<p><a href="https://khalidabuhakmeh.com/shoelace-web-components-with-aspnet-core">https://khalidabuhakmeh.com/shoelace-web-components-with-aspnet-core</a></p>
+<p>Shoelace Web Component を ASP.NET Core の Razor Pages で使う手順について。</p>
+<h3 id="net-performance-optimization-deferred-allocations">.NET Performance Optimization: Deferred Allocations</h3>
+<p><a href="https://petabridge.com/blog/net-performance-deferred-allocation/">https://petabridge.com/blog/net-performance-deferred-allocation/</a></p>
+<p>Akka.NET の計測を行うための Phobos で遅延割り当てを駆使することでパフォーマンスの低下を抑えるという手法を取ったことについての解説。</p>
+<h3 id="net-maui-community-toolkit-2023-highlights.net-blog">.NET MAUI Community Toolkit 2023 Highlights - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/dotnet-maui-community-toolkit-2023-highlights/">https://devblogs.microsoft.com/dotnet/dotnet-maui-community-toolkit-2023-highlights/</a></p>
+<p>.NET MAUI Community Toolkit の2023年のアップデートや活動の振り返り。</p>
+<h3 id="winforms-designer-selection-for-32-bit.net-framework-projects-visual-studio-blog">WinForms Designer Selection for 32-bit .NET Framework Projects - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/winforms-designer-selection-for-32-bit-net-framework-projects/">https://devblogs.microsoft.com/visualstudio/winforms-designer-selection-for-32-bit-net-framework-projects/</a></p>
+<p>Visual Studio 2022 v17.9 で導入された .NET Framework の Windows Forms 向けのアウトオブプロセスデザイナー(プレビュー)について。</p>
+<p>記事では互換性のないプロジェクトを読み込んだ際の切り替えについて、アウトオブプロセスデザイナーの制限やロードマップといった点を開設している。</p>
+<h3 id="docker-init-for-asp.net-core-compared-to-vs-or-vs-code-extensions">Docker Init for ASP.NET Core Compared to VS or VS Code Extensions</h3>
+<p><a href="http://thedatafarm.com/docker/docker-init-for-asp-net-core-compared-to-vs-or-vs-code-extensions/">http://thedatafarm.com/docker/docker-init-for-asp-net-core-compared-to-vs-or-vs-code-extensions/</a></p>
+<p>Docker に組み込まれた <code>docker init</code> で生成される ASP.NET Core プロジェクトと Visual Studio や .NET SDK で生成されるプロジェクトがどのように異なるのかについて。</p>
+<p>記事では .dockerignore や Dockerfile、docker-compose.yml の差異といったものを比較している。</p>
+<h3 id="net-8-asp.net-core-blazor">.NET 8 の ASP.NET Core Blazor で二度押しを抑止したい</h3>
+<p><a href="https://zenn.dev/microsoft/articles/blazor-dotnet8-do-not-double-click">https://zenn.dev/microsoft/articles/blazor-dotnet8-do-not-double-click</a></p>
+<p>.NET 8 の ASP.NET Core Blazor でボタンなどの二度押しを抑制する方法について。</p>
+<p>記事ではフォームを使った場合の実装についても触れている。</p>
+<h3 id="using-polly-v8-with-httpclientfactory">Using Polly v8 with HttpClientFactory</h3>
+<p><a href="https://truestorydavestorey.medium.com/using-polly-v8-with-httpclientfactory-3f9a64359990">https://truestorydavestorey.medium.com/using-polly-v8-with-httpclientfactory-3f9a64359990</a></p>
+<p>HttpClientFactory で Polly v8 を使用する方法について。</p>
+<p>記事では v7 から v8 へと移行する際に必要となった変更についても解説している。</p>
+<h3 id="neue-cc-r3-creactive-extensions">neue cc - R3 - C#用のReactive Extensionsの新しい現代的再実装</h3>
+<p><a href="https://neue.cc/2024/02/27_R3.html">https://neue.cc/2024/02/27_R3.html</a></p>
+<p>Reactive Extensions を現代的な視点に基づいて再設計/再実装したライブラリー R3 についての解説。</p>
+<p>記事ではどのような観点で R3 を再構築するに至ったか、どのような点が現代的なものであるのかといった設計思想を説明している。</p>
+<h3 id="aws-lambda.net-6.net-8-qiita">AWS Lambdaで.NET 6から.NET 8に移行したときにやったこと - Qiita</h3>
+<p><a href="https://qiita.com/kaz-matsubara/items/259de11eb3f30f9bda1f">https://qiita.com/kaz-matsubara/items/259de11eb3f30f9bda1f</a></p>
+<p>.NET 6 で実装された AWS Lambda プロジェクトを .NET 8 へと移行したことについて。</p>
+<h3 id="wpftextbox">【WPF】数値しか入力できないTextBox</h3>
+<p><a href="https://zenn.dev/nuits_jp/articles/2024-02-25-numeric-text-box">https://zenn.dev/nuits_jp/articles/2024-02-25-numeric-text-box</a></p>
+<p>WPF で数値のみ入力可能となる TextBox を実装する方法について。</p>
+<h3 id="async-await-vs.pipetot-in-akka.net-actors">Async / Await vs. PipeTo&gt;T&gt; in Akka.NET Actors</h3>
+<p><a href="https://petabridge.com/blog/async-await-vs-pipeto/">https://petabridge.com/blog/async-await-vs-pipeto/</a></p>
+<p>Akka.NET アクターでのおける async/await と PipeTo の挙動やパフォーマンスといった面での比較。</p>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="gummycat-visualize-the-activity-of-the.net-garbage-collector">GummyCat - Visualize the activity of the .NET garbage collector</h3>
+<p><a href="https://minidump.net/gummycat/">https://minidump.net/gummycat/</a></p>
+<p>.NET ヒープのメモリーレイアウトを表示し、GC の動作を可視化するツール。</p>
+<h3 id="view-your-gcs-statistics-live-with-dotnet-gcstats">View your GCs statistics live with dotnet-gcstats!</h3>
+<p><a href="https://chnasarre.medium.com/view-your-gcs-statistics-live-with-dotnet-gcstats-e670ce949bd9">https://chnasarre.medium.com/view-your-gcs-statistics-live-with-dotnet-gcstats-e670ce949bd9</a></p>
+<p>GC の統計情報を見るコマンドラインツール。</p>
+<h2 id="section-3">イベント</h2>
+<h3 id="c-20240427-1330">C#パフォーマンス勉強会 (2024/04/27 13:30〜)</h3>
+<p><a href="https://cs-reading.connpass.com/event/309714/">https://cs-reading.connpass.com/event/309714/</a></p>
+<h2 id="section-4">サイト、ドキュメントなど</h2>
+<h3 id="section-5">ツイート</h3>
+<p>Visual Studio 17.10 Preview 2 に C# 13 プレビュー機能として Lock 型対応がマージされた話。</p>
+<!-- https://x.com/jcouv/status/1764710194381283497?s=12&t=ggvrrZ7oLogHyNoIGNgjbw -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We merged a preview C# 13 feature into VS 17.10 (preview 2): locking on `Lock` type.<br><br>It special-cases how `System.Threading.Lock` interacts with the `lock` statement for improved usability and performance.<a href="https://t.co/UZoTASkyfY">https://t.co/UZoTASkyfY</a></p>&mdash; Julien Couvreur (&#64;jcouv) <a href="https://twitter.com/jcouv/status/1764710194381283497?ref_src=twsrc%5Etfw">March 4, 2024</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>読み取り専用接続にまとめて <code>AsNoTracking</code> を指定する方法。</p>
+<!-- https://x.com/dave_dotnet/status/1764294153851060696?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Set Entity Framework AsNoTracking() globally  ⬇<br><br>Perfect for read-only scenarios. <a href="https://twitter.com/hashtag/dotnet?src=hash&amp;ref_src=twsrc%5Etfw">#dotnet</a> <a href="https://t.co/UQ7Qp9bjEn">pic.twitter.com/UQ7Qp9bjEn</a></p>&mdash; Dave Callan | dotnet (&#64;Dave_DotNet) <a href="https://twitter.com/Dave_DotNet/status/1764294153851060696?ref_src=twsrc%5Etfw">March 3, 2024</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Visual Studio でソリューションごとに設定を変更をオーバーライドできるようになる話。</p>
+<!-- https://x.com/mkristensen/status/1763258040890134701?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Settings can now follow any individual solution in Visual Studio. Coming soon... <a href="https://t.co/W3DqgS6ecy">pic.twitter.com/W3DqgS6ecy</a></p>&mdash; Mads Kristensen (&#64;mkristensen) <a href="https://twitter.com/mkristensen/status/1763258040890134701?ref_src=twsrc%5Etfw">February 29, 2024</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Visual Studio のエディターでのイタリック体の対応。</p>
+<!-- https://x.com/mkristensen/status/1761140571970863541?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I just updated my nightly build of Visual Studio and found this. Coming soon... <a href="https://t.co/b3e4CyNCye">pic.twitter.com/b3e4CyNCye</a></p>&mdash; Mads Kristensen (&#64;mkristensen) <a href="https://twitter.com/mkristensen/status/1761140571970863541?ref_src=twsrc%5Etfw">February 23, 2024</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
