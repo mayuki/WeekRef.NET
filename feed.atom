@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2024-03-27T07:52:09Z</updated>
+	<updated>2024-03-27T07:53:41Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -326,7 +326,7 @@
 &lt;p&gt;.NET MAUI 向けの iOS の Framework を含む NuGet パッケージを作る手順について。&lt;/p&gt;
 &lt;h3 id="stride-qiita"&gt;Strideでコンポーネントを作成、共有する - Qiita&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://qiita.com/skitoy4321/items/ba6fdfedf03d444cac40"&gt;https://qiita.com/skitoy4321/items/ba6fdfedf03d444cac40&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Stride (ゲームエンジン) でコンポーネントを作成する方法と、NuGet パッケージで後悔する際の注意点など。&lt;/p&gt;
+&lt;p&gt;Stride (ゲームエンジン) でコンポーネントを作成する方法と、NuGet パッケージで公開する際の注意点など。&lt;/p&gt;
 &lt;h3 id="using-unix-domain-sockets-with-asp.net-core-and-httpclient"&gt;Using Unix domain sockets with ASP.NET Core and HttpClient&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://andrewlock.net/using-unix-domain-sockets-with-aspnetcore-and-httpclient/"&gt;https://andrewlock.net/using-unix-domain-sockets-with-aspnetcore-and-httpclient/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;UNIX ドメインソケットで ASP.NET Core サーバーと HttpClient で通信する方法について。&lt;/p&gt;
