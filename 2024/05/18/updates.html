@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2024-05-18: Npgsql security fix, .NET 6.0.30/7.0.19/8.0.5, Windows App SDK 1.4.6 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2024/05/18/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2024-05-18: Npgsql security fix, .NET 6.0.30/7.0.19/8.0.5, Windows App SDK 1.4.6 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2024/05/18/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2024-05-18: Npgsql security fix, .NET 6.0.30/7.0.19/8.0.5, Windows App SDK 1.4.6
+          </h1>
+              <div class="meta">Published on Saturday, 18 May 2024</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="release-v8.0.3-npgsqlnpgsql">Release v8.0.3 · npgsql/npgsql</h3>
+<p><a href="https://github.com/npgsql/npgsql/releases/tag/v8.0.3">https://github.com/npgsql/npgsql/releases/tag/v8.0.3</a></p>
+<ul>
+<li><a href="https://github.com/npgsql/npgsql/releases/tag/v7.0.7">Release v7.0.7 · npgsql/npgsql</a></li>
+<li><a href="https://github.com/npgsql/npgsql/releases/tag/v6.0.11">Release v6.0.11 · npgsql/npgsql</a></li>
+<li><a href="https://github.com/npgsql/npgsql/releases/tag/v5.0.18">Release v5.0.18 · npgsql/npgsql</a></li>
+<li><a href="https://github.com/npgsql/npgsql/releases/tag/v4.1.13">Release v4.1.13 · npgsql/npgsql</a></li>
+<li><a href="https://github.com/npgsql/npgsql/releases/tag/v4.0.14">Release v4.0.14 · npgsql/npgsql</a></li>
+</ul>
+<h3 id="net-and.net-framework-may-2024-servicing-updates.net-blog">.NET and .NET Framework May 2024 Servicing Updates - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-may-2024-servicing-updates/">https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-may-2024-servicing-updates/</a></p>
+<h3 id="release-windows-app-sdk-1.4.6-1.4.240512000-microsoftwindowsappsdk">Release Windows App SDK 1.4.6 (1.4.240512000) · microsoft/WindowsAppSDK</h3>
+<p><a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.4.6">https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.4.6</a></p>
+<h3 id="mongodb-provider-for-entity-framework-core-now-generally-available-mongodb-blog">MongoDB Provider for Entity Framework Core Now Generally Available | MongoDB Blog</h3>
+<p><a href="https://www.mongodb.com/blog/post/mongodb-provider-entity-framework-core-now-generally-available">https://www.mongodb.com/blog/post/mongodb-provider-entity-framework-core-now-generally-available</a></p>
+<h3 id="resharper-2024.1.2-is-available-for-download-the.net-tools-blog">ReSharper 2024.1.2 Is Available For Download | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2024/05/07/resharper-2024-1-2/">https://blog.jetbrains.com/dotnet/2024/05/07/resharper-2024-1-2/</a></p>
+<h3 id="rider-2024.1.2-is-now-available-the.net-tools-blog">Rider 2024.1.2 Is Now Available! | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2024/05/07/rider-2024-1-2/">https://blog.jetbrains.com/dotnet/2024/05/07/rider-2024-1-2/</a></p>
+<h3 id="announcing-nuget-commands-in-c-dev-kit-the-nuget-blog">Announcing NuGet Commands in C# Dev Kit - The NuGet Blog</h3>
+<p><a href="https://devblogs.microsoft.com/nuget/announcing-nuget-commands-in-c-dev-kit/">https://devblogs.microsoft.com/nuget/announcing-nuget-commands-in-c-dev-kit/</a></p>
+<h3 id="package-management-improved.net-aspire-support-come-to-c-dev-kit.net-blog">Package Management &amp; improved .NET Aspire support come to C# Dev Kit - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/may-release-of-csharp-dev-kit/">https://devblogs.microsoft.com/dotnet/may-release-of-csharp-dev-kit/</a></p>
+<h3 id="release-8.4.0-app-vnextpolly">Release 8.4.0 · App-vNext/Polly</h3>
+<p><a href="https://github.com/App-vNext/Polly/releases/tag/8.4.0">https://github.com/App-vNext/Polly/releases/tag/8.4.0</a></p>
+<h3 id="release-v6.6.1-domaindrivendevswashbuckle.aspnetcore">Release v6.6.1 · domaindrivendev/Swashbuckle.AspNetCore</h3>
+<p><a href="https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v6.6.1">https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v6.6.1</a></p>
+<h3 id="get-ready-for-visual-studio-at-build-2024-join-thousands-online-visual-studio-blog">Get Ready for Visual Studio at Build 2024: Join Thousands Online! - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/visual-studio-at-build-2024/">https://devblogs.microsoft.com/visualstudio/visual-studio-at-build-2024/</a></p>
+<h3 id="what-is-new-in-entity-framework-6.5-classic">What is new in Entity Framework 6.5 Classic</h3>
+<p><a href="https://erikej.github.io/ef6/dotnet/2024/05/16/ef6-whatsnew.html">https://erikej.github.io/ef6/dotnet/2024/05/16/ef6-whatsnew.html</a></p>
+<h3 id="whats-new-in-orleans-8-for-scalable-distributed-applications.net-blog">What's new in Orleans 8 for Scalable Distributed Applications - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/whats-new-in-orleans-8/">https://devblogs.microsoft.com/dotnet/whats-new-in-orleans-8/</a></p>
+<h3 id="net-aspire-preview-7.net-aspire">.NET Aspire preview 7 - .NET Aspire</h3>
+<p><a href="https://learn.microsoft.com/en-us/dotnet/aspire/whats-new/preview-7">https://learn.microsoft.com/en-us/dotnet/aspire/whats-new/preview-7</a></p>
+<h3 id="v1.11.0-meadow-v1.releases-wilderness-labs-developer-portal">v1.11.0 | Meadow v1.* Releases | Wilderness Labs Developer Portal</h3>
+<p><a href="https://developer.wildernesslabs.co/Meadow/Release_Notes/v1/#v1110">https://developer.wildernesslabs.co/Meadow/Release_Notes/v1/#v1110</a></p>
+<h2 id="section-1">アーティクルなど</h2>
+<h3 id="null-ef-core-code-first-qiita">null 許容参照型と EF Core Code First - Qiita</h3>
+<p><a href="https://qiita.com/SurferOnWww/items/67d8e8d86234ac138445">https://qiita.com/SurferOnWww/items/67d8e8d86234ac138445</a></p>
+<h3 id="the.net-generic-math-library-ndepend-blog">The .NET Generic Math Library - NDepend Blog</h3>
+<p><a href="https://blog.ndepend.com/dotnet-generic-math/">https://blog.ndepend.com/dotnet-generic-math/</a></p>
+<h3 id="a-complete.net-developers-guide-to-span-with-stephen-toub-youtube">A Complete .NET Developer's Guide to Span with Stephen Toub - YouTube</h3>
+<p><a href="https://www.youtube.com/watch?v=5KdICNWOfEQ&amp;list=PLdo4fOcmZ0oX8eqDkSw4hH9cSehrGgdr1&amp;index=5">https://www.youtube.com/watch?v=5KdICNWOfEQ&amp;list=PLdo4fOcmZ0oX8eqDkSw4hH9cSehrGgdr1&amp;index=5</a></p>
+<h3 id="net-8-blazor-wasm-api">.NET 8 の Blazor で WASM + API のプロジェクトを作る</h3>
+<p><a href="https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet8-wasm-with-apis">https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet8-wasm-with-apis</a></p>
+<h3 id="improve-your-code-quality-with-github-copilot-in-visual-studio-visual-studio-blog">Improve your code quality with GitHub Copilot in Visual Studio - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/improve-your-code-quality-with-github-copilot-in-visual-studio/">https://devblogs.microsoft.com/visualstudio/improve-your-code-quality-with-github-copilot-in-visual-studio/</a></p>
+<h3 id="ccmsorchard-core">C#ベースのオープンソースCMS「Orchard Core」について</h3>
+<p><a href="https://zenn.dev/zead/articles/f604f9ad31f941">https://zenn.dev/zead/articles/f604f9ad31f941</a></p>
+<h3 id="mastering-slash-commands-with-github-copilot-in-visual-studio-visual-studio-blog">Mastering Slash Commands with GitHub Copilot in Visual Studio - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/mastering-slash-commands-with-github-copilot-in-visual-studio/">https://devblogs.microsoft.com/visualstudio/mastering-slash-commands-with-github-copilot-in-visual-studio/</a></p>
+<h3 id="c-switchif-qiita">【C#】 拡張メソッドで型によるswitchやif判定をできるだけ消す - Qiita</h3>
+<p><a href="https://qiita.com/toRisouP/items/12afeb98a0971095d409">https://qiita.com/toRisouP/items/12afeb98a0971095d409</a></p>
+<h3 id="azure-toolkit-for-rider-v4.0-preview-request-for-feedback-the.net-tools-blog">Azure Toolkit for Rider v4.0 Preview - Request For Feedback | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2024/05/14/azure-toolkit-for-rider-v4-0-preview-request-for-feedback/">https://blog.jetbrains.com/dotnet/2024/05/14/azure-toolkit-for-rider-v4-0-preview-request-for-feedback/</a></p>
+<h3 id="an-introduction-to-primary-constructors-in-c12">An introduction to primary constructors in C#12</h3>
+<p><a href="https://andrewlock.net/an-introduction-to-primary-constructors-in-csharp-12/">https://andrewlock.net/an-introduction-to-primary-constructors-in-csharp-12/</a></p>
+<h3 id="cplaywright-qiita">C#で自動テスト(Playwright) 環境構築～テスト実行手順 - Qiita</h3>
+<p><a href="https://qiita.com/noritama08/items/ed3f79e7feb061e36774">https://qiita.com/noritama08/items/ed3f79e7feb061e36774</a></p>
+<h3 id="configureawait-qiita">ConfigureAwait によるデッドロックの回避 - Qiita</h3>
+<p><a href="https://qiita.com/SurferOnWww/items/2dd628101923419cc44a">https://qiita.com/SurferOnWww/items/2dd628101923419cc44a</a></p>
+<h3 id="await-task.result-qiita">await と Task.Result によるデッドロック - Qiita</h3>
+<p><a href="https://qiita.com/SurferOnWww/items/bd4e483cce7acaee4f30">https://qiita.com/SurferOnWww/items/bd4e483cce7acaee4f30</a></p>
+<h3 id="qiita">非同期プログラミング - Qiita</h3>
+<p><a href="https://qiita.com/SurferOnWww/items/06dc1e3df702596272ba">https://qiita.com/SurferOnWww/items/06dc1e3df702596272ba</a></p>
+<h3 id="asp.net-core-ssr-web-components-and-enhance-wasm">ASP.NET Core, SSR Web Components, and Enhance Wasm</h3>
+<p><a href="https://khalidabuhakmeh.com/aspnet-core-ssr-web-components-and-enhance-wasm">https://khalidabuhakmeh.com/aspnet-core-ssr-web-components-and-enhance-wasm</a></p>
+<h3 id="localizing-a.net-console-or-desktop-application">Localizing a .NET console or desktop application</h3>
+<p><a href="https://blog.axantum.com/2024/05/localizing-net-console-or-desktop.html?m=1">https://blog.axantum.com/2024/05/localizing-net-console-or-desktop.html?m=1</a></p>
+<h3 id="nuxt3.net-core">Nuxt3を静的ファイルとしてビルドし、.NET Coreに表示する</h3>
+<p><a href="https://zenn.dev/yorimichi/articles/initial_csharp_nuxt3">https://zenn.dev/yorimichi/articles/initial_csharp_nuxt3</a></p>
+<h3 id="does-readonly-make-your-code-faster">Does readonly make your code faster?</h3>
+<p><a href="https://steven-giesel.com/blogPost/50b84029-4f1e-4e6d-8fd1-0311b0605562">https://steven-giesel.com/blogPost/50b84029-4f1e-4e6d-8fd1-0311b0605562</a></p>
+<h3 id="blazorjavascript.net-qiita">BlazorでJavaScriptから.NETの動的(インスタンス)メソッドを呼び出す - Qiita</h3>
+<p><a href="https://qiita.com/yaju/items/44b207477d1cb1c81bfb">https://qiita.com/yaju/items/44b207477d1cb1c81bfb</a></p>
+<h3 id="azure-openai-service-vb-c">Azure OpenAI Service を使って VB から C# にコードを変換する</h3>
+<p><a href="https://zenn.dev/microsoft/articles/convert-vb-to-cs">https://zenn.dev/microsoft/articles/convert-vb-to-cs</a></p>
+<h3 id="ahead-of-the-game-exploring-helm-features-with.net-aspire-aspir8-preview-7">Ahead of the Game: Exploring Helm Features with .NET Aspire &amp; Aspir8 Preview 7</h3>
+<p><a href="https://medium.com/&#64;josephsims1/ahead-of-the-game-exploring-helm-features-with-net-aspire-aspir8-preview-7-d327ade09b91">https://medium.com/&#64;josephsims1/ahead-of-the-game-exploring-helm-features-with-net-aspire-aspir8-preview-7-d327ade09b91</a></p>
+<h3 id="c-discriminated-union-whats-driving-the-c-communitys-inquiries-ndepend-blog">C# Discriminated Union: What's Driving the C# Community's Inquiries? - NDepend Blog</h3>
+<p><a href="https://blog.ndepend.com/csharp-discriminated-union/">https://blog.ndepend.com/csharp-discriminated-union/</a></p>
+<h3 id="join-the.net-team-at-microsoft-build-2024.net-blog">Join the .NET Team at Microsoft Build 2024! - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/join-the-dotnet-team-microsoft-build-2024/">https://devblogs.microsoft.com/dotnet/join-the-dotnet-team-microsoft-build-2024/</a></p>
+<h3 id="nxuicavaloniaui">【NXUI】C#でワンライナー・クロスプラットホームデスクトップアプリ【AvaloniaUI】</h3>
+<p><a href="https://zenn.dev/inuinu/articles/528550aab764e8">https://zenn.dev/inuinu/articles/528550aab764e8</a></p>
+<h3 id="refactor-your-code-with-c-collection-expressions.net-blog">Refactor your code with C# collection expressions - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/refactor-your-code-with-collection-expressions/">https://devblogs.microsoft.com/dotnet/refactor-your-code-with-collection-expressions/</a></p>
+<h3 id="diagnose-memory-leaks-in.net-applications-with-windbg-a-hands-on-approach">Diagnose Memory Leaks in .NET Applications with WinDbg: A Hands-on Approach</h3>
+<p><a href="https://levelup.gitconnected.com/diagnose-memory-leaks-in-net-applications-with-windbg-a-hands-on-approach-f41986f69967">https://levelup.gitconnected.com/diagnose-memory-leaks-in-net-applications-with-windbg-a-hands-on-approach-f41986f69967</a></p>
+<h3 id="blazor-quickgrid-qiita">Blazor QuickGrid でリッチなテーブルをサクッと作成する - Qiita</h3>
+<p><a href="https://qiita.com/higege-amdeker/items/8150dcefe5d891a20c53">https://qiita.com/higege-amdeker/items/8150dcefe5d891a20c53</a></p>
+<h3 id="using-github-copilot-as-your-coding-gps-visual-studio-blog">Using GitHub Copilot as your Coding GPS - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/using-github-copilot-as-your-coding-gps/">https://devblogs.microsoft.com/visualstudio/using-github-copilot-as-your-coding-gps/</a></p>
+<h3 id="dotinsights-may-2024-the.net-tools-blog">dotInsights | May 2024 | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2024/05/06/dotinsights-may-2024/">https://blog.jetbrains.com/dotnet/2024/05/06/dotinsights-may-2024/</a></p>
+<h3 id="dapper">Dapper マルチマッピングで多対多の関係先を生成する</h3>
+<p><a href="https://zenn.dev/tetr4lab/articles/35cd18af364499">https://zenn.dev/tetr4lab/articles/35cd18af364499</a></p>
+<h3 id="c1ms-qiita">C#で使える1msタイマーを探す - Qiita</h3>
+<p><a href="https://qiita.com/qiitatosh/items/cc88e398be26e00fafe0">https://qiita.com/qiitatosh/items/cc88e398be26e00fafe0</a></p>
+<h3 id="adventures-serializing-absolutely-everything-in-c-isadora">Adventures serializing absolutely everything in C# – isadora</h3>
+<p><a href="https://isadorasophia.com/articles/serialization/">https://isadorasophia.com/articles/serialization/</a></p>
+<h3 id="mvvm-toolkit">MVVM ToolKit の使い方</h3>
+<p><a href="https://zenn.dev/maedan/articles/c691e858e3fa44">https://zenn.dev/maedan/articles/c691e858e3fa44</a></p>
+<h3 id="how-to-connect-phi-3-mini-onnx-model-in-semantic-kernel">How To connect Phi-3 Mini ONNX model in Semantic Kernel</h3>
+<p><a href="https://towardsdev.com/how-to-connect-phi-3-mini-onnx-model-in-semantic-kernel-fc96b758129f">https://towardsdev.com/how-to-connect-phi-3-mini-onnx-model-in-semantic-kernel-fc96b758129f</a></p>
+<h3 id="aarch64arm64linuxseleniumc-qiita">AArch64(arm64)のLinuxでSeleniumを使う方法（C#版） - Qiita</h3>
+<p><a href="https://qiita.com/noobow/items/52ed93726b757e2a3dbc">https://qiita.com/noobow/items/52ed93726b757e2a3dbc</a></p>
+<h3 id="oci.net-sdkoci-streaming-qiita">【OCI】.NET SDKを使ってOCI Streamingにデータを送信してみる - Qiita</h3>
+<p><a href="https://qiita.com/atwits/items/f23283cc58ee2a24a79e">https://qiita.com/atwits/items/f23283cc58ee2a24a79e</a></p>
+<h3 id="maui-blazorrazor-classlib">Maui BlazorでRazor ClassLibを使ってコンポーネントをプロジェクト分離する - ねこさんのぶろぐ</h3>
+<p><a href="https://www.neko3cs.net/entry/separate-component-to-project-maui-blazor">https://www.neko3cs.net/entry/separate-component-to-project-maui-blazor</a></p>
+<h2 id="section-2">スライド</h2>
+<h3 id="blazor-wasm-code-first-grpc-c">Blazor WASM × Code-first gRPC で始める C# ⼤統⼀理論</h3>
+<p><a href="https://speakerdeck.com/sansantech/sansan-20240515-2">https://speakerdeck.com/sansantech/sansan-20240515-2</a></p>
+<script defer class="speakerdeck-embed" data-id="ee7a89ebea5943e0b2100b47fdc1a670" data-ratio="1.7772511848341233" src="//speakerdeck.com/assets/embed.js"></script>
+<h3 id="net-graphql-client">.NET GraphQL Client のリアル</h3>
+<p><a href="https://speakerdeck.com/sansantech/sansan-20240515-1">https://speakerdeck.com/sansantech/sansan-20240515-1</a></p>
+<script defer class="speakerdeck-embed" data-id="d86f71fcc0934390bebab2edb88f497d" data-ratio="1.7772511848341233" src="//speakerdeck.com/assets/embed.js"></script>
+<h2 id="section-3">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="github-nikiforovallkeycloak-authorization-services-dotnet-authentication-and-authorization-with-keycloak-and-asp.net-core">GitHub - NikiforovAll/keycloak-authorization-services-dotnet: Authentication and Authorization with Keycloak and ASP.NET Core 🔐</h3>
+<p><a href="https://github.com/NikiforovAll/keycloak-authorization-services-dotnet">https://github.com/NikiforovAll/keycloak-authorization-services-dotnet</a></p>
+<ul>
+<li><a href="https://nikiforovall.github.io/dotnet/keycloak/2024/05/05/keycloak-v2-0-0.html">Announcement - Keycloak.AuthServices v2.0.0 is out 🎉!</a></li>
+</ul>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
