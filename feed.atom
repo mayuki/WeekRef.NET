@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2024-05-31T06:39:29Z</updated>
+	<updated>2024-05-31T06:51:08Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -110,8 +110,7 @@
 &lt;p&gt;&lt;a href="https://msdevjp.connpass.com/event/320534/"&gt;https://msdevjp.connpass.com/event/320534/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="blazor.net-20240704-1330"&gt;Blazor+ローコードで実現する.NET資産のモダナイズ (2024/07/04 13:30〜)&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://codeer.connpass.com/event/319762/"&gt;https://codeer.connpass.com/event/319762/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="section-3"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h2 id="section-4"&gt;サイト、ドキュメントなど&lt;/h2&gt;
+&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
 &lt;h3 id="f"&gt;関数型ドメインモデリング ドメイン駆動設計とF#でソフトウェアの複雑さに立ち向かおう&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.kadokawa.co.jp/product/302405003608/"&gt;https://www.kadokawa.co.jp/product/302405003608/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;ドメイン駆動開発に関数型プログラミング F# を用いてモデリング、構築する方法を紹介する本。&lt;/p&gt;
