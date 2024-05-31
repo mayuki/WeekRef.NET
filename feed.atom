@@ -7,9 +7,117 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2024-05-24T05:57:47Z</updated>
+	<updated>2024-05-31T06:39:29Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
+	<entry>
+		<id>/2024/05/31/updates</id>
+		<title>2024-05-31: Build 2024, grpc-dotnet v2.63.0</title>
+		<author>
+			<name>Mayuki Sawatari</name>
+		</author>
+		<link href="/2024/05/31/updates" />
+		<link rel="enclosure" type="image" href="/img/logo.png" />
+		<updated>2024-05-31T00:00:00Z</updated>
+		<content>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="catch-up-on-microsoft-build-2024-essential-sessions-for.net-developers.net-blog"&gt;Catch Up on Microsoft Build 2024: Essential Sessions for .NET Developers - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/catching-up-on-microsoft-build-2024-essential-sessions-for-dotnet-developers/"&gt;https://devblogs.microsoft.com/dotnet/catching-up-on-microsoft-build-2024-essential-sessions-for-dotnet-developers/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Build 2024 での .NET 開発者向けの動画の紹介。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/playlist?list=PLdo4fOcmZ0oUZz7p8H1HsQjgv5tRRIvAS"&gt;.NET at Microsoft Build 2024 - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="release-release-v2.63.0-grpcgrpc-dotnet"&gt;Release Release v2.63.0 · grpc/grpc-dotnet&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/grpc/grpc-dotnet/releases/tag/v2.63.0"&gt;https://github.com/grpc/grpc-dotnet/releases/tag/v2.63.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;grpc-dotnet v2.63.0 がリリースされた。&lt;/p&gt;
+&lt;p&gt;このリリースではメモリーリークやレースコンディションといったいくつかの不具合が修正されている。&lt;/p&gt;
+&lt;h3 id="introducing-libvlcsharp-for-maui"&gt;Introducing LibVLCSharp for MAUI&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/mfkl/introducing-libvlcsharp-for-maui-naj"&gt;https://dev.to/mfkl/introducing-libvlcsharp-for-maui-naj&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;LibVLCSharp の .NET MAUI 対応版のリリース。&lt;/p&gt;
+&lt;p&gt;この初期リリースでは Android と iOS をサポートし、WinUI への対応はフィードバックなどを経て検討とのこと。&lt;/p&gt;
+&lt;h3 id="introducing-links-to-source-code-for.net-api-docs.net-blog"&gt;Introducing links to source code for .NET API Docs - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-docs-link-to-source-code/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-docs-link-to-source-code/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;learn.microsoft.com の .NET API ドキュメントからソースコードへのリンクが実装されたことと、その実装の裏側の解説。&lt;/p&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="testcontainers-for.netpodman"&gt;Testcontainers for .NETをpodmanで動かす&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/k_maru/articles/testcontainersdotnet_podman"&gt;https://zenn.dev/k_maru/articles/testcontainersdotnet_podman&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Testcontainers for .NET によるコンテナーの実行を Docker の代わりに Podman を使用する方法について。&lt;/p&gt;
+&lt;h3 id="a-modern-extension-manager-has-arrived-with-visual-studio-17.10-visual-studio-blog"&gt;A modern Extension Manager has arrived with Visual Studio 17.10 - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-extension-manager-17-10/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-extension-manager-17-10/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 17.10 で導入された新しくなった拡張マネージャーについての紹介。&lt;/p&gt;
+&lt;h3 id="things-you-didnt-know-about-jetbrains-riders-nuget-support-the.net-tools-blog"&gt;9 Things You Didn't Know About JetBrains Rider's NuGet Support | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/05/29/9-things-you-didn-t-know-about-jetbrains-rider-s-nuget-support/"&gt;https://blog.jetbrains.com/dotnet/2024/05/29/9-things-you-didn-t-know-about-jetbrains-rider-s-nuget-support/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;JetBrains Rider の NuGet サポートに関する9つのポイントの紹介。&lt;/p&gt;
+&lt;p&gt;ツールウィンドウ、パッケージソース管理、キャッシュ管理、Assembly Explorer でパッケージを開く、プレリリース版チェックボックス、Checkmarx を使用したセキュリティー、依存してるコードの検索、一か所でのパッケージアップデート、設定、など。&lt;/p&gt;
+&lt;h3 id="wpfgo"&gt;脱初心者！WPFで次のステップへGO！&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/luxiar/articles/f25596cd1876a2"&gt;https://zenn.dev/luxiar/articles/f25596cd1876a2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;WPF のアプリケーションを作るとっかかりとなる構成とテクニックの紹介。&lt;/p&gt;
+&lt;h3 id="choosing-the-best-immutable-dictionary-for-your-c-projects"&gt;Choosing the Best Immutable Dictionary for Your C# Projects&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://goatreview.com/choosing-best-immutable-dictionary-csharp-projects/"&gt;https://goatreview.com/choosing-best-immutable-dictionary-csharp-projects/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;イミュータブルな Dictionary について ReadOnlyDictionary, ImmutableDictionary, FrozenDictionary のパフォーマンスと特性を比較、説明している。&lt;/p&gt;
+&lt;h3 id="visualstudio.extensibility-17.10-debug-your-extensions-with-the-diagnostics-explorer-visual-studio-blog"&gt;VisualStudio.Extensibility 17.10: Debug your extensions with the Diagnostics Explorer - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-17-10/"&gt;https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-17-10/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;新しい Visual Studio の拡張モデル、VisualStudio.Extensibility の 17.10 での新機能について。&lt;/p&gt;
+&lt;p&gt;Diagnostics Explorer によるデバッグ、XAML リソース、ファイルの選択、プロジェクトに対してクエリーした結果のトラッキングなど。&lt;/p&gt;
+&lt;h3 id="xunit-ilogger-qiita"&gt;xUnit の単体テストで ILogger への出力を実現する - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/higege-amdeker/items/4e2adfcc1b57628d2c71"&gt;https://qiita.com/higege-amdeker/items/4e2adfcc1b57628d2c71&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;xUnit を使用したユニットテストで ILogger への出力をテストアウトプットへ出力する方法について。&lt;/p&gt;
+&lt;h3 id="blocking-primary-constructor-member-capture-using-a-roslyn-analyzer"&gt;Blocking primary constructor member capture using a Roslyn Analyzer&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/blocking-primary-constructor-member-capture-using-an-analyzer/"&gt;https://andrewlock.net/blocking-primary-constructor-member-capture-using-an-analyzer/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;プライマリーコンストラクターのキャプチャーをブロックする Analyzer を Roslyn.Diagnostics.Analyzers から使用、または独自の Analyzer で実装する方法について。&lt;/p&gt;
+&lt;h3 id="publish-and-view-mstest-test-results-in-github-actions"&gt;Publish and view MSTest test results in Github Actions&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;ma11hewthomas/publish-and-view-mstest-test-results-in-github-actions-35f11d97a259"&gt;https://medium.com/&amp;#64;ma11hewthomas/publish-and-view-mstest-test-results-in-github-actions-35f11d97a259&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MSTest の結果を .NET 向け CTRF レポーターと github-actions-ctrf によって GitHub Actions のレポートに出力する方法。&lt;/p&gt;
+&lt;h3 id="how-to-update-a-nuget-library-once-the-author-isnt-available-the-reformed-programmer"&gt;How to update a NuGet library once the author isn’t available – The Reformed Programmer&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.thereformedprogrammer.net/how-to-update-a-nuget-library-once-the-author-isnt-available/"&gt;https://www.thereformedprogrammer.net/how-to-update-a-nuget-library-once-the-author-isnt-available/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;認知症となった著者がライブラリーを更新できなくなった時にも他の人が更新できるようにするために行ったことについて。&lt;/p&gt;
+&lt;h3 id="net-aspire-aspirebuild-2024"&gt;.NET Aspire が正式リリース！Aspireを紹介したBuild 2024のセッションを紹介します&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/jtechjapan_pub/articles/adf174ff96d3cb"&gt;https://zenn.dev/jtechjapan_pub/articles/adf174ff96d3cb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Build 2024 で .NET Aspire について触れているセッションの紹介。&lt;/p&gt;
+&lt;h3 id="casyncawait-annulus-games"&gt;【C#】非同期処理とasync/await - Annulus Games&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://annulusgames.com/blog/async-await/"&gt;https://annulusgames.com/blog/async-await/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 非同期についてC# の async/await をはじめ、キャンセルや IAsyncEnumerable などについて仕組みを含めた解説。&lt;/p&gt;
+&lt;h3 id="avalonia-ui-enhance-your-app-with-fluentavalonia-theme-customization"&gt;Avalonia UI: Enhance Your App with FluentAvalonia Theme Customization&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;faruk.akyapak/avalonia-ui-enhance-your-app-with-fluentavalonia-theme-customization-0e8b9bdb4b16"&gt;https://medium.com/&amp;#64;faruk.akyapak/avalonia-ui-enhance-your-app-with-fluentavalonia-theme-customization-0e8b9bdb4b16&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Avalonia の FluentAvalonia テーマをカスタマイズする方法について。&lt;/p&gt;
+&lt;h3 id="c.netbyteskb-mb-gb"&gt;C# (.NET)でバイト(Bytes)をKB, MB, GBに変換したい&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/hirosukekayaba/articles/77d3ae2d90956a"&gt;https://zenn.dev/hirosukekayaba/articles/77d3ae2d90956a&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ファイルサイズをKB, MB, GB といった単位で文字列フォーマットするテクニックについて。&lt;/p&gt;
+&lt;h3 id="trigger-your-gcs-with-dotnet-fullgc"&gt;Trigger your GCs with dotnet-fullgc!&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://chnasarre.medium.com/trigger-your-gcs-with-dotnet-fullgc-c51bc3e364dc"&gt;https://chnasarre.medium.com/trigger-your-gcs-with-dotnet-fullgc-c51bc3e364dc&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;コマンドラインから実行中の .NET プロセスで GC を実行するツールとその実装方法について。&lt;/p&gt;
+&lt;h3 id="net-8-blazor-wasm-grpc"&gt;.NET 8 の Blazor で WASM + gRPC のプロジェクトを作る&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet8-wasm-with-grpc"&gt;https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet8-wasm-with-grpc&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 8 の Blazor WebAssembly プロジェクトで gRPC (Web) を使用した通信を行う方法について。&lt;/p&gt;
+&lt;h3 id="re-observability"&gt;Re:ゼロから始める Observability - ねののお庭。&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.neno.dev/entry/2024/05/25/164314"&gt;https://blog.neno.dev/entry/2024/05/25/164314&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Observability とは何かや OpenTelemetry の用語について、C#/.NET での取り扱いや Collector の活用について。&lt;/p&gt;
+&lt;h3 id="colorpalettepublic-constructor"&gt;ColorPaletteクラスにpublic constructorが登場！&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/sayurin/articles/2700249955ee48"&gt;https://zenn.dev/sayurin/articles/2700249955ee48&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 9 で System.Drawing.Imaging.ColorPalette クラスのコンストラクターが公開されることについて。&lt;/p&gt;
+&lt;p&gt;これにより従来カラーパレット捜査上取り扱いづらい問題があった点が緩和される。&lt;/p&gt;
+&lt;h2 id="section-2"&gt;イベント&lt;/h2&gt;
+&lt;h3 id="microsoft-build-japan-20240627-1000"&gt;Microsoft Build Japan (2024/06/27 10:00〜)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://msdevjp.connpass.com/event/320534/"&gt;https://msdevjp.connpass.com/event/320534/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="blazor.net-20240704-1330"&gt;Blazor+ローコードで実現する.NET資産のモダナイズ (2024/07/04 13:30〜)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://codeer.connpass.com/event/319762/"&gt;https://codeer.connpass.com/event/319762/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-3"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h2 id="section-4"&gt;サイト、ドキュメントなど&lt;/h2&gt;
+&lt;h3 id="f"&gt;関数型ドメインモデリング ドメイン駆動設計とF#でソフトウェアの複雑さに立ち向かおう&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.kadokawa.co.jp/product/302405003608/"&gt;https://www.kadokawa.co.jp/product/302405003608/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ドメイン駆動開発に関数型プログラミング F# を用いてモデリング、構築する方法を紹介する本。&lt;/p&gt;
+</content>
+		<summary>.NET 関連の情報をほぼ週刊配信</summary>
+	</entry>
 	<entry>
 		<id>/2024/05/24/updates</id>
 		<title>2024-05-24: .NET Aspire GA, Visual Studio 2022 17.10, .NET 9 Preview 4</title>
@@ -1381,211 +1489,6 @@
 &lt;!-- https://x.com/mkristensen/status/1761140571970863541?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;I just updated my nightly build of Visual Studio and found this. Coming soon... &lt;a href="https://t.co/b3e4CyNCye"&gt;pic.twitter.com/b3e4CyNCye&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mads Kristensen (&amp;#64;mkristensen) &lt;a href="https://twitter.com/mkristensen/status/1761140571970863541?ref_src=twsrc%5Etfw"&gt;February 23, 2024&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-</content>
-		<summary>.NET 関連の情報をほぼ週刊配信</summary>
-	</entry>
-	<entry>
-		<id>/2024/02/23/updates</id>
-		<title>2024-02-23: grpc-dotnet v2.61.0, Visual Studio 2022 17.10 Preview 1, StackExchange.Redis 2.7.20</title>
-		<author>
-			<name>Mayuki Sawatari</name>
-		</author>
-		<link href="/2024/02/23/updates" />
-		<link rel="enclosure" type="image" href="/img/logo.png" />
-		<updated>2024-02-23T00:00:00Z</updated>
-		<content>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="release-release-v2.61.0-grpcgrpc-dotnet"&gt;Release Release v2.61.0 · grpc/grpc-dotnet&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/grpc/grpc-dotnet/releases/tag/v2.61.0"&gt;https://github.com/grpc/grpc-dotnet/releases/tag/v2.61.0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;grpc-dotnet v2.61.0 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースではいくつかの不具合の修正のほか、gRPC のリッチなエラーモデルに対応する Grpc.StatusProto の追加などが含まれる。&lt;/p&gt;
-&lt;h3 id="introducing-visual-studio-17.10-preview-1-is-here-visual-studio-blog"&gt;Introducing Visual Studio 17.10 – Preview 1 is Here! - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/introducing-visual-studio-17-10-preview-1-is-here/"&gt;https://devblogs.microsoft.com/visualstudio/introducing-visual-studio-17-10-preview-1-is-here/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 17.10 Preview 1 がリリースされた。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;生産性の強化
-&lt;ul&gt;
-&lt;li&gt;GitHub Copilot Chat
-&lt;ul&gt;
-&lt;li&gt;コンテキストの理解&lt;/li&gt;
-&lt;li&gt;共通タスクのためのスラッシュコマンド&lt;/li&gt;
-&lt;li&gt;インラインチャット&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;新しく、モダンな体験の統合された設定でのカスタマイズ&lt;/li&gt;
-&lt;li&gt;Git コミットメッセージ生成のアップデート&lt;/li&gt;
-&lt;li&gt;Pull request に対する Work Item のリンク
-ｰ Visual Studio 更新での推奨コンポーネント追加&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;デバッグと診断
-&lt;ul&gt;
-&lt;li&gt;条件付きブレークポイントとトレースポイントでのデバッグの強化&lt;/li&gt;
-&lt;li&gt;メモリーツールにおけるメモリー使用調査のシンプル化&lt;/li&gt;
-&lt;li&gt;EXE のターゲットインストルメンテーション&lt;/li&gt;
-&lt;li&gt;プロセスへアタッチダイアログの刷新&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;C++ とゲーム開発
-&lt;ul&gt;
-&lt;li&gt;CMake ターゲットのピン止め&lt;/li&gt;
-&lt;li&gt;Build Insights テンプレートビュー&lt;/li&gt;
-&lt;li&gt;Unreal Engine マクロのインデントの追加&lt;/li&gt;
-&lt;li&gt;Visual Studio 統合ツールプラグインのバックグラウンド実行&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Teams と Microsoft 365 開発
-&lt;ul&gt;
-&lt;li&gt;AI を活用した Teams Bot の開発&lt;/li&gt;
-&lt;li&gt;Teams Bot のオフライン実行とデバッグ&lt;/li&gt;
-&lt;li&gt;Copilot for Microsoft 365 の拡張&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="release-2.7.20-stackexchangestackexchange.redis"&gt;Release 2.7.20 · StackExchange/StackExchange.Redis&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.7.20"&gt;https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.7.20&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;StackExchange.Redis 2.7.20 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは Alibaba Cloud のような multi-DB pseudo-cluster/proxy をサポートする対応が行われている。&lt;/p&gt;
-&lt;h3 id="winforms-in-a-64-bit-world-our-strategy-going-forward.net-blog"&gt;WinForms in a 64-Bit world - our strategy going forward - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/winforms-designer-64-bit-path-forward/"&gt;https://devblogs.microsoft.com/dotnet/winforms-designer-64-bit-path-forward/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;WinForms の 64bit 対応、主に Visual Studio のデザイナーについて。&lt;/p&gt;
-&lt;p&gt;記事では Visual Studio とデザイナーを 64bit に対応することのメリットと困難、Out-of-Process デザイナーに移行したこと、32bit .NET Framework アプリケーション向けのデザイナーの Out-of-Process 化、17.9 までに行われたレガシーコンポーネントへの対応と今後の予定について触れている。&lt;/p&gt;
-&lt;h3 id="one-year-of-avalonia-xpf-revolutionising-wpf-development"&gt;One Year of Avalonia XPF - Revolutionising WPF development&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://avaloniaui.net/Blog/one-year-of-avalonia-xpf-revolutionising-wpf-development"&gt;https://avaloniaui.net/Blog/one-year-of-avalonia-xpf-revolutionising-wpf-development&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Avalonia XPF をリリースして1年の振り返りについて。&lt;/p&gt;
-&lt;p&gt;記事では今後のプラットフォーム展開についてや、小規模開発者向けの Indie ライセンスの提供についてもアナウンスされている。&lt;/p&gt;
-&lt;h3 id="jetbrains-rider-and-the.net-aspire-plugin-the.net-tools-blog"&gt;JetBrains Rider and the .NET Aspire Plugin | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/02/19/jetbrains-rider-and-the-net-aspire-plugin/"&gt;https://blog.jetbrains.com/dotnet/2024/02/19/jetbrains-rider-and-the-net-aspire-plugin/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;JetBrains Rider の .NET Aspire プラグインの紹介。&lt;/p&gt;
-&lt;p&gt;記事では .NET Aspire の簡単な紹介と、Rider でのプラグインのインストールから使用方法について紹介している。&lt;/p&gt;
-&lt;p&gt;.NET Aspire プラグインでは Rider IDE 上で OpenTelmetry メトリクスを表示できるほか、記事ではどのようにして .NET Aspire とプラグインがやり取りしているのかといった点も解説している。&lt;/p&gt;
-&lt;h3 id="important-changes-coming-for.net-framework-3.5-and-4.5-targets-of-the-aws-sdk-for.net-amazon-web-services"&gt;Important changes coming for .NET Framework 3.5 and 4.5 targets of the AWS SDK for .NET | Amazon Web Services&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://aws.amazon.com/jp/blogs/developer/important-changes-coming-for-net-framework-3-5-and-4-5-targets-of-the-aws-sdk-for-net/"&gt;https://aws.amazon.com/jp/blogs/developer/important-changes-coming-for-net-framework-3-5-and-4-5-targets-of-the-aws-sdk-for-net/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;AWS SDK for .NET の .NET Framework サポートバージョンについてのアナウンス。&lt;/p&gt;
-&lt;p&gt;2024年8月15日から AWS SDK for .NET は .NET Framework 3.5 と 4.5 のサポートを終了し、最小サポートバージョンは 4.6.2 からとなる。記事では決定に至ったモチベーションについても書かれている。&lt;/p&gt;
-&lt;h3 id="release-8.0.7-dotnetmaui"&gt;Release 8.0.7 · dotnet/maui&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/dotnet/maui/releases/tag/8.0.7"&gt;https://github.com/dotnet/maui/releases/tag/8.0.7&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET MAUI 8.0.7 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは様々な不具合の修正が行われている。&lt;/p&gt;
-&lt;h3 id="net-framework-february-2024-security-and-quality-rollup-updates.net-blog"&gt;.NET Framework February 2024 Security and Quality Rollup Updates - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-framework-february-2024-security-and-quality-rollup-updates/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-framework-february-2024-security-and-quality-rollup-updates/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET Framework の2024年2月のセキュリティーと品質の累積アップデートがリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースではセキュリティーに関する新しい修正は含まれず、品質と信頼性のアップデートのみが含まれる。&lt;/p&gt;
-&lt;p&gt;ASP.NET MVC のリクエスト処理中に ArgumentException がスローされる問題の修正、zlib ライブラリーのバージョンが古い問題の対処などが含まれる。&lt;/p&gt;
-&lt;h3 id="introducing-asp.net-core-metrics-and-grafana-dashboards-in.net-8.net-blog"&gt;Introducing ASP.NET Core metrics and Grafana dashboards in .NET 8 - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/introducing-aspnetcore-metrics-and-grafana-dashboards-in-dotnet-8/"&gt;https://devblogs.microsoft.com/dotnet/introducing-aspnetcore-metrics-and-grafana-dashboards-in-dotnet-8/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 8 の ASP.NET Core のメトリクスに対応した Grafana ダッシュボードが公開された。&lt;/p&gt;
-&lt;p&gt;この Grafana ダッシュボードは ASP.NET Core の各種メトリクスをあらかじめ表示できるように構成したものとなっている。&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="aws-lambda.net-8-developersio"&gt;[アップデート] AWS Lambda のマネージドランタイムで .NET 8 が使えるようになりました | DevelopersIO&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.classmethod.jp/articles/lambda-dotnet-8/"&gt;https://dev.classmethod.jp/articles/lambda-dotnet-8/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;AWS Lambda で .NET 8 ランタイムが利用できるようになったことについて。&lt;/p&gt;
-&lt;p&gt;記事では .NET 8 ランタイムで動作する Lambda 関数を作成、デプロイするところまで触れている。&lt;/p&gt;
-&lt;h3 id="a-streamlined-extension-manager-comes-to-visual-studio-17.9-visual-studio-blog"&gt;A Streamlined Extension Manager comes to Visual Studio 17.9 - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/a-streamlined-extension-manager-comes-to-visual-studio-17-9/"&gt;https://devblogs.microsoft.com/visualstudio/a-streamlined-extension-manager-comes-to-visual-studio-17-9/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio の新しい拡張マネージャーが Visual Studio 17.9 にプレビューとして導入されていることについて。&lt;/p&gt;
-&lt;p&gt;新しい拡張マネージャーは UI が刷新され、詳細が大きく表示され、検索フィルターといったものが使用できるようになっている。新しい拡張マネージャーはプレビュー機能のため、オプションから設定することで利用できる。&lt;/p&gt;
-&lt;h3 id="how-to-use-ai-assistant-to-generate-test-data-for.net-applications-the.net-tools-blog"&gt;How To Use AI Assistant to Generate Test Data For .NET Applications | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/02/21/jetbrains-ai-assistant-generate-test-data-for-dotnet/"&gt;https://blog.jetbrains.com/dotnet/2024/02/21/jetbrains-ai-assistant-generate-test-data-for-dotnet/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;JetBrains AI アシスタントを使用してユニットテストのテストデータを作成してテストする方法について。&lt;/p&gt;
-&lt;h3 id="cgraphql-hotchocolate-qiita"&gt;C#のGraphQLサーバー構築 【HotChocolate 】 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/te-k/items/d0b153a8bb5075ab93fe"&gt;https://qiita.com/te-k/items/d0b153a8bb5075ab93fe&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;HotChocolate を使用した GraphQL サーバーを実装する方法について。&lt;/p&gt;
-&lt;p&gt;記事では Mutation や null 許容についても触れている。&lt;/p&gt;
-&lt;h3 id="onboarding-stripe-connect-express-accounts-in-asp.net-core"&gt;Onboarding Stripe Connect Express accounts in ASP.NET Core&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/stripe/onboarding-stripe-connect-express-accounts-in-aspnet-core-3p0a"&gt;https://dev.to/stripe/onboarding-stripe-connect-express-accounts-in-aspnet-core-3p0a&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core アプリケーションを Stripe Connect と Stripe Billing と統合する例について。&lt;/p&gt;
-&lt;p&gt;記事では架空のサービスを想定して設定や課金の実装といったものを進めている。&lt;/p&gt;
-&lt;h3 id="visualstudio.extensibility-install-extensions-without-restarting-visual-studio-visual-studio-blog"&gt;VisualStudio.Extensibility: Install extensions without restarting Visual Studio! - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-17-9/"&gt;https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-17-9/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio の新しい拡張モデル VisualStudio.Extensibility の再起動なしのインストールをはじめとした新機能について。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;拡張機能を Visual Studio Marketplace に発行する&lt;/li&gt;
-&lt;li&gt;ホットロード: Visual Studio の再起動なしの拡張インストール&lt;/li&gt;
-&lt;li&gt;構成プロパティを使用して拡張を簡単に構成&lt;/li&gt;
-&lt;li&gt;より良いデバッグのためにドッキング可能なカスタムデータビジュアライザーの作成&lt;/li&gt;
-&lt;li&gt;拡張への Language Server Protocol (LSP) サポートの追加&lt;/li&gt;
-&lt;li&gt;拡張されたクエリー API でのプロジェクトシステムのクエリー&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="using-named-pipes-with-asp.net-core-and-httpclient"&gt;Using named pipes with ASP.NET Core and HttpClient&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/using-named-pipes-with-aspnetcore-and-httpclient/"&gt;https://andrewlock.net/using-named-pipes-with-aspnetcore-and-httpclient/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core と HttpClient を Windows の名前付きパイプで使用することについて。名前付きパイプを使用する理由とサーバーおよびクライアントで使用する方法について書かれている。&lt;/p&gt;
-&lt;h3 id="developing-optimized-github-actions-with.net-and-native-aot.net-blog"&gt;Developing Optimized GitHub Actions with .NET and Native AOT - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/developing-optimized-github-actions-with-net-and-native-aot/"&gt;https://devblogs.microsoft.com/dotnet/developing-optimized-github-actions-with-net-and-native-aot/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET で GitHub Actions のアクションを作り、Native AOT でビルドする上での問題点と解決について。&lt;/p&gt;
-&lt;h3 id="net-aspire-preview-3-expanded-component-support-with-azure-openai-mysql-cosmosdb-kafka-and-more"&gt;.NET Aspire Preview 3: Expanded Component Support with Azure OpenAI, MySQL, CosmosDB, Kafka and More&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.infoq.com/news/2024/02/dotnet-aspire-preview3-released/"&gt;https://www.infoq.com/news/2024/02/dotnet-aspire-preview3-released/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET Aspire Preview 3 での変更点についての解説。&lt;/p&gt;
-&lt;h3 id="ironpython-qiita"&gt;IronPython との付き合いかた - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/Mt_SQ/items/ddbcf39c19ad6591bd96"&gt;https://qiita.com/Mt_SQ/items/ddbcf39c19ad6591bd96&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;IronPython を使用する上での Python/.NET との相互運用などについて。&lt;/p&gt;
-&lt;h3 id="reading-raw-asp.net-request.body-multiple-times"&gt;Reading Raw ASP.NET Request.Body Multiple Times&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://weblog.west-wind.com/posts/2024/Feb/20/Reading-Raw-ASPNET-RequestBody-Multiple-Times"&gt;https://weblog.west-wind.com/posts/2024/Feb/20/Reading-Raw-ASPNET-RequestBody-Multiple-Times&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core で通常一度しか読み取れないリクエストボディを複数回読み込む方法について。&lt;/p&gt;
-&lt;h3 id="monorepo-for.net-and-nodejs-workspaces"&gt;Monorepo for .NET and NodeJS workspaces&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://mykeels.medium.com/monorepo-for-net-and-nodejs-workspaces-dca7716c16c6"&gt;https://mykeels.medium.com/monorepo-for-net-and-nodejs-workspaces-dca7716c16c6&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET と NodeJS プロジェクトの両方を含むモノレポの構成について。&lt;/p&gt;
-&lt;h3 id="dumping-the-managed-heap-in-c"&gt;Dumping the managed heap in C#&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://minidump.net/dumping-the-managed-heap-in-csharp/"&gt;https://minidump.net/dumping-the-managed-heap-in-csharp/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;C# からマネージヒープのメモリーをダンプしてみるという試み。&lt;/p&gt;
-&lt;p&gt;記事では WinDbg の dumpheap -stat 相当の表示ができるようにヒープを手繰るといったことも試みている。&lt;/p&gt;
-&lt;h3 id="asp.net-core-azure-monitor-opentelemetry-distro-developersio"&gt;ASP.NET Core アプリケーションへ Azure Monitor OpenTelemetry Distro を導入してみた | DevelopersIO&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.classmethod.jp/articles/azure-monitor-opentelemetry-distro-aspnetcore/"&gt;https://dev.classmethod.jp/articles/azure-monitor-opentelemetry-distro-aspnetcore/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core アプリケーションから Application Insights に対して OpenTelemetry 経由でデータを送信する方法について。&lt;/p&gt;
-&lt;h3 id="net-threadless-process-injection"&gt;.NET Threadless Process Injection&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://vovohelo.medium.com/net-threadless-process-injection-6c389a9ce585"&gt;https://vovohelo.medium.com/net-threadless-process-injection-6c389a9ce585&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET プロセスに対するコードインジェクションを JIT コードをもとに行う手法について。&lt;/p&gt;
-&lt;h3 id="eliminate-passwords-with-fido2-in-asp.net-core"&gt;Eliminate passwords with FIDO2 in ASP.NET Core&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://codezen.medium.com/eliminate-passwords-with-fido2-in-asp-net-core-87b6775b6ca7"&gt;https://codezen.medium.com/eliminate-passwords-with-fido2-in-asp-net-core-87b6775b6ca7&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core で FIDO2 によるパスワードレスを実装する方法について。&lt;/p&gt;
-&lt;h3 id="c-reciprocal-rank-fusion-rrf"&gt;C# で Reciprocal Rank Fusion (RRF) を実装する&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/karamem0/articles/2024_02_16_180000"&gt;https://zenn.dev/karamem0/articles/2024_02_16_180000&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;フルテキスト検索とベクター検索のような複数の検索結果を結合してスコアリングする Reciprocal Rank Fusion (RRF) を実装する方法について。&lt;/p&gt;
-&lt;h3 id="running.net-in-the-browser-without-asp.net"&gt;Running .NET in the Browser without ASP.NET&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;muratkirazkaya/running-net-in-the-browser-without-asp-net-89493ab24e10"&gt;https://medium.com/&amp;#64;muratkirazkaya/running-net-in-the-browser-without-asp-net-89493ab24e10&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Blazor や ASP.NET Core をなしに、WebAssembly にビルドした .NET アプリケーションをブラウザーで動かす方法について。&lt;/p&gt;
-&lt;h3 id="net-continuous-profiler-cpu-and-wall-time-profiling-datadog"&gt;.NET Continuous Profiler: CPU and Wall Time Profiling | Datadog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.datadoghq.com/ja/blog/engineering/dotnet-continuous-profiler-part-2/"&gt;https://www.datadoghq.com/ja/blog/engineering/dotnet-continuous-profiler-part-2/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Datadog プロファイラーの内部についての解説記事。&lt;/p&gt;
-&lt;p&gt;CPU とウォールタイムのプロファイリングの詳細やプロファイラーの OS ごとの実装について書かれている。&lt;/p&gt;
-&lt;h3 id="c-c"&gt;ジェネリック型引数の部分型推論 | &lt;ins&gt;C&lt;/ins&gt;; // 未確認飛行 C ブログ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://ufcpp.net/blog/2024/2/partial-inference/"&gt;https://ufcpp.net/blog/2024/2/partial-inference/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;C# でもジェネリック型の部分型推論ができるようにしたいという話があることについて。&lt;/p&gt;
-&lt;h3 id="rider-2024.1-eap-5-collections-visualizer-sticky-lines-improved-github-actions-support-and-more-the.net-tools-blog"&gt;Rider 2024.1 EAP 5: Collections Visualizer, Sticky Lines, Improved GitHub Actions Support, and More | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/02/16/rider-2024-1-eap-5/"&gt;https://blog.jetbrains.com/dotnet/2024/02/16/rider-2024-1-eap-5/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Rider 2024.1 EAP 5 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースではコレクションビジュアライザー、エディターでの行スティッキー、GitHub Actions サポートの改善、デコンパイラーの改善、型依存ダイアグラムの改善が含まれている。&lt;/p&gt;
-&lt;h3 id="net-aspire-preview-3-integrating-node.js-apps-into-a.net-aspire-application"&gt;.NET Aspire Preview 3 — Integrating Node.Js Apps into a .Net Aspire Application&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;malarsharmila/net-aspire-preview-3-integrating-node-js-apps-into-a-net-aspire-application-071b1c37189d"&gt;https://medium.com/&amp;#64;malarsharmila/net-aspire-preview-3-integrating-node-js-apps-into-a-net-aspire-application-071b1c37189d&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET Aspire Preview 3 で React アプリケーションを統合する手順について。&lt;/p&gt;
-&lt;h3 id="dotinsights-february-2024-the.net-tools-blog"&gt;dotInsights | February 2024 | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/02/07/dotinsights-february-2024/"&gt;https://blog.jetbrains.com/dotnet/2024/02/07/dotinsights-february-2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;JetBrains による2024年2月の .NET 関連トピックのまとめ。&lt;/p&gt;
-&lt;h3 id="rider-splash-screens-for-eaps-early-access-pets-the.net-tools-blog"&gt;Rider Splash Screens for EAPs (Early Access Pets) | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/02/14/rider-splash-screens-for-eaps-early-access-pets/"&gt;https://blog.jetbrains.com/dotnet/2024/02/14/rider-splash-screens-for-eaps-early-access-pets/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;JetBrains Rider のナイトリービルドで使われているスプラッシュスクリーンの紹介。それらのナイトリービルドではペットの写真が使われている。&lt;/p&gt;
-&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="codeer-softwareexcel.report.pdf"&gt;Codeer-Software/Excel.Report.PDF&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/Codeer-Software/Excel.Report.PDF"&gt;https://github.com/Codeer-Software/Excel.Report.PDF&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Excel から PDF ファイルを生成するライブラリー。&lt;/p&gt;
-&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
-&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
-&lt;h2 id="deep-dive"&gt;Deep Dive&lt;/h2&gt;
-&lt;h3 id="optimize-biginteger.divide-by-kzrnm-pull-request-96895-dotnetruntime"&gt;Optimize BigInteger.Divide by kzrnm · Pull Request #96895 · dotnet/runtime&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/dotnet/runtime/pull/96895"&gt;https://github.com/dotnet/runtime/pull/96895&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;BigInteger.Divide を Burnikel-Ziegler 法で最適化するという PR。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/naminodarie/articles/burnikel_ziegler"&gt;多倍長整数の除算: Burnikel-Ziegler 法&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content>
 		<summary>.NET 関連の情報をほぼ週刊配信</summary>
 	</entry>
