@@ -6,8 +6,145 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Fri, 31 May 2024 06:51:08 GMT</pubDate>
-		<lastBuildDate>Fri, 31 May 2024 06:51:08 GMT</lastBuildDate>
+		<pubDate>Fri, 07 Jun 2024 08:22:30 GMT</pubDate>
+		<lastBuildDate>Fri, 07 Jun 2024 08:22:30 GMT</lastBuildDate>
+		<item>
+			<title>2024-06-07: MSTest 3.4, OpenAI for .NET 2.0.0-beta.1, Serilog 4.0.0, Windows App SDK 1.6.0-experimental1</title>
+			<link>/2024/06/07/updates</link>
+			<description>.NET 関連の情報をほぼ週刊配信</description>
+			<author>Mayuki Sawatari</author>
+			<enclosure url="/img/logo.png" length="0" type="image" />
+			<guid isPermaLink="false">/2024/06/07/updates</guid>
+			<pubDate>Fri, 07 Jun 2024 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="mstest-3.4-is-here-with-winui-support-and-new-analyzers.net-blog"&gt;MSTest 3.4 is here with WinUI support and new analyzers! - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/introducing-mstest-34/"&gt;https://devblogs.microsoft.com/dotnet/introducing-mstest-34/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MSTest 3.4 がリリースされた。&lt;/p&gt;
+&lt;p&gt;このリリースでは MSTest.Analyzer の様々な改善とバグ修正、STA スレッドのサポート、フィクスチャーメソッドのタイムアウトサポート、MSTest.Sdk での Playwright や Aspire のサポート、MSTest.Runner の WinUI のサポートといった改善が行われている。&lt;/p&gt;
+&lt;h3 id="announcing-the-official-openai-library-for.net.net-blog"&gt;Announcing the official OpenAI library for .NET - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/openai-dotnet-library/"&gt;https://devblogs.microsoft.com/dotnet/openai-dotnet-library/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI の公式クライアントの最初のベータ版である 2.0.0-beta.1 がリリースされた。&lt;/p&gt;
+&lt;p&gt;このライブラリーでは OpenAI の API のほとんどをカバーし、GPT-4o や IAsyncEnumerable といったものへの対応などが含まれ、今後も最新の機能に合わせて改善が続けられる。&lt;/p&gt;
+&lt;p&gt;記事ではこれまでの OpenAI v1.x NuGet パッケージやその他パッケージのコミュニティーについても触れている。&lt;/p&gt;
+&lt;h3 id="release-v4.0.0-serilogserilog"&gt;Release v4.0.0 · serilog/serilog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/serilog/serilog/releases/tag/v4.0.0"&gt;https://github.com/serilog/serilog/releases/tag/v4.0.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Serilog 4.0.0 がリリースされた。&lt;/p&gt;
+&lt;p&gt;このリリースではバッチ処理を簡単に実装できる仕組みがサポートされたほか、実験的なドット付き名前キャプチャーのサポートなどが追加されている。&lt;/p&gt;
+&lt;p&gt;またこのリリースから 2.0.0.0 に固定されていたアセンブリバージョンがパッケージのバージョンと一致するようになったため .NET Framework で使用する場合にアセンブリリダイレクトが必要になる場合があるとのこと。&lt;/p&gt;
+&lt;h3 id="experimental1-windows-sdk-windows-apps-microsoft-learn"&gt;バージョン 1.6 試験的 (1.6.0-experimental1) - Windows アプリ SDK の最新の試験段階チャネル リリース ノート - Windows apps | Microsoft Learn&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/experimental-channel#version-16-experimental-160-experimental1"&gt;https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/experimental-channel#version-16-experimental-160-experimental1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Windows App SDK 1.6.0-experimental1 がリリースされた。&lt;/p&gt;
+&lt;p&gt;このリリースでは NativeAOT のサポートの追加、TabView の改善、新しい TitleBar コントロール、その他いくつかの改善と新しい API の追加が行われている。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.6-exp1"&gt;Release Windows App SDK 1.6-experimental1 · microsoft/WindowsAppSDK&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="introducing-the-revamped-visual-studio-resource-explorer-visual-studio-blog"&gt;Introducing the Revamped Visual Studio Resource Explorer - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/introducing-the-revamped-visual-studio-resource-explorer/"&gt;https://devblogs.microsoft.com/visualstudio/introducing-the-revamped-visual-studio-resource-explorer/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 17.11 Preview 2 で導入された新しくなったリソースエクスプローラーの紹介。&lt;/p&gt;
+&lt;p&gt;新しくなったリソースエクスプローラーではソリューション全体でのビューやダークモード、検索とフィルターといった操作をサポートし、リソースの取り扱いが容易になっている。&lt;/p&gt;
+&lt;p&gt;現時点では CSV でのインポート、エクスポートには未対応とのこと。&lt;/p&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="thoughts-about-primary-constructors-3-pros-and-5-cons"&gt;Thoughts about primary constructors: 3 pros and 5 cons&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/thoughts-about-primary-constructors-3-pros-and-5-cons/"&gt;https://andrewlock.net/thoughts-about-primary-constructors-3-pros-and-5-cons/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;C# 12 のプライマリーコンストラクターの良いところ3つと落とし穴や微妙なところ5つを紹介している。&lt;/p&gt;
+&lt;h3 id="asp.net-mvc-coreactionfilterattributedi3httpclient-qiita"&gt;ASP.NET MVC CoreのActionFilterAttributeにDIする3つの方法（＋アクションフィルタ内でHttpClientを使う） - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/jun1s/items/c000763f31e6a42bdd3b"&gt;https://qiita.com/jun1s/items/c000763f31e6a42bdd3b&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ASP.NET Core MVC のアクションフィルターで DI コンテナーからサービスを取り出して使用するための方法について。&lt;code&gt;ServiceFilter&lt;/code&gt;, &lt;code&gt;TypeFilter&lt;/code&gt;, &lt;code&gt;IFilterFactory&lt;/code&gt; を紹介している。&lt;/p&gt;
+&lt;h3 id="giving-our-azure-marketplace-images-a-makeover-visual-studio-blog"&gt;Giving our Azure marketplace images a makeover - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/giving-our-visual-studio-azure-marketplace-images-a-makeover/"&gt;https://devblogs.microsoft.com/visualstudio/giving-our-visual-studio-azure-marketplace-images-a-makeover/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Azure Marketplace での Visual Studio のインストールされた新しいイメージの追加と非推奨となったオファーについて。&lt;/p&gt;
+&lt;h3 id="how-to-readwrite-from-credential-manager-in.net-8"&gt;How to Read/Write from Credential Manager in .NET 8&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/issamboutissante/how-to-readwrite-from-credential-manager-in-net-8-1ag"&gt;https://dev.to/issamboutissante/how-to-readwrite-from-credential-manager-in-net-8-1ag&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Windows の資格マネージャーを読み書きする方法について。記事では &lt;code&gt;Meziantou.Framework.Win32&lt;/code&gt; パッケージを使用して読み書きを行う方法を紹介している。&lt;/p&gt;
+&lt;h3 id="rider-2024.2-roadmap-the.net-tools-blog"&gt;Rider 2024.2 Roadmap | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/06/05/rider-2024-2-roadmap/"&gt;https://blog.jetbrains.com/dotnet/2024/06/05/rider-2024-2-roadmap/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Rider 2024.2 のロードマップ。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;パフォーマンス&lt;/li&gt;
+&lt;li&gt;ユーザーエクスペリエンス
+&lt;ul&gt;
+&lt;li&gt;ナビゲーションバーの刷新&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;デバッガー
+&lt;ul&gt;
+&lt;li&gt;タスクビューとタスクの依存関係グラフ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ゲーム開発
+&lt;ul&gt;
+&lt;li&gt;Unity の IL2CPP バックエンド使用時のデバッグの改善やコレクションビジュアライザーの改善、シェーダーバリアント&lt;/li&gt;
+&lt;li&gt;Unreal Engine のデバッグ改善&lt;/li&gt;
+&lt;li&gt;Godot のデバッグを含む GDScript のサポート&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;フレームワークとテクノロジー&lt;/li&gt;
+&lt;li&gt;フルラインコード補完&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="a-beginners-guide-to-mapping-arrays-in-ef-core-8.net-blog"&gt;A beginner's guide to mapping arrays in EF Core 8 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/array-mapping-in-ef-core-8/"&gt;https://devblogs.microsoft.com/dotnet/array-mapping-in-ef-core-8/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Entiy Framework Core 8 での配列マッピングについての解説。&lt;/p&gt;
+&lt;p&gt;記事では PostgreSQL の配列型やそれ以外のデータベースでの JSON を使用した配列、型付き配列、それらがどのように展開されるのかといったことを開設している。&lt;/p&gt;
+&lt;h3 id="get-hands-on-with-visual-studio-and-azure-live-at-microsoft-hq-this-august-visual-studio-blog"&gt;Get Hands-On with Visual Studio and Azure: Live at Microsoft HQ this August! - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/get-hands-on-with-visual-studio-and-azure-live-at-microsoft-hq-this-august/"&gt;https://devblogs.microsoft.com/visualstudio/get-hands-on-with-visual-studio-and-azure-live-at-microsoft-hq-this-august/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;8月5日から9日にかけて Microsoft 本社にて行われる Visual Studio LIVE! イベントの告知。&lt;/p&gt;
+&lt;p&gt;記事では Visual Studio LIVE! イベントの概要や早期特別割引の案内を紹介している。&lt;/p&gt;
+&lt;h3 id="creating-shell-extensions-in.net-8-with-sharpshell"&gt;Creating Shell Extensions in .NET 8 with SharpShell&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/issamboutissante/creating-shell-extensions-in-net-8-with-sharpshell-2ioe"&gt;https://dev.to/issamboutissante/creating-shell-extensions-in-net-8-with-sharpshell-2ioe&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 8 と &lt;code&gt;SharpShell&lt;/code&gt; を使用してコンテキストメニューのシェル拡張を実装する方法について。&lt;/p&gt;
+&lt;h3 id="net-8-blazor-errorboundary"&gt;.NET 8 での Blazor で ErrorBoundary を使ったエラーハンドリングの注意点&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet8-errorboundary"&gt;https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet8-errorboundary&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 8 の Blazor における ErrorBoundary を使用してエラーをハンドリングする方法と注意すべき点について。&lt;/p&gt;
+&lt;h3 id="state-machines-light-switches-and-space-travel-with-stateless-and.net-8"&gt;State Machines, Light Switches, and Space Travel with Stateless and .NET 8&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://khalidabuhakmeh.com/state-machines-light-switches-and-space-travel-with-stateless-and-dotnet-8"&gt;https://khalidabuhakmeh.com/state-machines-light-switches-and-space-travel-with-stateless-and-dotnet-8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Stateless&lt;/code&gt; を使用したステートマシンの実装方法の紹介。記事では UmlDotGraph を使用したグラフの出力などについても触れている。&lt;/p&gt;
+&lt;h3 id="understanding-the-exception.hresult-property-in-c"&gt;Understanding the Exception.HResult property in C#&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.elmah.io/understanding-the-exception-hresult-property-in-c/"&gt;https://blog.elmah.io/understanding-the-exception-hresult-property-in-c/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Exception の HResult プロパティーについての解説。&lt;/p&gt;
+&lt;p&gt;記事では HResult はどのような役割でどのようなルールで値が設定されるのか、その読み方と調べ方について振れている。&lt;/p&gt;
+&lt;h3 id="microsoft-photos-migrating-from-uwp-to-windows-app-sdk"&gt;Microsoft Photos: Migrating from UWP to Windows App SDK&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blogs.windows.com/windowsdeveloper/2024/06/03/microsoft-photos-migrating-from-uwp-to-windows-app-sdk/"&gt;https://blogs.windows.com/windowsdeveloper/2024/06/03/microsoft-photos-migrating-from-uwp-to-windows-app-sdk/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Windows のフォトアプリを UWP から Windows App SDK へ移行した事例についての説明。&lt;/p&gt;
+&lt;p&gt;記事ではプロセスモデルが変わったこと、WebView2 を使用できるようになったこと、メンテナンス性の向上、ASTA から STA にかわったことや AutoPlay といった技術的なチャレンジといった点を解説している。&lt;/p&gt;
+&lt;h3 id="c-onnx-runtime-generative-ai-directml-phi-3"&gt;C# と ONNX Runtime Generative AI (DirectML) を使って Phi-3 をローカルで動かす - しばやん雑記&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.shibayan.jp/entry/20240604/1717465930"&gt;https://blog.shibayan.jp/entry/20240604/1717465930&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ONNX Runtime Generative AI (DirectML) を使用して Phi-3 モデルをローカル環境で動かしてみる解説。&lt;/p&gt;
+&lt;h3 id="why-you-should-batch-message-processing-and-how-to-do-it-with.net-asyncenumerable-event-driven.io"&gt;Why you should batch message processing and how to do it with .NET AsyncEnumerable - Event-Driven.io&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://event-driven.io/en/batching_async_enumerable/"&gt;https://event-driven.io/en/batching_async_enumerable/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;AsyncEnumerable を使用しつつメッセージをバッチ処理する方法について。&lt;/p&gt;
+&lt;p&gt;記事では Open.ChannelExtensions ライブラリーを使用して Channel を元に AsyncEnumerable を作成する方法を紹介している。&lt;/p&gt;
+&lt;h3 id="primitive-vs-strongly-typed-dictionary-keys-feat.frozen-collections-and-benchmarkdotnet"&gt;Primitive vs strongly typed dictionary keys (feat. frozen collections and BenchmarkDotNet)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.codingmilitia.com/2024/04/13/primitive-vs-strongly-typed-dictionary-keys-feat-frozen-collections-and-benchmarkdotnet/"&gt;https://blog.codingmilitia.com/2024/04/13/primitive-vs-strongly-typed-dictionary-keys-feat-frozen-collections-and-benchmarkdotnet/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="weakly-and-strongly-typed-values-in.net"&gt;Weakly and strongly typed values in .NET&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://yoh.dev/weakly-and-strongly-typed-values-in-dotnet"&gt;https://yoh.dev/weakly-and-strongly-typed-values-in-dotnet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;プリミティブ(弱い型)とそれをラップした強い型を使用した FrozenDictionary の参照パフォーマンスについて。&lt;/p&gt;
+&lt;h3 id="com-cexcel-qiita"&gt;COM の解放について (C#、Excel) - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/nnkanegon/items/1715b0da782e3dd713c9"&gt;https://qiita.com/nnkanegon/items/1715b0da782e3dd713c9&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;COM オブジェクトの解放に関する問題と、解放漏れによるリークを調査する方法について。&lt;/p&gt;
+&lt;h3 id="microsoft-ime-qiita"&gt;Microsoft IME の変換候補だけ欲しい - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/Fom/items/d9e421bae516be85d675"&gt;https://qiita.com/Fom/items/d9e421bae516be85d675&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;IME による変換候補を取得するライブラリーとその利用方法についての簡単な紹介。&lt;/p&gt;
+&lt;h3 id="refactor-your-code-using-alias-any-type.net-blog"&gt;Refactor your code using alias any type - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/refactor-your-code-using-alias-any-type/"&gt;https://devblogs.microsoft.com/dotnet/refactor-your-code-using-alias-any-type/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;C# 12 の任意の型のエイリアスを使用してリファクタリングしよう、という記事。&lt;/p&gt;
+&lt;h3 id="using-keycloak-in.net-aspire-projects"&gt;Using Keycloak in .NET Aspire projects&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://nikiforovall.github.io/dotnet/keycloak/2024/06/02/aspire-support-for-keycloak.html"&gt;https://nikiforovall.github.io/dotnet/keycloak/2024/06/02/aspire-support-for-keycloak.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="netplaywright"&gt;.NETでPlaywrightのテスト環境を構築しよう&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/zead/articles/vscode_playwright"&gt;https://zenn.dev/zead/articles/vscode_playwright&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Playwright を使用したブラウザーテストの環境構築について。&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>2024-05-31: Build 2024, grpc-dotnet v2.63.0</title>
 			<link>/2024/05/31/updates</link>
@@ -1318,164 +1455,6 @@
 &lt;h2 id="deep-dive"&gt;Deep Dive&lt;/h2&gt;
 &lt;h3 id="nativeaot-add-win-x86-support-by-filipnavara-pull-request-99372-dotnetruntime"&gt;NativeAOT: Add win-x86 support by filipnavara · Pull Request #99372 · dotnet/runtime&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/dotnet/runtime/pull/99372"&gt;https://github.com/dotnet/runtime/pull/99372&lt;/a&gt;&lt;/p&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>2024-03-05: Windows App SDK 1.5, StackExchange.Redis 2.7.27, NCrunch V5</title>
-			<link>/2024/03/05/updates</link>
-			<description>.NET 関連の情報をほぼ週刊配信</description>
-			<author>Mayuki Sawatari</author>
-			<enclosure url="/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/2024/03/05/updates</guid>
-			<pubDate>Tue, 05 Mar 2024 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="version-1.5-stable-channel-release-notes-for-the-windows-app-sdk-windows-apps"&gt;Version 1.5 - Stable channel release notes for the Windows App SDK - Windows apps&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/stable-channel#version-15"&gt;https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/stable-channel#version-15&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Windows App SDK 1.5 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは XAML Island でのシャットダウン時の挙動の変更、WebView2 と Azure Map ベースでの Map コントロールの追加、SelectorBar コントロールの追加、CommandBarFlyout でのプライマリーコマンドのラベル対応、WebView2 でのカスタム環境/オプション対応、.NET 8 対応といった改善が含まれている。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.5.0"&gt;Release v1.5.0 · microsoft/WindowsAppSDK&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="windows-app-sdk-windows-apps"&gt;バージョン 1.4.5 - Windows App SDK の安定チャネルのリリース ノート - Windows apps&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/stable-channel#version-145-14240211001"&gt;https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/stable-channel#version-145-14240211001&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Windows App SDK 1.4.5 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースではハングやクラッシュといったいくつかの不具合が修正されている。&lt;/p&gt;
-&lt;h3 id="release-2.7.27-stackexchangestackexchange.redis"&gt;Release 2.7.27 · StackExchange/StackExchange.Redis&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.7.27"&gt;https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.7.27&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;StackExchange.Redis 2.7.23, 2.7.27 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースではコネクションのライブラリー名にサフィックスを付ける機能やアイドル時以外にもキープアライブチェックを行うオプションが追加された。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.7.23"&gt;Release 2.7.23 · StackExchange/StackExchange.Redis&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="ncrunch-blog-ncrunch-v5-now-available"&gt;NCrunch Blog | NCrunch V5 Now Available&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.ncrunch.net/post/NCrunch-V5-Now-Available.aspx"&gt;https://blog.ncrunch.net/post/NCrunch-V5-Now-Available.aspx&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;NCrunch V5 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは JetBrains Rider のサポートと Runtime Data Inspection (RDI) 機能の導入が行われている。&lt;/p&gt;
-&lt;p&gt;Runtime Data Inspection はテスト実行時に様々なデータをキャプチャーして、それを元にコードの挙動を解析できる機能。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://blog.ncrunch.net/post/Introducing-Runtime-Data-Inspection.aspx"&gt;NCrunch Blog | Introducing Runtime Data Inspection&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="code-coverage-features-in-visual-studio-enterprise-visual-studio-blog"&gt;Code coverage features in Visual Studio Enterprise - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/code-coverage-features-in-visual-studio-enterprise/"&gt;https://devblogs.microsoft.com/visualstudio/code-coverage-features-in-visual-studio-enterprise/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio Enterprise のコードカバレッジ機能についての新機能やパフォーマンス改善といったものの紹介。&lt;/p&gt;
-&lt;h3 id="entity-framework-core-qiita"&gt;Entity Framework Coreで論理削除 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/filunK/items/8485c8fcc38fae5d2b40"&gt;https://qiita.com/filunK/items/8485c8fcc38fae5d2b40&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Entity Framework Core で Interceptor を使用して、データベースのテーブルからの論理削除(削除フラグ)を実装する方法について。&lt;/p&gt;
-&lt;h3 id="c-qiita"&gt;C# で文字列の式から計算結果を得る - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/hyukix/items/ac26decee3bb75b32f75"&gt;https://qiita.com/hyukix/items/ac26decee3bb75b32f75&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;与えられた文字列の式から計算結果を取得するための機能を持つライブラリーを挙動とパフォーマンス面から比較。&lt;/p&gt;
-&lt;h3 id="rider-2024.1-eap-7-c-updates-new-product-icons-bundled-kubernetes-plugin-the.net-tools-blog"&gt;Rider 2024.1 EAP 7: C# Updates, New Product Icons, Bundled Kubernetes Plugin | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/03/01/rider-2024-1-eap-7/"&gt;https://blog.jetbrains.com/dotnet/2024/03/01/rider-2024-1-eap-7/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Rider 2024.1 EAP 7 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは C# 12 サポートの改善、新しいアイコン、Kubernetes プラグインのバンドルといった変更が行われている。&lt;/p&gt;
-&lt;h3 id="rider-2024.1-eap-6-updated-new-project-dialog-custom-naming-rules-and-vcs-improvements-the.net-tools-blog"&gt;Rider 2024.1 EAP 6: Updated New Project Dialog, Custom Naming Rules, and VCS Improvements | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/02/27/rider-2024-1-eap-6/"&gt;https://blog.jetbrains.com/dotnet/2024/02/27/rider-2024-1-eap-6/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Rider 2024.1 EAP 6 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは新しいプロジェクトダイアログの更新、Blazor WASM のホットリロードデバッグ、C# サポートの改善、パフォーマンスの改善、メモリープロファイリングでの Frozen Object Heap の対応などが含まれる。&lt;/p&gt;
-&lt;h3 id="resharper-2024.1-eap-6-the-most-feature-rich-update-yet-the.net-tools-blog"&gt;ReSharper 2024.1 EAP 6: The Most Feature-Rich Update Yet | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/02/27/resharper-2024-1-eap-6/"&gt;https://blog.jetbrains.com/dotnet/2024/02/27/resharper-2024-1-eap-6/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ReSharper 2024.1 EAP 6 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースではリネームの高速化、C# での async メソッド内の disposable なリソースの取り扱いの改善、コードフォーマットやデコンパイラーの改善、dotMemory のメモリープロファイリングでの Frozen Object Heap の対応などが含まれる。&lt;/p&gt;
-&lt;h3 id="google-magika-python-cday-1-7-qiita"&gt;Google の Magika を Python から C#に移植するまでの過程（Day 1 / 7） - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/mkht/items/64b02b8648266d40380a"&gt;https://qiita.com/mkht/items/64b02b8648266d40380a&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Google の機械学習ベースのファイル種別判定ツール Magika を Python から C# に移植を試みた話。モデルを読み込んで実行するコマンドラインツールにするといった一連の移植を行っている。&lt;/p&gt;
-&lt;h3 id="params-c-c"&gt;params コレクション | ++C++; // 未確認飛行 C ブログ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://ufcpp.net/blog/2024/3/params-collections/"&gt;https://ufcpp.net/blog/2024/3/params-collections/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;C# 13 で検討されている params に配列以外を指定できるようにする params コレクションについて。&lt;/p&gt;
-&lt;h3 id="how-to-build-a-nuget-package-with-ios-frameworks-for.net-maui-development"&gt;How to Build a NuGet Package with iOS Frameworks for .NET MAUI Development&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.dynamsoft.com/codepool/ios-ipados-dotnet-maui-mrz-recognition.html"&gt;https://www.dynamsoft.com/codepool/ios-ipados-dotnet-maui-mrz-recognition.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET MAUI 向けの iOS の Framework を含む NuGet パッケージを作る手順について。&lt;/p&gt;
-&lt;h3 id="stride-qiita"&gt;Strideでコンポーネントを作成、共有する - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/skitoy4321/items/ba6fdfedf03d444cac40"&gt;https://qiita.com/skitoy4321/items/ba6fdfedf03d444cac40&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Stride (ゲームエンジン) でコンポーネントを作成する方法と、NuGet パッケージで公開する際の注意点など。&lt;/p&gt;
-&lt;h3 id="using-unix-domain-sockets-with-asp.net-core-and-httpclient"&gt;Using Unix domain sockets with ASP.NET Core and HttpClient&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/using-unix-domain-sockets-with-aspnetcore-and-httpclient/"&gt;https://andrewlock.net/using-unix-domain-sockets-with-aspnetcore-and-httpclient/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;UNIX ドメインソケットで ASP.NET Core サーバーと HttpClient で通信する方法について。&lt;/p&gt;
-&lt;h3 id="visual-studios-full-year-in-review-2023-visual-studio-blog"&gt;Visual Studio's Full Year in Review (2023) - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studios-full-year-in-review-2023/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studios-full-year-in-review-2023/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio の2023年の振り返りのまとめ記事。&lt;/p&gt;
-&lt;h3 id="the-fast-and-the-fluent-a-blazor-story.net-blog"&gt;The FAST and the Fluent: A Blazor story - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/the-fast-and-the-fluent-a-blazor-story/"&gt;https://devblogs.microsoft.com/dotnet/the-fast-and-the-fluent-a-blazor-story/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Fluent UI Blazor ライブラリーについての紹介。&lt;/p&gt;
-&lt;p&gt;ベースとなる FAST (Web Component) とその連携、そのほか Aspire のダッシュボードで使用されていることなどに触れている。&lt;/p&gt;
-&lt;h3 id="shoelace-web-components-with-asp.net-core"&gt;Shoelace Web Components with ASP.NET Core&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://khalidabuhakmeh.com/shoelace-web-components-with-aspnet-core"&gt;https://khalidabuhakmeh.com/shoelace-web-components-with-aspnet-core&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Shoelace Web Component を ASP.NET Core の Razor Pages で使う手順について。&lt;/p&gt;
-&lt;h3 id="net-performance-optimization-deferred-allocations"&gt;.NET Performance Optimization: Deferred Allocations&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://petabridge.com/blog/net-performance-deferred-allocation/"&gt;https://petabridge.com/blog/net-performance-deferred-allocation/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Akka.NET の計測を行うための Phobos で遅延割り当てを駆使することでパフォーマンスの低下を抑えるという手法を取ったことについての解説。&lt;/p&gt;
-&lt;h3 id="net-maui-community-toolkit-2023-highlights.net-blog"&gt;.NET MAUI Community Toolkit 2023 Highlights - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-maui-community-toolkit-2023-highlights/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-maui-community-toolkit-2023-highlights/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET MAUI Community Toolkit の2023年のアップデートや活動の振り返り。&lt;/p&gt;
-&lt;h3 id="winforms-designer-selection-for-32-bit.net-framework-projects-visual-studio-blog"&gt;WinForms Designer Selection for 32-bit .NET Framework Projects - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/winforms-designer-selection-for-32-bit-net-framework-projects/"&gt;https://devblogs.microsoft.com/visualstudio/winforms-designer-selection-for-32-bit-net-framework-projects/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 v17.9 で導入された .NET Framework の Windows Forms 向けのアウトオブプロセスデザイナー(プレビュー)について。&lt;/p&gt;
-&lt;p&gt;記事では互換性のないプロジェクトを読み込んだ際の切り替えについて、アウトオブプロセスデザイナーの制限やロードマップといった点を開設している。&lt;/p&gt;
-&lt;h3 id="docker-init-for-asp.net-core-compared-to-vs-or-vs-code-extensions"&gt;Docker Init for ASP.NET Core Compared to VS or VS Code Extensions&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://thedatafarm.com/docker/docker-init-for-asp-net-core-compared-to-vs-or-vs-code-extensions/"&gt;http://thedatafarm.com/docker/docker-init-for-asp-net-core-compared-to-vs-or-vs-code-extensions/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Docker に組み込まれた &lt;code&gt;docker init&lt;/code&gt; で生成される ASP.NET Core プロジェクトと Visual Studio や .NET SDK で生成されるプロジェクトがどのように異なるのかについて。&lt;/p&gt;
-&lt;p&gt;記事では .dockerignore や Dockerfile、docker-compose.yml の差異といったものを比較している。&lt;/p&gt;
-&lt;h3 id="net-8-asp.net-core-blazor"&gt;.NET 8 の ASP.NET Core Blazor で二度押しを抑止したい&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/blazor-dotnet8-do-not-double-click"&gt;https://zenn.dev/microsoft/articles/blazor-dotnet8-do-not-double-click&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 8 の ASP.NET Core Blazor でボタンなどの二度押しを抑制する方法について。&lt;/p&gt;
-&lt;p&gt;記事ではフォームを使った場合の実装についても触れている。&lt;/p&gt;
-&lt;h3 id="using-polly-v8-with-httpclientfactory"&gt;Using Polly v8 with HttpClientFactory&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://truestorydavestorey.medium.com/using-polly-v8-with-httpclientfactory-3f9a64359990"&gt;https://truestorydavestorey.medium.com/using-polly-v8-with-httpclientfactory-3f9a64359990&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;HttpClientFactory で Polly v8 を使用する方法について。&lt;/p&gt;
-&lt;p&gt;記事では v7 から v8 へと移行する際に必要となった変更についても解説している。&lt;/p&gt;
-&lt;h3 id="neue-cc-r3-creactive-extensions"&gt;neue cc - R3 - C#用のReactive Extensionsの新しい現代的再実装&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://neue.cc/2024/02/27_R3.html"&gt;https://neue.cc/2024/02/27_R3.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Reactive Extensions を現代的な視点に基づいて再設計/再実装したライブラリー R3 についての解説。&lt;/p&gt;
-&lt;p&gt;記事ではどのような観点で R3 を再構築するに至ったか、どのような点が現代的なものであるのかといった設計思想を説明している。&lt;/p&gt;
-&lt;h3 id="aws-lambda.net-6.net-8-qiita"&gt;AWS Lambdaで.NET 6から.NET 8に移行したときにやったこと - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/kaz-matsubara/items/259de11eb3f30f9bda1f"&gt;https://qiita.com/kaz-matsubara/items/259de11eb3f30f9bda1f&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 6 で実装された AWS Lambda プロジェクトを .NET 8 へと移行したことについて。&lt;/p&gt;
-&lt;h3 id="wpftextbox"&gt;【WPF】数値しか入力できないTextBox&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/nuits_jp/articles/2024-02-25-numeric-text-box"&gt;https://zenn.dev/nuits_jp/articles/2024-02-25-numeric-text-box&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;WPF で数値のみ入力可能となる TextBox を実装する方法について。&lt;/p&gt;
-&lt;h3 id="async-await-vs.pipetot-in-akka.net-actors"&gt;Async / Await vs. PipeTo&amp;gt;T&amp;gt; in Akka.NET Actors&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://petabridge.com/blog/async-await-vs-pipeto/"&gt;https://petabridge.com/blog/async-await-vs-pipeto/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Akka.NET アクターでのおける async/await と PipeTo の挙動やパフォーマンスといった面での比較。&lt;/p&gt;
-&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="gummycat-visualize-the-activity-of-the.net-garbage-collector"&gt;GummyCat - Visualize the activity of the .NET garbage collector&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://minidump.net/gummycat/"&gt;https://minidump.net/gummycat/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET ヒープのメモリーレイアウトを表示し、GC の動作を可視化するツール。&lt;/p&gt;
-&lt;h3 id="view-your-gcs-statistics-live-with-dotnet-gcstats"&gt;View your GCs statistics live with dotnet-gcstats!&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://chnasarre.medium.com/view-your-gcs-statistics-live-with-dotnet-gcstats-e670ce949bd9"&gt;https://chnasarre.medium.com/view-your-gcs-statistics-live-with-dotnet-gcstats-e670ce949bd9&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;GC の統計情報を見るコマンドラインツール。&lt;/p&gt;
-&lt;h2 id="section-3"&gt;イベント&lt;/h2&gt;
-&lt;h3 id="c-20240427-1330"&gt;C#パフォーマンス勉強会 (2024/04/27 13:30〜)&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://cs-reading.connpass.com/event/309714/"&gt;https://cs-reading.connpass.com/event/309714/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="section-4"&gt;サイト、ドキュメントなど&lt;/h2&gt;
-&lt;h3 id="section-5"&gt;ツイート&lt;/h3&gt;
-&lt;p&gt;Visual Studio 17.10 Preview 2 に C# 13 プレビュー機能として Lock 型対応がマージされた話。&lt;/p&gt;
-&lt;!-- https://x.com/jcouv/status/1764710194381283497?s=12&amp;t=ggvrrZ7oLogHyNoIGNgjbw --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;We merged a preview C# 13 feature into VS 17.10 (preview 2): locking on `Lock` type.&lt;br&gt;&lt;br&gt;It special-cases how `System.Threading.Lock` interacts with the `lock` statement for improved usability and performance.&lt;a href="https://t.co/UZoTASkyfY"&gt;https://t.co/UZoTASkyfY&lt;/a&gt;&lt;/p&gt;&amp;mdash; Julien Couvreur (&amp;#64;jcouv) &lt;a href="https://twitter.com/jcouv/status/1764710194381283497?ref_src=twsrc%5Etfw"&gt;March 4, 2024&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;読み取り専用接続にまとめて &lt;code&gt;AsNoTracking&lt;/code&gt; を指定する方法。&lt;/p&gt;
-&lt;!-- https://x.com/dave_dotnet/status/1764294153851060696?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Set Entity Framework AsNoTracking() globally  ⬇&lt;br&gt;&lt;br&gt;Perfect for read-only scenarios. &lt;a href="https://twitter.com/hashtag/dotnet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotnet&lt;/a&gt; &lt;a href="https://t.co/UQ7Qp9bjEn"&gt;pic.twitter.com/UQ7Qp9bjEn&lt;/a&gt;&lt;/p&gt;&amp;mdash; Dave Callan | dotnet (&amp;#64;Dave_DotNet) &lt;a href="https://twitter.com/Dave_DotNet/status/1764294153851060696?ref_src=twsrc%5Etfw"&gt;March 3, 2024&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;Visual Studio でソリューションごとに設定を変更をオーバーライドできるようになる話。&lt;/p&gt;
-&lt;!-- https://x.com/mkristensen/status/1763258040890134701?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Settings can now follow any individual solution in Visual Studio. Coming soon... &lt;a href="https://t.co/W3DqgS6ecy"&gt;pic.twitter.com/W3DqgS6ecy&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mads Kristensen (&amp;#64;mkristensen) &lt;a href="https://twitter.com/mkristensen/status/1763258040890134701?ref_src=twsrc%5Etfw"&gt;February 29, 2024&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;Visual Studio のエディターでのイタリック体の対応。&lt;/p&gt;
-&lt;!-- https://x.com/mkristensen/status/1761140571970863541?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;I just updated my nightly build of Visual Studio and found this. Coming soon... &lt;a href="https://t.co/b3e4CyNCye"&gt;pic.twitter.com/b3e4CyNCye&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mads Kristensen (&amp;#64;mkristensen) &lt;a href="https://twitter.com/mkristensen/status/1761140571970863541?ref_src=twsrc%5Etfw"&gt;February 23, 2024&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>

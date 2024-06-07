@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2024-06-07: MSTest 3.4, OpenAI for .NET 2.0.0-beta.1, Serilog 4.0.0, Windows App SDK 1.6.0-experimental1 - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2024/06/07/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2024-06-07: MSTest 3.4, OpenAI for .NET 2.0.0-beta.1, Serilog 4.0.0, Windows App SDK 1.6.0-experimental1 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2024/06/07/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2024-06-07: MSTest 3.4, OpenAI for .NET 2.0.0-beta.1, Serilog 4.0.0, Windows App SDK 1.6.0-experimental1
+          </h1>
+              <div class="meta">Published on Friday, 07 June 2024</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="mstest-3.4-is-here-with-winui-support-and-new-analyzers.net-blog">MSTest 3.4 is here with WinUI support and new analyzers! - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/introducing-mstest-34/">https://devblogs.microsoft.com/dotnet/introducing-mstest-34/</a></p>
+<p>MSTest 3.4 がリリースされた。</p>
+<p>このリリースでは MSTest.Analyzer の様々な改善とバグ修正、STA スレッドのサポート、フィクスチャーメソッドのタイムアウトサポート、MSTest.Sdk での Playwright や Aspire のサポート、MSTest.Runner の WinUI のサポートといった改善が行われている。</p>
+<h3 id="announcing-the-official-openai-library-for.net.net-blog">Announcing the official OpenAI library for .NET - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/openai-dotnet-library/">https://devblogs.microsoft.com/dotnet/openai-dotnet-library/</a></p>
+<p>OpenAI の公式クライアントの最初のベータ版である 2.0.0-beta.1 がリリースされた。</p>
+<p>このライブラリーでは OpenAI の API のほとんどをカバーし、GPT-4o や IAsyncEnumerable といったものへの対応などが含まれ、今後も最新の機能に合わせて改善が続けられる。</p>
+<p>記事ではこれまでの OpenAI v1.x NuGet パッケージやその他パッケージのコミュニティーについても触れている。</p>
+<h3 id="release-v4.0.0-serilogserilog">Release v4.0.0 · serilog/serilog</h3>
+<p><a href="https://github.com/serilog/serilog/releases/tag/v4.0.0">https://github.com/serilog/serilog/releases/tag/v4.0.0</a></p>
+<p>Serilog 4.0.0 がリリースされた。</p>
+<p>このリリースではバッチ処理を簡単に実装できる仕組みがサポートされたほか、実験的なドット付き名前キャプチャーのサポートなどが追加されている。</p>
+<p>またこのリリースから 2.0.0.0 に固定されていたアセンブリバージョンがパッケージのバージョンと一致するようになったため .NET Framework で使用する場合にアセンブリリダイレクトが必要になる場合があるとのこと。</p>
+<h3 id="experimental1-windows-sdk-windows-apps-microsoft-learn">バージョン 1.6 試験的 (1.6.0-experimental1) - Windows アプリ SDK の最新の試験段階チャネル リリース ノート - Windows apps | Microsoft Learn</h3>
+<p><a href="https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/experimental-channel#version-16-experimental-160-experimental1">https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/experimental-channel#version-16-experimental-160-experimental1</a></p>
+<p>Windows App SDK 1.6.0-experimental1 がリリースされた。</p>
+<p>このリリースでは NativeAOT のサポートの追加、TabView の改善、新しい TitleBar コントロール、その他いくつかの改善と新しい API の追加が行われている。</p>
+<ul>
+<li><a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.6-exp1">Release Windows App SDK 1.6-experimental1 · microsoft/WindowsAppSDK</a></li>
+</ul>
+<h3 id="introducing-the-revamped-visual-studio-resource-explorer-visual-studio-blog">Introducing the Revamped Visual Studio Resource Explorer - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/introducing-the-revamped-visual-studio-resource-explorer/">https://devblogs.microsoft.com/visualstudio/introducing-the-revamped-visual-studio-resource-explorer/</a></p>
+<p>Visual Studio 2022 17.11 Preview 2 で導入された新しくなったリソースエクスプローラーの紹介。</p>
+<p>新しくなったリソースエクスプローラーではソリューション全体でのビューやダークモード、検索とフィルターといった操作をサポートし、リソースの取り扱いが容易になっている。</p>
+<p>現時点では CSV でのインポート、エクスポートには未対応とのこと。</p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="thoughts-about-primary-constructors-3-pros-and-5-cons">Thoughts about primary constructors: 3 pros and 5 cons</h3>
+<p><a href="https://andrewlock.net/thoughts-about-primary-constructors-3-pros-and-5-cons/">https://andrewlock.net/thoughts-about-primary-constructors-3-pros-and-5-cons/</a></p>
+<p>C# 12 のプライマリーコンストラクターの良いところ3つと落とし穴や微妙なところ5つを紹介している。</p>
+<h3 id="asp.net-mvc-coreactionfilterattributedi3httpclient-qiita">ASP.NET MVC CoreのActionFilterAttributeにDIする3つの方法（＋アクションフィルタ内でHttpClientを使う） - Qiita</h3>
+<p><a href="https://qiita.com/jun1s/items/c000763f31e6a42bdd3b">https://qiita.com/jun1s/items/c000763f31e6a42bdd3b</a></p>
+<p>ASP.NET Core MVC のアクションフィルターで DI コンテナーからサービスを取り出して使用するための方法について。<code>ServiceFilter</code>, <code>TypeFilter</code>, <code>IFilterFactory</code> を紹介している。</p>
+<h3 id="giving-our-azure-marketplace-images-a-makeover-visual-studio-blog">Giving our Azure marketplace images a makeover - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/giving-our-visual-studio-azure-marketplace-images-a-makeover/">https://devblogs.microsoft.com/visualstudio/giving-our-visual-studio-azure-marketplace-images-a-makeover/</a></p>
+<p>Azure Marketplace での Visual Studio のインストールされた新しいイメージの追加と非推奨となったオファーについて。</p>
+<h3 id="how-to-readwrite-from-credential-manager-in.net-8">How to Read/Write from Credential Manager in .NET 8</h3>
+<p><a href="https://dev.to/issamboutissante/how-to-readwrite-from-credential-manager-in-net-8-1ag">https://dev.to/issamboutissante/how-to-readwrite-from-credential-manager-in-net-8-1ag</a></p>
+<p>Windows の資格マネージャーを読み書きする方法について。記事では <code>Meziantou.Framework.Win32</code> パッケージを使用して読み書きを行う方法を紹介している。</p>
+<h3 id="rider-2024.2-roadmap-the.net-tools-blog">Rider 2024.2 Roadmap | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2024/06/05/rider-2024-2-roadmap/">https://blog.jetbrains.com/dotnet/2024/06/05/rider-2024-2-roadmap/</a></p>
+<p>Rider 2024.2 のロードマップ。</p>
+<ul>
+<li>パフォーマンス</li>
+<li>ユーザーエクスペリエンス
+<ul>
+<li>ナビゲーションバーの刷新</li>
+</ul>
+</li>
+<li>デバッガー
+<ul>
+<li>タスクビューとタスクの依存関係グラフ</li>
+</ul>
+</li>
+<li>ゲーム開発
+<ul>
+<li>Unity の IL2CPP バックエンド使用時のデバッグの改善やコレクションビジュアライザーの改善、シェーダーバリアント</li>
+<li>Unreal Engine のデバッグ改善</li>
+<li>Godot のデバッグを含む GDScript のサポート</li>
+</ul>
+</li>
+<li>フレームワークとテクノロジー</li>
+<li>フルラインコード補完</li>
+</ul>
+<h3 id="a-beginners-guide-to-mapping-arrays-in-ef-core-8.net-blog">A beginner's guide to mapping arrays in EF Core 8 - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/array-mapping-in-ef-core-8/">https://devblogs.microsoft.com/dotnet/array-mapping-in-ef-core-8/</a></p>
+<p>Entiy Framework Core 8 での配列マッピングについての解説。</p>
+<p>記事では PostgreSQL の配列型やそれ以外のデータベースでの JSON を使用した配列、型付き配列、それらがどのように展開されるのかといったことを開設している。</p>
+<h3 id="get-hands-on-with-visual-studio-and-azure-live-at-microsoft-hq-this-august-visual-studio-blog">Get Hands-On with Visual Studio and Azure: Live at Microsoft HQ this August! - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/get-hands-on-with-visual-studio-and-azure-live-at-microsoft-hq-this-august/">https://devblogs.microsoft.com/visualstudio/get-hands-on-with-visual-studio-and-azure-live-at-microsoft-hq-this-august/</a></p>
+<p>8月5日から9日にかけて Microsoft 本社にて行われる Visual Studio LIVE! イベントの告知。</p>
+<p>記事では Visual Studio LIVE! イベントの概要や早期特別割引の案内を紹介している。</p>
+<h3 id="creating-shell-extensions-in.net-8-with-sharpshell">Creating Shell Extensions in .NET 8 with SharpShell</h3>
+<p><a href="https://dev.to/issamboutissante/creating-shell-extensions-in-net-8-with-sharpshell-2ioe">https://dev.to/issamboutissante/creating-shell-extensions-in-net-8-with-sharpshell-2ioe</a></p>
+<p>.NET 8 と <code>SharpShell</code> を使用してコンテキストメニューのシェル拡張を実装する方法について。</p>
+<h3 id="net-8-blazor-errorboundary">.NET 8 での Blazor で ErrorBoundary を使ったエラーハンドリングの注意点</h3>
+<p><a href="https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet8-errorboundary">https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet8-errorboundary</a></p>
+<p>.NET 8 の Blazor における ErrorBoundary を使用してエラーをハンドリングする方法と注意すべき点について。</p>
+<h3 id="state-machines-light-switches-and-space-travel-with-stateless-and.net-8">State Machines, Light Switches, and Space Travel with Stateless and .NET 8</h3>
+<p><a href="https://khalidabuhakmeh.com/state-machines-light-switches-and-space-travel-with-stateless-and-dotnet-8">https://khalidabuhakmeh.com/state-machines-light-switches-and-space-travel-with-stateless-and-dotnet-8</a></p>
+<p><code>Stateless</code> を使用したステートマシンの実装方法の紹介。記事では UmlDotGraph を使用したグラフの出力などについても触れている。</p>
+<h3 id="understanding-the-exception.hresult-property-in-c">Understanding the Exception.HResult property in C#</h3>
+<p><a href="https://blog.elmah.io/understanding-the-exception-hresult-property-in-c/">https://blog.elmah.io/understanding-the-exception-hresult-property-in-c/</a></p>
+<p>Exception の HResult プロパティーについての解説。</p>
+<p>記事では HResult はどのような役割でどのようなルールで値が設定されるのか、その読み方と調べ方について振れている。</p>
+<h3 id="microsoft-photos-migrating-from-uwp-to-windows-app-sdk">Microsoft Photos: Migrating from UWP to Windows App SDK</h3>
+<p><a href="https://blogs.windows.com/windowsdeveloper/2024/06/03/microsoft-photos-migrating-from-uwp-to-windows-app-sdk/">https://blogs.windows.com/windowsdeveloper/2024/06/03/microsoft-photos-migrating-from-uwp-to-windows-app-sdk/</a></p>
+<p>Windows のフォトアプリを UWP から Windows App SDK へ移行した事例についての説明。</p>
+<p>記事ではプロセスモデルが変わったこと、WebView2 を使用できるようになったこと、メンテナンス性の向上、ASTA から STA にかわったことや AutoPlay といった技術的なチャレンジといった点を解説している。</p>
+<h3 id="c-onnx-runtime-generative-ai-directml-phi-3">C# と ONNX Runtime Generative AI (DirectML) を使って Phi-3 をローカルで動かす - しばやん雑記</h3>
+<p><a href="https://blog.shibayan.jp/entry/20240604/1717465930">https://blog.shibayan.jp/entry/20240604/1717465930</a></p>
+<p>ONNX Runtime Generative AI (DirectML) を使用して Phi-3 モデルをローカル環境で動かしてみる解説。</p>
+<h3 id="why-you-should-batch-message-processing-and-how-to-do-it-with.net-asyncenumerable-event-driven.io">Why you should batch message processing and how to do it with .NET AsyncEnumerable - Event-Driven.io</h3>
+<p><a href="https://event-driven.io/en/batching_async_enumerable/">https://event-driven.io/en/batching_async_enumerable/</a></p>
+<p>AsyncEnumerable を使用しつつメッセージをバッチ処理する方法について。</p>
+<p>記事では Open.ChannelExtensions ライブラリーを使用して Channel を元に AsyncEnumerable を作成する方法を紹介している。</p>
+<h3 id="primitive-vs-strongly-typed-dictionary-keys-feat.frozen-collections-and-benchmarkdotnet">Primitive vs strongly typed dictionary keys (feat. frozen collections and BenchmarkDotNet)</h3>
+<p><a href="https://blog.codingmilitia.com/2024/04/13/primitive-vs-strongly-typed-dictionary-keys-feat-frozen-collections-and-benchmarkdotnet/">https://blog.codingmilitia.com/2024/04/13/primitive-vs-strongly-typed-dictionary-keys-feat-frozen-collections-and-benchmarkdotnet/</a></p>
+<h3 id="weakly-and-strongly-typed-values-in.net">Weakly and strongly typed values in .NET</h3>
+<p><a href="https://yoh.dev/weakly-and-strongly-typed-values-in-dotnet">https://yoh.dev/weakly-and-strongly-typed-values-in-dotnet</a></p>
+<p>プリミティブ(弱い型)とそれをラップした強い型を使用した FrozenDictionary の参照パフォーマンスについて。</p>
+<h3 id="com-cexcel-qiita">COM の解放について (C#、Excel) - Qiita</h3>
+<p><a href="https://qiita.com/nnkanegon/items/1715b0da782e3dd713c9">https://qiita.com/nnkanegon/items/1715b0da782e3dd713c9</a></p>
+<p>COM オブジェクトの解放に関する問題と、解放漏れによるリークを調査する方法について。</p>
+<h3 id="microsoft-ime-qiita">Microsoft IME の変換候補だけ欲しい - Qiita</h3>
+<p><a href="https://qiita.com/Fom/items/d9e421bae516be85d675">https://qiita.com/Fom/items/d9e421bae516be85d675</a></p>
+<p>IME による変換候補を取得するライブラリーとその利用方法についての簡単な紹介。</p>
+<h3 id="refactor-your-code-using-alias-any-type.net-blog">Refactor your code using alias any type - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/refactor-your-code-using-alias-any-type/">https://devblogs.microsoft.com/dotnet/refactor-your-code-using-alias-any-type/</a></p>
+<p>C# 12 の任意の型のエイリアスを使用してリファクタリングしよう、という記事。</p>
+<h3 id="using-keycloak-in.net-aspire-projects">Using Keycloak in .NET Aspire projects</h3>
+<p><a href="https://nikiforovall.github.io/dotnet/keycloak/2024/06/02/aspire-support-for-keycloak.html">https://nikiforovall.github.io/dotnet/keycloak/2024/06/02/aspire-support-for-keycloak.html</a></p>
+<h3 id="netplaywright">.NETでPlaywrightのテスト環境を構築しよう</h3>
+<p><a href="https://zenn.dev/zead/articles/vscode_playwright">https://zenn.dev/zead/articles/vscode_playwright</a></p>
+<p>Playwright を使用したブラウザーテストの環境構築について。</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
