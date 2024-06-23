@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2024-06-23: Install Visual Studio updates through Microsoft Update, C# Inline Action for Azure Logic Apps - WeekRef.NET</title>
+
+  <link rel="canonical" href="/2024/06/23/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2024-06-23: Install Visual Studio updates through Microsoft Update, C# Inline Action for Azure Logic Apps - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/2024/06/23/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2024-06-23: Install Visual Studio updates through Microsoft Update, C# Inline Action for Azure Logic Apps
+          </h1>
+              <div class="meta">Published on Sunday, 23 June 2024</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="keep-visual-studio-automatically-updated-and-secure-through-microsoft-update-visual-studio-blog">Keep Visual Studio automatically updated and secure through Microsoft Update - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/automatically-install-visual-studio-security-updates-through-microsoft-update/">https://devblogs.microsoft.com/visualstudio/automatically-install-visual-studio-security-updates-through-microsoft-update/</a></p>
+<p>Visual Studio のアップデートを Microsoft Update (Windows Update に加えて Microsoft 製品のアップデートを配信する仕組み) からセキュリティー更新を受け取れるようになることについて。</p>
+<p>記事では Microsoft Update で更新を有効にする方法や、オプトアウト方法、8月からのロールアウトに向けてプレビューする方法について、今後の改善について触れている。</p>
+<h3 id="announcement-introducing.net-c-inline-action-for-azure-logic-apps-standard-preview">Announcement: Introducing .NET C# Inline Action for Azure Logic Apps (Standard) - Preview</h3>
+<p><a href="https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcement-introducing-net-c-inline-action-for-azure-logic/ba-p/4160541">https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcement-introducing-net-c-inline-action-for-azure-logic/ba-p/4160541</a></p>
+<p>Azure Logic Apps での C# インラインアクションのサポートがプレビューリリースされた。</p>
+<p>記事ではワークフローへの C# スクリプトの追加方法、利用できる機能や API、制限事項といった点について解説している。</p>
+<h3 id="announcing-third-party-api-and-package-map-support-for.net-upgrade-assistant.net-blog">Announcing Third Party API and Package Map Support for .NET Upgrade Assistant - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/announcing-api-map-support-for-ua/">https://devblogs.microsoft.com/dotnet/announcing-api-map-support-for-ua/</a></p>
+<p>.NET Upgrade Assistant で 3rd パーティーの API とパッケージのカスタムマッピングパッケージの実装をサポートした。</p>
+<h3 id="upcoming-changes-to-supported-versions-of-visual-studio-for-remote-debugging-with-azure-app-service">Upcoming Changes to Supported Versions of Visual Studio for Remote Debugging with Azure App Service</h3>
+<p><a href="https://techcommunity.microsoft.com/t5/apps-on-azure-blog/upcoming-changes-to-supported-versions-of-visual-studio-for/ba-p/4164389">https://techcommunity.microsoft.com/t5/apps-on-azure-blog/upcoming-changes-to-supported-versions-of-visual-studio-for/ba-p/4164389</a></p>
+<p>Azure App Service 上の .NET プロセスに対する Visual Studio からのリモートデバッグのサポートバージョンの変更について。</p>
+<p>2022 以前のバージョンに関しては2024年6月から、2022 17.9 とそれ以前は2025年1月末からサポートされなくなる。</p>
+<h3 id="release-11.0.11-avaloniauiavalonia">Release 11.0.11 · AvaloniaUI/Avalonia</h3>
+<p><a href="https://github.com/AvaloniaUI/Avalonia/releases/tag/11.0.11">https://github.com/AvaloniaUI/Avalonia/releases/tag/11.0.11</a></p>
+<p>Avalonia 11.0.11 がリリースされた。</p>
+<p>このリリースではいくつかの不具合の修正が行われている。</p>
+<h3 id="release-v2.5.168-messagepack-csharpmessagepack-csharp">Release v2.5.168 · MessagePack-CSharp/MessagePack-CSharp</h3>
+<p><a href="https://github.com/MessagePack-CSharp/MessagePack-CSharp/releases/tag/v2.5.168">https://github.com/MessagePack-CSharp/MessagePack-CSharp/releases/tag/v2.5.168</a></p>
+<p>MessagePack-CSharp v2.5.168 がリリースされた。</p>
+<p>このリリースではいくつかの不具合の修正や NonSerialized のサポート、依存関係の整理などが行われている。</p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="net-6.net-8-2">ビルドは通るが動かない！実際に引っ掛かった「.NET 6 - .NET 8」移行時の破壊的変更 2 選</h3>
+<p><a href="https://zenn.dev/xin9le/articles/b2b0d500df95c7">https://zenn.dev/xin9le/articles/b2b0d500df95c7</a></p>
+<p>.NET 6 から 8 へ移行した際に挙動変更されたことに由来した問題について。記事では FromBody 属性と JsonRequired 属性に関連する問題について紹介している。</p>
+<h3 id="dotcover-command-line-tools-for-automation-testing-code-coverage-the.net-tools-blog">dotCover Command Line Tools for Automation Testing Code Coverage | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2024/06/20/dotcover-command-line-tools-for-automation-testing-code-coverage/">https://blog.jetbrains.com/dotnet/2024/06/20/dotcover-command-line-tools-for-automation-testing-code-coverage/</a></p>
+<p>コードカバレッジを取得する dotCover のコマンドラインツールの紹介。記事ではインストール方法、使用方法、その他ヒントについて触れている。</p>
+<h3 id="how-to-properly-measure-code-speed-in.net">How to properly measure code speed in .NET</h3>
+<p><a href="https://dev.to/byteminds_agency/how-to-properly-measure-code-speed-in-net-158o">https://dev.to/byteminds_agency/how-to-properly-measure-code-speed-in-net-158o</a></p>
+<p>BenchmarkDotNet を使用したパフォーマンス計測についての基本の簡単な紹介。</p>
+<h3 id="using-phi-3-c-with-onnx-for-text-and-vision-samples.net-blog">Using Phi-3 &amp; C# with ONNX for text and vision samples - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/using-phi3-csharp-with-onnx-for-text-and-vision-samples-md/">https://devblogs.microsoft.com/dotnet/using-phi3-csharp-with-onnx-for-text-and-vision-samples-md/</a></p>
+<p>Phi-3 ONNX モデルを C# から呼び出してテキスト生成や画像認識を行うサンプルコードの紹介。</p>
+<h3 id="maui-android-java0000-type-is-defined-multiple-times">MAUI Android で <code>JAVA0000: Type ~ is defined multiple times</code> と怒られた</h3>
+<p><a href="https://zenn.dev/proudust/articles/2024-06-19-maui-android-java0000">https://zenn.dev/proudust/articles/2024-06-19-maui-android-java0000</a></p>
+<p>.NET MAUI の Android 向けビルドを作成時にビルドエラーになることがある問題と対処方法について。</p>
+<h3 id="omnisharp-vim-fzf-qiita">OmniSharp-Vim と fzf を連携させる メンバーのリスト表示編 - Qiita</h3>
+<p><a href="https://qiita.com/lx-sasabo/items/b9a1c84a66a306ade81d">https://qiita.com/lx-sasabo/items/b9a1c84a66a306ade81d</a></p>
+<p>Vim で OmniSharp-Vim と fzf を連携してメンバーのリストを表示するほうほうについて。</p>
+<h3 id="privacy-and-security-improvements-in.net-modernization-tooling.net-blog">Privacy and security improvements in .NET modernization tooling - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/dotnet-modernization-privacy-security-improvements/">https://devblogs.microsoft.com/dotnet/dotnet-modernization-privacy-security-improvements/</a></p>
+<p>.NET モダナイゼーションツール (.NET アップグレードアシスタントと Azure Migration アプリケーションとコード評価) でのセキュリティーとプライバシーに関する改善について。</p>
+<p>ユーザーごとにインストールされ、更新に管理者権限が必要なくなったこと、レポートに含まれる情報のコントロールが可能となったことなどを紹介している。</p>
+<h3 id="easily-navigate-code-delegates-while-debugging-visual-studio-blog">Easily navigate code delegates while debugging - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/easily-navigate-code-delegates-while-debugging/">https://devblogs.microsoft.com/visualstudio/easily-navigate-code-delegates-while-debugging/</a></p>
+<p>Visual Studio 17.10 でのデバッグ中のデリゲートのコードナビゲーションの改善について。</p>
+<p>デバッグ中にデリゲートからソースコードにジャンプするといったことが可能となっている。</p>
+<h3 id="code-style-for-better-productivity-tips-and-tools-from-the-metalama-team-the.net-tools-blog">Code Style for Better Productivity - Tips and Tools from the Metalama Team | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2024/06/18/code-style-for-better-productivity-tips-and-tools-from-the-metalama-team/">https://blog.jetbrains.com/dotnet/2024/06/18/code-style-for-better-productivity-tips-and-tools-from-the-metalama-team/</a></p>
+<p>コードスタイルに関して <a href="https://www.postsharp.net/metalama">Metalama</a> チームで行っているプラクティスやツールの紹介。</p>
+<p>記事ではコンセンサスについて、IDE での設定方法、警告の報告、定期的にクリーンアップする計画といった点を紹介している。</p>
+<h3 id="refactor-your-code-with-default-lambda-parameters.net-blog">Refactor your code with default lambda parameters - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/refactor-your-code-with-default-lambda-parameters/">https://devblogs.microsoft.com/dotnet/refactor-your-code-with-default-lambda-parameters/</a></p>
+<p>C# 12 で導入されたラムダ式のデフォルトパラメーターについて。</p>
+<p>記事ではどのように使用できるのか、ASP.NET Core Minimal APIs での使用方法などを紹介している。</p>
+<h3 id="exploring-the-generated-code-listt-and-fallback-cases-behind-the-scenes-of-collection-expressions-part-2">Exploring the generated code: List&lt;T&gt; and fallback cases: Behind the scenes of collection expressions - Part 2</h3>
+<p><a href="https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-2-exploring-the-generated-code-list-and-fallback-cases/">https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-2-exploring-the-generated-code-list-and-fallback-cases/</a></p>
+<p>コレクション式がコンパイラーによってどのように展開されるのかについての解説。</p>
+<p>HashSet やカスタム型での結果、List&lt;T&gt; での最適化と .NET 8 以前のバージョンでのフォールバックといった挙動を開設している。</p>
+<h3 id="design-and-deployment-and-scaling-consideration-in-signalr">Design and Deployment and Scaling Consideration in SignalR</h3>
+<p><a href="https://ilovedotnet.org/blogs/design-and-deployment-and-scaling-in-signalr/">https://ilovedotnet.org/blogs/design-and-deployment-and-scaling-in-signalr/</a></p>
+<p>SignalR のデプロイとスケーリングについて検討事項について。</p>
+<h3 id="how-to-encrypt-asp.net-core-route-parameters">How To Encrypt ASP.NET Core Route Parameters</h3>
+<p><a href="https://khalidabuhakmeh.com/how-to-encrypt-aspnet-core-route-parameters">https://khalidabuhakmeh.com/how-to-encrypt-aspnet-core-route-parameters</a></p>
+<p>ASP.NET Core のルートパラメーターを暗号化する方法について。記事ではルート制約とパラメータのバインダーによって暗号/復号を行う方法を解説している。</p>
+<h3 id="hands-on-http3-with.net">Hands-On HTTP/3 with .NET</h3>
+<p><a href="https://medium.com/&#64;Alikhalili/hands-on-http-3-with-net-fcd38cf7ad05">https://medium.com/&#64;Alikhalili/hands-on-http-3-with-net-fcd38cf7ad05</a></p>
+<p>HTTP/3 についての説明と HTTP/3 の仕様に基づいたツールを実装する手がかりの解説。</p>
+<h3 id="net-aspire">.NET Aspire の起動時にタイムアウトのエラーが発生する場合の対処方法</h3>
+<p><a href="https://zenn.dev/microsoft/articles/dotnet-aspire-launch-error">https://zenn.dev/microsoft/articles/dotnet-aspire-launch-error</a></p>
+<p>.NET Aspire プロジェクトがポート競合により起動できないときの対処方法について。</p>
+<h3 id="rider-2024.2-eap-3-is-out-the.net-tools-blog">Rider 2024.2 EAP 3 Is Out! | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2024/06/14/rider-2024-2-eap-3/">https://blog.jetbrains.com/dotnet/2024/06/14/rider-2024-2-eap-3/</a></p>
+<p>Rider 2024.2 EAP がリリースされた。</p>
+<p>このリリースでは dotnet watch のプラグインがバンドルされるようになった。</p>
+<h3 id="a.net-developer-guide-to-xunit-test-instrumentation-with-opentelemetry-and-aspire-dashboard">A .NET Developer Guide to XUnit Test Instrumentation with OpenTelemetry and Aspire Dashboard</h3>
+<p><a href="https://dev.to/nikiforovall/a-net-developer-guide-to-xunit-test-instrumentation-with-opentelemetry-and-aspire-dashboard-5h14">https://dev.to/nikiforovall/a-net-developer-guide-to-xunit-test-instrumentation-with-opentelemetry-and-aspire-dashboard-5h14</a></p>
+<p>xUnit のテストでの計測を Aspire Dashboard と OpenTelemetry を組み合わせる方法について。</p>
+<h3 id="c.net-web-grpc-graphql-blazor-sansan-tech-blog">【イベントレポート】イマドキのC# .NET Web開発 〜gRPC, GraphQL, Blazorもあるよ〜 を開催しました - Sansan Tech Blog</h3>
+<p><a href="https://buildersbox.corp-sansan.com/entry/2024/05/23/143000">https://buildersbox.corp-sansan.com/entry/2024/05/23/143000</a></p>
+<p><a href="https://sansan.connpass.com/event/316664/">イマドキのC# .NET Web開発 〜gRPC, GraphQL, Blazorもあるよ〜</a> での発表のフォローアップ記事。</p>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="annulusgamescsv-csharp-fast-csv-serializer-for.net-and-unity">AnnulusGames/Csv-CSharp: Fast CSV Serializer for .NET and Unity</h3>
+<p><a href="https://github.com/AnnulusGames/Csv-CSharp">https://github.com/AnnulusGames/Csv-CSharp</a></p>
+<p>Source Generator ベースの高速、ゼロ/低アロケーションの CSV パーサー。Unity での動作もサポートされている。</p>
+<!-- https://x.com/annulusgames/status/1803322411221500067?s=12&t=ggvrrZ7oLogHyNoIGNgjbw -->
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">.NET向けのCSVパーサ「Csv-CSharp」のv0.1を公開しました！Source Generatorを活用した設計により、CSVを簡単かつ高速にクラスの配列にパースできます。<br><br>また、NugetForUnityを使えばUnityでも利用できます！<a href="https://t.co/i2IDSSoEJX">https://t.co/i2IDSSoEJX</a> <a href="https://t.co/EMWp6jVUVb">pic.twitter.com/EMWp6jVUVb</a></p>&mdash; Annulus Games (&#64;AnnulusGames) <a href="https://twitter.com/AnnulusGames/status/1803322411221500067?ref_src=twsrc%5Etfw">June 19, 2024</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="section-3">サイト、ドキュメントなど</h2>
+<h3 id="section-4">ツイート</h3>
+<!-- https://x.com/dave_dotnet/status/1804182294539776385?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why are C# 12 primary constructor params not readonly?<br><br>I love primary constructors personally but from what I can see online the fact the params aren&#39;t readonly gets a lot of devs quite exercised. <br><br>Feedback below is from <a href="https://twitter.com/MadsTorgersen?ref_src=twsrc%5Etfw">&#64;MadsTorgersen</a> a few months ago and suggests consistency… <a href="https://t.co/VlnzwBzVq4">pic.twitter.com/VlnzwBzVq4</a></p>&mdash; Dave Callan | dotnet (&#64;Dave_DotNet) <a href="https://twitter.com/Dave_DotNet/status/1804182294539776385?ref_src=twsrc%5Etfw">June 21, 2024</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- https://x.com/dave_dotnet/status/1802294617666187730?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Generic OrderedDictionary coming in .NET 9  🔥<br><br>This is awesome and should allow many of us to remove custom code and get the best performance from the built in implementation.<a href="https://twitter.com/hashtag/dotnet?src=hash&amp;ref_src=twsrc%5Etfw">#dotnet</a> <a href="https://t.co/jQUAt3FsQb">pic.twitter.com/jQUAt3FsQb</a></p>&mdash; Dave Callan | dotnet (&#64;Dave_DotNet) <a href="https://twitter.com/Dave_DotNet/status/1802294617666187730?ref_src=twsrc%5Etfw">June 16, 2024</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="deep-dive">Deep Dive</h2>
+<h3 id="windows-add-titlebar-control-by-foda-pull-request-23019-dotnetmaui">[Windows] Add TitleBar Control by Foda · Pull Request #23019 · dotnet/maui</h3>
+<p><a href="https://github.com/dotnet/maui/pull/23019">https://github.com/dotnet/maui/pull/23019</a></p>
+<p>.NET MAUI のタイトルバーに関する API の追加 PR。</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
