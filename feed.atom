@@ -7,9 +7,109 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2024-07-19T08:21:49Z</updated>
+	<updated>2024-07-27T10:48:39Z</updated>
 	<logo>/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
+	<entry>
+		<id>/2024/07/27/updates</id>
+		<title>2024-07-27: .NET Conf, .NET Aspire 8.1, Uno Platform 5.3, Avalonia 11.1</title>
+		<author>
+			<name>Mayuki Sawatari</name>
+		</author>
+		<link href="/2024/07/27/updates" />
+		<link rel="enclosure" type="image" href="/img/logo.png" />
+		<updated>2024-07-27T00:00:00Z</updated>
+		<content>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="announcing.net-conf-focus-on-ai-august-20th-2024.net-blog"&gt;Announcing .NET Conf: Focus on AI - August 20th 2024 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-dotnetconf-focus-on-ai/"&gt;https://devblogs.microsoft.com/dotnet/announcing-dotnetconf-focus-on-ai/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="whats-new-in.net-aspire-8.1-for-cloud-native-developers.net-blog"&gt;What's new in .NET Aspire 8.1 for cloud native developers! - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/whats-new-in-aspire-8-1/"&gt;https://devblogs.microsoft.com/dotnet/whats-new-in-aspire-8-1/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="release-full-rider-support-and-350-enhancements"&gt;5.3 Release: Full Rider Support and 350+ Enhancements&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://platform.uno/blog/5-3/"&gt;https://platform.uno/blog/5-3/&lt;/a&gt;&lt;/p&gt;
+&lt;!-- https://x.com/unoplatform/status/1815795033712574753?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Hello &lt;a href="https://twitter.com/JetBrainsRider?ref_src=twsrc%5Etfw"&gt;&amp;#64;JetBrainsRider&lt;/a&gt; fans!!&lt;br&gt;&lt;br&gt;Uno Platform 5.3 brings FULL support for JetBrains Rider. Starting today, you can &lt;br&gt;&lt;br&gt;✔️Start your cross-platform projects easily using Uno Platform Live Wizard &lt;br&gt;✔️Iterate quickly using Hot Reload for XAML and C# Markup&lt;br&gt;✔️Enjoy Rider-provided Code… &lt;a href="https://t.co/xHbDJIfeRZ"&gt;pic.twitter.com/xHbDJIfeRZ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Uno Platform (&amp;#64;UnoPlatform) &lt;a href="https://twitter.com/UnoPlatform/status/1815795033712574753?ref_src=twsrc%5Etfw"&gt;July 23, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;h3 id="avalonia-11.1-a-quantum-leap-in-cross-platform-ui-development"&gt;Avalonia 11.1: A Quantum Leap in Cross-Platform UI Development&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://avaloniaui.net/blog/avalonia-11-1-a-quantum-leap-in-cross-platform-ui-development"&gt;https://avaloniaui.net/blog/avalonia-11-1-a-quantum-leap-in-cross-platform-ui-development&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="release-v12.4.0-jbogardmediatr"&gt;Release v12.4.0 · jbogard/MediatR&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/jbogard/MediatR/releases/tag/v12.4.0"&gt;https://github.com/jbogard/MediatR/releases/tag/v12.4.0&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="resharper-20-years-the.net-tools-blog"&gt;ReSharper 20 years! | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/07/23/resharper-20-years/"&gt;https://blog.jetbrains.com/dotnet/2024/07/23/resharper-20-years/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="ilspy-for-macos-first-public-beta-release"&gt;ILSpy for macOS: First Public Beta Release&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://avaloniaui.net/blog/ilspy-for-macos-first-public-beta-release"&gt;https://avaloniaui.net/blog/ilspy-for-macos-first-public-beta-release&lt;/a&gt;&lt;/p&gt;
+&lt;!-- https://x.com/avaloniaui/status/1815971299010765277?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;It&amp;#39;s here! 🎉 &lt;br&gt;&lt;br&gt;ILSpy for Linux is now available for download, powered by Avalonia XPF. &lt;br&gt;&lt;br&gt;Give it a try, and let us know what you think! &lt;a href="https://t.co/M6Cr33eokR"&gt;https://t.co/M6Cr33eokR&lt;/a&gt; &lt;a href="https://t.co/C6iIkRf2kE"&gt;pic.twitter.com/C6iIkRf2kE&lt;/a&gt;&lt;/p&gt;&amp;mdash; Avalonia UI (&amp;#64;AvaloniaUI) &lt;a href="https://twitter.com/AvaloniaUI/status/1815971299010765277?ref_src=twsrc%5Etfw"&gt;July 24, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="developers-want-more-more-more-the-2024-results-from-stack-overflows-annual-developer-survey-stack-overflow"&gt;Developers want more, more, more: the 2024 results from Stack Overflow’s Annual Developer Survey - Stack Overflow&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://stackoverflow.blog/2024/07/24/developers-want-more-more-more-the-2024-results-from-stack-overflow-s-annual-developer-survey/"&gt;https://stackoverflow.blog/2024/07/24/developers-want-more-more-more-the-2024-results-from-stack-overflow-s-annual-developer-survey/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="streamline.net-8-unit-tests-simplify-logging-with-fakelogger"&gt;Streamline .NET 8 Unit Tests: Simplify Logging with FakeLogger&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/codenx/streamline-net-8-unit-tests-simplify-logging-with-fakelogger-f7d0f5baf980"&gt;https://medium.com/codenx/streamline-net-8-unit-tests-simplify-logging-with-fakelogger-f7d0f5baf980&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="stack-overflow-dev-survey-vs-code-visual-studio-and.net-shine-visual-studio-magazine"&gt;Stack Overflow Dev Survey: VS Code, Visual Studio and .NET Shine -- Visual Studio Magazine&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://visualstudiomagazine.com/Articles/2024/07/26/so-dev-survey.aspx"&gt;https://visualstudiomagazine.com/Articles/2024/07/26/so-dev-survey.aspx&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="c-c-13-qiita"&gt;C# で生産性を向上させよう～C# 13 アップデート完全ガイド～ - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/hez2010/items/9750c3686fabc5f19a8d"&gt;https://qiita.com/hez2010/items/9750c3686fabc5f19a8d&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="playwright-qiita"&gt;Playwright で作成したテストのパフォーマンスを改善する - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/FumikaKoyama/items/cb173d321778c68c9627"&gt;https://qiita.com/FumikaKoyama/items/cb173d321778c68c9627&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="getting-started-with-htmx-a-beginners-guide"&gt;Getting Started with HTMX: A Beginner's Guide&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/raulnq/getting-started-with-htmx-a-beginners-guide-559p"&gt;https://dev.to/raulnq/getting-started-with-htmx-a-beginners-guide-559p&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="c"&gt;C# 文字列リテラルのシンタックスハイライト&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/masakura/articles/2bcb6c7ee2104e"&gt;https://zenn.dev/masakura/articles/2bcb6c7ee2104e&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="how-use-a-blazor-quickgrid-with-graphql.net-blog"&gt;How use a Blazor QuickGrid with GraphQL - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/how-use-a-blazor-quickgrid-with-graphql/"&gt;https://devblogs.microsoft.com/dotnet/how-use-a-blazor-quickgrid-with-graphql/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="tracing-allocations-with-eventpipe-part-1-dotnet-trace-and-tracelog"&gt;Tracing allocations with EventPipe part 1: dotnet-trace and TraceLog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;ocoanet/tracing-allocations-with-eventpipe-part-1-dotnet-trace-and-tracelog-8ebda7e90773"&gt;https://medium.com/&amp;#64;ocoanet/tracing-allocations-with-eventpipe-part-1-dotnet-trace-and-tracelog-8ebda7e90773&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="visual-studio-tip-using-ctrl-l-to-delete-a-line-with-and-without-clipboard-backup-visual-studio-blog"&gt;Visual Studio tip: Using Ctrl-L to delete a line with and without Clipboard backup - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-tip-deleting-a-line/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-tip-deleting-a-line/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="how-to-implement-structured-logging-and-distributed-tracing-for-microservices-with-seq"&gt;How to Implement Structured Logging and Distributed Tracing for Microservices with Seq&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/antonmartyniuk/how-to-implement-structured-logging-and-distributed-tracing-for-microservices-with-seq-401a"&gt;https://dev.to/antonmartyniuk/how-to-implement-structured-logging-and-distributed-tracing-for-microservices-with-seq-401a&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="semantic-kernel-python-c"&gt;Semantic Kernel でバックエンドは Python &amp;amp; フロントエンドは C# を動かしてみる&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/semantickernel-dotnet-python-01"&gt;https://zenn.dev/microsoft/articles/semantickernel-dotnet-python-01&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-the-cost-of-returning-an-empty-collection"&gt;.NET: the cost of returning an empty collection&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/medialesson/net-the-cost-of-returning-an-empty-collection-7fee40c9919d"&gt;https://medium.com/medialesson/net-the-cost-of-returning-an-empty-collection-7fee40c9919d&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="visual-studio-uses-rubicon-to-improve-ai-conversations-visual-studio-magazine"&gt;Visual Studio Uses RUBICON to Improve AI Conversations -- Visual Studio Magazine&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://visualstudiomagazine.com/Articles/2024/07/22/rubicon-visual-studio.aspx"&gt;https://visualstudiomagazine.com/Articles/2024/07/22/rubicon-visual-studio.aspx&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="add-ai-to-your.net-apps-easily-with-prompty.net-blog"&gt;Add AI to Your .NET Apps Easily with Prompty - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/add-ai-to-your-dotnet-apps-easily-with-prompty/"&gt;https://devblogs.microsoft.com/dotnet/add-ai-to-your-dotnet-apps-easily-with-prompty/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="combining.net-aspire-python-docker-remote-and-machine-learning-models-for-summarising-photos"&gt;Combining .NET Aspire, Python, Docker (Remote), and Machine Learning Models for Summarising Photos&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/syamaner/combining-net-aspire-docker-remote-and-machine-learning-models-for-summarising-photos-3iec"&gt;https://dev.to/syamaner/combining-net-aspire-docker-remote-and-machine-learning-models-for-summarising-photos-3iec&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="debug-your.net-8-code-more-efficiently"&gt;Debug your .NET 8 code more efficiently&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://bartwullems.blogspot.com/2024/07/debug-your-net-8-code-more-efficiently.html?m=1"&gt;https://bartwullems.blogspot.com/2024/07/debug-your-net-8-code-more-efficiently.html?m=1&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="how-not-to-benchmark"&gt;How not to benchmark!&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://steven-giesel.com/blogPost/98458f74-5205-4b2b-9f5b-535e34ec2fea"&gt;https://steven-giesel.com/blogPost/98458f74-5205-4b2b-9f5b-535e34ec2fea&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="ccmsorchard-core"&gt;C#ベースのオープンソースCMS「Orchard Core」の日本語化&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/zead/articles/orchardcore-localization"&gt;https://zenn.dev/zead/articles/orchardcore-localization&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="semantic-kernel20247-qiita"&gt;これから始める Semantic Kernel【2024年7月版】 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/takashiuesaka/items/299c64bb3c5873a470b9"&gt;https://qiita.com/takashiuesaka/items/299c64bb3c5873a470b9&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="azure-functions.net-6.net-8-qiita"&gt;Azure Functions のインプロセスモデルを .NET 6 から .NET 8 に移行する検証をしてみた - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/mnrst/items/d9ded8ed93c74da8a403"&gt;https://qiita.com/mnrst/items/d9ded8ed93c74da8a403&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="cloned-dictionary-vs.immutable-dictionary-vs.frozen-dictionary-in-high-traffic-systems"&gt;Cloned Dictionary vs. Immutable Dictionary vs. Frozen Dictionary in high traffic systems&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://ayende.com/blog/201314-B/cloned-dictionary-vs-immutable-dictionary-vs-frozen-dictionary-in-high-traffic-systems?Key=5b127528-fc8b-4749-9442-eedcd34afb9b"&gt;https://ayende.com/blog/201314-B/cloned-dictionary-vs-immutable-dictionary-vs-frozen-dictionary-in-high-traffic-systems?Key=5b127528-fc8b-4749-9442-eedcd34afb9b&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="cisymbol.todisplaysymboldisplayformat.fullyqualifiedsymbol"&gt;【C#】ISymbol.ToDisplay(SymbolDisplayFormat.FullyQualified)を用いてSymbolの完全修飾名を取得する(プロパティなどのメンバーシンボルでは取得できないので注意) - はなちるのマイノート&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.hanachiru-blog.com/entry/2024/07/18/120000"&gt;https://www.hanachiru-blog.com/entry/2024/07/18/120000&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="c-source-generator"&gt;C# Source Generator 開発チュートリアル&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://developer.aiming-inc.com/csharp/source-generator-tutorial/"&gt;https://developer.aiming-inc.com/csharp/source-generator-tutorial/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-2"&gt;サイト、ドキュメントなど&lt;/h2&gt;
+&lt;h3 id="section-3"&gt;ツイート&lt;/h3&gt;
+&lt;!-- https://x.com/ufcpp/status/1816032682968752267?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;&lt;a href="https://t.co/f1PAUYW9mK"&gt;https://t.co/f1PAUYW9mK&lt;/a&gt;&lt;br&gt;ちゃんとした利用例ちらほらもらったので、ちゃんと C# 13 時点でref struct インターフェイス実装のプレビュー外す(正式リリースする)って。&lt;/p&gt;&amp;mdash; ++C++; // 管理人: 岩永 (&amp;#64;ufcpp) &lt;a href="https://twitter.com/ufcpp/status/1816032682968752267?ref_src=twsrc%5Etfw"&gt;July 24, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;h2 id="deep-dive"&gt;Deep Dive&lt;/h2&gt;
+&lt;h3 id="csharplangproposalstypeunions.md-at-18a527bcc1f0bdaf542d8b9a189c50068615b439-dotnetcsharplang"&gt;csharplang/proposals/TypeUnions.md at 18a527bcc1f0bdaf542d8b9a189c50068615b439 · dotnet/csharplang&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/dotnet/csharplang/blob/18a527bcc1f0bdaf542d8b9a189c50068615b439/proposals/TypeUnions.md"&gt;https://github.com/dotnet/csharplang/blob/18a527bcc1f0bdaf542d8b9a189c50068615b439/proposals/TypeUnions.md&lt;/a&gt;&lt;/p&gt;
+</content>
+		<summary>.NET 関連の情報をほぼ週刊配信</summary>
+	</entry>
 	<entry>
 		<id>/2024/07/19/updates</id>
 		<title>2024-07-19: OpenSilver 3.0, .NET 6 EoS on November 12, CoreWCF and WCF Client Azure Queue Storage bindings</title>
@@ -1211,154 +1311,6 @@
 &lt;!-- https://x.com/jaredpar/status/1792689177206882745?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;ref struct can now implement interfaces and participate in generics. Excited to see all of the ways the community finds to use this &lt;a href="https://t.co/VKXeNdisBq"&gt;https://t.co/VKXeNdisBq&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jared Parsons (&amp;#64;jaredpar) &lt;a href="https://twitter.com/jaredpar/status/1792689177206882745?ref_src=twsrc%5Etfw"&gt;May 20, 2024&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-</content>
-		<summary>.NET 関連の情報をほぼ週刊配信</summary>
-	</entry>
-	<entry>
-		<id>/2024/05/18/updates</id>
-		<title>2024-05-18: Npgsql security fix, .NET 6.0.30/7.0.19/8.0.5, Windows App SDK 1.4.6</title>
-		<author>
-			<name>Mayuki Sawatari</name>
-		</author>
-		<link href="/2024/05/18/updates" />
-		<link rel="enclosure" type="image" href="/img/logo.png" />
-		<updated>2024-05-18T00:00:00Z</updated>
-		<content>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="release-v8.0.3-npgsqlnpgsql"&gt;Release v8.0.3 · npgsql/npgsql&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/npgsql/npgsql/releases/tag/v8.0.3"&gt;https://github.com/npgsql/npgsql/releases/tag/v8.0.3&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/npgsql/npgsql/releases/tag/v7.0.7"&gt;Release v7.0.7 · npgsql/npgsql&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/npgsql/npgsql/releases/tag/v6.0.11"&gt;Release v6.0.11 · npgsql/npgsql&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/npgsql/npgsql/releases/tag/v5.0.18"&gt;Release v5.0.18 · npgsql/npgsql&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/npgsql/npgsql/releases/tag/v4.1.13"&gt;Release v4.1.13 · npgsql/npgsql&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/npgsql/npgsql/releases/tag/v4.0.14"&gt;Release v4.0.14 · npgsql/npgsql&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="net-and.net-framework-may-2024-servicing-updates.net-blog"&gt;.NET and .NET Framework May 2024 Servicing Updates - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-may-2024-servicing-updates/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-may-2024-servicing-updates/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="release-windows-app-sdk-1.4.6-1.4.240512000-microsoftwindowsappsdk"&gt;Release Windows App SDK 1.4.6 (1.4.240512000) · microsoft/WindowsAppSDK&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.4.6"&gt;https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.4.6&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="mongodb-provider-for-entity-framework-core-now-generally-available-mongodb-blog"&gt;MongoDB Provider for Entity Framework Core Now Generally Available | MongoDB Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.mongodb.com/blog/post/mongodb-provider-entity-framework-core-now-generally-available"&gt;https://www.mongodb.com/blog/post/mongodb-provider-entity-framework-core-now-generally-available&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="resharper-2024.1.2-is-available-for-download-the.net-tools-blog"&gt;ReSharper 2024.1.2 Is Available For Download | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/05/07/resharper-2024-1-2/"&gt;https://blog.jetbrains.com/dotnet/2024/05/07/resharper-2024-1-2/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="rider-2024.1.2-is-now-available-the.net-tools-blog"&gt;Rider 2024.1.2 Is Now Available! | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/05/07/rider-2024-1-2/"&gt;https://blog.jetbrains.com/dotnet/2024/05/07/rider-2024-1-2/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="announcing-nuget-commands-in-c-dev-kit-the-nuget-blog"&gt;Announcing NuGet Commands in C# Dev Kit - The NuGet Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/nuget/announcing-nuget-commands-in-c-dev-kit/"&gt;https://devblogs.microsoft.com/nuget/announcing-nuget-commands-in-c-dev-kit/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="package-management-improved.net-aspire-support-come-to-c-dev-kit.net-blog"&gt;Package Management &amp;amp; improved .NET Aspire support come to C# Dev Kit - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/may-release-of-csharp-dev-kit/"&gt;https://devblogs.microsoft.com/dotnet/may-release-of-csharp-dev-kit/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="release-8.4.0-app-vnextpolly"&gt;Release 8.4.0 · App-vNext/Polly&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/App-vNext/Polly/releases/tag/8.4.0"&gt;https://github.com/App-vNext/Polly/releases/tag/8.4.0&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="release-v6.6.1-domaindrivendevswashbuckle.aspnetcore"&gt;Release v6.6.1 · domaindrivendev/Swashbuckle.AspNetCore&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v6.6.1"&gt;https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v6.6.1&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="get-ready-for-visual-studio-at-build-2024-join-thousands-online-visual-studio-blog"&gt;Get Ready for Visual Studio at Build 2024: Join Thousands Online! - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-at-build-2024/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-at-build-2024/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="what-is-new-in-entity-framework-6.5-classic"&gt;What is new in Entity Framework 6.5 Classic&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://erikej.github.io/ef6/dotnet/2024/05/16/ef6-whatsnew.html"&gt;https://erikej.github.io/ef6/dotnet/2024/05/16/ef6-whatsnew.html&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="whats-new-in-orleans-8-for-scalable-distributed-applications.net-blog"&gt;What's new in Orleans 8 for Scalable Distributed Applications - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/whats-new-in-orleans-8/"&gt;https://devblogs.microsoft.com/dotnet/whats-new-in-orleans-8/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net-aspire-preview-7.net-aspire"&gt;.NET Aspire preview 7 - .NET Aspire&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/dotnet/aspire/whats-new/preview-7"&gt;https://learn.microsoft.com/en-us/dotnet/aspire/whats-new/preview-7&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="v1.11.0-meadow-v1.releases-wilderness-labs-developer-portal"&gt;v1.11.0 | Meadow v1.* Releases | Wilderness Labs Developer Portal&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://developer.wildernesslabs.co/Meadow/Release_Notes/v1/#v1110"&gt;https://developer.wildernesslabs.co/Meadow/Release_Notes/v1/#v1110&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクルなど&lt;/h2&gt;
-&lt;h3 id="null-ef-core-code-first-qiita"&gt;null 許容参照型と EF Core Code First - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/SurferOnWww/items/67d8e8d86234ac138445"&gt;https://qiita.com/SurferOnWww/items/67d8e8d86234ac138445&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="the.net-generic-math-library-ndepend-blog"&gt;The .NET Generic Math Library - NDepend Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.ndepend.com/dotnet-generic-math/"&gt;https://blog.ndepend.com/dotnet-generic-math/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="a-complete.net-developers-guide-to-span-with-stephen-toub-youtube"&gt;A Complete .NET Developer's Guide to Span with Stephen Toub - YouTube&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=5KdICNWOfEQ&amp;amp;list=PLdo4fOcmZ0oX8eqDkSw4hH9cSehrGgdr1&amp;amp;index=5"&gt;https://www.youtube.com/watch?v=5KdICNWOfEQ&amp;amp;list=PLdo4fOcmZ0oX8eqDkSw4hH9cSehrGgdr1&amp;amp;index=5&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net-8-blazor-wasm-api"&gt;.NET 8 の Blazor で WASM + API のプロジェクトを作る&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet8-wasm-with-apis"&gt;https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet8-wasm-with-apis&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="improve-your-code-quality-with-github-copilot-in-visual-studio-visual-studio-blog"&gt;Improve your code quality with GitHub Copilot in Visual Studio - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/improve-your-code-quality-with-github-copilot-in-visual-studio/"&gt;https://devblogs.microsoft.com/visualstudio/improve-your-code-quality-with-github-copilot-in-visual-studio/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="ccmsorchard-core"&gt;C#ベースのオープンソースCMS「Orchard Core」について&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/zead/articles/f604f9ad31f941"&gt;https://zenn.dev/zead/articles/f604f9ad31f941&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="mastering-slash-commands-with-github-copilot-in-visual-studio-visual-studio-blog"&gt;Mastering Slash Commands with GitHub Copilot in Visual Studio - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/mastering-slash-commands-with-github-copilot-in-visual-studio/"&gt;https://devblogs.microsoft.com/visualstudio/mastering-slash-commands-with-github-copilot-in-visual-studio/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="c-switchif-qiita"&gt;【C#】 拡張メソッドで型によるswitchやif判定をできるだけ消す - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/toRisouP/items/12afeb98a0971095d409"&gt;https://qiita.com/toRisouP/items/12afeb98a0971095d409&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="azure-toolkit-for-rider-v4.0-preview-request-for-feedback-the.net-tools-blog"&gt;Azure Toolkit for Rider v4.0 Preview - Request For Feedback | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/05/14/azure-toolkit-for-rider-v4-0-preview-request-for-feedback/"&gt;https://blog.jetbrains.com/dotnet/2024/05/14/azure-toolkit-for-rider-v4-0-preview-request-for-feedback/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="an-introduction-to-primary-constructors-in-c12"&gt;An introduction to primary constructors in C#12&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/an-introduction-to-primary-constructors-in-csharp-12/"&gt;https://andrewlock.net/an-introduction-to-primary-constructors-in-csharp-12/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="cplaywright-qiita"&gt;C#で自動テスト(Playwright) 環境構築～テスト実行手順 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/noritama08/items/ed3f79e7feb061e36774"&gt;https://qiita.com/noritama08/items/ed3f79e7feb061e36774&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="configureawait-qiita"&gt;ConfigureAwait によるデッドロックの回避 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/SurferOnWww/items/2dd628101923419cc44a"&gt;https://qiita.com/SurferOnWww/items/2dd628101923419cc44a&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="await-task.result-qiita"&gt;await と Task.Result によるデッドロック - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/SurferOnWww/items/bd4e483cce7acaee4f30"&gt;https://qiita.com/SurferOnWww/items/bd4e483cce7acaee4f30&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="qiita"&gt;非同期プログラミング - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/SurferOnWww/items/06dc1e3df702596272ba"&gt;https://qiita.com/SurferOnWww/items/06dc1e3df702596272ba&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="asp.net-core-ssr-web-components-and-enhance-wasm"&gt;ASP.NET Core, SSR Web Components, and Enhance Wasm&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://khalidabuhakmeh.com/aspnet-core-ssr-web-components-and-enhance-wasm"&gt;https://khalidabuhakmeh.com/aspnet-core-ssr-web-components-and-enhance-wasm&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="localizing-a.net-console-or-desktop-application"&gt;Localizing a .NET console or desktop application&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.axantum.com/2024/05/localizing-net-console-or-desktop.html?m=1"&gt;https://blog.axantum.com/2024/05/localizing-net-console-or-desktop.html?m=1&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="nuxt3.net-core"&gt;Nuxt3を静的ファイルとしてビルドし、.NET Coreに表示する&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/yorimichi/articles/initial_csharp_nuxt3"&gt;https://zenn.dev/yorimichi/articles/initial_csharp_nuxt3&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="does-readonly-make-your-code-faster"&gt;Does readonly make your code faster?&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://steven-giesel.com/blogPost/50b84029-4f1e-4e6d-8fd1-0311b0605562"&gt;https://steven-giesel.com/blogPost/50b84029-4f1e-4e6d-8fd1-0311b0605562&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="blazorjavascript.net-qiita"&gt;BlazorでJavaScriptから.NETの動的(インスタンス)メソッドを呼び出す - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/yaju/items/44b207477d1cb1c81bfb"&gt;https://qiita.com/yaju/items/44b207477d1cb1c81bfb&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="azure-openai-service-vb-c"&gt;Azure OpenAI Service を使って VB から C# にコードを変換する&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/convert-vb-to-cs"&gt;https://zenn.dev/microsoft/articles/convert-vb-to-cs&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="ahead-of-the-game-exploring-helm-features-with.net-aspire-aspir8-preview-7"&gt;Ahead of the Game: Exploring Helm Features with .NET Aspire &amp;amp; Aspir8 Preview 7&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;josephsims1/ahead-of-the-game-exploring-helm-features-with-net-aspire-aspir8-preview-7-d327ade09b91"&gt;https://medium.com/&amp;#64;josephsims1/ahead-of-the-game-exploring-helm-features-with-net-aspire-aspir8-preview-7-d327ade09b91&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="c-discriminated-union-whats-driving-the-c-communitys-inquiries-ndepend-blog"&gt;C# Discriminated Union: What's Driving the C# Community's Inquiries? - NDepend Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.ndepend.com/csharp-discriminated-union/"&gt;https://blog.ndepend.com/csharp-discriminated-union/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="join-the.net-team-at-microsoft-build-2024.net-blog"&gt;Join the .NET Team at Microsoft Build 2024! - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/join-the-dotnet-team-microsoft-build-2024/"&gt;https://devblogs.microsoft.com/dotnet/join-the-dotnet-team-microsoft-build-2024/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="nxuicavaloniaui"&gt;【NXUI】C#でワンライナー・クロスプラットホームデスクトップアプリ【AvaloniaUI】&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/inuinu/articles/528550aab764e8"&gt;https://zenn.dev/inuinu/articles/528550aab764e8&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="refactor-your-code-with-c-collection-expressions.net-blog"&gt;Refactor your code with C# collection expressions - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/refactor-your-code-with-collection-expressions/"&gt;https://devblogs.microsoft.com/dotnet/refactor-your-code-with-collection-expressions/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="diagnose-memory-leaks-in.net-applications-with-windbg-a-hands-on-approach"&gt;Diagnose Memory Leaks in .NET Applications with WinDbg: A Hands-on Approach&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://levelup.gitconnected.com/diagnose-memory-leaks-in-net-applications-with-windbg-a-hands-on-approach-f41986f69967"&gt;https://levelup.gitconnected.com/diagnose-memory-leaks-in-net-applications-with-windbg-a-hands-on-approach-f41986f69967&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="blazor-quickgrid-qiita"&gt;Blazor QuickGrid でリッチなテーブルをサクッと作成する - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/higege-amdeker/items/8150dcefe5d891a20c53"&gt;https://qiita.com/higege-amdeker/items/8150dcefe5d891a20c53&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="using-github-copilot-as-your-coding-gps-visual-studio-blog"&gt;Using GitHub Copilot as your Coding GPS - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/using-github-copilot-as-your-coding-gps/"&gt;https://devblogs.microsoft.com/visualstudio/using-github-copilot-as-your-coding-gps/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="dotinsights-may-2024-the.net-tools-blog"&gt;dotInsights | May 2024 | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/05/06/dotinsights-may-2024/"&gt;https://blog.jetbrains.com/dotnet/2024/05/06/dotinsights-may-2024/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="dapper"&gt;Dapper マルチマッピングで多対多の関係先を生成する&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/tetr4lab/articles/35cd18af364499"&gt;https://zenn.dev/tetr4lab/articles/35cd18af364499&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="c1ms-qiita"&gt;C#で使える1msタイマーを探す - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/qiitatosh/items/cc88e398be26e00fafe0"&gt;https://qiita.com/qiitatosh/items/cc88e398be26e00fafe0&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="adventures-serializing-absolutely-everything-in-c-isadora"&gt;Adventures serializing absolutely everything in C# – isadora&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://isadorasophia.com/articles/serialization/"&gt;https://isadorasophia.com/articles/serialization/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="mvvm-toolkit"&gt;MVVM ToolKit の使い方&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/maedan/articles/c691e858e3fa44"&gt;https://zenn.dev/maedan/articles/c691e858e3fa44&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="how-to-connect-phi-3-mini-onnx-model-in-semantic-kernel"&gt;How To connect Phi-3 Mini ONNX model in Semantic Kernel&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://towardsdev.com/how-to-connect-phi-3-mini-onnx-model-in-semantic-kernel-fc96b758129f"&gt;https://towardsdev.com/how-to-connect-phi-3-mini-onnx-model-in-semantic-kernel-fc96b758129f&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="aarch64arm64linuxseleniumc-qiita"&gt;AArch64(arm64)のLinuxでSeleniumを使う方法（C#版） - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/noobow/items/52ed93726b757e2a3dbc"&gt;https://qiita.com/noobow/items/52ed93726b757e2a3dbc&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="oci.net-sdkoci-streaming-qiita"&gt;【OCI】.NET SDKを使ってOCI Streamingにデータを送信してみる - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/atwits/items/f23283cc58ee2a24a79e"&gt;https://qiita.com/atwits/items/f23283cc58ee2a24a79e&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="maui-blazorrazor-classlib"&gt;Maui BlazorでRazor ClassLibを使ってコンポーネントをプロジェクト分離する - ねこさんのぶろぐ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.neko3cs.net/entry/separate-component-to-project-maui-blazor"&gt;https://www.neko3cs.net/entry/separate-component-to-project-maui-blazor&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="section-2"&gt;スライド&lt;/h2&gt;
-&lt;h3 id="blazor-wasm-code-first-grpc-c"&gt;Blazor WASM × Code-first gRPC で始める C# ⼤統⼀理論&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://speakerdeck.com/sansantech/sansan-20240515-2"&gt;https://speakerdeck.com/sansantech/sansan-20240515-2&lt;/a&gt;&lt;/p&gt;
-&lt;script defer class="speakerdeck-embed" data-id="ee7a89ebea5943e0b2100b47fdc1a670" data-ratio="1.7772511848341233" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
-&lt;h3 id="net-graphql-client"&gt;.NET GraphQL Client のリアル&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://speakerdeck.com/sansantech/sansan-20240515-1"&gt;https://speakerdeck.com/sansantech/sansan-20240515-1&lt;/a&gt;&lt;/p&gt;
-&lt;script defer class="speakerdeck-embed" data-id="d86f71fcc0934390bebab2edb88f497d" data-ratio="1.7772511848341233" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
-&lt;h2 id="section-3"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="github-nikiforovallkeycloak-authorization-services-dotnet-authentication-and-authorization-with-keycloak-and-asp.net-core"&gt;GitHub - NikiforovAll/keycloak-authorization-services-dotnet: Authentication and Authorization with Keycloak and ASP.NET Core 🔐&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/NikiforovAll/keycloak-authorization-services-dotnet"&gt;https://github.com/NikiforovAll/keycloak-authorization-services-dotnet&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://nikiforovall.github.io/dotnet/keycloak/2024/05/05/keycloak-v2-0-0.html"&gt;Announcement - Keycloak.AuthServices v2.0.0 is out 🎉!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content>
 		<summary>.NET 関連の情報をほぼ週刊配信</summary>
 	</entry>
