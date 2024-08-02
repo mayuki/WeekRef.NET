@@ -2,19 +2,19 @@
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 	<channel>
 		<title>WeekRef.NET</title>
-		<link>/</link>
+		<link>https://weekref.net/</link>
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Sat, 27 Jul 2024 10:48:39 GMT</pubDate>
-		<lastBuildDate>Sat, 27 Jul 2024 10:48:39 GMT</lastBuildDate>
+		<pubDate>Fri, 02 Aug 2024 09:48:35 GMT</pubDate>
+		<lastBuildDate>Fri, 02 Aug 2024 09:48:35 GMT</lastBuildDate>
 		<item>
 			<title>2024-07-27: .NET Conf, .NET Aspire 8.1, Uno Platform 5.3, Avalonia 11.1</title>
-			<link>/2024/07/27/updates</link>
+			<link>https://weekref.net/2024/07/27/updates</link>
 			<description>.NET 関連の情報をほぼ週刊配信</description>
 			<author>Mayuki Sawatari</author>
-			<enclosure url="/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/2024/07/27/updates</guid>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2024/07/27/updates</guid>
 			<pubDate>Sat, 27 Jul 2024 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!--
 # yyyy-MM-dd
@@ -109,11 +109,11 @@
 		</item>
 		<item>
 			<title>2024-07-19: OpenSilver 3.0, .NET 6 EoS on November 12, CoreWCF and WCF Client Azure Queue Storage bindings</title>
-			<link>/2024/07/19/updates</link>
+			<link>https://weekref.net/2024/07/19/updates</link>
 			<description>.NET 関連の情報をほぼ週刊配信</description>
 			<author>Mayuki Sawatari</author>
-			<enclosure url="/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/2024/07/19/updates</guid>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2024/07/19/updates</guid>
 			<pubDate>Fri, 19 Jul 2024 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!--
 # yyyy-MM-dd
@@ -236,11 +236,11 @@
 		</item>
 		<item>
 			<title>2024-07-12: .NET and .NET Framework July 2024 updates, .NET 9 Preview 6, Dark Mode on NuGet.org</title>
-			<link>/2024/07/12/updates</link>
+			<link>https://weekref.net/2024/07/12/updates</link>
 			<description>.NET 関連の情報をほぼ週刊配信</description>
 			<author>Mayuki Sawatari</author>
-			<enclosure url="/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/2024/07/12/updates</guid>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2024/07/12/updates</guid>
 			<pubDate>Fri, 12 Jul 2024 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!--
 # yyyy-MM-dd
@@ -427,11 +427,11 @@
 		</item>
 		<item>
 			<title>2024-07-05: Windows App SDK 1.6.0-experimental2, Rider and ReSharper 2024.2 EAP 5, Polly 8.4.1</title>
-			<link>/2024/07/05/updates</link>
+			<link>https://weekref.net/2024/07/05/updates</link>
 			<description>.NET 関連の情報をほぼ週刊配信</description>
 			<author>Mayuki Sawatari</author>
-			<enclosure url="/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/2024/07/05/updates</guid>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2024/07/05/updates</guid>
 			<pubDate>Fri, 05 Jul 2024 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!--
 # yyyy-MM-dd
@@ -534,11 +534,11 @@
 		</item>
 		<item>
 			<title>2024-06-28: StackExchange.Redis 2.8.0, ReSharper and Rider 2024.1.4</title>
-			<link>/2024/06/28/updates</link>
+			<link>https://weekref.net/2024/06/28/updates</link>
 			<description>.NET 関連の情報をほぼ週刊配信</description>
 			<author>Mayuki Sawatari</author>
-			<enclosure url="/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/2024/06/28/updates</guid>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2024/06/28/updates</guid>
 			<pubDate>Fri, 28 Jun 2024 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!--
 # yyyy-MM-dd
@@ -616,11 +616,11 @@
 		</item>
 		<item>
 			<title>2024-06-23: Install Visual Studio updates through Microsoft Update, C# Inline Action for Azure Logic Apps</title>
-			<link>/2024/06/23/updates</link>
+			<link>https://weekref.net/2024/06/23/updates</link>
 			<description>.NET 関連の情報をほぼ週刊配信</description>
 			<author>Mayuki Sawatari</author>
-			<enclosure url="/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/2024/06/23/updates</guid>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2024/06/23/updates</guid>
 			<pubDate>Sun, 23 Jun 2024 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!--
 # yyyy-MM-dd
@@ -741,11 +741,11 @@
 		</item>
 		<item>
 			<title>2024-06-14: .NET MAUI Extension for VS Code, Windows App SDK 1.5.4, .NET 9 Preview 5</title>
-			<link>/2024/06/14/updates</link>
+			<link>https://weekref.net/2024/06/14/updates</link>
 			<description>.NET 関連の情報をほぼ週刊配信</description>
 			<author>Mayuki Sawatari</author>
-			<enclosure url="/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/2024/06/14/updates</guid>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2024/06/14/updates</guid>
 			<pubDate>Fri, 14 Jun 2024 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!--
 # yyyy-MM-dd
@@ -874,11 +874,11 @@
 		</item>
 		<item>
 			<title>2024-06-07: MSTest 3.4, OpenAI for .NET 2.0.0-beta.1, Serilog 4.0.0, Windows App SDK 1.6.0-experimental1</title>
-			<link>/2024/06/07/updates</link>
+			<link>https://weekref.net/2024/06/07/updates</link>
 			<description>.NET 関連の情報をほぼ週刊配信</description>
 			<author>Mayuki Sawatari</author>
-			<enclosure url="/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/2024/06/07/updates</guid>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2024/06/07/updates</guid>
 			<pubDate>Fri, 07 Jun 2024 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!--
 # yyyy-MM-dd
@@ -1011,11 +1011,11 @@
 		</item>
 		<item>
 			<title>2024-05-31: Build 2024, grpc-dotnet v2.63.0</title>
-			<link>/2024/05/31/updates</link>
+			<link>https://weekref.net/2024/05/31/updates</link>
 			<description>.NET 関連の情報をほぼ週刊配信</description>
 			<author>Mayuki Sawatari</author>
-			<enclosure url="/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/2024/05/31/updates</guid>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2024/05/31/updates</guid>
 			<pubDate>Fri, 31 May 2024 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!--
 # yyyy-MM-dd
@@ -1117,11 +1117,11 @@
 		</item>
 		<item>
 			<title>2024-05-24: .NET Aspire GA, Visual Studio 2022 17.10, .NET 9 Preview 4</title>
-			<link>/2024/05/24/updates</link>
+			<link>https://weekref.net/2024/05/24/updates</link>
 			<description>.NET 関連の情報をほぼ週刊配信</description>
 			<author>Mayuki Sawatari</author>
-			<enclosure url="/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/2024/05/24/updates</guid>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2024/05/24/updates</guid>
 			<pubDate>Fri, 24 May 2024 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!--
 # yyyy-MM-dd
