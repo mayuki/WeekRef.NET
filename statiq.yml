@@ -4,3 +4,5 @@ Copyright: "Copyright © Mayuki Sawatari <mayuki@misuzilla.org>"
 Description: ".NET 関連の情報をほぼ週刊配信"
 Author: Mayuki Sawatari
 Image: /img/logo.png
+Host: weekref.net
+LinksUseHttps: true
