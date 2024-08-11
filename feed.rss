@@ -6,8 +6,109 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Sat, 03 Aug 2024 12:51:23 GMT</pubDate>
-		<lastBuildDate>Sat, 03 Aug 2024 12:51:23 GMT</lastBuildDate>
+		<pubDate>Sun, 11 Aug 2024 13:08:19 GMT</pubDate>
+		<lastBuildDate>Sun, 11 Aug 2024 13:08:19 GMT</lastBuildDate>
+		<item>
+			<title>2024-08-11: ReSharper and Rider 2024.2 Release Candidates</title>
+			<link>https://weekref.net/2024/08/11/updates</link>
+			<description>.NET 関連の情報をほぼ週刊配信</description>
+			<author>Mayuki Sawatari</author>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2024/08/11/updates</guid>
+			<pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="the-resharper-and-the.net-tools-2024.2-release-candidates-are-now-available-the.net-tools-blog"&gt;The ReSharper and the .NET tools 2024.2 Release Candidates Are Now Available | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/08/07/resharper-2024-2-release-candidate/"&gt;https://blog.jetbrains.com/dotnet/2024/08/07/resharper-2024-2-release-candidate/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ReSharper 2024.2 Release Candidate がリリースされた。&lt;/p&gt;
+&lt;p&gt;このリリースでは C# 12 機能サポートの拡張、ref struct や \e エスケープシーケンス、params 修飾子といった C# 13 の初期サポート、非同期タイピングによる文字入力のパフォーマンス向上といった改善が含まれている。&lt;/p&gt;
+&lt;p&gt;その他 ReSharper C++、dotMemory、dotTrace、dotCover、dotPeek のアップデートについても触れている。&lt;/p&gt;
+&lt;h3 id="the-rider-2024.2-release-candidate-is-now-available-the.net-tools-blog"&gt;The Rider 2024.2 Release Candidate Is Now Available | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/08/07/rider-2024-2-rc/"&gt;https://blog.jetbrains.com/dotnet/2024/08/07/rider-2024-2-rc/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Rider 2024.2 Release Candidate がリリースされた。&lt;/p&gt;
+&lt;p&gt;このリリースでは .NET 9 Preview SDK と C# 13 機能の初期サポート、フルラインコード補完、リーダーモード、ドキュメンテーションコメントのインラインレンダリング、セマンティックハイライト、Tasks タブと依存グラフなど様々な改善が含まれている。&lt;/p&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="c-12.net-8-c"&gt;[C# 12, .NET 8] C# の非同期処理における効果的なキャンセルトークンの使用方法について&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/nossa/articles/df258b3ddc351f"&gt;https://zenn.dev/nossa/articles/df258b3ddc351f&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;非同期処理での CancellationToken の使い方についての解説。&lt;/p&gt;
+&lt;p&gt;記事ではユースケースごとにどのように使用するとよいかといった点を開設している。&lt;/p&gt;
+&lt;h3 id="cstandardresiliencehandler-http"&gt;【C#】StandardResilienceHandler で HTTP リクエストの回復力を高める。 - ねののお庭。&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.neno.dev/entry/2024/08/08/171524"&gt;https://blog.neno.dev/entry/2024/08/08/171524&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Microsoft.Extensions.Http.Resilience を使用した HTTP リクエストの失敗などからの回復力を高める方法についての解説。&lt;/p&gt;
+&lt;p&gt;記事では StandardResilienceHandler や裏側で使用される Polly についてなど、どのように構成するかといった点について触れている。&lt;/p&gt;
+&lt;h3 id="adding.net-aspire-to-your-existing.net-apps.net-blog"&gt;Adding .NET Aspire to your existing .NET apps - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/adding-dotnet-aspire-to-your-existing-dotnet-apps/"&gt;https://devblogs.microsoft.com/dotnet/adding-dotnet-aspire-to-your-existing-dotnet-apps/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;既存の .NET アプリケーションに .NET Aspire を追加して統合を有効化するための手順の解説。&lt;/p&gt;
+&lt;p&gt;ステップバイステップで有効化からメトリクスやログの表示までを行っている。&lt;/p&gt;
+&lt;h3 id="escape-character-extract-common-code-params-modifier-out-vars-c-language-support-in-2024.2-the.net-tools-blog"&gt;Escape Character, Extract Common Code, Params Modifier, Out Vars – C# Language Support in 2024.2 | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/08/07/escape-character-extract-common-code-params-modifier-out-vars-csharp-language-support-in-2024-2/"&gt;https://blog.jetbrains.com/dotnet/2024/08/07/escape-character-extract-common-code-params-modifier-out-vars-csharp-language-support-in-2024-2/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Rider と ReSharper 2024.2 の C# 言語サポートの新機能についての紹介。&lt;/p&gt;
+&lt;p&gt;記事ではエスケープ文字、共通コードの抽出、params 修飾子、out 変数コード補完といった機能を紹介している。&lt;/p&gt;
+&lt;h3 id="hotchocolate-graphql-limit-alias-overloading"&gt;HotChocolate GraphQl — Limit Alias Overloading&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;sankeththesmasher/hotchocolate-graphql-limit-alias-overloading-3867aa28af3a"&gt;https://medium.com/&amp;#64;sankeththesmasher/hotchocolate-graphql-limit-alias-overloading-3867aa28af3a&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;HotChocolate でクエリーに含まれるエイリアスの最大数を制限する方法について。&lt;/p&gt;
+&lt;h3 id="simplifying-theory-test-data-with-xunit.combinatorial"&gt;Simplifying [Theory] test data with Xunit.Combinatorial&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/simplifying-theory-test-data-with-xunit-combinatorial/"&gt;https://andrewlock.net/simplifying-theory-test-data-with-xunit-combinatorial/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ユニットテストのパラメータを組み合わせで実行する方法について。&lt;/p&gt;
+&lt;p&gt;記事では Xunit.Combinatorial を使用したパラメータの指定する方法を紹介している。&lt;/p&gt;
+&lt;h3 id="introducing-the-revamped-attach-to-process-experience-visual-studio-blog"&gt;Introducing the revamped Attach to Process experience - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/introducing-the-revamped-attach-to-process-experience/"&gt;https://devblogs.microsoft.com/visualstudio/introducing-the-revamped-attach-to-process-experience/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 version 17.10 で導入された新しいデバッガーのプロセスアタッチウィンドウの紹介。&lt;/p&gt;
+&lt;p&gt;新しい UI ではテーマのサポートやプロセスツリー表示などより使いやすい形に刷新されている。&lt;/p&gt;
+&lt;h3 id="nuking-local-nuget-package-sources-to-show-newly-published-packages"&gt;Nuking Local Nuget Package Sources to show newly Published Packages&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://weblog.west-wind.com/posts/2024/Aug/04/Nuking-Local-Nuget-Package-Sources-to-show-newly-published-Packages"&gt;https://weblog.west-wind.com/posts/2024/Aug/04/Nuking-Local-Nuget-Package-Sources-to-show-newly-published-Packages&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-9-msbuild-message"&gt;.NET 9 の MSBuild で Message タスクの出力がコンソールに表示されなくなっていた&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/j_sakamoto/articles/d2b7f7024f8d7b"&gt;https://zenn.dev/j_sakamoto/articles/d2b7f7024f8d7b&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 9 でデフォルト有効となるモダンなターミナルロガーで MSBuild の Message タスクによるメッセージ出力が表示されないことについて。&lt;/p&gt;
+&lt;h3 id="simplifying-remote-docker-container-connections-in.net-aspire-with-ssh.net"&gt;Simplifying Remote Docker Container Connections in .NET Aspire with SSH.Net&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/syamaner/simplifying-remote-docker-container-connections-in-net-aspire-with-sshnet-207"&gt;https://dev.to/syamaner/simplifying-remote-docker-container-connections-in-net-aspire-with-sshnet-207&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET Aspire とリモートの Docker ホストを組み合わせて開発するために SSH.NET を使用してポートフォワーディングすることで構成をシンプルにする方法の紹介。&lt;/p&gt;
+&lt;h3 id="async-isnt-always-async"&gt;Async isn't always async&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.joelving.dk/2024/06/async-isnt-always-async/?_bhlid=aad52fd84ab1c142b00ff5150265b37fb91f84ed"&gt;https://blog.joelving.dk/2024/06/async-isnt-always-async/?_bhlid=aad52fd84ab1c142b00ff5150265b37fb91f84ed&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Async となっているメソッドが常に非同期とは限らないことについて。記事ではテストで Fake として同期的な Task を返した結果、無限ループしたことを例に挙げている。&lt;/p&gt;
+&lt;h3 id="sharepoint-microsoft-graph-api-api-qiita"&gt;SharePoint のファイルを Microsoft Graph API を使用してダウンロードする ～API理解編～ - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/Takuma_Kondo/items/af11257b3e2dcb9d8869"&gt;https://qiita.com/Takuma_Kondo/items/af11257b3e2dcb9d8869&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;SharePoint 上のファイルを Microsoft Graph API でダウンロードする方法について。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/Takuma_Kondo/items/a9cefb6128e092ff27a9"&gt;SharePoint のファイルを Microsoft Graph API を使用してダウンロードする(C#) ～実装編～ - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
+&lt;h3 id="binaryformatter-migration-guide.net"&gt;BinaryFormatter migration guide - .NET&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/dotnet/standard/serialization/binaryformatter-migration-guide/"&gt;https://learn.microsoft.com/en-us/dotnet/standard/serialization/binaryformatter-migration-guide/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 9 から廃止される BinaryFormatter の移行ガイド。&lt;/p&gt;
+&lt;h3 id="effective.net-memory-management-programming-ebook"&gt;Effective .NET Memory Management | Programming | eBook&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.packtpub.com/en-us/product/effective-net-memory-management-9781835461044"&gt;https://www.packtpub.com/en-us/product/effective-net-memory-management-9781835461044&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET メモリー管理に関するトピックを中心とした書籍。&lt;/p&gt;
+&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
+&lt;p&gt;Visual Studio version 17.11 からバックグラウンドプロセスの大多数は .NET 8 で稼働するようになるという話。&lt;/p&gt;
+&lt;!-- https://x.com/davkean/status/1821839852561953212?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;devenv.exe is .NET Framework. Starting 17.11 almost every core background process bar a few moved to .NET 8. &lt;a href="https://t.co/tuBH5mMFFo"&gt;https://t.co/tuBH5mMFFo&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Kean (&amp;#64;davkean) &lt;a href="https://twitter.com/davkean/status/1821839852561953212?ref_src=twsrc%5Etfw"&gt;August 9, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;非同期 I/O は同期 I/O よりも遅く、スレッドを明け渡す必要がない場合は同期 I/O のほうがパフォーマンスがよくなる。&lt;/p&gt;
+&lt;!-- https://x.com/davkean/status/1821875521954963742?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Tips for .NET Windows I/O:&lt;br&gt;&lt;br&gt;Async/overlapped I/O is never as fast as sync reads. Async is about being a good citizen amongst a sea of other work by freeing up thread pool for other (hopefully CPU) work while blocked. If you have no other work other than the I/O don&amp;#39;t use async.&lt;/p&gt;&amp;mdash; David Kean (&amp;#64;davkean) &lt;a href="https://twitter.com/davkean/status/1821875521954963742?ref_src=twsrc%5Etfw"&gt;August 9, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;.NET 9 で Span ベースの Split によってアロケーションなしで処理できるようになるという話。&lt;/p&gt;
+&lt;!-- https://x.com/davidfowl/status/1821007036269916530?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Non-allocating split finally coming in .NET 9&lt;a href="https://twitter.com/hashtag/dotnet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotnet&lt;/a&gt; &lt;a href="https://t.co/R0D8aF5k91"&gt;pic.twitter.com/R0D8aF5k91&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Fowler (&amp;#64;davidfowl) &lt;a href="https://twitter.com/davidfowl/status/1821007036269916530?ref_src=twsrc%5Etfw"&gt;August 7, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;p&gt;macOS で LINQPad が動作している話。 Avalonia XPF で実現しているとのこと。&lt;/p&gt;
+&lt;!-- https://x.com/linqpad/status/1820379112651026587?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;LINQPad is coming to macOS!&lt;br&gt;&lt;br&gt;using &lt;a href="https://twitter.com/AvaloniaUI?ref_src=twsrc%5Etfw"&gt;&amp;#64;AvaloniaUI&lt;/a&gt; XPF &lt;a href="https://t.co/R8VE0lG4m5"&gt;pic.twitter.com/R8VE0lG4m5&lt;/a&gt;&lt;/p&gt;&amp;mdash; LINQPad·Joe Albahari (&amp;#64;linqpad) &lt;a href="https://twitter.com/linqpad/status/1820379112651026587?ref_src=twsrc%5Etfw"&gt;August 5, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>2024-08-03: Security Patch for IdentityServer, grpc-dotnet v2.65.0</title>
 			<link>https://weekref.net/2024/08/03/updates</link>
@@ -1125,112 +1226,6 @@
 &lt;h3 id="netplaywright"&gt;.NETでPlaywrightのテスト環境を構築しよう&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://zenn.dev/zead/articles/vscode_playwright"&gt;https://zenn.dev/zead/articles/vscode_playwright&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Playwright を使用したブラウザーテストの環境構築について。&lt;/p&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>2024-05-31: Build 2024, grpc-dotnet v2.63.0</title>
-			<link>https://weekref.net/2024/05/31/updates</link>
-			<description>.NET 関連の情報をほぼ週刊配信</description>
-			<author>Mayuki Sawatari</author>
-			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
-			<guid>https://weekref.net/2024/05/31/updates</guid>
-			<pubDate>Fri, 31 May 2024 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="catch-up-on-microsoft-build-2024-essential-sessions-for.net-developers.net-blog"&gt;Catch Up on Microsoft Build 2024: Essential Sessions for .NET Developers - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/catching-up-on-microsoft-build-2024-essential-sessions-for-dotnet-developers/"&gt;https://devblogs.microsoft.com/dotnet/catching-up-on-microsoft-build-2024-essential-sessions-for-dotnet-developers/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Build 2024 での .NET 開発者向けの動画の紹介。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/playlist?list=PLdo4fOcmZ0oUZz7p8H1HsQjgv5tRRIvAS"&gt;.NET at Microsoft Build 2024 - YouTube&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="release-release-v2.63.0-grpcgrpc-dotnet"&gt;Release Release v2.63.0 · grpc/grpc-dotnet&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/grpc/grpc-dotnet/releases/tag/v2.63.0"&gt;https://github.com/grpc/grpc-dotnet/releases/tag/v2.63.0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;grpc-dotnet v2.63.0 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースではメモリーリークやレースコンディションといったいくつかの不具合が修正されている。&lt;/p&gt;
-&lt;h3 id="introducing-libvlcsharp-for-maui"&gt;Introducing LibVLCSharp for MAUI&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/mfkl/introducing-libvlcsharp-for-maui-naj"&gt;https://dev.to/mfkl/introducing-libvlcsharp-for-maui-naj&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;LibVLCSharp の .NET MAUI 対応版のリリース。&lt;/p&gt;
-&lt;p&gt;この初期リリースでは Android と iOS をサポートし、WinUI への対応はフィードバックなどを経て検討とのこと。&lt;/p&gt;
-&lt;h3 id="introducing-links-to-source-code-for.net-api-docs.net-blog"&gt;Introducing links to source code for .NET API Docs - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-docs-link-to-source-code/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-docs-link-to-source-code/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;learn.microsoft.com の .NET API ドキュメントからソースコードへのリンクが実装されたことと、その実装の裏側の解説。&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="testcontainers-for.netpodman"&gt;Testcontainers for .NETをpodmanで動かす&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/k_maru/articles/testcontainersdotnet_podman"&gt;https://zenn.dev/k_maru/articles/testcontainersdotnet_podman&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Testcontainers for .NET によるコンテナーの実行を Docker の代わりに Podman を使用する方法について。&lt;/p&gt;
-&lt;h3 id="a-modern-extension-manager-has-arrived-with-visual-studio-17.10-visual-studio-blog"&gt;A modern Extension Manager has arrived with Visual Studio 17.10 - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-extension-manager-17-10/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-extension-manager-17-10/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 17.10 で導入された新しくなった拡張マネージャーについての紹介。&lt;/p&gt;
-&lt;h3 id="things-you-didnt-know-about-jetbrains-riders-nuget-support-the.net-tools-blog"&gt;9 Things You Didn't Know About JetBrains Rider's NuGet Support | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/05/29/9-things-you-didn-t-know-about-jetbrains-rider-s-nuget-support/"&gt;https://blog.jetbrains.com/dotnet/2024/05/29/9-things-you-didn-t-know-about-jetbrains-rider-s-nuget-support/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;JetBrains Rider の NuGet サポートに関する9つのポイントの紹介。&lt;/p&gt;
-&lt;p&gt;ツールウィンドウ、パッケージソース管理、キャッシュ管理、Assembly Explorer でパッケージを開く、プレリリース版チェックボックス、Checkmarx を使用したセキュリティー、依存してるコードの検索、一か所でのパッケージアップデート、設定、など。&lt;/p&gt;
-&lt;h3 id="wpfgo"&gt;脱初心者！WPFで次のステップへGO！&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/luxiar/articles/f25596cd1876a2"&gt;https://zenn.dev/luxiar/articles/f25596cd1876a2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;WPF のアプリケーションを作るとっかかりとなる構成とテクニックの紹介。&lt;/p&gt;
-&lt;h3 id="choosing-the-best-immutable-dictionary-for-your-c-projects"&gt;Choosing the Best Immutable Dictionary for Your C# Projects&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://goatreview.com/choosing-best-immutable-dictionary-csharp-projects/"&gt;https://goatreview.com/choosing-best-immutable-dictionary-csharp-projects/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;イミュータブルな Dictionary について ReadOnlyDictionary, ImmutableDictionary, FrozenDictionary のパフォーマンスと特性を比較、説明している。&lt;/p&gt;
-&lt;h3 id="visualstudio.extensibility-17.10-debug-your-extensions-with-the-diagnostics-explorer-visual-studio-blog"&gt;VisualStudio.Extensibility 17.10: Debug your extensions with the Diagnostics Explorer - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-17-10/"&gt;https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-17-10/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;新しい Visual Studio の拡張モデル、VisualStudio.Extensibility の 17.10 での新機能について。&lt;/p&gt;
-&lt;p&gt;Diagnostics Explorer によるデバッグ、XAML リソース、ファイルの選択、プロジェクトに対してクエリーした結果のトラッキングなど。&lt;/p&gt;
-&lt;h3 id="xunit-ilogger-qiita"&gt;xUnit の単体テストで ILogger への出力を実現する - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/higege-amdeker/items/4e2adfcc1b57628d2c71"&gt;https://qiita.com/higege-amdeker/items/4e2adfcc1b57628d2c71&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;xUnit を使用したユニットテストで ILogger への出力をテストアウトプットへ出力する方法について。&lt;/p&gt;
-&lt;h3 id="blocking-primary-constructor-member-capture-using-a-roslyn-analyzer"&gt;Blocking primary constructor member capture using a Roslyn Analyzer&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/blocking-primary-constructor-member-capture-using-an-analyzer/"&gt;https://andrewlock.net/blocking-primary-constructor-member-capture-using-an-analyzer/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;プライマリーコンストラクターのキャプチャーをブロックする Analyzer を Roslyn.Diagnostics.Analyzers から使用、または独自の Analyzer で実装する方法について。&lt;/p&gt;
-&lt;h3 id="publish-and-view-mstest-test-results-in-github-actions"&gt;Publish and view MSTest test results in Github Actions&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;ma11hewthomas/publish-and-view-mstest-test-results-in-github-actions-35f11d97a259"&gt;https://medium.com/&amp;#64;ma11hewthomas/publish-and-view-mstest-test-results-in-github-actions-35f11d97a259&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;MSTest の結果を .NET 向け CTRF レポーターと github-actions-ctrf によって GitHub Actions のレポートに出力する方法。&lt;/p&gt;
-&lt;h3 id="how-to-update-a-nuget-library-once-the-author-isnt-available-the-reformed-programmer"&gt;How to update a NuGet library once the author isn’t available – The Reformed Programmer&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.thereformedprogrammer.net/how-to-update-a-nuget-library-once-the-author-isnt-available/"&gt;https://www.thereformedprogrammer.net/how-to-update-a-nuget-library-once-the-author-isnt-available/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;認知症となった著者がライブラリーを更新できなくなった時にも他の人が更新できるようにするために行ったことについて。&lt;/p&gt;
-&lt;h3 id="net-aspire-aspirebuild-2024"&gt;.NET Aspire が正式リリース！Aspireを紹介したBuild 2024のセッションを紹介します&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/jtechjapan_pub/articles/adf174ff96d3cb"&gt;https://zenn.dev/jtechjapan_pub/articles/adf174ff96d3cb&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Build 2024 で .NET Aspire について触れているセッションの紹介。&lt;/p&gt;
-&lt;h3 id="casyncawait-annulus-games"&gt;【C#】非同期処理とasync/await - Annulus Games&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://annulusgames.com/blog/async-await/"&gt;https://annulusgames.com/blog/async-await/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 非同期についてC# の async/await をはじめ、キャンセルや IAsyncEnumerable などについて仕組みを含めた解説。&lt;/p&gt;
-&lt;h3 id="avalonia-ui-enhance-your-app-with-fluentavalonia-theme-customization"&gt;Avalonia UI: Enhance Your App with FluentAvalonia Theme Customization&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;faruk.akyapak/avalonia-ui-enhance-your-app-with-fluentavalonia-theme-customization-0e8b9bdb4b16"&gt;https://medium.com/&amp;#64;faruk.akyapak/avalonia-ui-enhance-your-app-with-fluentavalonia-theme-customization-0e8b9bdb4b16&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Avalonia の FluentAvalonia テーマをカスタマイズする方法について。&lt;/p&gt;
-&lt;h3 id="c.netbyteskb-mb-gb"&gt;C# (.NET)でバイト(Bytes)をKB, MB, GBに変換したい&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/hirosukekayaba/articles/77d3ae2d90956a"&gt;https://zenn.dev/hirosukekayaba/articles/77d3ae2d90956a&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ファイルサイズをKB, MB, GB といった単位で文字列フォーマットするテクニックについて。&lt;/p&gt;
-&lt;h3 id="trigger-your-gcs-with-dotnet-fullgc"&gt;Trigger your GCs with dotnet-fullgc!&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://chnasarre.medium.com/trigger-your-gcs-with-dotnet-fullgc-c51bc3e364dc"&gt;https://chnasarre.medium.com/trigger-your-gcs-with-dotnet-fullgc-c51bc3e364dc&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;コマンドラインから実行中の .NET プロセスで GC を実行するツールとその実装方法について。&lt;/p&gt;
-&lt;h3 id="net-8-blazor-wasm-grpc"&gt;.NET 8 の Blazor で WASM + gRPC のプロジェクトを作る&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet8-wasm-with-grpc"&gt;https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet8-wasm-with-grpc&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 8 の Blazor WebAssembly プロジェクトで gRPC (Web) を使用した通信を行う方法について。&lt;/p&gt;
-&lt;h3 id="re-observability"&gt;Re:ゼロから始める Observability - ねののお庭。&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.neno.dev/entry/2024/05/25/164314"&gt;https://blog.neno.dev/entry/2024/05/25/164314&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Observability とは何かや OpenTelemetry の用語について、C#/.NET での取り扱いや Collector の活用について。&lt;/p&gt;
-&lt;h3 id="colorpalettepublic-constructor"&gt;ColorPaletteクラスにpublic constructorが登場！&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/sayurin/articles/2700249955ee48"&gt;https://zenn.dev/sayurin/articles/2700249955ee48&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 9 で System.Drawing.Imaging.ColorPalette クラスのコンストラクターが公開されることについて。&lt;/p&gt;
-&lt;p&gt;これにより従来カラーパレット捜査上取り扱いづらい問題があった点が緩和される。&lt;/p&gt;
-&lt;h2 id="section-2"&gt;イベント&lt;/h2&gt;
-&lt;h3 id="microsoft-build-japan-20240627-1000"&gt;Microsoft Build Japan (2024/06/27 10:00〜)&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://msdevjp.connpass.com/event/320534/"&gt;https://msdevjp.connpass.com/event/320534/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="blazor.net-20240704-1330"&gt;Blazor+ローコードで実現する.NET資産のモダナイズ (2024/07/04 13:30〜)&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://codeer.connpass.com/event/319762/"&gt;https://codeer.connpass.com/event/319762/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
-&lt;h3 id="f"&gt;関数型ドメインモデリング ドメイン駆動設計とF#でソフトウェアの複雑さに立ち向かおう&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.kadokawa.co.jp/product/302405003608/"&gt;https://www.kadokawa.co.jp/product/302405003608/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ドメイン駆動開発に関数型プログラミング F# を用いてモデリング、構築する方法を紹介する本。&lt;/p&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
