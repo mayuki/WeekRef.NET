@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2024-08-23: Windows Community Toolkit v8.1, Windows App SDK Version 1.6 Preview 2, System.Data.SqlClient deprecated - WeekRef.NET</title>
+
+  <link rel="canonical" href="https://weekref.net/2024/08/23/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2024-08-23: Windows Community Toolkit v8.1, Windows App SDK Version 1.6 Preview 2, System.Data.SqlClient deprecated - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://weekref.net/2024/08/23/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2024-08-23: Windows Community Toolkit v8.1, Windows App SDK Version 1.6 Preview 2, System.Data.SqlClient deprecated
+          </h1>
+              <div class="meta">Published on Friday, 23 August 2024</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="announcing-windows-community-toolkit-v8.1-ifdef-windows">Announcing Windows Community Toolkit v8.1 - #ifdef Windows</h3>
+<p><a href="https://devblogs.microsoft.com/ifdef-windows/announcing-windows-community-toolkit-v8-1/">https://devblogs.microsoft.com/ifdef-windows/announcing-windows-community-toolkit-v8-1/</a></p>
+<p>Windows Community Toolkit v8.1 がリリースされた。</p>
+<p>このバージョンでは .NET 8 をサポートし、依存するフレームワークが Windows App　SDK 1.5 と Uno Platform 5.2 へアップデートされた。
+新機能としてカラーピッカー、タブ付きのコマンドバー、カメラヘルパー、イメージ切り抜きオーバーレイ、DockPanel の間隔といったものが追加されている。</p>
+<p>その他 Windows Community Toolkit Labs では実験的なコントロールとして Markdown テキストブロックやリボンといったものが追加されている。</p>
+<h3 id="windows-app-sdk-version-1.6-preview-2-1.6.0-preview2-preview-release-channel-for-the-windows-app-sdk-windows-apps">Windows App SDK Version 1.6 Preview 2 (1.6.0-preview2) - Preview release channel for the Windows App SDK - Windows apps</h3>
+<p><a href="https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/preview-channel#version-16-preview-2-160-preview2">https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/preview-channel#version-16-preview-2-160-preview2</a></p>
+<p>Windows App SDK Version 1.6 Preview 2 がリリースされた。</p>
+<p>このリリースでは CsWinRT のアップデートによる Native AOT サポートの向上、Edge WebView2 SDK の統合の改善、その他さまざまな不具合の修正が含まれている。</p>
+<h3 id="net-9-preview-6-now-available-on-app-service">.NET 9 Preview 6 now available on App Service</h3>
+<p><a href="https://azure.github.io/AppService/2024/08/19/net-9-preview-6-available-on-app-service.html">https://azure.github.io/AppService/2024/08/19/net-9-preview-6-available-on-app-service.html</a></p>
+<p>Azure の App Service で .NET 9 Preview 6 が利用できるようになった。</p>
+<p>現在 Linux App Service プランのすべてのリージョンで利用できるが、Windows App Service プランでも今後利用できるようになるとのこと。</p>
+<h3 id="announcement-system.data.sqlclient-package-is-now-deprecated-issue-2778-dotnetsqlclient">Announcement: System.Data.SqlClient package is now deprecated · Issue #2778 · dotnet/SqlClient</h3>
+<p><a href="https://github.com/dotnet/SqlClient/issues/2778">https://github.com/dotnet/SqlClient/issues/2778</a></p>
+<p>System.Data.SqlClient パッケージが非推奨となる。</p>
+<p>System.Data.SqlClient は今後非推奨化され、.NET 9 でのサポートはされず、.NET 8 の EOL 以降は .NET Framework のサポートのみが残される形となる。
+今後は Microsoft.Data.SqlClient への移行が推奨される。また、.NET Framework の System.Data.SqlClient 名前空間はこの非推奨プロセスには含まれない。</p>
+<h2 id="section-1">アーティクル、スライドなど</h2>
+<h3 id="optimizing-old-code-streambitarray-refactoring">Optimizing old code: StreamBitArray refactoring</h3>
+<p><a href="https://ayende.com/blog/201601-A/optimizing-old-code-streambitarray-refactoring?Key=3620c293-cb23-48b8-bb06-df1576cea427">https://ayende.com/blog/201601-A/optimizing-old-code-streambitarray-refactoring?Key=3620c293-cb23-48b8-bb06-df1576cea427</a></p>
+<p>RavenDB 内のコードを元に古いスタイルのコードを現代的な形に最適化、リファクタリングする例の紹介。</p>
+<h3 id="net-blazor-server2">.NET Blazor Serverアプリをストップさせる2つの原因</h3>
+<p><a href="https://zenn.dev/jtechjapan_pub/articles/26113e0b49967b">https://zenn.dev/jtechjapan_pub/articles/26113e0b49967b</a></p>
+<p>Blazor Server アプリケーションで意図せずアプリケーションが停止してしまう原因とその対処について。</p>
+<h3 id="enhancing-code-comprehension-github-copilots-features-in-visual-studio-2022-17.11-visual-studio-blog">Enhancing Code Comprehension: GitHub Copilot’s Features in Visual Studio 2022 17.11 - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/enhancing-code-comprehension-github-copilots-features-in-visual-studio-2022-17-11/">https://devblogs.microsoft.com/visualstudio/enhancing-code-comprehension-github-copilots-features-in-visual-studio-2022-17-11/</a></p>
+<p>Visual Studio 2022 v17.11 の GitHub Copilot で拡張された、GitHub Copilot Chat に現在のプロジェクトやソリューションを渡せるようになった機能や Web 検索といった機能について。</p>
+<h3 id="supercharge-your-testing-experience-with-mstest.analyzers.net-blog">Supercharge your testing experience with MSTest.Analyzers - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/supercharge-your-testing-experience-with-ms-test-analyzers/">https://devblogs.microsoft.com/dotnet/supercharge-your-testing-experience-with-ms-test-analyzers/</a></p>
+<p>MSTest.Analyzer の 3.5.1 で追加されたアナライザールールの紹介。</p>
+<p><code>TestClass</code> 属性の付け忘れ、<code>AssemblyInitializer</code> の形式の警告といったアナライザールールについて紹介している。</p>
+<h3 id="unokeyboard">UnoKeyboard</h3>
+<p><a href="https://dev.to/uno-platform/unokeyboard-23po">https://dev.to/uno-platform/unokeyboard-23po</a></p>
+<p>Uno Platform でのオンスクリーンキーボード実装 UnoKeyboard について。</p>
+<h3 id="async2-the.net-runtime-async-experiment-concludes">async2 - The .NET Runtime Async experiment concludes</h3>
+<p><a href="https://steven-giesel.com/blogPost/59752c38-9c99-4641-9853-9cfa97bb2d29">https://steven-giesel.com/blogPost/59752c38-9c99-4641-9853-9cfa97bb2d29</a></p>
+<p>ランタイムに非同期処理を組み込む async2 (コードネーム) 実験プロジェクトについて。グリーンスレッドから始まり、ランタイムへ組み込む流れとなったことなどについて触れている。</p>
+<h3 id="new-debugging-and-diagnostic-features-visual-studio-blog">New debugging and diagnostic features - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/new-debugging-and-diagnostic-features/">https://devblogs.microsoft.com/visualstudio/new-debugging-and-diagnostic-features/</a></p>
+<p>Visual Studio 2022 v17.11 でのデバッグと診断の新機能についての紹介。</p>
+<ul>
+<li>デバッグ
+<ul>
+<li>非同期メソッドでの例外のブレーク</li>
+<li>AI 生成によるブレークポイント式</li>
+<li>Arm64 として実行するようマニフェストで指定された AnyCPU のデバッグ</li>
+<li>Blazor WebAssembly のデバッグ</li>
+<li>デフォルトブレークポイントグループによるブレークポイントの整理</li>
+<li>IEnumerable ビジュアライザーでの LINQ 式の編集とビジュアライズ</li>
+<li>C++ でのコンディショナルブレークポイントのパフォーマンス改善</li>
+</ul>
+</li>
+<li>プロファイル
+<ul>
+<li>実行を跨いだインストルメンテーションツールのターゲット選択の保持</li>
+<li>.NET アセンブリーの逆コンパイル</li>
+</ul>
+</li>
+</ul>
+<h3 id="new-git-tooling-features-visual-studio-blog">New git tooling features - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/new-git-tooling-features/">https://devblogs.microsoft.com/visualstudio/new-git-tooling-features/</a></p>
+<p>Visual Studio 2022 v17.11 での Git に関する新機能/改善についての紹介。</p>
+<h3 id="c-xinput-qiita">C# から XInput 経由でゲームパッドの入力を得る (外部ライブラリなし) - Qiita</h3>
+<p><a href="https://qiita.com/mikecat_mixc/items/7ea7bab63c93f1b2b04d">https://qiita.com/mikecat_mixc/items/7ea7bab63c93f1b2b04d</a></p>
+<p>XInput API を使用してゲームパッドの入力を C# から取り扱う方法についての解説。</p>
+<h3 id="urlencode-the-space-character">UrlEncode the Space Character</h3>
+<p><a href="https://blog.codeinside.eu/2024/08/20/urlencoding-the-space-char/">https://blog.codeinside.eu/2024/08/20/urlencoding-the-space-char/</a></p>
+<p>URL エンコードする際のスペースの取り扱い(<code>+</code> となるパターンと <code>%20</code> となるパターン)についてと、.NET での API について。</p>
+<h3 id="semantic-kernel">Semantic Kernel のマルチエージェントを試してみよう！</h3>
+<p><a href="https://zenn.dev/microsoft/articles/semantic-kernel-agents-001">https://zenn.dev/microsoft/articles/semantic-kernel-agents-001</a></p>
+<p>Semantic Kernel で複数のエージェント(異なる役割を持つエージェント)を組み合わせるマルチエージェントで実行する方法について。</p>
+<h2 id="section-2">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="shimodateakiravirtualstoragelibrary-virtualstoragelibrary-project">shimodateakira/VirtualStorageLibrary: VirtualStorageLibrary Project</h3>
+<p><a href="https://github.com/shimodateakira/VirtualStorageLibrary?tab=readme-ov-file">https://github.com/shimodateakira/VirtualStorageLibrary?tab=readme-ov-file</a></p>
+<p>ファイルシステムのような概念を持ったインメモリーの木構造を取り扱うライブラリー。</p>
+<ul>
+<li><a href="https://dev.to/shimodateakira/introducing-virtualstoragelibrary-a-net-solution-for-in-memory-tree-structures-2133">Introducing VirtualStorageLibrary: A .NET Solution for In-Memory Tree Structures</a></li>
+</ul>
+<h3 id="hanachirurapidenum-enum-utility-with-sourcegenerator-for-c.net">hanachiru/RapidEnum: Enum utility with SourceGenerator for C#/.NET</h3>
+<p><a href="https://github.com/hanachiru/RapidEnum">https://github.com/hanachiru/RapidEnum</a></p>
+<p>Source Generator ベースの高速な Enum のユーティリティー。</p>
+<!-- https://x.com/hanaaaaaachiru/status/1825004695905034626?s=12 -->
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">.NET標準API や 世界最速のenumライブラリ FastEnum よりもパフォーマンスが良いライブラリ RapidEnum リリースしました！！<br>手元で計測したところ、.NET APIより数十~数万倍良い計測結果がでてました<br>Unity Package Managerにも対応してるので、Unity勢も手軽に導入できます<a href="https://t.co/8miqpRUo0r">https://t.co/8miqpRUo0r</a> <a href="https://t.co/FOztfAYD5f">pic.twitter.com/FOztfAYD5f</a></p>&mdash; はなちる&#64;ゲーム制作 (&#64;hanaaaaaachiru) <a href="https://twitter.com/hanaaaaaachiru/status/1825004695905034626?ref_src=twsrc%5Etfw">August 18, 2024</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="deep-dive">Deep Dive</h2>
+<h3 id="dark-mode-experimental-feature-by-jeremykuhne-pull-request-11857-dotnetwinforms">Dark mode experimental feature by JeremyKuhne · Pull Request #11857 · dotnet/winforms</h3>
+<p><a href="https://github.com/dotnet/winforms/pull/11857">https://github.com/dotnet/winforms/pull/11857</a></p>
+<p>Windows Forms でのダークモードの実験的サポートの PR。</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
