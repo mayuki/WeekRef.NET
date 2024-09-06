@@ -6,8 +6,113 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Sun, 01 Sep 2024 12:51:11 GMT</pubDate>
-		<lastBuildDate>Sun, 01 Sep 2024 12:51:11 GMT</lastBuildDate>
+		<pubDate>Fri, 06 Sep 2024 09:16:05 GMT</pubDate>
+		<lastBuildDate>Fri, 06 Sep 2024 09:16:05 GMT</lastBuildDate>
+		<item>
+			<title>2024-09-06: Windows App SDK 1.6, StackExchange.Redis 2.8.12</title>
+			<link>https://weekref.net/2024/09/06/updates</link>
+			<description>.NET 関連の情報をほぼ週刊配信</description>
+			<author>Mayuki Sawatari</author>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2024/09/06/updates</guid>
+			<pubDate>Fri, 06 Sep 2024 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="whats-new-in-windows-app-sdk-1.6"&gt;What’s new in Windows App SDK 1.6&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blogs.windows.com/windowsdeveloper/2024/09/04/whats-new-in-windows-app-sdk-1-6/"&gt;https://blogs.windows.com/windowsdeveloper/2024/09/04/whats-new-in-windows-app-sdk-1-6/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Windows App SDK 1.6 がリリースされた。&lt;/p&gt;
+&lt;p&gt;このリリースでは Native AOT のサポート、WebView2 のバージョンを NuGet 参照の形へ移行、新しいパッケージ展開 API、TabView のタブの切り離しに関する改善、その他いくつかのコントロールの改善や API の追加などが含まれている。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/stable-channel#version-16"&gt;Version 1.6 - Stable channel release notes for the Windows App SDK - Windows apps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="release-2.8.12-stackexchangestackexchange.redis"&gt;Release 2.8.12 · StackExchange/StackExchange.Redis&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.8.12"&gt;https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.8.12&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;StackExchange.Redis 2.8.12 がリリースされた。&lt;/p&gt;
+&lt;p&gt;このリリースではハッシュフィールドに対する有効期限コマンドのサポート追加、&lt;code&gt;HSCAN NOVALUES&lt;/code&gt; のサポート追加の他、いくつかの不具合が修正されている。&lt;/p&gt;
+&lt;h3 id="enhance-your-cloud-development-skills-at-azure-developers.net-aspire-day-2024.net-blog"&gt;Enhance Your Cloud Development Skills at 'Azure Developers - .NET Aspire Day 2024' - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/enhance-your-cloud-development-skills-at-azure-developers-dotnet-aspire-day-2024/"&gt;https://devblogs.microsoft.com/dotnet/enhance-your-cloud-development-skills-at-azure-developers-dotnet-aspire-day-2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;9月18日 (日本時間の9月19日午前1時) にオンラインイベントの Azure Developers - .NET Aspire Day 2024 が配信される。&lt;/p&gt;
+&lt;p&gt;記事ではイベントでのどのような内容が配信されるかといった点について紹介している。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://developer.microsoft.com/ja-jp/reactor/events/23485/"&gt;Azure Developers - .NET Aspire Day 2024 | イベント | Microsoft Reactor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="faster-dictionary-in-c-ndepend-blog"&gt;Faster Dictionary in C# - NDepend Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.ndepend.com/faster-dictionary-in-c/"&gt;https://blog.ndepend.com/faster-dictionary-in-c/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dictionary を高速に取り扱うための手法として TryAdd や CollectionMarshal ヘルパーメソッドのようないくつかの Tips を紹介している。&lt;/p&gt;
+&lt;h3 id="easily-dock-and-float-tool-windows-visual-studio-blog"&gt;Easily dock and float tool windows - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/easily-dock-and-float-tool-windows/"&gt;https://devblogs.microsoft.com/visualstudio/easily-dock-and-float-tool-windows/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio でドッキングウィンドウのタイトル部分を Ctrl キーを押しながらダブルクリックするとドッキング解除/元の位置に再ドッキングできることについて。&lt;/p&gt;
+&lt;h3 id="qiita"&gt;【コレクション式】スプレッドを逆コンパイルしてみる - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/abetakahiro123/items/f3bcb4e1351d62c7b0dd"&gt;https://qiita.com/abetakahiro123/items/f3bcb4e1351d62c7b0dd&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;コレクション式のスプレッド (&lt;code&gt;..&lt;/code&gt;) がコンパイルされる際にどのように展開されるのか逆コンパイルで確認してみたことについて。&lt;/p&gt;
+&lt;h3 id="dotinsights-september-2024-the.net-tools-blog"&gt;dotInsights | September 2024 | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/09/03/dotinsights-september-2024/"&gt;https://blog.jetbrains.com/dotnet/2024/09/03/dotinsights-september-2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;JetBrains による2024年9月の .NET 関連情報のまとめ。&lt;/p&gt;
+&lt;h3 id="discover.net-at-devintersection-las-vegas-2024.net-blog"&gt;Discover .NET at DEVintersection Las Vegas 2024 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/discover-dotnet-at-dev-intersection-las-vegas-2024/"&gt;https://devblogs.microsoft.com/dotnet/discover-dotnet-at-dev-intersection-las-vegas-2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;9月9日から Las Vegas にて開催される DEVintersection での .NET 関連のセッションについての紹介。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://devintersection.com/"&gt;DEVintersection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="incorporate-github-copilot-into-your-daily-flow-visual-studio-blog"&gt;Incorporate GitHub Copilot into your daily flow - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/incorporate-github-copilot-into-your-daily-flow/"&gt;https://devblogs.microsoft.com/visualstudio/incorporate-github-copilot-into-your-daily-flow/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 17.11 の GitHub Copilot によるワークフローの効率化に役立つ機能の紹介。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;インラインチャットによる入力候補の調整&lt;/li&gt;
+&lt;li&gt;インラインチャットをチャットウィンドウに移動し、コンテキストを増やす&lt;/li&gt;
+&lt;li&gt;エディターから直接シンボルを理解する&lt;/li&gt;
+&lt;li&gt;GitHub Copilot でコードを修正&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="dev-proxy-v0.20-with-improved-simulating-api-errors-and-a-new-api-for-building-integrations-microsoft-365-developer-blog"&gt;Dev Proxy v0.20 with improved simulating API errors and a new API for building integrations - Microsoft 365 Developer Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/microsoft365dev/dev-proxy-v0-20-with-improved-simulating-api-errors-and-a-new-api-for-building-integrations/"&gt;https://devblogs.microsoft.com/microsoft365dev/dev-proxy-v0-20-with-improved-simulating-api-errors-and-a-new-api-for-building-integrations/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dev Proxy v0.20 での API のエラーシミュレーションの強化やリモート制御など新機能についての紹介。&lt;/p&gt;
+&lt;h3 id="connection-resiliency-for-entity-framework-core-and-sqlclient"&gt;Connection Resiliency for Entity Framework Core and SqlClient&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.codeinside.eu/2024/09/02/connection-resiliency-for-ef-core-and-sql-data/"&gt;https://blog.codeinside.eu/2024/09/02/connection-resiliency-for-ef-core-and-sql-data/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Entity Framework Core と SqlClient をする際の接続回復性を担保する方法について。&lt;/p&gt;
+&lt;h3 id="enhancing-your-visual-studio-authentication-experience-visual-studio-blog"&gt;Enhancing your Visual Studio authentication experience - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/enhancing-your-visual-studio-authentication-experience/"&gt;https://devblogs.microsoft.com/visualstudio/enhancing-your-visual-studio-authentication-experience/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visaul Studio 2022 17.11 で改善された(Visual Studio 自体の)認証の体験に関する仕組みについての解説。&lt;/p&gt;
+&lt;p&gt;記事では Web Access Manager に変わったことで得られるメリットなどを解説している。&lt;/p&gt;
+&lt;h3 id="net8"&gt;.Net8 で追加されたコレクション式で初期化できるファーストクラスコレクションを実装する&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/coppla/articles/b2124d70a1bb5a"&gt;https://zenn.dev/coppla/articles/b2124d70a1bb5a&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;コレクション式で表現(初期化)可能な独自の型を実装する方法について。&lt;/p&gt;
+&lt;h3 id="join-us-for-jetbrains.net-days-online-2024-the.net-tools-blog"&gt;Join Us for JetBrains .NET Days Online 2024 | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/09/02/dotnet-days-online-2024/"&gt;https://blog.jetbrains.com/dotnet/2024/09/02/dotnet-days-online-2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;JetBrains による .NET のオンラインイベント JetBrains .NET Days Online 2024 についての案内。&lt;/p&gt;
+&lt;p&gt;イベントは9月25日から2日間にわたり開催され、.NET に関する様々なセッションが配信される。&lt;/p&gt;
+&lt;h3 id="working-with-tar-files-in.net-8"&gt;Working with tar files in .NET 8&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/working-with-tar-files-in-dotnet/"&gt;https://andrewlock.net/working-with-tar-files-in-dotnet/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 8 の標準ライブラリーで tar 形式のファイルを取り扱うことについて。&lt;/p&gt;
+&lt;p&gt;記事では tar.gz 形式のアーカイブの作成、展開、内容の確認といったアーカイブ操作についてのほか、ライブラリーの機能上の制限や問題点についても解説している。&lt;/p&gt;
+&lt;h3 id="torchsharpc-1-qiita"&gt;【TorchSharp】C#で機械学習 ①手書き文字認識アプリの実装 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/kkaneko1090/items/5773edca77f042393966"&gt;https://qiita.com/kkaneko1090/items/5773edca77f042393966&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;TorchSharp を使用して機械学習による手書き文字認識アプリケーションを実装する方法について。&lt;/p&gt;
+&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h3 id="mini-softwareminiexcel-fast-low-memory-easy-excel.net-helper-to-importexporttemplate-spreadsheet-support-linux-mac"&gt;mini-software/MiniExcel: Fast, Low-Memory, Easy Excel .NET helper to import/export/template spreadsheet (support Linux, Mac)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/mini-software/MiniExcel"&gt;https://github.com/mini-software/MiniExcel&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;高速で省メモリーな Excel ファイル操作のためのライブラリー。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/c-sharp-programming/the-best-way-to-work-with-exel-in-net-is-miniexcel-0a113f70e5aa"&gt;The best way to work with Exel in .NET is MiniExcel?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="annulusgamesrandomextensions-provides-better-random-number-utilities-and-weighted-collections-for.net-and-unity"&gt;AnnulusGames/RandomExtensions: Provides better random number utilities and weighted collections for .NET and Unity.&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/AnnulusGames/RandomExtensions"&gt;https://github.com/AnnulusGames/RandomExtensions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ランダムに関する抽象化と高速な複数のアルゴリズムの実装を提供するライブラリー。System.Numerics や Unity 向けの拡張のほか、重み付きの乱数の取り扱いなどにも対応。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://annulusgames.com/blog/random-extensions/"&gt;【C#】Random Extensions – .NET / Unity用の乱数ライブラリ - Annulus Games&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>2024-09-01: Transfer Mono to WineHQ, .NET Aspire 8.2, BinaryFormatter removed from .NET 9</title>
 			<link>https://weekref.net/2024/09/01/updates</link>
@@ -1184,88 +1289,6 @@
 &lt;h3 id="poly-fill-index-and-range-types-by-tarekgh-pull-request-104170-dotnetruntime"&gt;Poly fill Index and Range types by tarekgh · Pull Request #104170 · dotnet/runtime&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/dotnet/runtime/pull/104170"&gt;https://github.com/dotnet/runtime/pull/104170&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Microsoft.Bcl.Memory に Index と Range の Polyfill が追加。&lt;/p&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>2024-06-28: StackExchange.Redis 2.8.0, ReSharper and Rider 2024.1.4</title>
-			<link>https://weekref.net/2024/06/28/updates</link>
-			<description>.NET 関連の情報をほぼ週刊配信</description>
-			<author>Mayuki Sawatari</author>
-			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
-			<guid>https://weekref.net/2024/06/28/updates</guid>
-			<pubDate>Fri, 28 Jun 2024 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="release-2.8.0-stackexchangestackexchange.redis"&gt;Release 2.8.0 · StackExchange/StackExchange.Redis&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.8.0"&gt;https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.8.0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;StackExchange.Redis 2.8.0 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは X509 証明書のチェーンの追加のチェック、コマンドの整合性チェックモード、ストリームの最後のメッセージの読み取りサポートといったものが含まれている。&lt;/p&gt;
-&lt;h3 id="bug-fixes-for-resharper-2024.1.4-and-rider-2024.1.4-are-now-available-the.net-tools-blog"&gt;Bug Fixes for ReSharper 2024.1.4 and Rider 2024.1.4 Are Now Available! | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/06/24/resharper-rider-2024-1-4/"&gt;https://blog.jetbrains.com/dotnet/2024/06/24/resharper-rider-2024-1-4/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ReSharper と Rider 2024.1.4 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースではエラーやデッドロックといったいくつかの不具合が修正されている。&lt;/p&gt;
-&lt;h3 id="join-us-for.net-aspire-developers-day-elevate-your-cloud-native-skills.net-blog"&gt;Join Us for .NET Aspire Developers Day – Elevate Your Cloud Native Skills! - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/join-us-for-dotnet-aspire-developers-day/"&gt;https://devblogs.microsoft.com/dotnet/join-us-for-dotnet-aspire-developers-day/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2024年7月23日に .NET Aspire Developers Day というライブストリーミングイベントを行うことについてのアナウンス。&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="behind-the-scenes-of-owin-open-web-interface-for.net"&gt;Behind the Scenes of OWIN (Open Web Interface for .NET)&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/rasulhsn/behind-the-scenes-of-owin-open-web-interface-for-net-523d"&gt;https://dev.to/rasulhsn/behind-the-scenes-of-owin-open-web-interface-for-net-523d&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core の元のアイデアとなった OWIN の歴史とどのようなものであったかについて。&lt;/p&gt;
-&lt;h3 id="code-assessment-with.net-upgrade-assistant-visual-studio-blog"&gt;Code Assessment with .NET Upgrade Assistant - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/code-assessment-with-net-upgrade-assistant/"&gt;https://devblogs.microsoft.com/visualstudio/code-assessment-with-net-upgrade-assistant/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET アップグレード アシスタントを使用したアップグレードに関する評価を行う方法について。&lt;/p&gt;
-&lt;p&gt;記事では Visual Studio からの分析と CLI ツールからの分析、レポートの出力と共有について触れている。&lt;/p&gt;
-&lt;h3 id="exploring-the-generated-code-t-spant-and-immutable-collections-behind-the-scenes-of-collection-expressions-part-3"&gt;Exploring the generated code: T[], SpanT, and Immutable collections: Behind the scenes of collection expressions - Part 3&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-3-arrays-span-of-t-and-immutable-collections/"&gt;https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-3-arrays-span-of-t-and-immutable-collections/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;コレクション式がコンパイラーによってどのような処理に展開されるかについての解説。記事では配列、Span&lt;T&gt;、IEnumerable に Immutable コレクションでの挙動について解説している。&lt;/p&gt;
-&lt;h3 id="xunitmemberdataint-qiita"&gt;Xunitでmemberdataで小数点からIntなどへの変換が発生している場合の挙動調べ - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/hatobeam75/items/163f398d8f87b4309d96"&gt;https://qiita.com/hatobeam75/items/163f398d8f87b4309d96&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;MemberData によるテストデータのパラメータへの引き渡し時、型変換が必要となるケースでの挙動について。&lt;/p&gt;
-&lt;h3 id="instrumenting.net-chiseled-docker-images-with-datadog"&gt;Instrumenting .NET chiseled Docker images with Datadog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;vandonr/instrumenting-net-chiseled-docker-images-with-datadog-00b1db18f4b9"&gt;https://medium.com/&amp;#64;vandonr/instrumenting-net-chiseled-docker-images-with-datadog-00b1db18f4b9&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Chiseled Ubuntu をベースとした .NET の Docker イメージで Datadog のトレーシングを行うためのセットアップ方法について。&lt;/p&gt;
-&lt;h3 id="html5-validation-for-asp.net-core-models-and-razor-views"&gt;HTML5 Validation for ASP.NET Core Models and Razor Views&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://khalidabuhakmeh.com/html5-validation-for-aspnet-core-models-and-razor-views"&gt;https://khalidabuhakmeh.com/html5-validation-for-aspnet-core-models-and-razor-views&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;デフォルトのクライアント入力検証の代わりにブラウザー組み込みのフォーム検証を利用する方法について。&lt;/p&gt;
-&lt;p&gt;記事では FinBuckle.HTML5Validation パッケージを使用する方法を紹介している。&lt;/p&gt;
-&lt;h3 id="how-to-use-c-to-properly-follow-oauth-authentication-flows"&gt;How to Use C# to Properly Follow OAuth Authentication Flows&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dotneteers.net/how-to-use-c-to-properly-follow-oauth-authentication-flows/"&gt;https://dotneteers.net/how-to-use-c-to-properly-follow-oauth-authentication-flows/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;OAuth 認証フローを実装する方法について。&lt;/p&gt;
-&lt;h3 id="real-graceful-shutdown-in-kubernetes-and-asp.net-core"&gt;Real Graceful Shutdown in Kubernetes and ASP.NET Core&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/arminshoeibi/real-graceful-shutdown-in-kubernetes-and-aspnet-core-2290"&gt;https://dev.to/arminshoeibi/real-graceful-shutdown-in-kubernetes-and-aspnet-core-2290&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Kubernetes 上の ASP.NET Core や Generic Host のアプリケーションをグレースフルにシャットダウンする方法について。&lt;/p&gt;
-&lt;p&gt;記事では Ingress Controller とのギャップでさらに遅延が必要な場合の対処方法についても紹介している。&lt;/p&gt;
-&lt;h3 id="is.net-aspire-nuget-for-cloud-service-dependencies"&gt;Is .NET Aspire NuGet for Cloud Service Dependencies?&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://haacked.com/archive/2024/06/27/dotnet-aspire/"&gt;https://haacked.com/archive/2024/06/27/dotnet-aspire/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET Aspire はクラウドサービスの NuGet パッケージ依存関係のようではないかという話。&lt;/p&gt;
-&lt;h2 id="section-2"&gt;イベント&lt;/h2&gt;
-&lt;h3 id="blazor.net-20240704-1330"&gt;Blazor+ローコードで実現する.NET資産のモダナイズ (2024/07/04 13:30〜)&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://codeer.connpass.com/event/319762/"&gt;https://codeer.connpass.com/event/319762/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="section-3"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="rucchodisposify-subscribe-c-events-with-idisposables"&gt;ruccho/Disposify: Subscribe C# events with IDisposables!&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/ruccho/Disposify"&gt;https://github.com/ruccho/Disposify&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;イベント購読を IDisposable で管理できるようにする Source Generator。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/ruccho/articles/dc6f82771cf650"&gt;【C#】event を IDisposable で購読する&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="section-4"&gt;サイト、ドキュメントなど&lt;/h2&gt;
-&lt;h3 id="section-5"&gt;ツイート&lt;/h3&gt;
-&lt;!-- https://x.com/filipnavara/status/1806291214884303064?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;.NET Runtime Async (&lt;a href="https://t.co/3pIXXN7ENu"&gt;https://t.co/3pIXXN7ENu&lt;/a&gt;) is starting to get some attention again (&lt;a href="https://t.co/vjMLBFurl7"&gt;https://t.co/vjMLBFurl7&lt;/a&gt;).&lt;/p&gt;&amp;mdash; Filip Navara 🇺🇦 (parody of myself) (&amp;#64;filipnavara) &lt;a href="https://twitter.com/filipnavara/status/1806291214884303064?ref_src=twsrc%5Etfw"&gt;June 27, 2024&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;!-- https://x.com/jcouv/status/1805629757436084669?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;We merged a preview C# 13 feature into VS 17.11 (preview 3): partial properties.&lt;br&gt;&lt;br&gt;```&lt;br&gt;partial class C&lt;br&gt;{&lt;br&gt;    // Definition&lt;br&gt;    public partial string Prop { get; set; }&lt;br&gt;&lt;br&gt;    // Implementation&lt;br&gt;    public partial string Prop { get =&amp;gt; ...; set =&amp;gt; ...; }&lt;br&gt;}&lt;br&gt;```&lt;a href="https://t.co/ZmA7g05f3W"&gt;https://t.co/ZmA7g05f3W&lt;/a&gt;&lt;/p&gt;&amp;mdash; Julien Couvreur (&amp;#64;jcouv) &lt;a href="https://twitter.com/jcouv/status/1805629757436084669?ref_src=twsrc%5Etfw"&gt;June 25, 2024&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
