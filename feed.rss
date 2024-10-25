@@ -6,8 +6,159 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Fri, 18 Oct 2024 06:48:13 GMT</pubDate>
-		<lastBuildDate>Fri, 18 Oct 2024 06:48:13 GMT</lastBuildDate>
+		<pubDate>Fri, 25 Oct 2024 07:10:31 GMT</pubDate>
+		<lastBuildDate>Fri, 25 Oct 2024 07:10:31 GMT</lastBuildDate>
+		<item>
+			<title>2024-10-25: ASP.NET Core 2.3, Rider Non-Commercial License</title>
+			<link>https://weekref.net/2024/10/25/updates</link>
+			<description>.NET 関連の情報をほぼ週刊配信</description>
+			<author>Mayuki Sawatari</author>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2024/10/25/updates</guid>
+			<pubDate>Fri, 25 Oct 2024 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="asp.net-core-2.1-becomes-asp.net-core-2.3-issue-331-dotnetannouncements"&gt;ASP.NET Core 2.1 becomes ASP.NET Core 2.3 · Issue #331 · dotnet/announcements&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/dotnet/announcements/issues/331"&gt;https://github.com/dotnet/announcements/issues/331&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ASP.NET Core 2.1 を ASP.NET Core 2.3 としてリリースすることについてのアナウンス。&lt;/p&gt;
+&lt;p&gt;ASP.NET Core 2.x は .NET Core だけでなく .NET Framework もサポートしていた背景があり、.NET Framework での ASP.NET Core 2.1 は ASP.NET と同じサポートライフサイクルであり現在もサポート中となっている。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2.3 としてリリースする背景
+&lt;ul&gt;
+&lt;li&gt;多くのユーザーが ASP.NET Core を 2.1 から 2.2 に更新したが 2.2 でサポート期間が短縮されていることに気づいていないユーザーがいる&lt;/li&gt;
+&lt;li&gt;ASP.NET Core 2.3 としてリリースすることで .NET Framework で ASP.NET Core 2.2 を使用している場合の移行をしやすくする
+&lt;ul&gt;
+&lt;li&gt;NuGet などパッケージの依存関係が 2.2 に依存している場合、アプリケーションを 2.1 にダウングレードすることは難しく、より新しいバージョンのほうがスムーズになるという事情&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ASP.NET Core 2.2 を 2.3 としてリリースすると 2.1 のユーザーに破壊的変更を強いるため 2.1 を 2.3 とする形を取る&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ASP.NET Core 2.1 (.NET Core) を現在使用しているユーザー
+&lt;ul&gt;
+&lt;li&gt;すでにランタイムと共にサポート切れ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ASP.NET Core 2.1 (.NET Framework) を現在使用しているユーザー
+&lt;ul&gt;
+&lt;li&gt;今後 ASP.NET Core 2.1 への更新が発生した場合、2.1 が脆弱なパッケージとしてマークされ、アップグレード先として 2.3 が案内されるようになる&lt;/li&gt;
+&lt;li&gt;ASP.NET Core 2.3 は 2.1 の再リリースとなるので今すぐ更新する必要や更新しなかった場合に修正が受け取れないといったことはない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ASP.NET Core 2.2 (.NET Framework) を使用しているユーザー
+&lt;ul&gt;
+&lt;li&gt;すでにサポート終了済みのため ASP.NET Core 2.3 へのアップグレード(ただし実質 2.1 なのでダウングレード)か .NET シリーズへの移行を強く推奨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="webstorm-rider-jetbrains"&gt;WebStorm と Rider の非商用利用が無料になりました | JetBrains のブログ&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/ja/blog/2024/10/24/webstorm-and-rider-are-now-free-for-non-commercial-use/"&gt;https://blog.jetbrains.com/ja/blog/2024/10/24/webstorm-and-rider-are-now-free-for-non-commercial-use/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;WebStorm と Rider を非商用利用する場合に無償で利用できるライセンスが追加された。&lt;/p&gt;
+&lt;p&gt;これにより学習、オープンソースプロジェクト開発、コンテンツ制作や趣味の開発といった非商用目的での無償利用が可能となる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://forest.watch.impress.co.jp/docs/news/1634254.html"&gt;JetBrainsの開発環境「WebStorm」「Rider」、非商用ならば無償に／学習、オープンソースプロジェクト開発、コンテンツ制作、趣味などへ活用できる&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="net-upgrade-assistant-now-supports-upgrading-to-centralized-package-mangement.net-blog"&gt;.NET Upgrade Assistant Now Supports Upgrading to Centralized Package Mangement - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-upgrade-assistant-cpm-upgrade/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-upgrade-assistant-cpm-upgrade/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET Upgrade Assistant での NuGet パッケージの Centralized Package Managent への移行をサポート。&lt;/p&gt;
+&lt;p&gt;Visual Studio の拡張または CLI から既存のプロジェクトを移行することが可能となる。&lt;/p&gt;
+&lt;p&gt;また Upgrade Assistant は Visual Studio 17.3 以降のみをサポートするようになったため、それ以前のバージョンでは動作しないとのこと。&lt;/p&gt;
+&lt;h3 id="upgrade-your-windows-forms.net-projects-to-the-latest.net-version-for-enhanced-security-visual-studio-blog"&gt;Upgrade Your Windows Forms .NET Projects to the Latest .NET Version for Enhanced Security - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/upgrade-your-windows-forms-net-projects-to-the-latest-net-version-for-enhanced-security/"&gt;https://devblogs.microsoft.com/visualstudio/upgrade-your-windows-forms-net-projects-to-the-latest-net-version-for-enhanced-security/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET での WinForms アプリケーションを最新の .NET にアップグレードすることについて。&lt;/p&gt;
+&lt;p&gt;記事ではアップグレードによる利点や今後の Visual Studio 上の WinForms デザイナーでの警告、将来的なバージョンごとのデザイナーサポート状況についてを解説している。&lt;/p&gt;
+&lt;h3 id="mongodb-ef-core-provider-whats-new.net-blog"&gt;MongoDB EF Core Provider: What's New? - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/mongodb-ef-core-provider-whats-new/"&gt;https://devblogs.microsoft.com/dotnet/mongodb-ef-core-provider-whats-new/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Entity Framework Core の MongoDB 向けプロバイダーの新機能についての解説。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;プロパティーの追加と変更追跡&lt;/li&gt;
+&lt;li&gt;インデックス管理&lt;/li&gt;
+&lt;li&gt;データの問い合わせ&lt;/li&gt;
+&lt;li&gt;自動トランザクションと楽観的同時実行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="introducing-syncfusions-first-set-of-open-source.net-maui-controls"&gt;Introducing Syncfusion's First Set of Open-Source .NET MAUI Controls&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.syncfusion.com/blogs/post/syncfusion-open-source-net-maui-controls-cross-platform"&gt;https://www.syncfusion.com/blogs/post/syncfusion-open-source-net-maui-controls-cross-platform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Syncfusion が .NET MAUI 向けのコントロールを集めた Syncfusion Toolkit for .NET MAUI をオープンソースで公開した。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;チャート&lt;/li&gt;
+&lt;li&gt;カルーセル&lt;/li&gt;
+&lt;li&gt;タブビュー&lt;/li&gt;
+&lt;li&gt;チップ&lt;/li&gt;
+&lt;li&gt;エフェクトビュー&lt;/li&gt;
+&lt;li&gt;Shimmer&lt;/li&gt;
+&lt;li&gt;Pull to Refresh&lt;/li&gt;
+&lt;li&gt;テキストインプットレイアウト&lt;/li&gt;
+&lt;li&gt;ナビゲーションドロワー&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Syncfusion Toolkit for .NET MAUI は MIT ライセンスで GitHub と NuGet にて提供される。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/syncfusion/maui-toolkit"&gt;syncfusion/maui-toolkit: Syncfusion .NET MAUI Toolkit offers high-quality UI controls to help you build rich, high-performance applications for iOS, Android, macOS, and Windows from a single codebase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-maui-welcomes-syncfusion-open-source-contributions/"&gt;.NET MAUI Welcomes Syncfusion Open-source Contributions - .NET Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="cwindowsinfluxdbgrafana-qiita"&gt;C#でWindowsマシンの状態を取得してInfluxDBとGrafanaでグラフ化する - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/toRisouP/items/ba0c44cc86e1ca496e27"&gt;https://qiita.com/toRisouP/items/ba0c44cc86e1ca496e27&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Windows コンピューターのハードウェア状態情報を取得して、InfluxDB にデータを格納し、Grafana でビジュアライズする方法について。&lt;/p&gt;
+&lt;p&gt;記事では OpenHardwareMonitorLib を使用した情報取得の実装を行っている。&lt;/p&gt;
+&lt;h3 id="eshop-infused-with-ai-a-comprehensive-intelligent-app-sample.net-blog"&gt;eShop infused with AI - a comprehensive intelligent app sample - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/e-shop-infused-with-ai-comprehensive-intelligent-dotnet-app-sample/"&gt;https://devblogs.microsoft.com/dotnet/e-shop-infused-with-ai-comprehensive-intelligent-dotnet-app-sample/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;EC サイトのサンプルアプリケーションとして AI を組み込んだカスタマーサポートサイトを作成したことについて。&lt;/p&gt;
+&lt;p&gt;記事では eShopSupport がどのような構成になっているか、AI をどのように利用して処理を行っているのかといった点を解説している。&lt;/p&gt;
+&lt;h3 id="get-hands-on-with-visual-studio.net-ai-and-more-at-live-360-next-month-visual-studio-blog"&gt;Get Hands-On with Visual Studio, .NET, AI, and More at Live! 360 next month. - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/live-360-orlando-2024/"&gt;https://devblogs.microsoft.com/visualstudio/live-360-orlando-2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;11月17日から22日まで Orland で開かれる Visual Studio LIVE! イベントの案内。&lt;/p&gt;
+&lt;h3 id="net-for-androidlottienative-library-interop"&gt;.NET for AndroidでLottieアニメーションを使えるようにしてみた(Native Library Interop)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/onepointfive/articles/21641823573f37"&gt;https://zenn.dev/onepointfive/articles/21641823573f37&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET for Android で Lottie を使うため、Lottie ネイティブライブラリーのラッパーライブラリーを作る手順についての解説。&lt;/p&gt;
+&lt;h3 id="c-addtransient-addscoped-addsingleton-qiita"&gt;【C#】依存性注入メソッドのライフサイクル - AddTransient, AddScoped, AddSingleton - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/simoyama2323/items/0e082bd1582df9b33180"&gt;https://qiita.com/simoyama2323/items/0e082bd1582df9b33180&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Microsoft.Extensions.DependencyInjection の AddTransient, AddScoped, AddSingleton の違いについての簡単な解説。&lt;/p&gt;
+&lt;h3 id="whats-new-in-c-13-overview"&gt;What′s new in C# 13: overview&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://pvs-studio.com/en/blog/posts/csharp/1173/"&gt;https://pvs-studio.com/en/blog/posts/csharp/1173/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;C# 13 の新機能についてのまとめ。&lt;/p&gt;
+&lt;h3 id="entity-framework-coredbcontext-qiita"&gt;Entity Framework Coreで、同じプロジェクトに複数のDBContextを入れる場合のマイグレーションの使い分け方 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/spc_ksudoh/items/e7c5d3a61de2b2560159"&gt;https://qiita.com/spc_ksudoh/items/e7c5d3a61de2b2560159&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Entity Framework Core で一つのプロジェクトに含まれる、複数の DbContext を使い分けてマイグレーションを実行する方法について。&lt;/p&gt;
+&lt;h3 id="c-qiita"&gt;【C#】 圧縮ストリームの読み取りに苦戦した話 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/abetakahiro123/items/d89ca42373a6626a5d23"&gt;https://qiita.com/abetakahiro123/items/d89ca42373a6626a5d23&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET と .NET Framework での圧縮展開を行う Stream の読み取りの挙動の違いについて。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://learn.microsoft.com/ja-jp/dotnet/core/compatibility/core-libraries/6.0/partial-byte-reads-in-streams"&gt;破壊的変更: DeflateStream、GZipStream、CryptoStream での部分的な読み取りとゼロバイトの読み取り - .NET&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="xunit.combinatorial-a-simple-way-to-test-combinations"&gt;Xunit.Combinatorial: A Simple Way to Test Combinations&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;sugumar.p/xunit-combinatorial-a-simple-way-to-test-combinations-e3a2617df1da"&gt;https://medium.com/&amp;#64;sugumar.p/xunit-combinatorial-a-simple-way-to-test-combinations-e3a2617df1da&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;xUnit.net でパラメータ化されたユニットテストの組み合わせをテストできるようにする Xunit.Combination の使い方について。&lt;/p&gt;
+&lt;h3 id="ef-core-raw-queries-c"&gt;EF Core raw queries (C#)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/karenpayneoregon/ef-core-raw-queries-c-13fh"&gt;https://dev.to/karenpayneoregon/ef-core-raw-queries-c-13fh&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Entity Framework Core 8 の生 SQL クエリーを発行する方法について。記事ではクエリーをログに保存する方法についても触れている。&lt;/p&gt;
+&lt;h3 id="net-conf-2024-student-zone.net-blog"&gt;.NET Conf 2024 Student Zone - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnetconf-2024-student-zone/"&gt;https://devblogs.microsoft.com/dotnet/dotnetconf-2024-student-zone/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET Conf 2024 内での初心者/学習者向けのバーチャルイベント、.NET Conf Student Zone の紹介。&lt;/p&gt;
+&lt;p&gt;Student Zone のセッションは日本時間の11月19日午前1時と午後1時に .NET YouTube チャンネルで開催される。&lt;/p&gt;
+&lt;h3 id="uint-ilistint"&gt;uint[] は IList&amp;lt;int&amp;gt; に変換できる&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/ruccho/articles/7903821cd68a12"&gt;https://zenn.dev/ruccho/articles/7903821cd68a12&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;uint の配列 (uint[]) は IList&amp;lt;int&amp;gt; に変換できることと、その挙動に関するランタイムの実装や仕様上どのようになっているのかについての解説。&lt;/p&gt;
+&lt;h2 id="section-2"&gt;イベント&lt;/h2&gt;
+&lt;h3 id="microsoft-events-microsoft-developer-day-ai"&gt;Microsoft Events - Microsoft Developer Day 〜 AIで開発者の力を最大限に引き出す&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://msevents.microsoft.com/event?id=1289012583"&gt;https://msevents.microsoft.com/event?id=1289012583&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="c.net-20241118-1900"&gt;イマドキのC#/.NET開発 〜最新の言語とフレームワークの使い方〜 (2024/11/18 19:00〜)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://sansan.connpass.com/event/333961/"&gt;https://sansan.connpass.com/event/333961/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-3"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h3 id="bandyscclassic.avalonia-classic-theme-and-controls-for-avalonia"&gt;BAndysc/Classic.Avalonia: Classic Theme and Controls for Avalonia&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/BAndysc/Classic.Avalonia"&gt;https://github.com/BAndysc/Classic.Avalonia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Avalonia のクラシックな Windows のテーマ。&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>2024-10-18: What's new in System.Text.Json, MessagePack v2.5.187, Npgsql v8.0.5</title>
 			<link>https://weekref.net/2024/10/18/updates</link>
@@ -1231,107 +1382,6 @@
 &lt;h3 id="unify-whether-throw-helpers-are-stacktracehidden-or-not-issue-90539-dotnetruntime"&gt;Unify whether throw helpers are [StackTraceHidden] or not · Issue #90539 · dotnet/runtime&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/dotnet/runtime/issues/90539"&gt;https://github.com/dotnet/runtime/issues/90539&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;ArgumentException.ThrowIfNullOrEmpty のような例外ヘルパーをスタックトレースから非表示に統一するかどうかという Issue。&lt;/p&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>2024-08-11: ReSharper and Rider 2024.2 Release Candidates</title>
-			<link>https://weekref.net/2024/08/11/updates</link>
-			<description>.NET 関連の情報をほぼ週刊配信</description>
-			<author>Mayuki Sawatari</author>
-			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
-			<guid>https://weekref.net/2024/08/11/updates</guid>
-			<pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="the-resharper-and-the.net-tools-2024.2-release-candidates-are-now-available-the.net-tools-blog"&gt;The ReSharper and the .NET tools 2024.2 Release Candidates Are Now Available | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/08/07/resharper-2024-2-release-candidate/"&gt;https://blog.jetbrains.com/dotnet/2024/08/07/resharper-2024-2-release-candidate/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ReSharper 2024.2 Release Candidate がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは C# 12 機能サポートの拡張、ref struct や \e エスケープシーケンス、params 修飾子といった C# 13 の初期サポート、非同期タイピングによる文字入力のパフォーマンス向上といった改善が含まれている。&lt;/p&gt;
-&lt;p&gt;その他 ReSharper C++、dotMemory、dotTrace、dotCover、dotPeek のアップデートについても触れている。&lt;/p&gt;
-&lt;h3 id="the-rider-2024.2-release-candidate-is-now-available-the.net-tools-blog"&gt;The Rider 2024.2 Release Candidate Is Now Available | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/08/07/rider-2024-2-rc/"&gt;https://blog.jetbrains.com/dotnet/2024/08/07/rider-2024-2-rc/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Rider 2024.2 Release Candidate がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは .NET 9 Preview SDK と C# 13 機能の初期サポート、フルラインコード補完、リーダーモード、ドキュメンテーションコメントのインラインレンダリング、セマンティックハイライト、Tasks タブと依存グラフなど様々な改善が含まれている。&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="c-12.net-8-c"&gt;[C# 12, .NET 8] C# の非同期処理における効果的なキャンセルトークンの使用方法について&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/nossa/articles/df258b3ddc351f"&gt;https://zenn.dev/nossa/articles/df258b3ddc351f&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;非同期処理での CancellationToken の使い方についての解説。&lt;/p&gt;
-&lt;p&gt;記事ではユースケースごとにどのように使用するとよいかといった点を開設している。&lt;/p&gt;
-&lt;h3 id="cstandardresiliencehandler-http"&gt;【C#】StandardResilienceHandler で HTTP リクエストの回復力を高める。 - ねののお庭。&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.neno.dev/entry/2024/08/08/171524"&gt;https://blog.neno.dev/entry/2024/08/08/171524&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Microsoft.Extensions.Http.Resilience を使用した HTTP リクエストの失敗などからの回復力を高める方法についての解説。&lt;/p&gt;
-&lt;p&gt;記事では StandardResilienceHandler や裏側で使用される Polly についてなど、どのように構成するかといった点について触れている。&lt;/p&gt;
-&lt;h3 id="adding.net-aspire-to-your-existing.net-apps.net-blog"&gt;Adding .NET Aspire to your existing .NET apps - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/adding-dotnet-aspire-to-your-existing-dotnet-apps/"&gt;https://devblogs.microsoft.com/dotnet/adding-dotnet-aspire-to-your-existing-dotnet-apps/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;既存の .NET アプリケーションに .NET Aspire を追加して統合を有効化するための手順の解説。&lt;/p&gt;
-&lt;p&gt;ステップバイステップで有効化からメトリクスやログの表示までを行っている。&lt;/p&gt;
-&lt;h3 id="escape-character-extract-common-code-params-modifier-out-vars-c-language-support-in-2024.2-the.net-tools-blog"&gt;Escape Character, Extract Common Code, Params Modifier, Out Vars – C# Language Support in 2024.2 | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/08/07/escape-character-extract-common-code-params-modifier-out-vars-csharp-language-support-in-2024-2/"&gt;https://blog.jetbrains.com/dotnet/2024/08/07/escape-character-extract-common-code-params-modifier-out-vars-csharp-language-support-in-2024-2/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Rider と ReSharper 2024.2 の C# 言語サポートの新機能についての紹介。&lt;/p&gt;
-&lt;p&gt;記事ではエスケープ文字、共通コードの抽出、params 修飾子、out 変数コード補完といった機能を紹介している。&lt;/p&gt;
-&lt;h3 id="hotchocolate-graphql-limit-alias-overloading"&gt;HotChocolate GraphQl — Limit Alias Overloading&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;sankeththesmasher/hotchocolate-graphql-limit-alias-overloading-3867aa28af3a"&gt;https://medium.com/&amp;#64;sankeththesmasher/hotchocolate-graphql-limit-alias-overloading-3867aa28af3a&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;HotChocolate でクエリーに含まれるエイリアスの最大数を制限する方法について。&lt;/p&gt;
-&lt;h3 id="simplifying-theory-test-data-with-xunit.combinatorial"&gt;Simplifying [Theory] test data with Xunit.Combinatorial&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/simplifying-theory-test-data-with-xunit-combinatorial/"&gt;https://andrewlock.net/simplifying-theory-test-data-with-xunit-combinatorial/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ユニットテストのパラメータを組み合わせで実行する方法について。&lt;/p&gt;
-&lt;p&gt;記事では Xunit.Combinatorial を使用したパラメータの指定する方法を紹介している。&lt;/p&gt;
-&lt;h3 id="introducing-the-revamped-attach-to-process-experience-visual-studio-blog"&gt;Introducing the revamped Attach to Process experience - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/introducing-the-revamped-attach-to-process-experience/"&gt;https://devblogs.microsoft.com/visualstudio/introducing-the-revamped-attach-to-process-experience/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 version 17.10 で導入された新しいデバッガーのプロセスアタッチウィンドウの紹介。&lt;/p&gt;
-&lt;p&gt;新しい UI ではテーマのサポートやプロセスツリー表示などより使いやすい形に刷新されている。&lt;/p&gt;
-&lt;h3 id="nuking-local-nuget-package-sources-to-show-newly-published-packages"&gt;Nuking Local Nuget Package Sources to show newly Published Packages&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://weblog.west-wind.com/posts/2024/Aug/04/Nuking-Local-Nuget-Package-Sources-to-show-newly-published-Packages"&gt;https://weblog.west-wind.com/posts/2024/Aug/04/Nuking-Local-Nuget-Package-Sources-to-show-newly-published-Packages&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net-9-msbuild-message"&gt;.NET 9 の MSBuild で Message タスクの出力がコンソールに表示されなくなっていた&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/j_sakamoto/articles/d2b7f7024f8d7b"&gt;https://zenn.dev/j_sakamoto/articles/d2b7f7024f8d7b&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 9 でデフォルト有効となるモダンなターミナルロガーで MSBuild の Message タスクによるメッセージ出力が表示されないことについて。&lt;/p&gt;
-&lt;h3 id="simplifying-remote-docker-container-connections-in.net-aspire-with-ssh.net"&gt;Simplifying Remote Docker Container Connections in .NET Aspire with SSH.Net&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/syamaner/simplifying-remote-docker-container-connections-in-net-aspire-with-sshnet-207"&gt;https://dev.to/syamaner/simplifying-remote-docker-container-connections-in-net-aspire-with-sshnet-207&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET Aspire とリモートの Docker ホストを組み合わせて開発するために SSH.NET を使用してポートフォワーディングすることで構成をシンプルにする方法の紹介。&lt;/p&gt;
-&lt;h3 id="async-isnt-always-async"&gt;Async isn't always async&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.joelving.dk/2024/06/async-isnt-always-async/?_bhlid=aad52fd84ab1c142b00ff5150265b37fb91f84ed"&gt;https://blog.joelving.dk/2024/06/async-isnt-always-async/?_bhlid=aad52fd84ab1c142b00ff5150265b37fb91f84ed&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Async となっているメソッドが常に非同期とは限らないことについて。記事ではテストで Fake として同期的な Task を返した結果、無限ループしたことを例に挙げている。&lt;/p&gt;
-&lt;h3 id="sharepoint-microsoft-graph-api-api-qiita"&gt;SharePoint のファイルを Microsoft Graph API を使用してダウンロードする ～API理解編～ - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/Takuma_Kondo/items/af11257b3e2dcb9d8869"&gt;https://qiita.com/Takuma_Kondo/items/af11257b3e2dcb9d8869&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;SharePoint 上のファイルを Microsoft Graph API でダウンロードする方法について。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://qiita.com/Takuma_Kondo/items/a9cefb6128e092ff27a9"&gt;SharePoint のファイルを Microsoft Graph API を使用してダウンロードする(C#) ～実装編～ - Qiita&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
-&lt;h3 id="binaryformatter-migration-guide.net"&gt;BinaryFormatter migration guide - .NET&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/dotnet/standard/serialization/binaryformatter-migration-guide/"&gt;https://learn.microsoft.com/en-us/dotnet/standard/serialization/binaryformatter-migration-guide/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 9 から廃止される BinaryFormatter の移行ガイド。&lt;/p&gt;
-&lt;h3 id="effective.net-memory-management-programming-ebook"&gt;Effective .NET Memory Management | Programming | eBook&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.packtpub.com/en-us/product/effective-net-memory-management-9781835461044"&gt;https://www.packtpub.com/en-us/product/effective-net-memory-management-9781835461044&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET メモリー管理に関するトピックを中心とした書籍。&lt;/p&gt;
-&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
-&lt;p&gt;Visual Studio version 17.11 からバックグラウンドプロセスの大多数は .NET 8 で稼働するようになるという話。&lt;/p&gt;
-&lt;!-- https://x.com/davkean/status/1821839852561953212?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;devenv.exe is .NET Framework. Starting 17.11 almost every core background process bar a few moved to .NET 8. &lt;a href="https://t.co/tuBH5mMFFo"&gt;https://t.co/tuBH5mMFFo&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Kean (&amp;#64;davkean) &lt;a href="https://twitter.com/davkean/status/1821839852561953212?ref_src=twsrc%5Etfw"&gt;August 9, 2024&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;非同期 I/O は同期 I/O よりも遅く、スレッドを明け渡す必要がない場合は同期 I/O のほうがパフォーマンスがよくなる。&lt;/p&gt;
-&lt;!-- https://x.com/davkean/status/1821875521954963742?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Tips for .NET Windows I/O:&lt;br&gt;&lt;br&gt;Async/overlapped I/O is never as fast as sync reads. Async is about being a good citizen amongst a sea of other work by freeing up thread pool for other (hopefully CPU) work while blocked. If you have no other work other than the I/O don&amp;#39;t use async.&lt;/p&gt;&amp;mdash; David Kean (&amp;#64;davkean) &lt;a href="https://twitter.com/davkean/status/1821875521954963742?ref_src=twsrc%5Etfw"&gt;August 9, 2024&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;.NET 9 で Span ベースの Split によってアロケーションなしで処理できるようになるという話。&lt;/p&gt;
-&lt;!-- https://x.com/davidfowl/status/1821007036269916530?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Non-allocating split finally coming in .NET 9&lt;a href="https://twitter.com/hashtag/dotnet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotnet&lt;/a&gt; &lt;a href="https://t.co/R0D8aF5k91"&gt;pic.twitter.com/R0D8aF5k91&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Fowler (&amp;#64;davidfowl) &lt;a href="https://twitter.com/davidfowl/status/1821007036269916530?ref_src=twsrc%5Etfw"&gt;August 7, 2024&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;macOS で LINQPad が動作している話。 Avalonia XPF で実現しているとのこと。&lt;/p&gt;
-&lt;!-- https://x.com/linqpad/status/1820379112651026587?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;LINQPad is coming to macOS!&lt;br&gt;&lt;br&gt;using &lt;a href="https://twitter.com/AvaloniaUI?ref_src=twsrc%5Etfw"&gt;&amp;#64;AvaloniaUI&lt;/a&gt; XPF &lt;a href="https://t.co/R8VE0lG4m5"&gt;pic.twitter.com/R8VE0lG4m5&lt;/a&gt;&lt;/p&gt;&amp;mdash; LINQPad·Joe Albahari (&amp;#64;linqpad) &lt;a href="https://twitter.com/linqpad/status/1820379112651026587?ref_src=twsrc%5Etfw"&gt;August 5, 2024&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
