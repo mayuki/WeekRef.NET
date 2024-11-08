@@ -6,8 +6,105 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Fri, 01 Nov 2024 09:51:16 GMT</pubDate>
-		<lastBuildDate>Fri, 01 Nov 2024 09:51:16 GMT</lastBuildDate>
+		<pubDate>Fri, 08 Nov 2024 10:00:52 GMT</pubDate>
+		<lastBuildDate>Fri, 08 Nov 2024 10:00:52 GMT</lastBuildDate>
+		<item>
+			<title>2024-11-08: ReSharper and Rider 2024.3 RC, .NET Diagnostics v9.0.553101</title>
+			<link>https://weekref.net/2024/11/08/updates</link>
+			<description>.NET 関連の情報をほぼ週刊配信</description>
+			<author>Mayuki Sawatari</author>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2024/11/08/updates</guid>
+			<pubDate>Fri, 08 Nov 2024 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="the-resharper-and-the.net-tools-2024.3-release-candidates-are-now-available-the.net-tools-blog"&gt;The ReSharper and the .NET Tools 2024.3 Release Candidates Are Now Available | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/11/07/rsrp-net-tools-2024-3-rc/"&gt;https://blog.jetbrains.com/dotnet/2024/11/07/rsrp-net-tools-2024-3-rc/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="the-rider-2024.3-release-candidate-is-now-available-the.net-tools-blog"&gt;The Rider 2024.3 Release Candidate Is Now Available | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/11/07/the-rider-2024-3-rc/"&gt;https://blog.jetbrains.com/dotnet/2024/11/07/the-rider-2024-3-rc/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="release-diagnostics-release-v9.0.553101-dotnetdiagnostics"&gt;Release Diagnostics Release - v9.0.553101 · dotnet/diagnostics&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/dotnet/diagnostics/releases/tag/v9.0.553101"&gt;https://github.com/dotnet/diagnostics/releases/tag/v9.0.553101&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="get-ready-for.net-conf-2024.net-blog"&gt;Get Ready for .NET Conf 2024! - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/get-ready-for-dotnet-conf-2024/"&gt;https://devblogs.microsoft.com/dotnet/get-ready-for-dotnet-conf-2024/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="openssf-scorecard-for.net-and-the-nuget-ecosystem-the-nuget-blog"&gt;OpenSSF Scorecard for .NET and the NuGet ecosystem - The NuGet Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/nuget/openssf-scorecard-for-net-nuget/"&gt;https://devblogs.microsoft.com/nuget/openssf-scorecard-for-net-nuget/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="fwinformsblazor"&gt;スマートＦ開発における現状の課題と、今後の計画～WinFormsからBlazorへ～&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/nexta_/articles/789121c6186b51"&gt;https://zenn.dev/nexta_/articles/789121c6186b51&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="datatable-on.net-8-and-9"&gt;DataTable からデータ抽出方法の性能比較 on .NET 8 and 9&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/performance-of-datatable-on-dotnet9"&gt;https://zenn.dev/microsoft/articles/performance-of-datatable-on-dotnet9&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="building-a-full-stack-application-with-next.js-and.net-api-backend"&gt;Building a Full-Stack Application with Next.js and .NET API Backend&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://argosco.io/building-a-full-stack-application-with-next-js-and-net-api-backend/net/"&gt;https://argosco.io/building-a-full-stack-application-with-next-js-and-net-api-backend/net/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="uuid-v7-vs-uuid-v8-choosing-the-ideal-identifier-for-scalable-distributed-system"&gt;UUID v7 vs UUID v8: Choosing the Ideal Identifier for Scalable Distributed System&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;anderson.buenogod/uuid-v7-vs-uuid-v8-choosing-the-ideal-identifier-for-scalable-distributed-system-fa8efc0550f7"&gt;https://medium.com/&amp;#64;anderson.buenogod/uuid-v7-vs-uuid-v8-choosing-the-ideal-identifier-for-scalable-distributed-system-fa8efc0550f7&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="azure-functions-in-process.net8-function"&gt;Azure Functions (in-process) を .NET8 化したときにFunctionホストが起動しない&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/tessecraft_r/articles/6b19ec48805fdb"&gt;https://zenn.dev/tessecraft_r/articles/6b19ec48805fdb&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="introducing-a-new-more-conversational-way-to-chat-with-github-copilot-visual-studio-blog"&gt;Introducing a new, more conversational way to chat with GitHub Copilot - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/conversational-way-to-chat-with-github-copilot/"&gt;https://devblogs.microsoft.com/visualstudio/conversational-way-to-chat-with-github-copilot/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="ef-core-vs2022-sql-server"&gt;EF Core の公式トレーニングを VS2022 と SQL Server で実行する&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/zead/articles/6084fc2001212f"&gt;https://zenn.dev/zead/articles/6084fc2001212f&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="learn-how-to-create-a-client-server-application-in-under-45-minutes-in-the-new-season-of-ai-visual-studio-blog"&gt;Learn how to create a Client-Server Application in under 45 Minutes in the new Season of AI - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/learn-how-to-create-a-client-server-application-in-under-45-minutes-in-the-new-season-of-ai/"&gt;https://devblogs.microsoft.com/visualstudio/learn-how-to-create-a-client-server-application-in-under-45-minutes-in-the-new-season-of-ai/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="recent-updates-for-netescapades.enumgenerators-interceptors"&gt;Recent updates for NetEscapades.EnumGenerators: interceptors!&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/recent-updates-for-netescapades-enumgenerators-interceptors/"&gt;https://andrewlock.net/recent-updates-for-netescapades-enumgenerators-interceptors/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="dotinsights-november-2024-the.net-tools-blog"&gt;dotInsights | November 2024 | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/11/04/dotinsights-november-2024/"&gt;https://blog.jetbrains.com/dotnet/2024/11/04/dotinsights-november-2024/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="c-powershell"&gt;[C#] タスクバー上でPowerShellを実行したい！&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/onakamanpuku/articles/726ec3d99f3287"&gt;https://zenn.dev/onakamanpuku/articles/726ec3d99f3287&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="new-lock-object-and-history"&gt;New Lock object and history&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://mareks-082.medium.com/new-lock-object-and-history-d69877f46521"&gt;https://mareks-082.medium.com/new-lock-object-and-history-d69877f46521&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="whats-new-in.net-9-system.text.json-improvements"&gt;What's new in .NET 9: System.Text.Json improvements&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.elmah.io/whats-new-in-net-9-system-text-json-improvements/"&gt;https://blog.elmah.io/whats-new-in-net-9-system-text-json-improvements/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="xunit-qiita"&gt;xUnit の使い方 テストケースの準備&amp;amp;データの渡し方 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/te-k/items/c97425ab12ef2a73c34f"&gt;https://qiita.com/te-k/items/c97425ab12ef2a73c34f&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-qiita"&gt;.NET アプリでデータベースに接続するのさらに続き - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/tinymouse/items/a01087fc132b43e8dbb2"&gt;https://qiita.com/tinymouse/items/a01087fc132b43e8dbb2&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="excel-dna-qiita"&gt;Excel-DNAで非同期処理の関数をつくる - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/msms/items/0978934282c0067e6450"&gt;https://qiita.com/msms/items/0978934282c0067e6450&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="introducing-the-modern-web-app-mwa-pattern-for.net"&gt;Introducing the Modern Web App (MWA) Pattern for .NET&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://techcommunity.microsoft.com/blog/appsonazureblog/introducing-the-modern-web-app-pattern-for-net/4278895"&gt;https://techcommunity.microsoft.com/blog/appsonazureblog/introducing-the-modern-web-app-pattern-for-net/4278895&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="whats-new-in-system.text.json-in.net-9"&gt;What’s new in System.Text.Json in .NET 9&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://okyrylchuk.dev/blog/whats-new-in-system-text-json-in-dotnet-9/"&gt;https://okyrylchuk.dev/blog/whats-new-in-system-text-json-in-dotnet-9/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-2"&gt;イベント、配信など&lt;/h2&gt;
+&lt;h3 id="visual-studio-users-community-japan-7-20241130-1330"&gt;Visual Studio Users Community Japan 勉強会 #7 (2024/11/30 13:30〜)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://vsuc.connpass.com/event/335130/"&gt;https://vsuc.connpass.com/event/335130/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-3"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h3 id="littlelittlecloudstepwise-a-code-first-workflow-engine-build-with-typescript-and-c"&gt;LittleLittleCloud/StepWise: A code-first workflow engine build with typescript and C#&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/LittleLittleCloud/StepWise"&gt;https://github.com/LittleLittleCloud/StepWise&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://dev.to/littlelittlecloud/stepwise-a-powerful-c-workflow-engine-for-parallel-task-execution-2nc4"&gt;StepWise: A Powerful C# Workflow Engine for Task Execution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="velopackvelopack-installer-and-automatic-update-framework-for-cross-platform-desktop-applications"&gt;velopack/velopack: Installer and automatic update framework for cross-platform desktop applications&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/velopack/velopack"&gt;https://github.com/velopack/velopack&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://zenn.dev/johmaru/articles/535c12baee666d"&gt;(valopack)C# WPFアプリケーションの自動アップデート実装 &amp;amp; 自動リリース&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section-4"&gt;サイト、ドキュメントなど&lt;/h2&gt;
+&lt;h3 id="section-5"&gt;ツイート&lt;/h3&gt;
+&lt;!-- https://x.com/dotnetfdn/status/1854534018768736410?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Welcome new .NET Foundation Project: MessagePack-CSharp&lt;br&gt;A highly performance-optimized library for serializing .NET data types using MessagePack, a compact and fast binary format.&lt;a href="https://t.co/zpVbzvCoKq"&gt;https://t.co/zpVbzvCoKq&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/dotnet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotnet&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/csharp?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#csharp&lt;/a&gt; &lt;a href="https://t.co/sRdq7lWA7w"&gt;pic.twitter.com/sRdq7lWA7w&lt;/a&gt;&lt;/p&gt;&amp;mdash; .NET Foundation (&amp;#64;dotnetfdn) &lt;a href="https://twitter.com/dotnetfdn/status/1854534018768736410?ref_src=twsrc%5Etfw"&gt;November 7, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;!-- https://x.com/sergiopedri/status/1853853796063129979?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Starting w/ Visual Studio 17.12 P5, UWP .NET 9 projects will use the new standalone MSIX tooling NuGet package! We decoupled it from WindowsAppSDK to provide a consistent UX for both UWP and WinUI 3 apps and much easier to update! More features coming soon! 👀&lt;a href="https://twitter.com/hashtag/csharp?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#csharp&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/windowsdev?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#windowsdev&lt;/a&gt; &lt;a href="https://t.co/kHxlM48y2U"&gt;pic.twitter.com/kHxlM48y2U&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sergio Pedri (&amp;#64;SergioPedri) &lt;a href="https://twitter.com/SergioPedri/status/1853853796063129979?ref_src=twsrc%5Etfw"&gt;November 5, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;!-- https://x.com/mkristensen/status/1852473805748498660?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;In Visual Studio, you can now specify whether lines that wrap in the editor should be indented.&lt;br&gt;&lt;br&gt;Coming soon... &lt;a href="https://t.co/XoAq84QuTV"&gt;pic.twitter.com/XoAq84QuTV&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mads Kristensen (&amp;#64;mkristensen) &lt;a href="https://twitter.com/mkristensen/status/1852473805748498660?ref_src=twsrc%5Etfw"&gt;November 1, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;!-- https://x.com/mkristensen/status/1852033780338327705?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;First we introduced the IEnumerable Visualizer. Then we added IntelliSense to it. And now we&amp;#39;re bringing syntax highlighting. All thanks to the feedback from you. &lt;br&gt;&lt;br&gt;Coming soon to Visual Studio... &lt;a href="https://t.co/zMzGU6pCZ7"&gt;pic.twitter.com/zMzGU6pCZ7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mads Kristensen (&amp;#64;mkristensen) &lt;a href="https://twitter.com/mkristensen/status/1852033780338327705?ref_src=twsrc%5Etfw"&gt;October 31, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>2024-11-01: Microsoft.Extensions.VectorData Preview, Uno Platform 5.5, Avalonia UI 11.2.0</title>
 			<link>https://weekref.net/2024/11/01/updates</link>
@@ -1128,118 +1225,6 @@
 &lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/new-ide-features-in-visual-studio-v17-11/"&gt;https://devblogs.microsoft.com/visualstudio/new-ide-features-in-visual-studio-v17-11/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="net"&gt;.NET のオプション機能を完全に理解した。 - 鷲ノ巣&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://tech.blog.aerie.jp/entry/2024/08/23/175944"&gt;https://tech.blog.aerie.jp/entry/2024/08/23/175944&lt;/a&gt;&lt;/p&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>2024-08-23: Windows Community Toolkit v8.1, Windows App SDK Version 1.6 Preview 2, System.Data.SqlClient deprecated</title>
-			<link>https://weekref.net/2024/08/23/updates</link>
-			<description>.NET 関連の情報をほぼ週刊配信</description>
-			<author>Mayuki Sawatari</author>
-			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
-			<guid>https://weekref.net/2024/08/23/updates</guid>
-			<pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="announcing-windows-community-toolkit-v8.1-ifdef-windows"&gt;Announcing Windows Community Toolkit v8.1 - #ifdef Windows&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/ifdef-windows/announcing-windows-community-toolkit-v8-1/"&gt;https://devblogs.microsoft.com/ifdef-windows/announcing-windows-community-toolkit-v8-1/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Windows Community Toolkit v8.1 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このバージョンでは .NET 8 をサポートし、依存するフレームワークが Windows App　SDK 1.5 と Uno Platform 5.2 へアップデートされた。
-新機能としてカラーピッカー、タブ付きのコマンドバー、カメラヘルパー、イメージ切り抜きオーバーレイ、DockPanel の間隔といったものが追加されている。&lt;/p&gt;
-&lt;p&gt;その他 Windows Community Toolkit Labs では実験的なコントロールとして Markdown テキストブロックやリボンといったものが追加されている。&lt;/p&gt;
-&lt;h3 id="windows-app-sdk-version-1.6-preview-2-1.6.0-preview2-preview-release-channel-for-the-windows-app-sdk-windows-apps"&gt;Windows App SDK Version 1.6 Preview 2 (1.6.0-preview2) - Preview release channel for the Windows App SDK - Windows apps&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/preview-channel#version-16-preview-2-160-preview2"&gt;https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/preview-channel#version-16-preview-2-160-preview2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Windows App SDK Version 1.6 Preview 2 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは CsWinRT のアップデートによる Native AOT サポートの向上、Edge WebView2 SDK の統合の改善、その他さまざまな不具合の修正が含まれている。&lt;/p&gt;
-&lt;h3 id="net-9-preview-6-now-available-on-app-service"&gt;.NET 9 Preview 6 now available on App Service&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://azure.github.io/AppService/2024/08/19/net-9-preview-6-available-on-app-service.html"&gt;https://azure.github.io/AppService/2024/08/19/net-9-preview-6-available-on-app-service.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Azure の App Service で .NET 9 Preview 6 が利用できるようになった。&lt;/p&gt;
-&lt;p&gt;現在 Linux App Service プランのすべてのリージョンで利用できるが、Windows App Service プランでも今後利用できるようになるとのこと。&lt;/p&gt;
-&lt;h3 id="announcement-system.data.sqlclient-package-is-now-deprecated-issue-2778-dotnetsqlclient"&gt;Announcement: System.Data.SqlClient package is now deprecated · Issue #2778 · dotnet/SqlClient&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/dotnet/SqlClient/issues/2778"&gt;https://github.com/dotnet/SqlClient/issues/2778&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;System.Data.SqlClient パッケージが非推奨となる。&lt;/p&gt;
-&lt;p&gt;System.Data.SqlClient は今後非推奨化され、.NET 9 でのサポートはされず、.NET 8 の EOL 以降は .NET Framework のサポートのみが残される形となる。
-今後は Microsoft.Data.SqlClient への移行が推奨される。また、.NET Framework の System.Data.SqlClient 名前空間はこの非推奨プロセスには含まれない。&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="optimizing-old-code-streambitarray-refactoring"&gt;Optimizing old code: StreamBitArray refactoring&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://ayende.com/blog/201601-A/optimizing-old-code-streambitarray-refactoring?Key=3620c293-cb23-48b8-bb06-df1576cea427"&gt;https://ayende.com/blog/201601-A/optimizing-old-code-streambitarray-refactoring?Key=3620c293-cb23-48b8-bb06-df1576cea427&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;RavenDB 内のコードを元に古いスタイルのコードを現代的な形に最適化、リファクタリングする例の紹介。&lt;/p&gt;
-&lt;h3 id="net-blazor-server2"&gt;.NET Blazor Serverアプリをストップさせる2つの原因&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/jtechjapan_pub/articles/26113e0b49967b"&gt;https://zenn.dev/jtechjapan_pub/articles/26113e0b49967b&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Blazor Server アプリケーションで意図せずアプリケーションが停止してしまう原因とその対処について。&lt;/p&gt;
-&lt;h3 id="enhancing-code-comprehension-github-copilots-features-in-visual-studio-2022-17.11-visual-studio-blog"&gt;Enhancing Code Comprehension: GitHub Copilot’s Features in Visual Studio 2022 17.11 - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/enhancing-code-comprehension-github-copilots-features-in-visual-studio-2022-17-11/"&gt;https://devblogs.microsoft.com/visualstudio/enhancing-code-comprehension-github-copilots-features-in-visual-studio-2022-17-11/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 v17.11 の GitHub Copilot で拡張された、GitHub Copilot Chat に現在のプロジェクトやソリューションを渡せるようになった機能や Web 検索といった機能について。&lt;/p&gt;
-&lt;h3 id="supercharge-your-testing-experience-with-mstest.analyzers.net-blog"&gt;Supercharge your testing experience with MSTest.Analyzers - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/supercharge-your-testing-experience-with-ms-test-analyzers/"&gt;https://devblogs.microsoft.com/dotnet/supercharge-your-testing-experience-with-ms-test-analyzers/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;MSTest.Analyzer の 3.5.1 で追加されたアナライザールールの紹介。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;TestClass&lt;/code&gt; 属性の付け忘れ、&lt;code&gt;AssemblyInitializer&lt;/code&gt; の形式の警告といったアナライザールールについて紹介している。&lt;/p&gt;
-&lt;h3 id="unokeyboard"&gt;UnoKeyboard&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/uno-platform/unokeyboard-23po"&gt;https://dev.to/uno-platform/unokeyboard-23po&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Uno Platform でのオンスクリーンキーボード実装 UnoKeyboard について。&lt;/p&gt;
-&lt;h3 id="async2-the.net-runtime-async-experiment-concludes"&gt;async2 - The .NET Runtime Async experiment concludes&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://steven-giesel.com/blogPost/59752c38-9c99-4641-9853-9cfa97bb2d29"&gt;https://steven-giesel.com/blogPost/59752c38-9c99-4641-9853-9cfa97bb2d29&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ランタイムに非同期処理を組み込む async2 (コードネーム) 実験プロジェクトについて。グリーンスレッドから始まり、ランタイムへ組み込む流れとなったことなどについて触れている。&lt;/p&gt;
-&lt;h3 id="new-debugging-and-diagnostic-features-visual-studio-blog"&gt;New debugging and diagnostic features - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/new-debugging-and-diagnostic-features/"&gt;https://devblogs.microsoft.com/visualstudio/new-debugging-and-diagnostic-features/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 v17.11 でのデバッグと診断の新機能についての紹介。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;デバッグ
-&lt;ul&gt;
-&lt;li&gt;非同期メソッドでの例外のブレーク&lt;/li&gt;
-&lt;li&gt;AI 生成によるブレークポイント式&lt;/li&gt;
-&lt;li&gt;Arm64 として実行するようマニフェストで指定された AnyCPU のデバッグ&lt;/li&gt;
-&lt;li&gt;Blazor WebAssembly のデバッグ&lt;/li&gt;
-&lt;li&gt;デフォルトブレークポイントグループによるブレークポイントの整理&lt;/li&gt;
-&lt;li&gt;IEnumerable ビジュアライザーでの LINQ 式の編集とビジュアライズ&lt;/li&gt;
-&lt;li&gt;C++ でのコンディショナルブレークポイントのパフォーマンス改善&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;プロファイル
-&lt;ul&gt;
-&lt;li&gt;実行を跨いだインストルメンテーションツールのターゲット選択の保持&lt;/li&gt;
-&lt;li&gt;.NET アセンブリーの逆コンパイル&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="new-git-tooling-features-visual-studio-blog"&gt;New git tooling features - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/new-git-tooling-features/"&gt;https://devblogs.microsoft.com/visualstudio/new-git-tooling-features/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 v17.11 での Git に関する新機能/改善についての紹介。&lt;/p&gt;
-&lt;h3 id="c-xinput-qiita"&gt;C# から XInput 経由でゲームパッドの入力を得る (外部ライブラリなし) - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/mikecat_mixc/items/7ea7bab63c93f1b2b04d"&gt;https://qiita.com/mikecat_mixc/items/7ea7bab63c93f1b2b04d&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;XInput API を使用してゲームパッドの入力を C# から取り扱う方法についての解説。&lt;/p&gt;
-&lt;h3 id="urlencode-the-space-character"&gt;UrlEncode the Space Character&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.codeinside.eu/2024/08/20/urlencoding-the-space-char/"&gt;https://blog.codeinside.eu/2024/08/20/urlencoding-the-space-char/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;URL エンコードする際のスペースの取り扱い(&lt;code&gt;+&lt;/code&gt; となるパターンと &lt;code&gt;%20&lt;/code&gt; となるパターン)についてと、.NET での API について。&lt;/p&gt;
-&lt;h3 id="semantic-kernel"&gt;Semantic Kernel のマルチエージェントを試してみよう！&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/semantic-kernel-agents-001"&gt;https://zenn.dev/microsoft/articles/semantic-kernel-agents-001&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Semantic Kernel で複数のエージェント(異なる役割を持つエージェント)を組み合わせるマルチエージェントで実行する方法について。&lt;/p&gt;
-&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="shimodateakiravirtualstoragelibrary-virtualstoragelibrary-project"&gt;shimodateakira/VirtualStorageLibrary: VirtualStorageLibrary Project&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/shimodateakira/VirtualStorageLibrary?tab=readme-ov-file"&gt;https://github.com/shimodateakira/VirtualStorageLibrary?tab=readme-ov-file&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ファイルシステムのような概念を持ったインメモリーの木構造を取り扱うライブラリー。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://dev.to/shimodateakira/introducing-virtualstoragelibrary-a-net-solution-for-in-memory-tree-structures-2133"&gt;Introducing VirtualStorageLibrary: A .NET Solution for In-Memory Tree Structures&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="hanachirurapidenum-enum-utility-with-sourcegenerator-for-c.net"&gt;hanachiru/RapidEnum: Enum utility with SourceGenerator for C#/.NET&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/hanachiru/RapidEnum"&gt;https://github.com/hanachiru/RapidEnum&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Source Generator ベースの高速な Enum のユーティリティー。&lt;/p&gt;
-&lt;!-- https://x.com/hanaaaaaachiru/status/1825004695905034626?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;.NET標準API や 世界最速のenumライブラリ FastEnum よりもパフォーマンスが良いライブラリ RapidEnum リリースしました！！&lt;br&gt;手元で計測したところ、.NET APIより数十~数万倍良い計測結果がでてました&lt;br&gt;Unity Package Managerにも対応してるので、Unity勢も手軽に導入できます&lt;a href="https://t.co/8miqpRUo0r"&gt;https://t.co/8miqpRUo0r&lt;/a&gt; &lt;a href="https://t.co/FOztfAYD5f"&gt;pic.twitter.com/FOztfAYD5f&lt;/a&gt;&lt;/p&gt;&amp;mdash; はなちる&amp;#64;ゲーム制作 (&amp;#64;hanaaaaaachiru) &lt;a href="https://twitter.com/hanaaaaaachiru/status/1825004695905034626?ref_src=twsrc%5Etfw"&gt;August 18, 2024&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;h2 id="deep-dive"&gt;Deep Dive&lt;/h2&gt;
-&lt;h3 id="dark-mode-experimental-feature-by-jeremykuhne-pull-request-11857-dotnetwinforms"&gt;Dark mode experimental feature by JeremyKuhne · Pull Request #11857 · dotnet/winforms&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/dotnet/winforms/pull/11857"&gt;https://github.com/dotnet/winforms/pull/11857&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Windows Forms でのダークモードの実験的サポートの PR。&lt;/p&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
