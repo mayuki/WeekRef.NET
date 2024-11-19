@@ -6,8 +6,151 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Fri, 08 Nov 2024 10:00:52 GMT</pubDate>
-		<lastBuildDate>Fri, 08 Nov 2024 10:00:52 GMT</lastBuildDate>
+		<pubDate>Tue, 19 Nov 2024 06:33:10 GMT</pubDate>
+		<lastBuildDate>Tue, 19 Nov 2024 06:33:10 GMT</lastBuildDate>
+		<item>
+			<title>2024-11-19: .NET 9</title>
+			<link>https://weekref.net/2024/11/19/updates</link>
+			<description>.NET 関連の情報をほぼ週刊配信</description>
+			<author>Mayuki Sawatari</author>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2024/11/19/updates</guid>
+			<pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="announcing.net-9.net-blog"&gt;Announcing .NET 9 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-9/"&gt;https://devblogs.microsoft.com/dotnet/announcing-dotnet-9/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.publickey1.jp/blog/24/net_9net_aspireai.html"&gt;［速報］.NET 9が正式リリース。ガベージコレクションの改良でより高速かつ省メモリに、可観測性を実現する.NET Aspire、AIツールのためのミドルウェアなど登場&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.azure.moe/2024/11/13/net-conf-2024-day-1-keynote/"&gt;.NET Conf 2024 Day 1 Keynote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="visual-studio-2022-v17.12-with.net-9-visual-studio-blog"&gt;Visual Studio 2022 v17.12 with .NET 9 - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-2022-v17-12-with-dotnet-9/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-2022-v17-12-with-dotnet-9/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="whats-new-in.net-aspire-9.0.net-aspire"&gt;What's new in .NET Aspire 9.0 - .NET Aspire&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/dotnet/aspire/whats-new/dotnet-aspire-9?tabs=windows"&gt;https://learn.microsoft.com/en-us/dotnet/aspire/whats-new/dotnet-aspire-9?tabs=windows&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="resharper-2024.3-day-one-c-13-support-streamlined-code-cleanup-and-enhanced-c-tools-the.net-tools-blog"&gt;ReSharper 2024.3: Day-One C# 13 Support, Streamlined Code Cleanup, and Enhanced C++ Tools | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/11/13/resharper-2024-3-release/"&gt;https://blog.jetbrains.com/dotnet/2024/11/13/resharper-2024-3-release/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="dotcover-dotmemory-dotpeek-and-dottrace-2024.3-have-been-released-the.net-tools-blog"&gt;dotCover, dotMemory, dotPeek, and dotTrace 2024.3 Have Been Released! | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/11/13/dotnet-tools-243-release/"&gt;https://blog.jetbrains.com/dotnet/2024/11/13/dotnet-tools-243-release/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="rider-2024.3-same-day-support-for.net-9-sdk-and-c-13-console-debugging-for-game-dev-ai-enhancements-and-more-the.net-tools-blog"&gt;Rider 2024.3: Same-Day Support for .NET 9 SDK and C# 13, Console Debugging for Game Dev, AI Enhancements, and More | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/11/13/rider-2024-3-release/"&gt;https://blog.jetbrains.com/dotnet/2024/11/13/rider-2024-3-release/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="release-8.5.0-app-vnextpolly"&gt;Release 8.5.0 · App-vNext/Polly&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/App-vNext/Polly/releases/tag/8.5.0"&gt;https://github.com/App-vNext/Polly/releases/tag/8.5.0&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="release-v7.0.0-domaindrivendevswashbuckle.aspnetcore"&gt;Release v7.0.0 · domaindrivendev/Swashbuckle.AspNetCore&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v7.0.0"&gt;https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v7.0.0&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="release-2.4.0-mysql-netmysqlconnector"&gt;Release 2.4.0 · mysql-net/MySqlConnector&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/mysql-net/MySqlConnector/releases/tag/2.4.0"&gt;https://github.com/mysql-net/MySqlConnector/releases/tag/2.4.0&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="npgsql-9.0-release-notes-npgsql-documentation"&gt;Npgsql 9.0 Release Notes | Npgsql Documentation&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.npgsql.org/doc/release-notes/9.0.html"&gt;https://www.npgsql.org/doc/release-notes/9.0.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-and.net-framework-november-2024-servicing-releases-updates.net-blog"&gt;.NET and .NET Framework November 2024 servicing releases updates - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-november-2024-servicing-updates/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-november-2024-servicing-updates/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="release-windows-app-sdk-1.5.8-1.5.241107002-microsoftwindowsappsdk"&gt;Release Windows App SDK 1.5.8 (1.5.241107002) · microsoft/WindowsAppSDK&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.5.8"&gt;https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.5.8&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="release-windows-app-sdk-1.6.2-1.6.241106002-microsoftwindowsappsdk"&gt;Release Windows App SDK 1.6.2 (1.6.241106002) · microsoft/WindowsAppSDK&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.6.2"&gt;https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.6.2&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="first-preview-of-visual-studio-2022-v17.13-visual-studio-blog"&gt;First preview of Visual Studio 2022 v17.13 - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/first-preview-of-visual-studio-2022-v17-13/"&gt;https://devblogs.microsoft.com/visualstudio/first-preview-of-visual-studio-2022-v17-13/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="aws-lambda-snapstart-for-python-and.net-functions-is-now-generally-available-amazon-web-services"&gt;AWS Lambda SnapStart for Python and .NET functions is now generally available | Amazon Web Services&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://aws.amazon.com/jp/blogs/aws/aws-lambda-snapstart-for-python-and-net-functions-is-now-generally-available/"&gt;https://aws.amazon.com/jp/blogs/aws/aws-lambda-snapstart-for-python-and-net-functions-is-now-generally-available/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="cake-v5.0.0-released"&gt;Cake v5.0.0 released&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://cakebuildnet.medium.com/cake-v5-0-0-released-77de939bb7bb"&gt;https://cakebuildnet.medium.com/cake-v5-0-0-released-77de939bb7bb&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="announcing-uno-platform-studio-featuring-hot-design"&gt;Announcing Uno Platform Studio featuring Hot Design&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://platform.uno/blog/uno-platform-studio-featuring-hot-design/"&gt;https://platform.uno/blog/uno-platform-studio-featuring-hot-design/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-9-ga-available-on-azure-app-service"&gt;.NET 9 GA available on Azure App Service&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://azure.github.io/AppService/2024/11/12/dotnet9-ga.html"&gt;https://azure.github.io/AppService/2024/11/12/dotnet9-ga.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="announcing-the-release-of-sql-server-management-studio-21-preview-1"&gt;Announcing the release of SQL Server Management Studio 21 Preview 1&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://techcommunity.microsoft.com/blog/sqlserver/announcing-the-release-of-sql-server-management-studio-21-preview-1/4293314"&gt;https://techcommunity.microsoft.com/blog/sqlserver/announcing-the-release-of-sql-server-management-studio-21-preview-1/4293314&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="codeproject-is-changing-codeproject"&gt;CodeProject is changing- CodeProject&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.codeproject.com/info/Changes.aspx"&gt;https://www.codeproject.com/info/Changes.aspx&lt;/a&gt;&lt;/p&gt;
+&lt;!-- https://x.com/saihacksoft/status/1856753465969840590?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;&lt;a href="https://t.co/7QIGD6k2ZV"&gt;https://t.co/7QIGD6k2ZV&lt;/a&gt; is shutting down.&lt;br&gt;One of the sites where Articles were strictly monitored before upload, always had Good Quality Articles.&lt;br&gt;I was a Code Project MVP. &lt;a href="https://twitter.com/codeproject?ref_src=twsrc%5Etfw"&gt;&amp;#64;codeproject&lt;/a&gt; &lt;a href="https://t.co/UhfobL56lt"&gt;https://t.co/UhfobL56lt&lt;/a&gt;&lt;br&gt;It&amp;#39;s unfortunate to see this. &lt;a href="https://t.co/MYCPmoBdRE"&gt;pic.twitter.com/MYCPmoBdRE&lt;/a&gt;&lt;/p&gt;&amp;mdash; Saineshwar Bageri | Microsoft MVP (&amp;#64;saihacksoft) &lt;a href="https://twitter.com/saihacksoft/status/1856753465969840590?ref_src=twsrc%5Etfw"&gt;November 13, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="window-forms-dark-mode"&gt;Window Forms Dark mode&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/karenpayneoregon/window-forms-dark-mode-33on"&gt;https://dev.to/karenpayneoregon/window-forms-dark-mode-33on&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="cblazorwasmhttpclientthere-is-no-registered-service-of-type-system.net.http.httpclient-qiita"&gt;【C#】BlazorWASMでHttpClientを使用すると「There is no registered service of type 'System.Net.Http.HttpClient'」となりページが表示されない - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/KM_20005/items/c3f802905d14b64d4316"&gt;https://qiita.com/KM_20005/items/c3f802905d14b64d4316&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="a-journey-of.net-aot-reverse-engineering"&gt;A journey of .NET AOT reverse engineering&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;albertlab/a-journey-of-net-aot-reverse-engineering-c60ae401b33d"&gt;https://medium.com/&amp;#64;albertlab/a-journey-of-net-aot-reverse-engineering-c60ae401b33d&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="communitytoolkit.mvvmwpf-mvvm"&gt;CommunityToolkit.Mvvmを使用したWPF MVVMパターン発展的実装ガイド&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/sakaki_web/articles/31dc7a3a6689dc"&gt;https://zenn.dev/sakaki_web/articles/31dc7a3a6689dc&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="git-tooling-updates-in-visual-studio-17.12-visual-studio-blog"&gt;Git tooling updates in Visual Studio 17.12 - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/git-tooling-updates-in-visual-studio-17-12/"&gt;https://devblogs.microsoft.com/visualstudio/git-tooling-updates-in-visual-studio-17-12/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="enhance-your.net-developer-productivity-with-github-copilot.net-blog"&gt;Enhance Your .NET Developer Productivity with GitHub Copilot - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/enhance-your-dotnet-developer-productivity-with-github-copilot/"&gt;https://devblogs.microsoft.com/dotnet/enhance-your-dotnet-developer-productivity-with-github-copilot/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="laravelphpasp.net-core-qiita"&gt;【Laravelから】脱PHPプロジェクト【ASP.NET Coreへ】 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/omt_teruki/items/7aa6db2530c8dad3dafa"&gt;https://qiita.com/omt_teruki/items/7aa6db2530c8dad3dafa&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="central-package-management-transitive-pinning"&gt;Central Package Management Transitive Pinning&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.ostebaronen.dk/2024/11/transitive-pinning.html"&gt;https://blog.ostebaronen.dk/2024/11/transitive-pinning.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="join-us-at-microsoft-ignite-unlock-github-copilots-new-potential-in-visual-studio-visual-studio-blog"&gt;Join Us at Microsoft Ignite: Unlock GitHub Copilot’s New Potential in Visual Studio - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/join-us-at-microsoft-ignite-unlock-github-copilots-new-potential-in-visual-studio/"&gt;https://devblogs.microsoft.com/visualstudio/join-us-at-microsoft-ignite-unlock-github-copilots-new-potential-in-visual-studio/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="for-qiita"&gt;for文でキャッシュライン効果の確認 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/pea1205/items/e6df49a6525b12e8c8ed"&gt;https://qiita.com/pea1205/items/e6df49a6525b12e8c8ed&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="fun-with-bugs-advanced-dictionary-api"&gt;Fun with bugs: Advanced Dictionary API&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://ayende.com/blog/201761-C/fun-with-bugs-advanced-dictionary-api?Key=8f507241-34b2-4e31-b3f1-a31f6adbcc28"&gt;https://ayende.com/blog/201761-C/fun-with-bugs-advanced-dictionary-api?Key=8f507241-34b2-4e31-b3f1-a31f6adbcc28&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="wpfwindows-app-sdk-qiita"&gt;WPFの多重起動の処理は、自作しなくてもWindows App SDKで簡単にできる - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/spc_ksudoh/items/d5fbb9f85d02f8eca485"&gt;https://qiita.com/spc_ksudoh/items/d5fbb9f85d02f8eca485&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="calling-methods-is-easier-and-faster-with-c-13-params-collections.net-blog"&gt;Calling methods is easier and faster with C# 13 params collections - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/csharp13-calling-methods-is-easier-and-faster/"&gt;https://devblogs.microsoft.com/dotnet/csharp13-calling-methods-is-easier-and-faster/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="nullable-reference-types-in-f-9.net-blog"&gt;Nullable Reference Types in F# 9 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/nullable-reference-types-in-fsharp-9/"&gt;https://devblogs.microsoft.com/dotnet/nullable-reference-types-in-fsharp-9/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="fix-code-with-github-copilot-visual-studio-blog"&gt;Fix Code with GitHub Copilot - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/fix-code-with-github-copilot/"&gt;https://devblogs.microsoft.com/visualstudio/fix-code-with-github-copilot/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="partialmvvm-toolkit"&gt;partialプロパティをMVVM Toolkitで遊ぶ&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/tnagata012/articles/play-with-partialprop--7c638681b71825"&gt;https://zenn.dev/tnagata012/articles/play-with-partialprop--7c638681b71825&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="share-your-insights-on-using-rider-and-win-a-prize-the.net-tools-blog"&gt;Share Your Insights on Using Rider and Win a Prize! | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/11/13/share-your-insights-on-using-rider-and-win-a-prize/"&gt;https://blog.jetbrains.com/dotnet/2024/11/13/share-your-insights-on-using-rider-and-win-a-prize/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="remote-development-in-rider-2024.3-the.net-tools-blog"&gt;Remote Development in Rider 2024.3 | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/11/13/remote-development-in-rider-2024-3/"&gt;https://blog.jetbrains.com/dotnet/2024/11/13/remote-development-in-rider-2024-3/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="cli.net-mauiblazor-hybrid-5-qiita"&gt;CLIだけで.NET MAUIBlazor Hybrid アプリを実質5分で作る - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/take-yoda/items/8263fa1c32eb9776d576"&gt;https://qiita.com/take-yoda/items/8263fa1c32eb9776d576&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-9-improves-javascript-module-importing-for-blazor"&gt;.NET 9 improves JavaScript module importing for Blazor&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://jonhilton.net/import-js-modules/"&gt;https://jonhilton.net/import-js-modules/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="wpfwin11uifluent.net-9-qiita"&gt;WPFでもWin11っぽいUIを作れるFluentテーマを使う（ただし.NET 9以降） - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/spc_ksudoh/items/0933ebe182047af54345"&gt;https://qiita.com/spc_ksudoh/items/0933ebe182047af54345&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="prompty-c"&gt;Prompty を C# で扱うライブラリがリリースされたので試した - しばやん雑記&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.shibayan.jp/entry/20241114/1731567299"&gt;https://blog.shibayan.jp/entry/20241114/1731567299&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="automate-web-testing-in-c-a-guide-with-puppeteersharp-and-specflow"&gt;Automate Web Testing in C#: A Guide with PuppeteerSharp and SpecFlow&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/mukarramjavid/automate-web-testing-in-c-a-guide-with-puppeteersharp-and-specflow-48"&gt;https://dev.to/mukarramjavid/automate-web-testing-in-c-a-guide-with-puppeteersharp-and-specflow-48&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="identity-management-using-zitadel"&gt;Identity management using Zitadel&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;andrew.macconnell/identity-management-using-zitadel-a3f07e906dd2"&gt;https://medium.com/&amp;#64;andrew.macconnell/identity-management-using-zitadel-a3f07e906dd2&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="implementing-dotnet-http-to-monitor-your-http-requests"&gt;Implementing dotnet-http to monitor your HTTP requests&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://chnasarre.medium.com/implementing-dotnet-http-to-monitor-your-http-requests-04d79422b98d"&gt;https://chnasarre.medium.com/implementing-dotnet-http-to-monitor-your-http-requests-04d79422b98d&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="netobjectdisposedexception-asp.net-core"&gt;【.NET】ObjectDisposedExceptionを理解する ASP.NET Coreを例に&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/shimiyu/articles/6e2accebf2af49"&gt;https://zenn.dev/shimiyu/articles/6e2accebf2af49&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="c-language-support-in-resharper-and-rider-2024.3-the.net-tools-blog"&gt;C# Language Support in ReSharper and Rider 2024.3 | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/11/12/csharp-language-support-in-resharper-and-rider-2024-3/"&gt;https://blog.jetbrains.com/dotnet/2024/11/12/csharp-language-support-in-resharper-and-rider-2024-3/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="better-github-copilot-completions-for-c-visual-studio-blog"&gt;Better GitHub Copilot Completions for C# - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/better-github-copilot-completions-for-c/"&gt;https://devblogs.microsoft.com/visualstudio/better-github-copilot-completions-for-c/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="how-dotnet.exe-resolves-and-loads-the-hostfxr-library-exploring-the.net-muxer-steve-gordon-code-with-steve"&gt;How dotnet.exe resolves and loads the hostfxr library - Exploring the .NET muxer - Steve Gordon - Code with Steve&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.stevejgordon.co.uk/how-dotnet-muxer-resolves-and-loads-the-hostfxr-library"&gt;https://www.stevejgordon.co.uk/how-dotnet-muxer-resolves-and-loads-the-hostfxr-library&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="cysharpossmodern-c"&gt;CysharpのOSS群から見るModern C#の現在地&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://speakerdeck.com/neuecc/cysharpnoossqun-karajian-rumodern-c-number-noxian-zai-di"&gt;https://speakerdeck.com/neuecc/cysharpnoossqun-karajian-rumodern-c-number-noxian-zai-di&lt;/a&gt;&lt;/p&gt;
+&lt;script defer class="speakerdeck-embed" data-id="73bfd578c3324a6e8ce74457445fe9c0" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+&lt;h3 id="net-magiconion-introduction-to-magiconion"&gt;.NET のための通信フレームワーク MagicOnion 入門 / Introduction to MagicOnion&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://speakerdeck.com/mayuki/introduction-to-magiconion"&gt;https://speakerdeck.com/mayuki/introduction-to-magiconion&lt;/a&gt;&lt;/p&gt;
+&lt;script defer class="speakerdeck-embed" data-id="d5b4ad47f5cd4e9f984022e64d623d51" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+&lt;h3 id="b2b-saasc.net"&gt;B2B SaaSから見た最近のC#/.NETの進化&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://speakerdeck.com/sansantech/sansan-20241118"&gt;https://speakerdeck.com/sansantech/sansan-20241118&lt;/a&gt;&lt;/p&gt;
+&lt;script defer class="speakerdeck-embed" data-id="37f104fbcc7147358d6fcd67bdc56c76" data-ratio="1.7772511848341233" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h3 id="avaloniavisualbasic.browser"&gt;AvaloniaVisualBasic.Browser&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://bandysc.github.io/AvaloniaVisualBasic6/"&gt;https://bandysc.github.io/AvaloniaVisualBasic6/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/BAndysc/AvaloniaVisualBasic6"&gt;BAndysc/AvaloniaVisualBasic6: A recreation of the classic Visual Basic 6 IDE and language in C# with Avalonia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>2024-11-08: ReSharper and Rider 2024.3 RC, .NET Diagnostics v9.0.553101</title>
 			<link>https://weekref.net/2024/11/08/updates</link>
@@ -1149,82 +1292,6 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://annulusgames.com/blog/random-extensions/"&gt;【C#】Random Extensions – .NET / Unity用の乱数ライブラリ - Annulus Games&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>2024-09-01: Transfer Mono to WineHQ, .NET Aspire 8.2, BinaryFormatter removed from .NET 9</title>
-			<link>https://weekref.net/2024/09/01/updates</link>
-			<description>.NET 関連の情報をほぼ週刊配信</description>
-			<author>Mayuki Sawatari</author>
-			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
-			<guid>https://weekref.net/2024/09/01/updates</guid>
-			<pubDate>Sun, 01 Sep 2024 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="thank-you-to-all-the-mono-developers-issue-21796-monomono"&gt;Thank you to all the Mono developers! · Issue #21796 · mono/mono&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/mono/mono/issues/21796"&gt;https://github.com/mono/mono/issues/21796&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://gigazine.net/news/20240828-mono-microsoft-wine/"&gt;Microsoftが「Mono」をWineチームに寄贈、Microsoftの手を離れることでMonoが再び活気を取り戻すと期待する声も&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="announcing.net-aspire-8.2-goodbye-components-hello-integrations.net-blog"&gt;Announcing .NET Aspire 8.2 - Goodbye Components, Hello Integrations! - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-aspire-8-2/"&gt;https://devblogs.microsoft.com/dotnet/announcing-dotnet-aspire-8-2/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="binaryformatter-removed-from.net-9.net-blog"&gt;BinaryFormatter removed from .NET 9 - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/binaryformatter-removed-from-dotnet-9/"&gt;https://devblogs.microsoft.com/dotnet/binaryformatter-removed-from-dotnet-9/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="introducing-the-pinecone.net-sdk.net-blog"&gt;Introducing the Pinecone .NET SDK - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/introducing-pinecone-dotnet-sdk/"&gt;https://devblogs.microsoft.com/dotnet/introducing-pinecone-dotnet-sdk/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net-community-toolkit-8.3-is-here-nativeaot.net-8-enhancements-and-more.net-blog"&gt;.NET Community Toolkit 8.3 is here! NativeAOT, .NET 8 enhancements, and more! - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-the-dotnet-community-toolkit-830/"&gt;https://devblogs.microsoft.com/dotnet/announcing-the-dotnet-community-toolkit-830/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="release-corewcf-v1.6.0-corewcfcorewcf"&gt;Release CoreWCF v1.6.0 · CoreWCF/CoreWCF&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/CoreWCF/CoreWCF/releases/tag/v1.6.0"&gt;https://github.com/CoreWCF/CoreWCF/releases/tag/v1.6.0&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="announcing-asp.net-core-odata-9-official-release-odata"&gt;Announcing ASP.NET Core OData 9 Official Release - OData&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/odata/announcing-asp-net-core-odata-9-official-release/"&gt;https://devblogs.microsoft.com/odata/announcing-asp-net-core-odata-9-official-release/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="windows-terminal-preview-1.22-release"&gt;Windows Terminal Preview 1.22 Release&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/commandline/windows-terminal-preview-1-22-release/"&gt;https://devblogs.microsoft.com/commandline/windows-terminal-preview-1-22-release/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="c-dev-kit-update-brings-enhanced-razor-intellisense-project-status-and-new-config-options.net-blog"&gt;C# Dev Kit update brings enhanced Razor IntelliSense, Project Status, and New Config Options - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/whats-new-in-csharp-dev-kit-august-2024/"&gt;https://devblogs.microsoft.com/dotnet/whats-new-in-csharp-dev-kit-august-2024/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="cizayoi.data-orm"&gt;【C#】Izayoi.Data ライブラリー (ORM)&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/izayoijiichan/articles/2243e4db5a14ad"&gt;https://zenn.dev/izayoijiichan/articles/2243e4db5a14ad&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="blazor-wasm-asp.net-core-pwa-qiita"&gt;Blazor Wasm でない ASP.NET Core アプリを PWA 化する - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/higege-amdeker/items/80e23fd03480ec6c6eea"&gt;https://qiita.com/higege-amdeker/items/80e23fd03480ec6c6eea&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="ccdktf-azure"&gt;【C#】CDKTF を使って Azure のリソースを作成する&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/nekojoker/articles/bf6f79ecf165fc"&gt;https://zenn.dev/nekojoker/articles/bf6f79ecf165fc&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="modern-authentication-on.net-in-practice-openid-connect-bff-and-spa"&gt;Modern Authentication on .NET in Practice: OpenID Connect, BFF and SPA&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/kirill-abblix/modern-authentication-on-net-in-practice-openid-connect-bff-and-spa-3gj2"&gt;https://dev.to/kirill-abblix/modern-authentication-on-net-in-practice-openid-connect-bff-and-spa-3gj2&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="azure-functions.net-8-swagger-qiita"&gt;Azure Functions .NET 8 分離ワーカーモデルで Swagger のトップページをカスタマイズする - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/higege-amdeker/items/e90b3d9413a090280298"&gt;https://qiita.com/higege-amdeker/items/e90b3d9413a090280298&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="ccmsorchard-corecms"&gt;C#ベースのオープンソースCMS「Orchard Core」をヘッドレスCMSとして利用する&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/zead/articles/orchardcore-headless-cms"&gt;https://zenn.dev/zead/articles/orchardcore-headless-cms&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="understanding.net-stack-traces-a-guide-for-developers"&gt;Understanding .NET stack traces - A guide for developers&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.elmah.io/understanding-net-stack-traces-a-guide-for-developers/"&gt;https://blog.elmah.io/understanding-net-stack-traces-a-guide-for-developers/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="partial"&gt;型の分割定義 (partial)&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://ufcpp.net/study/csharp/misc/partial-type/"&gt;https://ufcpp.net/study/csharp/misc/partial-type/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="building-pipelines-with-iasyncenumerable-in.net"&gt;Building pipelines with IAsyncEnumerable in .NET&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://nikiforovall.github.io/dotnet/2024/08/22/async-enumerable-pipelines.html"&gt;https://nikiforovall.github.io/dotnet/2024/08/22/async-enumerable-pipelines.html&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="virtualstoragelibrary-release-version-0.8.0-qiita"&gt;VirtualStorageLibrary Release Version 0.8.0 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/pec02304/items/34580833cd21c2b9958a"&gt;https://qiita.com/pec02304/items/34580833cd21c2b9958a&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="avalonia-ui"&gt;Avalonia UI 超入門&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/inuinu/articles/avalonia-ui-for-absolute-beginners"&gt;https://zenn.dev/inuinu/articles/avalonia-ui-for-absolute-beginners&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="new-github-copilot-features-in-visual-studio-2022-17.11-visual-studio-blog"&gt;New GitHub Copilot features in Visual Studio 2022 17.11 - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/new-github-copilot-features-in-visual-studio-2022-17-11/"&gt;https://devblogs.microsoft.com/visualstudio/new-github-copilot-features-in-visual-studio-2022-17-11/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="how-is-the-windows.foundation.uri.domain-property-different-from-host-the-old-new-thing"&gt;How is the Windows.Foundation.Uri.Domain property different from Host? - The Old New Thing&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/oldnewthing/20240829-00/?p=110192"&gt;https://devblogs.microsoft.com/oldnewthing/20240829-00/?p=110192&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="neue-cc.net-9-alternatelookup-c-13utf8dictionary"&gt;neue cc - .NET 9 AlternateLookup によるC# 13時代のUTF8文字列の高速なDictionary参照&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://neue.cc/2024/08/29_AlternateLookup.html"&gt;https://neue.cc/2024/08/29_AlternateLookup.html&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="new-ide-features-in-visual-studio-v17.11-visual-studio-blog"&gt;New IDE features in Visual Studio v17.11 - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/new-ide-features-in-visual-studio-v17-11/"&gt;https://devblogs.microsoft.com/visualstudio/new-ide-features-in-visual-studio-v17-11/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net"&gt;.NET のオプション機能を完全に理解した。 - 鷲ノ巣&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://tech.blog.aerie.jp/entry/2024/08/23/175944"&gt;https://tech.blog.aerie.jp/entry/2024/08/23/175944&lt;/a&gt;&lt;/p&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
