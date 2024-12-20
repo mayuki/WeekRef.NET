@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Fri, 20 Dec 2024 05:49:34 GMT</pubDate>
-		<lastBuildDate>Fri, 20 Dec 2024 05:49:34 GMT</lastBuildDate>
+		<pubDate>Fri, 20 Dec 2024 06:13:49 GMT</pubDate>
+		<lastBuildDate>Fri, 20 Dec 2024 06:13:49 GMT</lastBuildDate>
 		<item>
 			<title>2024-12-20: LINQPad 8 for macOS Beta, GitHub Copilot Free, .NET Community Toolkit 8.4</title>
 			<link>https://weekref.net/2024/12/20/updates</link>
@@ -114,8 +114,6 @@
 &lt;p&gt;&lt;a href="https://zenn.dev/sakai_path/articles/00a79b3ba48920"&gt;https://zenn.dev/sakai_path/articles/00a79b3ba48920&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="neue-cc-consoleappframework-v5.3.0-nugetdi"&gt;neue cc - ConsoleAppFramework v5.3.0 - NuGet参照状況からのメソッド自動生成によるDI統合の強化、など&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://neue.cc/2024/12/16_ConsoleAppFramewrok_v5_3_0.html"&gt;https://neue.cc/2024/12/16_ConsoleAppFramewrok_v5_3_0.html&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="simplifying-dependency-injection-in.net-9-enhancements-and-best-practices"&gt;Simplifying Dependency Injection in .NET 9: Enhancements and Best Practices&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/leandroveiga/simplifying-dependency-injection-in-net-9-enhancements-and-best-practices-3bhe"&gt;https://dev.to/leandroveiga/simplifying-dependency-injection-in-net-9-enhancements-and-best-practices-3bhe&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="egorbodisasmo-vs2022-add-in.click-on-any-method-or-class-to-see-what.net-cores-jit-generates-for-them-asm"&gt;EgorBo/Disasmo: VS2022 Add-in. Click on any method or class to see what .NET Core's JIT generates for them (ASM).&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/EgorBo/Disasmo"&gt;https://github.com/EgorBo/Disasmo&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="adding-custom-queues-in-datadogs-data-streams-monitoring-in-dotnet"&gt;Adding custom queues in Datadog’s Data Streams Monitoring in dotnet&lt;/h3&gt;
