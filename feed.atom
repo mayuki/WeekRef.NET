@@ -7,9 +7,115 @@
 	</author>
 	<link rel="self" href="https://weekref.net/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2024-12-20T06:13:49Z</updated>
+	<updated>2024-12-27T10:26:30Z</updated>
 	<logo>https://weekref.net/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
+	<entry>
+		<id>https://weekref.net/2024/12/27/updates</id>
+		<title>2024-12-27: Critical: .NET Install links are changing, MessagePack-CSharp v3.1.1</title>
+		<author>
+			<name>Mayuki Sawatari</name>
+		</author>
+		<link href="https://weekref.net/2024/12/27/updates" />
+		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
+		<updated>2024-12-27T00:00:00Z</updated>
+		<content>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="critical.net-install-links-are-changing.net-blog"&gt;Critical: .NET Install links are changing - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/critical-dotnet-install-links-are-changing/"&gt;https://devblogs.microsoft.com/dotnet/critical-dotnet-install-links-are-changing/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET のインストールリンクが変更となることについての注意アナウンス。&lt;/p&gt;
+&lt;p&gt;以前から .NET インストール時のダウンロードに使用されていた CDN のドメイン &lt;code&gt;azureedge.net&lt;/code&gt; が来年1月15日で廃止となることにより、.NET のダウンロード URL が変更となる。&lt;/p&gt;
+&lt;p&gt;インストール時にスクリプトを都度ダウンロードしている場合などは影響を受けないものの、スクリプトを保存している場合や固定の URL を直接使用している場合は利用者側での対応が必要となる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/dotnet/core/issues/9671"&gt;Critical: .NET install domains and URLs are changing · Issue #9671 · dotnet/core&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="release-v3.1.1-messagepack-csharpmessagepack-csharp"&gt;Release v3.1.1 · MessagePack-CSharp/MessagePack-CSharp&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/MessagePack-CSharp/MessagePack-CSharp/releases/tag/v3.1.1"&gt;https://github.com/MessagePack-CSharp/MessagePack-CSharp/releases/tag/v3.1.1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MessagePack-CSharp v3.1.1 がリリースされた。&lt;/p&gt;
+&lt;p&gt;このリリースでは AOT 環境での DynamicGenericResolver の有効化や Source Generator の修正が含まれている。&lt;/p&gt;
+&lt;h3 id="top.net-blogs-posts-of-2024.net-blog"&gt;Top .NET Blogs Posts of 2024 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/top-dotnet-blogs-posts-of-2024/"&gt;https://devblogs.microsoft.com/dotnet/top-dotnet-blogs-posts-of-2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET Blog (公式) の2024年の目立ったポストのおさらいと紹介。&lt;/p&gt;
+&lt;h2 id="advent-calendar"&gt;Advent Calendar&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/YuMo_tea/items/7f7b7db39792292dc3b4"&gt;【C#】Dapper忘備録【応用編】 - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/keitakei777/items/1ca996fd5bbcfed39544"&gt;C#の非同期処理について調べてみた - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/Nonchalant/items/d0be654c6295debd3cdd"&gt;C#でMVVMのボイラープレートコードを自動生成する - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/yaju/items/836d61016c702796c246"&gt;BlazorでExcel ライクなグリッドライブラリ「BlazorDatasheet」を使ってみる - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/tomato_propeller/items/609e5a90e1aa99739d79"&gt;.NET MAUI製アプリをApp Storeで公開するのにMacは必要か？ - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/DTB_AutumnSky/items/7137a49e63547318c69c"&gt;【詳説】C#でREST APIサーバを作り、Azureへデプロイする実装例 - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/keitakei777/items/9ddcbd0e9d57e1fd692c"&gt;Listについて調べてみた - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/nekohei/items/a3e8ea6a85a647497b5e"&gt;Hot Chocolate？何それ美味しいのって美味しいに決まってるだろ！ - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/keitakei777/items/81a661a33a5b6935bd99"&gt;Linqについて調べてみた - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/yaju/items/cbf3ae3cd1d98767aae4"&gt;.NET(.NET Core)で mdb ファイルの操作および作成について - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/nobu17/items/052c7b925e3caf92bbc2"&gt;Blazor WebAssemblyでZipファイルの読み込みと作成を行う - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/mania3bb2007/items/ec737df486047390290a"&gt;Pure C# で作るODBC ドライバー - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.neno.dev/entry/2024/12/25/130123"&gt;【C#】非同期 IO の仕組み。 - ねののお庭。&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="c12-qiita"&gt;【C#】知っておきたい簡略化テクニック12選 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/Sakai_path/items/5cdbf0c3690d4c8a9d07"&gt;https://qiita.com/Sakai_path/items/5cdbf0c3690d4c8a9d07&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;C# で一般的な簡潔に書ける処理の書き方の紹介。&lt;/p&gt;
+&lt;h3 id="build-and-test.net-runtime-repository-locally-part-1-get-something-working"&gt;Build and Test .NET Runtime repository locally — Part 1 — Get something working&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dsmblogs.com/build-and-test-net-runtime-repository-locally-part-1-get-something-working-beb57f574429"&gt;https://dsmblogs.com/build-and-test-net-runtime-repository-locally-part-1-get-something-working-beb57f574429&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET Runtime リポジトリ (dotnet/runtime) をローカルでビルドして動かす方法についての解説。&lt;/p&gt;
+&lt;h3 id="c-spanmemory-qiita"&gt;【C# 深掘り】SpanとMemoryの内部実装から理解する最適化手法 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/Sakai_path/items/d1bfdee5bee33aea8fe8"&gt;https://qiita.com/Sakai_path/items/d1bfdee5bee33aea8fe8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Span と Memory とは何かとどのようなシチュエーションで使用するのかといったことについての解説。&lt;/p&gt;
+&lt;h3 id="c-qiita"&gt;C#定石 - ログファイル出力 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/chai0917/items/14bca2c21a5f3635671f"&gt;https://qiita.com/chai0917/items/14bca2c21a5f3635671f&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;アプリケーションでのログファイル出力の実装についての解説。&lt;/p&gt;
+&lt;h3 id="connect-securely-to-your-azure-resources-visual-studio-blog"&gt;Connect securely to your Azure resources - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/connect-securely-to-your-azure-resources/"&gt;https://devblogs.microsoft.com/visualstudio/connect-securely-to-your-azure-resources/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio と Azure で統合認証サービスによるセキュアな認証によるアクセスが行えることについての紹介。&lt;/p&gt;
+&lt;h3 id="security-updates-to-azure-publishing-from-visual-studio-visual-studio-blog"&gt;Security updates to Azure publishing from Visual Studio - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/security-updates-to-azure-publishing-from-visual-studio/"&gt;https://devblogs.microsoft.com/visualstudio/security-updates-to-azure-publishing-from-visual-studio/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio から Azure App Service にパブリッシュする際に統合認証による認証が行えるようになったことについての紹介。&lt;/p&gt;
+&lt;h3 id="net-conf-2024.net-202412"&gt;.NET Conf 2024 .NETラボ 勉強会 2024年12月ふりかえり&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/tomokusaba/articles/e58a7601b9aeaa"&gt;https://zenn.dev/tomokusaba/articles/e58a7601b9aeaa&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET Conf 2024 .NETラボ 勉強会のイベントの振り返り。&lt;/p&gt;
+&lt;h3 id="blazor-wasmgithub-pages"&gt;Blazor WASMサイトをGithub Pagesへアップロード&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/tryeverything/articles/a0006_blazorwasm_githubpages"&gt;https://zenn.dev/tryeverything/articles/a0006_blazorwasm_githubpages&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Blazor WebAssembly で Publish したサイトを GitHub Pages にアップロードして動作させるための設定について。&lt;/p&gt;
+&lt;h3 id="neue-cc-mastermemory-v3-source-generatorc"&gt;neue cc - MasterMemory v3 - Source Generator化したC#用の高速な読み込み専用インメモリデータベース&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://neue.cc/2024/12/20_mastermemory_v3.html"&gt;https://neue.cc/2024/12/20_mastermemory_v3.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;インメモリー読み取り専用データベース MasterMemory を Source Generator に対応させた v3 の紹介。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://enrike3.hatenablog.com/entry/2024/12/21/154950"&gt;MasterMemoryの小ネタ - enrike3のブログ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="net-9"&gt;.NET 9 のパフォーマンス改善&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://speakerdeck.com/nenonaninu/dot-net-9-nopahuomansugai-shan"&gt;https://speakerdeck.com/nenonaninu/dot-net-9-nopahuomansugai-shan&lt;/a&gt;&lt;/p&gt;
+&lt;script defer class="speakerdeck-embed" data-id="81f94904e4f94a058712397963ae75f4" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.neno.dev/entry/2024/12/23/231013"&gt;【C#】.NET 9 のパフォーマンス改善 - ねののお庭。&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h3 id="rucchowaas-a-language-independent-scripting-engine-for-unity-and.net-using-webassembly"&gt;ruccho/WaaS: A language-independent scripting engine for Unity and .NET using WebAssembly.&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/ruccho/WaaS"&gt;https://github.com/ruccho/WaaS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET と Unity 向けの WebAssembly のランタイム。コンポーネントモデルや IL2CPP, Native AOT にも対応している。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://zenn.dev/ruccho/articles/11ad66aeeab0c2"&gt;WaaS - Unity/.NET向けの言語非依存なスクリプトエンジン&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://zenn.dev/ruccho/articles/7aad0b660377ae"&gt;Component Model な Wasm ランタイムを作った&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="section-3"&gt;ツイート&lt;/h3&gt;
+&lt;!-- https://x.com/davidfowl/status/1871695332951675285?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;By far the most mind-bending part of this experiment is building a &amp;quot;native host&amp;quot; in C#.&lt;a href="https://t.co/udVE9xPkrD"&gt;https://t.co/udVE9xPkrD&lt;/a&gt;&lt;a href="https://twitter.com/hashtag/dotnet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotnet&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/nativeaot?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#nativeaot&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Fowler (&amp;#64;davidfowl) &lt;a href="https://twitter.com/davidfowl/status/1871695332951675285?ref_src=twsrc%5Etfw"&gt;December 24, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;!-- https://x.com/sergiopedri/status/1870176012694110259?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;We just published a new Win2D patch, for UWP and WindowsAppSDK! It includes support for automatic APPX registration to enable fast WinRT activation for all types when running on modern .NET (needs the new MSIX tools, so UWP .NET 9 only for now). Try it out! 🚀&lt;a href="https://twitter.com/hashtag/windowsdev?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#windowsdev&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/csharp?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#csharp&lt;/a&gt; &lt;a href="https://t.co/TSjjLkF7yY"&gt;pic.twitter.com/TSjjLkF7yY&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sergio Pedri (&amp;#64;SergioPedri) &lt;a href="https://twitter.com/SergioPedri/status/1870176012694110259?ref_src=twsrc%5Etfw"&gt;December 20, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content>
+		<summary>.NET 関連の情報をほぼ週刊配信</summary>
+	</entry>
 	<entry>
 		<id>https://weekref.net/2024/12/20/updates</id>
 		<title>2024-12-20: LINQPad 8 for macOS Beta, GitHub Copilot Free, .NET Community Toolkit 8.4</title>
@@ -1111,139 +1217,6 @@
 &lt;p&gt;説明だけコピーできるようになる話。&lt;/p&gt;
 &lt;!-- https://x.com/mkristensen/status/1844778002951139764?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Copying an error (Ctrl+C) from the Error List in Visual Studio now copies just the description instead of the entire row to the clipboard.&lt;br&gt;&lt;br&gt;Coming soon... &lt;a href="https://t.co/wRGUt678Qm"&gt;pic.twitter.com/wRGUt678Qm&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mads Kristensen (&amp;#64;mkristensen) &lt;a href="https://twitter.com/mkristensen/status/1844778002951139764?ref_src=twsrc%5Etfw"&gt;October 11, 2024&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-</content>
-		<summary>.NET 関連の情報をほぼ週刊配信</summary>
-	</entry>
-	<entry>
-		<id>https://weekref.net/2024/10/11/updates</id>
-		<title>2024-10-11: .NET 9 Release Candidate 2, .NET 6.0.35 &amp; 8.0.10, Microsoft.Extensions.AI Preview</title>
-		<author>
-			<name>Mayuki Sawatari</name>
-		</author>
-		<link href="https://weekref.net/2024/10/11/updates" />
-		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
-		<updated>2024-10-11T00:00:00Z</updated>
-		<content>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="net-9-release-candidate-2-is-now-available.net-blog"&gt;.NET 9 Release Candidate 2 is now available! - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-9-rc-2/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-9-rc-2/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 9 Release Candidate 2 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは正式リリースに向けたバグ修正を中心とした品質の向上が行われている。&lt;/p&gt;
-&lt;h3 id="net-and.net-framework-october-2024-servicing-releases-updates.net-blog"&gt;.NET and .NET Framework October 2024 servicing releases updates - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-october-2024-servicing-updates/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-october-2024-servicing-updates/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2024年10月の .NET および .NET Framework のアップデート。.NET 6.0.35, .8.0.10, .NET Framework がリリースされている。&lt;/p&gt;
-&lt;p&gt;このリリースではいくつかの不具合の修正や改善とセキュリティー修正が含まれている。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38229"&gt;CVE-2024-38229&lt;/a&gt;: リモートコード実行の脆弱性 (.NET 8, 9)
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/announcements/issues/326"&gt;Microsoft Security Advisory CVE-2024-38229 | .NET Remote Code Execution Vulnerability · Issue #326 · dotnet/announcements&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;ASP.NET の HTTP/3 処理における Use-After-Free&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43483"&gt;CVE-2024-43483&lt;/a&gt;: サービス拒否の脆弱性 (.NET 6, 8, 9, .NET Framework)
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/announcements/issues/327"&gt;Microsoft Security Advisory CVE-2024-43483 | .NET Denial of Service Vulnerability · Issue #327 · dotnet/announcements&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;System.Security.Cryptography.Cose、System.IO.Packaging、System.Runtime.Caching のハッシュフラッディング&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43484"&gt;CVE-2024-43484&lt;/a&gt;: サービス拒否の脆弱性 (.NET 6, 8, 9, .NET Framework)
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/announcements/issues/328"&gt;Microsoft Security Advisory CVE-2024-43484 | .NET Denial of Service Vulnerability · Issue #328 · dotnet/announcements&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;System.IO.Packaging への信頼されない入力による複雑な処理でのサービス拒否&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43485"&gt;CVE-2024-43485&lt;/a&gt;: サービス拒否の脆弱性 (.NET 6, 8, 9)
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/announcements/issues/329"&gt;Microsoft Security Advisory CVE-2024-43485 | .NET Denial of Service Vulnerability · Issue #329 · dotnet/announcements&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;System.Text.Json の &lt;code&gt;[ExtensionData]&lt;/code&gt; プロパティの信頼されない入力のデシリアライズによるサービス拒否&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="introducing-microsoft.extensions.ai-preview-unified-ai-building-blocks-for.net.net-blog"&gt;Introducing Microsoft.Extensions.AI Preview - Unified AI Building Blocks for .NET - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/introducing-microsoft-extensions-ai-preview/"&gt;https://devblogs.microsoft.com/dotnet/introducing-microsoft-extensions-ai-preview/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Microsoft.Extensions.AI がプレビューリリースされた。&lt;/p&gt;
-&lt;p&gt;Microsoft.Extensions.AI は SLM/LLM、Embedding といった AI サービスの抽象化レイヤーとなるものとのこと。プレビューリリースでは OpenAI、Azure AI Inference、Ollama への参照実装が含まれる。記事ではライブラリーのインストールや使用方法についても解説している。&lt;/p&gt;
-&lt;h3 id="engineering-the-scalable-vector-extension-in.net.net-blog"&gt;Engineering the Scalable Vector Extension in .NET - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/engineering-sve-in-dotnet/#4.-beyond-code-generation"&gt;https://devblogs.microsoft.com/dotnet/engineering-sve-in-dotnet/#4.-beyond-code-generation&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 9 で実験的に追加された Arm64 における SVE (Scalable Vector Extension) のサポートについて。&lt;/p&gt;
-&lt;p&gt;記事では API の紹介や実際のコード生成、API 実装時のテストについて、Native AOT でのサポート状況、制限事項といった点について解説している。&lt;/p&gt;
-&lt;h3 id="release-windows-app-sdk-1.5.7-1.5.241001000-microsoftwindowsappsdk"&gt;Release Windows App SDK 1.5.7 (1.5.241001000) · microsoft/WindowsAppSDK&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.5.7"&gt;https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.5.7&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Windows App SDK 1.5.7 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースではいくつかの不具合の修正が含まれている。&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="easier-localization-with-the-new-resource.resx-manager-visual-studio-blog"&gt;Easier localization with the new resource (.resx) manager - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/easier-localization-with-the-new-resource-resx-manager/"&gt;https://devblogs.microsoft.com/visualstudio/easier-localization-with-the-new-resource-resx-manager/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio の新しくなったリソースエクスプローラーの紹介。&lt;/p&gt;
-&lt;p&gt;記事では複数のファイルの読み込みや検索とフィルタリング、翻訳のコメント、テキスト中のプレースホルダーのチェック、アクセシビリティーと設定といった点について解説している。&lt;/p&gt;
-&lt;h3 id="the-draco-blog-happy-second-birthday-draco-compiler"&gt;The Draco Blog - Happy second birthday Draco compiler!&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://draco-lang.org/blog/birthday02"&gt;https://draco-lang.org/blog/birthday02&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;独自の .NET 向けプログラミング言語 Draco のコンパイラーの開発2周年の振り返り。&lt;/p&gt;
-&lt;h3 id="cancellation-part-6-linking"&gt;Cancellation, Part 6: Linking&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.stephencleary.com/2024/10/cancellation-6-linking.html"&gt;https://blog.stephencleary.com/2024/10/cancellation-6-linking.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;CreateLinkedTokenSource による複数の CancellationToken をリンクした CancellationTokenSource の作り方と使い方、落とし穴についての解説。&lt;/p&gt;
-&lt;h3 id="simdsmartvectordotnet4-c.net"&gt;SIMD並列化ライブラリSmartVectorDotNet開発の知見まとめ(4) C#と.Netの最適化&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/aka_nse/articles/e8a72ba241ac5b"&gt;https://zenn.dev/aka_nse/articles/e8a72ba241ac5b&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;SmartVectorDotNet ライブラリーを実装する上で利用された最適化手法についての解説。&lt;/p&gt;
-&lt;p&gt;記事ではジェネリクスの実行時最適化について解説している。&lt;/p&gt;
-&lt;h3 id="c.net-nuget.org"&gt;C#/.NET - nuget.org につながらない環境でもビルドできるようにする方法&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/j_sakamoto/articles/97f183b180ebed"&gt;https://zenn.dev/j_sakamoto/articles/97f183b180ebed&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;インターネットに接続されていないような nuget.org に到達できない環境で NuGet パッケージをインストールする方法について。&lt;/p&gt;
-&lt;p&gt;記事ではキャッシュからのインストールやローカルパッケージソースを使用した方法などについて解説している。&lt;/p&gt;
-&lt;h3 id="c-qiita"&gt;[C#] リフレクションでなるべく高速にクラスメンバを取得 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/radian-jp/items/97a1eaf3cec02d722fd4"&gt;https://qiita.com/radian-jp/items/97a1eaf3cec02d722fd4&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;リフレクションによるプロパティーやフィールドの値の読み出しの速度の比較について。&lt;/p&gt;
-&lt;p&gt;記事では .NET Framework 4.8.1 と .NET 8 での計測を行っている。&lt;/p&gt;
-&lt;h3 id="cdpapi"&gt;C#でDPAPIを使用して機密データを安全に暗号化する方法&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/nuits_jp/articles/2024-10-05-encrypt-sensitive-data-csharp-dpapi"&gt;https://zenn.dev/nuits_jp/articles/2024-10-05-encrypt-sensitive-data-csharp-dpapi&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Windows の DPAPI を使用してデータを暗号化する方法について。&lt;/p&gt;
-&lt;h3 id="octokit.net"&gt;Octokit.NETを利用し、デバイスフロー認証を使用して、任意のリポジトリに直接ファイルを追加する&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/nuits_jp/articles/2024-10-05-octokit-device-flow-auth"&gt;https://zenn.dev/nuits_jp/articles/2024-10-05-octokit-device-flow-auth&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Octokit を使用してデバイスフローによる認証を行ったうえでリポジトリにファイルを追加する手順について。&lt;/p&gt;
-&lt;h3 id="support-for-slnx-solution-files-the.net-tools-blog"&gt;Support for SLNX Solution Files | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/10/04/support-for-slnx-solution-files/"&gt;https://blog.jetbrains.com/dotnet/2024/10/04/support-for-slnx-solution-files/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Rider 2024.3 EAP で新しいソリューション形式の .slnx (プレビュー) がサポートされたことについて。&lt;/p&gt;
-&lt;p&gt;記事では .slnx での保存方法や制限事項について説明している。&lt;/p&gt;
-&lt;h3 id="new-function-calling-available-in.net-for-semantic-kernel-semantic-kernel"&gt;New Function Calling Available in .NET for Semantic Kernel | Semantic Kernel&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/semantic-kernel/new-function-calling-model-available-in-net-for-semantic-kernel/"&gt;https://devblogs.microsoft.com/semantic-kernel/new-function-calling-model-available-in-net-for-semantic-kernel/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Semantic Kernel v1.20 で対応された新しい function calling についての紹介。&lt;/p&gt;
-&lt;h3 id="authentication-on.net-openid-connect-bff-spa-dzone"&gt;Authentication on .NET: OpenID Connect, BFF, SPA - DZone&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dzone.com/articles/modern-authentication-on-dotnet"&gt;https://dzone.com/articles/modern-authentication-on-dotnet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;BFF パターンを用いた OpenID Connect によるシングルページアプリケーションでの認証の実装について。&lt;/p&gt;
-&lt;h3 id="building-a-real-time-stock-price-tracker-with.net-8-graphql-and-react-market-pulse"&gt;Building a Real-Time Stock Price Tracker with .NET 8 GraphQL and React: Market Pulse&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.codeproject.com/Articles/5387952/Building-a-Real-Time-Stock-Price-Tracker-with-NET"&gt;https://www.codeproject.com/Articles/5387952/Building-a-Real-Time-Stock-Price-Tracker-with-NET&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core サーバーと React によるフロントエンドを GraphQL で接続してリアルタイムに株価を表示するアプリケーションを実装例の解説。&lt;/p&gt;
-&lt;h3 id="crecord-classrecord-structreadonly-record-structsharplab"&gt;【C#】record (class)・record struct・readonly record structがどういう実装になるのかSharpLabでデコンパイルして覗いてみる - はなちるのマイノート&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.hanachiru-blog.com/entry/2024/09/30/120000"&gt;https://www.hanachiru-blog.com/entry/2024/09/30/120000&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;レコード型、値型レコード型、読み取り専用の値型レコード型がどのような実装となっているか SharpLab でデコンパイルした結果を確認している。&lt;/p&gt;
-&lt;h3 id="sponsorlink-v2-a-new-hope"&gt;SponsorLink v2: A New Hope&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.cazzulino.com/sponsorlink2.html"&gt;https://www.cazzulino.com/sponsorlink2.html&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="altmannfluentresults-a-generalised-result-object-implementation-for.netc"&gt;altmann/FluentResults: A generalised Result object implementation for .NET/C#&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/altmann/FluentResults"&gt;https://github.com/altmann/FluentResults&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;成功/失敗を型で表す Result パターンを実装するためのライブラリー。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://qiita.com/sy_delphoxy/items/29d56623f198b0f0aafc"&gt;C#向けResultパターンライブラリ「FluentResult」Readme抄訳 - Qiita&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="section-3"&gt;サイト、ドキュメントなど&lt;/h2&gt;
-&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
-&lt;p&gt;Visual Studio のコードエディターから GitHub または Azure DevOps のコードへのリンク (URL) をコピーできるようになるという話。&lt;/p&gt;
-&lt;!-- https://x.com/mkristensen/status/1844419458787619211?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;You can get a GitHub or Azure DevOps link to a specific line of code to make it easy to share with your colleagues.&lt;br&gt;&lt;br&gt;Coming soon to Visual Studio... &lt;a href="https://t.co/mlh6v451Ap"&gt;pic.twitter.com/mlh6v451Ap&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mads Kristensen (&amp;#64;mkristensen) &lt;a href="https://twitter.com/mkristensen/status/1844419458787619211?ref_src=twsrc%5Etfw"&gt;October 10, 2024&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;p&gt;IEnumerable ビジュアライザーで IntelliSense が使用できるようになるという話。&lt;/p&gt;
-&lt;!-- https://x.com/mkristensen/status/1844068358846808264?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;The IEnumerable Visualizer has been enhanced with IntelliSense, providing real-time code suggestions and autocompletion, which makes writing LINQ expressions faster and more accurate. &lt;br&gt;&lt;br&gt;Coming soon to Visual Studio... &lt;a href="https://t.co/GAY456D6UG"&gt;pic.twitter.com/GAY456D6UG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mads Kristensen (&amp;#64;mkristensen) &lt;a href="https://twitter.com/mkristensen/status/1844068358846808264?ref_src=twsrc%5Etfw"&gt;October 9, 2024&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 </content>
 		<summary>.NET 関連の情報をほぼ週刊配信</summary>
