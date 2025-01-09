@@ -7,9 +7,166 @@
 	</author>
 	<link rel="self" href="https://weekref.net/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2024-12-27T10:26:30Z</updated>
+	<updated>2025-01-09T08:27:23Z</updated>
 	<logo>https://weekref.net/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
+	<entry>
+		<id>https://weekref.net/2025/01/09/updates</id>
+		<title>2025-01-09: Godot .NET 8, PostSharp 2025.0</title>
+		<author>
+			<name>Mayuki Sawatari</name>
+		</author>
+		<link href="https://weekref.net/2025/01/09/updates" />
+		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
+		<updated>2025-01-09T00:00:00Z</updated>
+		<content>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="godot-c-packages-move-to.net-8"&gt;Godot C# packages move to .NET 8&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://godotengine.org/article/godotsharp-packages-net8/"&gt;https://godotengine.org/article/godotsharp-packages-net8/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Godot 4.4 から C# のパッケージが .NET 8 をターゲットとするアナウンス。&lt;/p&gt;
+&lt;p&gt;Godot 4.4 以降、既存のプロジェクトは .NET 8 をターゲットとする必要があり、Godot 4.4 で開くことで自動的にアップグレードが行われる。またライブラリーのターゲットは .NET 8 となっているが、プロジェクトがターゲットとするバージョンは任意で .NET 9 や今後のバージョンを指定することも可能。&lt;/p&gt;
+&lt;h3 id="postsharp-2025.0-generally-available-support-for-c-13.net-9-and-more"&gt;PostSharp 2025.0 Generally Available: Support for C# 13, .NET 9 and More&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.postsharp.net/postsharp-2025-0-ga"&gt;https://blog.postsharp.net/postsharp-2025-0-ga&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PostSharp 2025.0 がリリースされた。&lt;/p&gt;
+&lt;p&gt;このリリースでは C# 13 と .NET 9 のサポートや Windows PDB サポートの向上、ロングパスサポート、WeakEventHandler のパフォーマンス向上などが含まれている。&lt;/p&gt;
+&lt;h3 id="top.net-videos-live-streams-of-2024.net-blog"&gt;Top .NET Videos &amp;amp; Live Streams of 2024 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/top-dotnet-videos-live-streams-of-2024/"&gt;https://devblogs.microsoft.com/dotnet/top-dotnet-videos-live-streams-of-2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2024年の .NET に関する公式のおすすめビデオとライブストリームの紹介。&lt;/p&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="ini-asp.net-core"&gt;ini ファイルを汎用ホストや ASP.NET Core とかで使う方法&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/how-to-use-inifile"&gt;https://zenn.dev/microsoft/articles/how-to-use-inifile&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Microsoft.Extensions.Configuration.Ini を使用して .ini ファイルを構成ファイルとして使用する方法について。&lt;/p&gt;
+&lt;h3 id="phi4.net-aspire"&gt;phi4 を .NET Aspire で使ってみる&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/phi4-dotnet-with-aspire?redirected=1"&gt;https://zenn.dev/microsoft/articles/phi4-dotnet-with-aspire?redirected=1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Phi-4 モデルを .NET Aspire でホストし、呼び出す方法について。&lt;/p&gt;
+&lt;h3 id="ccurrentculture.net.net-framework-qiita"&gt;C#の非同期処理時のCurrentCultureは.NET/.NET Frameworkのバージョンで挙動が変わる - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/yamagutiesneo/items/5f81513cd87e1a30f7bd"&gt;https://qiita.com/yamagutiesneo/items/5f81513cd87e1a30f7bd&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;非同期処理での CurrentCulture の取り扱いが .NET と .NET Framework 4.6 以降/以前で異なることについての解説。&lt;/p&gt;
+&lt;h3 id="c-qiita"&gt;C#定石 - モーダルダイアログに対する最小化の辻褄あわせ - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/chai0917/items/eeb70e952e9cda4c3071"&gt;https://qiita.com/chai0917/items/eeb70e952e9cda4c3071&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;サブウィンドウを開いた場合のモーダルダイアログを最小化する際の挙動の考慮について。&lt;/p&gt;
+&lt;h3 id="cvisual-studio-2022"&gt;[C#]Visual Studio 2022で任意のオブジェクトの変更を通知させるテク&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/luxiar/articles/b1c5a5b2cf4a78"&gt;https://zenn.dev/luxiar/articles/b1c5a5b2cf4a78&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio でデバッグ中に特定のオブジェクトの変更タイミングでブレークする方法について。&lt;/p&gt;
+&lt;h3 id="ironpython-3-qiita"&gt;IronPython との付き合いかた（その３） - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/Mt_SQ/items/b1fbb1a27e0a1a03ad18"&gt;https://qiita.com/Mt_SQ/items/b1fbb1a27e0a1a03ad18&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 9 に対応した IronPython 3.4.2 について、新しい LINQ オペレーターと共に使用する例を紹介。&lt;/p&gt;
+&lt;h3 id="implementing-an-interceptor-with-a-source-generator-creating-a-source-generator-part-11"&gt;Implementing an interceptor with a source generator: Creating a source generator - Part 11&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/creating-a-source-generator-part-11-implementing-an-interceptor-with-a-source-generator/"&gt;https://andrewlock.net/creating-a-source-generator-part-11-implementing-an-interceptor-with-a-source-generator/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Source Generator でインターセプター使用するものを実装する方法について。&lt;/p&gt;
+&lt;h3 id="php-qiita"&gt;脱PHPプロジェクトが完了しました - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/omt_teruki/items/eb0d953198120a2dc7c2"&gt;https://qiita.com/omt_teruki/items/eb0d953198120a2dc7c2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;サービスを PHP から C# / .NET へ移行し、その際に当たった落とし穴についての解説。&lt;/p&gt;
+&lt;h3 id="unlocking-insights-with-meter-histogram-in-the-profiler-visual-studio-blog"&gt;Unlocking insights with Meter Histogram in the profiler - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/unlocking-insights-with-meter-histogram-in-the-profiler/"&gt;https://devblogs.microsoft.com/visualstudio/unlocking-insights-with-meter-histogram-in-the-profiler/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 の診断セッション中のメーターヒストグラムをビジュアライズする機能の紹介。&lt;/p&gt;
+&lt;h3 id="c-qiita-1"&gt;C#定石 - 多重起動抑止 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/chai0917/items/d59c52e4c12ce0a892f4"&gt;https://qiita.com/chai0917/items/d59c52e4c12ce0a892f4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;アプリケーションを多重起動できなくするための方法について。多重起動された場合の処理などについても触れている。&lt;/p&gt;
+&lt;h3 id="writing-a-string-numeric-comparer-with.net-9"&gt;Writing a String Numeric Comparer with .NET 9&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://khalidabuhakmeh.com/writing-a-string-numeric-comparer-with-dotnet-9"&gt;https://khalidabuhakmeh.com/writing-a-string-numeric-comparer-with-dotnet-9&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;文字列+数字(例: &amp;quot;Foo 123&amp;quot;, &amp;quot;Foo 456&amp;quot;, &amp;quot;Bar 567&amp;quot;)を比較する Comparer を実装する方法について。記事では CommonPrefixLength メソッドを使用した共通の先頭文字数を取得する方法を使用している。&lt;/p&gt;
+&lt;h3 id="passing-images-to-llms-in-c-with-microsoft.extensions.ai"&gt;Passing images to LLMs in C# with Microsoft.Extensions.AI&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://markheath.net/post/passing-image-content"&gt;https://markheath.net/post/passing-image-content&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Microsoft.Extensions.AI で LLM に画像を渡す方法について。&lt;/p&gt;
+&lt;h3 id="net9iosnative-library-interop"&gt;.NET9時代のiOS向けのNative Library Interop&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/yamachu/articles/5ea515697a3bc1"&gt;https://zenn.dev/yamachu/articles/5ea515697a3bc1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 9 での iOS 向けのネイティブコードのバインディングの実装方法について。&lt;/p&gt;
+&lt;h3 id="adding-a-fully-bootstrapped-mono-2024-blog-gnu-guix"&gt;Adding a fully-bootstrapped Mono — 2024 — Blog — GNU Guix&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://guix.gnu.org/en/blog/2024/adding-a-fully-bootstrapped-mono/"&gt;https://guix.gnu.org/en/blog/2024/adding-a-fully-bootstrapped-mono/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GNU Guix (パッケージマネージャー) に完全にブートストラップ (fully-bootstrapped) された Mono を追加するまでの道のりについて。&lt;/p&gt;
+&lt;h3 id="net-maui-android-wifi"&gt;.NET MAUI (Android) でWiFi強度の取得をしてみる&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/aynv/articles/126642179ec18c"&gt;https://zenn.dev/aynv/articles/126642179ec18c&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET MAUI (.NET for Android) で Wi-Fi の電波強度を取得する方法について。&lt;/p&gt;
+&lt;h3 id="asp.net-coredocker-qiita"&gt;ASP.NET CoreでホットリロードするDocker開発環境を構築する方法 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/fortia/items/d347f575d386f6b9fcb9"&gt;https://qiita.com/fortia/items/d347f575d386f6b9fcb9&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Docker イメージから起動した ASP.NET Core アプリケーションでホットリロードする方法について。&lt;/p&gt;
+&lt;h3 id="anglesharp-asp.net-core"&gt;AngleSharp で ASP.NET Core ウェブアプリケーションの統合テストをする&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/masakura/articles/6a6971f7102205"&gt;https://zenn.dev/masakura/articles/6a6971f7102205&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;AngleSharp を使用して ASP.NET Core アプリケーションの統合テストをする方法について。&lt;/p&gt;
+&lt;h3 id="ctimers.timerstop-qiita"&gt;【C#】Timers.TimerのStopでイベントが発火してしまう理由と対策 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/takeo-index/items/5d43e53db22532223f87"&gt;https://qiita.com/takeo-index/items/5d43e53db22532223f87&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;System.Timers.Timer を Stop して後でもイベントが呼び出されることがあることについて。&lt;/p&gt;
+&lt;h3 id="dock-the-code-search-window-in-visual-studio-2022-visual-studio-blog"&gt;Dock the Code Search window in Visual Studio 2022 - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/dock-the-code-search-window-in-visual-studio-2022/"&gt;https://devblogs.microsoft.com/visualstudio/dock-the-code-search-window-in-visual-studio-2022/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 で利用できるようになったコード検索ウィンドウのドッキング機能についての紹介。&lt;/p&gt;
+&lt;h3 id="go-to-line-anywhere-with-code-search-for-visual-studio-2022-visual-studio-blog"&gt;Go to line anywhere with Code Search for Visual Studio 2022 - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/go-to-line-anywhere-with-code-search-for-visual-studio-2022/"&gt;https://devblogs.microsoft.com/visualstudio/go-to-line-anywhere-with-code-search-for-visual-studio-2022/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;コード検索から行数を指定して移動ができる機能についての紹介。&lt;/p&gt;
+&lt;h3 id="asp.net-core"&gt;ASP.NET Core で実現する「マルチテナント＋監査情報」設計ガイド&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/shink00001/articles/acae9cccf5933c"&gt;https://zenn.dev/shink00001/articles/acae9cccf5933c&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ASP.NET Core でマルチテナント環境と監査情報を記録するような設計についてのガイド。&lt;/p&gt;
+&lt;h3 id="build-and-test.net-runtime-repository-locally-part-2-debugging-with-visual-studio"&gt;Build and Test .NET Runtime repository locally — Part 2— Debugging with Visual Studio&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dsmblogs.com/build-and-test-net-runtime-repository-locally-part-2-debugging-with-visual-studio-c2400fb26505"&gt;https://dsmblogs.com/build-and-test-net-runtime-repository-locally-part-2-debugging-with-visual-studio-c2400fb26505&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET ランタイムのリポジトリーをローカルでビルドしてテスト、Visual Studio でデバッグする方法について。&lt;/p&gt;
+&lt;h3 id="anglesharp.net-9cookieexpiresgmtlocaltime-qiita"&gt;【解決済み】【AngleSharp】.NET 9でCookieのexpiresがGMTではなくlocaltimeで解釈されてしまう - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/noobow/items/2764c96d34a869b4c9da"&gt;https://qiita.com/noobow/items/2764c96d34a869b4c9da&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;AngleSharp を .NET 9 で使用した場合に Cookie の Expires が UTC ではなくローカルタイムとして解釈される問題について。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/dotnet/runtime/issues/95603"&gt;Cookie expiration uses local time instead of UTC · Issue #95603 · dotnet/runtime&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/noobow/items/e2d88d4dc304d32821cf"&gt;ChatGPTとDeepLを使って初めてOSSへContributeしたら想像以上にうまくいった話 - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="cvscode-qiita"&gt;【C#】VSCode のデバッグモードでスパンのデバッグビューを表示する - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/abetakahiro123/items/2b2077b839ad861433f1"&gt;https://qiita.com/abetakahiro123/items/2b2077b839ad861433f1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio Code でデバッグ中に Span を内容をデバッグビューで表示できない問題について。&lt;/p&gt;
+&lt;h3 id="testcontainers-in.net-with-postgresql-and-pgvector"&gt;TestContainers in .NET with PostgreSQL and PgVector&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/chsami/testcontainers-in-net-with-postgresql-and-pgvector-4m93"&gt;https://dev.to/chsami/testcontainers-in-net-with-postgresql-and-pgvector-4m93&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PgVector と PostgreSQL を Testcontainers で使用する方法について。&lt;/p&gt;
+&lt;h3 id="linux-process-priorities-for-c-devs"&gt;Linux process priorities for C# devs&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;ocoanet/linux-process-priorities-for-c-devs-9ed9d9cc4ba1"&gt;https://medium.com/&amp;#64;ocoanet/linux-process-priorities-for-c-devs-9ed9d9cc4ba1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Linux のプロセスの優先度について。.NET での実装の解説。&lt;/p&gt;
+&lt;h3 id="rider-2025.1-roadmap-the.net-tools-blog"&gt;Rider 2025.1 Roadmap | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2025/01/08/rider-2025-1-roadmap/"&gt;https://blog.jetbrains.com/dotnet/2025/01/08/rider-2025-1-roadmap/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Rider 2025.1 のロードマップ。パフォーマンスプロファイリングの簡略化、混合デバッグ、Windows でのリモート開発、SQL プロジェクトのサポート、Roslyn サポートの強化など。&lt;/p&gt;
+&lt;h3 id="net-aspire-quick-tip-managing-container-data-lifetime.net-blog"&gt;.NET Aspire Quick Tip - Managing Container &amp;amp; Data Lifetime - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-aspire-container-lifetime/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-aspire-container-lifetime/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET Aspire でのコンテナーとデータのライフタイム管理についての Tips。&lt;/p&gt;
+&lt;h3 id="benchmarking-with-visual-studio-profiler-visual-studio-blog"&gt;Benchmarking with Visual Studio Profiler - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/benchmarking-with-visual-studio-profiler/"&gt;https://devblogs.microsoft.com/visualstudio/benchmarking-with-visual-studio-profiler/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 17.13 Preview で更新された BenchmarkDotNet のベンチマーク診断データの処理エンジンにより、効率的に CPU の使用やアロケーションの計測といったことが簡単に行えるようになったことの紹介。&lt;/p&gt;
+&lt;h3 id="cunsafe.bitcast"&gt;【C#】Unsafe.BitCast のすゝめ。 - ねののお庭。&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.neno.dev/entry/2025/01/07/182438"&gt;https://blog.neno.dev/entry/2025/01/07/182438&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;同サイズの値型の強制キャストを Unsafe.As よりも安全に使用できる Unsafe.BitCast について。&lt;/p&gt;
+&lt;h3 id="net-central-package-management-tech.guitarrapc.com"&gt;.NET アップグレード アシスタントでCentral Package Managementに移行する - tech.guitarrapc.cóm&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://tech.guitarrapc.com/entry/2025/01/05/235909"&gt;https://tech.guitarrapc.com/entry/2025/01/05/235909&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET Upgrade Assistant を使用して Central Package Management に移行する手順の紹介。&lt;/p&gt;
+&lt;h3 id="utf8-utf8"&gt;UTF8 か Utf8 か&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://ufcpp.net/blog/2025/1/pascalcase/"&gt;https://ufcpp.net/blog/2025/1/pascalcase/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET のフレームワークにおける型や名前空間のパスカルケースとその例外ルールについて。&lt;/p&gt;
+&lt;h3 id="field"&gt;field キーワード&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://ufcpp.net/blog/2025/1/field-keyword/"&gt;https://ufcpp.net/blog/2025/1/field-keyword/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;C# 14 で利用できるようになるプロパティーの field キーワードについて。&lt;/p&gt;
+&lt;h3 id="rs-wfwattch2pc-qiita"&gt;RS-WFWATTCH2を使ってPCの消費電力(実測値)をモニタリングしてみよう - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/yamaokunousausa/items/2faedd6481093e73e2ca"&gt;https://qiita.com/yamaokunousausa/items/2faedd6481093e73e2ca&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;RS-WFWATTCH2 (スマートプラグ) を使用して PC の消費電力をモニタリングするため、ネットワーク経由で値を読み取る仕組みを実装したことついて。&lt;/p&gt;
+&lt;h3 id="cversion"&gt;C#：オブジェクトプールとVersionパターン&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/ruccho/articles/e9876dadeca78a"&gt;https://zenn.dev/ruccho/articles/e9876dadeca78a&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ValueTask のようなオブジェクトプールを使用/実装する際に Version を持たせることで、誤った使用を検出するパターンについて。&lt;/p&gt;
+&lt;h2 id="section-2"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h3 id="usausahardwareinfo-disk-disk-information-library-supports-nvme-sata-usbsat12-only"&gt;usausa/hardwareinfo-disk: Disk information library supports NVMe, SATA, USB(SAT12 only).&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/usausa/hardwareinfo-disk"&gt;https://github.com/usausa/hardwareinfo-disk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Windows で S.M.A.R.T 情報を取得するライブラリー。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/yamaokunousausa/items/ae6c28e56fa1338098c1"&gt;.NETでS.M.A.R.T情報を取得するライブラリを作りました - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="kevingosseclipping-displays-a-visual-notification-in-the-active-window-when-the-clipboard-is-updated"&gt;kevingosse/ClipPing: Displays a visual notification in the active window when the clipboard is updated.&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/kevingosse/ClipPing"&gt;https://github.com/kevingosse/ClipPing&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;クリップボードが更新された際にアクティブウィンドウを光らせて通知するツール。&lt;/p&gt;
+&lt;!-- https://x.com/kookiz/status/1872949262054768822?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Since many people are asking for it, I published a first (early) version: &lt;a href="https://t.co/WY4Mtahwdn"&gt;https://t.co/WY4Mtahwdn&lt;/a&gt;&lt;br&gt;Keep in mind that it&amp;#39;s really barebone, and there is no &amp;quot;launch at startup&amp;quot; feature yet.&lt;br&gt;&lt;br&gt;In the coming days I&amp;#39;m going to look at how to integrate it into the Powertoys. &lt;a href="https://t.co/NQGjk39zeN"&gt;https://t.co/NQGjk39zeN&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin Gosse (&amp;#64;KooKiz) &lt;a href="https://twitter.com/KooKiz/status/1872949262054768822?ref_src=twsrc%5Etfw"&gt;December 28, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content>
+		<summary>.NET 関連の情報をほぼ週刊配信</summary>
+	</entry>
 	<entry>
 		<id>https://weekref.net/2024/12/27/updates</id>
 		<title>2024-12-27: Critical: .NET Install links are changing, MessagePack-CSharp v3.1.1</title>
@@ -1134,90 +1291,6 @@
 &lt;h3 id="bandyscclassic.avalonia-classic-theme-and-controls-for-avalonia"&gt;BAndysc/Classic.Avalonia: Classic Theme and Controls for Avalonia&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/BAndysc/Classic.Avalonia"&gt;https://github.com/BAndysc/Classic.Avalonia&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Avalonia のクラシックな Windows のテーマ。&lt;/p&gt;
-</content>
-		<summary>.NET 関連の情報をほぼ週刊配信</summary>
-	</entry>
-	<entry>
-		<id>https://weekref.net/2024/10/18/updates</id>
-		<title>2024-10-18: What's new in System.Text.Json, MessagePack v2.5.187, Npgsql v8.0.5</title>
-		<author>
-			<name>Mayuki Sawatari</name>
-		</author>
-		<link href="https://weekref.net/2024/10/18/updates" />
-		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
-		<updated>2024-10-18T00:00:00Z</updated>
-		<content>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="whats-new-in-system.text.json-in.net-9.net-blog"&gt;What's new in System.Text.Json in .NET 9 - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/system-text-json-in-dotnet-9/"&gt;https://devblogs.microsoft.com/dotnet/system-text-json-in-dotnet-9/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 9 の System.Text.Json の新機能についての解説。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;JSON Schema エクスポーター&lt;/li&gt;
-&lt;li&gt;複数の JSON ドキュメントのストリーミング&lt;/li&gt;
-&lt;li&gt;null 許容型アノテーションの尊重&lt;/li&gt;
-&lt;li&gt;enum のメンバーの名前のカスタマイズ&lt;/li&gt;
-&lt;li&gt;メタデータの順序を無視した読み取り&lt;/li&gt;
-&lt;li&gt;インデントのカスタマイズ&lt;/li&gt;
-&lt;li&gt;JsonObject プロパティーの順序操作&lt;/li&gt;
-&lt;li&gt;JsonElement と JsonNode の DeepEquals メソッド&lt;/li&gt;
-&lt;li&gt;JsonSerializerOptions.Web&lt;/li&gt;
-&lt;li&gt;パフォーマンス改善&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="release-v2.5.187-messagepack-csharpmessagepack-csharp"&gt;Release v2.5.187 · MessagePack-CSharp/MessagePack-CSharp&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/MessagePack-CSharp/MessagePack-CSharp/releases/tag/v2.5.187"&gt;https://github.com/MessagePack-CSharp/MessagePack-CSharp/releases/tag/v2.5.187&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;MessagePack v2.5.187 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは信頼できないデータによってハッシュ衝突とスタックオーバーフローを起こすことで DoS 攻撃が可能となるセキュリティー上の問題を修正している。&lt;/p&gt;
-&lt;h3 id="release-v8.0.5-npgsqlnpgsql"&gt;Release v8.0.5 · npgsql/npgsql&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/npgsql/npgsql/releases/tag/v8.0.5"&gt;https://github.com/npgsql/npgsql/releases/tag/v8.0.5&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Npgsql v8.0.5 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースではクエリーが失敗する問題や例外がスローされる問題などいくつかの不具合の修正されている。&lt;/p&gt;
-&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="microsoft.extensions.ai-onnx-runtime-generative-ai"&gt;Microsoft.Extensions.AI 向けに ONNX Runtime Generative AI を使うクラスを書いてみた - しばやん雑記&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.shibayan.jp/entry/20241015/1728983114"&gt;https://blog.shibayan.jp/entry/20241015/1728983114&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Microsoft.Extensions.AI の実装として ONNX Runtime Generative AI を使用するものを用意して、Phi-3.5 mini を呼び出すといったことを試している。&lt;/p&gt;
-&lt;h3 id="improve-your-debugger-game-with-editable-expressions-visual-studio-blog"&gt;Improve your debugger game with editable expressions - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/improve-your-debugger-game-with-editable-expressions/"&gt;https://devblogs.microsoft.com/visualstudio/improve-your-debugger-game-with-editable-expressions/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio の IEnumerable ビジュアライザーで LINQ によるフィルター式の活用についての紹介。&lt;/p&gt;
-&lt;h3 id="rider-reveal-livestream-big-news-for.net-and-game-devs-the.net-tools-blog"&gt;Rider Reveal Livestream: Big News for .NET and Game Devs | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2024/10/16/rider-reveal-livestream-big-news-for-dotnet-and-game-devs/"&gt;https://blog.jetbrains.com/dotnet/2024/10/16/rider-reveal-livestream-big-news-for-dotnet-and-game-devs/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;10月24日に JetBrains Rider に関するニュースのYouTube ストリーミングを配信するというアナウンス。&lt;/p&gt;
-&lt;h3 id="net-nanoframeworkesp32c"&gt;.NET nanoFrameworkを使って、ESP32の開発環境の構築（C#で組み込みデバイスを制御）&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/zead/articles/nanoframework_kankyo"&gt;https://zenn.dev/zead/articles/nanoframework_kankyo&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ESP32-WROOM-32 をターゲットとした .NET nanoFramework 開発環境の構築手順を紹介している。&lt;/p&gt;
-&lt;h3 id="sqlbulkcopycsvhelpercsvsql-server"&gt;SqlBulkCopyとCsvHelperで大規模CSVを効率的にSQL Serverにインポートする方法&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/nuits_jp/articles/2024-10-15-csv-sqlbulkcopy-csvhelper"&gt;https://zenn.dev/nuits_jp/articles/2024-10-15-csv-sqlbulkcopy-csvhelper&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;大規模な CSV データを SQL Server に効率よくインポートする方法について。&lt;/p&gt;
-&lt;h3 id="catch-the-highlights-from-azure-developers.net-aspire-day-2024.net-blog"&gt;Catch the highlights from Azure Developers - .NET Aspire Day 2024! - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/azure-developers-dotnet-aspire-day-recap/"&gt;https://devblogs.microsoft.com/dotnet/azure-developers-dotnet-aspire-day-recap/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;オンラインイベント Azure Developers – .NET Aspire Day 2024 で配信されたセッションとそのレコーディングの紹介。&lt;/p&gt;
-&lt;h3 id="net8math-qiita"&gt;.NET8での配列要素に対する一部Math関数の高速化について - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/tirol30/items/ff368b1d9b8ae77f411d"&gt;https://qiita.com/tirol30/items/ff368b1d9b8ae77f411d&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;double 型の配列要素に対する Math クラスをメソッドを使用した操作で +0.0 のようなコードを追加することで速度が変化する現象について。&lt;/p&gt;
-&lt;h3 id="net-9.0-linq-performance-improvements-ndepend-blog"&gt;.NET 9.0 LINQ Performance Improvements - NDepend Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.ndepend.com/net-9-0-linq-performance-improvements/"&gt;https://blog.ndepend.com/net-9-0-linq-performance-improvements/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 9 での LINQ のパフォーマンス改善についての解説。&lt;/p&gt;
-&lt;p&gt;記事では Span を取り出せる場合の高速化や、特別なイテレーターについてなどに触れている。&lt;/p&gt;
-&lt;h3 id="visual-studio-2022-17.11.5-xcode-15.4-maui-qiita"&gt;Visual Studio 2022 17.11.5 と Xcode 15.4 で MAUI を使う - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/wukann/items/4eed96ab63b5539b9ac3"&gt;https://qiita.com/wukann/items/4eed96ab63b5539b9ac3&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 version 17.11.5 と Xcode 15.4 を組み合わせてインストールし、MAUI 開発を行うための解説。&lt;/p&gt;
-&lt;h3 id="asp.net-core"&gt;『独習 ASP.NET Core』レビュー&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/fujiwo/articles/149a720a2b49f9"&gt;https://zenn.dev/fujiwo/articles/149a720a2b49f9&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;書籍「独習 ASP.NET Core」についてのレビュー。&lt;/p&gt;
-&lt;h2 id="section-2"&gt;サイト、ドキュメントなど&lt;/h2&gt;
-&lt;h3 id="section-3"&gt;ツイート&lt;/h3&gt;
-&lt;p&gt;説明だけコピーできるようになる話。&lt;/p&gt;
-&lt;!-- https://x.com/mkristensen/status/1844778002951139764?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Copying an error (Ctrl+C) from the Error List in Visual Studio now copies just the description instead of the entire row to the clipboard.&lt;br&gt;&lt;br&gt;Coming soon... &lt;a href="https://t.co/wRGUt678Qm"&gt;pic.twitter.com/wRGUt678Qm&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mads Kristensen (&amp;#64;mkristensen) &lt;a href="https://twitter.com/mkristensen/status/1844778002951139764?ref_src=twsrc%5Etfw"&gt;October 11, 2024&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 </content>
 		<summary>.NET 関連の情報をほぼ週刊配信</summary>
 	</entry>
