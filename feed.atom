@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="https://weekref.net/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2025-03-28T09:22:44Z</updated>
+	<updated>2025-04-01T02:12:50Z</updated>
 	<logo>https://weekref.net/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -277,7 +277,7 @@
 &lt;p&gt;&lt;a href="https://github.com/b-editor/beutl"&gt;https://github.com/b-editor/beutl&lt;/a&gt;
 Avalonia ベースでマルチプラットフォームで動作するオープンソースな動画編集ソフト。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[個人開発動画編集ソフト「Beutl」の紹介](&lt;a href="https://zenn.dev/indigo_san/articles/d8e030686e"&gt;https://zenn.dev/indigo_san/articles/d8e030686e&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://zenn.dev/indigo_san/articles/d8e030686e"&gt;個人開発動画編集ソフト「Beutl」の紹介&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="modelcontextprotocolcsharp-sdk-the-official-c-sdk-for-model-context-protocol-servers-and-clients-maintained-by-microsoft"&gt;modelcontextprotocol/csharp-sdk: The official C# SDK for Model Context Protocol servers and clients, maintained by Microsoft&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/modelcontextprotocol/csharp-sdk?tab=readme-ov-file"&gt;https://github.com/modelcontextprotocol/csharp-sdk?tab=readme-ov-file&lt;/a&gt;&lt;/p&gt;
