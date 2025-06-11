@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Wed, 11 Jun 2025 09:13:24 GMT</pubDate>
-		<lastBuildDate>Wed, 11 Jun 2025 09:13:24 GMT</lastBuildDate>
+		<pubDate>Wed, 11 Jun 2025 09:55:02 GMT</pubDate>
+		<lastBuildDate>Wed, 11 Jun 2025 09:55:02 GMT</lastBuildDate>
 		<item>
 			<title>2025-06-11: .NET 8.0.17 &amp; 9.0.6, .NET 10 Preview 5</title>
 			<link>https://weekref.net/2025/06/11/updates</link>
@@ -228,7 +228,7 @@
 &lt;p&gt;CloudWatch Logs に出力される JSON 内の文字列が Unicode エスケープされる問題について。&lt;/p&gt;
 &lt;h3 id="red-green-trees-an-overview-bayastan-medium"&gt;Red-Green Trees: an Overview - Bayastan - Medium&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://medium.com/&amp;#64;krendelia2021/red-green-trees-an-overview-17bae2d84e8c"&gt;https://medium.com/&amp;#64;krendelia2021/red-green-trees-an-overview-17bae2d84e8c&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Roslyn で用いられている Red-Black Tree の概要について。&lt;/p&gt;
+&lt;p&gt;Roslyn で用いられている Red-Green Tree の概要について。&lt;/p&gt;
 &lt;h3 id="nativeaotsusie32bit"&gt;NativeAOTでSusieプラグイン(32bit)を作成する&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://zenn.dev/radian_jp/articles/0f1a8cf3b04416"&gt;https://zenn.dev/radian_jp/articles/0f1a8cf3b04416&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;NativeAOT を使用して Susie プラグインを作成する方法について。記事では Magick.NET を使用して画像を読み込むプラグインの実装例を紹介している。&lt;/p&gt;
