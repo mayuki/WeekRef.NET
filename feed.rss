@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Tue, 05 Aug 2025 08:09:12 GMT</pubDate>
-		<lastBuildDate>Tue, 05 Aug 2025 08:09:12 GMT</lastBuildDate>
+		<pubDate>Tue, 05 Aug 2025 08:14:34 GMT</pubDate>
+		<lastBuildDate>Tue, 05 Aug 2025 08:14:34 GMT</lastBuildDate>
 		<item>
 			<title>2025-08-05: .NET Aspire 9.4, JetBrains Subscription Price Increase, New Dependabot NuGet Updater</title>
 			<link>https://weekref.net/2025/08/05/updates</link>
@@ -31,6 +31,9 @@
 &lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-aspire-9-4/"&gt;https://devblogs.microsoft.com/dotnet/announcing-aspire-9-4/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;.NET Aspire 9.4 がリリースされた。&lt;/p&gt;
 &lt;p&gt;このリリースでは &lt;code&gt;aspire&lt;/code&gt; コマンド (CLI) が正式提供となったほか、カスタムダッシュボードでのインタラクティブな操作のサポート、GitHub Models/Azure AI Foundry のホスティング、外部リソース、YARP 統合などが含まれている。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/dotnet/aspire/releases/tag/v9.4.0"&gt;Release Aspire 9.4.0 Release · dotnet/aspire&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id="ide.net-dotultimate-all-products-pack-2025-10-1-the-jetbrains-blog"&gt;IDE、.NET ツール、dotUltimate、および All Products Pack サブスクリプション価格の値上げのお知らせ（2025 年 10 月 1 日より） | The JetBrains Blog&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://blog.jetbrains.com/ja/blog/2025/07/31/increased-subscription-pricing-for-ides-net-tools-dotultimate-and-the-all-products-pack/"&gt;https://blog.jetbrains.com/ja/blog/2025/07/31/increased-subscription-pricing-for-ides-net-tools-dotultimate-and-the-all-products-pack/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;JetBrains の IDE や各種ツールのサブスクリプション価格の値上げについてのアナウンス。2025年10月1日から新しい価格となる。&lt;/p&gt;
@@ -56,9 +59,6 @@
 &lt;p&gt;&lt;a href="https://msrc.microsoft.com/blog/2025/07/.net-bounty-program-now-offers-up-to-40000-in-awards/"&gt;https://msrc.microsoft.com/blog/2025/07/.net-bounty-program-now-offers-up-to-40000-in-awards/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;.NET の報奨金プログラムで最大 $40,000 の報酬が得られるようになった。&lt;/p&gt;
 &lt;p&gt;報奨金プログラムのカバーする範囲が拡大され、賞金額も増額されている。記事では具体的な脆弱性に対する最大報酬額の一覧が掲載されている。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/aspire/releases/tag/v9.4.0"&gt;Release Aspire 9.4.0 Release · dotnet/aspire&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2 id="section-1"&gt;リリース&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/autofac/Autofac"&gt;autofac/Autofac&lt;/a&gt;
