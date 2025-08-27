@@ -6,8 +6,166 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Wed, 20 Aug 2025 08:42:22 GMT</pubDate>
-		<lastBuildDate>Wed, 20 Aug 2025 08:42:22 GMT</lastBuildDate>
+		<pubDate>Wed, 27 Aug 2025 08:39:23 GMT</pubDate>
+		<lastBuildDate>Wed, 27 Aug 2025 08:39:23 GMT</lastBuildDate>
+		<item>
+			<title>2025-08-27: Visual Studio August Update, Uno Platform 6.2</title>
+			<link>https://weekref.net/2025/08/27/updates</link>
+			<description>.NET 関連の情報をほぼ週刊配信</description>
+			<author>Mayuki Sawatari</author>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2025/08/27/updates</guid>
+			<pubDate>Wed, 27 Aug 2025 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="the-visual-studio-august-update-is-here-smarter-ai-better-debugging-and-more-control-visual-studio-blog"&gt;The Visual Studio August Update is here - smarter AI, better debugging, and more control - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/the-visual-studio-august-update-is-here-smarter-ai-better-debugging-and-more-control/"&gt;https://devblogs.microsoft.com/visualstudio/the-visual-studio-august-update-is-here-smarter-ai-better-debugging-and-more-control/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 の 8 月のアップデートがリリースされた。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GPT-5 のサポート&lt;/li&gt;
+&lt;li&gt;MCP との接続&lt;/li&gt;
+&lt;li&gt;Google アカウントを使用した Copilot のサインアップ&lt;/li&gt;
+&lt;li&gt;チャットへの自身の AI モデルの持ち込み&lt;/li&gt;
+&lt;li&gt;Uneral Engine の統合デバッグ&lt;/li&gt;
+&lt;li&gt;必要になったときに Copilot 提案&lt;/li&gt;
+&lt;li&gt;折りたたた目られた提案とクリーンな編集&lt;/li&gt;
+&lt;li&gt;コード補完の部分的受け入れ&lt;/li&gt;
+&lt;li&gt;GitHub Chat の Git コンテキスト&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="uno-platform-6.2-smoother-faster-everywhere"&gt;Uno Platform 6.2: Smoother, Faster, Everywhere&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://platform.uno/blog/uno-platform-6-2-smoother-faster-everywhere/"&gt;https://platform.uno/blog/uno-platform-6-2-smoother-faster-everywhere/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Uno Platform 6.2 がリリースされた。&lt;/p&gt;
+&lt;p&gt;このリリースでは Skia WebAssembly の改善、Skia SkCanvasElement の改善、WebView2 の WinUとの整合性の調整、ListView の選択の改善、Theme の信頼性向上、RatingControl のアップデート、Uno Platform Studio &amp;amp; ホットデザインのアップデートが含まれている。&lt;/p&gt;
+&lt;h3 id="github-copilot-for-azure-preview-launches-in-visual-studio-2022-with-azure-mcp-support-visual-studio-blog"&gt;GitHub Copilot for Azure (Preview) Launches in Visual Studio 2022 with Azure MCP Support - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/github-copilot-for-azure-preview-launches-in-visual-studio-2022-with-azure-mcp-support/"&gt;https://devblogs.microsoft.com/visualstudio/github-copilot-for-azure-preview-launches-in-visual-studio-2022-with-azure-mcp-support/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 (17.14+) と GitHub Copilot for Azure 機能拡張を使用して Azure MCP が利用できるようになった。&lt;/p&gt;
+&lt;p&gt;記事ではサポートされている MCP と、インストール/セットアップの手順を紹介している。&lt;/p&gt;
+&lt;h3 id="enhance-your-cli-testing-workflow-with-the-new-dotnet-test.net-blog"&gt;Enhance your CLI testing workflow with the new dotnet test - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-test-with-mtp/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-test-with-mtp/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 10 の dotnet test コマンドと Microsoft.Testing.Platform 統合で改善された点について。&lt;/p&gt;
+&lt;p&gt;記事では .NET 10 での有効化方法やどのような効果があるか、各種オプションなどを紹介している。&lt;/p&gt;
+&lt;h3 id="bring-your-own-model-to-chat-in-visual-studio-visual-studio-blog"&gt;Bring Your Own Model to Chat in Visual Studio - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/bring-your-own-model-visual-studio-chat/"&gt;https://devblogs.microsoft.com/visualstudio/bring-your-own-model-visual-studio-chat/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio の Copilot Chat で既定のモデル以外に、独自の API キーを使用した AI モデルを持ち込む機能についての紹介。&lt;/p&gt;
+&lt;h3 id="copilot-diagnostics-toolset-for.net-in-visual-studio.net-blog"&gt;Copilot Diagnostics toolset for .NET In Visual Studio - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/github-copilot-diagnostics-toolset-for-dotnet-in-visual-studio/"&gt;https://devblogs.microsoft.com/dotnet/github-copilot-diagnostics-toolset-for-dotnet-in-visual-studio/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio の Copilot による診断デバッグ機能についての紹介。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Copilot デバッグツールボックス
+&lt;ul&gt;
+&lt;li&gt;ブレークポイントとトレースポイントの提案&lt;/li&gt;
+&lt;li&gt;ブレークポイントのトラブルシューティング&lt;/li&gt;
+&lt;li&gt;IEnuemrable ビジュアライザーでの Copilot による LINQ クエリー提案&lt;/li&gt;
+&lt;li&gt;Copilot を使用した LINQ クエリーの説明&lt;/li&gt;
+&lt;li&gt;Copilot による例外支援&lt;/li&gt;
+&lt;li&gt;Copilot による変数の分析&lt;/li&gt;
+&lt;li&gt;Copilot による戻り値の分析&lt;/li&gt;
+&lt;li&gt;並列スタックウィンドウでのデッドロック分析、自動要約、インサイト&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Copilot プロファイリングツールボックス
+&lt;ul&gt;
+&lt;li&gt;CPU 使用率、インストルメンテーション、.NET の割り当てツールの自動インサイト&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section-1"&gt;リリース&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/App-vNext/Polly"&gt;App-vNext/Polly&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/App-vNext/Polly/releases/tag/8.6.3"&gt;8.6.3&lt;/a&gt;
+&lt;a href="https://github.com/DataDog/dd-trace-dotnet/releases/tag/v3.25.0"&gt;https://github.com/DataDog/dd-trace-dotnet/releases/tag/v3.25.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/DataDog/dd-trace-dotnet"&gt;DataDog/dd-trace-dotnet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/DataDog/dd-trace-dotnet/releases/tag/v3.25.0"&gt;v3.25.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/aws/aws-sdk-net"&gt;aws/aws-sdk-net&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1106.0"&gt;3.7.1106.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1107.0"&gt;3.7.1107.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1108.0"&gt;3.7.1108.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1109.0"&gt;3.7.1109.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1110.0"&gt;3.7.1110.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.74.0"&gt;4.0.74.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.75.0"&gt;4.0.75.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.76.0"&gt;4.0.76.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.77.0"&gt;4.0.77.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.78.0"&gt;4.0.78.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Azure/azure-sdk-for-net"&gt;Azure/azure-sdk-for-net&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Communication.CallAutomation_1.5.0"&gt;Azure.Communication.CallAutomation_1.5.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Core_1.47.3"&gt;Azure.Core_1.47.3&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Network_1.11.3"&gt;Azure.ResourceManager.Network_1.11.3&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Resources_1.11.1"&gt;Azure.ResourceManager.Resources_1.11.1&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/System.ClientModel_1.6.1"&gt;System.ClientModel_1.6.1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/googleapis/google-cloud-dotnet"&gt;googleapis/google-cloud-dotnet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.AIPlatform.V1-3.45.0"&gt;Google.Cloud.AIPlatform.V1-3.45.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/microsoft/WindowsAppSDK"&gt;microsoft/WindowsAppSDK&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v.1.8.0-Preview1"&gt;v.1.8.0-Preview1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/newrelic/newrelic-dotnet-agent"&gt;newrelic/newrelic-dotnet-agent&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/newrelic/newrelic-dotnet-agent/releases/tag/v10.44.1"&gt;v10.44.1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/StackExchange/StackExchange.Redis"&gt;StackExchange/StackExchange.Redis&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.9.11"&gt;2.9.11&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section-2"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="fixing-an-old.net-core-native-library-loading-issue-on-alpine"&gt;Fixing an old .NET Core native library loading issue on Alpine&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/fixing-an-old-dotnet-core-native-library-loading-issue-on-alpine/"&gt;https://andrewlock.net/fixing-an-old-dotnet-core-native-library-loading-issue-on-alpine/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Alpine Linux 上でネイティブライブラリーを使用しようとした際に発生した問題について。&lt;/p&gt;
+&lt;p&gt;.NET Core 3.1 や .NET 5 では Alpine Linux のランタイム ID のルックアップが正しくなく、Alpine 3.17 以上で問題になる。&lt;/p&gt;
+&lt;h3 id="cnuget.orgmcp-server.net10csproj"&gt;【C#】NuGet.orgにMCP Serverだと認識されなかった理由は.NET10以降かどうかでcsprojの記述が違うからだと気づいた - はなちるのマイノート&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.hanachiru-blog.com/entry/2025/08/27/120000"&gt;https://www.hanachiru-blog.com/entry/2025/08/27/120000&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 10 以前の SDK で作成した NuGet パッケージが NuGet.org に公開した際に MCP サーバーとして認識されない問題について。&lt;/p&gt;
+&lt;h3 id="web-apicli-cocona"&gt;Web APIの書き心地のCLI フレームワーク Cocona&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/shundeveloper/articles/61fbd9bd3f007a"&gt;https://zenn.dev/shundeveloper/articles/61fbd9bd3f007a&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cocona を使用した CLI アプリケーションの実装について。&lt;/p&gt;
+&lt;h3 id="fmcp"&gt;F#でMCPサーバーのサンプルを動かす&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/Miyakovsky/items/5e47c88ecee73ec82ff8"&gt;https://qiita.com/Miyakovsky/items/5e47c88ecee73ec82ff8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;F# と ModelContextProtocol SDK を使用して MCP サーバーのサンプルを動かす手順について。&lt;/p&gt;
+&lt;h3 id="c-wasmvs-code-vs-code-for-web"&gt;C# × WASM化を使用してVS Code の拡張機能を作りたい(VS Code for Web)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/srtia2318/articles/organize-info10-vscode-ex-wasm-f408da65b14e2f"&gt;https://zenn.dev/srtia2318/articles/organize-info10-vscode-ex-wasm-f408da65b14e2f&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio Code for Web の拡張機能から Wasm 化した C# コードを呼び出すための手順と実装方法について。&lt;/p&gt;
+&lt;h3 id="c-gemini-cli"&gt;C# プロジェクトで Gemini CLI を使う&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/sator_imaging/articles/33dd0cf1e6c1d3"&gt;https://zenn.dev/sator_imaging/articles/33dd0cf1e6c1d3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Gemini CLI で使用できるサンドボックスイメージとして .NET / C# のイメージを作る手順について。&lt;/p&gt;
+&lt;h3 id="app-actions-on-windows-action-provideruri"&gt;App Actions on Windows の Action Provider（URIタイプ）をつくる&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/tera1707/items/6918ab851fabc1bd36fc"&gt;https://qiita.com/tera1707/items/6918ab851fabc1bd36fc&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;App Actions on Windows の URI タイプの Action Provider を実装する手順についての解説。&lt;/p&gt;
+&lt;h3 id="net-maui4"&gt;.NET MAUIでカスタムコントロールを作成する方法4選&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/y_a_y/articles/maui_custom_b9685efa3cc1e1"&gt;https://zenn.dev/y_a_y/articles/maui_custom_b9685efa3cc1e1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET MAUI でカスタムコントロールを作成する4つの方法(継承、ControlView、カスタム描画、ハンドラー)について。&lt;/p&gt;
+&lt;h3 id="better-control-over-your-copilot-code-suggestions-visual-studio-blog"&gt;Better Control over Your Copilot Code Suggestions - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/better-control-over-your-copilot-code-suggestions/"&gt;https://devblogs.microsoft.com/visualstudio/better-control-over-your-copilot-code-suggestions/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio 2022 17.14.13 以降で強化された GitHub Copilot のコード提案の挙動のコントロールについて。&lt;/p&gt;
+&lt;h3 id="mauireactor-an-mvu-approach-for.net-maui.net-blog"&gt;MauiReactor: An MVU Approach for .NET MAUI - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/mauireactor-mvu-for-dotnet-maui/"&gt;https://devblogs.microsoft.com/dotnet/mauireactor-mvu-for-dotnet-maui/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET MAUI 向けの MVU フレームワークである MauiReactor の紹介。&lt;/p&gt;
+&lt;h3 id="caspiremagiconion"&gt;【C#】Aspire+MagicOnionで快適にアプリ開発する&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/arika/articles/20250822-aspire-magiconion"&gt;https://zenn.dev/arika/articles/20250822-aspire-magiconion&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET Aspire と MagicOnion を組み合わせてクライアントサーバー型のアプリケーションを構築する手順について。&lt;/p&gt;
+&lt;h3 id="blazor-server-qiita"&gt;2025 実践的なBlazor Server業務アプリケーションの作り方 - 受注管理システムを例に - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/masayahak/items/bfbf5dea084a055f06c4"&gt;https://qiita.com/masayahak/items/bfbf5dea084a055f06c4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;受注管理システムを例とした Blazor Server による業務アプリケーションの作り方とその実装例の解説。&lt;/p&gt;
+&lt;h3 id="cjsonserializer.serializedeserialize-qiita"&gt;【C#】複数の型が混ざったリストをJsonSerializer.Serialize/Deserializeする - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/yamato1413/items/c80579a26e1359a136fd"&gt;https://qiita.com/yamato1413/items/c80579a26e1359a136fd&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;System.Text.Json を使用して複数の型が混在するリストをシリアライズ/デシリアライズする方法について。&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>2025-08-20: .NET 10 Preview 7, Rider &amp; ReSharper 2025.2, MCP GA in Visual Studio</title>
 			<link>https://weekref.net/2025/08/20/updates</link>
@@ -1711,222 +1869,6 @@ _ Entity Framework Core&lt;/li&gt;
 &lt;!-- https://x.com/jamesnk/status/1927283039731679463?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Some &lt;a href="https://t.co/vykcBhgfVr"&gt;https://t.co/vykcBhgfVr&lt;/a&gt; &amp;amp; gRPC features for .NET 10:&lt;br&gt;&lt;br&gt;📊 Add metrics to identity &lt;a href="https://t.co/cAMpxy0OFf"&gt;https://t.co/cAMpxy0OFf&lt;/a&gt;&lt;br&gt;&lt;br&gt;🪵 UseExceptionHandler option to suppress exception logging &lt;a href="https://t.co/U2TL86fH1g"&gt;https://t.co/U2TL86fH1g&lt;/a&gt;&lt;br&gt;&lt;br&gt;🌏 Refactor gRPC support for ServerServiceDefinition &lt;a href="https://t.co/Vn3dnEKOQE"&gt;https://t.co/Vn3dnEKOQE&lt;/a&gt;&lt;/p&gt;&amp;mdash; James Newton-King ♔ (&amp;#64;JamesNK) &lt;a href="https://twitter.com/JamesNK/status/1927283039731679463?ref_src=twsrc%5Etfw"&gt;May 27, 2025&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>2025-05-26: .NET Aspire 9.3, ReSharper for Visual Studio Code, AI and Vector Data Extensions GA</title>
-			<link>https://weekref.net/2025/05/26/updates</link>
-			<description>.NET 関連の情報をほぼ週刊配信</description>
-			<author>Mayuki Sawatari</author>
-			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
-			<guid>https://weekref.net/2025/05/26/updates</guid>
-			<pubDate>Mon, 26 May 2025 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="net-aspire-9.3-is-here-and-enhanced-with-github-copilot.net-blog"&gt;.NET Aspire 9.3 is here and enhanced with GitHub Copilot! - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/introducing-dotnet-aspire-93/"&gt;https://devblogs.microsoft.com/dotnet/introducing-dotnet-aspire-93/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET Aspire 9.3 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは GitHub Copilot のダッシュボードへの統合、Resource Graph ビューの強化、YARP 統合の追加、MySQL などの統合の更新、Azure Blob コンテナーの作成など、その他アプリケーションモデルのアップデートやパブリッシャーのサポートの強化などが行われている。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/aspire/releases/tag/v9.3.0"&gt;Release .NET Aspire 9.3.0 Release · dotnet/aspire&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="resharper-comes-to-microsoft-visual-studio-code-public-preview-now-open-the.net-tools-blog"&gt;ReSharper Comes to Microsoft Visual Studio Code: Public Preview Now Open | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2025/05/19/resharper-comes-to-microsoft-visual-studio-code/"&gt;https://blog.jetbrains.com/dotnet/2025/05/19/resharper-comes-to-microsoft-visual-studio-code/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio Code 向けの ReShaper がパブリックプレビューとなった。&lt;/p&gt;
-&lt;p&gt;Visual Studio Code 向けの ReSharper は Visual Studio 向けの ReSharper と同じくコード解析やコード補完、ソリューションエクスプローラーといった様々な機能を提供する。&lt;/p&gt;
-&lt;p&gt;この拡張は現時点では無料で利用でき、正式リリース時には dotUltimate サブスクリプションの一部または非商用利用の無料枠として利用できるようになる予定とのこと。また C# Dev Kit と機能が重複する部分があるため無効にすることが推奨されている。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.jetbrains.com/resharper/vscode/"&gt;ReSharper for Visual Studio Code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://qiita.com/karuakun/items/412d5165b364be74931c"&gt;ReShaper for Visual Studio Code - Qiita&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="ai-and-vector-data-extensions-are-now-generally-available-ga.net-blog"&gt;AI and Vector Data Extensions are now Generally Available (GA) - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/ai-vector-data-dotnet-extensions-ga/"&gt;https://devblogs.microsoft.com/dotnet/ai-vector-data-dotnet-extensions-ga/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Microsoft.Extensions.AI と Microsoft.Extensions.VectorData.Abstractions が一般提供となった。&lt;/p&gt;
-&lt;p&gt;記事ではユースケースとして移植性や段階的な機能の追加、様々なコンテンツの使用、ツール呼び出し、Embedding の簡素化、検索などを上げている。そのほかエコシステムや MCP SDK、.NET AI Evaluation ライブラリーや Telerik ソリューション、Semantic Kernel や AI Dev Gallery などについても紹介している。&lt;/p&gt;
-&lt;p&gt;今回 GA となったのは主に抽象化部分のみであり、実際の OpenAI のクライアントなどは現時点では Pre-Release となっている。&lt;/p&gt;
-&lt;h3 id="release-windows-app-sdk-1.7.2-1.7.250513003-microsoftwindowsappsdk"&gt;Release Windows App SDK 1.7.2 (1.7.250513003) · microsoft/WindowsAppSDK&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.7.2"&gt;https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.7.2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Windows App SDK 1.7.2 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは Phi Silica (Copilot+ PC 向けローカル SLM)、Image Description API、テキスト認識 API、Image Scaler API、Image Segmentation API といった新機能が追加されている。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/stable-channel#version-172-17250513003"&gt;バージョン 1.7.2 (1.7.250513003) - Windows App SDK の安定チャネルのリリース ノート - Windows apps&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="resharper-2025.2-eap-2-first-public-build-with-out-of-process-mode-support-the.net-tools-blog"&gt;ReSharper 2025.2 EAP 2: First Public Build with Out-of-Process Mode Support | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2025/05/22/resharper-2025-2-eap-2-oop-mode/"&gt;https://blog.jetbrains.com/dotnet/2025/05/22/resharper-2025-2-eap-2-oop-mode/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ReSharper 2025.2 EAP 2 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは Out-of-Processs モードのサポートが利用できるようになっている。&lt;/p&gt;
-&lt;p&gt;AI やデバッガー機能、DPA や dotTrace, dotMemory, dotCover といったツールの統合などいくつかの機能は現時点ではサポートされていない。&lt;/p&gt;
-&lt;h3 id="introducing-the-fourth-set-of-open-source-syncfusion.net-maui-controls-syncfusion-blogs"&gt;Introducing the Fourth Set of Open-Source Syncfusion® .NET MAUI Controls | Syncfusion Blogs&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.syncfusion.com/blogs/post/fourth-set-open-source-maui-controls"&gt;https://www.syncfusion.com/blogs/post/fourth-set-open-source-maui-controls&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Syncfusion によるオープンソースの .NET MAUI コントロールの4番目のアップデート。&lt;/p&gt;
-&lt;p&gt;このリリースでは6つの新しいコントロールが追加されている。Picker, DatePicker, DateTimePicker, TimePicker, CircularProgressBar, LinearProgressBar&lt;/p&gt;
-&lt;h3 id="improving-snapstart-performance-in.net-lambda-functions-amazon-web-services"&gt;Improving SnapStart Performance in .NET Lambda Functions | Amazon Web Services&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://aws.amazon.com/jp/blogs/dotnet/blog-improving-snapstart-performance-in-net-lambdas/"&gt;https://aws.amazon.com/jp/blogs/dotnet/blog-improving-snapstart-performance-in-net-lambdas/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;AWS Lambda での SnapStart によるコールドスタートパフォーマンスの改善について。&lt;/p&gt;
-&lt;h3 id="release-1.8.0-experimental-2-1.8.250515001-experimental2-microsoftwindowsappsdk"&gt;Release 1.8.0 Experimental 2 (1.8.250515001-experimental2) 🧪 · microsoft/WindowsAppSDK&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.8-exp2"&gt;https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.8-exp2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Windows App SDK 1.8.0 Experimental 2 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは会話の要約や Phi Silica の LoRA 対応の追加、NuGet パッケージのメタパッケージ化などが行われている。&lt;/p&gt;
-&lt;h3 id="generally-available-aspire-dashboard-in-azure-container-apps-azure-updates-microsoft-azure"&gt;Generally Available: Aspire Dashboard in Azure Container Apps | Azure updates | Microsoft Azure&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://azure.microsoft.com/en-us/updates?id=492099"&gt;https://azure.microsoft.com/en-us/updates?id=492099&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Azure Container Apps での Aspire Dashboard が一般提供となった。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://learn.microsoft.com/en-us/azure/container-apps/aspire-dashboard?pivots=azd"&gt;Read real time app data with Aspire Dashboard in Azure Container Apps&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="getting-started-with.net-aspire-preview-on-azure-app-service"&gt;Getting Started with .NET Aspire (Preview) on Azure App Service&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://azure.github.io/AppService/2025/05/19/Aspire-on-App-Service.html"&gt;https://azure.github.io/AppService/2025/05/19/Aspire-on-App-Service.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Azure App Service での .NET Aspire (プレビュー) の使い方について。&lt;/p&gt;
-&lt;p&gt;記事ではプロジェクトのセットアップからデプロイまで簡単な手順を紹介している。&lt;/p&gt;
-&lt;h3 id="accelerate-your.net-upgrades-with-github-copilot.net-blog"&gt;Accelerate Your .NET Upgrades with GitHub Copilot - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/github-copilot-upgrade-dotnet/"&gt;https://devblogs.microsoft.com/dotnet/github-copilot-upgrade-dotnet/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;GitHub Copilot Agent を使用して .NET のアップグレード/モダナイズを行う機能のプレビューリリースされた。&lt;/p&gt;
-&lt;p&gt;記事ではどのようなことができるのかといったことのほか、拡張の導入方法や利用方法についても紹介している。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/faster-net-upgrades-powered-by-github-copilot/"&gt;Faster .NET Upgrades Powered by GitHub Copilot - Visual Studio Blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="section-1"&gt;リリース&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/aws/aws-sdk-net"&gt;aws/aws-sdk-net&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1047.0"&gt;3.7.1047.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1048.0"&gt;3.7.1048.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1049.0"&gt;3.7.1049.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1050.0"&gt;3.7.1050.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1051.0"&gt;3.7.1051.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.15.0"&gt;4.0.15.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.16.0"&gt;4.0.16.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.17.0"&gt;4.0.17.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.18.0"&gt;4.0.18.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.19.0"&gt;4.0.19.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Azure/azure-cosmos-dotnet-v3"&gt;Azure/azure-cosmos-dotnet-v3&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/Azure/azure-cosmos-dotnet-v3/releases/tag/3.51.0"&gt;3.51.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Azure/azure-sdk-for-net"&gt;Azure/azure-sdk-for-net&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Extensions.AspNetCore.DataProtection.Keys_1.6.0"&gt;Azure.Extensions.AspNetCore.DataProtection.Keys_1.6.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Messaging.EventGrid_4.31.0"&gt;Azure.Messaging.EventGrid_4.31.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.Storage_1.0.1"&gt;Azure.Provisioning.Storage_1.0.1&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.ApiManagement_1.3.0"&gt;Azure.ResourceManager.ApiManagement_1.3.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.AppContainers_1.4.0"&gt;Azure.ResourceManager.AppContainers_1.4.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.AppService_1.4.0"&gt;Azure.ResourceManager.AppService_1.4.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Cdn_1.4.0"&gt;Azure.ResourceManager.Cdn_1.4.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Chaos_1.1.0"&gt;Azure.ResourceManager.Chaos_1.1.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.FrontDoor_1.4.0"&gt;Azure.ResourceManager.FrontDoor_1.4.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.NeonPostgres_1.0.0"&gt;Azure.ResourceManager.NeonPostgres_1.0.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/domaindrivendev/Swashbuckle.AspNetCore"&gt;domaindrivendev/Swashbuckle.AspNetCore&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v8.1.2"&gt;v8.1.2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/googleapis/google-cloud-dotnet"&gt;googleapis/google-cloud-dotnet&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.AIPlatform.V1-3.30.0"&gt;Google.Cloud.AIPlatform.V1-3.30.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.AIPlatform.V1-3.31.0"&gt;Google.Cloud.AIPlatform.V1-3.31.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.TextToSpeech.V1-3.12.0"&gt;Google.Cloud.TextToSpeech.V1-3.12.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="section-2"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="net-10-preview-4"&gt;.NET 10 Preview 4 単一ファイルでの実行をためしてみた&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/karuakun/items/a11cffd722e19b03ab62"&gt;https://qiita.com/karuakun/items/a11cffd722e19b03ab62&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 10 Preview 4 で対応した .cs ファイルを直接 &lt;code&gt;dotnet run&lt;/code&gt; で実行できる機能について。&lt;/p&gt;
-&lt;h3 id="azure-blobstorage"&gt;ユニバーサルリンクをAzure BlobStorageでやってみる&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/onigiripudding/items/9ee95b84335ea9794a0b"&gt;https://qiita.com/onigiripudding/items/9ee95b84335ea9794a0b&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET MAUI の iOS アプリケーションで Azure Blob Storage を使用して Universal Link を実現する方法について。&lt;/p&gt;
-&lt;h3 id="net-satori-gc"&gt;.NET の新しい高性能低遅延 Satori GC を気になります&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/hez2010/items/e0a3573ecb3b14325336"&gt;https://qiita.com/hez2010/items/e0a3573ecb3b14325336&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET での低遅延 GC の実験的実装の Satori の紹介と解説。実際に計測してみた結果や導入法について書かれている。&lt;/p&gt;
-&lt;h3 id="c.net10-preview4-zip"&gt;【C# .NET10 Preview4】非同期 ZIP アーカイブ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/abetakahiro123/items/eeff1acf5cde4549e104"&gt;https://qiita.com/abetakahiro123/items/eeff1acf5cde4549e104&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 10 Preview で追加された ZIP アーカイブの非同期操作の簡単な紹介。&lt;/p&gt;
-&lt;h3 id="c.net"&gt;【C#】.NETのシリアライザまとめ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/nuskey/articles/csharp-serializers"&gt;https://zenn.dev/nuskey/articles/csharp-serializers&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET / Unity で利用できるシリアライザー(JSON, XML, YAML, CSV, MessagePack, Protocol Buffers, その他) の紹介。&lt;/p&gt;
-&lt;h3 id="the-complete-guide-to-dotnet-dump-a-powerful.net-diagnostic-tool"&gt;The Complete Guide to dotnet-dump: A Powerful .NET Diagnostic Tool&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;vikpoca/the-complete-guide-to-dotnet-dump-a-powerful-net-diagnostic-tool-854c7cc28843"&gt;https://medium.com/&amp;#64;vikpoca/the-complete-guide-to-dotnet-dump-a-powerful-net-diagnostic-tool-854c7cc28843&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;メモリーダンプを取得、解析する dotnet-dump の機能解説と簡単な使い方について。&lt;/p&gt;
-&lt;h3 id="section-3"&gt;遅延初期化されるプロパティの書き方&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/csharp-lazy-initialize"&gt;https://zenn.dev/microsoft/articles/csharp-lazy-initialize&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;プロパティーの遅延初期化を1行で書くテクニック。&lt;/p&gt;
-&lt;h3 id="netc"&gt;.NETランタイムとは何か？C#が動くしくみをゼロから図解で解説&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/au/articles/23d36c2d85bb73"&gt;https://zenn.dev/au/articles/23d36c2d85bb73&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET で C# によるコードが実行されるまでのステップの簡単な解説。&lt;/p&gt;
-&lt;h3 id="net-interactive-c-f-jupyter-notebook"&gt;.NET Interactive の C# と F# で値渡しをしたい! (Jupyter Notebook)&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/Lemon73/items/c63d050a781600b14b3e"&gt;https://qiita.com/Lemon73/items/c63d050a781600b14b3e&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET Interactive (Jupyter Notebook) で C# と F# といった言語間で値を渡す方法について。&lt;/p&gt;
-&lt;h3 id="ef-core"&gt;EF Coreの結合のいろいろ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/omt_teruki/items/9baaa4dd3b78210fca51"&gt;https://qiita.com/omt_teruki/items/9baaa4dd3b78210fca51&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Entity Framework Core での結合操作の紹介。&lt;/p&gt;
-&lt;h3 id="wpfwinui-3nativeaot0.5"&gt;アプリの起動速度を試すとWPFよりもWinUI 3+NativeAOTの方がだいぶ速いようです（ただし0.5秒未満の差）&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/suusanex/articles/f642d91df412c9"&gt;https://zenn.dev/suusanex/articles/f642d91df412c9&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;WPF と WinUI 3 + Native AOT ｄの起動時間を比較について。&lt;/p&gt;
-&lt;h3 id="edge-ai-building-local-generative-ai-apps-with-foundry-local-and.net"&gt;Edge AI: Building local generative AI apps with Foundry Local and .NET&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://medium.com/medialesson/edge-ai-building-local-generative-ai-apps-with-foundry-local-and-net-a117fa967967"&gt;https://medium.com/medialesson/edge-ai-building-local-generative-ai-apps-with-foundry-local-and-net-a117fa967967&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Foundry Local を使用してローカルで LLM をホストし、.NET からアクセスする方法について。&lt;/p&gt;
-&lt;h3 id="connecting-to-private-nuget-feeds-just-got-easier-visual-studio-blog"&gt;Connecting to Private NuGet Feeds Just Got Easier - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/connecting-to-private-nuget-feeds-just-got-easier/"&gt;https://devblogs.microsoft.com/visualstudio/connecting-to-private-nuget-feeds-just-got-easier/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio 2022 17.14 以降でプライベート NuGet フィードへの接続が簡単かつ分かりやすくなったことについて。&lt;/p&gt;
-&lt;h3 id="blazor-wasmaotbrotli"&gt;Blazor WASMにてAOTコンパイルを使いつつBrotli圧縮配信で最速起動を目指す&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/srtia2318/articles/organize-info7-blazor-brotli-3daf87439b41d2"&gt;https://zenn.dev/srtia2318/articles/organize-info7-blazor-brotli-3daf87439b41d2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Blazor WebAssembly アプリケーションの起動を高速化するために  AOT と Brotli による圧縮を使用する方法について。&lt;/p&gt;
-&lt;h3 id="semantic-kernel-process-framework-1hello-world"&gt;Semantic Kernel の Process Framework 入門 その 1「Hello world」&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/process-framework-001"&gt;https://zenn.dev/microsoft/articles/process-framework-001&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Semantic Kernel でワークフロー実行を制御できる Process Framework について。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/microsoft/articles/process-framework-002"&gt;Semantic Kernel の Process Framework 入門 その 2「分岐したい」&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/microsoft/articles/process-framework-003"&gt;Semantic Kernel の Process Framework 入門 その 3「型が欲しい」&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="semantic-kernel-agent-framework"&gt;Semantic Kernel の Agent Framework で、これから何をやるのかを表示しつつ実行する&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/semantic-kernel-plan-exec"&gt;https://zenn.dev/microsoft/articles/semantic-kernel-plan-exec&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Semantic Kernel の Agent Framework で GitHub Copilot などのようにこれから行う処理を表示する方法について。&lt;/p&gt;
-&lt;h3 id="c-copymemory.net-win32-api"&gt;[C#] CopyMemory関数が使用する.NETのバージョンやプラットフォームの違いで使えない理由 (Win32 API)&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/TeruyamaZw/items/3dbec752458edfe15510"&gt;https://qiita.com/TeruyamaZw/items/3dbec752458edfe15510&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Win32 API の CopyMemory API は .NET と .NET Framework によって使用できるかどうかが異なる原因と解決法について。&lt;/p&gt;
-&lt;h3 id="document-search-in.net-with-kernel-memory"&gt;Document Search in .NET with Kernel Memory&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/leading-edje/document-search-in-net-with-kernel-memory-3ah"&gt;https://dev.to/leading-edje/document-search-in-net-with-kernel-memory-3ah&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Kernel Memory を使用した LLM でのドキュメント検索の実装について。&lt;/p&gt;
-&lt;h3 id="net-semantic-kernel-rag"&gt;.NET + Semantic Kernel でベクトル検索の RAG をする&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/semantic-kernel-dotnet-rag01"&gt;https://zenn.dev/microsoft/articles/semantic-kernel-dotnet-rag01&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Semantic Kernel でベクトル検索を実装し、RAG を実現する方法について。&lt;/p&gt;
-&lt;h3 id="utf-8-simd"&gt;ハッシュ値の検証と UTF-8 と SIMD&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/sator_imaging/articles/9aeba847683711"&gt;https://zenn.dev/sator_imaging/articles/9aeba847683711&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;UTF-8 の16進数文字列のハッシュ値を検証するために直接バイト列に戻す方法について。&lt;/p&gt;
-&lt;h3 id="net-day-ai"&gt;.NET モダナイゼーション Day 〜AI時代に対応する開発の最前線〜&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://msevents.microsoft.com/event?id=2385286970"&gt;https://msevents.microsoft.com/event?id=2385286970&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2025/6/30 (月曜日) 日本マイクロソフト株式会社にて開催される .NET モダナイゼーション Day のイベント。&lt;/p&gt;
-&lt;h3 id="c-semantic-kernel-rag-inmemoryvectorstore"&gt;C# Semantic Kernel で簡単 RAG のサンプル ～InMemoryVectorStore編～&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/semantickernel-dotnet-rag02"&gt;https://zenn.dev/microsoft/articles/semantickernel-dotnet-rag02&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Semantic Kernel で InMemoryVectorStore (インメモリーのベクトルストア) を使った RAG のサンプル実装について。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/microsoft/articles/semantickernel-dotnet-rag01"&gt;C# Semantic Kernel で簡単 RAG のサンプル ～VolatileMemoryStore編～&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="cdotnet-run-file.cs"&gt;【C#】&lt;code&gt;dotnet run file.cs&lt;/code&gt; で実行できるようになるらしい&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/inuinu/articles/dotnet-run-file-cs"&gt;https://zenn.dev/inuinu/articles/dotnet-run-file-cs&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 10 Preview 4 で追加された &lt;code&gt;dotnet run&lt;/code&gt; で C# ファイルを直接実行する機能について。&lt;/p&gt;
-&lt;h3 id="c-gof"&gt;現代C#で学ぶ GoFデザインパターン完全ガイド&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/au/books/a9f90fbb0d5179"&gt;https://zenn.dev/au/books/a9f90fbb0d5179&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;C# を用いて GoF（Gang of Four）デザインパターンを解説したガイドブック。&lt;/p&gt;
-&lt;h3 id="microsoft.extensions.ai-json"&gt;Microsoft.Extensions.AI を使って JSON スキーマを生成する&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/generate-json-schema-w-meai"&gt;https://zenn.dev/microsoft/articles/generate-json-schema-w-meai&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Microsoft.Extensions.AI を使用して C# のクラスから JSON スキーマを生成する方法について。&lt;/p&gt;
-&lt;h3 id="jetbrains-ai-assistant-now-in-visual-studio-code-the-jetbrains-blog"&gt;JetBrains AI Assistant – Now in Visual Studio Code | The JetBrains Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/ai/2025/05/jetbrains-ai-assistant-now-in-visual-studio-code/"&gt;https://blog.jetbrains.com/ai/2025/05/jetbrains-ai-assistant-now-in-visual-studio-code/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;JetBrains AI Assistant が Visual Studio Code でパブリックプレビューリリースとして利用可能になった。&lt;/p&gt;
-&lt;h2 id="section-4"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="windowssuperwhispernotonote"&gt;Windowsでもsuperwhisperが使いたい！音声要約アプリ「NotoNote」を公開しました&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/amamagi/articles/596cc50b7a57c1"&gt;https://zenn.dev/amamagi/articles/596cc50b7a57c1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET で実装されたオープンソースの OpenAI の Wisper を使用した音声のテキスト書き起こしツール。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/amamagi/NoteNote"&gt;amamagi/NoteNote: Speech-to-Refined-Text&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="kitsune8848dependencyvisualizer-cslnui"&gt;kitsune8848/DependencyVisualizer: C#のslnファイルからクラス図を生成するUIアプリ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/kitsune8848/DependencyVisualizer/tree/main"&gt;https://github.com/kitsune8848/DependencyVisualizer/tree/main&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ソリューションを解析してクラス図を作成するツール。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://qiita.com/sh126sh125/items/78846d2b3ef31ccb7aa8"&gt;ありそうでなかった？C#のクラス図を自動生成するUIツールDependencyVisualizerを作った - Qiita&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="nuskey8blassharp-blaslapack-bindings-for.net-openblas-mkl-apple-accelerate"&gt;nuskey8/BlasSharp: BLAS/LAPACK bindings for .NET (OpenBLAS, MKL, Apple Accelerate)&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/nuskey8/BlasSharp"&gt;https://github.com/nuskey8/BlasSharp&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;BLAS/LAPACK (線形代数計算) の .NET 向けバインディング。OpenBLAS, MKL, Apple Accelerate といった最適化されたライブラリーをサポートしている。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/nuskey/articles/library-blassharp"&gt;【C#】BlasSharp - .NET向けのBLAS/LAPACKバインディング&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
