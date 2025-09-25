@@ -7,9 +7,141 @@
 	</author>
 	<link rel="self" href="https://weekref.net/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2025-09-17T09:38:25Z</updated>
+	<updated>2025-09-25T07:31:27Z</updated>
 	<logo>https://weekref.net/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
+	<entry>
+		<id>https://weekref.net/2025/09/25/updates</id>
+		<title>2025-09-25: Trusted Publishing on NuGet.org, XAML Live Preview in Visual Studio for .NET MAUI</title>
+		<author>
+			<name>Mayuki Sawatari</name>
+		</author>
+		<link href="https://weekref.net/2025/09/25/updates" />
+		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
+		<updated>2025-09-25T00:00:00Z</updated>
+		<content>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="new-trusted-publishing-enhances-security-on-nuget.org.net-blog"&gt;New Trusted Publishing enhances security on NuGet.org - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/enhanced-security-is-here-with-the-new-trust-publishing-on-nuget-org/"&gt;https://devblogs.microsoft.com/dotnet/enhanced-security-is-here-with-the-new-trust-publishing-on-nuget-org/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="enhancements-to-xaml-live-preview-in-visual-studio-for.net-maui-visual-studio-blog"&gt;Enhancements to XAML Live Preview in Visual Studio for .NET MAUI - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/enhancements-to-xaml-live-preview-in-visual-studio-for-net-maui/"&gt;https://devblogs.microsoft.com/visualstudio/enhancements-to-xaml-live-preview-in-visual-studio-for-net-maui/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="what-android-16-kb-page-size-requirement-means-for.net-developers"&gt;What Android 16 KB Page Size Requirement Means for .NET Developers&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://platform.uno/blog/what-android-16-kb-page-size-requirement-means-for-net-developers/"&gt;https://platform.uno/blog/what-android-16-kb-page-size-requirement-means-for-net-developers/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="more-updates-and-fixes-for-resharper-and-rider-2025.2-the.net-tools-blog"&gt;More Updates and Fixes for ReSharper and Rider 2025.2 | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2025/09/18/resharper-rider-2025-2-2/"&gt;https://blog.jetbrains.com/dotnet/2025/09/18/resharper-rider-2025-2-2/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="getting-the-most-out-of-mcp-in-visual-studio-with-prompts-resources-and-sampling-visual-studio-blog"&gt;Getting the most out of MCP in Visual Studio with Prompts, Resources, and Sampling - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/mcp-prompts-resources-sampling/"&gt;https://devblogs.microsoft.com/visualstudio/mcp-prompts-resources-sampling/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="public-preview-azure-functions.net-10-support-azure-updates-microsoft-azure"&gt;Public Preview: Azure Functions .NET 10 support | Azure updates | Microsoft Azure&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://azure.microsoft.com/en-us/updates?id=503134"&gt;https://azure.microsoft.com/en-us/updates?id=503134&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-1"&gt;リリース&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/aws/aws-sdk-net"&gt;aws/aws-sdk-net&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1125.0"&gt;3.7.1125.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1126.0"&gt;3.7.1126.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1127.0"&gt;3.7.1127.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1128.0"&gt;3.7.1128.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1129.0"&gt;3.7.1129.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1130.0"&gt;3.7.1130.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.93.0"&gt;4.0.93.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.94.0"&gt;4.0.94.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.95.0"&gt;4.0.95.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.96.0"&gt;4.0.96.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.97.0"&gt;4.0.97.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.98.0"&gt;4.0.98.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Azure/azure-sdk-for-net"&gt;Azure/azure-sdk-for-net&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Communication.Email_1.0.2"&gt;Azure.Communication.Email_1.0.2&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Communication.Sms_1.0.2"&gt;Azure.Communication.Sms_1.0.2&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Core_1.49.0"&gt;Azure.Core_1.49.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Compute_1.12.0"&gt;Azure.ResourceManager.Compute_1.12.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.DataProtectionBackup_1.7.0"&gt;Azure.ResourceManager.DataProtectionBackup_1.7.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.EventHubs_1.2.1"&gt;Azure.ResourceManager.EventHubs_1.2.1&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.IotFirmwareDefense_1.1.0"&gt;Azure.ResourceManager.IotFirmwareDefense_1.1.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Network_1.12.0"&gt;Azure.ResourceManager.Network_1.12.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Quota_1.2.0"&gt;Azure.ResourceManager.Quota_1.2.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.WorkloadOrchestration_1.0.0"&gt;Azure.ResourceManager.WorkloadOrchestration_1.0.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Blobs_12.25.1"&gt;Azure.Storage.Blobs_12.25.1&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Microsoft.Azure.WebPubSub.AspNetCore_1.5.0"&gt;Microsoft.Azure.WebPubSub.AspNetCore_1.5.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Microsoft.Extensions.Azure_1.13.0"&gt;Microsoft.Extensions.Azure_1.13.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/System.ClientModel_1.7.0"&gt;System.ClientModel_1.7.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/DataDog/dd-trace-dotnet"&gt;DataDog/dd-trace-dotnet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/DataDog/dd-trace-dotnet/releases/tag/v3.27.0"&gt;v3.27.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/googleapis/google-cloud-dotnet"&gt;googleapis/google-cloud-dotnet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Dataproc.V1-5.21.0"&gt;Google.Cloud.Dataproc.V1-5.21.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Spanner-5.2.0"&gt;Google.Cloud.Spanner-5.2.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.TextToSpeech.V1-3.15.0"&gt;Google.Cloud.TextToSpeech.V1-3.15.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Video.LiveStream.V1-1.10.0"&gt;Google.Cloud.Video.LiveStream.V1-1.10.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/JamesNK/Newtonsoft.Json"&gt;JamesNK/Newtonsoft.Json&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/JamesNK/Newtonsoft.Json/releases/tag/13.0.4"&gt;13.0.4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/microsoft/WindowsAppSDK"&gt;microsoft/WindowsAppSDK&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.7.4"&gt;v1.7.4&lt;/a&gt;, &lt;a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.8.1"&gt;v1.8.1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section-2"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="integrating-unity3d-into.net-aspire-with-aspire.unity"&gt;Integrating Unity3D into .NET Aspire with &lt;code&gt;Aspire.Unity&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/dutchskull/integrating-unity3d-into-net-aspire-with-aspireunity-6lo"&gt;https://dev.to/dutchskull/integrating-unity3d-into-net-aspire-with-aspireunity-6lo&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="exploring-text-to-image-capabilities-in.net.net-blog"&gt;Exploring Text-to-Image capabilities in .NET - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/explore-text-to-image-dotnet/"&gt;https://devblogs.microsoft.com/dotnet/explore-text-to-image-dotnet/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="visual-studio-2026-insiders-using-podman-for-container-development-microsoft-for-developers"&gt;Visual Studio 2026 Insiders: Using Podman for Container Development - Microsoft for Developers&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://developer.microsoft.com/blog/visual-studio-2026-insiders-using-podman-for-container-development"&gt;https://developer.microsoft.com/blog/visual-studio-2026-insiders-using-podman-for-container-development&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="indexers-in-c-performance-comparison-internals"&gt;Indexers in C#: Performance comparison &amp;amp; internals&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;pavel.romash/indexers-in-c-performance-comparison-internals-0d88885ac780"&gt;https://medium.com/&amp;#64;pavel.romash/indexers-in-c-performance-comparison-internals-0d88885ac780&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="validationproblemdetailsfluentvalidation"&gt;ValidationProblemDetailsとFluentValidationを使ってみた＋クライアント側も&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/semicolon/articles/281cf5eb0e30ac"&gt;https://zenn.dev/semicolon/articles/281cf5eb0e30ac&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="build-an-mcp-server-to-run-benchmarkdotnet-from-chat"&gt;Build an MCP Server to Run BenchmarkDotNet from Chat&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://amarozka.dev/mcp-server-dotnet-benchmarkdotnet-from-chat/"&gt;https://amarozka.dev/mcp-server-dotnet-benchmarkdotnet-from-chat/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="questioning-convention-c-as-a-shortcut-to-startup-velocity"&gt;Questioning Convention: C# as a Shortcut to Startup Velocity&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.infoq.com/presentations/c-sharp-startup/"&gt;https://www.infoq.com/presentations/c-sharp-startup/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="c10cloud-run"&gt;C#の理解が10年古い、と言われたのでCloud Runにデプロイしてみた&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/koduki/articles/dotnet20250920"&gt;https://zenn.dev/koduki/articles/dotnet20250920&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="microsoft.extensions.ai-mcpchatclient"&gt;Microsoft.Extensions.AI でMCPサーバーと連携するChatClientの実装を試す&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/pierusan2010/items/4fb0fcf2714e0f68f87e"&gt;https://qiita.com/pierusan2010/items/4fb0fcf2714e0f68f87e&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="the-gaps-and-richness-of-the.net-ecosystem"&gt;The Gaps and Richness of the .NET Ecosystem&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://platform.uno/blog/the-gaps-and-richness-of-the-net-ecosystem/"&gt;https://platform.uno/blog/the-gaps-and-richness-of-the-net-ecosystem/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="building-and-publishing-a.net-aspire-hosting-extension-for-webhook-testing-rebecca-powell"&gt;Building and Publishing a .NET Aspire Hosting Extension for Webhook Testing | rebecca powell&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://rebecca-powell.com/posts/aspire-hosting-webhook-tester-extension/"&gt;https://rebecca-powell.com/posts/aspire-hosting-webhook-tester-extension/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="announcing-jetbrains.net-days-online-2025-the.net-tools-blog"&gt;Announcing: JetBrains .NET Days Online 2025 | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2025/09/18/announcing-jetbrains-net-days-online-2025/"&gt;https://blog.jetbrains.com/dotnet/2025/09/18/announcing-jetbrains-net-days-online-2025/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="private"&gt;別インスタンスでもprivateメンバにアクセスできる理由&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/sebayashi-tomoya/items/0aa1d06c842eb9160084"&gt;https://qiita.com/sebayashi-tomoya/items/0aa1d06c842eb9160084&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="sleep-pc-a.net-native-aot-tool-to-make-windows-sleep-after-a-timeout"&gt;sleep-pc: a .NET Native AOT tool to make Windows sleep after a timeout&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/sleep-pc-a-dotnet-tool-to-make-windows-sleep-after-a-timeout/"&gt;https://andrewlock.net/sleep-pc-a-dotnet-tool-to-make-windows-sleep-after-a-timeout/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="socketshttphandler-http2"&gt;SocketsHttpHandler で HTTP/2 の双方向ストリームを使用した際にハングする問題&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/mayuki/articles/40bf61f23cf97a"&gt;https://zenn.dev/mayuki/articles/40bf61f23cf97a&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="chttpclient"&gt;【C#】HttpClientとその設定方法を理解しよう&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/arika/articles/20250918-httpclient-what-is-it"&gt;https://zenn.dev/arika/articles/20250918-httpclient-what-is-it&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="cvelopack"&gt;【C#】実行ファイルの自動アップデートを提供するVelopackを試してみる&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/arika/articles/20250916-try-velopack"&gt;https://zenn.dev/arika/articles/20250916-try-velopack&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="semantickernelpostgresql"&gt;SemanticKernelとPostgreSQL&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/yakumo3/articles/e5e389dca43db1"&gt;https://zenn.dev/yakumo3/articles/e5e389dca43db1&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="cvllmaspireai"&gt;【C#】vLLMをAspireで動かしてAIを使える開発環境を作ってみる&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/arika/articles/20250915-vllm-with-aspire"&gt;https://zenn.dev/arika/articles/20250915-vllm-with-aspire&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="measuring-ui-responsiveness-in-resharper"&gt;Measuring UI responsiveness in Resharper&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://minidump.net/measuring-ui-responsiveness/"&gt;https://minidump.net/measuring-ui-responsiveness/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="cbackgroundservicedi"&gt;【C#】BackgroundServiceをDIして他からデータを取得したい&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/arika/articles/20250917-how-background-connect"&gt;https://zenn.dev/arika/articles/20250917-how-background-connect&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="runtime-async-qiita"&gt;Runtime Async ― 高性能な非同期の時代へ - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/hez2010/items/4aeb16b943b01c10c4f7"&gt;https://qiita.com/hez2010/items/4aeb16b943b01c10c4f7&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="prompt-files-and-instructions-files-explained.net-blog"&gt;Prompt Files and Instructions Files Explained - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/prompt-files-and-instructions-files-explained/"&gt;https://devblogs.microsoft.com/dotnet/prompt-files-and-instructions-files-explained/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="the-early-access-program-for-rider-2025.3-is-now-open-the.net-tools-blog"&gt;The Early Access Program for Rider 2025.3 Is Now Open! | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2025/09/17/the-early-access-program-for-rider-2025-3/"&gt;https://blog.jetbrains.com/dotnet/2025/09/17/the-early-access-program-for-rider-2025-3/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="the-early-access-program-for-resharper-and.net-tools-2025.3-is-here-the.net-tools-blog"&gt;The Early Access Program for ReSharper and .NET Tools 2025.3 Is Here! | The .NET Tools Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2025/09/17/the-early-access-program-for-resharper-and-net-tools-2025-3/"&gt;https://blog.jetbrains.com/dotnet/2025/09/17/the-early-access-program-for-resharper-and-net-tools-2025-3/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-3"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h3 id="nuskey8cssqlite-extremely-fast-robust-and-lightweight-sqlite-bindings-for.net-and-unity"&gt;nuskey8/CsSqlite: Extremely fast, robust, and lightweight SQLite bindings for .NET and Unity&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/nuskey8/CsSqlite"&gt;https://github.com/nuskey8/CsSqlite&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://zenn.dev/nuskey/articles/library-cssqlite"&gt;【C#】CsSqlite - .NET / Unity向けのハイパフォーマンスなSQLiteライブラリ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section-4"&gt;サイト、ドキュメントなど&lt;/h2&gt;
+&lt;h3 id="unsafe-code-best-practices.net"&gt;Unsafe code best practices - .NET&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/dotnet/standard/unsafe-code/best-practices"&gt;https://learn.microsoft.com/en-us/dotnet/standard/unsafe-code/best-practices&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="section-5"&gt;ツイート&lt;/h3&gt;
+&lt;!-- https://x.com/egorbo/status/1969039241020682728?s=12&amp;t=ggvrrZ7oLogHyNoIGNgjbw --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;We&amp;#39;ve just published &amp;quot;Unsafe C# code best (worst) practices&amp;quot; article - a set of 25 good/bad examples: &lt;a href="https://t.co/M4647kqxKY"&gt;https://t.co/M4647kqxKY&lt;/a&gt; Let&amp;#39;s crash productions in style together! 🧐 &lt;a href="https://t.co/sjfSD3ek3g"&gt;pic.twitter.com/sjfSD3ek3g&lt;/a&gt;&lt;/p&gt;&amp;mdash; EgorBo (&amp;#64;EgorBo) &lt;a href="https://twitter.com/EgorBo/status/1969039241020682728?ref_src=twsrc%5Etfw"&gt;September 19, 2025&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/sc
+</content>
+		<summary>.NET 関連の情報をほぼ週刊配信</summary>
+	</entry>
 	<entry>
 		<id>https://weekref.net/2025/09/17/updates</id>
 		<title>2025-09-17: .NET STS releases supported for 24 months, Performance Improvements in .NET 10</title>
@@ -1588,123 +1720,6 @@ _ Entity Framework Core&lt;/li&gt;
 &lt;h3 id="cysharpaiapitracer-a-reverse-proxy-for-local-development-environments-that-intercepts-requests-to-ai-services-like-openai-anthropic-etc.allowing-you-to-trace-request-and-response-content"&gt;Cysharp/AIApiTracer: A reverse proxy for local development environments that intercepts requests to AI services like OpenAI, Anthropic, etc.., allowing you to trace request and response content.&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/Cysharp/AIApiTracer"&gt;https://github.com/Cysharp/AIApiTracer&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;AI サービスへの API リクエストをトレースするためのリバースプロキシ。&lt;/p&gt;
-</content>
-		<summary>.NET 関連の情報をほぼ週刊配信</summary>
-	</entry>
-	<entry>
-		<id>https://weekref.net/2025/07/09/updates</id>
-		<title>2025-07-09: .NET 8.0.18 &amp; .NET 9.0.7, AutoMapper &amp; MediatR Commercial Editions</title>
-		<author>
-			<name>Mayuki Sawatari</name>
-		</author>
-		<link href="https://weekref.net/2025/07/09/updates" />
-		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
-		<updated>2025-07-09T00:00:00Z</updated>
-		<content>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="net-and.net-framework-july-2025-servicing-releases-updates.net-blog"&gt;.NET and .NET Framework July 2025 servicing releases updates - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-july-2025-servicing-updates/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-july-2025-servicing-updates/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET と .NET Framework の 2025 年 7 月のサービス リリース更新プログラムについて。&lt;/p&gt;
-&lt;p&gt;.NET 8.0.18 と .NET 9.0.7 がリリースされ、いくつかの不具合の修正と改善が含まれている。セキュリティーに関する修正は含まれない。.NET Framework の更新はリリースされていない。&lt;/p&gt;
-&lt;h3 id="automapper-and-mediatr-commercial-editions-launch-today"&gt;AutoMapper and MediatR Commercial Editions Launch Today&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.jimmybogard.com/automapper-and-mediatr-commercial-editions-launch-today/"&gt;https://www.jimmybogard.com/automapper-and-mediatr-commercial-editions-launch-today/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;AutoMapper と MediatR の商用版がリリースされた。&lt;/p&gt;
-&lt;p&gt;これらのライブラリーは元々オープンソースのゆるいライセンスで提供されていたが、それぞれ今回リリースされたバージョンからは有償ライセンスか Reciprocal Public License (強いコピーレフト) のいずれかを選択する必要がある。&lt;/p&gt;
-&lt;p&gt;記事では価格設定や既存のバージョンについてや、社名についてなどに触れている。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/LuckyPennySoftware/AutoMapper/releases/tag/v15.0.0"&gt;Release v15.0.0 · LuckyPennySoftware/AutoMapper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/LuckyPennySoftware/MediatR/releases/tag/v13.0.0"&gt;Release v13.0.0 · LuckyPennySoftware/MediatR&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="section-1"&gt;リリース&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/aws/aws-sdk-net"&gt;aws/aws-sdk-net&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1075.0"&gt;3.7.1075.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1076.0"&gt;3.7.1076.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1077.0"&gt;3.7.1077.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.43.0"&gt;4.0.43.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.44.0"&gt;4.0.44.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.45.0"&gt;4.0.45.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Azure/azure-sdk-for-net"&gt;Azure/azure-sdk-for-net&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning_1.2.0"&gt;Azure.Provisioning_1.2.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.ArizeAIObservabilityEval_1.0.0"&gt;Azure.ResourceManager.ArizeAIObservabilityEval_1.0.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Avs_1.5.0"&gt;Azure.ResourceManager.Avs_1.5.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.CarbonOptimization_1.0.0"&gt;Azure.ResourceManager.CarbonOptimization_1.0.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Compute_1.10.0"&gt;Azure.ResourceManager.Compute_1.10.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.LambdaTestHyperExecute_1.0.0"&gt;Azure.ResourceManager.LambdaTestHyperExecute_1.0.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Network_1.11.1"&gt;Azure.ResourceManager.Network_1.11.1&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Storage_1.4.3"&gt;Azure.ResourceManager.Storage_1.4.3&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.StorageActions_1.0.0"&gt;Azure.ResourceManager.StorageActions_1.0.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/System.ClientModel_1.5.0"&gt;System.ClientModel_1.5.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/CommunityToolkit/Maui"&gt;CommunityToolkit/Maui&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/CommunityToolkit/Maui/releases/tag/12.1.0"&gt;12.1.0&lt;/a&gt;, &lt;a href="https://github.com/CommunityToolkit/Maui/releases/tag/3.0.1-camera"&gt;3.0.1-camera&lt;/a&gt;, &lt;a href="https://github.com/CommunityToolkit/Maui/releases/tag/6.1.1-mediaelement"&gt;6.1.1-mediaelement&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/DataDog/dd-trace-dotnet"&gt;DataDog/dd-trace-dotnet&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/DataDog/dd-trace-dotnet/releases/tag/v3.20.1"&gt;v3.20.1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/domaindrivendev/Swashbuckle.AspNetCore"&gt;domaindrivendev/Swashbuckle.AspNetCore&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v9.0.2"&gt;v9.0.2&lt;/a&gt;, &lt;a href="https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v9.0.3"&gt;v9.0.3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/googleapis/google-cloud-dotnet"&gt;googleapis/google-cloud-dotnet&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.AIPlatform.V1-3.37.0"&gt;Google.Cloud.AIPlatform.V1-3.37.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Bigtable.V2-3.19.0"&gt;Google.Cloud.Bigtable.V2-3.19.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Dataplex.V1-3.9.0"&gt;Google.Cloud.Dataplex.V1-3.9.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Dataproc.V1-5.20.0"&gt;Google.Cloud.Dataproc.V1-5.20.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Dialogflow.Cx.V3-2.24.0"&gt;Google.Cloud.Dialogflow.Cx.V3-2.24.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.PubSub.V1-3.27.0"&gt;Google.Cloud.PubSub.V1-3.27.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.SecurityCenter.V2-1.2.0"&gt;Google.Cloud.SecurityCenter.V2-1.2.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="section-2"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="unpacking-zip-folders-into-windows-long-file-paths"&gt;Unpacking Zip Folders into Windows Long File Paths&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://weblog.west-wind.com/posts/2025/Jun/22/Unpacking-Zip-Folders-into-Windows-Long-File-Paths"&gt;https://weblog.west-wind.com/posts/2025/Jun/22/Unpacking-Zip-Folders-into-Windows-Long-File-Paths&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET の ZipFile を使用して Windows で長いパスを持つ ZIP ファイルを展開する方法について。&lt;/p&gt;
-&lt;h3 id="visual-studio"&gt;Visual Studio開発効率爆上げ！キーボードショートカット &amp;amp; スニペット完全ガイド&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/Sakai_path/items/0b159c62cc7440b258ed"&gt;https://qiita.com/Sakai_path/items/0b159c62cc7440b258ed&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio のキーボードショートカットとスニペットの使い方をまとめた記事。&lt;/p&gt;
-&lt;h3 id="aspireefcoreaspiredb"&gt;【Aspire】EfCore+Aspireでコンテナ上のDBに対してマイグレーション実施&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/KM_20005/items/69e9264c835f2bd05e63"&gt;https://qiita.com/KM_20005/items/69e9264c835f2bd05e63&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET Aspire と Entity Framework Core を使用したアプリケーションでコンテナー上のデータベースに対してマイグレーションを実行する方法について。&lt;/p&gt;
-&lt;h3 id="exploring-the-features-of-dotnet-run-app.cs-exploring-the.net-10-preview-part-1"&gt;Exploring the features of dotnet run app.cs: Exploring the .NET 10 preview - Part 1&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/exploring-dotnet-10-preview-features-1-exploring-the-dotnet-run-app.cs/"&gt;https://andrewlock.net/exploring-dotnet-10-preview-features-1-exploring-the-dotnet-run-app.cs/&lt;/a&gt;
-.NET 10 Preview で導入された &lt;code&gt;dotnet run app.cs&lt;/code&gt; についての解説。&lt;/p&gt;
-&lt;p&gt;基本的な使用方法やプロジェクトのカスタマイズ、パッケージのリファレンスやどのように使うのかといったことについて。&lt;/p&gt;
-&lt;h3 id="behind-the-scenes-of-dotnet-run-app.cs-exploring-the.net-10-preview-part-2"&gt;Behind the scenes of dotnet run app.cs: Exploring the .NET 10 preview - Part 2&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/exploring-dotnet-10-preview-features-2-behind-the-scenes-of-dotnet-run-app.cs/"&gt;https://andrewlock.net/exploring-dotnet-10-preview-features-2-behind-the-scenes-of-dotnet-run-app.cs/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 10 Preview で導入された &lt;code&gt;dotnet run app.cs&lt;/code&gt; を実行したときに実際にビルドするために行われている処理についての詳細な解説。&lt;/p&gt;
-&lt;h3 id="github-copilot-agent-mode-mcp-tools-prompts-resources"&gt;GitHub Copilot Agent Mode の MCP の Tools, Prompts, Resources の使い方&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/github-copilot-mcp"&gt;https://zenn.dev/microsoft/articles/github-copilot-mcp&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;GitHub Copilot Agent Mode での MCP の Tools, Prompts, Resources の使用例を MCP サーバーの実装を交えて紹介。&lt;/p&gt;
-&lt;h3 id="entityframework-core"&gt;EntityFramework Coreで使用できる属性&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/omt_teruki/items/d97b5fa10e81bfc210f9"&gt;https://qiita.com/omt_teruki/items/d97b5fa10e81bfc210f9&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Entity Framework Core でテーブル定義などに使用できる属性についてのまとめ。&lt;/p&gt;
-&lt;h3 id="asp.net-core-taghelpers-underrated-feature-of-an-underrated-framework"&gt;ASP.NET Core TagHelpers: underrated feature of an underrated framework&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://alexanderzeitler.com/articles/asp-net-core-taghelpers-view-composition-vsa-vertical-slices-architecture-underrated-feature-underrated-framework/"&gt;https://alexanderzeitler.com/articles/asp-net-core-taghelpers-view-composition-vsa-vertical-slices-architecture-underrated-feature-underrated-framework/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ASP.NET Core のタグヘルパーについて。記事では基本的な使い方に加えて、Razor によるビューとの統合方法について触れている。&lt;/p&gt;
-&lt;h3 id="biginteger.greatestcommondivisor-orz-qiita"&gt;BigInteger.GreatestCommonDivisor() の高速化の試み【失敗 orz】 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/rougemeilland/items/cd16111d3abd50caa0e9"&gt;https://qiita.com/rougemeilland/items/cd16111d3abd50caa0e9&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;BigInteger.GreatestCommonDivisor の高速化を試みたという話。&lt;/p&gt;
-&lt;h3 id="local-ai.net-alttext-magic-in-one-c-script.net-blog"&gt;Local AI + .NET = AltText Magic in One C# Script - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/alttext-generator-csharp-local-models/"&gt;https://devblogs.microsoft.com/dotnet/alttext-generator-csharp-local-models/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ローカル AI モデルと .NET を使用して代替テキスト(alt)を生成する方法の紹介。記事では Ollama と &lt;code&gt;dotnet run&lt;/code&gt; を使用した例を紹介している。&lt;/p&gt;
-&lt;h3 id="mrubycs-0.10.0-hadashikick-land"&gt;2025-06 MRubyCS 0.10.0! - HADASHIKICK LAND&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://hadashikick.land/2025/06/mrubycs"&gt;https://hadashikick.land/2025/06/mrubycs&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;mruby を .NET で使用するためのライブラリー MRubyCS のリリースとライブラリーについての解説。&lt;/p&gt;
-&lt;h3 id="virtualize-muddatagrid-scrollto-mudblazor"&gt;Virtualize された MudDataGrid で ScrollTo を行う (MudBlazor)&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/tetr4lab/articles/94480a271f0d8d"&gt;https://zenn.dev/tetr4lab/articles/94480a271f0d8d&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;MudBlazor の仮想化された MudDataGrid コンポーネントでコードによるスクロールを行う方法について。&lt;/p&gt;
-&lt;h2 id="section-3"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="sator-imagingdotnettool-staticimport-dotnet-cli-tool-to-migrate-files-from-another-project-github-or-public-website"&gt;sator-imaging/DotnetTool-StaticImport: dotnet cli tool to migrate file(s) from another project, github or public website.&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/sator-imaging/DotnetTool-StaticImport"&gt;https://github.com/sator-imaging/DotnetTool-StaticImport&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;外部のリポジトリーやプロジェクトのソースコードを取り込むツール。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/sator_imaging/articles/7b1df223d17d89"&gt;外部モジュールの静的リンクツール&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="akeit0similarity-csharp"&gt;Akeit0/similarity-csharp&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/Akeit0/similarity-csharp"&gt;https://github.com/Akeit0/similarity-csharp&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Roslyn を使用した C# の類似コードの検出ツール。&lt;/p&gt;
 </content>
 		<summary>.NET 関連の情報をほぼ週刊配信</summary>
 	</entry>
