@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Fri, 21 Nov 2025 06:19:13 GMT</pubDate>
-		<lastBuildDate>Fri, 21 Nov 2025 06:19:13 GMT</lastBuildDate>
+		<pubDate>Fri, 21 Nov 2025 06:30:00 GMT</pubDate>
+		<lastBuildDate>Fri, 21 Nov 2025 06:30:00 GMT</lastBuildDate>
 		<item>
 			<title>2025-11-21: C# 14 &amp; F# 10, Post-Quantum Cryptography in .NET, Uno Platform 6.4</title>
 			<link>https://weekref.net/2025/11/21/updates</link>
@@ -148,10 +148,6 @@
 &lt;p&gt;&lt;a href="https://tech.guitarrapc.com/entry/2025/11/18/013000"&gt;https://tech.guitarrapc.com/entry/2025/11/18/013000&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="fileopenpicker"&gt;2 種類の FileOpenPicker&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://zenn.dev/shinta0806/articles/file-open-picker"&gt;https://zenn.dev/shinta0806/articles/file-open-picker&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net-10blazor"&gt;.NET 10のBlazorの期待の新機能&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/poipoionigiri/articles/652c52626eb54f"&gt;https://zenn.dev/poipoionigiri/articles/652c52626eb54f&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net-10blazor-1"&gt;.NET 10のBlazorの期待の新機能&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://speakerdeck.com/htkym/dot-net-10noblazornoqi-dai-noxin-ji-neng"&gt;https://speakerdeck.com/htkym/dot-net-10noblazornoqi-dai-noxin-ji-neng&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="caspirecli-qiita"&gt;【C#】AspireCLIの導入と基本的な使い方 - Qiita&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://qiita.com/KM_20005/items/808d46799ff785b73786"&gt;https://qiita.com/KM_20005/items/808d46799ff785b73786&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="file-based-apps-visual-studio-code"&gt;file-based apps を Visual Studio Code でデバッグする&lt;/h3&gt;
@@ -160,6 +156,9 @@
 &lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/a-first-look-at-the-all%E2%80%91new-ux-in-visual-studio-2026/"&gt;https://devblogs.microsoft.com/visualstudio/a-first-look-at-the-all%e2%80%91new-ux-in-visual-studio-2026/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="visual-studio-2026"&gt;Visual Studio 2026 のコード補完の適用キーを変えたい&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://blog.azure.moe/2025/11/14/visual-studio-2026-%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%89%E8%A3%9C%E5%AE%8C%E3%81%AE%E9%81%A9%E7%94%A8%E3%82%AD%E3%83%BC%E3%82%92%E5%A4%89%E3%81%88%E3%81%9F%E3%81%84/"&gt;https://blog.azure.moe/2025/11/14/visual-studio-2026-%e3%81%ae%e3%82%b3%e3%83%bc%e3%83%89%e8%a3%9c%e5%ae%8c%e3%81%ae%e9%81%a9%e7%94%a8%e3%82%ad%e3%83%bc%e3%82%92%e5%a4%89%e3%81%88%e3%81%9f%e3%81%84/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-10blazor"&gt;.NET 10のBlazorの期待の新機能&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/poipoionigiri/articles/652c52626eb54f"&gt;https://zenn.dev/poipoionigiri/articles/652c52626eb54f&lt;/a&gt;&lt;/p&gt;
+&lt;script defer class="speakerdeck-embed" data-id="3ec689e72718496982ffc9465b34661f" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
 &lt;h2 id="section-3"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
 &lt;h3 id="boolhaknserfproject-serf-port-to.net-c"&gt;BoolHak/NSerfProject: Serf port to .net C#&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/BoolHak/NSerfProject?tab=readme-ov-file"&gt;https://github.com/BoolHak/NSerfProject?tab=readme-ov-file&lt;/a&gt;&lt;/p&gt;
