@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2026-01-22: Copilot SDK Technical Preview, Orleans 10.0.0 - WeekRef.NET</title>
+
+  <link rel="canonical" href="https://weekref.net/2026/01/22/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2026-01-22: Copilot SDK Technical Preview, Orleans 10.0.0 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://weekref.net/2026/01/22/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2026-01-22: Copilot SDK Technical Preview, Orleans 10.0.0
+          </h1>
+              <div class="meta">Published on Thursday, 22 January 2026</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="copilot-sdk-in-technical-preview-github-changelog">Copilot SDK in technical preview - GitHub Changelog</h3>
+<p><a href="https://github.blog/changelog/2026-01-14-copilot-sdk-in-technical-preview/">https://github.blog/changelog/2026-01-14-copilot-sdk-in-technical-preview/</a></p>
+<p>GitHub Copilot SDK がテクニカルプレビューとして公開された。</p>
+<p>SDK を利用することで Copilot CLI と同様なマルチターン会話やツール実行といった AI を活用するアプリケーションの実装が可能となる。SDK は .NET, Node.js, Python, Go で利用可能。</p>
+<h3 id="release-v10.0.0-dotnetorleans">Release v10.0.0 · dotnet/orleans</h3>
+<p><a href="https://github.com/dotnet/orleans/releases/tag/v10.0.0">https://github.com/dotnet/orleans/releases/tag/v10.0.0</a></p>
+<p>Orleans 10.0.0 がリリースされた。</p>
+<p>このバージョンでは .NET 8 および 10 がサポートされ、NATS Stream のサポートや各種改善や修正が含まれている。</p>
+<h2 id="section-1">リリース</h2>
+<ul>
+<li><a href="https://github.com/aws/aws-sdk-net">aws/aws-sdk-net</a>
+<ul>
+<li><a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1204.0">3.7.1204.0</a>, <a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1205.0">3.7.1205.0</a>, <a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1206.0">3.7.1206.0</a>, <a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.172.0">4.0.172.0</a>, <a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.173.0">4.0.173.0</a>, <a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.174.0">4.0.174.0</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/Azure/azure-sdk-for-net">Azure/azure-sdk-for-net</a>
+<ul>
+<li><a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Avs_1.6.0">Azure.ResourceManager.Avs_1.6.0</a>, <a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Compute_1.14.0">Azure.ResourceManager.Compute_1.14.0</a>, <a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Microsoft.Azure.WebJobs.Extensions.WebPubSub_1.10.0">Microsoft.Azure.WebJobs.Extensions.WebPubSub_1.10.0</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/CommunityToolkit/Aspire">CommunityToolkit/Aspire</a>
+<ul>
+<li><a href="https://github.com/CommunityToolkit/Aspire/releases/tag/v13.1.1">v13.1.1</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/dotnet/orleans">dotnet/orleans</a>
+<ul>
+<li><a href="https://github.com/dotnet/orleans/releases/tag/v10.0.0">v10.0.0</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/dotnet/SqlClient">dotnet/SqlClient</a>
+<ul>
+<li><a href="https://github.com/dotnet/SqlClient/releases/tag/v6.0.5">v6.0.5</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/googleapis/google-cloud-dotnet">googleapis/google-cloud-dotnet</a>
+<ul>
+<li><a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Compute.V1-3.23.0">Google.Cloud.Compute.V1-3.23.0</a>, <a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Datastore.V1-5.1.0">Google.Cloud.Datastore.V1-5.1.0</a>, <a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Dialogflow.Cx.V3-3.0.0">Google.Cloud.Dialogflow.Cx.V3-3.0.0</a>, <a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.NetApp.V1-1.14.0">Google.Cloud.NetApp.V1-1.14.0</a>, <a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Run.V2-2.19.0">Google.Cloud.Run.V2-2.19.0</a>, <a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Spanner-5.12.0">Google.Cloud.Spanner-5.12.0</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/grpc/grpc-dotnet">grpc/grpc-dotnet</a>
+<ul>
+<li><a href="https://github.com/grpc/grpc-dotnet/releases/tag/v2.76.0">v2.76.0</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/microsoft/CsWin32">microsoft/CsWin32</a>
+<ul>
+<li><a href="https://github.com/microsoft/CsWin32/releases/tag/v0.3.269">v0.3.269</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/open-telemetry/opentelemetry-dotnet">open-telemetry/opentelemetry-dotnet</a>
+<ul>
+<li><a href="https://github.com/open-telemetry/opentelemetry-dotnet/releases/tag/core-1.15.0">core-1.15.0</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/open-telemetry/opentelemetry-dotnet-contrib">open-telemetry/opentelemetry-dotnet-contrib</a>
+<ul>
+<li><a href="https://github.com/open-telemetry/opentelemetry-dotnet-contrib/releases/tag/Exporter.OneCollector-1.15.0">Exporter.OneCollector-1.15.0</a>, <a href="https://github.com/open-telemetry/opentelemetry-dotnet-contrib/releases/tag/Instrumentation.AspNet-1.15.0">Instrumentation.AspNet-1.15.0</a>, <a href="https://github.com/open-telemetry/opentelemetry-dotnet-contrib/releases/tag/Instrumentation.AspNetCore-1.15.0">Instrumentation.AspNetCore-1.15.0</a>, <a href="https://github.com/open-telemetry/opentelemetry-dotnet-contrib/releases/tag/Instrumentation.AWS-1.15.0">Instrumentation.AWS-1.15.0</a>, <a href="https://github.com/open-telemetry/opentelemetry-dotnet-contrib/releases/tag/Instrumentation.Http-1.15.0">Instrumentation.Http-1.15.0</a>, <a href="https://github.com/open-telemetry/opentelemetry-dotnet-contrib/releases/tag/Instrumentation.Runtime-1.15.0">Instrumentation.Runtime-1.15.0</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="section-2">アーティクル、スライドなど</h2>
+<h3 id="microsoft-365-agents-sdk">Microsoft 365 Agents SDK でプロアクティブ メッセージを送信する</h3>
+<p><a href="https://zenn.dev/karamem0/articles/2026_01_20_180000">https://zenn.dev/karamem0/articles/2026_01_20_180000</a></p>
+<p>Microsoft 365 Agents SDK を使用して Bot Framework のようなプロアクティブなメッセージ送信を行う方法について。</p>
+<h3 id="cmcpweather-api-mcppython4">C#でMCP入門（Weather API連携編）- 書籍『MCP入門』のPythonコードを移植する(4)</h3>
+<p><a href="https://zenn.dev/zead/articles/mcp-learning-4">https://zenn.dev/zead/articles/mcp-learning-4</a></p>
+<p>書籍「MCP入門――生成AIアプリ本格開発」の Python によるサンプルコードを C# に移植するシリーズ。</p>
+<h3 id="building-zero-allocation-parsers-in-c.net">Building Zero-Allocation Parsers in C# .NET</h3>
+<p><a href="https://jordansrowles.medium.com/building-zero-allocation-parsers-in-c-net-348ce6d124f1">https://jordansrowles.medium.com/building-zero-allocation-parsers-in-c-net-348ce6d124f1</a></p>
+<p>ref struct/Span を使用したアロケーションをおさえたパーサーを C# で実装する手法について。</p>
+<h3 id="native-aot">Native AOT は実際のアプリでどのくらい速いのか</h3>
+<p><a href="https://zenn.dev/shinta0806/articles/native-aot-speed">https://zenn.dev/shinta0806/articles/native-aot-speed</a></p>
+<p>WinUI 3 アプリケーションを Native AOT でビルドしたときの起動速度の比較を行った結果について。</p>
+<h3 id="net10-blazor-web-app">.NET10 の Blazor Web App で音を鳴らす</h3>
+<p><a href="https://zenn.dev/tetr4lab/articles/2ee77f9920c155">https://zenn.dev/tetr4lab/articles/2ee77f9920c155</a></p>
+<p>Blazor Web App から HTMLAudioElement を使用して音を鳴らす方法について。記事では .NET 10 で導入された JavaScript 側のコンストラクターを呼びだす</p>
+<h3 id="csplit">【C#】文字列のSplitメソッドで空文字を設定した場合の挙動</h3>
+<p><a href="https://zenn.dev/someone7140/articles/0e0024e0cfaa0d">https://zenn.dev/someone7140/articles/0e0024e0cfaa0d</a></p>
+<p>String 型の Split メソッドの区切り文字として空文字を指定した場合の挙動について。</p>
+<h3 id="windows-pc.netlnanoframework-qiita">Windows PCと.NETでもLチカしてみよう(nanoFrameworkの話じゃないよ) - Qiita</h3>
+<p><a href="https://qiita.com/yamaokunousausa/items/79ac9ec01354057318ba">https://qiita.com/yamaokunousausa/items/79ac9ec01354057318ba</a></p>
+<p>Windows 上の .NET アプリケーションから USB-GPIO デバイスを使用して LED を点滅させる (Lチカ) 方法について。</p>
+<h3 id="microsoft.extensions.aiaifunctionchatoptionstools">Microsoft.Extensions.AIで複数のAIFunctionをChatOptionsのToolsに登録する</h3>
+<p><a href="https://zenn.dev/microsoft/articles/ms-extensions-ai-multi-tool">https://zenn.dev/microsoft/articles/ms-extensions-ai-multi-tool</a></p>
+<p>Microsoft.Extensions.AI の ChatOptions の Tools プロパティーに AIFunction を複数登録する際の Tips。</p>
+<h3 id="ctcpclientudpclientsocket">【C#】これからはTcpClient/UdpClientをやめてSocketを直接使おう</h3>
+<p><a href="https://zenn.dev/nuskey/articles/csharp-dont-use-tcpclient">https://zenn.dev/nuskey/articles/csharp-dont-use-tcpclient</a></p>
+<p>モダンな .NET では TCP/UDP を取り扱う際に TcpClient や UdpClient よりも Socket を直接使用したほうが良いとされる理由について。</p>
+<h3 id="netfelicapcsc-apduic-qiita">.NETアプリからFeliCaコマンドではなくPC/SC APDUコマンドで使って交通系ICカードの利用履歴を読み取る - Qiita</h3>
+<p><a href="https://qiita.com/yamaokunousausa/items/4cded2f1e4fbf40b30b3">https://qiita.com/yamaokunousausa/items/4cded2f1e4fbf40b30b3</a></p>
+<p>.NET アプリケーションから交通系 IC カードの利用履歴を読み取る方法について。</p>
+<h3 id="making-foreach-on-an-ienumerable-allocation-free-using-reflection-and-dynamic-methods">Making foreach on an IEnumerable allocation-free using reflection and dynamic methods</h3>
+<p><a href="https://andrewlock.net/making-foreach-on-an-ienumerable-allocation-free-using-reflection-and-dynamic-methods/">https://andrewlock.net/making-foreach-on-an-ienumerable-allocation-free-using-reflection-and-dynamic-methods/</a></p>
+<p>IEnumerable を foreach で列挙する際のアロケーションを抑える方法について。
+記事では自身で実装した以外の struct 型の Enumerator を DynamicMethod を使用して列挙する方法や、.NET 10 での改善についても解説している。</p>
+<h3 id="ccomvtable">C#でCOMインターフェースにvtable+関数ポインタで高速アクセス</h3>
+<p><a href="https://zenn.dev/radian_jp/articles/27886b583439b7">https://zenn.dev/radian_jp/articles/27886b583439b7</a></p>
+<p>COM インターフェースを Runtime Callable Wrapper を使用せずに自前の vtable と関数ポインターで使用する手法について。</p>
+<h3 id="cnugetsbomslsa-tech.guitarrapc.com">C#/NuGetにおけるSBOMとSLSAの状況 - tech.guitarrapc.cóm</h3>
+<p><a href="https://tech.guitarrapc.com/entry/2026/01/17/230000">https://tech.guitarrapc.com/entry/2026/01/17/230000</a></p>
+<p>NuGet における SBOM と SLSA の対応状況と設定/有効化方法についての解説。</p>
+<h2 id="section-3">サイト、ドキュメントなど</h2>
+<h3 id="visual-studio-c.net10">Visual Studioで学ぶ C# プログラミング .NET10対応</h3>
+<p><a href="https://zenn.dev/tsuna_can/books/dotnet10-basic-csharp-programming">https://zenn.dev/tsuna_can/books/dotnet10-basic-csharp-programming</a></p>
+<p>Visual Studio を使用した C# プログラミングの入門書 (Zenn)。</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
