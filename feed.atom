@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="https://weekref.net/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2026-03-05T09:54:03Z</updated>
+	<updated>2026-03-06T14:52:53Z</updated>
 	<logo>https://weekref.net/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -19,7 +19,7 @@
 		<link href="https://weekref.net/2026/03/05/updates" />
 		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
 		<updated>2026-03-05T00:00:00Z</updated>
-		<content>&lt;!--
+		<content type="html">&lt;!--
 # yyyy-MM-dd
 ## 主なトピックス
 ## ヘッドライン
@@ -169,7 +169,7 @@ https://nugetz.dev/
 		<link href="https://weekref.net/2026/02/27/updates" />
 		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
 		<updated>2026-02-27T00:00:00Z</updated>
-		<content>&lt;!--
+		<content type="html">&lt;!--
 # yyyy-MM-dd
 ## 主なトピックス
 ## ヘッドライン
@@ -343,7 +343,7 @@ https://nugetz.dev/
 		<link href="https://weekref.net/2026/02/17/updates" />
 		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
 		<updated>2026-02-17T00:00:00Z</updated>
-		<content>&lt;!--
+		<content type="html">&lt;!--
 # yyyy-MM-dd
 ## 主なトピックス
 ## ヘッドライン
@@ -645,7 +645,7 @@ https://nugetz.dev/
 		<link href="https://weekref.net/2026/02/03/updates" />
 		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
 		<updated>2026-02-03T00:00:00Z</updated>
-		<content>&lt;!--
+		<content type="html">&lt;!--
 # yyyy-MM-dd
 ## 主なトピックス
 ## ヘッドライン
@@ -779,7 +779,7 @@ https://nugetz.dev/
 		<link href="https://weekref.net/2026/01/22/updates" />
 		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
 		<updated>2026-01-22T00:00:00Z</updated>
-		<content>&lt;!--
+		<content type="html">&lt;!--
 # yyyy-MM-dd
 ## 主なトピックス
 ## ヘッドライン
@@ -908,7 +908,7 @@ https://nugetz.dev/
 		<link href="https://weekref.net/2026/01/16/updates" />
 		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
 		<updated>2026-01-16T00:00:00Z</updated>
-		<content>&lt;!--
+		<content type="html">&lt;!--
 # yyyy-MM-dd
 ## 主なトピックス
 ## ヘッドライン
@@ -1091,7 +1091,7 @@ https://nugetz.dev/
 		<link href="https://weekref.net/2026/01/08/updates" />
 		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
 		<updated>2026-01-08T00:00:00Z</updated>
-		<content>&lt;!--
+		<content type="html">&lt;!--
 # yyyy-MM-dd
 ## 主なトピックス
 ## ヘッドライン
@@ -1254,7 +1254,7 @@ https://nugetz.dev/
 		<link href="https://weekref.net/2025/12/22/updates" />
 		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
 		<updated>2025-12-22T00:00:00Z</updated>
-		<content>&lt;!--
+		<content type="html">&lt;!--
 # yyyy-MM-dd
 ## 主なトピックス
 ## ヘッドライン
@@ -1472,7 +1472,7 @@ https://nugetz.dev/
 		<link href="https://weekref.net/2025/12/11/updates" />
 		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
 		<updated>2025-12-11T00:00:00Z</updated>
-		<content>&lt;!--
+		<content type="html">&lt;!--
 # yyyy-MM-dd
 ## 主なトピックス
 ## ヘッドライン
@@ -1684,7 +1684,7 @@ https://nugetz.dev/
 		<link href="https://weekref.net/2025/11/28/updates" />
 		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
 		<updated>2025-11-28T00:00:00Z</updated>
-		<content>&lt;!--
+		<content type="html">&lt;!--
 # yyyy-MM-dd
 ## 主なトピックス
 ## ヘッドライン
