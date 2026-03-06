@@ -18,6 +18,8 @@ jobs:
           dotnet-version: '8.0.x'
       - name: dotnet run
         run: dotnet run --
+      - name: Fix Atom feed content type
+        run: sed -i 's/<content>/<content type="html">/g' ./output/feed.atom
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
