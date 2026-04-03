@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Thu, 02 Apr 2026 10:46:39 GMT</pubDate>
-		<lastBuildDate>Thu, 02 Apr 2026 10:46:39 GMT</lastBuildDate>
+		<pubDate>Fri, 03 Apr 2026 01:58:26 GMT</pubDate>
+		<lastBuildDate>Fri, 03 Apr 2026 01:58:26 GMT</lastBuildDate>
 		<item>
 			<title>2026-04-02: Rider &amp; ReSharper 2026.1, Visual Studio March Update, Path to CoreCLR</title>
 			<link>https://weekref.net/2026/04/02/updates</link>
@@ -41,7 +41,7 @@
 &lt;/ul&gt;
 &lt;h3 id="visual-studio-march-update-build-your-own-custom-agents-visual-studio-blog"&gt;Visual Studio March Update - Build Your Own Custom Agents - Visual Studio Blog&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-march-update-build-your-own-custom-agents/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-march-update-build-your-own-custom-agents/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio の3月のアップデート。Visual Studio Insiders で利用可能となった新しい機能の紹介。&lt;/p&gt;
+&lt;p&gt;Visual Studio の3月のアップデート。Visual Studio 2026 18.4.x で利用可能となった新しい機能の紹介。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;カスタムエージェント&lt;/li&gt;
 &lt;li&gt;エージェントスキル&lt;/li&gt;
