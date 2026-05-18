@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary">
+    <meta name="description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta property="og:description" content=".NET &#x95A2;&#x9023;&#x306E;&#x60C5;&#x5831;&#x3092;&#x307B;&#x307C;&#x9031;&#x520A;&#x914D;&#x4FE1;">
+    <meta name="author" content="Mayuki Sawatari">
+
+  <title>2026-05-14: .NET 11 Preview 4, .NET 10.0.8 &amp; 9.0.16 &amp; 8.0.27, Process API Improvements in .NET 11 - WeekRef.NET</title>
+
+  <link rel="canonical" href="https://weekref.net/2026/05/14/updates">
+
+      <link type="application/atom+xml" rel="alternate" title="WeekRef.NET" href="/feed.atom" />
+  
+  <meta name="application-name" content="WeekRef.NET" />
+  <meta name="msapplication-tooltip" content="WeekRef.NET" />
+  <meta name="msapplication-starturl" content="/" />
+
+  <meta property="og:title" content="2026-05-14: .NET 11 Preview 4, .NET 10.0.8 &amp; 9.0.16 &amp; 8.0.27, Process API Improvements in .NET 11 - WeekRef.NET" />
+    <meta property="og:image" content="/img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://weekref.net/2026/05/14/updates" />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/scss/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/brands.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' data-no-mirror>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' data-no-mirror>
+  
+  <!-- Custom styles for this template -->
+  <link href="/scss/clean-blog.css" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.19.0/themes/prism.css">
+
+  <!-- Lunr search -->
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMZ41K2L9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMZ41K2L9M');
+</script>
+
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">WeekRef.NET</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mayuki/WeekRef.NET">GitHub</a>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+  <header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="post-heading">
+          <h1>
+            2026-05-14: .NET 11 Preview 4, .NET 10.0.8 &amp; 9.0.16 &amp; 8.0.27, Process API Improvements in .NET 11
+          </h1>
+              <div class="meta">Published on Thursday, 14 May 2026</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <div class="container"> 
+    <div class="row">
+      <div id="content" class="col-md-12">  
+        <!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+-->
+<h2 id="section">トピックス</h2>
+<h3 id="net-11-preview-4-is-now-available.net-blog">.NET 11 Preview 4 is now available! - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/dotnet-11-preview-4/">https://devblogs.microsoft.com/dotnet/dotnet-11-preview-4/</a></p>
+<p>.NET 11 Preview 4 がリリースされた。</p>
+<p>このリリースではプロセス API の大きな改善や、ランタイムライブラリーの runtime-async 有効化ビルドなど様々な改善が行われている。</p>
+<ul>
+<li>ライブラリー
+<ul>
+<li>Process API の数年来の最大のアップデート</li>
+<li>Span ベースの Deflate, Zip, GZip エンコーダー/デコーダー API</li>
+<li>浮動小数点の16進数フォーマットと解析</li>
+<li>System.Text.Json の改善</li>
+</ul>
+</li>
+<li>ランタイム
+<ul>
+<li>ランタイムライブラリーの runtime-async 有効化ビルド</li>
+<li>JIT 最適化</li>
+<li>ハードウェア Intrinsics とコード生成</li>
+</ul>
+</li>
+<li>SDK
+<ul>
+<li>dotnet watch の .NET MAUI とモバイルプロジェクトでのデバイス選択</li>
+<li>Fish シェルの補完</li>
+<li>dotnet reference と類似コマンドのカレントディレクトリーフォールバック</li>
+<li>CLI テレメトリーの Application Insights から OpenTelemetry への置き換え</li>
+</ul>
+</li>
+<li>C#
+<ul>
+<li>誤った場所の #! (shebang) ディレクティブの明確な診断</li>
+<li>VBCSCompiler ビルドサーバーでのオプトインコンパイルキャッシュ</li>
+</ul>
+</li>
+<li>ASP.NET Core
+<ul>
+<li>生成された OpenAPI ドキュメントでの HTTP_QUERY</li>
+<li>Blazor での SupplyParameterFromTempData</li>
+<li>サーバー起点の Blazor サーバーサーキットの一時停止</li>
+<li>.NET SDK とともに出荷される MCP サーバーテンプレート</li>
+</ul>
+</li>
+<li>.NET MAUI
+<ul>
+<li>dotnet watch for Android</li>
+<li>dotnet watch for iOS</li>
+</ul>
+</li>
+<li>Entity Framework Core
+<ul>
+<li>SQL Server 2025 での近似ベクター検索</li>
+<li>関連モデルと完全に統合された JSON マッピング</li>
+<li>Temporal 期間プロパティーの CLR プロパティーへのマッピング</li>
+<li>dotnet ef の dotnet-ef.json からのデフォルト値の読み込み</li>
+</ul>
+</li>
+</ul>
+<h3 id="net-and.net-framework-may-2026-servicing-releases-updates.net-blog">.NET and .NET Framework May 2026 servicing releases updates - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-may-2026-servicing-updates/">https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-may-2026-servicing-updates/</a></p>
+<p>.NET および .NET Framework の2026年5月のサービスアップデートについて。</p>
+<p>.NET は .NET 10.0.8, .NET 9.0.16, .NET 8.0.27 がリリースされ、.NET Framework も更新がリリースされている。</p>
+<p>このリリースでは .NET には4件のセキュリティー更新が含まれ、.NET Framework には1件のセキュリティー更新が含まれている。</p>
+<ul>
+<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32177">CVE-2026-32177</a>: ヒープバッファーオーバーフローによる特権昇格 (.NET 8-10, .NET Framework)</li>
+<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-35433">CVE-2026-35433</a>: 不適切な入力検証による昇格</li>
+<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32175">CVE-2026-23175</a>: 細工されたファイルによるファイルの改ざん</li>
+<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42899">CVE-2026-42899</a>:
+ASP.NET Core におけるサービス拒否の脆弱性</li>
+</ul>
+<h3 id="process-api-improvements-in.net-11.net-blog">Process API Improvements in .NET 11 - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/process-api-improvements-in-dotnet-11/">https://devblogs.microsoft.com/dotnet/process-api-improvements-in-dotnet-11/</a></p>
+<p>.NET 11 で大幅に強化された Process API についての詳しい解説。</p>
+<ul>
+<li>Process.RunAndCaptureText[Async]</li>
+<li>Process.Run[Async]</li>
+<li>Process.StartAndForget</li>
+<li>Process.ReadAllText/Bytes/Lines[Async]</li>
+<li>ProcessStartInfo.Standard[Input/Output/Error]Handle</li>
+<li>ProcessStartInfor.InheritedHandles</li>
+<li>ProcessStartInfo.KillOnParentExit</li>
+<li>ProcessStartInfo.StartDetached</li>
+<li>SafeProcessHandle.Start/WaitForExit/Kill/Signal</li>
+<li>Process.ExitStatus</li>
+<li>File.OpenNullHandle()</li>
+<li>SafeFilehandle.CreateAnonymousPipe</li>
+<li>Console.OpenStandard[Input/Output/Error]Handle()</li>
+<li>SafeFileHandle.Type</li>
+</ul>
+<h3 id="net-maui-moves-to-coreclr-in.net-11.net-blog">.NET MAUI Moves to CoreCLR in .NET 11 - .NET Blog</h3>
+<p><a href="https://devblogs.microsoft.com/dotnet/dotnet-maui-moves-to-coreclr-in-dotnet-11/">https://devblogs.microsoft.com/dotnet/dotnet-maui-moves-to-coreclr-in-dotnet-11/</a></p>
+<p>.NET MAUI が .NET 11 で CoreCLR に移行することについて。</p>
+<p>今まで Mono で動作していたプラットフォーム Android, iOS, Mac Catalyst, tvOS が CoreCLR に移行する。Blazor　WebAssembly は引き続き Mono で動作し、それ以外のプラットフォームもオプトバックで Mono に戻すことが可能。</p>
+<p>記事では CoreCLR に移行することのメリットや、実際のアプリではリグレッションがある可能性があるため計測してほしいこと、Mono への戻し方、何をテストすべきかといった点について触れている。</p>
+<h3 id="introducing-dotnet-new-winui-templates-ifdef-windows">Introducing dotnet new WinUI templates - #ifdef Windows</h3>
+<p><a href="https://devblogs.microsoft.com/ifdef-windows/introducing-dotnet-new-templates-for-winui/">https://devblogs.microsoft.com/ifdef-windows/introducing-dotnet-new-templates-for-winui/</a></p>
+<p>dotnet new で使用できる WinUI のテンプレートがリリースされた。</p>
+<p>新しいテンプレートでは dotnet new からクリーンな見た目の WinUI アプリケーションを作れるようになる。テンプレートはブランク、ナビゲーションビュー、タブビュー、MVVM、アイテムといったものをサポートしている。</p>
+<h3 id="introducing-winui-agent-plugin-for-github-copilot-and-claude-code-ifdef-windows">Introducing WinUI agent plugin for GitHub Copilot and Claude Code - #ifdef Windows</h3>
+<p><a href="https://devblogs.microsoft.com/ifdef-windows/introducing-winui-agent-plugin-for-github-copilot-and-claude-code/">https://devblogs.microsoft.com/ifdef-windows/introducing-winui-agent-plugin-for-github-copilot-and-claude-code/</a></p>
+<p>WinUI や Windows App SDK の GitHub Copilot や Claude Code 向けのエージェントプラグインが公開された。</p>
+<p>このプラグインは WinUI のデザインやワークフロー、テストやレビューといったスキルに加えて、WinUI 開発のオーケストレーションエージェントなども含まれている。</p>
+<h2 id="section-1">リリース</h2>
+<ul>
+<li><a href="https://github.com/AvaloniaUI/Avalonia">AvaloniaUI/Avalonia</a>
+<ul>
+<li><a href="https://github.com/AvaloniaUI/Avalonia/releases/tag/11.3.15">11.3.15</a>, <a href="https://github.com/AvaloniaUI/Avalonia/releases/tag/12.0.3">12.0.3</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/aws/aws-sdk-net">aws/aws-sdk-net</a>
+<ul>
+<li><a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.247.0">4.0.247.0</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/Azure/azure-sdk-for-net">Azure/azure-sdk-for-net</a>
+<ul>
+<li><a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Extensions.AspNetCore.DataProtection.Blobs_1.5.3">Azure.Extensions.AspNetCore.DataProtection.Blobs_1.5.3</a>, <a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Extensions.AspNetCore.DataProtection.Keys_1.6.3">Azure.Extensions.AspNetCore.DataProtection.Keys_1.6.3</a>, <a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.FileShares_1.0.0">Azure.ResourceManager.FileShares_1.0.0</a>, <a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Blobs_12.28.0">Azure.Storage.Blobs_12.28.0</a>, <a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Blobs.Batch_12.25.0">Azure.Storage.Blobs.Batch_12.25.0</a>, <a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Common_12.27.0">Azure.Storage.Common_12.27.0</a>, <a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Files.DataLake_12.26.0">Azure.Storage.Files.DataLake_12.26.0</a>, <a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Files.Shares_12.26.0">Azure.Storage.Files.Shares_12.26.0</a>, <a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Queues_12.26.0">Azure.Storage.Queues_12.26.0</a>, <a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/System.ClientModel_1.12.0">System.ClientModel_1.12.0</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/googleapis/google-cloud-dotnet">googleapis/google-cloud-dotnet</a>
+<ul>
+<li><a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.AIPlatform.V1-3.72.0">Google.Cloud.AIPlatform.V1-3.72.0</a>, <a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.DataCatalog.Lineage.V1-1.6.0">Google.Cloud.DataCatalog.Lineage.V1-1.6.0</a>, <a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Dataproc.V1-5.25.0">Google.Cloud.Dataproc.V1-5.25.0</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/microsoft/aspire">microsoft/aspire</a>
+<ul>
+<li><a href="https://github.com/microsoft/aspire/releases/tag/v13.3.1">v13.3.1</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/microsoft/WindowsAppSDK">microsoft/WindowsAppSDK</a>
+<ul>
+<li><a href="https://github.com/microsoft/WindowsAppSDK/releases/tag/v1.8.8">v1.8.8</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/StackExchange/StackExchange.Redis">StackExchange/StackExchange.Redis</a>
+<ul>
+<li><a href="https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.12.27">2.12.27</a>, <a href="https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.13.1">2.13.1</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="section-2">アーティクル、スライドなど</h2>
+<h3 id="ai-agent-governance-toolkit.net">AIエージェントに「門番」を置く — Agent Governance Toolkit 入門（.NET編）</h3>
+<p><a href="https://zenn.dev/microsoft/articles/agent-governance-toolkit-policy-01">https://zenn.dev/microsoft/articles/agent-governance-toolkit-policy-01</a></p>
+<p>AI エージェントの実行時に様々なゲート処理を行う Agent Governance Toolkit についての解説。</p>
+<p>記事では Microsoft Agent Framework との統合やどのような活用ができるかについて触れている。</p>
+<h3 id="rider-2026.2-early-access-program-begins-with-performance-improvements-the.net-tools-blog">Rider 2026.2 Early Access Program Begins With Performance Improvements | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2026/05/11/rider-2026-2-early-access-program/">https://blog.jetbrains.com/dotnet/2026/05/11/rider-2026-2-early-access-program/</a></p>
+<p>Rider 2026.2 EAP 1 がリリースされた。</p>
+<p>このリリースでは Roslyn の大幅な性能向上と高速なブランチ切り替え、ゲームサポートの改善、Azure Functions のサポート内包、Aspire 向けの改善などが含まれている。</p>
+<h3 id="the-resharper-2026.2-early-access-program-begins-bringing-more-ai-agents-into-visual-studio-the.net-tools-blog">The ReSharper 2026.2 Early Access Program Begins: Bringing More AI Agents into Visual Studio | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2026/05/11/the-resharper-2026-2-eap-any-ai-agent-in-visual-studio/">https://blog.jetbrains.com/dotnet/2026/05/11/the-resharper-2026-2-eap-any-ai-agent-in-visual-studio/</a></p>
+<p>ReSharper 2026.2 EAP 1 がリリースされた。</p>
+<p>Visual Studio での Junie のサポートや今後の ACP エージェントレジストリーの対応といった点について触れている。</p>
+<h3 id="dotinsights-may-2026-the.net-tools-blog">dotInsights | May 2026 | The .NET Tools Blog</h3>
+<p><a href="https://blog.jetbrains.com/dotnet/2026/05/12/dotinsights-may-2026/">https://blog.jetbrains.com/dotnet/2026/05/12/dotinsights-may-2026/</a></p>
+<p>JetBrains による2026年5月の .NET 関連の情報のまとめ。</p>
+<h3 id="running-background-tasks-in-blazor-with-web-workers-exploring-the.net-11-preview-part-1">Running background tasks in Blazor with Web Workers: Exploring the .NET 11 preview - Part 1</h3>
+<p><a href="https://andrewlock.net/exploring-the-dotnet-11-preview-1-running-background-tasks-in-blazor-with-web-workers/">https://andrewlock.net/exploring-the-dotnet-11-preview-1-running-background-tasks-in-blazor-with-web-workers/</a></p>
+<p>Blazor WebAssembly と .NET 11 で使用できる Web Worker を使用するテンプレートを使用してバックグラウンドタスクを実行する方法についての解説。</p>
+<h3 id="ai-aspire">AI と一緒に開発するときにも便利な Aspire の好きなところ</h3>
+<p><a href="https://zenn.dev/microsoft/articles/aspire-favorite-points">https://zenn.dev/microsoft/articles/aspire-favorite-points</a></p>
+<p>AI コーディングエージェントと共に開発する際に Aspire が役立つポイントについての紹介。</p>
+<h3 id="agent-skills-in-visual-studio-teach-copilot-how-your-team-works-visual-studio-blog">Agent Skills in Visual Studio: Teach Copilot How Your Team Works - Visual Studio Blog</h3>
+<p><a href="https://devblogs.microsoft.com/visualstudio/agent-skills-in-visual-studio/">https://devblogs.microsoft.com/visualstudio/agent-skills-in-visual-studio/</a></p>
+<p>Visual Studio でサポートされたエージェントスキルについての紹介。</p>
+<p>記事ではスキルの作成や管理、スキルとカスタム指示の違いについて触れている。</p>
+<h3 id="winui-3-windows-viewer-quick-image-viewer">WinUI 3 で作る Windows 用マルチメディア Viewer Quick Image Viewer の開発</h3>
+<p><a href="https://zenn.dev/sora_kumo/articles/quick-image-viewer">https://zenn.dev/sora_kumo/articles/quick-image-viewer</a></p>
+<p>WinUI 3 を使用して Windows 向けの画像や動画、PDFなどを表示できるビューアーを開発したことについて。</p>
+<h3 id="llm-structured-output">LLM の動き〜Structured Output確認〜</h3>
+<p><a href="https://zenn.dev/yy7613/articles/5c275d885343fb">https://zenn.dev/yy7613/articles/5c275d885343fb</a></p>
+<p>LLM の Structured Output について HttpClient のハンドラーでログを取りながら挙動を確認する試み。</p>
+<h3 id="line">LINEスタンプ画像処理を手助けするアプリを作ってみた</h3>
+<p><a href="https://zenn.dev/maedan/articles/d615644a9e2a09">https://zenn.dev/maedan/articles/d615644a9e2a09</a></p>
+<p>LINE スタンプの画像作成を支援するためのアプリを作った話。</p>
+<h3 id="croslyn-analyzer">【C#】Roslyn Analyzerがビルド時間に与える影響を調べる方法 - はなちるのマイノート</h3>
+<p><a href="https://www.hanachiru-blog.com/entry/2026/04/25/200000">https://www.hanachiru-blog.com/entry/2026/04/25/200000</a></p>
+<p>Roslyn Analyzer がビルド時にどの程度時間がかかっているのか調査する方法について。</p>
+<p>記事では MSBuild の binlog を解析して調べる方法について解説している。</p>
+<h3 id="c-networking-deep-dive-with-io_uring-part-15-toe-dipping">C# Networking Deep Dive With io_uring (part 1/5) - Toe Dipping</h3>
+<p><a href="https://dev.to/mda2av/c-networking-deep-dive-with-iouring-part-1-19i4">https://dev.to/mda2av/c-networking-deep-dive-with-iouring-part-1-19i4</a></p>
+<p>Linux 上で io_uring を使用してネットワーキングを行う実装の試みについて。</p>
+<h3 id="microsoft-agent-framework-magentic-c-ver-1.5.0">Microsoft Agent Framework の Magentic を試してみた ( C# ver 1.5.0 での確認 )</h3>
+<p><a href="https://zenn.dev/yy7613/articles/37df31848367d0">https://zenn.dev/yy7613/articles/37df31848367d0</a></p>
+<p>Microsoft Agent Framework v1.5.0 で追加された Magnetic (マルチエージェントオーケストレーション) を試してみた話。</p>
+<h3 id="asp.net-mvchelperasp.net-core">ASP.NET MVCの自作HelperをASP.NET Coreに移植した話</h3>
+<p><a href="https://zenn.dev/harness/articles/devnext-mvc-helper-extensions">https://zenn.dev/harness/articles/devnext-mvc-helper-extensions</a></p>
+<p>ASP.NET MVC で作成した Helper を ASP.NET Core に移植した話。</p>
+<h3 id="c-wpf-qiita">C# WPFのデータバインディングで日本語プロパティ名は使えるか——動作検証と実用上の課題 - Qiita</h3>
+<p><a href="https://qiita.com/kix/items/166104e2710a7febaacf">https://qiita.com/kix/items/166104e2710a7febaacf</a></p>
+<p>WPF のデータバインディングに日本語名のプロパティーを使用できるかについての検証。</p>
+<h3 id="f">F# 開発リポジトリをリンター＆フォーマッターでコードを美しく保つ</h3>
+<p><a href="https://zenn.dev/hitoshiro/articles/2c93113788a5fa">https://zenn.dev/hitoshiro/articles/2c93113788a5fa</a></p>
+<p>F# のコードにフォーマッターを適用することについて。記事では Fantomas を使用してフォーマットする方法や、Husky.NET でコミット前に処理する方法について触れている。</p>
+<h2 id="section-3">ライブラリ、リポジトリ、ツールなど</h2>
+<h3 id="hanachiruvscode-msbuild-binlog-extension-vs-code-extension-for-viewing-msbuild.binlog-files">hanachiru/vscode-msbuild-binlog-extension: VS Code extension for viewing MSBuild .binlog files.</h3>
+<p><a href="https://github.com/hanachiru/vscode-msbuild-binlog-extension">https://github.com/hanachiru/vscode-msbuild-binlog-extension</a></p>
+<p>Visual Studio Code で MSBuild の binlog ファイルを表示するための拡張機能。</p>
+<!-- https://x.com/hanaaaaaachiru/status/2052682701438939138?s=12 -->
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">以前Rider向けに作成したけど、VS Codeでも欲しいなとなりbinlog viewer作りました<a href="https://t.co/MFKoL5By1L">https://t.co/MFKoL5By1L</a> <a href="https://t.co/vm01bSC8Dv">https://t.co/vm01bSC8Dv</a> <a href="https://t.co/4cQn3qGtTq">pic.twitter.com/4cQn3qGtTq</a></p>&mdash; はなちる&#64;ゲーム制作 (&#64;hanaaaaaachiru) <a href="https://twitter.com/hanaaaaaachiru/status/2052682701438939138?ref_src=twsrc%5Etfw">May 8, 2026</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="section-4">ツイート</h3>
+<!-- https://x.com/ox5bfaooo/status/2053470595514593447?s=12 -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The WinUI team is becoming more transparent and open to us!!!<br>The just open sourced a massive number of documentations/specs/designs of the &quot;inside WinUI&quot;.<a href="https://t.co/Cq6kfYYVMO">https://t.co/Cq6kfYYVMO</a> <a href="https://t.co/1MF7lCECAb">pic.twitter.com/1MF7lCECAb</a></p>&mdash; 0x5bfa (&#64;ox5bfaooo) <a href="https://twitter.com/ox5bfaooo/status/2053470595514593447?ref_src=twsrc%5Etfw">May 10, 2026</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->  
+  <footer>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright text-muted m-0">Copyright &#xA9; Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</p>
+                    <br />
+                    <ul class="list-inline text-center small">
+                            <li class="list-inline-item">
+                                <a href="/feed.atom"><i class="fa fa-rss"></i> Feed</a>
+                            </li>
+                    </ul>
+                    <br />
+                    <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+  
+
+  <!-- Custom scripts for this template -->
+  <script src="/js/clean-blog.js"></script>
+
+</body>
+
+</html>
