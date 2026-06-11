@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="https://weekref.net/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2026-06-11T05:15:03Z</updated>
+	<updated>2026-06-11T05:20:09Z</updated>
 	<logo>https://weekref.net/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -37,7 +37,7 @@
 &lt;h3 id="net-at-microsoft-build-2026-must-watch-sessions.net-blog"&gt;.NET at Microsoft Build 2026: Must watch sessions - .NET Blog&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-at-microsoft-build-2026/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-at-microsoft-build-2026/&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://blog.azure.moe/2026/06/03/azure-updates-2026-06-03-microsoft-build-2026-day-1/"&gt;Azure Updates (2026-06-03) Microsoft Build 2026 Day 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.azure.moe/2026/06/03/azure-updates-2026-06-03-microsoft-build-2026-day-1/"&gt;Azure Updates (2026-06-03) Microsoft Build 2026 Day 1 | ブチザッキ&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://blog.azure.moe/2026/06/03/microsoft-build-2026-day-1-keynote/"&gt;Microsoft Build 2026 Day 1 Keynote&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://blogs.windows.com/windowsdeveloper/2026/06/02/build-2026-furthering-windows-as-the-trusted-platform-for-development/"&gt;Build 2026: Furthering Windows as the trusted platform for development&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
