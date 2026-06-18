@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Thu, 18 Jun 2026 06:11:58 GMT</pubDate>
-		<lastBuildDate>Thu, 18 Jun 2026 06:11:58 GMT</lastBuildDate>
+		<pubDate>Thu, 18 Jun 2026 06:24:02 GMT</pubDate>
+		<lastBuildDate>Thu, 18 Jun 2026 06:24:02 GMT</lastBuildDate>
 		<item>
 			<title>2026-06-18: C# Kaigi 2026 CfP, StackExchange.Redis 3.0.0, Microsoft Binlog MCP Server, Windows App Development CLI v0.3.2</title>
 			<link>https://weekref.net/2026/06/18/updates</link>
@@ -130,9 +130,6 @@
 &lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 &lt;!-- https://x.com/dotmorten/status/2064876015646888007?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Project templates are now available for Microsoft.UI.Reactor. Run &amp;#39;dotnet new install Microsoft.UI.Reactor.ProjectTemplates&amp;#39; to install, then &amp;#39;dotnet new reactorapp&amp;#39; to build your first project. &lt;a href="https://x.com/hashtag/winui?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#winui&lt;/a&gt; &lt;a href="https://t.co/bQSbkEY8GX"&gt;pic.twitter.com/bQSbkEY8GX&lt;/a&gt;&lt;/p&gt;&amp;mdash; .Morten 🪁🗺💻 (&amp;#64;dotMorten) &lt;a href="https://x.com/dotMorten/status/2064876015646888007?ref_src=twsrc%5Etfw"&gt;June 11, 2026&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;!-- https://x.com/mkristensen/status/2064822786733080762?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Stop your Visual Studio builds as soon as any of the projects fails to build. &lt;a href="https://t.co/5x7LEy2Gb3"&gt;https://t.co/5x7LEy2Gb3&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mads Kristensen (&amp;#64;mkristensen) &lt;a href="https://x.com/mkristensen/status/2064822786733080762?ref_src=twsrc%5Etfw"&gt;June 10, 2026&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
