@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="https://weekref.net/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2026-07-03T09:01:45Z</updated>
+	<updated>2026-07-03T10:56:56Z</updated>
 	<logo>https://weekref.net/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
 	<entry>
@@ -132,9 +132,6 @@
 &lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 &lt;!-- https://x.com/hadashia/status/2070812594873716934?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;mruby バイトコードを事前にC#にコンパイルするil2cppならぬ 「mrb2cs」開発中。。&lt;br&gt;&lt;br&gt;AO 7.7倍速、マンデルブロ49倍速、 60%〜GC Alloc減します。&lt;br&gt;&lt;br&gt;Unity /AOT環境でも動作し、インタプリタ実行と mrb2cs を混ぜることができ、既存VMにフォールバックするこで全機能が動作。optcarrot も動作します。 &lt;a href="https://t.co/mESFVPgxoo"&gt;pic.twitter.com/mESFVPgxoo&lt;/a&gt;&lt;/p&gt;&amp;mdash; ハダシA (&amp;#64;hadashiA) &lt;a href="https://x.com/hadashiA/status/2070812594873716934?ref_src=twsrc%5Etfw"&gt;June 27, 2026&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;!-- https://x.com/jezcorden/status/2070192057524646200?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;We don&amp;#39;t hate AI enough. 🙏🏻💫 &lt;a href="https://t.co/6yWZXRVqRO"&gt;https://t.co/6yWZXRVqRO&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jez (&amp;#64;JezCorden) &lt;a href="https://x.com/JezCorden/status/2070192057524646200?ref_src=twsrc%5Etfw"&gt;June 25, 2026&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 &lt;!-- https://x.com/jcouv/status/2070189502212288754?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;We merged a C# 15 preview feature into .NET 11 preview 7: labeled break and continue statements.&lt;br&gt;&lt;br&gt;Allows `break` and `continue` to optionally specify a label that identifies which loop or switch statement to target.&lt;br&gt;Example below.&lt;br&gt;&lt;br&gt;Spec: &lt;a href="https://t.co/qNp35QXjtx"&gt;https://t.co/qNp35QXjtx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Julien Couvreur (&amp;#64;jcouv) &lt;a href="https://x.com/jcouv/status/2070189502212288754?ref_src=twsrc%5Etfw"&gt;June 25, 2026&lt;/a&gt;&lt;/blockquote&gt;

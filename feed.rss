@@ -6,8 +6,8 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Fri, 03 Jul 2026 09:01:45 GMT</pubDate>
-		<lastBuildDate>Fri, 03 Jul 2026 09:01:45 GMT</lastBuildDate>
+		<pubDate>Fri, 03 Jul 2026 10:56:56 GMT</pubDate>
+		<lastBuildDate>Fri, 03 Jul 2026 10:56:56 GMT</lastBuildDate>
 		<item>
 			<title>2026-07-03: SkiaSharp 4.0, WSL container public preview, Visual Studio June Update, .NET 8/9 End of Support</title>
 			<link>https://weekref.net/2026/07/03/updates</link>
@@ -129,9 +129,6 @@
 &lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 &lt;!-- https://x.com/hadashia/status/2070812594873716934?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;mruby バイトコードを事前にC#にコンパイルするil2cppならぬ 「mrb2cs」開発中。。&lt;br&gt;&lt;br&gt;AO 7.7倍速、マンデルブロ49倍速、 60%〜GC Alloc減します。&lt;br&gt;&lt;br&gt;Unity /AOT環境でも動作し、インタプリタ実行と mrb2cs を混ぜることができ、既存VMにフォールバックするこで全機能が動作。optcarrot も動作します。 &lt;a href="https://t.co/mESFVPgxoo"&gt;pic.twitter.com/mESFVPgxoo&lt;/a&gt;&lt;/p&gt;&amp;mdash; ハダシA (&amp;#64;hadashiA) &lt;a href="https://x.com/hadashiA/status/2070812594873716934?ref_src=twsrc%5Etfw"&gt;June 27, 2026&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;!-- https://x.com/jezcorden/status/2070192057524646200?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;We don&amp;#39;t hate AI enough. 🙏🏻💫 &lt;a href="https://t.co/6yWZXRVqRO"&gt;https://t.co/6yWZXRVqRO&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jez (&amp;#64;JezCorden) &lt;a href="https://x.com/JezCorden/status/2070192057524646200?ref_src=twsrc%5Etfw"&gt;June 25, 2026&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 &lt;!-- https://x.com/jcouv/status/2070189502212288754?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;We merged a C# 15 preview feature into .NET 11 preview 7: labeled break and continue statements.&lt;br&gt;&lt;br&gt;Allows `break` and `continue` to optionally specify a label that identifies which loop or switch statement to target.&lt;br&gt;Example below.&lt;br&gt;&lt;br&gt;Spec: &lt;a href="https://t.co/qNp35QXjtx"&gt;https://t.co/qNp35QXjtx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Julien Couvreur (&amp;#64;jcouv) &lt;a href="https://x.com/jcouv/status/2070189502212288754?ref_src=twsrc%5Etfw"&gt;June 25, 2026&lt;/a&gt;&lt;/blockquote&gt;
