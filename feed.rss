@@ -6,8 +6,101 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Fri, 03 Jul 2026 10:56:56 GMT</pubDate>
-		<lastBuildDate>Fri, 03 Jul 2026 10:56:56 GMT</lastBuildDate>
+		<pubDate>Fri, 10 Jul 2026 08:12:32 GMT</pubDate>
+		<lastBuildDate>Fri, 10 Jul 2026 08:12:32 GMT</lastBuildDate>
+		<item>
+			<title>2026-07-10: LibreWPF</title>
+			<link>https://weekref.net/2026/07/10/updates</link>
+			<description>.NET 関連の情報をほぼ週刊配信</description>
+			<author>Mayuki Sawatari</author>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2026/07/10/updates</guid>
+			<pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="wieslawsolteswpf-librewpf-cross-platform-desktop-xaml-runtime-powered-by-progpuwebgpu-and-silk.net-with-custom-sdk-switch-packaging"&gt;wieslawsoltes/wpf: LibreWPF cross-platform desktop XAML runtime powered by ProGPU/WebGPU and Silk.NET with custom SDK-switch packaging.&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/wieslawsoltes/wpf"&gt;https://github.com/wieslawsoltes/wpf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;WPF を ProGPU と Silk をバックエンドとするポーティングを行ったクロスプラットフォームの実装。&lt;/p&gt;
+&lt;!-- https://x.com/wieslawsoltes/status/2073524516890763292 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Announcing LibreWPF&lt;br&gt;&lt;br&gt;Today I&amp;#39;m introducing LibreWPF—an open-source, free, cross-platform implementation of Windows Presentation Foundation (WPF).&lt;br&gt;&lt;br&gt;The goal of LibreWPF is simple: preserve the WPF programming model while making it available across modern platforms, including…&lt;/p&gt;&amp;mdash; Wiesław Šoltés (&amp;#64;wieslawsoltes) &lt;a href="https://x.com/wieslawsoltes/status/2073524516890763292?ref_src=twsrc%5Etfw"&gt;July 4, 2026&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;h2 id="section-1"&gt;リリース&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/AvaloniaUI/Avalonia"&gt;AvaloniaUI/Avalonia&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/AvaloniaUI/Avalonia/releases/tag/12.1.0"&gt;12.1.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section-2"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="net-cli-tools-in-the-ai-fury-or-how-to-guide-agents-during-production-investigations"&gt;.NET CLI tools in the AI fury or how to guide agents during production investigations&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://chrisnas.github.io/posts/2026-06-08_dotnet-cli-tools-in-the-ai-fury/"&gt;https://chrisnas.github.io/posts/2026-06-08_dotnet-cli-tools-in-the-ai-fury/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;AI コーディングエージェントに MCP や SKILL.md を元に .NET CLI ツールを使用させて調査する方法。&lt;/p&gt;
+&lt;h3 id="wiremock.net-api"&gt;WireMock.Net で API テスト用のモックサーバーをサクッと立てる&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/tetsu_beer/articles/20260629-wiremock-apimock"&gt;https://zenn.dev/tetsu_beer/articles/20260629-wiremock-apimock&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;WireMock.Net を使って、API テスト用のモックサーバーを立てる方法。&lt;/p&gt;
+&lt;h3 id="modernize.net-applications-in-the-github-copilot-app.net-blog"&gt;Modernize .NET applications in the GitHub Copilot app - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/modernize-dotnet-in-github-copilot-app/"&gt;https://devblogs.microsoft.com/dotnet/modernize-dotnet-in-github-copilot-app/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GitHub Copilot アプリを使った .NET アプリケーションのモダナイズについて。&lt;/p&gt;
+&lt;h3 id="improvements-to-reading-process-outputs-exploring-the.net-11-preview-part-5"&gt;Improvements to reading Process outputs: Exploring the .NET 11 preview - Part 5&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/exploring-the-dotnet-11-preview-5-improvments-to-process-apis/"&gt;https://andrewlock.net/exploring-the-dotnet-11-preview-5-improvments-to-process-apis/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 11 で改善された Process API を使ったプロセスの出力の読み取りについて。&lt;/p&gt;
+&lt;h3 id="netunsafe"&gt;【.NET】unsafeキーワード再設計に伴ってランタイムで行われている移行内容&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/prozolic/articles/65c5cf9cf810ac"&gt;https://zenn.dev/prozolic/articles/65c5cf9cf810ac&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;C# の unsafe キーワードの扱いが変更になることに合わせて、.NET ランタイムでも行われている以降についての紹介。&lt;/p&gt;
+&lt;h3 id="bypassing-the.net-gc-how-i-hit-2.3-million-ops-with-a-c-native-embedded-database"&gt;Bypassing the .NET GC: How I Hit 2.3 Million OPS With a C#-Native Embedded Database&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://medium.com/&amp;#64;arintonakos/bypassing-the-net-gc-how-i-hit-2-3-million-ops-with-a-c-native-embedded-database-bfeac66c5cac"&gt;https://medium.com/&amp;#64;arintonakos/bypassing-the-net-gc-how-i-hit-2-3-million-ops-with-a-c-native-embedded-database-bfeac66c5cac&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;高速な C# ネイティブな組み込みデータベースを実装するために GC を避けたことについて。&lt;/p&gt;
+&lt;h3 id="c-2026.net-10"&gt;C# で出来ること一覧 2026年版（.NET 10）&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/what-can-you-do-on-dotnet10"&gt;https://zenn.dev/microsoft/articles/what-can-you-do-on-dotnet10&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 10 の時点で C# で出来ることの一覧をまとめた記事。&lt;/p&gt;
+&lt;h3 id="cdllc-wpf-qiita"&gt;C++のDLLをC# WPFから使う(双方向のやり取りあり) - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/KameLong/items/4c2a330a937dd0ac7d1a"&gt;https://qiita.com/KameLong/items/4c2a330a937dd0ac7d1a&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;C++ で実装された DLL をコールバックを含めて C#/WPF から呼び出す方法について。&lt;/p&gt;
+&lt;h3 id="mistral-ocr4microsoft-foundry-qiita"&gt;Mistral OCR4をMicrosoft Foundryでデプロイしてドキュメントデータを抽出する - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/Rambosan/items/e0765b5571f0525ddbbe"&gt;https://qiita.com/Rambosan/items/e0765b5571f0525ddbbe&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mistral OCR4 を Microsoft Foundry 上でデプロイして、C# から呼び出す方法について。&lt;/p&gt;
+&lt;h3 id="nugetpowershell"&gt;NuGetパッケージのライセンス情報をPowershellで自動収集する&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/radian_jp/articles/805a87fdcc7eac"&gt;https://zenn.dev/radian_jp/articles/805a87fdcc7eac&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PowerShell を使って NuGet パッケージのライセンス情報を自動収集する方法について。&lt;/p&gt;
+&lt;h3 id="neue-cc-aicbenchmarkdotnet"&gt;neue cc - AI時代におけるC#でのBenchmarkDotNetを使った最速コードの書き方&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://neue.cc/2026/07/06_highperformancecode_with_ai.html"&gt;https://neue.cc/2026/07/06_highperformancecode_with_ai.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;AI コーディングエージェントと BenchmarkDotNet を駆使して C# で最速コードを書く方法について。&lt;/p&gt;
+&lt;h3 id="c.net-11-preview-5c-15-qiita"&gt;【C#】.NET 11 Preview 5の新機能を振り返る（C# 15編） - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/KM_20005/items/9c4eb075bdf1ecc0c700"&gt;https://qiita.com/KM_20005/items/9c4eb075bdf1ecc0c700&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET 11 Preview 5 での C# 15 の新機能の紹介。&lt;/p&gt;
+&lt;h3 id="reactiveproperty-v9.9.0"&gt;ReactiveProperty v9.9.0 をリリースしました&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/okazuki/articles/reactiveproperty-v9-9-0"&gt;https://zenn.dev/okazuki/articles/reactiveproperty-v9-9-0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ReactiveProperty v9.9.0 のリリースについて。R3 のブリッジパッケージの正式版化など。&lt;/p&gt;
+&lt;h3 id="ollamacai"&gt;OllamaとC#で自作アプリにAIを組み込む — タスク計画支援の設計判断と実装の現実&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/sitio1/articles/7bc04521dc7ea2"&gt;https://zenn.dev/sitio1/articles/7bc04521dc7ea2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;自作の C# アプリに Ollama によるローカル LLM を組み込んだ事例について。&lt;/p&gt;
+&lt;h2 id="section-3"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
+&lt;h3 id="guitarrapcminipty-nativeaot-friendly-minimal-cross-platform-pseudo-terminal-library-for.net"&gt;guitarrapc/MiniPty: NativeAOT-friendly minimal cross-platform pseudo-terminal library for .NET&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/guitarrapc/MiniPty"&gt;https://github.com/guitarrapc/MiniPty&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.NET で疑似ターミナルを扱うためのライブラリー。&lt;/p&gt;
+&lt;!-- https://x.com/guitarrapc_tech/status/2073649938521784677 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;MiniPty 1.1.0リリースしました。対話CLIをキャプチャする口を提供するMiniPty.Consoleが追加されています。&lt;br&gt;&lt;br&gt;guitarrapc/MiniPty: NativeAOT-friendly minimal cross-platform pseudo-terminal library for .NET &lt;a href="https://t.co/eECXUlScJn"&gt;https://t.co/eECXUlScJn&lt;/a&gt; &lt;a href="https://t.co/WCFhWnNaoK"&gt;https://t.co/WCFhWnNaoK&lt;/a&gt;&lt;/p&gt;&amp;mdash; guitarrapc_tech (&amp;#64;guitarrapc_tech) &lt;a href="https://x.com/guitarrapc_tech/status/2073649938521784677?ref_src=twsrc%5Etfw"&gt;July 5, 2026&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
+&lt;!-- https://x.com/xoofx/status/2073372556292227217?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;One interesting &amp;quot;breakthrough&amp;quot; behind this support is that I created a NativeAOT library to perform sampling inside the target app: &lt;a href="https://t.co/0F4THrCLPR"&gt;https://t.co/0F4THrCLPR&lt;/a&gt;&lt;br&gt;&lt;br&gt;It relies on a hack using NativeAOT EventSource to let two EventSources - the sampled app and the sampler - run… &lt;a href="https://t.co/fMblT9IEaa"&gt;https://t.co/fMblT9IEaa&lt;/a&gt;&lt;/p&gt;&amp;mdash; Alexandre Mutel (&amp;#64;xoofx) &lt;a href="https://x.com/xoofx/status/2073372556292227217?ref_src=twsrc%5Etfw"&gt;July 4, 2026&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;!-- https://x.com/jcouv/status/2073506696274800710?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;After 25y at Microsoft, including 10 working on Roslyn, I&amp;#39;m moving on to new adventures.&lt;br&gt;&lt;br&gt;I&amp;#39;ll still post about interesting C# and AI experiments. Hoping to push extension constants in for C# 15.&lt;br&gt;&lt;br&gt;To follow new C# features, watch the feature status page: &lt;a href="https://t.co/mVgSS3sLax"&gt;https://t.co/mVgSS3sLax&lt;/a&gt;&lt;/p&gt;&amp;mdash; Julien Couvreur (&amp;#64;jcouv) &lt;a href="https://x.com/jcouv/status/2073506696274800710?ref_src=twsrc%5Etfw"&gt;July 4, 2026&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>2026-07-03: SkiaSharp 4.0, WSL container public preview, Visual Studio June Update, .NET 8/9 End of Support</title>
 			<link>https://weekref.net/2026/07/03/updates</link>
@@ -1717,167 +1810,6 @@ ASP.NET Core におけるサービス拒否の脆弱性&lt;/li&gt;
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 &lt;!-- https://x.com/vnbaaij/status/2041969661609140578?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Out now: The Microsoft Fluent UI &lt;a href="https://twitter.com/hashtag/Blazor?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#Blazor&lt;/a&gt; library v5 RC2! So many new things: AutoComplete, Toast, DataGrid pinned and hierachical+selectable columns, Theme API &amp;amp; Designer, Calendar Min/MaxDate, MCP migration tooling and dozens of other component fixes and improvements...(1/2)&lt;/p&gt;&amp;mdash; Vincent Baaij (&amp;#64;vnbaaij) &lt;a href="https://twitter.com/vnbaaij/status/2041969661609140578?ref_src=twsrc%5Etfw"&gt;April 8, 2026&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>2026-04-02: Rider &amp; ReSharper 2026.1, Visual Studio March Update, Path to CoreCLR</title>
-			<link>https://weekref.net/2026/04/02/updates</link>
-			<description>.NET 関連の情報をほぼ週刊配信</description>
-			<author>Mayuki Sawatari</author>
-			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
-			<guid>https://weekref.net/2026/04/02/updates</guid>
-			<pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="rider-2026.1-more-ai-choice-stronger.net-tooling-and-expanded-game-dev-support-the.net-tools-blog"&gt;Rider 2026.1: More AI Choice, Stronger .NET Tooling, and Expanded Game Dev Support | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2026/03/30/rider-2026-1-released/"&gt;https://blog.jetbrains.com/dotnet/2026/03/30/rider-2026-1-released/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Rider 2026.1 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは AI コーディングエージェントの統合、Git ワークツリーサポート、file-based C# プログラムのサポート、NuGet パッケージマネージャーコンソール (プレビュー)、逆アセンブラー、Azure DevOps 統合、Windows 上での .NET MAUI iOS 開発サポートの向上、Unity プロファイリングの統合、最新の C# 言語サポートの向上などの新機能が含まれている。。&lt;/p&gt;
-&lt;h3 id="resharper-2026.1-built-in-performance-monitoring-expansion-to-vs-code-and-faster-everyday-workflows-the.net-tools-blog"&gt;ReSharper 2026.1: Built-in Performance Monitoring, Expansion to VS Code, and Faster Everyday Workflows | The .NET Tools Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2026/03/30/resharper-2026-1-released/"&gt;https://blog.jetbrains.com/dotnet/2026/03/30/resharper-2026-1-released/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ReSharper 2026.1 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースでは新しい実行時パフォーマンスモニター (dotUltimate)、Visual Studio Code と互換エディター (Cursor、Google Antigravity) のサポート、パフォーマンス向上、Out-of-Process の安定性向上、コード補完とポップアップの UI のモダナイズ、C# サポートの改善などの新機能が含まれている。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2026/03/31/profile-dotnet-apps-without-restarting-monitoring-comes-to-resharper/"&gt;Profile .NET Apps Without Restarting: Monitoring Comes to ReSharper | The .NET Tools Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://blog.jetbrains.com/rscpp/2026/03/30/resharper-cpp-2026-1-released/"&gt;ReSharper C++ 2026.1: Better performance, improved Unreal Engine workflows, and language support updates | The ReSharper C++ Blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="visual-studio-march-update-build-your-own-custom-agents-visual-studio-blog"&gt;Visual Studio March Update - Build Your Own Custom Agents - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-march-update-build-your-own-custom-agents/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-march-update-build-your-own-custom-agents/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio の3月のアップデート。Visual Studio 2026 18.4.x で利用可能となった新しい機能の紹介。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;カスタムエージェント&lt;/li&gt;
-&lt;li&gt;エージェントスキル&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;find_symbol&lt;/code&gt; エージェントツール&lt;/li&gt;
-&lt;li&gt;エンタープライズ MCP ガバナンス&lt;/li&gt;
-&lt;li&gt;Copilot によるプロファイルテスト&lt;/li&gt;
-&lt;li&gt;プロファイリング中の Perf Tip&lt;/li&gt;
-&lt;li&gt;Copilot での NuGet 脆弱性の修正&lt;/li&gt;
-&lt;li&gt;HTML リッチコピー/カット&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="path-to-coreclr-2026-upgrade-guide-technical-articles-unity-discussions"&gt;Path to CoreCLR, 2026: Upgrade Guide - Technical Articles - Unity Discussions&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://discussions.unity.com/t/path-to-coreclr-2026-upgrade-guide/1714279"&gt;https://discussions.unity.com/t/path-to-coreclr-2026-upgrade-guide/1714279&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Unity の Mono ランタイムから CoreCLR への移行に関するガイド。&lt;/p&gt;
-&lt;p&gt;今後 Unity はエディター、プレイヤー共に CoreCLR へと移行する。それに伴い .NET ランタイム自体の変更による挙動の変化加え、Unity の API や挙動の差異が発生する。コードのリロード周りなど現時点で判明している大きな変更点についてまとめている。&lt;/p&gt;
-&lt;h2 id="section-1"&gt;リリース&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/AvaloniaUI/Avalonia"&gt;AvaloniaUI/Avalonia&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/AvaloniaUI/Avalonia/releases/tag/11.3.13"&gt;11.3.13&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/aws/aws-sdk-net"&gt;aws/aws-sdk-net&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/3.7.1251.0"&gt;3.7.1251.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.220.0"&gt;4.0.220.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.221.0"&gt;4.0.221.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.222.0"&gt;4.0.222.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.222.1"&gt;4.0.222.1&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.223.0"&gt;4.0.223.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Azure/azure-sdk-for-net"&gt;Azure/azure-sdk-for-net&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.AI.Extensions.OpenAI_2.0.0"&gt;Azure.AI.Extensions.OpenAI_2.0.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.AI.Projects_2.0.0"&gt;Azure.AI.Projects_2.0.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.AI.Projects.Agents_2.0.0"&gt;Azure.AI.Projects.Agents_2.0.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Identity_1.20.0"&gt;Azure.Identity_1.20.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Monitor.OpenTelemetry.Exporter_1.7.0"&gt;Azure.Monitor.OpenTelemetry.Exporter_1.7.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.ContainerService_1.4.0"&gt;Azure.ResourceManager.ContainerService_1.4.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.StandbyPool_1.2.0"&gt;Azure.ResourceManager.StandbyPool_1.2.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/googleapis/google-cloud-dotnet"&gt;googleapis/google-cloud-dotnet&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.BackupDR.V1-2.9.0"&gt;Google.Cloud.BackupDR.V1-2.9.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Bigtable.Admin.V2-3.32.0"&gt;Google.Cloud.Bigtable.Admin.V2-3.32.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Dialogflow.Cx.V3-3.1.0"&gt;Google.Cloud.Dialogflow.Cx.V3-3.1.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Dialogflow.V2-4.29.0"&gt;Google.Cloud.Dialogflow.V2-4.29.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Firestore.Admin.V1-3.18.0"&gt;Google.Cloud.Firestore.Admin.V1-3.18.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.NetApp.V1-1.15.0"&gt;Google.Cloud.NetApp.V1-1.15.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/grpc/grpc"&gt;grpc/grpc&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/grpc/grpc/releases/tag/v1.80.0"&gt;v1.80.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/microsoft/aspire"&gt;microsoft/aspire&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/microsoft/aspire/releases/tag/v13.2.1"&gt;v13.2.1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/open-telemetry/opentelemetry-dotnet"&gt;open-telemetry/opentelemetry-dotnet&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/open-telemetry/opentelemetry-dotnet/releases/tag/core-1.15.1"&gt;core-1.15.1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="section-2"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="github-copilot-vcmsbuild-nunit-skills"&gt;GitHub Copilot の VC++混在ソリューション向けにmsbuild と NUnit 実行の skills を作った&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/suusanex/articles/a6b3593a28da33"&gt;https://zenn.dev/suusanex/articles/a6b3593a28da33&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;C# と C++ が混在したソリューションでビルドとテストをスムーズに行うための GitHub Copilot エージェントスキルの紹介。&lt;/p&gt;
-&lt;h3 id="blazor-javascript"&gt;Blazor で JavaScript 相互運用を使ってファイルをダウンロードする&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/blazor-download-file"&gt;https://zenn.dev/microsoft/articles/blazor-download-file&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Blazor アプリケーションでファイルをダウンロードするための JavaScript 相互運用の実装方法について。&lt;/p&gt;
-&lt;h3 id="microsoft.extensions.aiskills"&gt;Microsoft.Extensions.AIでもSkillsを使いたい&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/ms-extensions-ai-skills"&gt;https://zenn.dev/microsoft/articles/ms-extensions-ai-skills&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Microsoft.Extensions.AI でコーディングエージェントなどで使用されている Skills を利用する方法について。&lt;/p&gt;
-&lt;h3 id="nets.m.a.r.t-linuxmac-qiita"&gt;.NETでS.M.A.R.T情報を取得するライブラリを作りました LinuxとMac版 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/yamaokunousausa/items/b34e4c937d68fc1f634c"&gt;https://qiita.com/yamaokunousausa/items/b34e4c937d68fc1f634c&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Windows, Linux, macOS で利用できる .NET による S.M.A.R.T情報取得ライブラリの実装についての詳細。&lt;/p&gt;
-&lt;h3 id="vite-plugin-dotnet-wasm.net-webassembly-web"&gt;vite-plugin-dotnet-wasm で始める .NET WebAssembly + Webフロントエンド実践&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/yamachu/articles/1e6f15baa2eea8"&gt;https://zenn.dev/yamachu/articles/1e6f15baa2eea8&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET WebAssembly を Web フロントエンドにスムーズに組み込む Vite プラグインについての紹介。&lt;/p&gt;
-&lt;h3 id="cblazor-serverentra-qiita"&gt;【C#】Blazor ServerをEntraで保護 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/KM_20005/items/c42e4099771e73178018"&gt;https://qiita.com/KM_20005/items/c42e4099771e73178018&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Blazor Server アプリケーションを Microsoft Entra ID で保護する方法についての解説。&lt;/p&gt;
-&lt;h3 id="application-insights-sdk-azure-monitor-opentelemetry-distro"&gt;Application Insights SDK から Azure Monitor OpenTelemetry Distro へ移行する - しばやん雑記&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.shibayan.jp/entry/2026/03/31/152235"&gt;https://blog.shibayan.jp/entry/2026/03/31/152235&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Application Insights SDK v2 から Azure Monitor OpenTelemetry Distro への移行方法についての解説。&lt;/p&gt;
-&lt;h3 id="configuring-contextual-options-with-microsoft.extensions.options.contextual"&gt;Configuring contextual options with Microsoft.Extensions.Options.Contextual&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/configuring-contextual-options-with-microsoft-extensions-options-contextual/"&gt;https://andrewlock.net/configuring-contextual-options-with-microsoft-extensions-options-contextual/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;特定のコンテキストに応じて IOptions を構成する機能を提供する Microsoft.Extensions.Options.Contextual についての解説。&lt;/p&gt;
-&lt;h3 id="playwrightblazore2e"&gt;PlaywrightでBlazorアプリのE2Eテストを始めました&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/nexta_/articles/blazor-radzen-playwright-e2e"&gt;https://zenn.dev/nexta_/articles/blazor-radzen-playwright-e2e&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Playwright (TypeScript) を使用して Blazor アプリケーションのエンドツーエンドテストを実装する方法についての紹介。Radzen コンポーネントを使用した際の特有の課題についても触れている。&lt;/p&gt;
-&lt;h3 id="netpr-2"&gt;【.NET】直近でマージされたPRの紹介 その2&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/prozolic/articles/85a62abbbb672d"&gt;https://zenn.dev/prozolic/articles/85a62abbbb672d&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;dotnet/runtime リポジトリにマージされた PR の中から著者が気になった比較的直近の6つの PR を紹介。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://prozolic.github.io/PRDigest.NET/"&gt;PR Digest.NET&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="automl-ml.net-qiita"&gt;試合の勝敗予想をAutoML (ML.NET)による多項分類で実現する - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/kashin777/items/05d8b5d52d4d6a31ebf6"&gt;https://qiita.com/kashin777/items/05d8b5d52d4d6a31ebf6&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ML.NET を使用して試合の勝敗予想を実装する方法について。&lt;/p&gt;
-&lt;h3 id="jnbridgepro-vs-ikvm-vs-javonet-comparison-2026"&gt;JNBridgePro vs IKVM vs Javonet: Comparison (2026)&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://jnbridge.com/jnbridgepro/jnbridgepro-vs-ikvm-vs-javonet-comparison"&gt;https://jnbridge.com/jnbridgepro/jnbridgepro-vs-ikvm-vs-javonet-comparison&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET と Java のブリッジライブラリーの JNBridgePro と IKVM、Javonet の比較。(記事は JNBridgePro  を提供する JNBridge による)&lt;/p&gt;
-&lt;h3 id="neovimf-qiita"&gt;NeovimのF#環境構築 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/keiy_alpha/items/ab124734c7ad4d2cf8b1"&gt;https://qiita.com/keiy_alpha/items/ab124734c7ad4d2cf8b1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Neovim での F# 開発環境の構築について。&lt;/p&gt;
-&lt;h3 id="interaction-patterns-that-bring-life-to.net-dashboards"&gt;11 Interaction Patterns That bring life to .NET dashboards&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://platform.uno/blog/11-interaction-patterns-that-bring-life-to-net-dashboards/"&gt;https://platform.uno/blog/11-interaction-patterns-that-bring-life-to-net-dashboards/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET (WinUI, Uno Platform) でのダッシュボード実装で効果的なインタラクションパターン11選の紹介。&lt;/p&gt;
-&lt;h3 id="roslyn-analyzer"&gt;Roslyn Analyzerを使ってみよう&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/poipoionigiri/articles/70c65f5f2bc58d"&gt;https://zenn.dev/poipoionigiri/articles/70c65f5f2bc58d&lt;/a&gt;&lt;/p&gt;
-&lt;script defer class="speakerdeck-embed" data-id="81bf56e66b3e45bebd2caa89d46e480a" data-ratio="1.4139378673383711" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
-&lt;h2 id="section-3"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="garumemanifold-operation-first.net-foundation-for-generating-fast-cli-and-mcp-surfaces-from-a-single-definition"&gt;Garume/Manifold: Operation-first .NET foundation for generating fast CLI and MCP surfaces from a single definition.&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/Garume/Manifold"&gt;https://github.com/Garume/Manifold&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;コマンドラインと MCP の両方のインターフェースを単一の定義から生成する Source Generator。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/garume/articles/4fab64041e3242"&gt;.NETで同じ処理をCLIにもMCPにも出したくなったので、source generatorで全部生成することにした&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="bookmark-studio-visual-studio-marketplace"&gt;Bookmark Studio - Visual Studio Marketplace&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.BookmarkStudio"&gt;https://marketplace.visualstudio.com/items?itemName=MadsKristensen.BookmarkStudio&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio のブックマーク機能を拡張する試験的な拡張機能。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/bookmark-studio-evolving-bookmarks-in-visual-studio/"&gt;Bookmark Studio: evolving bookmarks in Visual Studio - Visual Studio Blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
-&lt;!-- https://x.com/mkristensen/status/2037634077772460076?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Git worktree support is coming to Visual Studio! The feature request ticket just got moved to the roadmap. &lt;a href="https://t.co/rV92ZkSyqX"&gt;https://t.co/rV92ZkSyqX&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mads Kristensen (&amp;#64;mkristensen) &lt;a href="https://twitter.com/mkristensen/status/2037634077772460076?ref_src=twsrc%5Etfw"&gt;March 27, 2026&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;!-- https://x.com/mkristensen/status/2037600859429949860?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Visual Studio extension authors! Do you want to help me test a bunch of agent skills to more effectively guide coding agents to produce higher quality VS extensions faster? Try out these new skills by following the instructions here: &lt;a href="https://t.co/DDMUJUHJqG"&gt;https://t.co/DDMUJUHJqG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mads Kristensen (&amp;#64;mkristensen) &lt;a href="https://twitter.com/mkristensen/status/2037600859429949860?ref_src=twsrc%5Etfw"&gt;March 27, 2026&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;!-- https://x.com/marcgravell/status/2037232783865565198?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;SE.Redis V3 - preview build! &lt;a href="https://t.co/pfguJadTBT"&gt;https://t.co/pfguJadTBT&lt;/a&gt;&lt;br&gt;&lt;br&gt;This is a rewrite of the &amp;quot;read&amp;quot; half of the IO core, to address stability/reliability issues in low-memory scenarios, and to provide the basis for performance improvements (although that part is the 3.1 goal, not 3.0)&lt;/p&gt;&amp;mdash; Marc Gravell (&amp;#64;marcgravell) &lt;a href="https://twitter.com/marcgravell/status/2037232783865565198?ref_src=twsrc%5Etfw"&gt;March 26, 2026&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
