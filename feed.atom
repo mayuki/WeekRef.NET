@@ -7,9 +7,92 @@
 	</author>
 	<link rel="self" href="https://weekref.net/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2026-07-17T07:24:21Z</updated>
+	<updated>2026-07-29T08:09:14Z</updated>
 	<logo>https://weekref.net/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
+	<entry>
+		<id>https://weekref.net/2026/07/29/updates</id>
+		<title>2026-07-29: ReSharper &amp; Rider 2026.2, MCP C# SDK v2.0, Visual Studio July Update, Windows App Development CLI v0.5.0</title>
+		<author>
+			<name>Mayuki Sawatari</name>
+		</author>
+		<link href="https://weekref.net/2026/07/29/updates" />
+		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
+		<updated>2026-07-29T00:00:00Z</updated>
+		<content type="html">&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="resharper-2026.2-ai-agent-freedom-in-visual-studio.net-debugging-for-vs-code-and-more-the-jetbrains-blog"&gt;ReSharper 2026.2: AI Agent Freedom in Visual Studio, .NET Debugging for VS Code, and More - The JetBrains Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2026/07/22/resharper-2026-2-release/"&gt;https://blog.jetbrains.com/dotnet/2026/07/22/resharper-2026-2-release/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="rider-2026.2-ide-intelligence-for-ai-agents-faster-performance-and-spectacular-game-dev-updates-the-jetbrains-blog"&gt;Rider 2026.2: IDE Intelligence for AI Agents, Faster Performance, and Spectacular Game Dev Updates - The JetBrains Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2026/07/22/rider-2026-2-release/"&gt;https://blog.jetbrains.com/dotnet/2026/07/22/rider-2026-2-release/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="announcing-v2.0-of-the-official-mcp-c-sdk.net-blog"&gt;Announcing v2.0 of the official MCP C# SDK - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-v20-of-the-official-mcp-csharp-sdk/"&gt;https://devblogs.microsoft.com/dotnet/announcing-v20-of-the-official-mcp-csharp-sdk/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="visual-studio-july-update-meet-the-new-agent-powered-by-the-github-copilot-sdk-visual-studio-blog"&gt;Visual Studio July Update — Meet the New Agent, Powered by the GitHub Copilot SDK - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-july-update-meet-the-new-agent-powered-by-copilot-sdk/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-july-update-meet-the-new-agent-powered-by-copilot-sdk/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="windows-app-development-cli-v0.5.0-expanded-ui-automation-jsts-bindings-and-more-ifdef-windows"&gt;Windows App Development CLI v0.5.0 - expanded UI automation, JS/TS bindings, and more - #ifdef Windows&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/ifdef-windows/windows-app-development-cli-v0-5-0-expanded-ui-automation-js-ts-bindings-and-more/"&gt;https://devblogs.microsoft.com/ifdef-windows/windows-app-development-cli-v0-5-0-expanded-ui-automation-js-ts-bindings-and-more/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-1"&gt;リリース&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/dotnet/dotnet-monitor"&gt;dotnet/dotnet-monitor&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/dotnet/dotnet-monitor/releases/tag/v10.0.3"&gt;v10.0.3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section-2"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="naudio-3-effects-framework"&gt;NAudio 3 Effects Framework&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://markheath.net/post/2026/7/23/naudio-3-effects"&gt;https://markheath.net/post/2026/7/23/naudio-3-effects&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="claude-fable-5-fastenum-2"&gt;Claude Fable 5 が教えてくれた FastEnum の高速化テクニック (2) - 数値の範囲チェック&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/xin9le/articles/5ed35a7145da77"&gt;https://zenn.dev/xin9le/articles/5ed35a7145da77&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://zenn.dev/xin9le/articles/9be848b2978a65"&gt;Claude Fable 5 が教えてくれた FastEnum の高速化テクニック (3) - 引数なし .ToString() の利用&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="net.net-11-preview-5sdk-cli-qiita"&gt;【.NET】.NET 11 Preview 5の新機能を振り返る（SDK / CLI編） - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/KM_20005/items/2722d11d09109781207e"&gt;https://qiita.com/KM_20005/items/2722d11d09109781207e&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="passkeys-in-asp.net-core-10-passwordless-authentication-with-identity"&gt;Passkeys in ASP.NET Core 10: Passwordless Authentication with Identity&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/adrianbailador/passkeys-in-aspnet-core-10-passwordless-authentication-with-identity-4igo"&gt;https://dev.to/adrianbailador/passkeys-in-aspnet-core-10-passwordless-authentication-with-identity-4igo&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="dframemagiconionramp-up-qiita"&gt;DFrameでMagicOnionサーバの負荷試験&amp;#64;Ramp-Upをどうするか - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/simoyama2323/items/a0227aaed2154e02dc7e"&gt;https://qiita.com/simoyama2323/items/a0227aaed2154e02dc7e&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="windowsopentelemetryetw"&gt;Windowsデスクトップアプリの障害解析にOpenTelemetryはどこまで使えるか——ETW・ダンプとの境界を実測する&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/urario/articles/otel-windows-handoff"&gt;https://zenn.dev/urario/articles/otel-windows-handoff&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="microsoft.extensions.ai-ai-agent-agent-framework-qiita"&gt;Microsoft.Extensions.AI の AI Agent を Agent Framework に移行してみた（前編: 移行編） - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/karuakun/items/bb42b95dffc6b964a83d"&gt;https://qiita.com/karuakun/items/bb42b95dffc6b964a83d&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="resharper-c-2026.2-c26-reflection-ispc-language-support-and-more-the-jetbrains-blog"&gt;ReSharper C++ 2026.2: C++26 Reflection, ISPC Language Support, And More - The JetBrains Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/rscpp/2026/07/22/resharper-cpp-2026-2-cpp-26-reflection-ispc-language-support-and-more/"&gt;https://blog.jetbrains.com/rscpp/2026/07/22/resharper-cpp-2026-2-cpp-26-reflection-ispc-language-support-and-more/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="microsoft-agent-framework-lm-studio"&gt;Microsoft Agent Framework の ハーネスのコア機能が正式リリース — LM Studioで試す 後編&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/yy7613/articles/0b92803c392341"&gt;https://zenn.dev/yy7613/articles/0b92803c392341&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="materialdesigninxamltoolkitdialoghosttabcontrol2"&gt;MaterialDesignInXamlToolkitのDialogHostとTabControlで発生する「2回目から操作不能」のバグ&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/sitio1/articles/90a2e20448c9b7"&gt;https://zenn.dev/sitio1/articles/90a2e20448c9b7&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="plantodoagent-microsoft-agent-framework-c"&gt;PlanモードとTodo管理に対応したAgentを作ろう - Microsoft Agent Framework (C#)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/agent-framework-harness-agent"&gt;https://zenn.dev/microsoft/articles/agent-framework-harness-agent&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://zenn.dev/microsoft/articles/agent-framework-harness-agent2"&gt;普通の AIAgent に Plan モードと Todo 管理を追加してみる - MS Agent Framework (C#)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="microsoft-agent-framework-1.0-skautogengasdk"&gt;Microsoft Agent Framework 1.0入門 — SK+AutoGen統合GA版マルチエージェントSDK&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/kai_kou/articles/252-microsoft-agent-framework-10-ga-guide"&gt;https://zenn.dev/kai_kou/articles/252-microsoft-agent-framework-10-ga-guide&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="analyze-msbuild-binary-logs-with-copilot-in-vs-code.net-blog"&gt;Analyze MSBuild Binary Logs with Copilot in VS Code - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/msbuild-binlog-analyzer-vscode/"&gt;https://devblogs.microsoft.com/dotnet/msbuild-binlog-analyzer-vscode/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="winui-agent-plugin-winui-3-qiita"&gt;WinUI Agent Plugin を使って、WinUI 3 アプリを自然言語で作ってみた - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/ysk-hello/items/74ce0c887cff859d5d48"&gt;https://qiita.com/ysk-hello/items/74ce0c887cff859d5d48&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="ai-dev-day-2026"&gt;AI Dev Day 2026 で登壇しました。 - ねののお庭。&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.neno.dev/entry/2026/07/25/234603"&gt;https://blog.neno.dev/entry/2026/07/25/234603&lt;/a&gt;&lt;/p&gt;
+&lt;script defer class="speakerdeck-embed" data-id="312ff19c4fc44db2add706652efe7210" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+&lt;h3 id="section-3"&gt;ツイート&lt;/h3&gt;
+&lt;!-- https://x.com/wieslawsoltes/status/2081653104131404086?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;I have created cross-platform .NET performance engineering skill for coding agents, covering CPU, memory, GC, benchmarking, concurrency, startup, native profiling, GPU rendering, and production diagnostics on macOS, Windows, and Linux. &lt;a href="https://t.co/3wpRxtWcDj"&gt;https://t.co/3wpRxtWcDj&lt;/a&gt;&lt;/p&gt;&amp;mdash; Wiesław Šoltés (&amp;#64;wieslawsoltes) &lt;a href="https://x.com/wieslawsoltes/status/2081653104131404086?ref_src=twsrc%5Etfw"&gt;July 27, 2026&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content>
+		<summary>.NET 関連の情報をほぼ週刊配信</summary>
+	</entry>
 	<entry>
 		<id>https://weekref.net/2026/07/17/updates</id>
 		<title>2026-07-17: .NET 11 Preview 6, .NET July 2026 updates</title>
@@ -1625,182 +1708,6 @@ ASP.NET Core におけるサービス拒否の脆弱性&lt;/li&gt;
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 &lt;!-- https://x.com/tigkindel/status/2049281966751764779?s=12 --&gt;
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Terminal.Gui v2.0 has been RELEASED.&lt;br&gt;&lt;br&gt;Terminal.Gui enables building sophisticated console applications with modern UIs.&lt;a href="https://t.co/O1O6oQJRaV"&gt;https://t.co/O1O6oQJRaV&lt;/a&gt;&lt;br&gt;&lt;br&gt;Thank you to all the contributors and users for all the hard work that goes into making this.&lt;br&gt;&lt;br&gt;And thank you to &lt;a href="https://twitter.com/migueldeicaza?ref_src=twsrc%5Etfw"&gt;&amp;#64;migueldeicaza&lt;/a&gt; for the… &lt;a href="https://t.co/xVLiunth4k"&gt;pic.twitter.com/xVLiunth4k&lt;/a&gt;&lt;/p&gt;&amp;mdash; Tig (&amp;#64;tigkindel) &lt;a href="https://twitter.com/tigkindel/status/2049281966751764779?ref_src=twsrc%5Etfw"&gt;April 29, 2026&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-</content>
-		<summary>.NET 関連の情報をほぼ週刊配信</summary>
-	</entry>
-	<entry>
-		<id>https://weekref.net/2026/04/21/updates</id>
-		<title>2026-04-21: .NET 11 Preview 3, .NET 10.0.6 &amp; 9.0.15 &amp; 8.0.26, Microsoft Agent Framework 1.0, The Road to Visual Studio 2027</title>
-		<author>
-			<name>Mayuki Sawatari</name>
-		</author>
-		<link href="https://weekref.net/2026/04/21/updates" />
-		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
-		<updated>2026-04-21T00:00:00Z</updated>
-		<content type="html">&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="net-11-preview-3-is-now-available.net-blog"&gt;.NET 11 Preview 3 is now available! - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-11-preview-3/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-11-preview-3/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net-and.net-framework-april-2026-servicing-releases-updates.net-blog"&gt;.NET and .NET Framework April 2026 servicing releases updates - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-april-2026-servicing-updates/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-april-2026-servicing-updates/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="microsoft-agent-framework-version-1.0-microsoft-agent-framework"&gt;Microsoft Agent Framework Version 1.0 | Microsoft Agent Framework&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0/"&gt;https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="keynote-the-road-to-visual-studio-2027-building-a-faster-smarter-ide-vs-live-las-vegas-2026"&gt;Keynote: The Road to Visual Studio 2027: Building a Faster, Smarter IDE | VS Live! Las Vegas 2026&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=fVE4Ol085UU"&gt;https://www.youtube.com/watch?v=fVE4Ol085UU&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/fVE4Ol085UU?si=HUo0tyEf893bmzb2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/from-ai-to-net-20-vs-live-las-vegas-sessions-you-can-watch-now/"&gt;From AI to .NET: 20 VS Live! Las Vegas Sessions You Can Watch Now - Visual Studio Blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="writing-node.js-addons-with.net-native-aot.net-blog"&gt;Writing Node.js addons with .NET Native AOT - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/writing-nodejs-addons-with-dotnet-native-aot/"&gt;https://devblogs.microsoft.com/dotnet/writing-nodejs-addons-with-dotnet-native-aot/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="critical-breaking-change-in-microsoft.aspnetcore.dataprotection-from-10.0.5-10.0.6-issue-66335-dotnetaspnetcore"&gt;CRITICAL BREAKING CHANGE in Microsoft.AspNetCore.DataProtection from 10.0.5 = 10.0.6 · Issue #66335 · dotnet/aspnetcore&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/dotnet/aspnetcore/issues/66335"&gt;https://github.com/dotnet/aspnetcore/issues/66335&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="section-1"&gt;リリース&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/AvaloniaUI/Avalonia"&gt;AvaloniaUI/Avalonia&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/AvaloniaUI/Avalonia/releases/tag/11.3.14"&gt;11.3.14&lt;/a&gt;, &lt;a href="https://github.com/AvaloniaUI/Avalonia/releases/tag/12.0.1"&gt;12.0.1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/aws/aws-sdk-net"&gt;aws/aws-sdk-net&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.230.0"&gt;4.0.230.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.231.0"&gt;4.0.231.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.232.0"&gt;4.0.232.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.233.0"&gt;4.0.233.0&lt;/a&gt;, &lt;a href="https://github.com/aws/aws-sdk-net/releases/tag/4.0.234.0"&gt;4.0.234.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Azure/azure-sdk-for-net"&gt;Azure/azure-sdk-for-net&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Core_1.53.0"&gt;Azure.Core_1.53.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Identity_1.17.2"&gt;Azure.Identity_1.17.2&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Identity.Broker_1.6.0"&gt;Azure.Identity.Broker_1.6.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.Network_1.1.0"&gt;Azure.Provisioning.Network_1.1.0&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.AlertsManagement_1.1.2"&gt;Azure.ResourceManager.AlertsManagement_1.1.2&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Analysis_1.1.2"&gt;Azure.ResourceManager.Analysis_1.1.2&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.ApiManagement_1.3.1"&gt;Azure.ResourceManager.ApiManagement_1.3.1&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.AppComplianceAutomation_1.0.2"&gt;Azure.ResourceManager.AppComplianceAutomation_1.0.2&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.ArizeAIObservabilityEval_1.0.1"&gt;Azure.ResourceManager.ArizeAIObservabilityEval_1.0.1&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Security.KeyVault.Secrets_4.10.0"&gt;Azure.Security.KeyVault.Secrets_4.10.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/DataDog/dd-trace-dotnet"&gt;DataDog/dd-trace-dotnet&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/DataDog/dd-trace-dotnet/releases/tag/v3.42.0"&gt;v3.42.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/dotnet-monitor"&gt;dotnet/dotnet-monitor&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/dotnet-monitor/releases/tag/v10.0.2"&gt;v10.0.2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/orleans"&gt;dotnet/orleans&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dotnet/orleans/releases/tag/v10.1.0"&gt;v10.1.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/googleapis/google-cloud-dotnet"&gt;googleapis/google-cloud-dotnet&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Dataproc.V1-5.24.0"&gt;Google.Cloud.Dataproc.V1-5.24.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Kms.V1-3.24.0"&gt;Google.Cloud.Kms.V1-3.24.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Cloud.Translate.V3-3.11.0"&gt;Google.Cloud.Translate.V3-3.11.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Shopping.Merchant.Inventories.V1-1.3.0"&gt;Google.Shopping.Merchant.Inventories.V1-1.3.0&lt;/a&gt;, &lt;a href="https://github.com/googleapis/google-cloud-dotnet/releases/tag/Google.Shopping.Merchant.Products.V1-1.5.0"&gt;Google.Shopping.Merchant.Products.V1-1.5.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/microsoft/CsWin32"&gt;microsoft/CsWin32&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/microsoft/CsWin32/releases/tag/v0.3.275"&gt;v0.3.275&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/spectreconsole/spectre.console"&gt;spectreconsole/spectre.console&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/spectreconsole/spectre.console/releases/tag/0.55.1"&gt;0.55.1&lt;/a&gt;, &lt;a href="https://github.com/spectreconsole/spectre.console/releases/tag/0.55.2"&gt;0.55.2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="section-2"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="microsoft-agent-frameworkllm-8chathistoryprovider"&gt;Microsoft Agent FrameworkをローカルLLMで試してみる その8(ChatHistoryProvider)&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/yy7613/articles/af540163a106c9"&gt;https://zenn.dev/yy7613/articles/af540163a106c9&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/yy7613/articles/4d03bf8c93b13c"&gt;Microsoft Agent FrameworkをローカルLLMで試してみる その9(AIContextProvider)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/yy7613/articles/57ceb544ff7486"&gt;Microsoft Agent FrameworkをローカルLLMで試してみる その10(AIContextProvider)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="revisiting-c-scripting-with-the-westwind.scripting-templating-library-part-1"&gt;Revisiting C# Scripting with the Westwind.Scripting Templating Library, Part 1&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://weblog.west-wind.com/posts/2026/Apr/20/Revisiting-C-Scripting-with-the-WestwindScripting-Templating-Library-Part-1"&gt;https://weblog.west-wind.com/posts/2026/Apr/20/Revisiting-C-Scripting-with-the-WestwindScripting-Templating-Library-Part-1&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="c-15union-types-qiita"&gt;C# 15：Union Types 完全ガイド - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/hez2010/items/b656c867f9e5f57cc1cd"&gt;https://qiita.com/hez2010/items/b656c867f9e5f57cc1cd&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="kafkamasstransit"&gt;KafkaとMassTransitを触って気づいた、イベント駆動の本質は「配送」ではなく「データの扱い」だった話&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/aecomet/articles/fa61ba2aa5d583"&gt;https://zenn.dev/aecomet/articles/fa61ba2aa5d583&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="s3ai-qiita"&gt;テスト用S3モックサーバーが欲しくなったら、今ならAIに作ってもらえばよいのかも - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/yamaokunousausa/items/4547756cc171d7709596"&gt;https://qiita.com/yamaokunousausa/items/4547756cc171d7709596&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="c15.0dev-containersvscode"&gt;C#15.0を試すためにDev Containersを使う【VSCode】&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/inuinu/articles/csharp15-with-dev-container"&gt;https://zenn.dev/inuinu/articles/csharp15-with-dev-container&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="github-copilot-cli"&gt;GitHub Copilot CLI でスキルを駆使していい感じのプログラムを書いてもらおう&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/github-copilot-create-agents"&gt;https://zenn.dev/microsoft/articles/github-copilot-create-agents&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="claude-codeusb-lcdpatlite-qiita"&gt;Claude Codeのレート制限をUSB LCDに表示してみた・許可プロンプトをPATLITE(偽)で通知してみた - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/yamaokunousausa/items/8ee2d8dc607483ce7679"&gt;https://qiita.com/yamaokunousausa/items/8ee2d8dc607483ce7679&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="porting-a-swiftui-app-to-avalonia-how-does-cross-platform.net-hold-up"&gt;Porting a SwiftUI App to Avalonia: How does Cross-Platform .NET hold up&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/biozal/porting-a-swiftui-app-to-avalonia-how-does-cross-platform-net-hold-up-4ol0"&gt;https://dev.to/biozal/porting-a-swiftui-app-to-avalonia-how-does-cross-platform-net-hold-up-4ol0&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="any-cpu-x64installutil.exe"&gt;Any CPU - x64移行でハマった：InstallUtil.exeは同じアーキテクチャで実行する必要がある&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/luxiar/articles/1a5fa7127b0d18"&gt;https://zenn.dev/luxiar/articles/1a5fa7127b0d18&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="the-road-to-visual-studio-2027-ndepend-blog"&gt;The Road to Visual Studio 2027 - NDepend Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.ndepend.com/the-road-to-visual-studio-2027/"&gt;https://blog.ndepend.com/the-road-to-visual-studio-2027/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="c-winforms"&gt;非エンジニアでもできるC# WinForms入門 — 製造業の社内ツールを自分で作る&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/jodycraft/articles/csharp-winforms-for-non-engineers"&gt;https://zenn.dev/jodycraft/articles/csharp-winforms-for-non-engineers&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net"&gt;【.NET】境界チェックが消えるパターン集&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/prozolic/articles/79df5e08acf4b5"&gt;https://zenn.dev/prozolic/articles/79df5e08acf4b5&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net-mauibmi-qiita"&gt;【.NET MAUI】はじめてのアプリ開発！BMI計算アプリを作ってみよう - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/Satoshi_Katsu/items/2748e8d423138b95d829"&gt;https://qiita.com/Satoshi_Katsu/items/2748e8d423138b95d829&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="building-a-gpt-from-scratch-in-c-gary-jackson"&gt;Building a GPT From Scratch in C# | Gary Jackson&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://garyjackson.dev/gpt-course/"&gt;https://garyjackson.dev/gpt-course/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="introduction-gary-jackson"&gt;Introduction | Gary Jackson&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://garyjackson.dev/gpt-course/introduction/"&gt;https://garyjackson.dev/gpt-course/introduction/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="c-that-looks-like-go-building-a-web-api-without-a.csproj"&gt;C# That Looks Like Go: Building a Web API Without a .csproj&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://makarchie.com/posts/csharp-that-looks-like-go-file-based-apps/"&gt;https://makarchie.com/posts/csharp-that-looks-like-go-file-based-apps/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="github-copilot-aspire"&gt;GitHub Copilot クラウドエージェントで Aspire を起動できるようにする&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/mayuki/articles/a8a9f64100e46d"&gt;https://zenn.dev/mayuki/articles/a8a9f64100e46d&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="bootstrap-logger-qiita"&gt;アプリが起動しないのにログが出ない...を解決する「Bootstrap Logger」のススメ - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/futayubi5656/items/dcbe02d506f02855fd8b"&gt;https://qiita.com/futayubi5656/items/dcbe02d506f02855fd8b&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="iasyncenumerable-dto-ef-core"&gt;IAsyncEnumerable を DTO のプロパティに置くと EF Core が並列実行エラーになる仕組みと解決方法&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/juners/articles/288efc07eb5794"&gt;https://zenn.dev/juners/articles/288efc07eb5794&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="c-pdf-pdfsharp-vs-questpdf"&gt;C# PDF生成ライブラリ比較 — PDFSharp vs QuestPDFを検査成績書で実装して選び方を考えた&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/jodycraft/articles/csharp-pdf-pdfsharp-vs-questpdf"&gt;https://zenn.dev/jodycraft/articles/csharp-pdf-pdfsharp-vs-questpdf&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="microsoft-foundry-localc1-qiita"&gt;Microsoft Foundry Localをお試しする(C#編その１) - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/kashin777/items/0878a6f2c1412402d065"&gt;https://qiita.com/kashin777/items/0878a6f2c1412402d065&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="linq"&gt;データ型のメンバーが増える度にあちこち修正しないためのLINQ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/numani/articles/extract-shape"&gt;https://zenn.dev/numani/articles/extract-shape&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="testcontainerspodmanefcore.net"&gt;TestContainersとPodmanでEFCoreを使った.NETアプリケーションの統合テストを実装する&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/ryun_log/articles/8a9bfd0740d0e5"&gt;https://zenn.dev/ryun_log/articles/8a9bfd0740d0e5&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="azuremicrosoft-entra-id-blazor-qiita"&gt;【Azure】Microsoft Entra ID ユーザー管理と Blazor 権限制御の実装ガイド - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/KM_20005/items/0caaff534860d026d8b2"&gt;https://qiita.com/KM_20005/items/0caaff534860d026d8b2&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="bit32bit-dllcom"&gt;64bitアプリから32bit DLLを呼ぶ(COMサロゲート)&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/nmiura_thakaz/articles/d93479bbbbc3fa"&gt;https://zenn.dev/nmiura_thakaz/articles/d93479bbbbc3fa&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="foundry-local-sdkwpf"&gt;Foundry Local SDKをWPFで使う話&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/yakumo3/articles/5a545be2a4cb27"&gt;https://zenn.dev/yakumo3/articles/5a545be2a4cb27&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="ctypescript-qiita"&gt;C#エンジニアがTypeScriptで詰まった概念と書き方まとめ - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/HakamataSoft/items/da0252c10a4128b1f4a0"&gt;https://qiita.com/HakamataSoft/items/da0252c10a4128b1f4a0&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="stop-hunting-bugs-meet-the-new-visual-studio-debugger-agent-workflow-visual-studio-blog"&gt;Stop Hunting Bugs: Meet the New Visual Studio Debugger Agent Workflow - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/stop-hunting-bugs-meet-the-new-visual-studio-debugger-agent/"&gt;https://devblogs.microsoft.com/visualstudio/stop-hunting-bugs-meet-the-new-visual-studio-debugger-agent/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="azure-mcp-tools-now-ship-built-into-visual-studio-2022-no-extension-required-visual-studio-blog"&gt;Azure MCP tools now ship built into Visual Studio 2022 — no extension required - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/azure-mcp-tools-now-ship-built-into-visual-studio-2022-no-extension-required/"&gt;https://devblogs.microsoft.com/visualstudio/azure-mcp-tools-now-ship-built-into-visual-studio-2022-no-extension-required/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="introducing-dotllm-building-an-llm-inference-engine-in-c-konrad-dev-nerd-kokosa"&gt;Introducing dotLLM - Building an LLM Inference Engine in C# | Konrad 'Dev Nerd' Kokosa&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://kokosa.dev/blog/2026/dotllm/"&gt;https://kokosa.dev/blog/2026/dotllm/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="url-pattern-matching-in.net-gerald-barre"&gt;URL Pattern Matching in .NET - Gérald Barré&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.meziantou.net/url-pattern-matching-in-dotnet.htm"&gt;https://www.meziantou.net/url-pattern-matching-in-dotnet.htm&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="getting-started-with-pgvector-in.net-for-simple-vector-search"&gt;Getting Started With PgVector in .NET for Simple Vector Search&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.milanjovanovic.tech/blog/getting-started-with-pgvector-in-dotnet-for-simple-vector-search"&gt;https://www.milanjovanovic.tech/blog/getting-started-with-pgvector-in-dotnet-for-simple-vector-search&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="why-im-building-a-database-engine-in-c"&gt;Why I’m Building a Database Engine in C#&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://nockawa.github.io/blog/why-building-database-engine-in-csharp/"&gt;https://nockawa.github.io/blog/why-building-database-engine-in-csharp/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="godot-engine"&gt;今日から仕事で使うGodot Engine&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://docs.google.com/presentation/d/1PuMcHiRoEUBiS7-DYWD882BNLVRE-07fPWBixBMif1U/edit"&gt;https://docs.google.com/presentation/d/1PuMcHiRoEUBiS7-DYWD882BNLVRE-07fPWBixBMif1U/edit&lt;/a&gt;&lt;/p&gt;
-&lt;!-- https://x.com/muo_jp/status/2044927570865766677?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;昨日のGodot Meetup Tokyoで紹介した「Unityをライセンス的に・CPUアーキテクチャ的に使いにくいsandbox環境でAIにC#コードを安全・全力でリファクタさせるツール/実行環境としてGodotを使うためのcliスクリプト群」無事に社内調整がついたのでOSS公開しました &lt;a href="https://t.co/ShVejd6afs"&gt;https://t.co/ShVejd6afs&lt;/a&gt; &lt;a href="https://t.co/Zc5n6MLhon"&gt;https://t.co/Zc5n6MLhon&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kei Nakazawa (&amp;#64;muo_jp) &lt;a href="https://twitter.com/muo_jp/status/2044927570865766677?ref_src=twsrc%5Etfw"&gt;April 16, 2026&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;h2 id="section-3"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="kommetwizgrep"&gt;KoMMet/WizGrep&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/KoMMet/WizGrep"&gt;https://github.com/KoMMet/WizGrep&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/komurodesu/articles/2717aaee6d0dd7"&gt;AIを使ってOfficeソフト/PDF/テキストをまとめて横断検索できるアプリを作った&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="akeit0okojo-okojo-is-an-experimental-low-allocation-managed-javascript-engine-for.net"&gt;akeit0/okojo: Okojo is an experimental low allocation managed JavaScript engine for .NET&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/akeit0/okojo?tab=readme-ov-file"&gt;https://github.com/akeit0/okojo?tab=readme-ov-file&lt;/a&gt;&lt;/p&gt;
-&lt;!-- https://x.com/akeit0_/status/2042902335287103775?s=12&amp;t=ggvrrZ7oLogHyNoIGNgjbw --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;.NET 向け JavaScript エンジン Okojo を公開しました。&lt;br&gt;ベンチマークでは Jint 比 3 倍以上高速、しかも低アロケーション！&lt;br&gt;Wasm組み込みやreflection、d.ts付きbind 生成、node互換ランタイム、vscode debuggerなど拡張もりもりです！&lt;a href="https://t.co/C8XEEKDdNk"&gt;https://t.co/C8XEEKDdNk&lt;/a&gt;&lt;/p&gt;&amp;mdash; akeit0 (&amp;#64;Akeit0_) &lt;a href="https://twitter.com/Akeit0_/status/2042902335287103775?ref_src=twsrc%5Etfw"&gt;April 11, 2026&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 </content>
 		<summary>.NET 関連の情報をほぼ週刊配信</summary>
