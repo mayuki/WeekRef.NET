@@ -6,8 +6,107 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Fri, 30 Oct 2026 09:33:03 GMT</pubDate>
-		<lastBuildDate>Fri, 30 Oct 2026 09:33:03 GMT</lastBuildDate>
+		<pubDate>Mon, 09 Nov 2026 08:23:52 GMT</pubDate>
+		<lastBuildDate>Mon, 09 Nov 2026 08:23:52 GMT</lastBuildDate>
+		<item>
+			<title>2026-11-09: Get Ready for .NET Conf 2026, XAML IntelliSense in VS Code</title>
+			<link>https://weekref.net/2026/11/09/updates</link>
+			<description>.NET 関連の情報をほぼ週刊配信</description>
+			<author>Mayuki Sawatari</author>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2026/11/09/updates</guid>
+			<pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="get-ready-for.net-conf-2026.net-blog"&gt;Get Ready for .NET Conf 2026! - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/get-ready-for-dotnet-conf-2026/"&gt;https://devblogs.microsoft.com/dotnet/get-ready-for-dotnet-conf-2026/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="announcing-xaml-intellisense-support-in-the-winapp-vs-code-extension-ifdef-windows"&gt;Announcing XAML IntelliSense Support in the WinApp VS Code Extension - #ifdef Windows&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/ifdef-windows/xaml-intellisense-support-in-winapp-extension/"&gt;https://devblogs.microsoft.com/ifdef-windows/xaml-intellisense-support-in-winapp-extension/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="compromised-emudhra-certificates-update-your-jetbrains-ides-resharper.net-tools-toolbox-app-and-gateway-now-the-jetbrains-blog"&gt;Compromised eMudhra Certificates: Update Your JetBrains IDEs, ReSharper, .NET Tools, Toolbox App, and Gateway Now - The JetBrains Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/security/2026/10/compromised-emudhra-certificates-ides/"&gt;https://blog.jetbrains.com/security/2026/10/compromised-emudhra-certificates-ides/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="delivering-skills-in-nuget-packages.net-blog"&gt;Delivering Skills in NuGet packages - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/delivering-skills-in-nuget-packages/"&gt;https://devblogs.microsoft.com/dotnet/delivering-skills-in-nuget-packages/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="sqliteduckdb-105"&gt;SQLiteをやめてDuckDBに一本化できるか？ 105万行の追記で見極めた条件&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/sitio1/articles/5c59603d272a5e"&gt;https://zenn.dev/sitio1/articles/5c59603d272a5e&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="netunityc-il"&gt;【.NET/Unity】C# の型制約とボックス化をハックする — IL と手動スタック配置&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/aakei/articles/csharp-stack-box"&gt;https://zenn.dev/aakei/articles/csharp-stack-box&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="claude-code-wpf-3-qiita"&gt;Claude Code で WPF 業務アプリに単体テストを作成した話 ― 意識した 3 つのこと - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/kazutoyamaura/items/d63520304cca26f033d3"&gt;https://qiita.com/kazutoyamaura/items/d63520304cca26f033d3&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="section-2"&gt;[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/xin9le/articles/9a1cf8e10494d6"&gt;https://zenn.dev/xin9le/articles/9a1cf8e10494d6&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="ssa.net-il-qiita"&gt;SSA ベースの .NET IL 最適化コンパイラーを作ってみた - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/hez2010/items/70fe879c1a37379f020c"&gt;https://qiita.com/hez2010/items/70fe879c1a37379f020c&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="winui-3-webview2-textbox-qiita"&gt;WinUI 3 の WebView2 をクリックすると日本語入力が効かず英字になる。TextBox から移るときに見えない部品を挟んで直す - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/Mimumumimu/items/525090b30f267262b1b9"&gt;https://qiita.com/Mimumumimu/items/525090b30f267262b1b9&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="winui-3-dos-conpty-xterm.js-qiita"&gt;WinUI 3 にコマンドプロンプト (DOS 窓・ターミナル) を埋め込んで、ボタンからコマンドを送る。ConPTY と xterm.js - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/Mimumumimu/items/69a1edb0e6af6686f47a"&gt;https://qiita.com/Mimumumimu/items/69a1edb0e6af6686f47a&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="section-3"&gt;初めてのリアルタイムサーバー開発 ― 対戦ゲームのサーバー設計&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/chinpangx_tech/articles/a7c3e91d40b5f2"&gt;https://zenn.dev/chinpangx_tech/articles/a7c3e91d40b5f2&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="plugin.maui.audiowindows"&gt;Plugin.Maui.AudioはWindowsで思い通りに動かない&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/kariki_no10/articles/3e754efa3ce6c0"&gt;https://zenn.dev/kariki_no10/articles/3e754efa3ce6c0&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="windows-mac-mini-vnc-rexremote-qiita"&gt;出先の Windows から Mac mini を操作するため、シンプルな VNC クライアント「rexRemote」を作った - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/rex0220/items/15867acecbd8e53724c6"&gt;https://qiita.com/rex0220/items/15867acecbd8e53724c6&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="modernize-your.net-apps-for-windows-arm64-with-github-copilot.net-blog"&gt;Modernize your .NET apps for Windows Arm64 with GitHub Copilot - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/modernize-dotnet-apps-for-windows-arm64/"&gt;https://devblogs.microsoft.com/dotnet/modernize-dotnet-apps-for-windows-arm64/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="help-shape-the-future-of.net-take-the-2026.net-developer-survey.net-blog"&gt;Help Shape the Future of .NET: Take the 2026 .NET Developer Survey - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-developer-survey-2026/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-developer-survey-2026/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="keep-learning-keep-building-make-the-most-of-vslive-with-your-visual-studio-subscription-visual-studio-blog"&gt;Keep learning, keep building! Make the most of VSLive! with your Visual Studio Subscription - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/keep-learning-keep-building-make-the-most-of-vslive-with-your-visual-studio-subscription/"&gt;https://devblogs.microsoft.com/visualstudio/keep-learning-keep-building-make-the-most-of-vslive-with-your-visual-studio-subscription/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="snowflakesonyflake-qiita"&gt;SnowflakeとSonyflake - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/simoyama2323/items/b27f57c46995c1b6df9a"&gt;https://qiita.com/simoyama2323/items/b27f57c46995c1b6df9a&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="c-llmollama-14btips-qiita"&gt;[C#] ローカルLLM（Ollama 14B）に自律エージェントを任せたらサボり倒した話と、コードでねじ伏せた実装Tips - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/youx2moon/items/c075fda55c196c6dec3b"&gt;https://qiita.com/youx2moon/items/c075fda55c196c6dec3b&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="c-mcp-model-context-protocolwindows-ai-qiita"&gt;[C#] 「MCP (Model Context Protocol)」クライアントを自作して、外部アプリを自律操作するWindows AIエージェントを作ってみた - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/youx2moon/items/08246072a7811839f728"&gt;https://qiita.com/youx2moon/items/08246072a7811839f728&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="github-copilot-app.net"&gt;GitHub Copilot App のサンドボックスで .NET アプリを開発するための設定を試してみた&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/copilot-app-dotnet-windows-sandbox"&gt;https://zenn.dev/microsoft/articles/copilot-app-dotnet-windows-sandbox&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="csvunitymagiconionrust"&gt;CSVからUnity・MagicOnion・Rustのマスターデータを一括生成するパイプラインを作った&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/chinpangx_tech/articles/7f7d16f310b0a3"&gt;https://zenn.dev/chinpangx_tech/articles/7f7d16f310b0a3&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="dpiwindows11dd"&gt;高DPI環境のWindowsで自作アプリのアイコンがボケる原因と、全11サイズをD&amp;amp;Dで一発生成するツールの設計録&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/chililikobo/articles/8c5d2fe2e0989d"&gt;https://zenn.dev/chililikobo/articles/8c5d2fe2e0989d&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="c.ico1616pxoklab-qiita"&gt;C#でアプリアイコン（.ico）を16×16pxに縮小するとボケる原因と、Oklab色空間による鮮明化アプローチ - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/chililikobo/items/a28d577319c386533134"&gt;https://qiita.com/chililikobo/items/a28d577319c386533134&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="explore-mauireactor-and-the-mvu-pattern"&gt;Explore MauiReactor and the MVU Pattern&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.telerik.com/blogs/explore-mauireactor-mvu-pattern"&gt;https://www.telerik.com/blogs/explore-mauireactor-mvu-pattern&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="whats-new-in-asp.net-core-authentication-in.net-11"&gt;What's new in ASP.NET Core authentication in .NET 11&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://nestenius.se/net/whats-new-in-asp-net-core-authentication-in-net-11/"&gt;https://nestenius.se/net/whats-new-in-asp-net-core-authentication-in-net-11/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="querying-roslyn-syntax-trees-with-xpath-gerald-barre"&gt;Querying Roslyn syntax trees with XPath - Gérald Barré&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.meziantou.net/querying-roslyn-syntax-trees-with-xpath.htm"&gt;https://www.meziantou.net/querying-roslyn-syntax-trees-with-xpath.htm&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="burikaigic"&gt;BuriKaigiで、ローコードとC#がつながった話&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/wataru_fujita/articles/c-fragments-become-a-line"&gt;https://zenn.dev/wataru_fujita/articles/c-fragments-become-a-line&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-11safefilehandleapi"&gt;【.NET 11】SafeFileHandleの新規APIでハマった点について&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/prozolic/articles/f74a9711a6a22c"&gt;https://zenn.dev/prozolic/articles/f74a9711a6a22c&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="intelligent-terminal-0.3-a-new-way-to-manage-your-tabs-and-agents"&gt;Intelligent Terminal 0.3: A new way to manage your tabs and agents&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/commandline/intelligent-terminal-v0-3-a-new-way-to-see-and-manage-your-tabs-and-agents/"&gt;https://devblogs.microsoft.com/commandline/intelligent-terminal-v0-3-a-new-way-to-see-and-manage-your-tabs-and-agents/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="sacloud-oss-202610.net-sdk-cli-skr-vpn-v3"&gt;sacloud OSS 2026年10月 ─ .NET SDK 公開、新 CLI skr 登場、VPN ルータ v3 対応&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/sakura_internet/articles/sacloud-oss-2026-10"&gt;https://zenn.dev/sakura_internet/articles/sacloud-oss-2026-10&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="understanding-lazyt-thread-safety-modes"&gt;Understanding LazyT thread safety modes&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/understanding-lazy-thread-safety-modes/"&gt;https://andrewlock.net/understanding-lazy-thread-safety-modes/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-maui-on-the-web-and-most-of-shiny-controls-just-works"&gt;.NET MAUI on the Web - and Most of Shiny Controls Just Works&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://shinylib.net/blog/2026/10/maui-web-shiny-controls/"&gt;https://shinylib.net/blog/2026/10/maui-web-shiny-controls/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="section-4"&gt;ツイート&lt;/h3&gt;
+&lt;!-- https://x.com/jperis_silva/status/2117075459535937885?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;I’m running an experiment to implement a LLVM Frontend to C# for +- 2 weeks with Opus 5.5 and I’m already able to Bootstrap project itself and run 10x smaller than NativeAOT projects compiled. Two way Interoperability between dotnet and my lib and results are turning very good so…&lt;/p&gt;&amp;mdash; Jonathan Peris (&amp;#64;jonathanperis) &lt;a href="https://x.com/jonathanperis/status/2117075459535937885?ref_src=twsrc%5Etfw"&gt;November 2, 2026&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;!-- https://x.com/davidfowl/status/2117020540628340983?a=fS_rSCdrfjB2y5PnJnc&amp;s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Ran an experiment that ran for a day that resulted in ~90 PRs to improve the performance of &lt;a href="https://t.co/E49xzaL9tF"&gt;https://t.co/E49xzaL9tF&lt;/a&gt; Core:&lt;a href="https://t.co/EOL61U69lr"&gt;https://t.co/EOL61U69lr&lt;/a&gt;&lt;br&gt;&lt;br&gt;Fun facts:&lt;br&gt;- These were using Github&amp;#39;s new cloud agents support that shipped this week at GHU. &lt;br&gt;- Opus 5.5 is very good&lt;br&gt;- ~$230 in…&lt;/p&gt;&amp;mdash; David Fowler (&amp;#64;davidfowl) &lt;a href="https://x.com/davidfowl/status/2117020540628340983?ref_src=twsrc%5Etfw"&gt;November 1, 2026&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;!-- https://x.com/ben_a_adams/status/2116118351365984289?s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;AI now finds bugs that survived decades of human review, and writes code that looks right but isn’t. Tests can’t keep up.&lt;br&gt;&lt;br&gt;LeanCIL: formal verification for .NET &lt;br&gt;&lt;br&gt;Proofs about compiled C# and F# (any dotnet lang), for every input, checked by &lt;a href="https://x.com/leanprover?ref_src=twsrc%5Etfw"&gt;&amp;#64;leanprover&lt;/a&gt; &lt;a href="https://t.co/qcWvHxJLT4"&gt;https://t.co/qcWvHxJLT4&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ben {chmark} Adams ⟠ (&amp;#64;ben_a_adams) &lt;a href="https://x.com/ben_a_adams/status/2116118351365984289?ref_src=twsrc%5Etfw"&gt;October 30, 2026&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>2026-10-30: .NET October 2026 Out-of-Band Security Updates, Visual Studio October Update</title>
 			<link>https://weekref.net/2026/10/30/updates</link>
@@ -1032,140 +1131,6 @@ Studio Code や各種言語/ランタイムなどがインストールされた�
 &lt;h2 id="deep-dive"&gt;Deep Dive&lt;/h2&gt;
 &lt;h3 id="add-c-15-language-version-by-333fred-pull-request-84799-dotnetroslyn"&gt;Add C# 15 language version by 333fred · Pull Request #84799 · dotnet/roslyn&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/dotnet/roslyn/pull/84799"&gt;https://github.com/dotnet/roslyn/pull/84799&lt;/a&gt;&lt;/p&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>2026-08-10: C# Kaigi 2026, NuGet Reducing API Key Lifetime, Rx.NET v7.0, Uno Platform 6.6</title>
-			<link>https://weekref.net/2026/08/10/updates</link>
-			<description>.NET 関連の情報をほぼ週刊配信</description>
-			<author>Mayuki Sawatari</author>
-			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
-			<guid>https://weekref.net/2026/08/10/updates</guid>
-			<pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="c-kaigi-2026"&gt;タイムテーブル | C# Kaigi 2026&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://csharpkaigi.net/timetable"&gt;https://csharpkaigi.net/timetable&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="strengthening-nuget-supply-chain-security-reducing-api-key-lifetime.net-blog"&gt;Strengthening NuGet Supply Chain Security: Reducing API Key Lifetime - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/strengthening-nuget-supply-chain-security-reducing-api-key-lifetime/"&gt;https://devblogs.microsoft.com/dotnet/strengthening-nuget-supply-chain-security-reducing-api-key-lifetime/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="rx.net-v7.0-now-available"&gt;Rx.NET v7.0 Now Available&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://endjin.com/blog/rx-dotnet-v7-0-released"&gt;https://endjin.com/blog/rx-dotnet-v7-0-released&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="uno-platform-6.6-native-aot-vulkan-rendering-mcp-auto-registration-and-more"&gt;Uno Platform 6.6: Native AOT, Vulkan Rendering, MCP Auto Registration and More&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://platform.uno/blog/uno-platform-6-6/"&gt;https://platform.uno/blog/uno-platform-6-6/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="the-path-to-coreclr-1-the-problem-unity-engine-unity-discussions"&gt;The Path to CoreCLR #1: The Problem - Unity Engine - Unity Discussions&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://discussions.unity.com/t/the-path-to-coreclr-1-the-problem/1733018"&gt;https://discussions.unity.com/t/the-path-to-coreclr-1-the-problem/1733018&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="section-1"&gt;リリース&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/Azure/azure-cosmos-dotnet-v3"&gt;Azure/azure-cosmos-dotnet-v3&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/Azure/azure-cosmos-dotnet-v3/releases/tag/3.62.0"&gt;3.62.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/unoplatform/uno"&gt;unoplatform/uno&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/unoplatform/uno/releases/tag/6.6.184"&gt;6.6.184&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="section-2"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="net"&gt;.NETランタイムのローカルビルド方法（備忘録）&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/prozolic/articles/40596be65d333f"&gt;https://zenn.dev/prozolic/articles/40596be65d333f&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="csystemcommandline-qiita"&gt;C#のSystemCommandLineの静的補完機能について - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/KM_20005/items/57abdc2173659ba24a80"&gt;https://qiita.com/KM_20005/items/57abdc2173659ba24a80&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="from-generated-code-to-trusted-code-with-a-unit-test-agent.net-blog"&gt;From generated code to trusted code with a unit-test agent - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/polyglot-unit-testing-agent/"&gt;https://devblogs.microsoft.com/dotnet/polyglot-unit-testing-agent/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="wpf4"&gt;WPFのスライダーを目盛り単位で動かすには4つのプロパティが必要&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/suusanex/articles/d40492e3c23059"&gt;https://zenn.dev/suusanex/articles/d40492e3c23059&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="opentelemetry"&gt;OpenTelemetryを「本来の使い方じゃない」目的で使ってみたら十分便利だった話&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/sitio1/articles/1b78532dfbaac1"&gt;https://zenn.dev/sitio1/articles/1b78532dfbaac1&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="roslynmetalama-otel-tracing"&gt;RoslynでもできないメタプログラミングをMetalamaで! - OTel Tracingを例にして&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/kamome283/articles/introduce-metalama"&gt;https://zenn.dev/kamome283/articles/introduce-metalama&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="section-3"&gt;ネットワーク特化の爆速シリアライザー&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/sator_imaging/articles/09d7584ed4ec08"&gt;https://zenn.dev/sator_imaging/articles/09d7584ed4ec08&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="section-4"&gt;ボタンは「離したとき」ではなく「押したとき」に反応させる&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/yoi/articles/c4aa9cdd36bcbe"&gt;https://zenn.dev/yoi/articles/c4aa9cdd36bcbe&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="snippingtool"&gt;SnippingToolに機能を足して自作してみた【低レベルキーボドフック】&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/da39nbv3/articles/d1f77b496bf866"&gt;https://zenn.dev/da39nbv3/articles/d1f77b496bf866&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/da39nbv3/articles/3d872d56db49be"&gt;SnippingToolに機能を足して自作してみた【マルチモニタ・DPI混在環境でオーバーレイの座標を合わせる】&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/da39nbv3/articles/f646b750396870"&gt;SnippingToolに機能を足して自作してみた【PrintWindowを使わないウィンドウキャプチャの実装】&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/da39nbv3/articles/43a224604620a5"&gt;SnippingToolに機能を足して自作してみた【カーソル下の「本物のアプリウィンドウ」だけを拾う判定ロジック】&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="c-15di-interfaceapiunion"&gt;C# 15+の新DIパターン: 内部はinterfaceで疎結合、公開APIはunionで型の許容範囲を制御&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/inuinu/articles/csharp15-new-di-interface-union-closed"&gt;https://zenn.dev/inuinu/articles/csharp15-new-di-interface-union-closed&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="fflips-qiita"&gt;【F#で数理最適化】Flipsに入門してみた - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/tasuku_nekozawa/items/e774aacb10b9024add4f"&gt;https://qiita.com/tasuku_nekozawa/items/e774aacb10b9024add4f&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="build-azure-skills-faster-with-cloud-academy-a-visual-studio-subscriber-benefit-visual-studio-blog"&gt;Build Azure Skills Faster with Cloud Academy, a Visual Studio Subscriber Benefit - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/build-azure-skills-faster-with-cloud-academy-a-visual-studio-subscriber-benefit/"&gt;https://devblogs.microsoft.com/visualstudio/build-azure-skills-faster-with-cloud-academy-a-visual-studio-subscriber-benefit/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="automatic-csrf-protection-based-on-fetch-metadata-headers-exploring-the.net-11-preview-part-6"&gt;Automatic CSRF protection based on Fetch Metadata headers: Exploring the .NET 11 preview - Part 6&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/exploring-the-dotnet-11-preview-6-automatic-csrf-protection-based-on-fetch-metadata-http-headers/"&gt;https://andrewlock.net/exploring-the-dotnet-11-preview-6-automatic-csrf-protection-based-on-fetch-metadata-http-headers/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="supabase.net-devlog-4"&gt;Supabase .NET DevLog #4&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/tr00d/supabase-net-devlog-4-534a"&gt;https://dev.to/tr00d/supabase-net-devlog-4-534a&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="aitypescriptc-anders-hejlsberg-ai"&gt;「AIに向くのは学習データが多い言語」TypeScript・C#を作った Anders Hejlsberg がAIを語った回を要点解説&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/talks_tldr_jp/articles/tldr22-hejlsberg-summary"&gt;https://zenn.dev/talks_tldr_jp/articles/tldr22-hejlsberg-summary&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="aiui-automatione2e"&gt;AIとUI Automationで画面操作のE2Eテストを組んだら、「実装の壁」は結局人間側にあった話&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/sitio1/articles/d07e7030f54b6e"&gt;https://zenn.dev/sitio1/articles/d07e7030f54b6e&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="agent-framework-harness-agent-governance-toolkit"&gt;Agent Framework Harness と Agent Governance Toolkit でファイル操作エージェント制御&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/agent-governance-toolkit-policy-02"&gt;https://zenn.dev/microsoft/articles/agent-governance-toolkit-policy-02&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="performance-pitfalls-in-c.net-protobuf-repeated-uint32-vs-repeated-fixed32"&gt;Performance Pitfalls in C# / .NET - Protobuf - repeated uint32 vs repeated fixed32&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.eterm.uk/2026/07/30/Performance-pitfalls-protobuf"&gt;https://blog.eterm.uk/2026/07/30/Performance-pitfalls-protobuf&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="test-reporting-in-microsoft.testing.platform-from-red-build-to-root-cause.net-blog"&gt;Test reporting in Microsoft.Testing.Platform: from red build to root cause - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/microsoft-testing-platform-reporting/"&gt;https://devblogs.microsoft.com/dotnet/microsoft-testing-platform-reporting/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="the-ultimate.net-workflow-for-cursor-antigravity-and-ai-first-editors-the-jetbrains-blog"&gt;The Ultimate .NET Workflow for Cursor, Antigravity, and AI-First Editors - The JetBrains Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2026/08/05/the-ultimate-dotnet-workflow-for-cursor/"&gt;https://blog.jetbrains.com/dotnet/2026/08/05/the-ultimate-dotnet-workflow-for-cursor/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="gpt-5.6-sol-high"&gt;gpt-5.6-sol の high に「ウルトラ」と入力して「ソウル」と話させる技術&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/agent-framework-ultra-soul"&gt;https://zenn.dev/microsoft/articles/agent-framework-ultra-soul&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/microsoft/articles/agent-framework-ultra-soul-memorial"&gt;ウルトラ gpt-5.5-sol high の供養記事&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="beyond-chat-live-speech-to-text-with-foundry-local-and-c.net-blog"&gt;Beyond Chat: live Speech-to-Text with Foundry Local and C# - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/foundry-local-live-speech-to-text-csharp/"&gt;https://devblogs.microsoft.com/dotnet/foundry-local-live-speech-to-text-csharp/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="dotinsights-august-2026-the-jetbrains-blog"&gt;dotInsights | August 2026 - The JetBrains Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2026/08/04/dotinsights-august-2026/"&gt;https://blog.jetbrains.com/dotnet/2026/08/04/dotinsights-august-2026/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="the-complete-package-why-debugging-is-only-half-the-c-productivity-story-the-jetbrains-blog"&gt;The Complete Package: Why Debugging Is Only Half the C# Productivity Story - The JetBrains Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2026/07/30/the-complete-package-why-debugging-is-only-half-the-csharp-productivity-story/"&gt;https://blog.jetbrains.com/dotnet/2026/07/30/the-complete-package-why-debugging-is-only-half-the-csharp-productivity-story/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net-cli"&gt;今さら聞けない .NET CLI&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/poipoionigiri/articles/992b3ecf963154"&gt;https://zenn.dev/poipoionigiri/articles/992b3ecf963154&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="c-new-qiita"&gt;C#で new を差し替える実験的モックツールを作っている話 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/kaneko_desu/items/a75831913a96757444fa"&gt;https://qiita.com/kaneko_desu/items/a75831913a96757444fa&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="tell-your-model-when-to-think-harder-visual-studio-blog"&gt;Tell your model when to think harder - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/tell-your-model-when-to-think-harder/"&gt;https://devblogs.microsoft.com/visualstudio/tell-your-model-when-to-think-harder/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="understanding-the-fetch-metadata-http-headers-sec-fetch-site-and-friends"&gt;Understanding the Fetch Metadata HTTP headers: Sec-Fetch-Site and friends&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/understanding-the-fetch-metadata-http-headers-sec-fetch-site-and-friends/"&gt;https://andrewlock.net/understanding-the-fetch-metadata-http-headers-sec-fetch-site-and-friends/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="announcing-a-new-visual-manifest-editor-in-the-winapp-vs-code-extension-ifdef-windows"&gt;Announcing a New Visual Manifest Editor in the WinApp VS Code Extension - #ifdef Windows&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/ifdef-windows/announcing-a-new-visual-manifest-editor-in-the-winapp-vs-code-extension/"&gt;https://devblogs.microsoft.com/ifdef-windows/announcing-a-new-visual-manifest-editor-in-the-winapp-vs-code-extension/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="excelopenxml-closedxml-epplus-npoi-miniexcel-netoffice-qiita"&gt;Excel編集ライブラリを比較してみた【OpenXML / ClosedXML / EPPlus / NPOI / MiniExcel / NetOffice】 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/masayasu_t/items/807dc40e4a37aa9124d1"&gt;https://qiita.com/masayasu_t/items/807dc40e4a37aa9124d1&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="microsoft-agent-framework-magentic"&gt;Microsoft Agent Framework オーケストレーション検証: Magentic&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/yy7613/articles/a093a93a497178"&gt;https://zenn.dev/yy7613/articles/a093a93a497178&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="debugging-for.net-in-vs-code-and-cursor-the-1-requested-feature-is-here-the-jetbrains-blog"&gt;Debugging for .NET in VS Code and Cursor: The #1 Requested Feature Is Here - The JetBrains Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2026/07/13/rs-vsc-debugging-2/"&gt;https://blog.jetbrains.com/dotnet/2026/07/13/rs-vsc-debugging-2/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="c-131415.net-10"&gt;C# 13→14→15で何が変わった？.NET 10移行前に調べた新機能まとめ&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/jodycraft/articles/fb5b17e9ee274c"&gt;https://zenn.dev/jodycraft/articles/fb5b17e9ee274c&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="polytypeserde-nuskey.md"&gt;PolyTypeとserde、シリアライザの話 | nuskey.md&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.nuskey.md/articles/polytype-and-serde"&gt;https://www.nuskey.md/articles/polytype-and-serde&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="zerogc-an-allocate-only-garbage-collector-for.net-konrad-dev-nerd-kokosa"&gt;ZeroGC: an allocate-only garbage collector for .NET | Konrad 'Dev Nerd' Kokosa&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://kokosa.dev/blog/2026/zero-gc/"&gt;https://kokosa.dev/blog/2026/zero-gc/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="section-5"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="davidwhitneyjsxcore-native-support-for-jsx-and-tsx-as-a-server-and-client-rendered-view-engine-for-asp.net-core.bringing-the-modern-web-to-asp.net"&gt;davidwhitney/JsxCore: Native support for JSX and TSX as a server and client rendered view engine for ASP.NET Core. Bringing the modern web to ASP.NET.&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/davidwhitney/JsxCore"&gt;https://github.com/davidwhitney/JsxCore&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="section-6"&gt;ツイート&lt;/h3&gt;
-&lt;!-- https://x.com/egorbo/status/2085095187555217628?s=12&amp;t=ggvrrZ7oLogHyNoIGNgjbw --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Wrote a small article &amp;quot;Memory Safety in .NET vNext (quick recap and future plans)&amp;quot; to answer frequent Q&amp;amp;A. &lt;a href="https://t.co/Ji6E0HXH9R"&gt;https://t.co/Ji6E0HXH9R&lt;/a&gt;&lt;/p&gt;&amp;mdash; EgorBo (&amp;#64;EgorBo) &lt;a href="https://x.com/EgorBo/status/2085095187555217628?ref_src=twsrc%5Etfw"&gt;August 5, 2026&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;!-- https://x.com/mzikmunddev/status/2082798010631680226?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Element-level theming is now also included in &lt;a href="https://x.com/UnoPlatform?ref_src=twsrc%5Etfw"&gt;&amp;#64;UnoPlatform&lt;/a&gt; 6.6 🎉 &lt;a href="https://t.co/YaQr3gDRFQ"&gt;https://t.co/YaQr3gDRFQ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Martin Zikmund (&amp;#64;mzikmunddev) &lt;a href="https://x.com/mzikmunddev/status/2082798010631680226?ref_src=twsrc%5Etfw"&gt;July 30, 2026&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
