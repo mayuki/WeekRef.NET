@@ -7,9 +7,120 @@
 	</author>
 	<link rel="self" href="https://weekref.net/" />
 	<rights>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</rights>
-	<updated>2026-11-09T08:23:52Z</updated>
+	<updated>2026-11-18T08:59:03Z</updated>
 	<logo>https://weekref.net/img/logo.png</logo>
 	<subtitle>.NET 関連の情報をほぼ週刊配信</subtitle>
+	<entry>
+		<id>https://weekref.net/2026/11/18/updates</id>
+		<title>2026-11-18: .NET 11, .NET 10.0.15 &amp; 9.0.23 &amp; 8.0.34, Aspire 17, Staged Publishing on NuGet.org</title>
+		<author>
+			<name>Mayuki Sawatari</name>
+		</author>
+		<link href="https://weekref.net/2026/11/18/updates" />
+		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
+		<updated>2026-11-18T00:00:00Z</updated>
+		<content type="html">&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="announcing.net-11.net-blog"&gt;Announcing .NET 11 - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/"&gt;https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-and.net-framework-november-2026-servicing-updates.net-blog"&gt;.NET and .NET Framework November 2026 servicing updates - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-november-2026-servicing-updates/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-november-2026-servicing-updates/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-conf-2026-keynote.net-11-launch"&gt;.NET Conf 2026 Keynote - .NET 11 Launch&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=PWAVvWTzzHo"&gt;https://www.youtube.com/watch?v=PWAVvWTzzHo&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=Ehbngy2gk5I"&gt;Visual Studio Keynote at .NET Conf 2026&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="aspire-17-is-ready-for-primetime-aspire-blog"&gt;Aspire 17 is ready for primetime | Aspire Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/aspire/whats-new-aspire-17/"&gt;https://devblogs.microsoft.com/aspire/whats-new-aspire-17/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="introducing-staged-publishing-on-nuget.org.net-blog"&gt;Introducing staged publishing on NuGet.org - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/nuget-staged-publishing/"&gt;https://devblogs.microsoft.com/dotnet/nuget-staged-publishing/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="rider-2026.3.net-11-support-and-jetbrains-air-the-jetbrains-blog"&gt;Rider 2026.3: .NET 11 Support and JetBrains Air - The JetBrains Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2026/11/10/rider-2026-3-release/"&gt;https://blog.jetbrains.com/dotnet/2026/11/10/rider-2026-3-release/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="resharper-2026.3-claude-agent-and-codex-in-visual-studio.net-11-and-c-15-support-and-more-the-jetbrains-blog"&gt;ReSharper 2026.3: Claude Agent and Codex in Visual Studio, .NET 11 and C# 15 Support, and More - The JetBrains Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/dotnet/2026/11/10/resharper-2026-3-release/"&gt;https://blog.jetbrains.com/dotnet/2026/11/10/resharper-2026-3-release/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="powershell-7-is-coming-to-windows-powershell-team"&gt;PowerShell 7 is coming to Windows - PowerShell Team&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/powershell/powershell-7-coming-to-windows/"&gt;https://devblogs.microsoft.com/powershell/powershell-7-coming-to-windows/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://support.microsoft.com/ja-jp/servicing/os/windows/docs/2026/11/kb5137172-windows-powershell-5-1-deprecation"&gt;Windows PowerShell 5.1 の非推奨 | Microsoft Support&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="windows-app-development-cli-v0.8-winui-devtools-experimental-preview-ifdef-windows"&gt;Windows App Development CLI v0.8: WinUI DevTools Experimental Preview - #ifdef Windows&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/ifdef-windows/windows-app-development-cli-v0-8/"&gt;https://devblogs.microsoft.com/ifdef-windows/windows-app-development-cli-v0-8/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="announcing-visual-studio-2026-ltsc-18.11-visual-studio-blog"&gt;Announcing Visual Studio 2026 LTSC 18.11 - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/announcing-visual-studio-2026-ltsc-1811/"&gt;https://devblogs.microsoft.com/visualstudio/announcing-visual-studio-2026-ltsc-1811/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="cake-v7.0.0-released"&gt;Cake v7.0.0 released&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://cakebuildnet.medium.com/cake-v7-0-0-released-e24e2626dcb7"&gt;https://cakebuildnet.medium.com/cake-v7-0-0-released-e24e2626dcb7&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="uno-platform-7.0-2x-faster-5x-smaller-built-for-the-agentic-era"&gt;Uno Platform 7.0: 2x faster, 5x smaller, built for the agentic era&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://platform.uno/blog/uno-platform-7-0/"&gt;https://platform.uno/blog/uno-platform-7-0/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-1"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="runtime-async-benchmarks.net-10-vs.net-11-gerald-barre"&gt;Runtime async benchmarks: .NET 10 vs .NET 11 - Gérald Barré&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.meziantou.net/runtime-async-benchmarks-dotnet-10-vs-dotnet-11.htm"&gt;https://www.meziantou.net/runtime-async-benchmarks-dotnet-10-vs-dotnet-11.htm&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="c-typesafe-jev.net-sdk-0.2.0-alpha"&gt;画像の判定と物の位置をC#で受け取る — TypeSafe Jevの非公式.NET SDK 0.2.0-alpha&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/kkdev92/articles/jev-dotnet-v0-2"&gt;https://zenn.dev/kkdev92/articles/jev-dotnet-v0-2&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="c-15closed-record-jsonnative-aot"&gt;C# 15のclosed recordで判別共用体を書く ─ 網羅性チェックとJSON、Native AOT&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/jtechjapan_pub/articles/csharp15-closed-record-json"&gt;https://zenn.dev/jtechjapan_pub/articles/csharp15-closed-record-json&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="cclosed-recordrustswifttypescriptjavagounion"&gt;C#のclosed recordとRust・Swift・TypeScript・Java・Goのunion表現を比べる&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/jtechjapan_pub/articles/payment-union-six-languages"&gt;https://zenn.dev/jtechjapan_pub/articles/payment-union-six-languages&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="setwindowdisplayaffinity-windows-qiita"&gt;SetWindowDisplayAffinity で、Windows のアプリを画面共有・スクリーンショットに映さないようにする - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/Tom-Panasonic/items/48cbf81c2ac3b8610069"&gt;https://qiita.com/Tom-Panasonic/items/48cbf81c2ac3b8610069&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="microsoft.extensions.net"&gt;破壊的変更: Microsoft.Extensions の一部のパッケージが共有フレームワークに含まれる - .NET&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://learn.microsoft.com/ja-jp/dotnet/core/compatibility/extensions/11/extensions-in-shared-framework"&gt;https://learn.microsoft.com/ja-jp/dotnet/core/compatibility/extensions/11/extensions-in-shared-framework&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://qiita.com/hqf00342/items/7b7caf8bf21d65757656"&gt;.NET11に ILogger が内包された - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="bring-your-own-model-is-now-generally-available-in-visual-studio-visual-studio-blog"&gt;Bring Your Own Model is now generally available in Visual Studio - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/bring-your-own-model-is-now-generally-available-in-visual-studio/"&gt;https://devblogs.microsoft.com/visualstudio/bring-your-own-model-is-now-generally-available-in-visual-studio/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="c-15-union-ilspy-qiita"&gt;C# 15 の union 型を ILSpy で覗いてみた - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/jun1s/items/758db6cb12f1a83a8bf6"&gt;https://qiita.com/jun1s/items/758db6cb12f1a83a8bf6&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-11-runtime-async-cleaner-stack-traces-and-faster-async-paths"&gt;.NET 11 Runtime Async: Cleaner Stack Traces and Faster Async Paths&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://abp.io/community/articles/.net-11-runtime-async-cleaner-stack-traces-and-faster-async-paths-v3xq0q2p#gsc.tab=0"&gt;https://abp.io/community/articles/.net-11-runtime-async-cleaner-stack-traces-and-faster-async-paths-v3xq0q2p#gsc.tab=0&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="one-app-three-native-uis-what-i-learned-building-the-same-app-in-swiftui-winui-3-and-gtk-4"&gt;One app, three native UIs: what I learned building the same app in SwiftUI, WinUI 3 and GTK 4&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/vaache/one-app-three-native-uis-what-i-learned-building-the-same-app-in-swiftui-winui-3-and-gtk-4-la7"&gt;https://dev.to/vaache/one-app-three-native-uis-what-i-learned-building-the-same-app-in-swiftui-winui-3-and-gtk-4-la7&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="build-better-applications-with-bold-bi-a-visual-studio-subscriber-benefit-from-syncfusion-visual-studio-blog"&gt;Build better applications with Bold BI, a Visual Studio subscriber benefit from Syncfusion - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/build-better-applications-with-bold-bi-a-visual-studio-subscriber-benefit-from-syncfusion/"&gt;https://devblogs.microsoft.com/visualstudio/build-better-applications-with-bold-bi-a-visual-studio-subscriber-benefit-from-syncfusion/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="uacwinui-3dd-files-v4.3-qiita"&gt;UAC無効環境でWinUI 3のD&amp;amp;Dはどう動くか ― Files v4.3の改修と検証 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/shiva9ro/items/9a51edc2287c6390050e"&gt;https://qiita.com/shiva9ro/items/9a51edc2287c6390050e&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="null-7cf"&gt;nullに頼らずドメインの意味を型で表す ─ 7言語の履修モデルとC#・F#の比較&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/jtechjapan_pub/articles/decider-validation-csharp-fsharp"&gt;https://zenn.dev/jtechjapan_pub/articles/decider-validation-csharp-fsharp&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="cwasapi-named-pipe"&gt;【C#】WASAPI 排他モード中でもレベルメーターを動かしたい、を Named Pipe で解決してみた&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/kerobot/articles/8ef5e342bbdd71"&gt;https://zenn.dev/kerobot/articles/8ef5e342bbdd71&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-11linq-qiita"&gt;.NET 11でLINQに追加されたメソッド - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/RyotaMurohoshi/items/a62a81b8000578620aaa"&gt;https://qiita.com/RyotaMurohoshi/items/a62a81b8000578620aaa&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="how-allows-ref-struct-decompiles-in.net-delta1-labs"&gt;How allows ref struct decompiles in .NET — Delta1 Labs&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://delta1labs.com/blog/decompile-allows-ref-struct-anti-constraint/"&gt;https://delta1labs.com/blog/decompile-allows-ref-struct-anti-constraint/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="cmcpmarkdown-claude-code"&gt;C#でMCPサーバを作って、Markdownのメモを Claude Code から検索できるようにした&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/kent_code/articles/79e4f6903e00b5"&gt;https://zenn.dev/kent_code/articles/79e4f6903e00b5&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="net-11-asp.net-core-blazor"&gt;.NET 11 の ASP.NET Core Blazor の新機能のスケールイン対応機能！&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet11-scale"&gt;https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet11-scale&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="windows-1"&gt;Windows のネットワーク監視を自作する — 第1回：まずはポーリングで分かること・分からないこと&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/mojabes_sec/articles/68a417858b4f6a"&gt;https://zenn.dev/mojabes_sec/articles/68a417858b4f6a&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="packing-algorithms-in-c-from-boxes-to-restaurant-bookings-english"&gt;Packing Algorithms in C# From Boxes to Restaurant Bookings (English)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.mostlylucid.net/blog/packing-algorithms-in-csharp"&gt;https://www.mostlylucid.net/blog/packing-algorithms-in-csharp&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="clb-starter"&gt;CLB Starterを読む：ホストと共有コードの役割&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/dyone/articles/f7333df82d6dc5"&gt;https://zenn.dev/dyone/articles/f7333df82d6dc5&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="asp.net-core-11-breaking-changes-kestrel-otel-blazor-csharp-coder"&gt;ASP.NET Core 11 Breaking Changes: Kestrel, OTel, Blazor - CSharp-Coder&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.csharp-coder.com/2026/11/aspnet-core-11-breaking-changes.html"&gt;https://www.csharp-coder.com/2026/11/aspnet-core-11-breaking-changes.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="visual-studio-2026-release-notes"&gt;Visual Studio 2026 release notes&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.12.0"&gt;https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.12.0&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="copilot-in-visual-studio-just-got-a-major-upgrade-visual-studio-blog"&gt;Copilot in Visual Studio Just Got a Major Upgrade - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/copilot-in-visual-studio-just-got-a-major-upgrade/"&gt;https://devblogs.microsoft.com/visualstudio/copilot-in-visual-studio-just-got-a-major-upgrade/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="release-cswinrt-3.0.0-preview.261104.1-microsoftcswinrt"&gt;Release CsWinRT 3.0.0-preview.261104.1 · microsoft/CsWinRT&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/microsoft/CsWinRT/releases/tag/3.0.0-preview.261104.1"&gt;https://github.com/microsoft/CsWinRT/releases/tag/3.0.0-preview.261104.1&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="section-2"&gt;ツイート&lt;/h3&gt;
+&lt;!-- https://x.com/damianedwards/status/2120211251896963398?a=MzOxPGDEjJ2oYTWd4WQ&amp;s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;It&amp;#39;s that time again! Use &lt;a href="https://t.co/hN8S0MOpeg"&gt;https://t.co/hN8S0MOpeg&lt;/a&gt; to easily manage your non-VS .NET installations on Windows&lt;a href="https://x.com/hashtag/dotnet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#dotnet&lt;/a&gt; &lt;a href="https://t.co/fCAtZHvv5K"&gt;pic.twitter.com/fCAtZHvv5K&lt;/a&gt;&lt;/p&gt;&amp;mdash; Damian Edwards (&amp;#64;DamianEdwards) &lt;a href="https://x.com/DamianEdwards/status/2120211251896963398?ref_src=twsrc%5Etfw"&gt;November 10, 2026&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content>
+		<summary>.NET 関連の情報をほぼ週刊配信</summary>
+	</entry>
 	<entry>
 		<id>https://weekref.net/2026/11/09/updates</id>
 		<title>2026-11-09: Get Ready for .NET Conf 2026, XAML IntelliSense in VS Code</title>
@@ -1063,86 +1174,6 @@ Studio Code や各種言語/ランタイムなどがインストールされた�
 &lt;h2 id="section-4"&gt;サイト、ドキュメントなど&lt;/h2&gt;
 &lt;h3 id="avalonia-wpf"&gt;Avalonia実践入門 ― WPF経験者と初心者のためのデスクトップアプリ開発&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://zenn.dev/yoi/books/ea07ef3f61008a"&gt;https://zenn.dev/yoi/books/ea07ef3f61008a&lt;/a&gt;&lt;/p&gt;
-</content>
-		<summary>.NET 関連の情報をほぼ週刊配信</summary>
-	</entry>
-	<entry>
-		<id>https://weekref.net/2026/08/18/updates</id>
-		<title>2026-08-18: .NET 10.0.11 &amp; 9.0.19 &amp; 8.0.30, .NET 11 Preview 7, Windows App Development CLI v0.6.0, Fiddler in 2026</title>
-		<author>
-			<name>Mayuki Sawatari</name>
-		</author>
-		<link href="https://weekref.net/2026/08/18/updates" />
-		<link rel="enclosure" type="image" href="https://weekref.net/img/logo.png" />
-		<updated>2026-08-18T00:00:00Z</updated>
-		<content type="html">&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="net-and.net-framework-august-2026-servicing-releases-updates.net-blog"&gt;.NET and .NET Framework August 2026 servicing releases updates - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-august-2026-servicing-updates/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-august-2026-servicing-updates/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net-11-preview-7-is-now-available.net-blog"&gt;.NET 11 Preview 7 is now available! - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-11-preview-7/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-11-preview-7/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="announcing-windows-app-development-cli-v0.6.0"&gt;Announcing Windows App Development CLI v0.6.0&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/ifdef-windows/windows-app-development-cli-v0-6-create-new-winui-applications-sign-packages-with-azure-and-more/"&gt;https://devblogs.microsoft.com/ifdef-windows/windows-app-development-cli-v0-6-create-new-winui-applications-sign-packages-with-azure-and-more/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="fiddler-in-2026"&gt;Fiddler in 2026&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://textslashplain.com/2026/08/05/fiddler-in-2026/"&gt;https://textslashplain.com/2026/08/05/fiddler-in-2026/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="section-1"&gt;リリース&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/mysql-net/MySqlConnector"&gt;mysql-net/MySqlConnector&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/mysql-net/MySqlConnector/releases/tag/2.6.2"&gt;2.6.2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="section-2"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="net-11-performance-edition"&gt;.NET 11 Performance Edition&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://steven-giesel.com/blogPost/86620358-bb91-4295-84fc-a1329b2567ae"&gt;https://steven-giesel.com/blogPost/86620358-bb91-4295-84fc-a1329b2567ae&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net-11-runtime-async-qiita"&gt;.NET 11 Runtime Async はなぜ速いのか - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/hez2010/items/2aff0b2b40b9d0bfda91"&gt;https://qiita.com/hez2010/items/2aff0b2b40b9d0bfda91&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="netcomponentinitializecomponent-qiita"&gt;【.NET】ComponentインスタンスからInitializeComponentのコードを生成する - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/udoP_/items/47e50cb2e1ea34cbb5aa"&gt;https://qiita.com/udoP_/items/47e50cb2e1ea34cbb5aa&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="today-i-will.manage-git-submodules-without-leaving-the-ide-visual-studio-blog"&gt;Today I will... manage Git Submodules without leaving the IDE - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/managing-git-submodules-without-leaving-the-ide/"&gt;https://devblogs.microsoft.com/visualstudio/managing-git-submodules-without-leaving-the-ide/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="snippingtool"&gt;SnippingToolに機能を足して自作してみた【タスクトレイ常駐アプリとしてのアーキテクチャ】&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/da39nbv3/articles/4f477a7117d627"&gt;https://zenn.dev/da39nbv3/articles/4f477a7117d627&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="aspire-aspire-deploy-react-vite-asp.net-core-aca"&gt;[Aspire] aspire deploy で React (Vite) + ASP.NET Core を ACAにデプロイする&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/akkodis_jp/articles/5a65c6d1af20bc"&gt;https://zenn.dev/akkodis_jp/articles/5a65c6d1af20bc&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net-11-preview-7decimal"&gt;【.NET 11 Preview 7】浮動小数点数とdecimalの変換処理が変わったことによる影響&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/prozolic/articles/2d09743e2f46ab"&gt;https://zenn.dev/prozolic/articles/2d09743e2f46ab&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="claude-fable-5-fastenum-4-switch"&gt;Claude Fable 5 が教えてくれた FastEnum の高速化テクニック (4) - 文字列に対する switch 文での比較&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/xin9le/articles/a537775e87b814"&gt;https://zenn.dev/xin9le/articles/a537775e87b814&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="cunionwith-linq-union-qiita"&gt;【C#】UnionWith ってなんだっけ？ LINQ の Union との違いを整理した - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/nakamuuu_ow/items/f35c7aee6620dfdd7793"&gt;https://qiita.com/nakamuuu_ow/items/f35c7aee6620dfdd7793&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="hot-reloadwinformswpfmauiblazor"&gt;Hot Reloadの「適用成功」と「画面が変わる」は別物。WinForms/WPF/MAUI/Blazorで比較&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/nexta_/articles/73b8624319eb1b"&gt;https://zenn.dev/nexta_/articles/73b8624319eb1b&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="instructions-hygiene-what-frontier-models-still-need-you-to-say.net-blog"&gt;Instructions Hygiene - What Frontier Models Still Need You to Say - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/instructions-hygiene-what-frontier-models-still-need-you-to-say/"&gt;https://devblogs.microsoft.com/dotnet/instructions-hygiene-what-frontier-models-still-need-you-to-say/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="net-11-qiita"&gt;.NET 11 でジェネリック仮想メソッドを高速化してみた - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/hez2010/items/85c1fa4100e5898d1a55"&gt;https://qiita.com/hez2010/items/85c1fa4100e5898d1a55&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="rx.net-7.0-reduces-deployment-size-by-splitting-windows-ui-support"&gt;Rx.NET 7.0 Reduces Deployment Size by Splitting Windows UI Support&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.infoq.com/news/2026/08/rx-net-7/"&gt;https://www.infoq.com/news/2026/08/rx-net-7/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="nbomber-6.6.0-nbomber"&gt;NBomber 6.6.0 | NBomber&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://nbomber.com/blog/2026/08/17/nbomber-6.6.0/"&gt;https://nbomber.com/blog/2026/08/17/nbomber-6.6.0/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="routing-and-failover-for-microsoft.extensions.ai.net-blog"&gt;Routing and Failover for Microsoft.Extensions.AI - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/routing-and-failover-for-microsoft-extensions-ai/"&gt;https://devblogs.microsoft.com/dotnet/routing-and-failover-for-microsoft-extensions-ai/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="cedec2026-shadowverse-worlds-beyond"&gt;【CEDEC2026】次世代デジタルカードゲームのサーバー設計と運用 〜『Shadowverse: Worlds Beyond』の舞台裏～&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://speakerdeck.com/cygames/cygames_202607_cedec2026_06"&gt;https://speakerdeck.com/cygames/cygames_202607_cedec2026_06&lt;/a&gt;&lt;/p&gt;
-&lt;script defer class="speakerdeck-embed" data-id="6cb166f658d341449ec31011e204d44d" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
-&lt;h3 id="section-3"&gt;ツイート&lt;/h3&gt;
-&lt;!-- https://x.com/awakecoding/status/2087281051324588198?s=12 --&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Do you want to analyze process dumps just by asking an AI agent instead of manually going through the WinDBG GUI? I&amp;#39;ve got you covered! 👇&lt;br&gt;&lt;br&gt;dotnet tool install -g Devolutions.WinDbg.Tool&lt;br&gt;&lt;br&gt;It&amp;#39;s written in Rust, calling into the real WinDBG engine!&lt;br&gt;&lt;br&gt;See full readme at…&lt;/p&gt;&amp;mdash; Marc-André Moreau (&amp;#64;awakecoding) &lt;a href="https://x.com/awakecoding/status/2087281051324588198?ref_src=twsrc%5Etfw"&gt;August 11, 2026&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;h2 id="deep-dive"&gt;Deep Dive&lt;/h2&gt;
-&lt;h3 id="add-c-15-language-version-by-333fred-pull-request-84799-dotnetroslyn"&gt;Add C# 15 language version by 333fred · Pull Request #84799 · dotnet/roslyn&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/dotnet/roslyn/pull/84799"&gt;https://github.com/dotnet/roslyn/pull/84799&lt;/a&gt;&lt;/p&gt;
 </content>
 		<summary>.NET 関連の情報をほぼ週刊配信</summary>
 	</entry>
