@@ -6,8 +6,80 @@
 		<description>.NET 関連の情報をほぼ週刊配信</description>
 		<copyright>Copyright © Mayuki Sawatari &lt;mayuki@misuzilla.org&gt;</copyright>
 		<managingEditor>Mayuki Sawatari</managingEditor>
-		<pubDate>Wed, 18 Nov 2026 08:59:03 GMT</pubDate>
-		<lastBuildDate>Wed, 18 Nov 2026 08:59:03 GMT</lastBuildDate>
+		<pubDate>Fri, 27 Nov 2026 08:38:33 GMT</pubDate>
+		<lastBuildDate>Fri, 27 Nov 2026 08:38:33 GMT</lastBuildDate>
+		<item>
+			<title>2026-11-27: Npgsql 11.0, DocumentExtractionClient, Visual Studio November Update</title>
+			<link>https://weekref.net/2026/11/27/updates</link>
+			<description>.NET 関連の情報をほぼ週刊配信</description>
+			<author>Mayuki Sawatari</author>
+			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
+			<guid>https://weekref.net/2026/11/27/updates</guid>
+			<pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!--
+# yyyy-MM-dd
+## 主なトピックス
+## ヘッドライン
+## アーティクル、スライドなど
+## ライブラリ、リポジトリ、ツールなど
+## サイト、ドキュメントなど
+### ツイート
+## Deep Dive
+--&gt;
+&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
+&lt;h3 id="npgsql-11.0-release-notes-npgsql-documentation"&gt;Npgsql 11.0 Release Notes | Npgsql Documentation&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.npgsql.org/doc/release-notes/11.0.html"&gt;https://www.npgsql.org/doc/release-notes/11.0.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="introducing-documentextractionclient-preview-extract-documents-in.net.net-blog"&gt;Introducing DocumentExtractionClient (preview): Extract documents in .NET - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/document-extraction-dotnet-preview/"&gt;https://devblogs.microsoft.com/dotnet/document-extraction-dotnet-preview/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="visual-studio-november-update-faster-workflows-better-reviews-visual-studio-blog"&gt;Visual Studio November Update – Faster Workflows, Better Reviews - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-november-update-faster-workflows-better-reviews/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-november-update-faster-workflows-better-reviews/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="java4shell-vulnerability-update-your-jetbrains-ides-resharper.net-tools-toolbox-app-and-gateway-now-the-jetbrains-blog"&gt;Java4Shell Vulnerability: Update Your JetBrains IDEs, ReSharper, .NET Tools, Toolbox App, and Gateway Now - The JetBrains Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.jetbrains.com/security/2026/11/java4shell-vulnerability/"&gt;https://blog.jetbrains.com/security/2026/11/java4shell-vulnerability/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="microsoft-distinguished-eng-why-and-how-to-port-your-entire-codebase-to-rust-stephen-toub"&gt;Microsoft Distinguished Eng: Why And How To Port Your Entire Codebase to Rust | Stephen Toub&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.developing.dev/p/e073-stephen-toub"&gt;https://www.developing.dev/p/e073-stephen-toub&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="section-1"&gt;リリース&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/npgsql/npgsql"&gt;npgsql/npgsql&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/npgsql/npgsql/releases/tag/v11.0.0"&gt;v11.0.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section-2"&gt;アーティクル、スライドなど&lt;/h2&gt;
+&lt;h3 id="high-performance-data-structures-design-optimizing-for-the-gc"&gt;High performance data structures design &amp;amp; optimizing for the GC&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://ayende.com/blog/204260-a/high-performance-data-structures-design-optimizing-for-the-gc/"&gt;https://ayende.com/blog/204260-a/high-performance-data-structures-design-optimizing-for-the-gc/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="which-image-is-windows-actually-showing-from-your-ico"&gt;Which Image Is Windows Actually Showing from Your ICO?&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dev.to/axialisteam/which-image-is-windows-actually-showing-from-your-ico-ca0"&gt;https://dev.to/axialisteam/which-image-is-windows-actually-showing-from-your-ico-ca0&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="live-technical-training-wherever-you-are-a-vslive-benefit-for-visual-studio-subscribers-visual-studio-blog"&gt;Live technical training, wherever you are: A VSLive! benefit for Visual Studio Subscribers - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/live-technical-training-wherever-you-are-a-vslive-benefit-for-visual-studio-subscribers/"&gt;https://devblogs.microsoft.com/visualstudio/live-technical-training-wherever-you-are-a-vslive-benefit-for-visual-studio-subscribers/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="ai-is-changing-the-cross-platform-decision-matrix.net-blog"&gt;AI is Changing the Cross-Platform Decision Matrix - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/ai-cross-platform-decision-matrix/"&gt;https://devblogs.microsoft.com/dotnet/ai-cross-platform-decision-matrix/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="windows-ddcci-hdr-sdr"&gt;モニターの明るさを時刻で変える Windows アプリを作った（DDC/CI と HDR の SDR 明るさ）&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/walt_owen/articles/4b5cab6cb4d673"&gt;https://zenn.dev/walt_owen/articles/4b5cab6cb4d673&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="classic-asp-asp.net-core"&gt;設計書のないClassic ASP アプリを ASP.NET Core にマイグレーションしたときにやったこと&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zenn.dev/pomio/articles/classic-asp-migration-no-design-docs"&gt;https://zenn.dev/pomio/articles/classic-asp-migration-no-design-docs&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="invariant-culture-string-interpolation-with-interpolatedstringhandler"&gt;Invariant culture string interpolation with [InterpolatedStringHandler]&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andrewlock.net/invariant-culture-string-interpolation-with-interpolatedstringhandler/"&gt;https://andrewlock.net/invariant-culture-string-interpolation-with-interpolatedstringhandler/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="winformsmsixstore-qiita"&gt;WinFormsアプリのMSIX配布で確認したいStore提出の準備 - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/Ryuhi365/items/9b8acdf225b22c8b1a47"&gt;https://qiita.com/Ryuhi365/items/9b8acdf225b22c8b1a47&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="run-local-models-in-your.net-apps-with-llama-on-windows.net-blog"&gt;Run local models in your .NET apps with Llama on Windows - .NET Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/local-models-dotnet-llama-windows/"&gt;https://devblogs.microsoft.com/dotnet/local-models-dotnet-llama-windows/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="beyond-the-prompt-discovering-trusted-technical-perspectives-with-your-visual-studio-subscription-visual-studio-blog"&gt;Beyond the prompt: Discovering trusted technical perspectives with your Visual Studio subscription - Visual Studio Blog&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/beyond-the-prompt-discovering-trusted-technical-perspectives-with-your-visual-studio-subscription/"&gt;https://devblogs.microsoft.com/visualstudio/beyond-the-prompt-discovering-trusted-technical-perspectives-with-your-visual-studio-subscription/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="c-dynamicmethodjit-qiita"&gt;C#で小さな言語処理系を作る — 字句解析からDynamicMethodでJITに乗せるまで - Qiita&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/Sakecha/items/a99d86c874eccb5948d3"&gt;https://qiita.com/Sakecha/items/a99d86c874eccb5948d3&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="unity-7coreclr"&gt;Unity 7が来る前に：CoreCLR 移行の仕組みと実践 | ドクセル&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.docswell.com/s/UnityJapan/5Q2WJW-2026-11-18-141452#p6"&gt;https://www.docswell.com/s/UnityJapan/5Q2WJW-2026-11-18-141452#p6&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="section-3"&gt;ツイート&lt;/h3&gt;
+&lt;!-- https://x.com/robertmclaws/status/2125703139257118810?a=dI1L5uhwlRQOfgqdnqE&amp;s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;I&amp;#39;ve been waiting for this library for years. &lt;br&gt;&lt;br&gt;Then I found out someone built a whole API proposal for it, and Microsoft said no.&lt;br&gt;&lt;br&gt;So I built it.&lt;br&gt;&lt;br&gt;It&amp;#39;s the most impactful thing I&amp;#39;ve built since I ported System.Threading.Tasks to Xbox &amp;amp; Windows Phone. &lt;a href="https://t.co/1YxV8YyUyL"&gt;https://t.co/1YxV8YyUyL&lt;/a&gt;&lt;/p&gt;&amp;mdash; Robert McLaws (&amp;#64;robertmclaws) &lt;a href="https://x.com/robertmclaws/status/2125703139257118810?ref_src=twsrc%5Etfw"&gt;November 25, 2026&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;!-- https://x.com/sebastienros/status/2125448194125688852?a=kl64ENIMYG-n_r8Ox4w&amp;s=12 --&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;I published a new library, Styml, aka System.Text.Yaml. It has all the good performance and features of System.Text.Json, but for YAML. And the website includes a playground so you can parse YAML to validate it, right in your browser.&lt;a href="https://t.co/fKHNUySjEt"&gt;https://t.co/fKHNUySjEt&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sébastien Ros (&amp;#64;sebastienros) &lt;a href="https://x.com/sebastienros/status/2125448194125688852?ref_src=twsrc%5Etfw"&gt;November 25, 2026&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>2026-11-18: .NET 11, .NET 10.0.15 &amp; 9.0.23 &amp; 8.0.34, Aspire 17, Staged Publishing on NuGet.org</title>
 			<link>https://weekref.net/2026/11/18/updates</link>
@@ -1036,132 +1108,6 @@ Studio Code や各種言語/ランタイムなどがインストールされた�
 &lt;h3 id="introducing-shapeshift-declare-your-data-once-serialize-it-anywhere-jmpinline"&gt;Introducing ShapeShift: declare your data once, serialize it anywhere ? JMPInline&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://blog.nerdbank.net/2026/09/01/introducing-shapeshift-declare-your-data-once-serialize-it-anywhere/"&gt;https://blog.nerdbank.net/2026/09/01/introducing-shapeshift-declare-your-data-once-serialize-it-anywhere/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Rust の Serde のように定義を一度行うことで、複数のシリアライズ形式に対応できる仕組み ShapeShift を実装してみたという話。&lt;/p&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>2026-08-26: .NET Conf 2026, xUnit v3 4.0.0, Aspire 13.5</title>
-			<link>https://weekref.net/2026/08/26/updates</link>
-			<description>.NET 関連の情報をほぼ週刊配信</description>
-			<author>Mayuki Sawatari</author>
-			<enclosure url="https://weekref.net/img/logo.png" length="0" type="image" />
-			<guid>https://weekref.net/2026/08/26/updates</guid>
-			<pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!--
-# yyyy-MM-dd
-## 主なトピックス
-## ヘッドライン
-## アーティクル、スライドなど
-## ライブラリ、リポジトリ、ツールなど
-## サイト、ドキュメントなど
-### ツイート
-## Deep Dive
---&gt;
-&lt;h2 id="section"&gt;トピックス&lt;/h2&gt;
-&lt;h3 id="net-conf-2026.net-blog"&gt;.NET Conf 2026 - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/dotnet-conf-2026/"&gt;https://devblogs.microsoft.com/dotnet/dotnet-conf-2026/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2026年11月10日から12日までオンラインで開催される .NET Conf 2026 の告知。&lt;/p&gt;
-&lt;p&gt;この .NET Conf 2026 では .NET 11 の正式リリースが行われる予定で、詳細は今後公開予定とのこと。&lt;/p&gt;
-&lt;h3 id="core-framework-v3-4.0.0-xunit.net"&gt;Core Framework v3 4.0.0 | xUnit.net&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://xunit.net/releases/v3/4.0.0"&gt;https://xunit.net/releases/v3/4.0.0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;xUnit v3 の 4.0.0 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースは13か月ぶりのメジャーリリースとなり、NativeAOT や完全なテストケース並列化がサポートされているほか、テストクラスやメソッドの実行順、アサーションの追加、ネイティブ実行ツールなども追加されている。&lt;/p&gt;
-&lt;p&gt;また 4.0 以降では Microsoft Testing Platform v1 のサポートと Mono の公式サポートが終了となっている。&lt;/p&gt;
-&lt;h3 id="aspire-13.5-fresh-pixels-and-better-workflows"&gt;Aspire 13.5: Fresh pixels and better workflows&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/aspire/whats-new-aspire-13-5/"&gt;https://devblogs.microsoft.com/aspire/whats-new-aspire-13-5/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Aspire 13.5 がリリースされた。&lt;/p&gt;
-&lt;p&gt;このリリースではウェブサイトとダッシュボードのデザインのリフレッシュと改善、インタラクションサービスによる入力サポート、ダッシュボードでのターミナル、Kubernetes ワークロードの永続的データ保存と既存の Azure リソースの取り扱いのサポート、Homebrew や WinGet での Aspire CLI のインストールといった改善が含まれている。&lt;/p&gt;
-&lt;h3 id="net-foundation-statement-on-open-source-maintenance-fees"&gt;.NET Foundation Statement on Open Source Maintenance Fees&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dotnetfoundation.org/news-events/detail/.net-foundation-statement-on-open-source-maintenance-fees"&gt;https://dotnetfoundation.org/news-events/detail/.net-foundation-statement-on-open-source-maintenance-fees&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET Foundation による Open Source Maintenance Fee (OSMF) に関する声明。&lt;/p&gt;
-&lt;p&gt;原則として .NET Foundation は OSMF やそれに類似するモデルを支持も反対もしないことや、利用者向けのガイダンスとしてパッケージマネージャーからの利用時にソースコードリポジトリーのライセンスが常に適用されると仮定せず適切に確認することといったことが述べられている。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://thepollyproject.org/2026/07/14/polly-osmf-announcement.html"&gt;Introducing the Open Source Maintenance Fee for Polly | The Polly Project&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="explore-new-features-available-in-c-15-preview.net-blog"&gt;Explore new features available in C# 15 preview - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/explore-csharp-15/"&gt;https://devblogs.microsoft.com/dotnet/explore-csharp-15/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;C# 15 Preview での新しい機能の紹介。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Union 型&lt;/li&gt;
-&lt;li&gt;クローズドな階層型 (closed hierarchy)&lt;/li&gt;
-&lt;li&gt;再デザインされたメモリー安全 (プレビュー)&lt;/li&gt;
-&lt;li&gt;コレクション式引数&lt;/li&gt;
-&lt;li&gt;拡張インデクサー&lt;/li&gt;
-&lt;li&gt;ラベル付き break と continue&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="section-1"&gt;リリース&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/CommunityToolkit/Aspire"&gt;CommunityToolkit/Aspire&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/CommunityToolkit/Aspire/releases/tag/v13.5.0"&gt;v13.5.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/microsoft/aspire"&gt;microsoft/aspire&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/microsoft/aspire/releases/tag/v13.5.2"&gt;v13.5.2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="section-2"&gt;アーティクル、スライドなど&lt;/h2&gt;
-&lt;h3 id="compile-time-serializers-for-native-aot-and-trimming"&gt;Compile-time serializers, for native AOT and trimming&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://docs.protobuf-net.dev/aot"&gt;https://docs.protobuf-net.dev/aot&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Protobuf-net の Native AOT およびトリミングに対応するためのコンパイル時シリアライザー (プレビュー機能) についてのドキュメント。&lt;/p&gt;
-&lt;h3 id="microsoft.identity.web-api"&gt;Microsoft.Identity.Web のダウンストリーム API を使ってみる&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/karamem0/articles/2026_08_25_130000"&gt;https://zenn.dev/karamem0/articles/2026_08_25_130000&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Microsoft.Identity.Web のダウンストリーム API を使用して、Entra ID で認証し、Microsoft Graph API を呼び出す方法について。&lt;/p&gt;
-&lt;h3 id="finding-the-total-number-of-processors-on-a-machine-with.net"&gt;Finding the total number of processors on a machine with .NET&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://andrewlock.net/finding-the-total-number-of-processors-on-a-machine-with-dotnet/"&gt;https://andrewlock.net/finding-the-total-number-of-processors-on-a-machine-with-dotnet/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET で実行中のマシンのプロセッサー数を取得する方法について。記事では &lt;code&gt;Environment.ProcessorCount&lt;/code&gt; プロパティーではなぜ問題なのか、代替となる方法としてどのような実装をすればよいかについて解説している。&lt;/p&gt;
-&lt;h3 id="visual-studio-august-update-work-smarter-across-models-and-branches-visual-studio-blog"&gt;Visual Studio August Update — Work Smarter Across Models and Branches - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/visual-studio-august-update-work-smarter-across-models-and-branches/"&gt;https://devblogs.microsoft.com/visualstudio/visual-studio-august-update-work-smarter-across-models-and-branches/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio の2026年8月のアップデートについて。&lt;/p&gt;
-&lt;p&gt;モデルのリーズニングエフォートの設定、組織レベルのカスタムエージェント、Copilot の使用状況の確認、Git Worktree のサポートと submodule のサポートといったものが紹介されている。&lt;/p&gt;
-&lt;h3 id="net-10-bufferedstream-writebyte-flush-full-buffers-explicitly"&gt;.NET 10 BufferedStream WriteByte: Flush Full Buffers Explicitly&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://dev.to/ssukhpinder/net-10-bufferedstream-writebyte-flush-full-buffers-explicitly-45a2"&gt;https://dev.to/ssukhpinder/net-10-bufferedstream-writebyte-flush-full-buffers-explicitly-45a2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET 10 の BufferedStream.WriteByte メソッドの挙動が変更され、フラッシュする挙動が変わったことについて。&lt;/p&gt;
-&lt;h3 id="wpfmauidependencyproperty1-qiita"&gt;【WPF/MAUI】DependencyPropertyを1行で生成！ゼロアロケーションな爆速ジェネレーターを作った - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/kassyi/items/f00234fe35f48ef70ac4"&gt;https://qiita.com/kassyi/items/f00234fe35f48ef70ac4&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;属性を付与することで DependencyProperty を生成できる Source Generator を作成したことについて。&lt;/p&gt;
-&lt;h3 id="appxmanifest-intellisense-for-windows-development-ifdef-windows"&gt;AppxManifest IntelliSense for Windows Development - #ifdef Windows&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/ifdef-windows/appxmanifest-intellisense-support-in-vs-code/"&gt;https://devblogs.microsoft.com/ifdef-windows/appxmanifest-intellisense-support-in-vs-code/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio Code で AppxManifest の IntelliSense をサポートするようになったことについて。&lt;/p&gt;
-&lt;h3 id="cienumerableout-qiita"&gt;【C#】いい加減説明できるようにしたい共変性・反変性〜IEnumerableのout〜 - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/simoyama2323/items/af1e86d5a35b8df36a49"&gt;https://qiita.com/simoyama2323/items/af1e86d5a35b8df36a49&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ジェネリクスの共変性と反変性についてのまとめ。&lt;/p&gt;
-&lt;h3 id="mcpc-sdkv2-qiita"&gt;MCPの仕様とC# SDKがv2でどう変わったのか整理してみる - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/pmc-ko/items/4cff5997f1e29cf1ba0f"&gt;https://qiita.com/pmc-ko/items/4cff5997f1e29cf1ba0f&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;直近リリースされた MCP 向けの C# SDK v2 の変更点についてのまとめ。SDK の変更だけでなく MCP 側の仕様変更についても触れている。&lt;/p&gt;
-&lt;h3 id="c-benchmarkdotnet-qiita"&gt;【C#】例外の生成って本当に遅いの？ BenchmarkDotNetで実測してみた - Qiita&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://qiita.com/KM_20005/items/567b7d774d220a140e71"&gt;https://qiita.com/KM_20005/items/567b7d774d220a140e71&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;遅いといわれがちな例外について BenchmarkDotNet を使用して確認しながら比較した結果について。&lt;/p&gt;
-&lt;h3 id="wasapi-wpf"&gt;WASAPI 排他モードでビットパーフェクト再生する音楽プレーヤーを WPF で作ってみた&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/kerobot/articles/90190d8d203740"&gt;https://zenn.dev/kerobot/articles/90190d8d203740&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;WPF でビットパーフェクトな音楽プレイヤーを実装する上での技術的な解説。&lt;/p&gt;
-&lt;h3 id="unlocking-the-power-of-ai-for-every-developer-in-visual-studio-with-bring-your-own-model-visual-studio-blog"&gt;Unlocking the Power of AI for Every Developer in Visual Studio with Bring your Own Model - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/unlocking-the-power-of-ai-for-every-developer-in-visual-studio-with-bring-your-own-model/"&gt;https://devblogs.microsoft.com/visualstudio/unlocking-the-power-of-ai-for-every-developer-in-visual-studio-with-bring-your-own-model/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio Insider でプレビュー導入されている Bring Your Own Model (BYOM) についての紹介。&lt;/p&gt;
-&lt;h3 id="from-dotnet-run-to-foundry-hosted-agent-in-3-lines-of-c.net-blog"&gt;From dotnet run to Foundry Hosted Agent in 3 lines of C# - .NET Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/dotnet/from-dotnet-run-to-foundry-hosted-agent-in-3-lines-of-csharp/"&gt;https://devblogs.microsoft.com/dotnet/from-dotnet-run-to-foundry-hosted-agent-in-3-lines-of-csharp/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Microsoft.Agents.AI.Foundry.Hosting を使用して、Microsoft Agent Framework を使用したエージェントをホストする方法について。&lt;/p&gt;
-&lt;h3 id="ai"&gt;AIの「中の人」になってみる&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/poipoionigiri/articles/7aba96291e6cf6"&gt;https://zenn.dev/poipoionigiri/articles/7aba96291e6cf6&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;人間が OpenAI 互換プロバイダーを担う仕組みを作り、GitHub Copilot の BYOM に設定して裏側を体験してみた話。&lt;/p&gt;
-&lt;h3 id="oss"&gt;技術だけでどこまで作れるのか - OSSライブラリから考察するソフトウェア開発の境界&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/radian_jp/articles/519f751b3c85ee"&gt;https://zenn.dev/radian_jp/articles/519f751b3c85ee&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;注目している C# の OSS として OwnAudioSharp と ProGPU をあげ、それらに惹かれた理由やそれらが何を解決しているのかといったことについて。&lt;/p&gt;
-&lt;h3 id="today-i-will.modernize-a.net-application-visual-studio-blog"&gt;Today I will... Modernize a .NET application - Visual Studio Blog&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/visualstudio/today-i-will-modernize-a-net-application/"&gt;https://devblogs.microsoft.com/visualstudio/today-i-will-modernize-a-net-application/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visual Studio に組み込まれた GitHub Copilot のモダナイゼーションツールを使用して、.NET Framework アプリケーションを .NET 10 に移行する例と手順の紹介。&lt;/p&gt;
-&lt;h2 id="section-3"&gt;ライブラリ、リポジトリ、ツールなど&lt;/h2&gt;
-&lt;h3 id="slidictwip-wip-is-a-native-standalone-cli-for-wsl-containers-wslc-providing-native-like-interaction-with-containerized-applications"&gt;slidict/wip: Wip is a native, standalone CLI for WSL Containers (WSLC), providing native-like interaction with containerized applications.&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/slidict/wip"&gt;https://github.com/slidict/wip&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;dip のような体験を WSL Containers 上で提供する CLI ツール。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zenn.dev/yubel/articles/287757ad389891#windows%E3%81%AE%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E3%82%82%E7%B5%90%E6%A7%8B%E9%9D%A2%E7%99%BD%E3%81%84"&gt;[OSS] WSL ContainersでDocker Compose / dipっぽい開発体験を作るCLI「wip」を作った&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="section-4"&gt;サイト、ドキュメントなど&lt;/h2&gt;
-&lt;h3 id="avalonia-wpf"&gt;Avalonia実践入門 ― WPF経験者と初心者のためのデスクトップアプリ開発&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://zenn.dev/yoi/books/ea07ef3f61008a"&gt;https://zenn.dev/yoi/books/ea07ef3f61008a&lt;/a&gt;&lt;/p&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
